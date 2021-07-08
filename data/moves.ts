@@ -748,14 +748,14 @@ export const Moves: {[moveid: string]: MoveData} = {
 	aurorabeam: {
 		num: 62,
 		accuracy: 100,
-		basePower: 65,
+		basePower: 70,
 		category: "Special",
 		name: "Aurora Beam",
-		pp: 20,
+		pp: 15,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
-			chance: 10,
+			chance: 100,
 			boosts: {
 				atk: -1,
 			},
@@ -1831,6 +1831,22 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Steel",
 		contestType: "Tough",
+	},
+	bulletsting: {
+		num: 827,
+		accuracy: 100,
+		basePower: 70,
+		category: "Physical",
+		name: "Bullet Sting",
+		pp: 20,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Fairy') return 1;
+		},
+		target: "normal",
+		type: "Bug",
+		contestType: "Cool",
 	},
 	bulletseed: {
 		num: 331,

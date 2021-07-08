@@ -641,6 +641,14 @@ export const Conditions: {[k: string]: ConditionData} = {
 			}
 			return 5;
 		},
+		// This should be applied directly to the stat before any of the other modifiers are chained
+		// So we give it increased priority.
+		onModifyDefPriority: 10,
+		onModifyDef(def, pokemon) {
+			if (pokemon.hasType('Ice') && this.field.isWeather('hail')) {
+				return this.modify(def, 1.5);
+			}
+		},
 		onFieldStart(field, source, effect) {
 			if (effect?.effectType === 'Ability') {
 				if (this.gen <= 5) this.effectState.duration = 0;

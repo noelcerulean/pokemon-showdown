@@ -1594,8 +1594,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 246,
 	},
 	illuminate: {
+		onSourceModifyAccuracyPriority: -1,
+		onSourceModifyAccuracy(accuracy) {
+			if (typeof accuracy !== 'number') return;
+			this.debug('illuminate - enhancing accuracy');
+			return this.chainModify([5325, 4096]);
+		},
 		name: "Illuminate",
-		rating: 0,
+		rating: 3,
 		num: 35,
 	},
 	illusion: {
@@ -3080,8 +3086,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 24,
 	},
 	runaway: {
+		onTrapPokemonPriority: -10,
+		onTrapPokemon(pokemon) {
+			pokemon.trapped = pokemon.maybeTrapped = false;
+		},
 		name: "Run Away",
-		rating: 0,
+		rating: 3,
 		num: 50,
 	},
 	sandforce: {

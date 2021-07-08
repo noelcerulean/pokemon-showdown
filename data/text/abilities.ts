@@ -572,7 +572,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	illuminate: {
 		name: "Illuminate",
-		shortDesc: "No competitive use.",
+		shortDesc: "This Pokemon's moves have their accuracy multiplied by 1.3.",
 	},
 	illusion: {
 		name: "Illusion",

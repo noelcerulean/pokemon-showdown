@@ -1565,6 +1565,27 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 538,
 		gen: 5,
 	},
+	eviomight: {
+		name: "Eviomight",
+		spritenum: 130,
+		fling: {
+			basePower: 40,
+		},
+		onModifyAtkPriority: 2,
+		onModifyAtk(atk, pokemon) {
+			if (pokemon.baseSpecies.nfe) {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 2,
+		onModifySpA(spa, pokemon) {
+			if (pokemon.baseSpecies.nfe) {
+				return this.chainModify(1.5);
+			}
+		},
+		num: 1608,
+		gen: 5,
+	},
 	expertbelt: {
 		name: "Expert Belt",
 		spritenum: 132,
