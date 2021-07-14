@@ -1183,7 +1183,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	runaway: {
 		name: "Run Away",
-		shortDesc: "No competitive use.",
+		desc: "This Pokemon can switch out even if it is trapped by opposing moves or abilities, or affected by Ingrain.",
+		shortDesc: "This Pokemon can switch even if it is trapped or ingrained.",
 	},
 	sandforce: {
 		name: "Sand Force",

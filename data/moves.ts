@@ -748,14 +748,14 @@ export const Moves: {[moveid: string]: MoveData} = {
 	aurorabeam: {
 		num: 62,
 		accuracy: 100,
-		basePower: 70,
+		basePower: 65,
 		category: "Special",
 		name: "Aurora Beam",
-		pp: 15,
+		pp: 20,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
-			chance: 100,
+			chance: 10,
 			boosts: {
 				atk: -1,
 			},
@@ -5388,6 +5388,20 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fairy",
 		zMove: {boost: {def: 1}},
 		contestType: "Beautiful",
+	},
+	flutterstrike: {
+		num: 828,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Flutter Strike",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, distance: 1},
+		secondary: null,
+		target: "any",
+		type: "Flying",
+		contestType: "Cute",
 	},
 	fly: {
 		num: 19,

@@ -1948,6 +1948,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Raises the Defense of all active Grass-type Pokemon by 1 stage. Fails if there are no active Grass-type Pokemon.",
 		shortDesc: "Raises Defense by 1 of all active Grass types.",
 	},
+	flutterstrike: {
+		name: "Flutter Strike",
+		shortDesc: "No additional effect.",
+	},
 	fly: {
 		name: "Fly",
 		desc: "This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Gust, Hurricane, Sky Uppercut, Smack Down, Thousand Arrows, Thunder, and Twister, and Gust and Twister have doubled power when used against it. If the user is holding a Power Herb, the move completes in one turn.",
