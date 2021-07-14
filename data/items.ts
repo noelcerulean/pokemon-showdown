@@ -1583,7 +1583,7 @@ export const Items: {[itemid: string]: ItemData} = {
 				return this.chainModify(1.5);
 			}
 		},
-		num: 1608,
+		num: -500,
 		gen: 5,
 	},
 	expertbelt: {

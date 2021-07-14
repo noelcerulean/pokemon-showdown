@@ -1833,7 +1833,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		contestType: "Tough",
 	},
 	bulletsting: {
-		num: 827,
+		num: -500,
 		accuracy: 100,
 		basePower: 70,
 		category: "Physical",
@@ -5390,7 +5390,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		contestType: "Beautiful",
 	},
 	flutterstrike: {
-		num: 828,
+		num: -501,
 		accuracy: 100,
 		basePower: 80,
 		category: "Physical",
