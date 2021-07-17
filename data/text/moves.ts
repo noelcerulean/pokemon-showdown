@@ -3272,6 +3272,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
 		shortDesc: "Heals the user and its allies by 1/4 their max HP.",
 	},
+	lightningkick: {
+		name: "Lightning Kick",
+		desc: "Has a 10% chance to paralyze the target.",
+		shortDesc: "10% chance to paralyze the target.",
+	},
 	lightofruin: {
 		name: "Light of Ruin",
 		desc: "If the target lost HP, the user takes recoil damage equal to 1/2 the HP lost by the target, rounded half up, but not less than 1 HP.",

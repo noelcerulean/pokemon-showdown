@@ -9683,6 +9683,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "allies",
 		type: "Water",
 	},
+	lightningkick: {
+		num: -502,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Lightning Kick",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 10,
+			status: 'par',
+		},
+		target: "normal",
+		type: "Electric",
+		contestType: "Cool",
+	},
 	lightofruin: {
 		num: 617,
 		accuracy: 90,
