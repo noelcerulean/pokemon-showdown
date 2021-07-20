@@ -1124,6 +1124,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 218,
 	},
+	fluffyfuzz: {
+		onDamagingHit(damage, target, source, move) {
+			if (this.checkMoveMakesContact(move, source, target, true)) {
+				this.add('-ability', target, 'Fluffy Fuzz');
+				this.boost({spe: -1}, source, target, null, true);
+			}
+		},
+		name: "Fluffy Fuzz",
+		rating: 2,
+		num: -500,
+	},
 	forecast: {
 		onUpdate(pokemon) {
 			if (pokemon.baseSpecies.baseSpecies !== 'Castform' || pokemon.transformed) return;
