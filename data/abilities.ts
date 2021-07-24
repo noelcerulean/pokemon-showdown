@@ -113,15 +113,38 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 148,
 	},
 	angerpoint: {
-		onHit(target, source, move) {
-			if (!target.hp) return;
-			if (move?.effectType === 'Move' && target.getMoveHitData(move).crit) {
-				target.setBoost({atk: 6});
-				this.add('-setboost', target, 'atk', 12, '[from] ability: Anger Point');
+		onDamage(damage, target, source, effect) {
+			if (
+				effect.effectType === "Move" &&
+				!effect.multihit &&
+				(!effect.negateSecondary && !(effect.hasSheerForce && source.hasAbility('sheerforce')))
+			) {
+				target.abilityState.checkedAngerPoint = false;
+			} else {
+				target.abilityState.checkedAngerPoint = true;
+			}
+		},
+		onTryEatItem(item, pokemon) {
+			const healingItems = [
+				'aguavberry', 'enigmaberry', 'figyberry', 'iapapaberry', 'magoberry', 'sitrusberry', 'wikiberry', 'oranberry', 'berryjuice',
+			];
+			if (healingItems.includes(item.id)) {
+				return pokemon.abilityState.checkedAngerPoint;
+			}
+			return true;
+		},
+		onAfterMoveSecondary(target, source, move) {
+			target.abilityState.checkedAngerPoint = true;
+			if (!source || source === target || !target.hp || !move.totalDamage) return;
+			const lastAttackedBy = target.getLastAttackedBy();
+			if (!lastAttackedBy) return;
+			const damage = move.multihit ? move.totalDamage : lastAttackedBy.damage;
+			if (target.hp <= target.maxhp / 2 && target.hp + damage > target.maxhp / 2) {
+				this.boost({atk: 1});
 			}
 		},
 		name: "Anger Point",
-		rating: 1.5,
+		rating: 2,
 		num: 83,
 	},
 	anticipation: {
