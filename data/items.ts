@@ -1567,7 +1567,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	eviomight: {
 		name: "Eviomight",
-		spritenum: 130,
+		spritenum: 741,
 		fling: {
 			basePower: 40,
 		},
