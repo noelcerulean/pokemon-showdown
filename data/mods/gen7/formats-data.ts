@@ -1386,9 +1386,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	octillery: {
-		randomBattleMoves: ["energyball", "fireblast", "gunkshot", "hydropump", "icebeam", "rockblast", "scald"],
-		randomDoubleBattleMoves: ["energyball", "fireblast", "hydropump", "icebeam", "protect"],
-		tier: "(PU)",
+		randomBattleMoves: ["barrage", "bulletseed", "energyball", "fireblast", "focusblast", "gunkshot", "icebeam", "octazooka", "recover", "rockblast", "scald", "sludgebomb", "waterfall"],
+		randomDoubleBattleMoves: ["barrage", "bulletseed", "energyball", "fireblast", "focusblast", "gunkshot", "icebeam", "octazooka", "protect", "rockblast", "sludgebomb", "waterfall"],
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	delibird: {
