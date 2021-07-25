@@ -1477,6 +1477,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 0,
 		num: 134,
 	},
+	highcaliber: {
+		onBasePowerPriority: 19,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['bullet']) {
+				return this.chainModify(1.5);
+			}
+		},
+		name: "High Caliber",
+		rating: 3,
+		num: -501,
+	},
 	honeygather: {
 		name: "Honey Gather",
 		rating: 0,

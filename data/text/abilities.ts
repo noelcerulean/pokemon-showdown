@@ -525,6 +525,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Heavy Metal",
 		shortDesc: "This Pokemon's weight is doubled.",
 	},
+	highcaliber: {
+		name: "High Caliber",
+		desc: "This Pokemon's bullet moves have their power multiplied by 1.5.",
+		shortDesc: "This Pokemon's bullet moves have 1.5x power.",
+	},
 	honeygather: {
 		name: "Honey Gather",
 		shortDesc: "No competitive use.",
