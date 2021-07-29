@@ -2966,8 +2966,8 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	zebstrika: {
-		randomBattleMoves: ["blazekick", "hiddenpowerice", "jumpkick", "lightningkick", "protect", "voltswitch"],
-		randomDoubleBattleMoves: ["blazekick", "hiddenpowerice", "jumpkick", "lightningkick", "protect", "voltswitch"],
+		randomBattleMoves: ["blazekick", "hiddenpowerice", "highhorsepower", "jumpkick", "lightningkick", "protect", "voltswitch"],
+		randomDoubleBattleMoves: ["blazekick", "hiddenpowerice", "highhorsepower", "jumpkick", "lightningkick", "protect", "voltswitch"],
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},
@@ -3891,9 +3891,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	carbink: {
-		randomBattleMoves: ["explosion", "lightscreen", "moonblast", "powergem", "reflect", "stealthrock"],
+		randomBattleMoves: ["calmmind", "earthpower", "encore", "explosion", "lightscreen", "moonblast", "moonlight", "powergem", "reflect", "stealthrock"],
 		randomDoubleBattleMoves: ["explosion", "lightscreen", "moonblast", "protect", "reflect", "stealthrock", "trickroom"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	goomy: {
