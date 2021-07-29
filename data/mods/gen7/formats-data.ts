@@ -2918,27 +2918,27 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	simisage: {
-		randomBattleMoves: ["focusblast", "gigadrain", "hiddenpowerice", "knockoff", "leafstorm", "nastyplot", "substitute", "superpower"],
-		randomDoubleBattleMoves: ["focusblast", "gigadrain", "helpinghand", "hiddenpowerfire", "hiddenpowerice", "leafstorm", "nastyplot", "spikyshield", "taunt"],
-		tier: "(PU)",
+		randomBattleMoves: ["acrobatics", "delinquency", "focusblast", "gigadrain", "gunkshot", "hiddenpowerice", "knockoff", "leafblade", "leafstorm", "nastyplot", "rockslide", "sludgebomb", "substitute", "superpower"],
+		randomDoubleBattleMoves: ["delinquency", "focusblast", "gigadrain", "gunkshot", "helpinghand", "hiddenpowerfire", "hiddenpowerice", "leafblade", "leafstorm", "nastyplot", "rockslide", "sludgebomb", "spikyshield", "superpower", "taunt"],
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	pansear: {
 		tier: "LC",
 	},
 	simisear: {
-		randomBattleMoves: ["fireblast", "focusblast", "grassknot", "hiddenpowerrock", "nastyplot", "substitute"],
-		randomDoubleBattleMoves: ["fireblast", "focusblast", "grassknot", "heatwave", "nastyplot", "protect", "taunt"],
-		tier: "(PU)",
+		randomBattleMoves: ["delinquency", "fireblast", "flareblitz", "focusblast", "grassknot", "hiddenpowerice", "mudshot", "nastyplot", "overheat", "substitute", "superpower", "thunderpunch"],
+		randomDoubleBattleMoves: ["delinquency", "fireblast", "flareblitz", "focusblast", "grassknot", "heatwave", "mudshot", "nastyplot", "overheat", "protect", "rockslide", "superpower", "taunt", "thunderpunch"],
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	panpour: {
 		tier: "LC",
 	},
 	simipour: {
-		randomBattleMoves: ["focusblast", "hydropump", "icebeam", "nastyplot", "substitute"],
-		randomDoubleBattleMoves: ["helpinghand", "hydropump", "icebeam", "nastyplot", "protect", "taunt"],
-		tier: "(PU)",
+		randomBattleMoves: ["delinquency", "focusblast", "geyserblast", "grassknot", "icebeam", "icepunch", "liquidation", "nastyplot", "substitute", "superpower"],
+		randomDoubleBattleMoves: ["delinquency", "geyserblast", "grassknot", "helpinghand", "icebeam", "icepunch", "liquidation", "nastyplot", "protect", "superpower", "taunt"],
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	munna: {

@@ -1141,6 +1141,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "-1 evasion; clears target side's hazards/screens.",
 		},
 	},
+	delinquency: {
+		name: "Delinquency",
+		desc: "Lowers the user's Speed by 1 stage.",
+		shortDesc: "Lowers the user's Speed by 1.",
+	},
 	destinybond: {
 		name: "Destiny Bond",
 		desc: "Until the user's next move, if an opposing Pokemon's attack knocks the user out, that Pokemon faints as well, unless the attack was Doom Desire or Future Sight. Fails if the user used this move successfully as its last move, disregarding moves used through the Dancer Ability.",
@@ -2188,6 +2193,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Charges, then raises SpA, SpD, Spe by 2 turn 2.",
 
 		prepare: "[POKEMON] is absorbing power!",
+	},
+	geyserblast: {
+		name: "Geyser Blast",
+		desc: "Lowers the user's Special Attack by 2 stages.",
+		shortDesc: "Lowers the user's Sp. Atk by 2.",
 	},
 	gigadrain: {
 		name: "Giga Drain",

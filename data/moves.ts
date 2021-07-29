@@ -3159,6 +3159,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {accuracy: 1}},
 		contestType: "Cool",
 	},
+	delinquency: {
+		num: -503,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Delinquency",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		self: {
+			boosts: {
+				spe: -1,
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+		contestType: "Cool",
+	},
 	destinybond: {
 		num: 194,
 		accuracy: true,
@@ -6075,6 +6094,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "self",
 		type: "Fairy",
 		zMove: {boost: {atk: 1, def: 1, spa: 1, spd: 1, spe: 1}},
+		contestType: "Beautiful",
+	},
+	geyserblast: {
+		num: -504,
+		accuracy: 90,
+		basePower: 130,
+		category: "Special",
+		name: "Geyser Blast",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		self: {
+			boosts: {
+				spa: -2,
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Water",
 		contestType: "Beautiful",
 	},
 	gigadrain: {
