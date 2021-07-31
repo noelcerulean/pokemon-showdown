@@ -3472,7 +3472,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				for (const target of pokemon.side.foe.active) {
 					if (!target || !target.hp) continue;
 					if (target.hasType('Poison')) {
-						this.add('-immune', target);
+						this.add('-immune', target, '[from] ability: Slow Digestion');
 					} else {
 						this.damage(target.baseMaxhp / 8, target, pokemon);
 					}
