@@ -1309,7 +1309,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	slowdigestion: {
 		name: "Slow Digestion",
 		desc: "Foes lose 1/8th of their maximum HP, rounded down, for every full turn this pokemon is on the field. Poison types are immune.",
-		shortDesc: "Foes lose 1/8th HP every full turn this pokemon is active. Poison types are immune.",
+		shortDesc: "Foes lose 1/8th HP every turn this pokemon is active. Poison types are immune.",
 
 		start: "  [POKEMON] is oozing digestive fluids!",
 
