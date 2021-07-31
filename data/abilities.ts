@@ -3460,6 +3460,29 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 92,
 	},
+	slowdigestion: {
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Slow Digestion');
+		},
+		onResidualOrder: 26,
+		onResidualSubOrder: 1,
+		onResidual(pokemon) {
+			if (pokemon.activeTurns) {
+				if (!pokemon.hp) return;
+				for (const target of pokemon.side.foe.active) {
+					if (!target || !target.hp) continue;
+					if (target.hasType('Poison')) {
+						this.add('-immune', target);
+					} else {
+						this.damage(target.baseMaxhp / 8, target, pokemon);
+					}
+				}
+			}
+		},
+		name: "Slow Digestion",
+		rating: 4,
+		num: -502,
+	},
 	slowstart: {
 		onStart(pokemon) {
 			pokemon.addVolatile('slowstart');

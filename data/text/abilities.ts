@@ -1306,6 +1306,16 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Skill Link",
 		shortDesc: "This Pokemon's multi-hit attacks always hit the maximum number of times.",
 	},
+	slowdigestion: {
+		name: "Slow Digestion",
+		desc: "Foes lose 1/8th of their maximum HP, rounded down, for every full turn this pokemon is on the field.",
+		shortDesc: "Foes lose 1/8th of their maximum HP for every full turn this pokemon is on the field.",
+
+		start: "  [POKEMON] is oozing digestive fluids!",
+
+		damage: "  [POKEMON] was hurt by the digestive fluids!",
+
+	},
 	slowstart: {
 		name: "Slow Start",
 		shortDesc: "On switch-in, this Pokemon's Attack and Speed are halved for 5 turns.",

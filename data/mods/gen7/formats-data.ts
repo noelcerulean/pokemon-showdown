@@ -1868,9 +1868,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	swalot: {
-		randomBattleMoves: ["earthquake", "encore", "icebeam", "painsplit", "sludgebomb", "toxic", "yawn"],
-		randomDoubleBattleMoves: ["encore", "icebeam", "poisongas", "protect", "sludgebomb", "yawn"],
-		tier: "(PU)",
+		randomBattleMoves: ["clearsmog", "earthquake", "encore", "icebeam", "knockoff", "painsplit", "protect", "recover", "sludgebomb", "toxic", "yawn"],
+		randomDoubleBattleMoves: ["clearsmog", "encore", "icebeam", "knockoff", "poisongas", "protect", "recover", "sludgebomb", "yawn"],
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	carvanha: {
