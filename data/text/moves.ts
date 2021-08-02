@@ -6047,8 +6047,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	synchronoise: {
 		name: "Synchronoise",
-		desc: "The target is immune if it does not share a type with the user.",
-		shortDesc: "Hits adjacent Pokemon sharing the user's type.",
+		desc: "Power doubles if the target shares a type with the user.",
+		shortDesc: "Power doubles against targets sharing the user's type.",
 	},
 	synthesis: {
 		name: "Synthesis",

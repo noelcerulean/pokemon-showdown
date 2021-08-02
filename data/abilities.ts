@@ -3046,6 +3046,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4.5,
 		num: 144,
 	},
+	reverberation: {
+		onDamagingHitOrder: 1,
+		onDamagingHit(damage, target, source, move) {
+			if (!move.flags['contact'] && move.category !== 'Status') {
+				this.damage(source.baseMaxhp / 8, source, target);
+			}
+		},
+		name: "Reverberation",
+		rating: 2.5,
+		num: -503,
+	},
 	ripen: {
 		onTryHeal(damage, target, source, effect) {
 			if (!effect) return;
@@ -4432,6 +4443,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Wimp Out",
 		rating: 1,
 		num: 193,
+	},
+	windchime: {
+		onModifyPriority(priority, pokemon, target, move) {
+			if (move?.flags['sound']) return priority + 3;
+		},
+		name: "Wind Chime",
+		rating: 3.5,
+		num: -504,
 	},
 	wonderguard: {
 		onTryHit(target, source, move) {

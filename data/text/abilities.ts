@@ -1152,6 +1152,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Regenerator",
 		shortDesc: "This Pokemon restores 1/3 of its maximum HP, rounded down, when it switches out.",
 	},
+	reverberation: {
+		name: "Reverberation",
+		desc: "Pokemon that attack this Pokemon with non-contact moves lose 1/8 of their maximum HP, rounded down.",
+		shortDesc: "Pokemon that hit this pokemon with non-contact moves lose 1/8th of their max HP.",
+
+		damage: "  [POKEMON] was hurt!",
+	},
 	ripen: {
 		name: "Ripen",
 		// TODO Needs research. Following berries aren't supported currently:
@@ -1703,6 +1710,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Wimp Out",
 		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage bringing it to 1/2 or less of its maximum HP, it immediately switches out to a chosen ally. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect. This effect applies to both direct and indirect damage, except Curse and Substitute on use, Belly Drum, Pain Split, and confusion damage.",
 		shortDesc: "This Pokemon switches out when it reaches 1/2 or less of its maximum HP.",
+	},
+	windchime: {
+		name: "Wind Chime",
+		shortDesc: "This Pokemon's sound-based moves have their priority increased by 3.",
 	},
 	wonderguard: {
 		name: "Wonder Guard",

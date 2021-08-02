@@ -3398,7 +3398,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	disarmingvoice: {
 		num: 574,
 		accuracy: true,
-		basePower: 40,
+		basePower: 60,
 		category: "Special",
 		name: "Disarming Voice",
 		pp: 15,
@@ -17598,15 +17598,17 @@ export const Moves: {[moveid: string]: MoveData} = {
 	synchronoise: {
 		num: 485,
 		accuracy: 100,
-		basePower: 120,
+		basePower: 65,
 		category: "Special",
 		isNonstandard: "Past",
 		name: "Synchronoise",
 		pp: 10,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
-		onTryImmunity(target, source) {
-			return target.hasType(source.getTypes());
+		flags: {protect: 1, mirror: 1, sound: 1},
+		onBasePower(basePower, source, target) {
+			if (target.hasType(source.getTypes())) {
+				return this.chainModify(2);
+			}
 		},
 		secondary: null,
 		target: "allAdjacent",

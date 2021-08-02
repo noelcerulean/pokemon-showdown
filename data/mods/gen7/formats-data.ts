@@ -2103,9 +2103,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	chimecho: {
-		randomBattleMoves: ["calmmind", "healbell", "healingwish", "psychic", "recover", "shadowball", "taunt", "yawn"],
-		randomDoubleBattleMoves: ["helpinghand", "protect", "psychic", "recover", "taunt", "thunderwave", "trickroom"],
-		tier: "(PU)",
+		randomBattleMoves: ["calmmind", "defog", "disarmingvoice", "healbell", "healingwish", "hypervoice", "lightscreen", "psychic", "recover", "reflect", "shadowball", "synchronoise", "taunt", "wish", "yawn"],
+		randomDoubleBattleMoves: ["followme", "helpinghand", "protect", "psychic", "recover", "synchronoise", "taunt", "thunderwave", "trickroom"],
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	absol: {
@@ -2918,8 +2918,8 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	simisage: {
-		randomBattleMoves: ["acrobatics", "delinquency", "focusblast", "gigadrain", "gunkshot", "hiddenpowerice", "knockoff", "leafblade", "leafstorm", "nastyplot", "rockslide", "sludgebomb", "substitute", "superpower"],
-		randomDoubleBattleMoves: ["delinquency", "focusblast", "gigadrain", "gunkshot", "helpinghand", "hiddenpowerfire", "hiddenpowerice", "leafblade", "leafstorm", "nastyplot", "rockslide", "sludgebomb", "spikyshield", "superpower", "taunt"],
+		randomBattleMoves: ["acrobatics", "delinquency", "gunkshot", "knockoff", "leafblade", "leafstorm", "rockslide", "substitute", "superpower"],
+		randomDoubleBattleMoves: ["delinquency", "focusblast", "gigadrain", "gunkshot", "helpinghand", "hiddenpowerfire", "hiddenpowerice", "leafblade", "leafstorm", "rockslide", "sludgebomb", "spikyshield", "superpower", "taunt"],
 		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
