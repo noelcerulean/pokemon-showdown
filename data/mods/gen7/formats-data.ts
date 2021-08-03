@@ -3918,9 +3918,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	trevenant: {
-		randomBattleMoves: ["earthquake", "hornleech", "rockslide", "shadowclaw", "trickroom", "woodhammer"],
-		randomDoubleBattleMoves: ["hornleech", "leechseed", "protect", "rockslide", "shadowclaw", "trickroom", "willowisp", "woodhammer"],
-		tier: "(PU)",
+		randomBattleMoves: ["cursedroots", "earthquake", "hornleech", "leechseed", "poisonjab", "rockslide", "shadowsneak", "strengthsap", "trickroom", "willowwisp", "woodhammer"],
+		randomDoubleBattleMoves: ["cursedroots", "hornleech", "leechseed", "protect", "rockslide", "shadowsneak", "strengthsap", "trickroom", "willowisp", "woodhammer"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	pumpkaboo: {

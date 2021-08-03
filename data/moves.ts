@@ -2975,6 +2975,21 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {effect: 'curse'},
 		contestType: "Tough",
 	},
+	cursedroots: {
+		num: -505,
+		accuracy: 100,
+		basePower: 75,
+		category: "Physical",
+		name: "Cursed Roots",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, heal: 1},
+		drain: [1, 2],
+		secondary: null,
+		target: "normal",
+		type: "Ghost",
+		contestType: "Tough",
+	},
 	cut: {
 		num: 15,
 		accuracy: 95,
@@ -5667,10 +5682,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (!target.addType('Grass')) return false;
 			this.add('-start', target, 'typeadd', 'Grass', '[from] move: Forest\'s Curse');
 		},
+		boosts: {
+			spe: -1,
+		},
 		secondary: null,
 		target: "normal",
 		type: "Grass",
-		zMove: {boost: {atk: 1, def: 1, spa: 1, spd: 1, spe: 1}},
+		zMove: {boost: {atk: 2}},
 		contestType: "Clever",
 	},
 	foulplay: {

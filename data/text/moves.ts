@@ -1073,6 +1073,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		start: "  [SOURCE] cut its own HP and put a curse on [POKEMON]!",
 		damage: "  [POKEMON] is afflicted by the curse!",
 	},
+	cursedroots: {
+		name: "Cursed Roots",
+		desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
+		shortDesc: "User recovers 50% of the damage dealt.",
+	},
 	cut: {
 		name: "Cut",
 		shortDesc: "No additional effect.",
@@ -2057,8 +2062,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	forestscurse: {
 		name: "Forest's Curse",
-		desc: "Causes the Grass type to be added to the target, effectively making it have two or three types. Fails if the target is already a Grass type. If Trick-or-Treat adds a type to the target, it replaces the type added by this move and vice versa.",
-		shortDesc: "Adds Grass to the target's type(s).",
+		desc: "Lower's the target's speed by 1 stage. Causes the Grass type to be added to the target, effectively making it have two or three types. Fails if the target is already a Grass type. If Trick-or-Treat adds a type to the target, it replaces the type added by this move and vice versa.",
+		shortDesc: "Lowers foe's speed by 1; adds Grass to its type(s).",
 	},
 	foulplay: {
 		name: "Foul Play",
