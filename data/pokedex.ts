@@ -5437,7 +5437,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Mawile",
 		types: ["Steel", "Fairy"],
 		baseStats: {hp: 50, atk: 85, def: 85, spa: 55, spd: 55, spe: 50},
-		abilities: {0: "Hyper Cutter", 1: "Intimidate", H: "Sheer Force"},
+		abilities: {0: "Huge Power", 1: "Intimidate", H: "Sheer Force"},
 		heightm: 0.6,
 		weightkg: 11.5,
 		color: "Black",
