@@ -5529,6 +5529,10 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		prepare: "#solarbeam",
 	},
+	sunshinedance: {
+		name: "Sunshine Dance",
+		shortDesc: "No additional effect.",
+	},
 	sonicboom: {
 		name: "Sonic Boom",
 		desc: "Deals 20 HP of damage to the target.",

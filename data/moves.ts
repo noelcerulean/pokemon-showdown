@@ -1832,22 +1832,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Steel",
 		contestType: "Tough",
 	},
-	bulletsting: {
-		num: -500,
-		accuracy: 100,
-		basePower: 70,
-		category: "Physical",
-		name: "Bullet Sting",
-		pp: 20,
-		priority: 0,
-		flags: {contact: 1, protect: 1, mirror: 1},
-		onEffectiveness(typeMod, target, type) {
-			if (type === 'Fairy') return 1;
-		},
-		target: "normal",
-		type: "Bug",
-		contestType: "Cool",
-	},
 	bulletseed: {
 		num: 331,
 		accuracy: 100,
@@ -2976,7 +2960,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		contestType: "Tough",
 	},
 	cursedroots: {
-		num: -505,
+		num: -504,
 		accuracy: 100,
 		basePower: 75,
 		category: "Physical",
@@ -3175,7 +3159,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		contestType: "Cool",
 	},
 	delinquency: {
-		num: -503,
+		num: -502,
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
@@ -5424,7 +5408,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		contestType: "Beautiful",
 	},
 	flutterstrike: {
-		num: -501,
+		num: -500,
 		accuracy: 100,
 		basePower: 80,
 		category: "Physical",
@@ -6115,7 +6099,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		contestType: "Beautiful",
 	},
 	geyserblast: {
-		num: -504,
+		num: -503,
 		accuracy: 90,
 		basePower: 130,
 		category: "Special",
@@ -9740,7 +9724,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Water",
 	},
 	lightningkick: {
-		num: -502,
+		num: -501,
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
@@ -16266,6 +16250,20 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Grass",
 		contestType: "Cool",
+	},
+	sunshinedance: {
+		num: -505,
+		accuracy: 100,
+		basePower: 85,
+		category: "Special",
+		name: "Sunshine Dance",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: null,
+		target: "normal",
+		type: "Fire",
+		contestType: "Beautiful",
 	},
 	sonicboom: {
 		num: 49,
