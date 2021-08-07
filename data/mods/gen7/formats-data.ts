@@ -3126,9 +3126,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	maractus: {
-		randomBattleMoves: ["gigadrain", "hiddenpowerfire", "leechseed", "spikes", "spikyshield", "suckerpunch", "toxic"],
-		randomDoubleBattleMoves: ["energyball", "helpinghand", "hiddenpowerfire", "leechseed", "spikyshield", "suckerpunch"],
-		tier: "(PU)",
+		randomBattleMoves: ["earthpower", "energyball", "gigadrain", "hiddenpowerice", "leafstorm", "sandstorm", "sludgebomb", "spikes", "sunshinedance", "weatherball"],
+		randomDoubleBattleMoves: ["earthpower", "energyball", "gigadrain", "helpinghand", "hiddenpowerice", "leafstorm", "sludgebomb", "sunshinedance"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	dwebble: {
