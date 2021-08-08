@@ -1997,9 +1997,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	whiscash: {
-		randomBattleMoves: ["dragondance", "earthquake", "stoneedge", "waterfall", "zenheadbutt"],
+		randomBattleMoves: ["dragondance", "earthquake", "stoneedge", "uturn", "waterfall", "zenheadbutt"],
 		randomDoubleBattleMoves: ["dragondance", "earthquake", "protect", "stoneedge", "waterfall", "zenheadbutt"],
-		tier: "(PU)",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	corphish: {

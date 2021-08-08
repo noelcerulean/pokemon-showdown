@@ -1246,6 +1246,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Screen Cleaner",
 		shortDesc: "On switch-in, the effects of Aurora Veil, Light Screen, and Reflect end for both sides.",
 	},
+	seismography: {
+		name: "Seismography",
+		shortDesc: "This Pokemon's attacking stat is multiplied by 1.3 while using a Ground-type attack.",
+	},
 	serenegrace: {
 		name: "Serene Grace",
 		shortDesc: "This Pokemon's moves have their secondary effect chance doubled.",
