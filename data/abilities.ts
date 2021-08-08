@@ -3325,7 +3325,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Seismography",
 		rating: 3.5,
-		num: 262,
+		num: -505,
 	},
 	serenegrace: {
 		onModifyMovePriority: -2,
