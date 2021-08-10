@@ -1126,9 +1126,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	lanturn: {
-		randomBattleMoves: ["healbell", "hiddenpowergrass", "hydropump", "icebeam", "scald", "toxic", "voltswitch"],
-		randomDoubleBattleMoves: ["icebeam", "protect", "scald", "thunderbolt", "thunderwave", "toxic"],
-		tier: "PU",
+		randomBattleMoves: ["healbell", "hiddenpowergrass", "hydropump", "icebeam", "recover", "scald", "toxic", "voltswitch"],
+		randomDoubleBattleMoves: ["icebeam", "protect", "recover", "scald", "thunderbolt", "thunderwave", "toxic"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	togepi: {
