@@ -1022,33 +1022,33 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 100,
 		basePower: 100,
 		category: "Physical",
-		isNonstandard: "Past",
 		name: "Beak Blast",
 		pp: 15,
-		priority: -3,
-		flags: {bullet: 1, protect: 1},
-		beforeTurnCallback(pokemon) {
-			pokemon.addVolatile('beakblast');
+		priority: 0,
+		flags: {bullet: 1, protect: 1, mirror: 1, defrost: 1, distance: 1},
+		thawsTarget: true,
+		secondary: {
+			chance: 30,
+			status: 'brn',
 		},
-		condition: {
-			duration: 1,
-			onStart(pokemon) {
-				this.add('-singleturn', pokemon, 'move: Beak Blast');
-			},
-			onHit(target, source, move) {
-				if (this.checkMoveMakesContact(move, source, target)) {
-					source.trySetStatus('brn', target);
-				}
-			},
-		},
-		// FIXME: onMoveAborted(pokemon) {pokemon.removeVolatile('beakblast')},
-		onAfterMove(pokemon) {
-			pokemon.removeVolatile('beakblast');
-		},
-		secondary: null,
 		target: "normal",
 		type: "Flying",
 		contestType: "Tough",
+	},
+	beakcannon: {
+		num: -506,
+		accuracy: 95,
+		basePower: 25,
+		category: "Physical",
+		name: "Beak Cannon",
+		pp: 20,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, distance: 1},
+		multihit: [2, 5],
+		secondary: null,
+		target: "normal",
+		type: "Flying",
+		contestType: "Cool",
 	},
 	beatup: {
 		num: 251,

@@ -4078,9 +4078,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	toucannon: {
-		randomBattleMoves: ["beakblast", "boomburst", "brickbreak", "bulletseed", "roost"],
-		randomDoubleBattleMoves: ["beakblast", "bulletseed", "protect", "rockblast", "tailwind"],
-		tier: "(PU)",
+		randomBattleMoves: ["beakblast", "beakcannon", "boomburst", "brickbreak", "bulletseed", "heatwave", "hurricane", "rockblast", "roost", "uturn"],
+		randomDoubleBattleMoves: ["beakblast", "beakcannon", "bulletseed", "heatwave", "protect", "rockblast", "tailwind"],
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	yungoos: {

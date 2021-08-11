@@ -328,10 +328,13 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	beakblast: {
 		name: "Beak Blast",
-		desc: "If the user is hit by a contact move this turn before it can execute this move, the attacker is burned.",
-		shortDesc: "Burns on contact with the user before it moves.",
-
-		start: "  [POKEMON] started heating up its beak!",
+		desc: "Has a 30% chance to burn the target. The target thaws out if it is frozen.",
+		shortDesc: "30% chance to burn the target. Thaws target.",
+	},
+	beakcannon: {
+		name: "Beak Cannon",
+		desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
+		shortDesc: "Hits 2-5 times in one turn.",
 	},
 	beatup: {
 		name: "Beat Up",

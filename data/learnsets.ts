@@ -66939,6 +66939,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			aerialace: ["7M"],
 			attract: ["7M"],
+			beakcannon: ["7E"],
 			boomburst: ["7E"],
 			bravebird: ["7E"],
 			brickbreak: ["7M"],
@@ -66991,6 +66992,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			aerialace: ["7M"],
 			attract: ["7M"],
+			beakcannon: ["7L1"],
 			brickbreak: ["7M"],
 			bulletseed: ["7L37"],
 			confide: ["7M"],
@@ -67007,6 +67009,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			gunkshot: ["7T"],
 			heatwave: ["7T"],
 			hiddenpower: ["7M"],
+			hurricane: ["7L51"],
 			hypervoice: ["7T", "7L45"],
 			knockoff: ["7T"],
 			peck: ["7L1"],
@@ -67040,8 +67043,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	toucannon: {
 		learnset: {
 			aerialace: ["7M"],
+			airslash: ["7L35"],
 			attract: ["7M"],
 			beakblast: ["7L1"],
+			beakcannon: ["7L1"],
 			brickbreak: ["7M"],
 			bulletseed: ["7L40"],
 			confide: ["7M"],
@@ -67059,6 +67064,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			gunkshot: ["7T"],
 			heatwave: ["7T"],
 			hiddenpower: ["7M"],
+			hurricane: ["7L55"],
 			hypervoice: ["7T", "7L50"],
 			knockoff: ["7T"],
 			overheat: ["7M"],
