@@ -184,9 +184,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	raichu: {
-		randomBattleMoves: ["encore", "focusblast", "grassknot", "hiddenpowerice", "nastyplot", "thunderbolt", "voltswitch"],
-		randomDoubleBattleMoves: ["encore", "fakeout", "focusblast", "grassknot", "hiddenpowerice", "protect", "thunderbolt", "voltswitch"],
-		tier: "(PU)",
+		randomBattleMoves: ["encore", "extremespeed", "focusblast", "grassknot", "hiddenpowerice", "holdhands", "jumpkick", "knockoff", "lightningkick", "nastyplot", "swordsdance", "surf", "thunderbolt", "uturn", "voltswitch", "volttackle"],
+		randomDoubleBattleMoves: ["encore", "extremespeed", "fakeout", "focusblast", "grassknot", "hiddenpowerice", "jumpkick", "knockoff", "lightningkick", "protect", "swordsdance", "surf", "thunderbolt", "uturn", "voltswitch", "volttackle"],
+		tier: "RUBL",
 		doublesTier: "DUU",
 	},
 	raichualola: {
