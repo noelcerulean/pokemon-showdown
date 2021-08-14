@@ -2580,6 +2580,30 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {spd: 1}},
 		contestType: "Beautiful",
 	},
+	cosmicspin: {
+		num: -509,
+		accuracy: 100,
+		basePower: 70,
+		category: "Physical",
+		name: "Cosmic Spin",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondaries: [
+			{
+				chance: 100,
+				boosts: {
+					spa: -2,
+				},
+			}, {
+				chance: 10,
+				status: 'brn',
+			},
+		],
+		target: "normal",
+		type: "Psychic",
+		contestType: "Beautiful",
+	},
 	cottonguard: {
 		num: 538,
 		accuracy: true,
@@ -10016,6 +10040,30 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Psychic",
 		contestType: "Beautiful",
 	},
+	lunaticeyes: {
+		num: -510,
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		name: "Lunatic Eyes",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondaries: [
+			{
+				chance: 100,
+				boosts: {
+					atk: -2,
+				},
+			}, {
+				chance: 10,
+				status: 'par',
+			},
+		],
+		target: "normal",
+		type: "Psychic",
+		contestType: "Beautiful",
+	},
 	lunge: {
 		num: 679,
 		accuracy: 100,
@@ -11903,6 +11951,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fairy",
 		contestType: "Tough",
 	},
+	nebulabelt: {
+		num: -507,
+		accuracy: 100,
+		basePower: 100,
+		category: "Special",
+		name: "Nebula Belt",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onModifyMove(move, pokemon) {
+			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) move.category = 'Physical';
+		},
+		secondary: null,
+		target: "normal",
+		type: "Rock",
+		contestType: "Beautiful",
+	},
 	needlearm: {
 		num: 302,
 		accuracy: 100,
@@ -13143,6 +13208,45 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Psychic",
 		contestType: "Cool",
+	},
+	propheticasteroid: {
+		num: -508,
+		accuracy: 100,
+		basePower: 140,
+		category: "Physical",
+		name: "Prophetic Asteroid",
+		pp: 5,
+		priority: 0,
+		flags: {},
+		isFutureMove: true,
+		onTry(source, target) {
+			if (!target.side.addSlotCondition(target, 'futuremove')) return false;
+			Object.assign(target.side.slotConditions[target.position]['futuremove'], {
+				move: 'propheticasteroid',
+				source: source,
+				moveData: {
+					id: 'propheticasteroid',
+					name: "Prophetic Asteroid",
+					accuracy: 100,
+					basePower: 140,
+					category: "Physical",
+					priority: 0,
+					flags: {},
+					effectType: 'Move',
+					isFutureMove: true,
+					type: 'Rock',
+				},
+			});
+			this.add('-start', source, 'Prophetic Asteroid');
+			return this.NOT_FAIL;
+		},
+		onModifyMove(move, pokemon) {
+			if (pokemon.getStat('spa', false, true) > pokemon.getStat('atk', false, true)) move.category = 'Special';
+		},
+		secondary: null,
+		target: "normal",
+		type: "Rock",
+		contestType: "Beautiful",
 	},
 	protect: {
 		num: 182,

@@ -962,6 +962,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Raises the user's Defense and Special Defense by 1 stage.",
 		shortDesc: "Raises the user's Defense and Sp. Def by 1.",
 	},
+	cosmicspin: {
+		name: "Cosmic Spin",
+		desc: "Has a 100% chance to lower the target's Sp. Attack by 2 stages. Has a 10% burn chance.",
+		shortDesc: "Lowers the target's Sp. Attack by 2. 10% burn chance",
+	},
 	cottonguard: {
 		name: "Cotton Guard",
 		desc: "Raises the user's Defense by 3 stages.",
@@ -3390,6 +3395,11 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		heal: "  [POKEMON] became cloaked in mystical moonlight!",
 	},
+	lunaticeyes: {
+		name: "Lunatic Eyes",
+		desc: "Has a 100% chance to lower the target's Attack by 2 stages. Has a 10% paralysis chance.",
+		shortDesc: "Lowers the target's Attack by 2. 10% paralysis chance",
+	},
 	lunge: {
 		name: "Lunge",
 		desc: "Has a 100% chance to lower the target's Attack by 1 stage.",
@@ -4029,6 +4039,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Deals damage to the target equal to half of its current HP, rounded down, but not less than 1 HP.",
 		shortDesc: "Does damage equal to 1/2 target's current HP.",
 	},
+	nebulabelt: {
+		name: "Nebula Belt",
+		desc: "This move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes.",
+		shortDesc: "Physical if user's Atk > Sp. Atk.",
+	},
 	needlearm: {
 		name: "Needle Arm",
 		desc: "Has a 30% chance to make the target flinch.",
@@ -4432,6 +4447,14 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Prismatic Laser",
 		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
 		shortDesc: "User cannot move next turn.",
+	},
+	propheticasteroid: {
+		name: "Prophetic Asteroid",
+		desc: "Deals damage two turns after this move is used. At the end of that turn, the damage is calculated at that time and dealt to the Pokemon at the position the target had when the move was used. If the user is no longer active at the time, damage is calculated based on the user's natural Special Attack stat, types, and level, with no boosts from its held item or Ability. Fails if this move or Doom Desire/Future Sight is already in effect for the target's position.",
+		shortDesc: "Hits two turns after being used.",
+
+		start: "  [POKEMON] prophesized a spaceborne destruction!",
+		activate: "  [TARGET] was blasted with a shower of asteroids!",
 	},
 	protect: {
 		name: "Protect",
