@@ -570,6 +570,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4.5,
 		num: 126,
 	},
+	corona: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Fire') {
+				this.debug('Corona boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Fire') {
+				this.debug('Corona boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Corona",
+		rating: 3,
+		num: -506,
+	},
 	corrosion: {
 		// Implemented in sim/pokemon.js:Pokemon#setStatus
 		name: "Corrosion",
@@ -993,7 +1012,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		isBreakable: true,
 		name: "Filter",
-		rating: 3,
+		rating: 3.5,
 		num: 111,
 	},
 	flamebody: {
@@ -3973,6 +3992,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Synchronize",
 		rating: 2,
 		num: 28,
+	},
+	syzygy: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Ice') {
+				this.debug('Syzygy boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Ice') {
+				this.debug('Syzygy boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Syzygy",
+		rating: 3,
+		num: -507,
 	},
 	tangledfeet: {
 		onModifyAccuracyPriority: -1,

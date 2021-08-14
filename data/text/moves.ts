@@ -965,7 +965,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	cosmicspin: {
 		name: "Cosmic Spin",
 		desc: "Has a 100% chance to lower the target's Sp. Attack by 2 stages. Has a 10% burn chance.",
-		shortDesc: "Lowers the target's Sp. Attack by 2. 10% burn chance",
+		shortDesc: "Lowers target's Sp. Attack by 2. 10% burn chance",
 	},
 	cottonguard: {
 		name: "Cotton Guard",
@@ -3398,7 +3398,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	lunaticeyes: {
 		name: "Lunatic Eyes",
 		desc: "Has a 100% chance to lower the target's Attack by 2 stages. Has a 10% paralysis chance.",
-		shortDesc: "Lowers the target's Attack by 2. 10% paralysis chance",
+		shortDesc: "Lowers target's Attack by 2. 10% paralysis chance",
 	},
 	lunge: {
 		name: "Lunge",
@@ -4039,11 +4039,6 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Deals damage to the target equal to half of its current HP, rounded down, but not less than 1 HP.",
 		shortDesc: "Does damage equal to 1/2 target's current HP.",
 	},
-	nebulabelt: {
-		name: "Nebula Belt",
-		desc: "This move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes.",
-		shortDesc: "Physical if user's Atk > Sp. Atk.",
-	},
 	needlearm: {
 		name: "Needle Arm",
 		desc: "Has a 30% chance to make the target flinch.",
@@ -4435,6 +4430,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "No additional effect.",
 		shortDesc: "No additional effect. Hits adjacent foes.",
 	},
+	prehistoricpulse: {
+		name: "Prehistoric Pulse",
+		desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
+		shortDesc: "10% chance to lower the target's Sp. Def by 1.",
+	},
 	present: {
 		name: "Present",
 		desc: "If this move is successful, it deals damage or heals the target. 40% chance for 40 power, 30% chance for 80 power, 10% chance for 120 power, and 20% chance to heal the target by 1/4 of its maximum HP, rounded down.",
@@ -4450,8 +4450,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	propheticasteroid: {
 		name: "Prophetic Asteroid",
-		desc: "Deals damage two turns after this move is used. At the end of that turn, the damage is calculated at that time and dealt to the Pokemon at the position the target had when the move was used. If the user is no longer active at the time, damage is calculated based on the user's natural Special Attack stat, types, and level, with no boosts from its held item or Ability. Fails if this move or Doom Desire/Future Sight is already in effect for the target's position.",
-		shortDesc: "Hits two turns after being used.",
+		desc: "Deals damage two turns after this move is used. At the end of that turn, the damage is calculated at that time and dealt to the Pokemon at the position the target had when the move was used. If the user is no longer active at the time, damage is calculated based on the user's natural Attack stat, types, and level, with no boosts from its held item or Ability. Fails if this move or Doom Desire/Future Sight is already in effect for the target's position. This move becomes a special attack if the user's Sp. Attack is greater than its Attack, including stat stage changes.",
+		shortDesc: "Special if user's Sp. Atk > Atk. Hits in 2 turns.",
 
 		start: "  [POKEMON] prophesized a spaceborne destruction!",
 		activate: "  [TARGET] was blasted with a shower of asteroids!",

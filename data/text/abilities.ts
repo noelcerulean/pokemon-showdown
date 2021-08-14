@@ -201,6 +201,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			desc: "If this Pokemon has a stat stage raised it is lowered instead, and vice versa.",
 		},
 	},
+	corona: {
+		name: "Corona",
+		shortDesc: "This Pokemon's attacking stat is multiplied by 1.5 while using a Fire-type attack.",
+	},
 	corrosion: {
 		name: "Corrosion",
 		shortDesc: "This Pokemon can poison or badly poison other Pokemon regardless of their typing.",
@@ -1527,6 +1531,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		gen4: {
 			desc: "If another Pokemon burns, paralyzes, or poisons this Pokemon, that Pokemon receives the same non-volatile status condition. If another Pokemon badly poisons this Pokemon, that Pokemon becomes poisoned.",
 		},
+	},
+	syzygy: {
+		name: "Syzygy",
+		shortDesc: "This Pokemon's attacking stat is multiplied by 1.5 while using a Ice-type attack.",
 	},
 	tangledfeet: {
 		name: "Tangled Feet",

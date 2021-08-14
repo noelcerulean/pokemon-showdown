@@ -11951,23 +11951,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fairy",
 		contestType: "Tough",
 	},
-	nebulabelt: {
-		num: -507,
-		accuracy: 100,
-		basePower: 100,
-		category: "Special",
-		name: "Nebula Belt",
-		pp: 5,
-		priority: 0,
-		flags: {protect: 1, mirror: 1},
-		onModifyMove(move, pokemon) {
-			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) move.category = 'Physical';
-		},
-		secondary: null,
-		target: "normal",
-		type: "Rock",
-		contestType: "Beautiful",
-	},
 	needlearm: {
 		num: 302,
 		accuracy: 100,
@@ -13164,6 +13147,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "allAdjacentFoes",
 		type: "Ground",
 		contestType: "Cool",
+	},
+	prehistoricpulse: {
+		num: -507,
+		accuracy: 100,
+		basePower: 90,
+		category: "Special",
+		name: "Prehistoric Pulse",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, pulse: 1},
+		secondary: {
+			chance: 10,
+			boosts: {
+				spd: -1,
+			},
+		},
+		target: "normal",
+		type: "Rock",
+		contestType: "Beautiful",
 	},
 	present: {
 		num: 217,

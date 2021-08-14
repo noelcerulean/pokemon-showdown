@@ -1982,15 +1982,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	lunatone: {
-		randomBattleMoves: ["earthpower", "icebeam", "moonlight", "powergem", "psychic", "rockpolish", "stealthrock", "toxic"],
-		randomDoubleBattleMoves: ["earthpower", "helpinghand", "powergem", "protect", "psychic", "trickroom"],
-		tier: "(PU)",
+		randomBattleMoves: ["earthpower", "icebeam", "lunaticeyes", "moonblast", "moonlight", "powergem", "propheticasteroid", "psychic", "rockpolish", "stealthrock", "toxic"],
+		randomDoubleBattleMoves: ["earthpower", "helpinghand", "lunaticeyes", "powergem", "protect", "psychic", "trickroom"],
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	solrock: {
-		randomBattleMoves: ["earthquake", "morningsun", "rockslide", "stealthrock", "willowisp"],
-		randomDoubleBattleMoves: ["helpinghand", "protect", "rockslide", "stealthrock", "stoneedge", "willowisp", "zenheadbutt"],
-		tier: "(PU)",
+		randomBattleMoves: ["cosmicspin", "earthquake", "flarebliz", "morningsun", "propheticasteroid", "rapidspin", "rockslide", "stealthrock", "stoneedge", "willowisp", "zenheadbutt"],
+		randomDoubleBattleMoves: ["cosmicspin", "helpinghand", "protect", "rockslide", "stealthrock", "stoneedge", "willowisp", "zenheadbutt"],
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	barboach: {
