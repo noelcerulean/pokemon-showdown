@@ -13223,40 +13223,41 @@ export const Moves: {[moveid: string]: MoveData} = {
 		isFutureMove: true,
 		onTry(source, target) {
 			if (!target.side.addSlotCondition(target, 'futuremove')) return false;
-			if (source.getStat('atk', false, true) >= source.getStat('spa', false, true))
-			Object.assign(target.side.slotConditions[target.position]['futuremove'], {
-				move: 'propheticasteroid',
-				source: source,
-				moveData: {
-					id: 'propheticasteroid',
-					name: "Prophetic Asteroid",
-					accuracy: 100,
-					basePower: 140,
-					category: "Physical",
-					priority: 0,
-					flags: {},
-					effectType: 'Move',
-					isFutureMove: true,
-					type: 'Rock',
-				},
-			});
-			else if (source.getStat('spa', false, true) > source.getStat('atk', false, true))
-			Object.assign(target.side.slotConditions[target.position]['futuremove'], {
-				move: 'propheticasteroid',
-				source: source,
-				moveData: {
-					id: 'propheticasteroid',
-					name: "Prophetic Asteroid",
-					accuracy: 100,
-					basePower: 140,
-					category: "Special",
-					priority: 0,
-					flags: {},
-					effectType: 'Move',
-					isFutureMove: true,
-					type: 'Rock',
-				},
-			});
+			if (source.getStat('atk', false, true) >= source.getStat('spa', false, true)) {
+				Object.assign(target.side.slotConditions[target.position]['futuremove'], {
+					move: 'propheticasteroid',
+					source: source,
+					moveData: {
+						id: 'propheticasteroid',
+						name: "Prophetic Asteroid",
+						accuracy: 100,
+						basePower: 140,
+						category: "Physical",
+						priority: 0,
+						flags: {},
+						effectType: 'Move',
+						isFutureMove: true,
+						type: 'Rock',
+					},
+				});
+			} else if (source.getStat('spa', false, true) > source.getStat('atk', false, true)) {
+				Object.assign(target.side.slotConditions[target.position]['futuremove'], {
+					move: 'propheticasteroid',
+					source: source,
+					moveData: {
+						id: 'propheticasteroid',
+						name: "Prophetic Asteroid",
+						accuracy: 100,
+						basePower: 140,
+						category: "Special",
+						priority: 0,
+						flags: {},
+						effectType: 'Move',
+						isFutureMove: true,
+						type: 'Rock',
+					},
+				});
+			}
 			this.add('-start', source, 'Prophetic Asteroid');
 			return this.NOT_FAIL;
 		},
