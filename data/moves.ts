@@ -13221,11 +13221,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {},
 		isFutureMove: true,
-		onModifyMove(move: ActiveMove, pokemon: Pokemon) {
-			if (pokemon.getStat('spa', false, true) > pokemon.getStat('atk', false, true)) move.category = 'Special';
-		},
 		onTry(source, target) {
 			if (!target.side.addSlotCondition(target, 'futuremove')) return false;
+			if (source.getStat('atk', false, true) >= source.getStat('spa', false, true))
 			Object.assign(target.side.slotConditions[target.position]['futuremove'], {
 				move: 'propheticasteroid',
 				source: source,
@@ -13240,9 +13238,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 					effectType: 'Move',
 					isFutureMove: true,
 					type: 'Rock',
-					onModifyMove(move: ActiveMove, pokemon: Pokemon) {
-						if (pokemon.getStat('spa', false, true) > pokemon.getStat('atk', false, true)) move.category = 'Special';
-					},
+				},
+			});
+			else if (source.getStat('spa', false, true) > source.getStat('atk', false, true))
+			Object.assign(target.side.slotConditions[target.position]['futuremove'], {
+				move: 'propheticasteroid',
+				source: source,
+				moveData: {
+					id: 'propheticasteroid',
+					name: "Prophetic Asteroid",
+					accuracy: 100,
+					basePower: 140,
+					category: "Special",
+					priority: 0,
+					flags: {},
+					effectType: 'Move',
+					isFutureMove: true,
+					type: 'Rock',
 				},
 			});
 			this.add('-start', source, 'Prophetic Asteroid');
