@@ -13182,7 +13182,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				move.heal = [1, 4];
 				move.infiltrates = true;
 			} else if (rand < 6) {
-				move.basePower = 40;
+				move.basePower = 50;
 			} else if (rand < 9) {
 				move.basePower = 80;
 			} else {
