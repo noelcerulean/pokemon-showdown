@@ -1057,9 +1057,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	meganium: {
-		randomBattleMoves: ["aromatherapy", "dragontail", "gigadrain", "leechseed", "lightscreen", "reflect", "synthesis", "toxic"],
-		randomDoubleBattleMoves: ["dragontail", "energyball", "healpulse", "leafstorm", "leechseed", "protect", "toxic"],
-		tier: "(PU)",
+		randomBattleMoves: ["aromatherapy", "dragondance", "dragontail", "earthpower", "earthquake", "gigadrain", "leechseed", "lightscreen", "petalblizzard", "protect", "reflect", "sleeppowder", "synthesis", "toxic", "wish"],
+		randomDoubleBattleMoves: ["dragontail", "earthpower", "earthquake", "energyball", "healpulse", "leafstorm", "leechseed", "petalblizzard", "protect", "sleeppowder", "toxic"],
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	cyndaquil: {
