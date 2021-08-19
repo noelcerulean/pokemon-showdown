@@ -53237,6 +53237,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			return: ["7M", "6M", "5M"],
 			round: ["8M", "7M", "6M", "5M"],
 			safeguard: ["8M", "7M", "6M", "5M"],
+			sandstorm: ["7M"],
 			screech: ["8M"],
 			secretpower: ["6M"],
 			seedbomb: ["8M", "7T", "7E", "6T", "6E", "5T", "5E"],
