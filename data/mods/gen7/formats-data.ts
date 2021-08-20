@@ -1770,7 +1770,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	mawile: {
 		randomBattleMoves: ["ironhead", "knockoff", "playrough", "stealthrock", "suckerpunch", "swordsdance"],
 		randomDoubleBattleMoves: ["ironhead", "knockoff", "playrough", "protect", "suckerpunch", "swordsdance"],
-		tier: "(PU)",
+		tier: "NU",
 		doublesTier: "(DUU)",
 	},
 	mawilemega: {
@@ -3918,7 +3918,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	trevenant: {
-		randomBattleMoves: ["cursedroots", "earthquake", "hornleech", "leechseed", "poisonjab", "rockslide", "shadowsneak", "strengthsap", "trickroom", "willowwisp", "woodhammer"],
+		randomBattleMoves: ["cursedroots", "earthquake", "hornleech", "leechseed", "poisonjab", "rockslide", "shadowsneak", "strengthsap", "trickroom", "willowisp", "woodhammer"],
 		randomDoubleBattleMoves: ["cursedroots", "hornleech", "leechseed", "protect", "rockslide", "shadowsneak", "strengthsap", "trickroom", "willowisp", "woodhammer"],
 		tier: "UU",
 		doublesTier: "(DUU)",
