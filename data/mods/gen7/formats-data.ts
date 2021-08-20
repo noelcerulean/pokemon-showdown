@@ -1988,7 +1988,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	solrock: {
-		randomBattleMoves: ["cosmicspin", "earthquake", "flarebliz", "morningsun", "propheticasteroid", "rapidspin", "rockslide", "stealthrock", "stoneedge", "willowisp", "zenheadbutt"],
+		randomBattleMoves: ["cosmicspin", "earthquake", "flareblitz", "morningsun", "propheticasteroid", "rapidspin", "rockslide", "stealthrock", "stoneedge", "willowisp", "zenheadbutt"],
 		randomDoubleBattleMoves: ["cosmicspin", "helpinghand", "protect", "rockslide", "stealthrock", "stoneedge", "willowisp", "zenheadbutt"],
 		tier: "UUBL",
 		doublesTier: "(DUU)",
