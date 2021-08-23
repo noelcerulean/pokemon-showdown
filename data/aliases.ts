@@ -350,6 +350,8 @@ export const Aliases: {[alias: string]: string} = {
 	totemkommoo: "Kommo-o-Totem",
 
 	// cosmetic formes
+	trapinchhat: "Trapinch",
+
 	alcremierubycream: "Alcremie",
 	alcremiematchacream: "Alcremie",
 	alcremiemintcream: "Alcremie",
