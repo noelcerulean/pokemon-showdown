@@ -5848,6 +5848,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		evos: ["Vibrava"],
 		eggGroups: ["Bug", "Dragon"],
+		cosmeticFormes: ["Trapinch-Hat"],
+		formeOrder: ["Trapinch", "Trapinch-Hat"],
 	},
 	vibrava: {
 		num: 329,
