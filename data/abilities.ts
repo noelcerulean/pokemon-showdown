@@ -47,6 +47,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 91,
 	},
+	adrenalize: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (attacker.hp <= attacker.maxhp / 4) {
+				this.debug('Adrenalize boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (attacker.hp <= attacker.maxhp / 4) {
+				this.debug('Adrenalize boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Adrenalize",
+		rating: 2,
+		num: -508,
+	},
 	aerilate: {
 		onModifyTypePriority: -1,
 		onModifyType(move, pokemon) {

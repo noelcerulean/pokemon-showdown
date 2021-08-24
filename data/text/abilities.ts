@@ -8,6 +8,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon's moves that match one of its types have a same-type attack bonus (STAB) of 2 instead of 1.5.",
 		shortDesc: "This Pokemon's same-type attack bonus (STAB) is 2 instead of 1.5.",
 	},
+	adrenalize: {
+		name: "Adrenalize",
+		desc: "When this Pokemon has 1/4 or less of its maximum HP, rounded down, its attacking stats are multiplied by 1.5.",
+		shortDesc: "At 1/4 or less of its max HP, this Pokemon's attacking stats are 1.5x.",
+	},
 	aerilate: {
 		name: "Aerilate",
 		desc: "This Pokemon's Normal-type moves become Flying-type moves and have their power multiplied by 1.2. This effect comes after other effects that change a move's type, but before Ion Deluge and Electrify's effects.",

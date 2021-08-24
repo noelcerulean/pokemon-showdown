@@ -684,9 +684,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	hitmonchan: {
-		randomBattleMoves: ["bulkup", "drainpunch", "firepunch", "icepunch", "machpunch", "rapidspin"],
-		randomDoubleBattleMoves: ["drainpunch", "fakeout", "firepunch", "icepunch", "machpunch", "protect"],
-		tier: "PU",
+		randomBattleMoves: ["bulkup", "drainpunch", "firepunch", "icepunch", "machpunch", "meteormash", "onetwopunch", "rapidspin", "shadowpunch", "suckerpunch"],
+		randomDoubleBattleMoves: ["drainpunch", "fakeout", "firepunch", "icepunch", "machpunch", "meteormash", "onetwopunch", "protect", "shadowpunch", "suckerpunch"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	hitmontop: {
