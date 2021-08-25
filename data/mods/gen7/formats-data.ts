@@ -2765,7 +2765,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	shayminsky: {
 		randomBattleMoves: ["airslash", "earthpower", "hiddenpowerice", "leechseed", "seedflare", "substitute"],
 		randomDoubleBattleMoves: ["airslash", "earthpower", "hiddenpowerice", "protect", "rest", "seedflare", "tailwind"],
-		tier: "Uber",
+		tier: "OU",
 		doublesTier: "DUU",
 	},
 	arceus: {
@@ -4515,7 +4515,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	tapulele: {
 		randomBattleMoves: ["calmmind", "focusblast", "hiddenpowerfire", "moonblast", "psychic", "psyshock", "taunt"],
 		randomDoubleBattleMoves: ["dazzlinggleam", "focusblast", "moonblast", "protect", "psychic", "taunt"],
-		tier: "OU",
+		tier: "Uber",
 		doublesTier: "DOU",
 	},
 	tapubulu: {

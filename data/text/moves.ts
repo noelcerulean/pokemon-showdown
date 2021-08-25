@@ -96,8 +96,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	airslash: {
 		name: "Air Slash",
-		desc: "Has a 30% chance to make the target flinch.",
-		shortDesc: "30% chance to make the target flinch.",
+		desc: "Has a 20% chance to lower the target's Speed by 1 stage.",
+		shortDesc: "20% chance to lower the target's Speed by 1.",
 	},
 	alloutpummeling: {
 		name: "All-Out Pummeling",
@@ -1097,8 +1097,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	darkpulse: {
 		name: "Dark Pulse",
-		desc: "Has a 20% chance to make the target flinch.",
-		shortDesc: "20% chance to make the target flinch.",
+		desc: "Has a 20% chance to lower the target's Special Attack by 1 stage.",
+		shortDesc: "20% chance to lower target's Sp. Atk by 1.",
 	},
 	darkvoid: {
 		name: "Dark Void",
@@ -2994,8 +2994,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	iciclecrash: {
 		name: "Icicle Crash",
-		desc: "Has a 30% chance to make the target flinch.",
-		shortDesc: "30% chance to make the target flinch.",
+		desc: "Has a 10% chance to freeze the target.",
+		shortDesc: "10% chance to freeze the target.",
 	},
 	iciclespear: {
 		name: "Icicle Spear",
@@ -3109,8 +3109,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	ironhead: {
 		name: "Iron Head",
-		desc: "Has a 30% chance to make the target flinch.",
-		shortDesc: "30% chance to make the target flinch.",
+		desc: "Has a 20% chance to lower the target's Defense by 1 stage.",
+		shortDesc: "20% chance to lower the target's Defense by 1.",
 	},
 	irontail: {
 		name: "Iron Tail",
@@ -4894,14 +4894,11 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	rockslide: {
 		name: "Rock Slide",
-		desc: "Has a 30% chance to make the target flinch.",
-		shortDesc: "30% chance to make the foe(s) flinch.",
+		desc: "Has a 20% chance to lower the target's Speed by 1 stage.",
+		shortDesc: "20% chance to lower the target's Speed by 1.",
 		gen1: {
 			desc: "No additional effect.",
 			shortDesc: "No additional effect.",
-		},
-		gen2: {
-			shortDesc: "30% chance to make the target flinch.",
 		},
 	},
 	rocksmash: {
@@ -6643,8 +6640,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	waterfall: {
 		name: "Waterfall",
-		desc: "Has a 20% chance to make the target flinch.",
-		shortDesc: "20% chance to make the target flinch.",
+		desc: "Has a 20% chance to lower the target's Attack by 1 stage.",
+		shortDesc: "20% chance to lower the target's Attack by 1.",
 		gen3: {
 			desc: "No additional effect.",
 			shortDesc: "No additional effect.",
@@ -6883,8 +6880,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	zenheadbutt: {
 		name: "Zen Headbutt",
-		desc: "Has a 20% chance to make the target flinch.",
-		shortDesc: "20% chance to make the target flinch.",
+		desc: "Has a 20% chance to lower the target's Attack by 1 stage.",
+		shortDesc: "20% chance to lower the target's Attack by 1.",
 	},
 	zingzap: {
 		name: "Zing Zap",

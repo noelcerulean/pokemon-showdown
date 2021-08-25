@@ -295,8 +295,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1, mirror: 1, distance: 1},
 		secondary: {
-			chance: 30,
-			volatileStatus: 'flinch',
+			chance: 20,
+			boosts: {
+				spe: -1,
+			},
 		},
 		target: "any",
 		type: "Flying",
@@ -3039,7 +3041,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1, pulse: 1, mirror: 1, distance: 1},
 		secondary: {
 			chance: 20,
-			volatileStatus: 'flinch',
+			boosts: {
+				spa: -1,
+			},
 		},
 		target: "any",
 		type: "Dark",
@@ -8948,7 +8952,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	iciclecrash: {
 		num: 556,
-		accuracy: 90,
+		accuracy: 95,
 		basePower: 85,
 		category: "Physical",
 		name: "Icicle Crash",
@@ -8956,8 +8960,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
-			chance: 30,
-			volatileStatus: 'flinch',
+			chance: 10,
+			status: 'frz',
 		},
 		target: "normal",
 		type: "Ice",
@@ -9229,8 +9233,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
-			chance: 30,
-			volatileStatus: 'flinch',
+			chance: 20,
+			boosts: {
+				def: -1,
+			},
 		},
 		target: "normal",
 		type: "Steel",
@@ -14445,7 +14451,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	rockslide: {
 		num: 157,
-		accuracy: 90,
+		accuracy: 95,
 		basePower: 75,
 		category: "Physical",
 		name: "Rock Slide",
@@ -14453,8 +14459,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
-			chance: 30,
-			volatileStatus: 'flinch',
+			chance: 20,
+			boosts: {
+				spe: -1,
+			},
 		},
 		target: "allAdjacentFoes",
 		type: "Rock",
@@ -19226,7 +19234,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	waterfall: {
 		num: 127,
 		accuracy: 100,
-		basePower: 80,
+		basePower: 85,
 		category: "Physical",
 		name: "Waterfall",
 		pp: 15,
@@ -19234,7 +19242,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
 			chance: 20,
-			volatileStatus: 'flinch',
+			boosts: {
+				atk: -1,
+			},
 		},
 		target: "normal",
 		type: "Water",
@@ -19876,7 +19886,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
 			chance: 20,
-			volatileStatus: 'flinch',
+			boosts: {
+				atk: -1,
+			},
 		},
 		target: "normal",
 		type: "Psychic",
