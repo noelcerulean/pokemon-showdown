@@ -1771,7 +1771,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	inflate: {
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Inflate');
-			pokemon.addVolatile('magnetrise')
+			pokemon.addVolatile('magnetrise');
 		},
 		onModifyDefPriority: 6,
 		onModifyDef(def) {
