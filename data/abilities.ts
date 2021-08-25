@@ -1774,7 +1774,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			return this.chainModify(1.5);
 		},
 		onDamagingHit(damage, target, source, move) {
-			target.addVolatile('gastroacid'), '[silent]';
+			target.addVolatile('gastroacid');
 			this.add('-end', target, 'Inflate');
 		},
 		onEnd(pokemon) {
