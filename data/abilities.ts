@@ -1770,12 +1770,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	inflate: {
 		onStart(pokemon) {
-			this.add('-ability', pokemon, 'Inflate');
 			this.boost({def: 1}, pokemon);
 		},
 		onDamagingHit(damage, target, source, move) {
-			this.add('-end', target, 'Inflate');
 			this.boost({def: -1}, target);
+			this.add('-end', target, 'Inflate');
 			target.addVolatile('gastroacid');
 		},
 		isBreakable: true,

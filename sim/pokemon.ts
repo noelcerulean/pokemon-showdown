@@ -1980,7 +1980,7 @@ export class Pokemon {
 		if (notImmune) return true;
 		if (!message) return false;
 		if (notImmune === null) {
-			this.battle.add('-immune', this, '[from] ability: Levitate');
+			this.battle.add('-immune', this);
 		} else {
 			this.battle.add('-immune', this);
 		}
