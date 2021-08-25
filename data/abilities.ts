@@ -1771,6 +1771,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	inflate: {
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Inflate');
+			pokemon.addVolatile('magnetrise')
 		},
 		onModifyDefPriority: 6,
 		onModifyDef(def) {
@@ -1779,9 +1780,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onDamagingHit(damage, target, source, move) {
 			target.addVolatile('gastroacid');
 			this.add('-end', target, 'Inflate');
-		},
-		onEnd(pokemon) {
-			pokemon.removeVolatile('gastroacid');
 		},
 		isBreakable: true,
 		name: "Inflate",
