@@ -1769,6 +1769,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 151,
 	},
 	inflate: {
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Inflate');
+		},
 		onModifyDefPriority: 6,
 		onModifyDef(def) {
 			return this.chainModify(1.5);
