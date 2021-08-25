@@ -1774,7 +1774,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onDamagingHit(damage, target, source, move) {
 			this.boost({def: -1}, target);
-			this.add('-end', target, 'Inflate');
 			target.addVolatile('gastroacid');
 		},
 		isBreakable: true,

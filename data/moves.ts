@@ -16078,7 +16078,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			noCopy: true,
 			onStart(pokemon) {
 				let applies = false;
-				if (pokemon.hasType('Flying') || pokemon.hasAbility('levitate')) applies = true;
+				if (pokemon.hasType('Flying') || pokemon.hasAbility(['levitate', 'inflate'])) applies = true;
 				if (pokemon.hasItem('ironball') || pokemon.volatiles['ingrain'] ||
 					this.field.getPseudoWeather('gravity')) applies = false;
 				if (pokemon.removeVolatile('fly') || pokemon.removeVolatile('bounce')) {
@@ -16619,7 +16619,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onSwitchIn(pokemon) {
 				if (!pokemon.isGrounded()) return;
 				if (pokemon.hasItem('heavydutyboots')) return;
-				if (pokemon.hasAbility('inflate')) return;
 				const damageAmounts = [0, 3, 4, 6]; // 1/8, 1/6, 1/4
 				this.damage(damageAmounts[this.effectState.layers] * pokemon.maxhp / 24);
 			},
@@ -17022,7 +17021,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 			onSwitchIn(pokemon) {
 				if (!pokemon.isGrounded()) return;
-				if (pokemon.hasAbility('inflate')) return;
 				if (pokemon.hasItem('heavydutyboots')) return;
 				this.add('-activate', pokemon, 'move: Sticky Web');
 				this.boost({spe: -1}, pokemon, this.effectState.source, this.dex.getActiveMove('stickyweb'));
@@ -18622,7 +18620,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 			onSwitchIn(pokemon) {
 				if (!pokemon.isGrounded()) return;
-				if (pokemon.hasAbility('inflate')) return;
 				if (pokemon.hasType('Poison')) {
 					this.add('-sideend', pokemon.side, 'move: Toxic Spikes', '[of] ' + pokemon);
 					pokemon.side.removeSideCondition('toxicspikes');

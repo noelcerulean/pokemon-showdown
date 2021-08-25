@@ -621,7 +621,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		shortDesc: "This Pokemon is airborne and has 1.5x Defense on switch-in until hit by a damaging move.",
 
 		start: "  [POKEMON] inflated itself huge!",
-		end: "  [POKEMON] deflated back to its normal size!",
+		activate: "  [POKEMON] deflated back to its normal size!",
 	},
 	innardsout: {
 		name: "Innards Out",
