@@ -1768,6 +1768,23 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2.5,
 		num: 151,
 	},
+	inflate: {
+		onModifyDefPriority: 6,
+		onModifyDef(def) {
+			return this.chainModify(1.5);
+		},
+		onDamagingHit(damage, target, source, move) {
+			target.addVolatile('gastroacid'), '[silent]';
+			this.add('-end', target, 'Inflate')
+		},
+		onEnd(pokemon) {
+			pokemon.removeVolatile('gastroacid');
+		},
+		isBreakable: true,
+		name: "Inflate",
+		rating: 3.5,
+		num: -509,
+	},
 	innardsout: {
 		name: "Innards Out",
 		onDamagingHitOrder: 1,
