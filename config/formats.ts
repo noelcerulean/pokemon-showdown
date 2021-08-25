@@ -2099,7 +2099,7 @@ export const Formats: FormatList = [
 		mod: 'gen7',
 		searchShow: false,
 		ruleset: ['[Gen 7] OU'],
-		banlist: ['OU', 'UUBL', 'Drizzle', 'Drought', 'Kommonium Z', 'Mewnium Z'],
+		banlist: ['OU', 'UUBL', 'Drizzle', 'Drought', 'Mewnium Z'],
 	},
 	{
 		name: "[Gen 7] RU",
