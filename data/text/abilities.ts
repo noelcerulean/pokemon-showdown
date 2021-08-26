@@ -710,6 +710,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			desc: "This Pokemon is immune to Ground-type attacks and the effects of Spikes and the Arena Trap Ability.",
 			shortDesc: "This Pokemon is immune to Ground.",
 		},
+		start: "  [POKEMON] is levitating!",
 	},
 	libero: {
 		name: "Libero",

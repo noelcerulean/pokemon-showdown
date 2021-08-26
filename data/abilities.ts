@@ -1932,6 +1932,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	levitate: {
 		// airborneness implemented in sim/pokemon.js:Pokemon#isGrounded
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Levitate');
+		},
 		isBreakable: true,
 		name: "Levitate",
 		rating: 3.5,
