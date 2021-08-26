@@ -620,8 +620,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "At the start of battle, this Pokemon is immune to Ground-type attacks and the effects of Spikes, Toxic Spikes, Sticky Web, and the Arena Trap Ability. The effects of Gravity, Ingrain, Smack Down, Thousand Arrows, and Iron Ball nullify the immunity. Additionally, this pokemon's defense is multiplied by 1.5x. Upon being hit by a damaging move, this ability is nullified.",
 		shortDesc: "This Pokemon is airborne and has 1.5x Defense on switch-in until hit by a damaging move.",
 
-		start: "  [POKEMON] inflated itself huge!",
-		activate: "  [POKEMON] deflated back to its normal size!",
+		start: "  [POKEMON]'s body changed in size!",
+		activate: "  [POKEMON]'s body changed in size!",
 	},
 	innardsout: {
 		name: "Innards Out",
