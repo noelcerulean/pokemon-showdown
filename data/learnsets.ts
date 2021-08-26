@@ -5547,7 +5547,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{generation: 6, level: 5, abilities: ["inflate"], moves: ["wish", "sing", "boomburst", "disarmingvoice"]},
+			{generation: 6, level: 5, isHidden: true, moves: ["wish", "sing", "boomburst", "disarmingvoice"]},
 		],
 		encounters: [
 			{generation: 1, level: 3},

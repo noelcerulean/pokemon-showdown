@@ -275,10 +275,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	wigglytuff: {
-		randomBattleMoves: ["dazzlinggleam", "fireblast", "healbell", "lightscreen", "reflect", "stealthrock"],
-		randomDoubleBattleMoves: ["dazzlinggleam", "fireblast", "hypervoice", "protect", "stealthrock", "thunderwave"],
-		tier: "(PU)",
-		doublesTier: "(DUU)",
+		randomBattleMoves: ["fireblast", "healbell", "hypervoice", "icebeam", "lightscreen", "moonblast", "moonlight", "protect", "psychic", "reflect", "seismictoss", "stealthrock", "thunderwave", "toxic", "wish"],
+		randomDoubleBattleMoves: ["boomburst", "fireblast", "followme", "lightscreen", "moonblast", "protect", "psychic", "reflect", "stealthrock", "thunderwave"],
+		tier: "UUBL",
+		doublesTier: "DUU",
 	},
 	zubat: {
 		tier: "LC",
