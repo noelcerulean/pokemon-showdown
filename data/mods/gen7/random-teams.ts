@@ -556,7 +556,7 @@ export class RandomGen7Teams extends RandomTeams {
 			);
 		case 'Competitive':
 			return (!counter.get('Special') || moves.has('sleeptalk') && moves.has('rest'));
-		case 'Compound Eyes': case 'No Guard':
+		case 'Compound Eyes': case 'No Guard': case 'Illuminate':
 			return !counter.get('inaccurate');
 		case 'Contrary': case 'Iron Fist': case 'Skill Link': case 'Strong Jaw':
 			return !counter.get(toID(ability));

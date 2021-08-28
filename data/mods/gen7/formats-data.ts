@@ -2314,7 +2314,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	deoxysdefense: {
 		randomBattleMoves: ["knockoff", "recover", "seismictoss", "spikes", "stealthrock", "taunt", "toxic"],
 		randomDoubleBattleMoves: ["lightscreen", "protect", "recover", "reflect", "seismictoss", "stealthrock", "taunt", "trickroom"],
-		tier: "Uber",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	deoxysspeed: {
@@ -2624,9 +2624,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	lumineon: {
-		randomBattleMoves: ["defog", "icebeam", "scald", "toxic", "uturn"],
-		randomDoubleBattleMoves: ["defog", "icebeam", "protect", "scald", "tailwind", "toxic", "uturn"],
-		tier: "(PU)",
+		randomBattleMoves: ["defog", "haze", "healbell", "hurricane", "hydropump", "icebeam", "scald", "toxic", "uturn"],
+		randomDoubleBattleMoves: ["defog", "icebeam", "hurricane", "hydropump", "protect", "scald", "tailwind", "toxic", "uturn"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	snover: {
@@ -3724,8 +3724,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	floetteeternal: {
 		randomBattleMoves: ["hiddenpowerfire", "hiddenpowerground", "lightofruin", "moonblast", "psychic"],
 		randomDoubleBattleMoves: ["calmmind", "dazzlinggleam", "hiddenpowerfire", "lightofruin", "protect", "psychic"],
-		isNonstandard: "Unobtainable",
-		tier: "Illegal",
+		tier: "OU",
 	},
 	florges: {
 		randomBattleMoves: ["aromatherapy", "defog", "moonblast", "synthesis", "toxic", "wish"],
