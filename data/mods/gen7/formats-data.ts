@@ -1271,10 +1271,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	girafarig: {
-		randomBattleMoves: ["hypervoice", "nastyplot", "psychic", "psyshock", "substitute", "thunderbolt"],
-		randomDoubleBattleMoves: ["hypervoice", "nastyplot", "protect", "psychic", "psyshock", "thunderbolt"],
-		tier: "(PU)",
-		doublesTier: "(DUU)",
+		randomBattleMoves: ["crunch", "earthquake", "jumpkick", "psychicfangs", "return", "swordsdance", "trick"],
+		randomDoubleBattleMoves: ["crunch", "earthquake", "jumpkick", "protect", "psychicfangs", "return", "swordsdance"],
+		tier: "UUBL",
+		doublesTier: "DOU",
 	},
 	pineco: {
 		tier: "LC",
