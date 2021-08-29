@@ -1534,7 +1534,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	blaziken: {
 		randomBattleMoves: ["fireblast", "hiddenpowerice", "highjumpkick", "lightningkick", "knockoff", "protect"],
-		tier: "Uber",
+		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
 	blazikenmega: {
@@ -3555,7 +3555,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	landorus: {
 		randomBattleMoves: ["calmmind", "earthpower", "focusblast", "knockoff", "psychic", "rockpolish", "rockslide", "sludgewave", "stealthrock"],
 		randomDoubleBattleMoves: ["earthpower", "focusblast", "hiddenpowerice", "protect", "psychic", "rockslide", "sludgebomb"],
-		tier: "Uber",
+		tier: "OU",
 		doublesTier: "DUU",
 	},
 	landorustherian: {
