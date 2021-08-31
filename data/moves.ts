@@ -13216,10 +13216,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 			} else if (rand < 80) {
 				move.heal = [4, 4];
 				move.infiltrates = true;
-				move.target = 'all';
 			} else {
 				move.basePower = 250;
-				move.target = 'all';
 				move.selfdestruct = 'ifHit';
 			}
 		},
