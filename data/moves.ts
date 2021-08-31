@@ -12988,7 +12988,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
-			chance: 100,
+			chance: 10,
 			status: 'frz',
 		},
 		target: "allAdjacentFoes",
