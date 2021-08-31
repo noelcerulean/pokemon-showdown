@@ -13200,16 +13200,27 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		onModifyMove(move, pokemon, target) {
-			const rand = this.random(10);
+			const rand = this.random(100);
 			if (rand < 2) {
 				move.heal = [1, 4];
 				move.infiltrates = true;
+			} else if (rand < 4) {
+				move.basePower = 65;
 			} else if (rand < 6) {
-				move.basePower = 40;
-			} else if (rand < 9) {
 				move.basePower = 80;
-			} else {
+			} else if (rand < 8) {
 				move.basePower = 120;
+			} else if (rand < 40) {
+				move.basePower = 120;
+				move.type = 'Ice';
+			} else if (rand < 80) {
+				move.heal = [4, 4];
+				move.infiltrates = true;
+				move.target = 'all';
+			} else {
+				move.basePower = 250;
+				move.target = 'all';
+				move.selfdestruct = 'ifHit';
 			}
 		},
 		secondary: null,
