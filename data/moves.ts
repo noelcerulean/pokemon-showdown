@@ -13213,12 +13213,24 @@ export const Moves: {[moveid: string]: MoveData} = {
 			} else if (rand < 40) {
 				move.basePower = 120;
 				move.type = 'Ice';
+				move.secondary = {
+					chance: 100,
+					status: 'frz',
+				};
 			} else if (rand < 80) {
 				move.heal = [4, 4];
 				move.infiltrates = true;
+				move.secondary = {
+					chance: 100,
+					volatileStatus: 'flinch',
+				};
 			} else {
 				move.basePower = 250;
 				move.selfdestruct = 'ifHit';
+				move.secondary = {
+					chance: 100,
+					status: 'brn',
+				};
 			}
 		},
 		secondary: null,
