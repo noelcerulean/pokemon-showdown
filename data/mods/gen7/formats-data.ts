@@ -1392,9 +1392,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	delibird: {
-		randomBattleMoves: ["destinybond", "freezedry", "icywind", "rapidspin", "spikes"],
-		randomDoubleBattleMoves: ["aerialace", "brickbreak", "fakeout", "icepunch", "iceshard", "protect"],
-		tier: "(PU)",
+		randomBattleMoves: ["airslash", "destinybond", "freezedry", "icebeam", "iciclecrash", "rapidspin", "spikes", "stealthrock", "taunt"],
+		randomDoubleBattleMoves: ["aerialace", "brickbreak", "fakeout", "iciclecrash", "iceshard", "protect"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	mantyke: {

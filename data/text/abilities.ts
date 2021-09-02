@@ -860,6 +860,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon is immune to Electric-type moves and raises its Speed by 1 stage when hit by an Electric-type move.",
 		shortDesc: "This Pokemon's Speed is raised 1 stage if hit by an Electric move; Electric immunity.",
 	},
+	mountaineer: {
+		name: "Mountaineer",
+		shortDesc: "On switch-in, this Pokemon avoids all Rock-type attacks and Stealth Rock.",
+	},
 	moxie: {
 		name: "Moxie",
 		desc: "This Pokemon's Attack is raised by 1 stage if it attacks and knocks out another Pokemon.",
@@ -1769,10 +1773,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 
 	// CAP
-	mountaineer: {
-		name: "Mountaineer",
-		shortDesc: "On switch-in, this Pokemon avoids all Rock-type attacks and Stealth Rock.",
-	},
 	rebound: {
 		name: "Rebound",
 		desc: "On switch-in, this Pokemon blocks certain status moves and instead uses the move against the original user.",
