@@ -27901,7 +27901,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			iciclecrash: ["7L42"],
 			iciclespear: ["8M"],
 			icywind: ["8M", "7T", "7E", "7V", "6T", "6E", "5T", "5E", "4T", "3T"],
-			magiccoat: ["7T"], 
+			magiccoat: ["7T"],
 			megakick: ["8M", "3T"],
 			megapunch: ["8M", "3T"],
 			memento: ["8E"],
