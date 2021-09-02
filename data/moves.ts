@@ -13201,36 +13201,24 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1, mirror: 1},
 		onModifyMove(move, pokemon, target) {
 			const rand = this.random(100);
-			if (rand < 2) {
+			if (rand < 15) {
 				move.heal = [1, 4];
 				move.infiltrates = true;
-			} else if (rand < 4) {
+			} else if (rand < 50) {
 				move.basePower = 65;
-			} else if (rand < 6) {
+			} else if (rand < 75) {
 				move.basePower = 80;
-			} else if (rand < 8) {
+			} else if (rand < 90) {
 				move.basePower = 120;
-			} else if (rand < 40) {
+			} else if (rand < 95) {
 				move.basePower = 120;
 				move.type = 'Ice';
-				move.secondary = {
-					chance: 100,
-					status: 'frz',
-				};
-			} else if (rand < 80) {
+			} else if (rand < 97) {
 				move.heal = [4, 4];
 				move.infiltrates = true;
-				move.secondary = {
-					chance: 100,
-					volatileStatus: 'flinch',
-				};
 			} else {
 				move.basePower = 250;
 				move.selfdestruct = 'ifHit';
-				move.secondary = {
-					chance: 100,
-					status: 'brn',
-				};
 			}
 		},
 		secondary: null,
