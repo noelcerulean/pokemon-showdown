@@ -352,6 +352,7 @@ export const Aliases: {[alias: string]: string} = {
 	// cosmetic formes
 	trapinchhat: "Trapinch",
 	hypnohappy: "Hypno",
+	hypnohappyf: "Hypno",
 
 	alcremierubycream: "Alcremie",
 	alcremiematchacream: "Alcremie",
