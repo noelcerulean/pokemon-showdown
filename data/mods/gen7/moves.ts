@@ -530,7 +530,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	lightofruin: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
 	lightthatburnsthesky: {
 		inherit: true,

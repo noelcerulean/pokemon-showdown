@@ -293,6 +293,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1.5,
 		num: 123,
 	},
+	bagwormicade: {
+		onSourceModifyDamage(damage, source, target, move) {
+			if (target.getMoveHitData(move).typeMod > 0) {
+				this.debug('Bagwormicade neutralize');
+				return this.chainModify(0.5);
+			}
+		},
+		isBreakable: true,
+		name: "Bagwormicade",
+		rating: 5,
+		num: -510,
+	},
 	ballfetch: {
 		name: "Ball Fetch",
 		rating: 0,

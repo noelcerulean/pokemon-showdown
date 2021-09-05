@@ -1069,9 +1069,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	typhlosion: {
-		randomBattleMoves: ["eruption", "extrasensory", "fireblast", "focusblast", "hiddenpowergrass"],
-		randomDoubleBattleMoves: ["eruption", "extrasensory", "focusblast", "heatwave", "hiddenpowergrass"],
-		tier: "NU",
+		randomBattleMoves: ["earthpower", "eruption", "extrasensory", "fireblast", "focusblast", "hiddenpowergrass"],
+		randomDoubleBattleMoves: ["earthpower", "eruption", "extrasensory", "focusblast", "heatwave", "hiddenpowergrass"],
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	totodile: {
@@ -2423,21 +2423,21 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	wormadam: {
-		randomBattleMoves: ["bugbuzz", "gigadrain", "hiddenpowerrock", "leafstorm", "quiverdance"],
-		randomDoubleBattleMoves: ["bugbuzz", "gigadrain", "leafstorm", "protect", "stringshot"],
-		tier: "(PU)",
+		randomBattleMoves: ["bugbuzz", "gigadrain", "hiddenpowerrock", "leafstorm", "quiverdance", "sleeppowder", "stickyweb", "synthesis"],
+		randomDoubleBattleMoves: ["bugbuzz", "gigadrain", "leafstorm", "protect", "sleeppowder", "stickyweb"],
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	wormadamsandy: {
-		randomBattleMoves: ["earthquake", "protect", "stealthrock", "toxic"],
-		randomDoubleBattleMoves: ["earthquake", "protect", "rockblast", "stringshot", "suckerpunch"],
-		tier: "(PU)",
+		randomBattleMoves: ["earthquake", "leechlife", "protect", "shoreup", "spikes", "stealthrock", "stoneedge", "toxic"],
+		randomDoubleBattleMoves: ["earthquake", "leechlife", "protect", "rockblast", "stringshot", "suckerpunch"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	wormadamtrash: {
-		randomBattleMoves: ["flashcannon", "protect", "stealthrock", "toxic"],
-		randomDoubleBattleMoves: ["bugbuzz", "flashcannon", "protect", "stringshot", "strugglebug", "suckerpunch"],
-		tier: "(PU)",
+		randomBattleMoves: ["flashcannon", "protect", "recover", "stealthrock", "thunderwave", "toxic"],
+		randomDoubleBattleMoves: ["bugbuzz", "flashcannon", "protect", "recover", "stringshot", "strugglebug", "suckerpunch"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	mothim: {

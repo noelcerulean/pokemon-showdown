@@ -98,6 +98,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		damage: "  [POKEMON] is tormented!",
 	},
+	bagwormicade: {
+		name: "Bagwormicade",
+		shortDesc: "This Pokemon receives 1/2 damage from supereffective attacks.",
+	},
 	ballfetch: {
 		name: "Ball Fetch",
 		shortDesc: "No competitive use.",
