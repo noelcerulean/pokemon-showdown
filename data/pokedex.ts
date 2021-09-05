@@ -803,7 +803,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoItem: "Thunder Stone",
 		eggGroups: ["Field", "Fairy"],
 		otherFormes: ["Raichu-Alola"],
-		formeOrder: ["Raichu", "Raichu-Alola"],
+		cosmeticFormes: ["Raichu-Jooj", "Raichu-Joojf"],
+		formeOrder: ["Raichu", "Raichu-Alola", "Raichu-Jooj", "Raichu-Joojf"],
 	},
 	raichualola: {
 		num: 26,
@@ -3277,6 +3278,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Quilava",
 		evoLevel: 36,
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Typhlosion-Volc"],
+		formeOrder: ["Typhlosion", "Typhlosion-Volc"],
 	},
 	totodile: {
 		num: 158,
