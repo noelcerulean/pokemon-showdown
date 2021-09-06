@@ -4884,8 +4884,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	rockclimb: {
 		name: "Rock Climb",
-		desc: "Has a 20% chance to confuse the target.",
-		shortDesc: "20% chance to confuse the target.",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
 	},
 	rockpolish: {
 		name: "Rock Polish",

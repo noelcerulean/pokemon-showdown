@@ -1108,9 +1108,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	ledian: {
-		randomBattleMoves: ["encore", "knockoff", "lightscreen", "reflect", "roost", "toxic", "uturn"],
-		randomDoubleBattleMoves: ["bugbuzz", "encore", "knockoff", "lightscreen", "protect", "reflect", "tailwind", "uturn"],
-		tier: "(PU)",
+		randomBattleMoves: ["encore", "firepunch", "knockoff", "icepunch", "lightscreen", "lunge", "meteormash", "onetwopunch", "reflect", "roost", "shadowpunch", "swordsdance", "toxic", "uturn"],
+		randomDoubleBattleMoves: ["bugbuzz", "encore", "firepunch", "icepunch", "knockoff", "lightscreen", "lunge", "onetwopunch", "protect", "reflect", "shadowpunch", "tailwind", "uturn"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	spinarak: {
@@ -1705,9 +1705,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	ninjask: {
-		randomBattleMoves: ["dig", "flutterstrike", "leechlife", "nightslash", "swordsdance", "uturn"],
-		randomDoubleBattleMoves: ["dig", "flutterstrike", "leechlife", "protect", "swordsdance"],
-		tier: "(PU)",
+		randomBattleMoves: ["brickbreak", "dig", "flutterstrike", "leechlife", "nightslash", "swordsdance", "uturn"],
+		randomDoubleBattleMoves: ["brickbreak", "dig", "flutterstrike", "leechlife", "protect", "swordsdance"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	shedinja: {
@@ -2033,9 +2033,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	armaldo: {
-		randomBattleMoves: ["earthquake", "knockoff", "rapidspin", "stealthrock", "stoneedge", "toxic", "xscissor"],
-		randomDoubleBattleMoves: ["knockoff", "protect", "rockslide", "stoneedge", "stringshot", "swordsdance", "xscissor"],
-		tier: "(PU)",
+		randomBattleMoves: ["drillrun", "ironhead", "knockoff", "rapidspin", "rockclimb", "stealthrock", "toxic", "xscissor"],
+		randomDoubleBattleMoves: ["drillrun", "knockoff", "protect", "rockslide", "stringshot", "swordsdance", "xscissor"],
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	feebas: {
@@ -2243,7 +2243,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	latiasmega: {
 		randomBattleMoves: ["calmmind", "defog", "dracometeor", "psyshock", "roost", "surf"],
 		randomDoubleBattleMoves: ["dragonpulse", "healpulse", "helpinghand", "protect", "psychic", "tailwind"],
-		tier: "OU",
+		tier: "Uber",
 		doublesTier: "(DUU)",
 	},
 	latios: {
@@ -2255,7 +2255,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	latiosmega: {
 		randomBattleMoves: ["calmmind", "dracometeor", "hiddenpowerfire", "psyshock", "roost"],
 		randomDoubleBattleMoves: ["dracometeor", "dragonpulse", "hiddenpowerfire", "protect", "psyshock", "tailwind"],
-		tier: "UUBL",
+		tier: "Uber",
 		doublesTier: "(DUU)",
 	},
 	kyogre: {
