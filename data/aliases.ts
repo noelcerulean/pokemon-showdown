@@ -356,6 +356,7 @@ export const Aliases: {[alias: string]: string} = {
 	typhlosionvolc: "Typhlosion",
 	raichujooj: "Raichu",
 	raichujoojf: "Raichu",
+	blacephalondisco: "Blacephalon",
 
 	alcremierubycream: "Alcremie",
 	alcremiematchacream: "Alcremie",
