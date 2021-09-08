@@ -1608,7 +1608,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	ludicolo: {
 		randomBattleMoves: ["focusblast", "gigadrain", "hydropump", "icebeam", "raindance", "scald"],
 		randomDoubleBattleMoves: ["fakeout", "gigadrain", "hydropump", "icebeam", "protect", "raindance"],
-		tier: "PU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	seedot: {
