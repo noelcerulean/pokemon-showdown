@@ -2330,9 +2330,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	torterra: {
-		randomBattleMoves: ["earthquake", "rockpolish", "stealthrock", "stoneedge", "synthesis", "woodhammer"],
+		randomBattleMoves: ["earthquake", "protect", "shellsmash", "stealthrock", "stoneedge", "synthesis", "toxic", "woodhammer"],
 		randomDoubleBattleMoves: ["earthquake", "protect", "rockpolish", "rockslide", "stoneedge", "wideguard", "woodhammer"],
-		tier: "(PU)",
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	chimchar: {
