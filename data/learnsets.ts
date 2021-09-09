@@ -42354,6 +42354,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			rest: ["7M", "6M", "5M", "4M"],
 			return: ["7M", "6M", "5M", "4M"],
 			rockclimb: ["4M"],
+			rockslide: ["7M"],
 			rocksmash: ["6M", "5M", "4M"],
 			round: ["7M", "6M", "5M"],
 			safeguard: ["7M", "6M", "5M", "4M"],
