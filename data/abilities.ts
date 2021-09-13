@@ -4138,6 +4138,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 164,
 	},
+	terraforming: {
+		onStart(source) {
+			this.field.addPseudoWeather('gravity');
+		},
+		name: "Terraforming",
+		rating: 4,
+		num: -511,
+	},
 	thickfat: {
 		onSourceModifyAtkPriority: 6,
 		onSourceModifyAtk(atk, attacker, defender, move) {

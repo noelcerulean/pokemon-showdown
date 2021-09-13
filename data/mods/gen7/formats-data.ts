@@ -3349,10 +3349,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	beheeyem: {
-		randomBattleMoves: ["hiddenpowerfighting", "nastyplot", "psychic", "psyshock", "signalbeam", "thunderbolt", "trick", "trickroom"],
-		randomDoubleBattleMoves: ["hiddenpowerfighting", "protect", "psychic", "recover", "signalbeam", "thunderbolt", "trick", "trickroom"],
-		tier: "(PU)",
-		doublesTier: "(DUU)",
+		randomBattleMoves: ["focusblast", "hypnosis", "nastyplot", "psychic", "psyshock", "recover", "thunder", "trickroom"],
+		randomDoubleBattleMoves: ["focusblast", "hypnosis", "nastyplot", "protect", "psychic", "psyshock", "recover", "thunder", "trickroom"],
+		tier: "OU",
+		doublesTier: "DOU",
 	},
 	litwick: {
 		tier: "LC",

@@ -1593,6 +1593,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		start: "  [POKEMON] is radiating a bursting aura!",
 	},
+	terraforming: {
+		name: "Terraforming",
+		shortDesc: "On switch-in, this Pokemon summons Gravity.",
+	},
 	thickfat: {
 		name: "Thick Fat",
 		desc: "If a Pokemon uses a Fire- or Ice-type attack against this Pokemon, that Pokemon's attacking stat is halved when calculating the damage to this Pokemon.",
