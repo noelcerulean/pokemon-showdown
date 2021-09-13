@@ -4141,6 +4141,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	terraforming: {
 		onStart(source) {
 			this.field.addPseudoWeather('gravity');
+			this.add('-ability', source, 'Terraforming');
 		},
 		name: "Terraforming",
 		rating: 4,
