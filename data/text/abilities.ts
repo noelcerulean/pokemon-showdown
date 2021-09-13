@@ -1596,6 +1596,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	terraforming: {
 		name: "Terraforming",
 		shortDesc: "On switch-in, this Pokemon summons Gravity.",
+
+		start: "  [POKEMON] is modifying the atmosphere!",
 	},
 	thickfat: {
 		name: "Thick Fat",
