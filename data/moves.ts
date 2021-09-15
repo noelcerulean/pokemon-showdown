@@ -5855,28 +5855,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		maxMove: {basePower: 130},
 		contestType: "Cute",
 	},
-	fungification: {
-		num: -513,
-		accuracy: 100,
-		basePower: 40,
-		category: "Physical",
-		name: "Fungification",
-		pp: 10,
-		priority: 0,
-		flags: {contact: 1, protect: 1, mirror: 1},
-		onHit(target) {
-			if (target.getTypes().join() === 'Grass' || !target.setType('Grass')) {
-				this.add('-fail', target, '[silent]');
-				return null;
-			}
-			this.add('-start', target, 'typechange', 'Grass');
-		},
-		volatileStatus: 'partiallytrapped',
-		secondary: null,
-		target: "normal",
-		type: "Bug",
-		contestType: "Clever",
-	},
 	furyattack: {
 		num: 31,
 		accuracy: 85,
@@ -12491,12 +12469,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Clever",
 	},
-	parasite: {
+	parasiticdrain: {
 		num: -512,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
-		name: "Parasite",
+		name: "Parasitic Drain",
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, heal: 1},
@@ -16904,6 +16882,28 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Grass",
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Beautiful",
+	},
+	sporeslash: {
+		num: -513,
+		accuracy: 100,
+		basePower: 40,
+		category: "Physical",
+		name: "Spore Slash",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		onHit(target) {
+			if (target.getTypes().join() === 'Grass' || !target.setType('Grass')) {
+				this.add('-fail', target, '[silent]');
+				return null;
+			}
+			this.add('-start', target, 'typechange', 'Grass');
+		},
+		volatileStatus: 'partiallytrapped',
+		secondary: null,
+		target: "normal",
+		type: "Bug",
+		contestType: "Clever",
 	},
 	spotlight: {
 		num: 671,

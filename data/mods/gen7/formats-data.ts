@@ -315,8 +315,8 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	parasect: {
-		randomBattleMoves: ["fungification", "leechlife", "parasite", "protect", "spore"],
-		randomDoubleBattleMoves: ["fungification", "leechlife", "parasite", "protect", "ragepowder", "spore"],
+		randomBattleMoves: ["leechlife", "parasiticdrain", "protect", "spore", "sporeslash"],
+		randomDoubleBattleMoves: ["leechlife", "parasiticdrain", "protect", "ragepowder", "spore", "sporeslash"],
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
