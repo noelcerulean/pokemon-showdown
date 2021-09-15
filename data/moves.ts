@@ -12506,7 +12506,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				const spa = target.getStat('spa', false, true);
 				const success = this.boost({atk: -1, spa: -1}, target, source, null, false, true);
 				return !!(this.heal(spa, source, target) || success);
-			};
+			}
 		},
 		secondary: null,
 		target: "normal",
