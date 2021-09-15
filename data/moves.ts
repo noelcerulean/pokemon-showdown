@@ -12491,12 +12491,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Clever",
 	},
-	parasiticplot: {
+	parasite: {
 		num: -512,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
-		name: "Parasitic Plot",
+		name: "Parasite",
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, heal: 1},

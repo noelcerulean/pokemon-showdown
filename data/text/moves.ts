@@ -2118,7 +2118,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	fungification: {
 		name: "Fungification",
 		desc: "Causes the target to become a Grass type. Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Rapid Spin or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
-		shortDesc: "Traps + damages target for 4-5 turns. Changes it to Grass.",
+		shortDesc: "Target becomes Grass; Trapped + damaged 4-5 turns.",
 	},
 	furyattack: {
 		name: "Fury Attack",
@@ -4196,10 +4196,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
 		shortDesc: "User recovers 50% of the damage dealt.",
 	},
-	parasiticplot: {
-		name: "Parasitic Plot",
+	parasite: {
+		name: "Parasite",
 		desc: "Lowers the target's Attack and Sp. Attack by 1 stage. The user restores its HP equal to the target's higher attacking stat calculated with its stat stage before this move was used. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. Fails if the target's Attack and Sp. Attack stat stage is -6.",
-		shortDesc: "-1 Atk & Sp. Atk. Heals user's HP by whichever was higher.",
+		shortDesc: "-1 Atk & Sp. Atk. User heals HP = target >stat.",
 	},
 	partingshot: {
 		name: "Parting Shot",
