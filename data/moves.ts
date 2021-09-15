@@ -5855,6 +5855,24 @@ export const Moves: {[moveid: string]: MoveData} = {
 		maxMove: {basePower: 130},
 		contestType: "Cute",
 	},
+	fungification: {
+		num: -513,
+		accuracy: 100,
+		basePower: 40,
+		category: "Physical",
+		name: "Fungification",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		onHit(target) {
+			this.add('-start', target, 'typechange', 'Grass');
+		},
+		volatileStatus: 'partiallytrapped',
+		secondary: null,
+		target: "normal",
+		type: "Bug",
+		contestType: "Clever",
+	},
 	furyattack: {
 		num: 31,
 		accuracy: 85,
@@ -12467,6 +12485,33 @@ export const Moves: {[moveid: string]: MoveData} = {
 		secondary: null,
 		target: "allAdjacent",
 		type: "Electric",
+		contestType: "Clever",
+	},
+	parasiticplot: {
+		num: -512,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "Parasitic Plot",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1, mirror: 1, heal: 1},
+		onHit(target, source) {
+			if (target.boosts.atk === -6 && target.boosts.spa === -6) return false;
+			if (target.getStat('atk', false, true) >= target.getStat('spa', false, true)) {
+				const atk = target.getStat('atk', false, true);
+				const success = this.boost({atk: -1, spa: -1}, target, source, null, false, true);
+				return !!(this.heal(atk, source, target) || success);
+			} else if (target.getStat('spa', false, true) > target.getStat('atk', false, true)) {
+				const spa = target.getStat('spa', false, true);
+				const success = this.boost({atk: -1, spa: -1}, target, source, null, false, true);
+				return !!(this.heal(spa, source, target) || success);
+			};
+		},
+		secondary: null,
+		target: "normal",
+		type: "Grass",
+		zMove: {boost: {def: 1, spd: 1}},
 		contestType: "Clever",
 	},
 	partingshot: {
