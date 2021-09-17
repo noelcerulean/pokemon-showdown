@@ -8972,6 +8972,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Dewott",
 		evoLevel: 36,
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Samurott-Knight"],
+		formeOrder: ["Samurott", "Samurott-Knight"],
 	},
 	patrat: {
 		num: 504,
