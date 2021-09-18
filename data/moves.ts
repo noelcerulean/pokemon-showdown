@@ -5167,7 +5167,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	flamewheel: {
 		num: 172,
 		accuracy: 100,
-		basePower: 60,
+		basePower: 85,
 		category: "Physical",
 		name: "Flame Wheel",
 		pp: 25,
@@ -15474,7 +15474,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				this.add('-singleturn', pokemon, 'move: Shell Trap');
 			},
 			onHit(pokemon, source, move) {
-				if (!pokemon.isAlly(source) && move.category === 'Physical') {
+				if (!pokemon.isAlly(source) && (move.flags['contact'])) {
 					pokemon.volatiles['shelltrap'].gotHit = true;
 					const action = this.queue.willMove(pokemon);
 					if (action) {
@@ -15483,7 +15483,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 				}
 			},
 		},
-		secondary: null,
+		secondary: {
+			chance: 100,
+			status: 'brn',
+		},
 		target: "allAdjacentFoes",
 		type: "Fire",
 		contestType: "Tough",

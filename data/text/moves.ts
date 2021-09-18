@@ -5226,8 +5226,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	shelltrap: {
 		name: "Shell Trap",
-		desc: "Fails unless the user is hit by a physical attack from an opponent this turn before it can execute the move. If the user was hit and has not fainted, it attacks immediately after being hit, and the effect ends. If the opponent's physical attack had a secondary effect removed by the Sheer Force Ability, it does not count for the purposes of this effect.",
-		shortDesc: "User must take physical damage before moving.",
+		desc: "Fails unless the user is hit by a contact attack from an opponent this turn before it can execute the move. If the user was hit and has not fainted, it attacks immediately after being hit, and the effect ends. On hit, this move inflicts burn. If the opponent's contact attack had a secondary effect removed by the Sheer Force Ability, it does not count for the purposes of this effect.",
+		shortDesc: "Detonates on contact. 100% Burn chance.",
 
 		start: "  [POKEMON] set a shell trap!",
 		prepare: "  [POKEMON] set a shell trap!",

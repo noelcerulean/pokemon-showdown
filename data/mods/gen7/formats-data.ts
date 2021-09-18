@@ -4445,9 +4445,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	turtonator: {
-		randomBattleMoves: ["dracometeor", "dragonpulse", "dragontail", "earthquake", "explosion", "fireblast", "shellsmash"],
+		randomBattleMoves: ["dracometeor", "dragonpulse", "dragontail", "earthquake", "explosion", "fireblast", "morningsun", "shellsmash"],
 		randomDoubleBattleMoves: ["dracometeor", "dragonpulse", "fireblast", "protect", "shellsmash"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	togedemaru: {
