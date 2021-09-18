@@ -13656,7 +13656,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 776,
 		name: "Turtonator",
 		types: ["Fire", "Dragon"],
-		baseStats: {hp: 70, atk: 88, def: 155, spa: 93, spd: 85, spe: 41},
+		baseStats: {hp: 70, atk: 88, def: 145, spa: 93, spd: 85, spe: 41},
 		abilities: {0: "Shell Armor", 1: "Aftermath", H: "Weak Armor"},
 		heightm: 2,
 		weightkg: 212,
