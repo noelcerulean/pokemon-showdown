@@ -2879,9 +2879,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	samurott: {
-		randomBattleMoves: ["aquajet", "grassknot", "hydropump", "icebeam", "liquidation", "megahorn", "sacredsword", "swordsdance"],
-		randomDoubleBattleMoves: ["aquajet", "helpinghand", "hiddenpowergrass", "hydropump", "icebeam", "protect", "scald", "taunt"],
-		tier: "NU",
+		randomBattleMoves: ["aquajet", "bulkup", "calmmind", "focusblast", "grassknot", "icebeam", "iciclespear", "liquidation", "pinmissile", "sacredsword", "swordsdance", "swordstream", "vacuumwave"],
+		randomDoubleBattleMoves: ["aquajet", "focusblast", "helpinghand", "hiddenpowergrass", "icebeam", "iciclespear", "pinmissile", "protect", "scald", "swordstream", "taunt", "vacuumwave"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	patrat: {

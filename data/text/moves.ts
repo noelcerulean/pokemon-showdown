@@ -6092,6 +6092,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Raises the user's Attack by 2 stages.",
 		shortDesc: "Raises the user's Attack by 2.",
 	},
+	swordstream: {
+		name: "Sword Stream",
+		desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
+		shortDesc: "Hits 2-5 times in one turn.",
+	},
 	synchronoise: {
 		name: "Synchronoise",
 		desc: "Power doubles if the target shares a type with the user.",
