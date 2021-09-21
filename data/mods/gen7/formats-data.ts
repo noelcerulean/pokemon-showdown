@@ -913,9 +913,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	flareon: {
-		randomBattleMoves: ["facade", "flamecharge", "flareblitz", "quickattack", "superpower"],
-		randomDoubleBattleMoves: ["facade", "flamecharge", "flareblitz", "protect", "superpower"],
-		tier: "(PU)",
+		randomBattleMoves: ["flamecharge", "flareblitz", "morningsun", "quickattack", "stompingtantrum", "superpower"],
+		randomDoubleBattleMoves: ["flamecharge", "flareblitz", "protect", "stompingtantrum", "superpower"],
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	espeon: {
@@ -931,15 +931,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	leafeon: {
-		randomBattleMoves: ["healbell", "knockoff", "leafblade", "swordsdance", "synthesis", "xscissor"],
-		randomDoubleBattleMoves: ["helpinghand", "knockoff", "leafblade", "protect", "swordsdance", "xscissor"],
-		tier: "(PU)",
+		randomBattleMoves: ["healbell", "knockoff", "leafblade", "rockslide", "stompingtantrum", "swordsdance", "synthesis", "uturn", "xscissor"],
+		randomDoubleBattleMoves: ["helpinghand", "knockoff", "leafblade", "protect", "rockslide", "stompingtantrum", "swordsdance", "uturn", "xscissor"],
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	glaceon: {
-		randomBattleMoves: ["healbell", "hiddenpowerground", "icebeam", "protect", "shadowball", "toxic", "wish"],
-		randomDoubleBattleMoves: ["helpinghand", "hiddenpowerground", "icebeam", "protect", "toxic"],
-		tier: "(PU)",
+		randomBattleMoves: ["healbell", "hiddenpowerground", "freezedry", "icebeam", "protect", "shadowball", "surf", "toxic", "wish"],
+		randomDoubleBattleMoves: ["freezedry", "helpinghand", "hiddenpowerground", "icebeam", "protect", "surf", "toxic"],
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	porygon: {
