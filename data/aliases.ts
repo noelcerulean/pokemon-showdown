@@ -359,6 +359,7 @@ export const Aliases: {[alias: string]: string} = {
 	blacephalondisco: "Blacephalon",
 	bastiodontux: "Bastiodon",
 	samurottknight: "Samurott",
+	mamoswinemelon: "Mamoswine",
 
 	alcremierubycream: "Alcremie",
 	alcremiematchacream: "Alcremie",

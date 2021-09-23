@@ -8157,6 +8157,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "levelMove",
 		evoMove: "Ancient Power",
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Mamoswine-Melon"],
+		formeOrder: ["Mamoswine", "Mamoswine-Melon"],
 	},
 	porygonz: {
 		num: 474,
