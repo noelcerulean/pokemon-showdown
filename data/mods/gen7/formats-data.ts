@@ -314,9 +314,18 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	paras: {
 		tier: "LC",
 	},
+	parasfnf: {
+		tier: "LC",
+	},
 	parasect: {
 		randomBattleMoves: ["leechlife", "parasiticdrain", "protect", "spore", "sporeslash"],
 		randomDoubleBattleMoves: ["leechlife", "parasiticdrain", "protect", "ragepowder", "spore", "sporeslash"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
+	parasectfnf: {
+		randomBattleMoves: ["cosmicpower", "crabhammer", "earthquake", "healbell", "knockoff", "leechlife", "protect", "return", "slackoff", "swordsdance", "toxic", "wish", "yawn"],
+		randomDoubleBattleMoves: ["crabhammer", "healbell", "healpulse", "icywind", "knockoff", "leechlife", "protect", "return", "simplebeam", "swordsdance", "wideguard"],
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},

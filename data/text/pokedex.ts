@@ -239,8 +239,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	paras: {
 		name: "Paras",
 	},
+	parasfnf: {
+		name: "Paras-FnF",
+	},
 	parasect: {
 		name: "Parasect",
+	},
+	parasectfnf: {
+		name: "Parasect-FnF",
 	},
 	venonat: {
 		name: "Venonat",

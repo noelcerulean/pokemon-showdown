@@ -409,7 +409,15 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	parasfnf: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	parasect: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	parasectfnf: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
