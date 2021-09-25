@@ -842,6 +842,18 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	dunsparce: {
 		name: "Dunsparce",
 	},
+	snugsparce: {
+		name: "Snugsparce",
+	},
+	soarsparce: {
+		name: "Soarsparce",
+	},
+	stucksparce: {
+		name: "Stucksparce",
+	},
+	Sledgesparce: {
+		name: "Sledgesparce",
+	},
 	gligar: {
 		name: "Gligar",
 	},

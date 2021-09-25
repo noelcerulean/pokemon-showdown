@@ -1656,12 +1656,29 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	dunsparce: {
-		randomBattleMoves: ["bodyslam", "coil", "roost", "earthquake"],
-		randomBattleLevel: 90,
-		randomDoubleBattleMoves: ["glare", "headbutt", "protect", "rockslide"],
-		randomDoubleBattleLevel: 90,
-		tier: "(PU)",
-		doublesTier: "(DUU)",
+		tier: "NFE",
+	},
+	snugsparce: {
+		tier: "NFE",
+	},
+	soarsparce: {
+		randomBattleMoves: ["dracometeor", "fireblast", "glare", "hurricane", "roost"],
+		randomBattleLevel: 80,
+		randomDoubleBattleMoves: ["airslash", "dracometeor", "fireblast", "followme", "helpinghand", "icywind", "protect", "roost", "wideguard"],
+		randomDoubleBattleLevel: 80,
+		tier: "OU",
+		doublesTier: "DOU",
+	},
+	stucksparce: {
+		tier: "NFE",
+	},
+	sledgesparce: {
+		randomBattleMoves: ["doubleedge", "earthquake", "glare", "slackoff", "stealthrock", "stoneedge"],
+		randomBattleLevel: 80,
+		randomDoubleBattleMoves: ["doubleedge", "drillrun", "glare", "protect", "rockslide", "wideguard"],
+		randomDoubleBattleLevel: 80,
+		tier: "OU",
+		doublesTier: "DUU",
 	},
 	gligar: {
 		isNonstandard: "Past",

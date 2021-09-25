@@ -1295,9 +1295,24 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	dunsparce: {
-		randomBattleMoves: ["bite", "bodyslam", "coil", "glare", "headbutt", "rockslide", "roost"],
-		randomDoubleBattleMoves: ["bite", "bodyslam", "coil", "glare", "headbutt", "protect", "rockslide"],
-		tier: "(PU)",
+		tier: "NFE",
+	},
+	snugsparce: {
+		tier: "NFE",
+	},
+	soarsparce: {
+		randomBattleMoves: ["dracometeor", "fireblast", "glare", "hurricane", "roost"],
+		randomDoubleBattleMoves: ["airslash", "dracometeor", "fireblast", "followme", "helpinghand", "icywind", "protect", "roost", "wideguard"],
+		tier: "OU",
+		doublesTier: "DOU",
+	},
+	stucksparce: {
+		tier: "NFE",
+	},
+	sledgesparce: {
+		randomBattleMoves: ["doubleedge", "earthquake", "glare", "slackoff", "stealthrock", "stoneedge"],
+		randomDoubleBattleMoves: ["doubleedge", "drillrun", "glare", "protect", "rockslide", "wideguard"],
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	gligar: {
