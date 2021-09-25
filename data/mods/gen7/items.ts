@@ -567,6 +567,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	sunflorite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	swampertite: {
 		inherit: true,
 		isNonstandard: null,

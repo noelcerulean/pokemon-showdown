@@ -5379,7 +5379,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			return true;
 		},
 		num: -501,
-		gen: 7,
+		gen: 6,
 		isNonstandard: "Past",
 	},
 	sunstone: {
