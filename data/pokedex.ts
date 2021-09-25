@@ -4023,7 +4023,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: -501,
 		name: "Soarsparce",
 		types: ["Dragon", "Flying"],
-		baseStats: {hp: 140, atk: 90, def: 85, spa: 100, spd: 95, spe: 70},
+		baseStats: {hp: 130, atk: 90, def: 85, spa: 100, spd: 90, spe: 65},
 		abilities: {0: "Serene Grace", 1: "Cloud Nine", H: "Friend Guard"},
 		heightm: 6.5,
 		weightkg: 225,
