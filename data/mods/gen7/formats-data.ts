@@ -1230,6 +1230,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	sunfloramega: {
+		randomBattleMoves: ["earthpower", "gigadrain", "growth", "hiddenpowerice", "solarbeam", "sunnyday", "sunshinedance", "synthesis"],
+		randomDoubleBattleMoves: ["earthpower", "encore", "energyball", "helpinghand", "hiddenpowerice", "protect", "solarbeam", "sunnyday", "sunshinedance"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
 	yanma: {
 		tier: "NFE",
 	},

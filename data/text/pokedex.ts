@@ -800,6 +800,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	sunflora: {
 		name: "Sunflora",
 	},
+	sunfloramega: {
+		name: "Sunflora-Mega",
+	},
 	yanma: {
 		name: "Yanma",
 	},

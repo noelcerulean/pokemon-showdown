@@ -1592,6 +1592,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	sunfloramega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	yanma: {
 		isNonstandard: "Past",
 		tier: "Illegal",
