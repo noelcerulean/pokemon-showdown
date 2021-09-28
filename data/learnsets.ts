@@ -27575,23 +27575,31 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	teddiursashadow: {
 		learnset: {
+			blizzard: ["7S1"],
+			dragonbreath: ["7S0"],
+			dragonpulse: ["7S1", "7S0"],
 			flamethrower: ["7M"],
+			lusterpurge: ["7S1", "7S0"],
+			psychoshift: ["7S1", "7S0"],
 		},
 		eventData: [
-			{generation: 7, level: 60, shiny: 1, moves: ["lusterpurge", "dragonpulse", "psychoshift", "dragonbreath"]},
-			{generation: 7, level: 60, moves: ["lusterpurge", "dragonpulse", "psychoshift", "dragonbreath"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["lusterpurge", "psychic", "dracometeor", "tailwind"], pokeball: "cherishball"},
+			{generation: 7, level: 60, moves: ["lusterpurge", "dragonpulse", "psychoshift", "dragonbreath"]},
+			{generation: 7, level: 60, moves: ["lusterpurge", "dragonpulse", "psychoshift", "blizzard"], pokeball: "cherishball"},
 		],
 		eventOnly: true,
 	},
 	teddiursapurified: {
 		learnset: {
+			dragonbreath: ["7S0"],
+			dragonpulse: ["7S1", "7S0"],
 			explosion: ["7M"],
+			lusterpurge: ["7S1", "7S0"],
+			psychoshift: ["7S1", "7S0"],
+			thunder: ["7S1"],
 		},
 		eventData: [
-			{generation: 7, level: 60, shiny: 1, moves: ["lusterpurge", "dragonpulse", "psychoshift", "dragonbreath"]},
-			{generation: 7, level: 60, moves: ["lusterpurge", "dragonpulse", "psychoshift", "dragonbreath"], pokeball: "cherishball"},
-			{generation: 7, level: 100, moves: ["lusterpurge", "psychic", "dracometeor", "tailwind"], pokeball: "cherishball"},
+			{generation: 7, level: 60, moves: ["lusterpurge", "dragonpulse", "psychoshift", "dragonbreath"]},
+			{generation: 7, level: 60, moves: ["lusterpurge", "dragonpulse", "psychoshift", "thunder"], pokeball: "cherishball"},
 		],
 		eventOnly: true,
 	},
