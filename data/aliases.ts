@@ -360,7 +360,7 @@ export const Aliases: {[alias: string]: string} = {
 	bastiodontux: "Bastiodon",
 	samurottknight: "Samurott",
 	mamoswinemelon: "Mamoswine",
-	teddiursapurified: "Teddiursa-Shadow",
+	teddiursapurified: "Teddiursa",
 
 	alcremierubycream: "Alcremie",
 	alcremiematchacream: "Alcremie",
