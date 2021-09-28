@@ -27573,6 +27573,18 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 2, level: 2},
 		],
 	},
+	teddiursashadow: {
+		learnset: {
+			flamethrower: ["7M"],
+		},
+		eventOnly: true,
+	},
+	teddiursapurified: {
+		learnset: {
+			explosion: ["7M"],
+		},
+		eventOnly: true,
+	},
 	ursaring: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
