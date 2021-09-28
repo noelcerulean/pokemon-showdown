@@ -27577,12 +27577,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			flamethrower: ["7M"],
 		},
+		eventData: [
+			{generation: 7, level: 60, shiny: 1, moves: ["lusterpurge", "dragonpulse", "psychoshift", "dragonbreath"]},
+			{generation: 7, level: 60, moves: ["lusterpurge", "dragonpulse", "psychoshift", "dragonbreath"], pokeball: "cherishball"},
+			{generation: 7, level: 100, moves: ["lusterpurge", "psychic", "dracometeor", "tailwind"], pokeball: "cherishball"},
+		],
 		eventOnly: true,
 	},
 	teddiursapurified: {
 		learnset: {
 			explosion: ["7M"],
 		},
+		eventData: [
+			{generation: 7, level: 60, shiny: 1, moves: ["lusterpurge", "dragonpulse", "psychoshift", "dragonbreath"]},
+			{generation: 7, level: 60, moves: ["lusterpurge", "dragonpulse", "psychoshift", "dragonbreath"], pokeball: "cherishball"},
+			{generation: 7, level: 100, moves: ["lusterpurge", "psychic", "dracometeor", "tailwind"], pokeball: "cherishball"},
+		],
 		eventOnly: true,
 	},
 	ursaring: {
