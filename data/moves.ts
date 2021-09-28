@@ -15312,7 +15312,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		willCrit: true,
 		secondary: null,
 		target: "normal",
-		type: "???",
+		type: "Shadow",
 	},
 	shadowsneak: {
 		num: 425,
