@@ -4264,7 +4264,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 8.8,
 		color: "Brown",
 		eggGroups: ["Undiscovered"],
-		cosmeticFormes: ["Teddiursa-Shadow"],
+		cosmeticFormes: ["Teddiursa-Purified"],
 		formeOrder: ["Teddiursa-Shadow", "Teddiursa-Purified"],
 	},
 	ursaring: {
