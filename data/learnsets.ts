@@ -96,6 +96,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			safeguard: ["8M", "7M", "7V", "6M", "5M", "4E", "3E"],
 			secretpower: ["6M", "4M", "3M"],
 			seedbomb: ["8M", "8L18", "7T", "7L37", "6T", "6L37", "5T", "5L37", "4T", "4L37"],
+			shadowrush: ["7L1"],
 			skullbash: ["8E", "7E", "7V", "6E", "5E", "4E", "3E"],
 			sleeppowder: ["8L15", "8V", "7L13", "7V", "6L13", "5L13", "4L13", "3L15"],
 			sleeptalk: ["8M", "7M", "7V", "6M", "5T", "4M", "3T"],

@@ -5186,6 +5186,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Shadow Punch",
 		shortDesc: "This move does not check accuracy.",
 	},
+	shadowrush: {
+		name: "Shadow Rush",
+		desc: "No additional effect.",
+		shortDesc: "Always crits.",
+	},
 	shadowsneak: {
 		name: "Shadow Sneak",
 		desc: "No additional effect.",
