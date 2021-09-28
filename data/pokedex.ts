@@ -5313,6 +5313,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Shroomish",
 		evoLevel: 23,
 		eggGroups: ["Fairy", "Grass"],
+		cosmeticFormes: ["Breloom-Pastel"],
+		formeOrder: ["Breloom", "Breloom-Pastel"],
 	},
 	slakoth: {
 		num: 287,
@@ -5524,7 +5526,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Purple",
 		eggGroups: ["Human-Like"],
 		otherFormes: ["Sableye-Mega"],
-		formeOrder: ["Sableye", "Sableye-Mega"],
+		cosmeticFormes: ["Sableye-Freeza"],
+		formeOrder: ["Sableye", "Sableye-Freeza", "Sableye-Mega"],
 	},
 	sableyemega: {
 		num: 302,
@@ -6097,6 +6100,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 154,
 		color: "Red",
 		eggGroups: ["Mineral"],
+		cosmeticFormes: ["Solrock-Prism"],
+		formeOrder: ["Solrock", "Solrock-Prism"],
 	},
 	barboach: {
 		num: 339,
