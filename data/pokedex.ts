@@ -11,6 +11,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		evos: ["Ivysaur"],
 		eggGroups: ["Monster", "Grass"],
+		cosmeticFormes: ["Bulbasaur-Sylvanos"],
+		formeOrder: ["Bulbasaur", "Bulbasaur-Sylvanos"],
 	},
 	ivysaur: {
 		num: 2,
@@ -7836,7 +7838,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 48,
 		eggGroups: ["Monster", "Dragon"],
 		otherFormes: ["Garchomp-Mega"],
-		formeOrder: ["Garchomp", "Garchomp-Mega"],
+		cosmeticFormes: ["Garchomp-Shark"],
+		formeOrder: ["Garchomp", "Garchomp-Shark", "Garchomp-Mega"],
 	},
 	garchompmega: {
 		num: 445,
@@ -9201,6 +9204,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Leaf Stone",
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Simisage-Fiend"],
+		formeOrder: ["Simisage", "Simisage-Fiend"],
 	},
 	pansear: {
 		num: 513,
