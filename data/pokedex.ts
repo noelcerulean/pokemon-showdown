@@ -1208,6 +1208,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Paras-FnF",
 		evoLevel: 24,
 		eggGroups: ["Bug", "Field"],
+		cosmeticFormes: ["Parasect-FnF-Sunset"],
+		formeOrder: ["Parasect-FnF", "Parasect-FnF-Sunset"],
 	},
 	venonat: {
 		num: 48,
