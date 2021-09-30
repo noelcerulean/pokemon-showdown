@@ -1174,8 +1174,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	parasfnf: {
 		num: 46,
 		name: "Paras-FnF",
-		baseSpecies: "Paras",
-		forme: "FnF",
 		types: ["Bug", "Normal"],
 		baseStats: {hp: 80, atk: 75, def: 70, spa: 50, spd: 70, spe: 10},
 		abilities: {0: "Comatose", 1: "Unaware", H: "Overcoat"},
@@ -1201,8 +1199,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	parasectfnf: {
 		num: 47,
 		name: "Parasect-FnF",
-		baseSpecies: "Parasect",
-		forme: "FnF",
 		types: ["Bug", "Normal"],
 		baseStats: {hp: 120, atk: 95, def: 85, spa: 70, spd: 85, spe: 10},
 		abilities: {0: "Comatose", 1: "Unaware", H: "Overcoat"},
@@ -1212,8 +1208,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Paras-FnF",
 		evoLevel: 24,
 		eggGroups: ["Bug", "Field"],
-		cosmeticFormes: ["Parasect-FnF-Sunset"],
-		formeOrder: ["Parasect-FnF", "Parasect-FnF-Sunset"],
 	},
 	venonat: {
 		num: 48,
