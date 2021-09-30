@@ -1212,6 +1212,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Paras-FnF",
 		evoLevel: 24,
 		eggGroups: ["Bug", "Field"],
+		cosmeticFormes: ["Parasect-FnF-Sunset"],
+		formeOrder: ["Parasect-FnF", "Parasect-FnF-Sunset"],
 	},
 	venonat: {
 		num: 48,
@@ -10886,6 +10888,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 58,
 		color: "Red",
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Heatmor-Print"],
+		formeOrder: ["Heatmor", "Heatmor-Print"],
 	},
 	durant: {
 		num: 632,

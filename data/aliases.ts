@@ -366,6 +366,7 @@ export const Aliases: {[alias: string]: string} = {
 	simisagefiend: "Simisage",
 	bulbasaursylvanos: "Bulbasaur",
 	garchompshark: "Garchomp",
+	heatmorprint: "Heatmor",
 
 	alcremierubycream: "Alcremie",
 	alcremiematchacream: "Alcremie",
