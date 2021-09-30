@@ -2130,7 +2130,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "trade",
 		eggGroups: ["Amorphous"],
 		otherFormes: ["Gengar-Mega"],
-		formeOrder: ["Gengar", "Gengar-Mega"],
+		cosmeticFormes: ["Gengar-Hallows", "Gengar-Eve"],
+		formeOrder: ["Gengar", "Gengar-Hallows", "Gengar-Eve", "Gengar-Mega"],
 		canGigantamax: "G-Max Terror",
 	},
 	gengarmega: {
@@ -5514,6 +5515,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Moon Stone",
 		eggGroups: ["Field", "Fairy"],
+		cosmeticFormes: ["Delcatty-Royal"],
+		formeOrder: ["Delcatty", "Delcatty-Royal"],
 	},
 	sableye: {
 		num: 302,
@@ -7424,6 +7427,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Combee",
 		evoLevel: 21,
 		eggGroups: ["Bug"],
+		cosmeticFormes: ["Vespiquen-Yasqueen"],
+		formeOrder: ["Vespiquen", "Vespiquen-Yasqueen"],
 	},
 	pachirisu: {
 		num: 417,

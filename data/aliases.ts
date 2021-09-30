@@ -368,6 +368,10 @@ export const Aliases: {[alias: string]: string} = {
 	garchompshark: "Garchomp",
 	heatmorprint: "Heatmor",
 	parasectfnfsunset: "Parasect-FnF",
+	vespiquenyasqueen: "Vespiquen",
+	gengarhallows: "Gengar",
+	gengareve: "Gengar",
+	delcattyroyal: "Delcatty",
 
 	alcremierubycream: "Alcremie",
 	alcremiematchacream: "Alcremie",
