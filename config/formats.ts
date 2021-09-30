@@ -1875,7 +1875,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['Standard'],
-		banlist: ['Uber', 'Blaziken + Speed Boost', 'Greninja + Protean', 'Battle Bond', 'Landorus + Sheer Force', 'Parasect ++ Parasect-FnF', 'Paras ++ Paras-FnF', 'Power Construct', 'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z'],
+		banlist: ['Uber', 'Blaziken + Speed Boost', 'Greninja + Protean', 'Battle Bond', 'Landorus + Sheer Force', 'Power Construct', 'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z'],
 	},
 	{
 		name: "[Gen 6] OU",
