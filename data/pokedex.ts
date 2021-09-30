@@ -1172,7 +1172,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug", "Grass"],
 	},
 	parasfnf: {
-		num: 46,
+		num: -503,
 		name: "Paras-FnF",
 		types: ["Bug", "Normal"],
 		baseStats: {hp: 80, atk: 75, def: 70, spa: 50, spd: 70, spe: 10},
@@ -1197,7 +1197,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug", "Grass"],
 	},
 	parasectfnf: {
-		num: 47,
+		num: -504,
 		name: "Parasect-FnF",
 		types: ["Bug", "Normal"],
 		baseStats: {hp: 120, atk: 95, def: 85, spa: 70, spd: 85, spe: 10},
