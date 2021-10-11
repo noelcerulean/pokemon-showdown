@@ -15252,62 +15252,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Shadow",
 	},
-	shadowbarrier: {
-		num: -856,
-		accuracy: true,
-		basePower: 0,
-		category: "Status",
-		name: "Shadow Barrier",
-		pp: 10,
-		priority: 4,
-		flags: {},
-		stallingMove: true,
-		volatileStatus: 'protect',
-		onPrepareHit(pokemon) {
-			return !!this.queue.willAct() && this.runEvent('StallMove', pokemon);
-		},
-		onHit(pokemon) {
-			pokemon.addVolatile('stall');
-		},
-		condition: {
-			duration: 1,
-			onStart(target) {
-				this.add('-singleturn', target, 'move: Protect');
-			},
-			onTryHitPriority: 3,
-			onTryHit(target, source, move) {
-				if (!move.flags['protect']) {
-					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
-					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
-					return;
-				}
-				if (move.smartTarget) {
-					move.smartTarget = false;
-				} else {
-					this.add('-activate', target, 'move: Protect');
-				}
-				const lockedmove = source.getVolatile('lockedmove');
-				if (lockedmove) {
-					// Outrage counter is reset
-					if (source.volatiles['lockedmove'].duration === 2) {
-						delete source.volatiles['lockedmove'];
-					}
-				}
-				if (!this.checkMoveMakesContact(move, source, target) && move.category !== 'Status') {
-					this.damage(source.baseMaxhp / 8, source, target);
-				}
-				return this.NOT_FAIL;
-			},
-			onHit(target, source, move) {
-				if (move.isZOrMaxPowered && !this.checkMoveMakesContact(move, source, target)) {
-					this.damage(source.baseMaxhp / 8, source, target);
-				}
-			},
-		},
-		secondary: null,
-		target: "self",
-		type: "Shadow",
-	},
 	shadowbone: {
 		num: 708,
 		accuracy: 100,
@@ -15880,8 +15824,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	shadowrage: {
 		num: -819,
-		accuracy: 70,
-		basePower: 100,
+		accuracy: 100,
+		basePower: 70,
 		category: "Physical",
 		name: "Shadow Rage",
 		pp: 20,
@@ -15981,12 +15925,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Shadow",
 	},
-	shadowsap: {
+	shadowseed: {
 		num: -845,
 		accuracy: 95,
 		basePower: 0,
 		category: "Status",
-		name: "Shadow Sap",
+		name: "Shadow Seed",
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1, authentic: 1},
@@ -16428,7 +16372,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 4,
 		flags: {},
 		stallingMove: true,
-		volatileStatus: 'protect',
+		volatileStatus: 'spikyshield',
 		onPrepareHit(pokemon) {
 			return !!this.queue.willAct() && this.runEvent('StallMove', pokemon);
 		},

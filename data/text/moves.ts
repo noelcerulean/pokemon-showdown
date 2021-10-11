@@ -5163,13 +5163,6 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Always crits. If this attack was successful and the user has not fainted, it steals the target's held item if the user is not holding one. The target's item is not stolen if it is a Mail or Z-Crystal, or if the target is a Kyogre holding a Blue Orb, a Groudon holding a Red Orb, a Giratina holding a Griseous Orb, an Arceus holding a Plate, a Genesect holding a Drive, a Silvally holding a Memory, or a Pokemon that can Mega Evolve holding the Mega Stone for its species. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
 		shortDesc: "Crits. If possible, steals target's item.",
 	},
-	shadowbarrier: {
-		name: "Shadow Barrier",
-		desc: "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon not making contact with the user lose 1/8 of their maximum HP, rounded down. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Obstruct, Protect, Quick Guard, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
-		shortDesc: "Protects. Non-contact: loses 1/8 max HP.",
-
-		damage: "[POKEMON] was hurt by the shadowy barrier!",
-	},
 	shadowbone: {
 		name: "Shadow Bone",
 		desc: "Has a 20% chance to lower the target's Defense by 1 stage.",
@@ -5269,7 +5262,7 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Always crits. Causes the target's last move used to lose 4 PP.",
 		shortDesc: "Crits. Lowers PP of target's last move by 4.",
 
-		activate: "  Its hatred reduced [TARGET]'s [MOVE] by [NUMBER]!",
+		activate: "#spite",
 	},
 	shadowhaunting: {
 		name: "Shadow Haunting",
@@ -5355,19 +5348,19 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Shadow Rush",
 		shortDesc: "Always crits. User takes 1/4 recoil.",
 	},
-	shadowsap: {
-		name: "Shadow Sap",
-		desc: "Infiltrates. Non-reflectable. The Pokemon at the user's position steals 1/8 of the target's maximum HP, rounded down, at the end of each turn. If Big Root is held by the recipient, the HP recovered is 1.3x normal, rounded half down. If the target uses Baton Pass, the replacement will continue being leeched. If the target switches out or uses Rapid Spin successfully, the effect ends.",
-		shortDesc: "1/8 of target's HP is restored to user every turn.",
-
-		start: "  [POKEMON] was seeded!",
-		end: "  [POKEMON] was freed from Shadow Sap!",
-		damage: "  [POKEMON]'s health is sapped by Shadow Sap!",
-	},
 	shadowscheme: {
 		name: "Shadow Scheme",
 		desc: "Raises the user's Special Attack by 2 stages.",
 		shortDesc: "Raises the user's Sp. Atk by 2.",
+	},
+	shadowseed: {
+		name: "Shadow Seed",
+		desc: "Infiltrates. Non-reflectable. The Pokemon at the user's position steals 1/8 of the target's maximum HP, rounded down, at the end of each turn. If Big Root is held by the recipient, the HP recovered is 1.3x normal, rounded half down. If the target uses Baton Pass, the replacement will continue being leeched. If the target switches out or uses Rapid Spin successfully, the effect ends.",
+		shortDesc: "1/8 of target's HP is restored to user every turn.",
+
+		start: "#leechseed",
+		end: "#leechseed",
+		damage: "#leechseed",
 	},
 	shadowshackle: {
 		name: "Shadow Shackle",
@@ -5396,8 +5389,8 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Each active Pokemon receives a perish count of 4 if it doesn't already have a perish count. At the end of each turn including the turn used, the perish count of all active Pokemon lowers by 1 and Pokemon faint if the number reaches 0. The perish count is removed from Pokemon that switch out. If a Pokemon uses Baton Pass while it has a perish count, the replacement will gain the perish count and continue to count down.",
 		shortDesc: "All active Pokemon will faint in 3 turns.",
 
-		start: "  All Pok\u00E9mon that heard the siren will perish in three turns!",
-		activate: "  [POKEMON]'s perish count fell to [NUMBER].",
+		start: "#perishsong",
+		activate: "#perishsong",
 	},
 	shadowslasher: {
 		name: "Shadow Slasher",
@@ -5466,7 +5459,7 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon making contact with the user lose 1/8 of their maximum HP, rounded down. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Obstruct, Protect, Quick Guard, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
 		shortDesc: "Protects from moves. Contact: loses 1/8 max HP.",
 
-		damage: "[POKEMON] was hurt by the shadowy wall!",
+		damage: "[POKEMON] was hurt by the shadowy barrier!",
 	},
 	shadowwave: {
 		name: "Shadow Wave",
