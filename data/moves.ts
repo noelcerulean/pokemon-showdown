@@ -15252,6 +15252,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Shadow",
 	},
+	shadowbolt: {
+		num: -857,
+		accuracy: 100,
+		basePower: 75,
+		category: "Special",
+		name: "Shadow Bolt",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1},
+		willCrit: true,
+		secondary: {
+			chance: 100,
+			status: 'par',
+		},
+		target: "normal",
+		type: "Shadow",
+	},
 	shadowbone: {
 		num: 708,
 		accuracy: 100,
@@ -15283,6 +15300,26 @@ export const Moves: {[moveid: string]: MoveData} = {
 		recoil: [33, 100],
 		willCrit: true,
 		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowcascade: {
+		num: -861,
+		accuracy: 100,
+		basePower: 75,
+		category: "Physical",
+		name: "Shadow Cascade",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		willCrit: true,
+		secondary: {
+			chance: 100,
+			boosts: {
+				atk: -1,
+				spa: -1,
+			},
+		},
 		target: "normal",
 		type: "Shadow",
 	},
@@ -15333,6 +15370,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Shadow",
 	},
+	shadowchill: {
+		num: -858,
+		accuracy: 100,
+		basePower: 75,
+		category: "Special",
+		name: "Shadow Chill",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1},
+		willCrit: true,
+		secondary: {
+			chance: 100,
+			status: 'frz',
+		},
+		target: "normal",
+		type: "Shadow",
+	},
 	shadowcinder: {
 		num: -837,
 		accuracy: 95,
@@ -15361,6 +15415,26 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Ghost",
 		contestType: "Cool",
+	},
+	shadowcombust: {
+		num: -859,
+		accuracy: 100,
+		basePower: 75,
+		category: "Physical",
+		name: "Shadow Combust",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		willCrit: true,
+		secondary: {
+			chance: 100,
+			boosts: {
+				def: -1,
+				spd: -1,
+			},
+		},
+		target: "normal",
+		type: "Shadow",
 	},
 	shadowdance: {
 		num: -838,
@@ -15416,6 +15490,63 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Shadow",
 	},
+	shadowdoomsday: {
+		num: -863,
+		accuracy: 100,
+		basePower: 140,
+		category: "Physical",
+		name: "Shadow Doomsday",
+		pp: 5,
+		priority: 0,
+		flags: {},
+		willCrit: true,
+		isFutureMove: true,
+		onTry(source, target) {
+			if (!target.side.addSlotCondition(target, 'futuremove')) return false;
+			if (source.getStat('atk', false, true) >= source.getStat('spa', false, true)) {
+				Object.assign(target.side.slotConditions[target.position]['futuremove'], {
+					move: 'shadowdoomsday',
+					source: source,
+					moveData: {
+						id: 'shadowdoomsday',
+						name: "Shadow Doomsday",
+						accuracy: 100,
+						basePower: 140,
+						category: "Physical",
+						priority: 0,
+						flags: {},
+						willCrit: true,
+						effectType: 'Move',
+						isFutureMove: true,
+						type: 'Shadow',
+					},
+				});
+			} else if (source.getStat('spa', false, true) > source.getStat('atk', false, true)) {
+				Object.assign(target.side.slotConditions[target.position]['futuremove'], {
+					move: 'shadowdoomsday',
+					source: source,
+					moveData: {
+						id: 'shadowdoomsday',
+						name: "Shadow Doomsday",
+						accuracy: 100,
+						basePower: 140,
+						category: "Special",
+						priority: 0,
+						flags: {},
+						willCrit: true,
+						effectType: 'Move',
+						isFutureMove: true,
+						type: 'Shadow',
+					},
+				});
+			}
+			this.add('-start', source, 'Shadow Doomsday');
+			return this.NOT_FAIL;
+		},
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
 	shadowdown: {
 		num: -809,
 		accuracy: true,
@@ -15445,6 +15576,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		recoil: [1, 2],
 		willCrit: true,
 		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowfire: {
+		num: -856,
+		accuracy: 100,
+		basePower: 75,
+		category: "Special",
+		name: "Shadow Fire",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1},
+		willCrit: true,
+		secondary: {
+			chance: 100,
+			status: 'brn',
+		},
 		target: "normal",
 		type: "Shadow",
 	},
@@ -15590,7 +15738,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				if (!move || move.isZ) return;
 				if (move.isMax && move.baseMove) move = this.dex.moves.get(move.baseMove);
 
-				const ppDeducted = target.deductPP(move.id, 4);
+				const ppDeducted = target.deductPP(move.id, 3);
 				if (!ppDeducted) return;
 				this.add('-activate', target, 'move: Shadow Hatred', move.name, ppDeducted);
 			},
@@ -15701,6 +15849,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "self",
 		type: "Shadow",
 	},
+	shadowjolt: {
+		num: -860,
+		accuracy: 100,
+		basePower: 75,
+		category: "Physical",
+		name: "Shadow Jolt",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		willCrit: true,
+		secondary: {
+			chance: 100,
+			boosts: {
+				spe: -2,
+			},
+		},
+		target: "normal",
+		type: "Shadow",
+	},
 	shadowmeld: {
 		num: -842,
 		accuracy: true,
@@ -15774,6 +15941,26 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Shadow",
 	},
+	shadowphoenix: {
+		num: -862,
+		accuracy: 100,
+		basePower: 100,
+		category: "Physical",
+		name: "Shadow Phoenix",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1},
+		status: 'brn',
+		willCrit: true,
+		secondary: {
+			chance: 100,
+			boosts: {
+				def: -1,
+			},
+		},
+		target: "normal",
+		type: "Shadow",
+	},
 	shadowpivot: {
 		num: -816,
 		accuracy: 100,
@@ -15838,6 +16025,29 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		willCrit: true,
 		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowrainbow: {
+		num: -864,
+		accuracy: 100,
+		basePower: 60,
+		category: "Physical",
+		name: "Shadow Rainbow",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1},
+		willCrit: true,
+		secondary: {
+			chance: 100,
+			boosts: {
+				atk: -1,
+				def: -1,
+				spa: -1,
+				spd: -1,
+				spe: -1,
+			},
+		},
 		target: "normal",
 		type: "Shadow",
 	},
