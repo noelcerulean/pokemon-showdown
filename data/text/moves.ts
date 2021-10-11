@@ -5262,7 +5262,7 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Always crits. Causes the target's last move used to lose 4 PP.",
 		shortDesc: "Crits. Lowers PP of target's last move by 4.",
 
-		activate: "#spite",
+		activate: "The foe's PP was reduced!",
 	},
 	shadowhaunting: {
 		name: "Shadow Haunting",
