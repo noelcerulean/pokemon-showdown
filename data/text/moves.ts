@@ -5158,15 +5158,82 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 20% chance to lower the target's Special Defense by 1 stage.",
 		shortDesc: "20% chance to lower the target's Sp. Def by 1.",
 	},
+	shadowbandit: {
+		name: "Shadow Bandit",
+		desc: "Always crits. If this attack was successful and the user has not fainted, it steals the target's held item if the user is not holding one. The target's item is not stolen if it is a Mail or Z-Crystal, or if the target is a Kyogre holding a Blue Orb, a Groudon holding a Red Orb, a Giratina holding a Griseous Orb, an Arceus holding a Plate, a Genesect holding a Drive, a Silvally holding a Memory, or a Pokemon that can Mega Evolve holding the Mega Stone for its species. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
+		shortDesc: "Crits. If possible, steals target's item.",
+	},
+	shadowbarrier: {
+		name: "Shadow Barrier",
+		desc: "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon not making contact with the user lose 1/8 of their maximum HP, rounded down. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Obstruct, Protect, Quick Guard, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
+		shortDesc: "Protects. Non-contact: loses 1/8 max HP.",
+
+		damage: "[POKEMON] was hurt by the shadowy barrier!",
+	},
 	shadowbone: {
 		name: "Shadow Bone",
 		desc: "Has a 20% chance to lower the target's Defense by 1 stage.",
 		shortDesc: "20% chance to lower the target's Defense by 1.",
 	},
+	shadowbreak: {
+		name: "Shadow Break",
+		shortDesc: "Always crits. User takes 1/3 recoil.",
+	},
+	shadowchant: {
+		name: "Shadow Chant",
+		desc: "For 5 turns, the user and its party members cannot be struck by a critical hit. Fails if the effect is already active on the user's side.",
+		shortDesc: "For 5 turns, shields user's party from critical hits.",
+
+		start: "  The Shadow Chant shielded [TEAM] from critical hits!",
+		end: "  [TEAM]'s Shadow Chant wore off!",
+	},
+	shadowcharge: {
+		name: "Shadow Charge",
+		shortDesc: "Crits. Raises the user's Speed by 1.",
+	},
+	shadowcinder: {
+		name: "Shadow Cinder",
+		shortDesc: "Non-reflectable. Infiltrates. Burns the target.",
+	},
 	shadowclaw: {
 		name: "Shadow Claw",
 		desc: "Has a higher chance for a critical hit.",
 		shortDesc: "High critical hit ratio.",
+	},
+	shadowdance: {
+		name: "Shadow Dance",
+		desc: "Raises the user's Attack and Speed by 1 stage.",
+		shortDesc: "Raises the user's Attack and Speed by 1.",
+	},
+	shadowdevour: {
+		name: "Shadow Devour",
+		shortDesc: "Crits. User recovers 50% of the damage dealt.",
+	},
+	shadowdissolve: {
+		name: "Shadow Dissolve",
+		desc: "Always crits. The target's Ability is rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, or Zen Mode, this effect does not happen, and receiving the effect through Baton Pass ends the effect immediately.",
+		shortDesc: "Crits. Nullifies the target's Ability.",
+	},
+	shadowdown: {
+		name: "Shadow Down",
+		desc: "Cannot be reflected. Infiltrates. Lowers the target's Defense and Special Defense by 1 stage.",
+		shortDesc: "Non-reflectable. Infiltrates. Target Def/SpD -1.",
+	},
+	shadowend: {
+		name: "Shadow End",
+		shortDesc: "Always crits. User takes 1/2 recoil.",
+	},
+	shadowfission: {
+		name: "Shadow Fission",
+		desc: "The user and the target's HP become the average of their current HP, rounded down, but not more than the maximum HP of either one.",
+		shortDesc: "Shares HP of user and target equally.",
+
+		activate: "  The battlers shared their pain!",
+	},
+	shadowfog: {
+		name: "Shadow Fog",
+		desc: "Resets the stat stages of all active Pokemon to 0.",
+		shortDesc: "Eliminates all stat changes.",
 	},
 	shadowforce: {
 		name: "Shadow Force",
@@ -5182,19 +5249,242 @@ export const MovesText: {[k: string]: MoveText} = {
 		activate: "  It broke through [TARGET]'s protection!",
 		prepare: "[POKEMON] vanished instantly!",
 	},
+	shadowfrost: {
+		name: "Shadow Frost",
+		shortDesc: "Non-reflectable. Infiltrates. Freezes target.",
+	},
+	shadowfumes: {
+		name: "Shadow Fumes",
+		shortDesc: "Always crits. Badly poisons the target.",
+	},
+	shadowfusion: {
+		name: "Shadow Fusion",
+		desc: "The user and the target have their Attack and Special Attack stats set to be equal to the average of the user and the target's Attack and Special Attack stats, respectively, rounded down. Stat stage changes are unaffected.",
+		shortDesc: "Infiltrates. Averages Attack/Sp. Atk with target.",
+
+		activate: "  [POKEMON] fused its power with its target!",
+	},
+	shadowhatred: {
+		name: "Shadow Hatred",
+		desc: "Always crits. Causes the target's last move used to lose 4 PP.",
+		shortDesc: "Crits. Lowers PP of target's last move by 4.",
+
+		activate: "  Its hatred reduced [TARGET]'s [MOVE] by [NUMBER]!",
+	},
+	shadowhaunting: {
+		name: "Shadow Haunting",
+		shortDesc: "Crits. Target must be asleep. Heals damage dealt.",
+	},
+	shadowhold: {
+		name: "Shadow Hold",
+		shortDesc: "Crits. Traps + damages target for 4-5 turns.",
+
+		start: "  [POKEMON] became imprisoned by a shadowy aura!",
+	},
+	shadowhubris: {
+		name: "Shadow Hubris",
+		shortDesc: "Crits. Raises User's Sp. Attack by 1.",
+	},
+	shadowhurl: {
+		name: "Shadow Hurl",
+		desc: "Always crits. If both the user and the target have not fainted, the target is forced to switch out and be replaced with a random unfainted ally. This effect fails if the target used Ingrain previously, has the Suction Cups Ability, or this move hit a substitute.",
+		shortDesc: "Crits. Forces target to switch to a random ally.",
+	},
+	shadowintensify: {
+		name: "Shadow Intesify",
+		desc: "Raises the user's Defense and Special Defense by 1 stage. If the user uses an Shadow-type attack on the next turn, its power will be doubled.",
+		shortDesc: "+1 Def/SpD, user's Shadow move next turn 2x power.",
+
+		start: "  The shadowy aura around [POKEMON] intensified!",
+	},
+	shadowmeld: {
+		name: "Shadow Meld",
+		desc: "The user and the target have their Defense and Special Defense stats set to be equal to the average of the user and the target's Defense and Special Defense stats, respectively, rounded down. Stat stage changes are unaffected.",
+		shortDesc: "Infiltrates. Averages Defense/Sp. Def with target.",
+
+		activate: "  [POKEMON] melded its defenses with its target!",
+	},
+	shadowmist: {
+		name: "Shadow Mist",
+		desc: "Cannot be reflected. Infiltrates. Lowers the target's Attack and Special Attack by 1 stage.",
+		shortDesc: "Non-reflectable. Infiltrates. Target Atk/SpA -1.",
+	},
+	shadowmoon: {
+		name: "Shadow Moon",
+		shortDesc: "+1 Atk. Heals the user by 50% of its max HP.",
+	},
+	shadowpanic: {
+		name: "Shadow Panic",
+		shortDesc: "Crits. 100% chance to confuse target.",
+	},
+	shadowpivot: {
+		name: "Shadow Pivot",
+		desc: "Always crits. If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.",
+		shortDesc: "Crits. User switches out after attacking.",
+
+		switchOut: "[POKEMON] vanished into the shadows...",
+	},
 	shadowpunch: {
 		name: "Shadow Punch",
 		shortDesc: "This move does not check accuracy.",
+	},
+	shadowpunish: {
+		name: "Shadow Punish",
+		desc: "Always crits. Power is equal to 55+(X*30), where X is the target's total stat stage changes that are greater than 0, but not more than 200 power.",
+		shortDesc: "55 power +30 for each of the target's stat boosts.",
+	},
+	shadowrage: {
+		name: "Facade",
+		desc: "Always crits. Power doubles if the user is burned, paralyzed, or poisoned. The physical damage halving effect from the user's burn is ignored.",
+		shortDesc: "Crits. x2 power if user is burn/poison/paralyzed.",
+	},
+	shadowrave: {
+		name: "Shadow Rave",
+		shortDesc: "Always crits. User takes 1/3 recoil.",
+	},
+	shadowreset: {
+		name: "Shadow Reset",
+		shortDesc: "Crits. Removes the target's stat changes.",
+	},
+	shadowroulette: {
+		name: "Shadow Roulette",
+		desc: "Always crits. If this move is successful, it deals variable damage to the target. 1% chance for 1 power and self-destruction, 9% chance for 1 power, 20% chance for 50 power, 20% chance for 75 power, 20% chance for 100 power, 20% chance for 150 power, 9% chance for 250 power and self destructing, 1% chance for 250 power.",
+		shortDesc: "Crits. Deals unpredictable damage. May explode.",
+	},
+	shadowrush: {
+		name: "Shadow Rush",
+		shortDesc: "Always crits. User takes 1/4 recoil.",
+	},
+	shadowsap: {
+		name: "Shadow Sap",
+		desc: "Infiltrates. Non-reflectable. The Pokemon at the user's position steals 1/8 of the target's maximum HP, rounded down, at the end of each turn. If Big Root is held by the recipient, the HP recovered is 1.3x normal, rounded half down. If the target uses Baton Pass, the replacement will continue being leeched. If the target switches out or uses Rapid Spin successfully, the effect ends.",
+		shortDesc: "1/8 of target's HP is restored to user every turn.",
+
+		start: "  [POKEMON] was seeded!",
+		end: "  [POKEMON] was freed from Shadow Sap!",
+		damage: "  [POKEMON]'s health is sapped by Shadow Sap!",
+	},
+	shadowscheme: {
+		name: "Shadow Scheme",
+		desc: "Raises the user's Special Attack by 2 stages.",
+		shortDesc: "Raises the user's Sp. Atk by 2.",
+	},
+	shadowshackle: {
+		name: "Shadow Shackle",
+		desc: "Always crits. Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
+		shortDesc: "Crits. Prevents the target from switching out.",
+	},
+	shadowshatter: {
+		name: "Shadow Shatter",
+		desc: "Always crits. If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated.",
+		shortDesc: "Always crits. Destroys screens.",
+
+		activate: "  [POKEMON] shattered [TEAM]'s protections!",
+	},
+	shadowshed: {
+		name: "Shadow Shed",
+		desc: "Cannot be reflected. Infiltrates. Lowers the target's evasiveness by 2 stages. If this move is successful and whether or not the target's evasiveness was affected, the effects of Reflect, Light Screen, Aurora Veil, Safeguard, Mist, Spikes, Toxic Spikes, Stealth Rock, and Sticky Web end for the target's side, and the effects of Spikes, Toxic Spikes, Stealth Rock, and Sticky Web end for the user's side. Ignores a target's substitute, although a substitute will still block the lowering of evasiveness. If there is a terrain active and this move is successful, the terrain will be cleared.",
+		shortDesc: "-2 evasion; clears terrain and hazards on both sides.",
+	},
+	shadowshuffle: {
+		name: "Shadow Shuffle",
+		desc: "Non-reflectable. Infiltrates. The target is forced to switch out and be replaced with a random unfainted ally. Fails if the target is the last unfainted Pokemon in its party, or if the target used Ingrain previously or has the Suction Cups Ability.",
+		shortDesc: "Forces the target to switch to a random ally.",
+	},
+	shadowsiren: {
+		name: "Shadow Siren",
+		desc: "Each active Pokemon receives a perish count of 4 if it doesn't already have a perish count. At the end of each turn including the turn used, the perish count of all active Pokemon lowers by 1 and Pokemon faint if the number reaches 0. The perish count is removed from Pokemon that switch out. If a Pokemon uses Baton Pass while it has a perish count, the replacement will gain the perish count and continue to count down.",
+		shortDesc: "All active Pokemon will faint in 3 turns.",
+
+		start: "  All Pok\u00E9mon that heard the siren will perish in three turns!",
+		activate: "  [POKEMON]'s perish count fell to [NUMBER].",
+	},
+	shadowslasher: {
+		name: "Shadow Slasher",
+		shortDesc: "Hits 2-5 times in one turn. Always crits.",
 	},
 	shadowsneak: {
 		name: "Shadow Sneak",
 		desc: "No additional effect.",
 		shortDesc: "Usually goes first.",
 	},
+	shadowsnipe: {
+		name: "Shadow Snipe",
+		desc: "Always crits. Raises the user's Attack by 3 stages if this move knocks out the target.",
+		shortDesc: "Crits. User Attack +3 if this KOes the target.",
+	},
+	shadowsorcery: {
+		name: "Shadow Sorcery",
+		desc: "Always crits. Power doubles if the target has a non-volatile status condition.",
+		shortDesc: "Crits. Power doubles if the target is status'd.",
+	},
+	shadowspell: {
+		name: "Shadow Spell",
+		shortDesc: "Crits. Inflicts a random status onto the target.",
+	},
+	shadowsprint: {
+		name: "Shadow Sprint",
+		shortDesc: "Usually goes first. Always crits.",
+	},
+	shadowstare: {
+		name: "Shadow Stare",
+		shortDesc: "Non-reflectable. Infiltrates. Paralyzes target.",
+	},
+	shadowstorm: {
+		name: "Shadow Storm",
+		shortDesc: "Always crits. User takes 1/2 recoil.",
+	},
 	shadowstrike: {
 		name: "Shadow Strike",
 		desc: "Has a 50% chance to lower the target's Defense by 1 stage.",
 		shortDesc: "50% chance to lower the target's Defense by 1.",
+	},
+	shadowsun: {
+		name: "Shadow Sun",
+		shortDesc: "+1 SpA. Heals the user by 50% of its max HP.",
+	},
+	shadowthreat: {
+		name: "Shadow Threat",
+		shortDesc: "Raises target Def/Sp. Def by 1 and confuses it.",
+	},
+	shadowtrance: {
+		name: "Shadow Trance",
+		shortDesc: "Non-reflectable. Infiltrates. Sleeps target.",
+	},
+	shadowvelocity: {
+		name: "Shadow Velocity",
+		desc: "Raises the user's Speed by 2 stages.",
+		shortDesc: "Raises the user's Speed by 2.",
+	},
+	shadowvengeance: {
+		name: "Shadow Vengeance",
+		desc: "Always crits. The power of this move is 20 if X is 33 to 48, 40 if X is 17 to 32, 80 if X is 10 to 16, 100 if X is 5 to 9, 150 if X is 2 to 4, and 200 if X is 0 or 1, where X is equal to (user's current HP * 48 / user's maximum HP), rounded down.",
+		shortDesc: "Crits. More power the less HP the user has left.",
+	},
+	shadowwall: {
+		name: "Shadow Wall",
+		desc: "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon making contact with the user lose 1/8 of their maximum HP, rounded down. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Obstruct, Protect, Quick Guard, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
+		shortDesc: "Protects from moves. Contact: loses 1/8 max HP.",
+
+		damage: "[POKEMON] was hurt by the shadowy wall!",
+	},
+	shadowwave: {
+		name: "Shadow Wave",
+		shortDesc: "Always crits. User takes 1/4 recoil.",
+	},
+	shadowwheel: {
+		name: "Shadow Wheel",
+		desc: "Always crits. If this move is successful and the user has not fainted, the effects of Leech Seed and binding moves end for the user, and all hazards are removed from the user's side of the field.",
+		shortDesc: "Crits. Frees user from hazards, binding, Leech Seed.",
+	},
+	shadowwhip: {
+		name: "Shadow Whip",
+		shortDesc: "Always crits. Lowers target's Defense by 1.",
+	},
+	shadowwreckage: {
+		name: "Shadow Wreckage",
+		desc: "Always crits. Ends the effects of Electric Terrain, Grassy Terrain, Misty Terrain, and Psychic Terrain.",
+		shortDesc: "Crits. Ends any active terrain.",
 	},
 	sharpen: {
 		name: "Sharpen",

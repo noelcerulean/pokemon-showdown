@@ -15222,6 +15222,92 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Ghost",
 		contestType: "Clever",
 	},
+	shadowbandit: {
+		num: -818,
+		accuracy: 100,
+		basePower: 70,
+		category: "Physical",
+		name: "Shadow Bandit",
+		pp: 20,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		onAfterHit(target, source, move) {
+			if (source.item || source.volatiles['gem']) {
+				return;
+			}
+			const yourItem = target.takeItem(source);
+			if (!yourItem) {
+				return;
+			}
+			if (!this.singleEvent('TakeItem', yourItem, target.itemState, source, target, move, yourItem) ||
+				!source.setItem(yourItem)) {
+				target.item = yourItem.id; // bypass setItem so we don't break choicelock or anything
+				return;
+			}
+			this.add('-enditem', target, yourItem, '[silent]', '[from] move: Shadow Bandit', '[of] ' + source);
+			this.add('-item', source, yourItem, '[from] move: Shadow Bandit', '[of] ' + target);
+		},
+		willCrit: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowbarrier: {
+		num: -856,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Barrier",
+		pp: 10,
+		priority: 4,
+		flags: {},
+		stallingMove: true,
+		volatileStatus: 'protect',
+		onPrepareHit(pokemon) {
+			return !!this.queue.willAct() && this.runEvent('StallMove', pokemon);
+		},
+		onHit(pokemon) {
+			pokemon.addVolatile('stall');
+		},
+		condition: {
+			duration: 1,
+			onStart(target) {
+				this.add('-singleturn', target, 'move: Protect');
+			},
+			onTryHitPriority: 3,
+			onTryHit(target, source, move) {
+				if (!move.flags['protect']) {
+					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
+					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
+					return;
+				}
+				if (move.smartTarget) {
+					move.smartTarget = false;
+				} else {
+					this.add('-activate', target, 'move: Protect');
+				}
+				const lockedmove = source.getVolatile('lockedmove');
+				if (lockedmove) {
+					// Outrage counter is reset
+					if (source.volatiles['lockedmove'].duration === 2) {
+						delete source.volatiles['lockedmove'];
+					}
+				}
+				if (!this.checkMoveMakesContact(move, source, target) && move.category !== 'Status') {
+					this.damage(source.baseMaxhp / 8, source, target);
+				}
+				return this.NOT_FAIL;
+			},
+			onHit(target, source, move) {
+				if (move.isZOrMaxPowered && !this.checkMoveMakesContact(move, source, target)) {
+					this.damage(source.baseMaxhp / 8, source, target);
+				}
+			},
+		},
+		secondary: null,
+		target: "self",
+		type: "Shadow",
+	},
 	shadowbone: {
 		num: 708,
 		accuracy: 100,
@@ -15241,6 +15327,82 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Ghost",
 		contestType: "Cool",
 	},
+	shadowbreak: {
+		num: -801,
+		accuracy: 90,
+		basePower: 110,
+		category: "Physical",
+		name: "Shadow Break",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		recoil: [33, 100],
+		willCrit: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowchant: {
+		num: -836,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Chant",
+		pp: 30,
+		priority: 0,
+		flags: {sound: 1},
+		sideCondition: 'luckychant',
+		condition: {
+			duration: 5,
+			onSideStart(side) {
+				this.add('-sidestart', side, 'move: Shadow Chant'); 
+			},
+			onCriticalHit: false,
+			onSideResidualOrder: 26,
+			onSideResidualSubOrder: 6,
+			onSideEnd(side) {
+				this.add('-sideend', side, 'move: Shadow Chant'); 
+			},
+		},
+		secondary: null,
+		target: "allySide",
+		type: "Shadow",
+	},
+	shadowcharge: {
+		num: -813,
+		accuracy: 100,
+		basePower: 50,
+		category: "Physical",
+		name: "Shadow Charge",
+		pp: 20,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		willCrit: true,
+		secondary: {
+			chance: 100,
+			self: {
+				boosts: {
+					spe: 1,
+				},
+			},
+		},
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowcinder: {
+		num: -837,
+		accuracy: 95,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Cinder",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, authentic: 1},
+		status: 'brn',
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
 	shadowclaw: {
 		num: 421,
 		accuracy: 100,
@@ -15255,6 +15417,147 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Ghost",
 		contestType: "Cool",
+	},
+	shadowdance: {
+		num: -838,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Dance",
+		pp: 20,
+		priority: 0,
+		flags: {dance: 1},
+		boosts: {
+			atk: 1,
+			spe: 1,
+		},
+		secondary: null,
+		target: "self",
+		type: "Shadow",
+	},
+	shadowdevour: {
+		num: -830,
+		accuracy: 100,
+		basePower: 75,
+		category: "Special",
+		name: "Shadow Devour",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, heal: 1},
+		drain: [1, 2],
+		willCrit: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowdissolve: {
+		num: -826,
+		accuracy: 100,
+		basePower: 55,
+		category: "Special",
+		name: "Shadow Dissolve",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1},
+		onHit(target) {
+			if (target.getAbility().isPermanent) return;
+			target.addVolatile('gastroacid');
+		},
+		onAfterSubDamage(damage, target) {
+			if (target.getAbility().isPermanent) return;
+			target.addVolatile('gastroacid');
+		},
+		willCrit: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowdown: {
+		num: -809,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Down",
+		pp: 30,
+		priority: 0,
+		flags: {protect: 1, authentic: 1},
+		boosts: {
+			def: -1,
+			spd: -1,
+		},
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowend: {
+		num: -802,
+		accuracy: 85,
+		basePower: 145,
+		category: "Physical",
+		name: "Shadow End",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		recoil: [1, 2],
+		willCrit: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowfission: {
+		num: -850,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Fission",
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1, mystery: 1, authentic: 1},
+		onHit(target, pokemon) {
+			const targetHP = target.getUndynamaxedHP();
+			const averagehp = Math.floor((targetHP + pokemon.hp) / 2) || 1;
+			const targetChange = targetHP - averagehp;
+			target.sethp(target.hp - targetChange);
+			this.add('-sethp', target, target.getHealth, '[from] move: Shadow Fission', '[silent]');
+			pokemon.sethp(averagehp);
+			this.add('-sethp', pokemon, pokemon.getHealth, '[from] move: Shadow Fission');
+		},
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowfog: {
+		num: -835,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Fog",
+		pp: 30,
+		priority: 0,
+		flags: {authentic: 1},
+		onHitField() {
+			this.add('-clearallboost');
+			for (const pokemon of this.getAllActive()) {
+				pokemon.clearBoosts();
+			}
+		},
+		secondary: null,
+		target: "all",
+		type: "Shadow",
+	},
+	shadowfrost: {
+		num: -839,
+		accuracy: 95,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Frost",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, authentic: 1},
+		status: 'frz',
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
 	},
 	shadowforce: {
 		num: 467,
@@ -15286,6 +15589,262 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Ghost",
 		contestType: "Cool",
 	},
+	shadowfumes: {
+		num: -823,
+		accuracy: 95,
+		basePower: 30,
+		category: "Special",
+		name: "Shadow Fumes",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1},
+		willCrit: true,
+		secondary: {
+			chance: 100,
+			status: 'tox',
+		},
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowfusion: {
+		num: -840,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Fusion",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mystery: 1, authentic: 1},
+		onHit(target, source) {
+			const newatk = Math.floor((target.storedStats.atk + source.storedStats.atk) / 2);
+			target.storedStats.atk = newatk;
+			source.storedStats.atk = newatk;
+			const newspa = Math.floor((target.storedStats.spa + source.storedStats.spa) / 2);
+			target.storedStats.spa = newspa;
+			source.storedStats.spa = newspa;
+			this.add('-activate', source, 'move: Shadow Fusion', '[of] ' + target);
+		},
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowhatred: {
+		num: -827,
+		accuracy: 100,
+		basePower: 60,
+		category: "Special",
+		name: "Shadow Hatred",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1},
+		willCrit: true,
+		secondary: {
+			chance: 100,
+			onHit(target) {
+				if (!target.hp) return;
+				let move: Move | ActiveMove | null = target.lastMove;
+				if (!move || move.isZ) return;
+				if (move.isMax && move.baseMove) move = this.dex.moves.get(move.baseMove);
+
+				const ppDeducted = target.deductPP(move.id, 4);
+				if (!ppDeducted) return;
+				this.add('-activate', target, 'move: Shadow Hatred', move.name, ppDeducted);
+			},
+		},
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowhaunting: {
+		num: -832,
+		accuracy: 100,
+		basePower: 100,
+		category: "Special",
+		name: "Shadow Haunting",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1},
+		drain: [1, 1],
+		onTryImmunity(target) {
+			return target.status === 'slp' || target.hasAbility('comatose');
+		},
+		willCrit: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowhold: {
+		num: -806,
+		accuracy: 95,
+		basePower: 40,
+		category: "Physical",
+		name: "Shadow Hold",
+		pp: 30,
+		priority: 0,
+		flags: {protect: 1},
+		willCrit: true,
+		volatileStatus: 'partiallytrapped',
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowhubris: {
+		num: -825,
+		accuracy: 100,
+		basePower: 50,
+		category: "Special",
+		name: "Shadow Hubris",
+		pp: 30,
+		priority: 0,
+		flags: {protect: 1},
+		willCrit: true,
+		secondary: {
+			chance: 100,
+			self: {
+				boosts: {
+					spa: 1,
+				},
+			},
+		},
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowhurl: {
+		num: -817,
+		accuracy: 100,
+		basePower: 65,
+		category: "Physical",
+		name: "Shadow Hurl",
+		pp: 10,
+		priority: -6,
+		flags: {contact: 1, protect: 1},
+		willCrit: true,
+		forceSwitch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowintensify: {
+		num: -841,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Intensify",
+		pp: 20,
+		priority: 0,
+		flags: {},
+		volatileStatus: 'charge',
+		onHit(pokemon) {
+			this.add('-activate', pokemon, 'move: Shadow Intensify');
+		},
+		condition: {
+			duration: 2,
+			onRestart(pokemon) {
+				this.effectState.duration = 2;
+			},
+			onBasePowerPriority: 9,
+			onBasePower(basePower, attacker, defender, move) {
+				if (move.type === 'Shadow') {
+					this.debug('charge boost');
+					return this.chainModify(2);
+				}
+			},
+		},
+		boosts: {
+			def: 1,
+			spd: 1,
+		},
+		secondary: null,
+		target: "self",
+		type: "Shadow",
+	},
+	shadowmeld: {
+		num: -842,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Meld",
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1, mystery: 1, authentic: 1},
+		onHit(target, source) {
+			const newdef = Math.floor((target.storedStats.def + source.storedStats.def) / 2);
+			target.storedStats.def = newdef;
+			source.storedStats.def = newdef;
+			const newspd = Math.floor((target.storedStats.spd + source.storedStats.spd) / 2);
+			target.storedStats.spd = newspd;
+			source.storedStats.spd = newspd;
+			this.add('-activate', source, 'move: Shadow Meld', '[of] ' + target);
+		},
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowmist: {
+		num: -810,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Mist",
+		pp: 30,
+		priority: 0,
+		flags: {protect: 1, authentic: 1},
+		boosts: {
+			atk: -1,
+			spa: -1,
+		},
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowmoon: {
+		num: -843,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Moon",
+		pp: 5,
+		priority: 0,
+		flags: {heal: 1},
+		boosts: {
+			atk: 1,
+		},
+		heal: [1, 2],
+		secondary: null,
+		target: "self",
+		type: "Shadow",
+	},
+	shadowpanic: {
+		num: -807,
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		name: "Shadow Panic",
+		pp: 20,
+		priority: 0,
+		flags: {sound: 1, protect: 1, authentic: 1},
+		willCrit: true,
+		secondary: {
+			chance: 100,
+			volatileStatus: 'confusion',
+		},
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowpivot: {
+		num: -816,
+		accuracy: 100,
+		basePower: 65,
+		category: "Physical",
+		name: "Shadow Pivot",
+		pp: 25,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		willCrit: true,
+		selfSwitch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
 	shadowpunch: {
 		num: 325,
 		accuracy: true,
@@ -15300,6 +15859,325 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Ghost",
 		contestType: "Clever",
 	},
+	shadowpunish: {
+		num: -852,
+		accuracy: 100,
+		basePower: 0,
+		basePowerCallback(pokemon, target) {
+			let power = 55 + 30 * target.positiveBoosts();
+			if (power > 200) power = 200;
+			return power;
+		},
+		category: "Physical",
+		name: "Shadow Punish",
+		pp: 25,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		willCrit: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowrage: {
+		num: -819,
+		accuracy: 70,
+		basePower: 100,
+		category: "Physical",
+		name: "Shadow Rage",
+		pp: 20,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		onBasePower(basePower, pokemon) {
+			if (pokemon.status && pokemon.status !== 'slp') {
+				return this.chainModify(2);
+			}
+		},
+		willCrit: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowrave: {
+		num: -804,
+		accuracy: 90,
+		basePower: 110,
+		category: "Special",
+		name: "Shadow Rave",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1},
+		recoil: [33, 100],
+		willCrit: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowreset: {
+		num: -828,
+		accuracy: 100,
+		basePower: 65,
+		category: "Special",
+		name: "Shadow Reset",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1},
+		onHit(target) {
+			target.clearBoosts();
+			this.add('-clearboost', target);
+		},
+		willCrit: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+		shadowroulette: {
+		num: -833,
+		accuracy: 100,
+		basePower: 0,
+		category: "Special",
+		name: "Shadow Roulette",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1},
+		onModifyMove(move, pokemon, target) {
+			const rand = this.random(100);
+			if (rand < 9) {
+				move.basePower = 1;
+			} else if (rand < 29) {
+				move.basePower = 50;
+			} else if (rand < 49) {
+				move.basePower = 75;
+			} else if (rand < 69) {
+				move.basePower = 100;
+			} else if (rand < 89) {
+				move.basePower = 150;
+			} else if (rand < 90) {
+				move.basePower = 250;
+			} else if (rand < 91) {
+				move.basePower = 1;
+				move.selfdestruct = 'ifHit';
+			} else {
+				move.basePower = 250;
+				move.selfdestruct = 'ifHit';
+			}
+		},
+		willCrit: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowrush: {
+		num: -800,
+		accuracy: 100,
+		basePower: 85,
+		category: "Physical",
+		name: "Shadow Rush",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		recoil: [1, 4],
+		willCrit: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowsap: {
+		num: -845,
+		accuracy: 95,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Sap",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, authentic: 1},
+		volatileStatus: 'leechseed',
+		condition: {
+			onStart(target) {
+				this.add('-start', target, 'move: Shadow Sap');
+			},
+			onResidualOrder: 8,
+			onResidual(pokemon) {
+				const target = this.getAtSlot(pokemon.volatiles['leechseed'].sourceSlot);
+				if (!target || target.fainted || target.hp <= 0) {
+					this.debug('Nothing to sap');
+					return;
+				}
+				const damage = this.damage(pokemon.baseMaxhp / 8, pokemon, target);
+				if (damage) {
+					this.heal(damage, target, pokemon);
+				}
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowscheme: {
+		num: -846,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Scheme",
+		pp: 20,
+		priority: 0,
+		flags: {},
+		boosts: {
+			spa: 2,
+		},
+		secondary: null,
+		target: "self",
+		type: "Shadow",
+	},
+	shadowshackle: {
+		num: -831,
+		accuracy: 100,
+		basePower: 75,
+		category: "Special",
+		name: "Shadow Shackle",
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1},
+		willCrit: true,
+		secondary: {
+			chance: 100,
+			onHit(target, source, move) {
+				if (source.isActive) target.addVolatile('trapped', source, move, 'trapper');
+			},
+		},
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowshatter: {
+		num: -821,
+		accuracy: 75,
+		basePower: 100,
+		category: "Physical",
+		name: "Shadow Shatter",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		onTryHit(pokemon) {
+			// will shatter screens through sub, before you hit
+			pokemon.side.removeSideCondition('reflect');
+			pokemon.side.removeSideCondition('lightscreen');
+			pokemon.side.removeSideCondition('auroraveil');
+		},
+		willCrit: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowshed: {
+		num: -808,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Shed",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, authentic: 1},
+		onHit(target, source, move) {
+			let success = false;
+			if (!target.volatiles['substitute'] || move.infiltrates) success = !!this.boost({evasion: -2});
+			const removeTarget = [
+				'reflect', 'lightscreen', 'auroraveil', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb',
+			];
+			const removeAll = [
+				'spikes', 'toxicspikes', 'stealthrock', 'stickyweb',
+			];
+			for (const targetCondition of removeTarget) {
+				if (target.side.removeSideCondition(targetCondition)) {
+					if (!removeAll.includes(targetCondition)) continue;
+					this.add('-sideend', target.side, this.dex.conditions.get(targetCondition).name, '[from] move: Shadow Shed', '[of] ' + source);
+					success = true;
+				}
+			}
+			for (const sideCondition of removeAll) {
+				if (source.side.removeSideCondition(sideCondition)) {
+					this.add('-sideend', source.side, this.dex.conditions.get(sideCondition).name, '[from] move: Shadow Shed', '[of] ' + source);
+					success = true;
+				}
+			}
+			this.field.clearTerrain();
+			return success;
+		},
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowshuffle: {
+		num: -848,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Shuffle",
+		pp: 20,
+		priority: -6,
+		flags: {authentic: 1, mystery: 1},
+		forceSwitch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowsiren: {
+		num: -849,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Siren",
+		pp: 5,
+		priority: 0,
+		flags: {sound: 1, distance: 1, authentic: 1},
+		onHitField(target, source, move) {
+			let result = false;
+			let message = false;
+			for (const pokemon of this.getAllActive()) {
+				if (this.runEvent('Invulnerability', pokemon, source, move) === false) {
+					this.add('-miss', source, pokemon);
+					result = true;
+				} else if (this.runEvent('TryHit', pokemon, source, move) === null) {
+					result = true;
+				} else if (!pokemon.volatiles['perishsong']) {
+					pokemon.addVolatile('perishsong');
+					this.add('-start', pokemon, 'perish3', '[silent]');
+					result = true;
+					message = true;
+				}
+			}
+			if (!result) return false;
+			if (message) this.add('-fieldactivate', 'move: Shadow Siren');
+		},
+		condition: {
+			duration: 4,
+			onEnd(target) {
+				this.add('-start', target, 'perish0');
+				target.faint();
+			},
+			onResidualOrder: 24,
+			onResidual(pokemon) {
+				const duration = pokemon.volatiles['perishsong'].duration;
+				this.add('-start', pokemon, 'perish' + duration);
+			},
+		},
+		secondary: null,
+		target: "all",
+		type: "Shadow",
+	},
+	shadowslasher: {
+		num: -811,
+		accuracy: 95,
+		basePower: 25,
+		category: "Physical",
+		name: "Shadow Slasher",
+		pp: 30,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		willCrit: true,
+		multihit: [2, 5],
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
 	shadowsneak: {
 		num: 425,
 		accuracy: 100,
@@ -15313,6 +16191,100 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Ghost",
 		contestType: "Clever",
+	},
+	shadowsnipe: {
+		num: -814,
+		accuracy: 100,
+		basePower: 50,
+		category: "Physical",
+		name: "Shadow Snipe",
+		pp: 25,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		onAfterMoveSecondarySelf(pokemon, target, move) {
+			if (!target || target.fainted || target.hp <= 0) this.boost({atk: 3}, pokemon, pokemon, move);
+		},
+		willCrit: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowsorcery: {
+		num: -829,
+		accuracy: 100,
+		basePower: 65,
+		basePowerCallback(pokemon, target, move) {
+			if (target.status || target.hasAbility('comatose')) return move.basePower * 2;
+			return move.basePower;
+		},
+		category: "Special",
+		name: "Shadow Sorcery",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1},
+		willCrit: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowspell: {
+		num: -824,
+		accuracy: 100,
+		basePower: 40,
+		category: "Special",
+		name: "Shadow Spell",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1},
+		willCrit: true,
+		secondary: {
+			chance: 100,
+			onHit(target, source) {
+				const result = this.random(5);
+				if (result === 0) {
+					target.trySetStatus('brn', source);
+				} else if (result === 1) {
+					target.trySetStatus('par', source);
+				} else if (result === 2) {
+					target.trySetStatus('slp', source);
+				} else if (result === 3) {
+					target.trySetStatus('psn', source);
+				} else {
+					target.trySetStatus('frz', source);
+				}
+			},
+		},
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowstare: {
+		num: -853,
+		accuracy: 95,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Stare",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, authentic: 1},
+		status: 'par',
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowstorm: {
+		num: -805,
+		accuracy: 80,
+		basePower: 145,
+		category: "Special",
+		name: "Shadow Storm",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1},
+		recoil: [1, 2],
+		willCrit: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
 	},
 	shadowstrike: {
 		num: 0,
@@ -15333,6 +16305,267 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Ghost",
 		contestType: "Clever",
+	},
+	shadowsprint: {
+		num: -812,
+		accuracy: 100,
+		basePower: 40,
+		category: "Physical",
+		name: "Shadow Sprint",
+		pp: 30,
+		priority: 1,
+		flags: {contact: 1, protect: 1},
+		willCrit: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowsun: {
+		num: -844,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Sun",
+		pp: 5,
+		priority: 0,
+		flags: {heal: 1},
+		boosts: {
+			spa: 1,
+		},
+		heal: [1, 2],
+		secondary: null,
+		target: "self",
+		type: "Shadow",
+	},
+	shadowthreat: {
+		num: -847,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Threat",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mystery: 1, sound: 1, authentic: 1},
+		volatileStatus: 'confusion',
+		boosts: {
+			def: 1,
+			spd: 1,
+		},
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowtrance: {
+		num: -854,
+		accuracy: 95,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Trance",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, authentic: 1},
+		status: 'slp',
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowvelocity: {
+		num: -851,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Velocity",
+		pp: 30,
+		priority: 0,
+		flags: {},
+		boosts: {
+			spe: 2,
+		},
+		secondary: null,
+		target: "self",
+		type: "Shadow",
+	},
+	shadowvengeance: {
+		num: -834,
+		accuracy: 100,
+		basePower: 0,
+		basePowerCallback(pokemon, target) {
+			const ratio = pokemon.hp * 48 / pokemon.maxhp;
+			if (ratio < 2) {
+				return 200;
+			}
+			if (ratio < 5) {
+				return 150;
+			}
+			if (ratio < 10) {
+				return 100;
+			}
+			if (ratio < 17) {
+				return 80;
+			}
+			if (ratio < 33) {
+				return 40;
+			}
+			return 20;
+		},
+		category: "Special",
+		name: "Shadow Vengeance",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1},
+		willCrit: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowwall: {
+		num: -855,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Wall",
+		pp: 10,
+		priority: 4,
+		flags: {},
+		stallingMove: true,
+		volatileStatus: 'protect',
+		onPrepareHit(pokemon) {
+			return !!this.queue.willAct() && this.runEvent('StallMove', pokemon);
+		},
+		onHit(pokemon) {
+			pokemon.addVolatile('stall');
+		},
+		condition: {
+			duration: 1,
+			onStart(target) {
+				this.add('-singleturn', target, 'move: Protect');
+			},
+			onTryHitPriority: 3,
+			onTryHit(target, source, move) {
+				if (!move.flags['protect']) {
+					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
+					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
+					return;
+				}
+				if (move.smartTarget) {
+					move.smartTarget = false;
+				} else {
+					this.add('-activate', target, 'move: Protect');
+				}
+				const lockedmove = source.getVolatile('lockedmove');
+				if (lockedmove) {
+					// Outrage counter is reset
+					if (source.volatiles['lockedmove'].duration === 2) {
+						delete source.volatiles['lockedmove'];
+					}
+				}
+				if (this.checkMoveMakesContact(move, source, target)) {
+					this.damage(source.baseMaxhp / 8, source, target);
+				}
+				return this.NOT_FAIL;
+			},
+			onHit(target, source, move) {
+				if (move.isZOrMaxPowered && this.checkMoveMakesContact(move, source, target)) {
+					this.damage(source.baseMaxhp / 8, source, target);
+				}
+			},
+		},
+		secondary: null,
+		target: "self",
+		type: "Shadow",
+	},
+	shadowwave: {
+		num: -803,
+		accuracy: 100,
+		basePower: 85,
+		category: "Special",
+		name: "Shadow Wave",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1},
+		recoil: [1, 4],
+		willCrit: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowwheel: {
+		num: -815,
+		accuracy: 100,
+		basePower: 60,
+		category: "Physical",
+		name: "Shadow Wheel",
+		pp: 25,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		onAfterHit(target, pokemon) {
+			if (pokemon.hp && pokemon.removeVolatile('leechseed')) {
+				this.add('-end', pokemon, 'Leech Seed', '[from] move: Shadow Wheel', '[of] ' + pokemon);
+			}
+			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb'];
+			for (const condition of sideConditions) {
+				if (pokemon.hp && pokemon.side.removeSideCondition(condition)) {
+					this.add('-sideend', pokemon.side, this.dex.conditions.get(condition).name, '[from] move: Shadow Wheel', '[of] ' + pokemon);
+				}
+			}
+			if (pokemon.hp && pokemon.volatiles['partiallytrapped']) {
+				pokemon.removeVolatile('partiallytrapped');
+			}
+		},
+		onAfterSubDamage(damage, target, pokemon) {
+			if (pokemon.hp && pokemon.removeVolatile('leechseed')) {
+				this.add('-end', pokemon, 'Leech Seed', '[from] move: Shadow Wheel', '[of] ' + pokemon);
+			}
+			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb'];
+			for (const condition of sideConditions) {
+				if (pokemon.hp && pokemon.side.removeSideCondition(condition)) {
+					this.add('-sideend', pokemon.side, this.dex.conditions.get(condition).name, '[from] move: Shadow Wheel', '[of] ' + pokemon);
+				}
+			}
+			if (pokemon.hp && pokemon.volatiles['partiallytrapped']) {
+				pokemon.removeVolatile('partiallytrapped');
+			}
+		},
+		willCrit: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowwhip: {
+		num: -820,
+		accuracy: 70,
+		basePower: 100,
+		category: "Physical",
+		name: "Shadow Whip",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		willCrit: true,
+		secondary: {
+			chance: 100,
+			boosts: {
+				def: -1,
+			},
+		},
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowwreckage: {
+		num: -822,
+		accuracy: 100,
+		basePower: 75,
+		category: "Physical",
+		name: "Shadow Wreckage",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1},
+		onHit() {
+			this.field.clearTerrain();
+		},
+		willCrit: true,
+		secondary: null,
+		target: "allAdjacent",
+		type: "Shadow",
 	},
 	sharpen: {
 		num: 159,
