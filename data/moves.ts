@@ -15355,13 +15355,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 		condition: {
 			duration: 5,
 			onSideStart(side) {
-				this.add('-sidestart', side, 'move: Shadow Chant'); 
+				this.add('-sidestart', side, 'move: Shadow Chant');
 			},
 			onCriticalHit: false,
 			onSideResidualOrder: 26,
 			onSideResidualSubOrder: 6,
 			onSideEnd(side) {
-				this.add('-sideend', side, 'move: Shadow Chant'); 
+				this.add('-sideend', side, 'move: Shadow Chant');
 			},
 		},
 		secondary: null,
@@ -15930,7 +15930,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Shadow",
 	},
-		shadowroulette: {
+	shadowroulette: {
 		num: -833,
 		accuracy: 100,
 		basePower: 0,
