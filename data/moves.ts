@@ -15729,20 +15729,17 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1},
-		willCrit: true,
-		secondary: {
-			chance: 100,
-			onHit(target) {
-				if (!target.hp) return;
-				let move: Move | ActiveMove | null = target.lastMove;
-				if (!move || move.isZ) return;
-				if (move.isMax && move.baseMove) move = this.dex.moves.get(move.baseMove);
+		onHit(target) {
+			let move: Move | ActiveMove | null = target.lastMove;
+			if (!move || move.isZ) return false;
+			if (move.isMax && move.baseMove) move = this.dex.moves.get(move.baseMove);
 
-				const ppDeducted = target.deductPP(move.id, 3);
-				if (!ppDeducted) return;
-				this.add('-activate', target, 'move: Shadow Hatred', move.name, ppDeducted);
-			},
+			const ppDeducted = target.deductPP(move.id, 4);
+			if (!ppDeducted) return false;
+			this.add("-activate", target, 'move: Shadow Hatred', move.name, ppDeducted);
 		},
+		willCrit: true,
+		secondary: null,
 		target: "normal",
 		type: "Shadow",
 	},
