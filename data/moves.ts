@@ -15566,7 +15566,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	shadowend: {
 		num: -802,
-		accuracy: 85,
+		accuracy: 80,
 		basePower: 145,
 		category: "Physical",
 		name: "Shadow End",
@@ -15821,23 +15821,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 20,
 		priority: 0,
 		flags: {},
-		volatileStatus: 'charge',
-		onHit(pokemon) {
-			this.add('-activate', pokemon, 'move: Shadow Intensify');
-		},
-		condition: {
-			duration: 2,
-			onRestart(pokemon) {
-				this.effectState.duration = 2;
-			},
-			onBasePowerPriority: 9,
-			onBasePower(basePower, attacker, defender, move) {
-				if (move.type === 'Shadow') {
-					this.debug('charge boost');
-					return this.chainModify(2);
-				}
-			},
-		},
 		boosts: {
 			def: 1,
 			spd: 1,
@@ -15964,7 +15947,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 65,
 		category: "Physical",
 		name: "Shadow Pivot",
-		pp: 25,
+		pp: 20,
 		priority: 0,
 		flags: {contact: 1, protect: 1},
 		willCrit: true,
@@ -16200,8 +16183,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	shadowshatter: {
 		num: -821,
-		accuracy: 75,
-		basePower: 100,
+		accuracy: 100,
+		basePower: 75,
 		category: "Physical",
 		name: "Shadow Shatter",
 		pp: 15,

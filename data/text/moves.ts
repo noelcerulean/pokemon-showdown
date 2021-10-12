@@ -5318,10 +5318,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	shadowintensify: {
 		name: "Shadow Intesify",
-		desc: "Raises the user's Defense and Special Defense by 1 stage. If the user uses an Shadow-type attack on the next turn, its power will be doubled.",
-		shortDesc: "+1 Def/SpD, user's Shadow move next turn 2x power.",
-
-		start: "  The shadowy aura around [POKEMON] intensified!",
+		desc: "Raises the user's Defense and Special Defense by 1 stage.",
+		shortDesc: "Raises user's Defense and Sp. Defense by 1.",
 	},
 	shadowjolt: {
 		name: "Shadow Jolt",
