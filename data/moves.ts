@@ -11190,7 +11190,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {},
 		noMetronome: [
-			"After You", "Apple Acid", "Assist", "Astral Barrage", "Aura Wheel", "Baneful Bunker", "Beak Blast", "Behemoth Bash", "Behemoth Blade", "Belch", "Bestow", "Body Press", "Branch Poke", "Breaking Swipe", "Celebrate", "Chatter", "Clangorous Soul", "Copycat", "Counter", "Covet", "Crafty Shield", "Decorate", "Destiny Bond", "Detect", "Diamond Storm", "Double Iron Bash", "Dragon Ascent", "Dragon Energy", "Drum Beating", "Dynamax Cannon", "Endure", "Eternabeam", "False Surrender", "Feint", "Fiery Wrath", "Fleur Cannon", "Focus Punch", "Follow Me", "Freeze Shock", "Freezing Glare", "Glacial Lance", "Grav Apple", "Helping Hand", "Hold Hands", "Hyperspace Fury", "Hyperspace Hole", "Ice Burn", "Instruct", "Jungle Healing", "King's Shield", "Life Dew", "Light of Ruin", "Mat Block", "Me First", "Meteor Assault", "Metronome", "Mimic", "Mind Blown", "Mirror Coat", "Mirror Move", "Moongeist Beam", "Nature Power", "Nature's Madness", "Obstruct", "Origin Pulse", "Overdrive", "Photon Geyser", "Plasma Fists", "Precipice Blades", "Protect", "Pyro Ball", "Quash", "Quick Guard", "Rage Powder", "Relic Song", "Secret Sword", "Shell Trap", "Sketch", "Sleep Talk", "Snap Trap", "Snarl", "Snatch", "Snore", "Spectral Thief", "Spiky Shield", "Spirit Break", "Spotlight", "Steam Eruption", "Steel Beam", "Strange Steam", "Struggle", "Sunsteel Strike", "Surging Strikes", "Switcheroo", "Techno Blast", "Thief", "Thousand Arrows", "Thousand Waves", "Thunder Cage", "Thunderous Kick", "Transform", "Trick", "V-create", "Wicked Blow", "Wide Guard",
+			"After You", "Apple Acid", "Assist", "Astral Barrage", "Aura Wheel", "Baneful Bunker", "Beak Blast", "Behemoth Bash", "Behemoth Blade", "Belch", "Bestow", "Body Press", "Branch Poke", "Breaking Swipe", "Celebrate", "Chatter", "Clangorous Soul", "Copycat", "Counter", "Covet", "Crafty Shield", "Decorate", "Destiny Bond", "Detect", "Diamond Storm", "Double Iron Bash", "Dragon Ascent", "Dragon Energy", "Drum Beating", "Dynamax Cannon", "Endure", "Eternabeam", "False Surrender", "Feint", "Fiery Wrath", "Fleur Cannon", "Focus Punch", "Follow Me", "Freeze Shock", "Freezing Glare", "Glacial Lance", "Grav Apple", "Helping Hand", "Hold Hands", "Hyperspace Fury", "Hyperspace Hole", "Ice Burn", "Instruct", "Jungle Healing", "King's Shield", "Life Dew", "Light of Ruin", "Mat Block", "Me First", "Meteor Assault", "Metronome", "Mimic", "Mind Blown", "Mirror Coat", "Mirror Move", "Moongeist Beam", "Nature Power", "Nature's Madness", "Obstruct", "Origin Pulse", "Overdrive", "Photon Geyser", "Plasma Fists", "Precipice Blades", "Protect", "Pyro Ball", "Quash", "Quick Guard", "Rage Powder", "Relic Song", "Secret Sword", "Shadow Bandit", "Shadow Bolt", "Shadow Break", "Shadow Cascade", "Shadow Chant", "Shadow Charge", "Shadow Chill", "Shadow Cinder", "Shadow Combust", "Shadow Dance", "Shadow Devour", "Shadow Dissolve", "Shadow Doomsday", "Shadow Down", "Shadow End", "Shadow Fire", "Shadow Fission", "Shadow Fog", "Shadow Frost", "Shadow Fumes", "Shadow Fusion", "Shadow Hatred", "Shadow Haunting", "Shadow Hold", "Shadow Hubris", "Shadow Hurl", "Shadow Intensify", "Shadow Jolt", "Shadow Meld", "Shadow Mist", "Shadow Moon", "Shadow Panic", "Shadow Phoenix", "Shadow Pivot", "Shadow Punish", "Shadow Rage", "Shadow Rainbow", "Shadow Rave", "Shadow Reset", "Shadow Roulette", "Shadow Rush", "Shadow Scheme", "Shadow Seed", "Shadow Shackle", "Shadow Shatter", "Shadow Shed", "Shadow Shuffle", "Shadow Siren", "Shadow Slasher", "Shadow Snipe", "Shadow Sorcery", "Shadow Spell", "Shadow Sprint", "Shadow Stare", "Shadow Storm", "Shadow Sun", "Shadow Threat", "Shadow Trance", "Shadow Velocity", "Shadow Vengeance", "Shadow Wall", "Shadow Wave", "Shadow Wheel", "Shadow Whip", "Shadow Wreckage", "Shell Trap", "Sketch", "Sleep Talk", "Snap Trap", "Snarl", "Snatch", "Snore", "Spectral Thief", "Spiky Shield", "Spirit Break", "Spotlight", "Steam Eruption", "Steel Beam", "Strange Steam", "Struggle", "Sunsteel Strike", "Surging Strikes", "Switcheroo", "Techno Blast", "Thief", "Thousand Arrows", "Thousand Waves", "Thunder Cage", "Thunderous Kick", "Transform", "Trick", "V-create", "Wicked Blow", "Wide Guard",
 		],
 		onHit(target, source, effect) {
 			const moves: MoveData[] = [];
@@ -15248,6 +15248,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			this.add('-item', source, yourItem, '[from] move: Shadow Bandit', '[of] ' + target);
 		},
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -15262,6 +15263,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1},
 		willCrit: true,
+		noSketch: true,
 		secondary: {
 			chance: 100,
 			status: 'par',
@@ -15299,6 +15301,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {contact: 1, protect: 1},
 		recoil: [33, 100],
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -15313,6 +15316,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {contact: 1, protect: 1},
 		willCrit: true,
+		noSketch: true,
 		secondary: {
 			chance: 100,
 			boosts: {
@@ -15345,6 +15349,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				this.add('-sideend', side, 'move: Shadow Chant');
 			},
 		},
+		noSketch: true,
 		secondary: null,
 		target: "allySide",
 		type: "Shadow",
@@ -15359,6 +15364,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {contact: 1, protect: 1},
 		willCrit: true,
+		noSketch: true,
 		secondary: {
 			chance: 100,
 			self: {
@@ -15380,6 +15386,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1},
 		willCrit: true,
+		noSketch: true,
 		secondary: {
 			chance: 100,
 			status: 'frz',
@@ -15397,6 +15404,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1, authentic: 1},
 		status: 'brn',
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -15426,6 +15434,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {contact: 1, protect: 1},
 		willCrit: true,
+		noSketch: true,
 		secondary: {
 			chance: 100,
 			boosts: {
@@ -15449,6 +15458,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			atk: 1,
 			spe: 1,
 		},
+		noSketch: true,
 		secondary: null,
 		target: "self",
 		type: "Shadow",
@@ -15464,6 +15474,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1, heal: 1},
 		drain: [1, 2],
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -15486,6 +15497,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			target.addVolatile('gastroacid');
 		},
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -15500,6 +15512,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {},
 		willCrit: true,
+		noSketch: true,
 		isFutureMove: true,
 		onTry(source, target) {
 			if (!target.side.addSlotCondition(target, 'futuremove')) return false;
@@ -15560,6 +15573,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			def: -1,
 			spd: -1,
 		},
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -15575,6 +15589,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {contact: 1, protect: 1},
 		recoil: [1, 2],
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -15589,6 +15604,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1},
 		willCrit: true,
+		noSketch: true,
 		secondary: {
 			chance: 100,
 			status: 'brn',
@@ -15614,6 +15630,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			pokemon.sethp(averagehp);
 			this.add('-sethp', pokemon, pokemon.getHealth, '[from] move: Shadow Fission');
 		},
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -15633,6 +15650,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				pokemon.clearBoosts();
 			}
 		},
+		noSketch: true,
 		secondary: null,
 		target: "all",
 		type: "Shadow",
@@ -15647,6 +15665,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1, authentic: 1},
 		status: 'frz',
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -15691,6 +15710,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1},
 		willCrit: true,
+		noSketch: true,
 		secondary: {
 			chance: 100,
 			status: 'tox',
@@ -15716,6 +15736,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			source.storedStats.spa = newspa;
 			this.add('-activate', source, 'move: Shadow Fusion', '[of] ' + target);
 		},
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -15739,6 +15760,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			this.add("-activate", target, 'move: Shadow Hatred', move.name, ppDeducted);
 		},
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -15757,6 +15779,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			return target.status === 'slp' || target.hasAbility('comatose');
 		},
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -15772,6 +15795,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1},
 		willCrit: true,
 		volatileStatus: 'partiallytrapped',
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -15786,6 +15810,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1},
 		willCrit: true,
+		noSketch: true,
 		secondary: {
 			chance: 100,
 			self: {
@@ -15808,6 +15833,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {contact: 1, protect: 1},
 		willCrit: true,
 		forceSwitch: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -15825,6 +15851,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			def: 1,
 			spd: 1,
 		},
+		noSketch: true,
 		secondary: null,
 		target: "self",
 		type: "Shadow",
@@ -15839,6 +15866,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {contact: 1, protect: 1},
 		willCrit: true,
+		noSketch: true,
 		secondary: {
 			chance: 100,
 			boosts: {
@@ -15866,6 +15894,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			source.storedStats.spd = newspd;
 			this.add('-activate', source, 'move: Shadow Meld', '[of] ' + target);
 		},
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -15883,6 +15912,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			atk: -1,
 			spa: -1,
 		},
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -15900,6 +15930,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			atk: 1,
 		},
 		heal: [1, 2],
+		noSketch: true,
 		secondary: null,
 		target: "self",
 		type: "Shadow",
@@ -15914,6 +15945,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {sound: 1, protect: 1, authentic: 1},
 		willCrit: true,
+		noSketch: true,
 		secondary: {
 			chance: 100,
 			volatileStatus: 'confusion',
@@ -15932,6 +15964,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1},
 		status: 'brn',
 		willCrit: true,
+		noSketch: true,
 		secondary: {
 			chance: 100,
 			boosts: {
@@ -15952,6 +15985,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {contact: 1, protect: 1},
 		willCrit: true,
 		selfSwitch: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -15985,6 +16019,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {contact: 1, protect: 1},
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16004,6 +16039,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			}
 		},
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16018,6 +16054,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1},
 		willCrit: true,
+		noSketch: true,
 		secondary: {
 			chance: 100,
 			boosts: {
@@ -16042,6 +16079,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1},
 		recoil: [33, 100],
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16060,6 +16098,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			this.add('-clearboost', target);
 		},
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16096,6 +16135,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			}
 		},
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16111,6 +16151,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {contact: 1, protect: 1},
 		recoil: [1, 4],
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16142,6 +16183,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				}
 			},
 		},
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16158,6 +16200,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		boosts: {
 			spa: 2,
 		},
+		noSketch: true,
 		secondary: null,
 		target: "self",
 		type: "Shadow",
@@ -16172,6 +16215,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1},
 		willCrit: true,
+		noSketch: true,
 		secondary: {
 			chance: 100,
 			onHit(target, source, move) {
@@ -16197,6 +16241,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			pokemon.side.removeSideCondition('auroraveil');
 		},
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16235,6 +16280,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			this.field.clearTerrain();
 			return success;
 		},
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16249,6 +16295,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: -6,
 		flags: {authentic: 1, mystery: 1},
 		forceSwitch: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16293,6 +16340,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				this.add('-start', pokemon, 'perish' + duration);
 			},
 		},
+		noSketch: true,
 		secondary: null,
 		target: "all",
 		type: "Shadow",
@@ -16308,6 +16356,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {contact: 1, protect: 1},
 		willCrit: true,
 		multihit: [2, 5],
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16339,6 +16388,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (!target || target.fainted || target.hp <= 0) this.boost({atk: 3}, pokemon, pokemon, move);
 		},
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16357,6 +16407,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1},
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16371,6 +16422,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1},
 		willCrit: true,
+		noSketch: true,
 		secondary: {
 			chance: 100,
 			onHit(target, source) {
@@ -16401,6 +16453,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1, authentic: 1},
 		status: 'par',
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16416,6 +16469,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1},
 		recoil: [1, 2],
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16450,6 +16504,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 1,
 		flags: {contact: 1, protect: 1},
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16467,6 +16522,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			spa: 1,
 		},
 		heal: [1, 2],
+		noSketch: true,
 		secondary: null,
 		target: "self",
 		type: "Shadow",
@@ -16485,6 +16541,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			def: 1,
 			spd: 1,
 		},
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16499,6 +16556,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1, authentic: 1},
 		status: 'slp',
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16515,6 +16573,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		boosts: {
 			spe: 2,
 		},
+		noSketch: true,
 		secondary: null,
 		target: "self",
 		type: "Shadow",
@@ -16548,6 +16607,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1},
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16604,6 +16664,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				}
 			},
 		},
+		noSketch: true,
 		secondary: null,
 		target: "self",
 		type: "Shadow",
@@ -16619,6 +16680,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1},
 		recoil: [1, 4],
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16661,6 +16723,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			}
 		},
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "normal",
 		type: "Shadow",
@@ -16675,6 +16738,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {contact: 1, protect: 1},
 		willCrit: true,
+		noSketch: true,
 		secondary: {
 			chance: 100,
 			boosts: {
@@ -16697,6 +16761,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			this.field.clearTerrain();
 		},
 		willCrit: true,
+		noSketch: true,
 		secondary: null,
 		target: "allAdjacent",
 		type: "Shadow",
