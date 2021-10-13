@@ -1046,6 +1046,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 111,
 	},
+	flameabsorb: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Fire') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Flame Absorb');
+				}
+				return null;
+			}
+		},
+		isBreakable: true,
+		name: "Flame Absorb",
+		rating: 3.5,
+		num: -512,
+	},
 	flamebody: {
 		onDamagingHit(damage, target, source, move) {
 			if (this.checkMoveMakesContact(move, source, target)) {
@@ -2999,6 +3013,19 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 244,
 	},
+	pureheart: {
+		onSourceBasePowerPriority: 18,
+		onSourceBasePower(basePower, attacker, defender, move) {
+			if (move.type === 'Shadow') {
+				return this.chainModify(0.5);
+			}
+		},
+		onCriticalHit: false,
+		isBreakable: true,
+		name: "Pure Heart",
+		rating: 3.5,
+		num: -801,
+	},
 	purepower: {
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk) {
@@ -3424,6 +3451,97 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Serene Grace",
 		rating: 3.5,
 		num: 32,
+	},
+	shadowarmor: {
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Shadow Armor');
+		},
+		onSourceBasePowerPriority: 18,
+		onSourceBasePower(basePower, attacker, defender, move) {
+			if (move.type === 'Shadow') {
+				return this.chainModify(0.5);
+			}
+		},
+		onCriticalHit: false,
+		isBreakable: true,
+		name: "Shadow Armor",
+		rating: 3.5,
+		num: -800,
+	},
+	shadowconduction: {
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Shadow Conduction');
+		},
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Electric') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Shadow Conduction');
+				}
+				return null;
+			}
+		},
+		isBreakable: true,
+		name: "Shadow Conduction",
+		rating: 3.5,
+		num: -804,
+	},
+	shadowconvection: {
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Shadow Convection');
+		},
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Fire') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Shadow Convection');
+				}
+				return null;
+			}
+		},
+		isBreakable: true,
+		name: "Shadow Convection",
+		rating: 3.5,
+		num: -802,
+	},
+	shadowdust: {
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Shadow Dust');
+		},
+		onModifySecondaries(secondaries) {
+			this.debug('Shadow Dust prevent secondary');
+			return secondaries.filter(effect => !!(effect.self || effect.dustproof));
+		},
+		isBreakable: true,
+		name: "Shadow Dust",
+		rating: 2,
+		num: -805,
+	},
+	shadowhydraulics: {
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Shadow Hydraulics');
+		},
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Water') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Shadow Hydraulics');
+				}
+				return null;
+			}
+		},
+		isBreakable: true,
+		name: "Shadow Hydraulics",
+		rating: 3.5,
+		num: -803,
+	},
+	shadowrebirth: {
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Shadow Rebirth');
+		},
+		onSwitchOut(pokemon) {
+			pokemon.heal(pokemon.baseMaxhp / 3);
+		},
+		name: "Shadow Rebirth",
+		rating: 4.5,
+		num: -806,
 	},
 	shadowshield: {
 		onSourceModifyDamage(damage, source, target, move) {
