@@ -1220,6 +1220,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	espeonshadow: {
+		tier: "Uber",
+	},
 	umbreon: {
 		randomBattleMoves: ["foulplay", "protect", "toxic", "wish"],
 		randomBattleLevel: 82,
@@ -1227,6 +1230,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "RU",
 		doublesTier: "(DUU)",
+	},
+	umbreonshadow: {
+		tier: "Uber",
 	},
 	leafeon: {
 		randomBattleMoves: ["doubleedge", "knockoff", "leafblade", "swordsdance", "synthesis", "xscissor"],

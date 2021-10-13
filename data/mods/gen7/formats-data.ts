@@ -933,11 +933,17 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	espeonshadow: {
+		tier: "Uber",
+	},
 	umbreon: {
 		randomBattleMoves: ["foulplay", "healbell", "protect", "toxic", "wish"],
 		randomDoubleBattleMoves: ["foulplay", "helpinghand", "moonlight", "protect", "snarl"],
 		tier: "RU",
 		doublesTier: "(DUU)",
+	},
+	umbreonshadow: {
+		tier: "Uber",
 	},
 	leafeon: {
 		randomBattleMoves: ["healbell", "knockoff", "leafblade", "rockslide", "stompingtantrum", "swordsdance", "synthesis", "uturn", "xscissor"],

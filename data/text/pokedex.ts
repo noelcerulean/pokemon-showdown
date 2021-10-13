@@ -815,8 +815,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	espeon: {
 		name: "Espeon",
 	},
+	espeonshadow: {
+		name: "Espeon-Shadow",
+	},
 	umbreon: {
 		name: "Umbreon",
+	},
+	umbreonshadow: {
+		name: "Umbreon-Shadow",
 	},
 	murkrow: {
 		name: "Murkrow",

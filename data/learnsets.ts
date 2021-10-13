@@ -19048,6 +19048,16 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 7, level: 50, gender: "F", isHidden: true, moves: ["psychic", "dazzlinggleam", "shadowball", "reflect"], pokeball: "cherishball"},
 		],
 	},
+	espeonshadow: {
+		learnset: {
+			shadowdevour: ["7L1"],
+			shadowmeld: ["7L1"],
+			shadowrave: ["7L1"],
+			shadowsun: ["7L1"],
+			shadowtrance: ["7L1"],
+			shadowwave: ["7L1"],
+		},
+	},
 	umbreon: {
 		learnset: {
 			assurance: ["8M", "8L25", "7L25", "6L25", "5L43", "4L43"],
@@ -19146,6 +19156,16 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 6, level: 10, moves: ["celebrate", "tailwhip", "sandattack", "pursuit"], pokeball: "cherishball"},
 			{generation: 7, level: 50, gender: "F", moves: ["snarl", "toxic", "protect", "moonlight"], pokeball: "cherishball"},
 		],
+	},
+	umbreonshadow: {
+		learnset: {
+			shadowbreak: ["7L1"],
+			shadowfission: ["7L1"],
+			shadowmoon: ["7L1"],
+			shadowrage: ["7L1"],
+			shadowrush: ["7L1"],
+			shadowstare: ["7L1"],
+		},
 	},
 	leafeon: {
 		learnset: {
