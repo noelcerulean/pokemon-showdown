@@ -1297,39 +1297,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		start: "  [POKEMON] is surrounded by a shadowy aura!",
 	},
-	shadowconduction: {
-		name: "Shadow Conduction",
-		desc: "This Pokemon is immune to Electric-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Electric-type move.",
-		shortDesc: "This Pokemon heals 1/4 of its max HP when hit by Electric moves; Electric immunity.",
-
-		start: "  [POKEMON] is surrounded by a shadowy aura!",
-	},
-	shadowconvection: {
-		name: "Shadow Convection",
-		desc: "This Pokemon is immune to Fire-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Fire-type move.",
-		shortDesc: "This Pokemon heals 1/4 of its max HP when hit by Fire moves; Fire immunity.",
-
-		start: "  [POKEMON] is surrounded by a shadowy aura!",
-	},
-	shadowdust: {
-		name: "Shadow Dust",
-		shortDesc: "This Pokemon is not affected by the secondary effect of another Pokemon's attack.",
-
-		start: "  [POKEMON] is surrounded by a shadowy aura!",
-	},
-	shadowhydraulics: {
-		name: "Shadow Hydraulics",
-		desc: "This Pokemon is immune to Water-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Water-type move.",
-		shortDesc: "This Pokemon heals 1/4 of its max HP when hit by Water moves; Water immunity.",
-
-		start: "  [POKEMON] is surrounded by a shadowy aura!",
-	},
-	shadowrebirth: {
-		name: "Shadow Rebirth",
-		shortDesc: "This Pokemon restores 1/3 of its maximum HP, rounded down, when it switches out.",
-
-		start: "  [POKEMON] is surrounded by a shadowy aura!",
-	},
 	shadowshield: {
 		name: "Shadow Shield",
 		desc: "If this Pokemon is at full HP, damage taken from attacks is halved. Moongeist Beam, Sunsteel Strike, and the Mold Breaker, Teravolt, and Turboblaze Abilities cannot ignore this Ability.",
