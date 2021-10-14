@@ -5163,11 +5163,6 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Always crits. If this attack was successful and the user has not fainted, it steals the target's held item if the user is not holding one. The target's item is not stolen if it is a Mail or Z-Crystal, or if the target is a Kyogre holding a Blue Orb, a Groudon holding a Red Orb, a Giratina holding a Griseous Orb, an Arceus holding a Plate, a Genesect holding a Drive, a Silvally holding a Memory, or a Pokemon that can Mega Evolve holding the Mega Stone for its species. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
 		shortDesc: "Crits. If possible, steals target's item.",
 	},
-	shadowbolt: {
-		name: "Shadow Bolt",
-		desc: "Always crits. Has a 100% chance to paralyze the target.",
-		shortDesc: "Crits. 100% chance to paralyze the target.",
-	},
 	shadowbone: {
 		name: "Shadow Bone",
 		desc: "Has a 20% chance to lower the target's Defense by 1 stage.",
@@ -5176,11 +5171,6 @@ export const MovesText: {[k: string]: MoveText} = {
 	shadowbreak: {
 		name: "Shadow Break",
 		shortDesc: "Always crits. User takes 1/3 recoil.",
-	},
-	shadowcascade: {
-		name: "Shadow Cascade",
-		desc: "Always crits. 100% chance to drop Attack and Sp. Attack of the target by 1 stage.",
-		shortDesc: "Crits. 100% chance to drop target Atk/SpA by 1.",
 	},
 	shadowchant: {
 		name: "Shadow Chant",
@@ -5194,11 +5184,6 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Shadow Charge",
 		shortDesc: "Crits. Raises the user's Speed by 1.",
 	},
-	shadowchill: {
-		name: "Shadow Chill",
-		desc: "Always crits. Has a 100% chance to freeze the target.",
-		shortDesc: "Crits. 100% chance to freeze the target.",
-	},
 	shadowcinder: {
 		name: "Shadow Cinder",
 		shortDesc: "Non-reflectable. Infiltrates. Burns the target.",
@@ -5207,11 +5192,6 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Shadow Claw",
 		desc: "Has a higher chance for a critical hit.",
 		shortDesc: "High critical hit ratio.",
-	},
-	shadowcombust: {
-		name: "Shadow Combust",
-		desc: "Always crits. 100% chance to drop Defense and Sp. Defense of the target by 1 stage.",
-		shortDesc: "Crits. 100% chance to drop target Def/SpD by 1.",
 	},
 	shadowdance: {
 		name: "Shadow Dance",
@@ -5227,14 +5207,6 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Always crits. The target's Ability is rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, or Zen Mode, this effect does not happen, and receiving the effect through Baton Pass ends the effect immediately.",
 		shortDesc: "Crits. Nullifies the target's Ability.",
 	},
-	shadowdoomsday: {
-		name: "Shadow Doomsday",
-		desc: "Deals damage two turns after this move is used. At the end of that turn, the damage is calculated at that time and dealt to the Pokemon at the position the target had when the move was used. If the user is no longer active at the time, damage is calculated based on the user's natural Attack stat, types, and level, with no boosts from its held item or Ability. Fails if this move or Doom Desire/Future Sight is already in effect for the target's position. This move becomes a special attack if the user's Sp. Attack is greater than its Attack, including stat stage changes.",
-		shortDesc: "Crits. Special if Sp. Atk > Atk. Hits in 2 turns.",
-
-		start: "  [POKEMON] foretold the dark end of days!",
-		activate: "  [TARGET] was consumed by apocalyptic shadows!",
-	},
 	shadowdown: {
 		name: "Shadow Down",
 		desc: "Cannot be reflected. Infiltrates. Lowers the target's Defense and Special Defense by 1 stage.",
@@ -5243,11 +5215,6 @@ export const MovesText: {[k: string]: MoveText} = {
 	shadowend: {
 		name: "Shadow End",
 		shortDesc: "Always crits. User takes 1/2 recoil.",
-	},
-	shadowfire: {
-		name: "Shadow Fire",
-		desc: "Always crits. Has a 100% chance to burn the target.",
-		shortDesc: "Crits. 100% chance to burn the target.",
 	},
 	shadowfission: {
 		name: "Shadow Fission",
@@ -5321,11 +5288,6 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Raises the user's Defense and Special Defense by 1 stage.",
 		shortDesc: "Raises user's Defense and Sp. Defense by 1.",
 	},
-	shadowjolt: {
-		name: "Shadow Jolt",
-		desc: "Always crits. 100% chance to drop Speed of the target by 2 stages.",
-		shortDesc: "Crits. 100% chance to drop target speed by 2.",
-	},
 	shadowmeld: {
 		name: "Shadow Meld",
 		desc: "The user and the target have their Defense and Special Defense stats set to be equal to the average of the user and the target's Defense and Special Defense stats, respectively, rounded down. Stat stage changes are unaffected.",
@@ -5345,11 +5307,6 @@ export const MovesText: {[k: string]: MoveText} = {
 	shadowpanic: {
 		name: "Shadow Panic",
 		shortDesc: "Crits. 100% chance to confuse target.",
-	},
-	shadowphoenix: {
-		name: "Shadow Phoenix",
-		desc: "Always crits. Burns Target. 100% chance to drop Defense of the target.",
-		shortDesc: "Crits. Burns. 100% chance to drop target Def by 1.",
 	},
 	shadowpivot: {
 		name: "Shadow Pivot",
@@ -5371,11 +5328,6 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Facade",
 		desc: "Always crits. Power doubles if the user is burned, paralyzed, or poisoned. The physical damage halving effect from the user's burn is ignored.",
 		shortDesc: "Crits. x2 power if user is burn/poison/paralyzed.",
-	},
-	shadowrainbow: {
-		name: "Shadow Rainbow",
-		desc: "Always crits. 100% chance to drop stats of target by 1 stage.",
-		shortDesc: "Crits. 100% chance to drop all target stats by 1.",
 	},
 	shadowrave: {
 		name: "Shadow Rave",

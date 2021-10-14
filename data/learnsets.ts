@@ -19160,7 +19160,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	umbreonshadow: {
 		learnset: {
 			shadowbreak: ["7L1"],
-			shadowfission: ["7L1"],
+			shadowfusion: ["7L1"],
 			shadowmoon: ["7L1"],
 			shadowrage: ["7L1"],
 			shadowrush: ["7L1"],
