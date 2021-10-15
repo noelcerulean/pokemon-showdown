@@ -5072,6 +5072,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Lowers the target's Speed by 2 stages.",
 		shortDesc: "Lowers the target's Speed by 2.",
 	},
+	scold: {
+		name: "Scold",
+		desc: "Power doubles if the target is confused.",
+		shortDesc: "Power doubles if target is confused.",
+	},
 	scorchingsands: {
 		name: "Scorching Sands",
 		desc: "Has a 30% chance to burn the target. The target thaws out if it is frozen.",

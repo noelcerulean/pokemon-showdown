@@ -2579,9 +2579,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "DUU",
 	},
 	chatot: {
-		randomBattleMoves: ["boomburst", "chatter", "heatwave", "hiddenpowerground", "nastyplot", "substitute", "uturn"],
-		randomDoubleBattleMoves: ["boomburst", "chatter", "encore", "heatwave", "hypervoice", "nastyplot", "protect", "uturn"],
-		tier: "(PU)",
+		randomBattleMoves: ["agility", "boomburst", "chatter", "heatwave", "hiddenpowerground", "nastyplot", "scold", "sparklingaria", "substitute", "uturn"],
+		randomDoubleBattleMoves: ["agility", "boomburst", "chatter", "encore", "heatwave", "hypervoice", "nastyplot", "protect", "scold", "sparklingaria", "uturn"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	spiritomb: {

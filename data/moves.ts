@@ -14993,6 +14993,24 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {spe: 1}},
 		contestType: "Tough",
 	},
+	scold: {
+		num: -515,
+		accuracy: 100,
+		basePower: 100,
+		basePowerCallback(pokemon, target, move) {
+			if (target.volatiles['confusion']) return move.basePower * 2;
+			return move.basePower;
+		},
+		category: "Special",
+		name: "Scold",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, sound: 1},
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+		contestType: "Tough",
+	},
 	scorchingsands: {
 		num: 815,
 		accuracy: 100,
