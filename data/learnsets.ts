@@ -54081,7 +54081,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			throatchop: ["8M", "7T"],
 			toxic: ["7M", "6M", "5M"],
 			uproar: ["8M", "7T", "6T", "5T"],
-			weatherball: ["8M", "7L1"],
+			weatherball: ["8M"],
 			woodhammer: ["8E", "7E", "6E", "5E"],
 			worryseed: ["8E", "7T", "7E", "6T", "6E", "5T", "5E"],
 		},
