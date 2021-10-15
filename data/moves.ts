@@ -15008,7 +15008,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1, mirror: 1, sound: 1},
 		secondary: null,
 		target: "normal",
-		type: "Normal",
+		type: "Dark",
 		contestType: "Tough",
 	},
 	scorchingsands: {
