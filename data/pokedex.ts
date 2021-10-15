@@ -12144,6 +12144,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Amaura",
 		evoLevel: 39,
 		eggGroups: ["Monster"],
+		cosmeticFormes: ["Aurorus-Fall"],
+		formeOrder: ["Aurorus", "Aurorus-Fall"],
 	},
 	sylveon: {
 		num: 700,
