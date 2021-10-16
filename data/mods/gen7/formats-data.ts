@@ -689,19 +689,19 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	hitmonlee: {
 		randomBattleMoves: ["highjumpkick", "knockoff", "lightningkick", "machpunch", "poisonjab", "rapidspin", "stoneedge"],
 		randomDoubleBattleMoves: ["closecombat", "fakeout", "knockoff", "lightningkick", "machpunch", "protect", "rockslide"],
-		tier: "NU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	hitmonchan: {
 		randomBattleMoves: ["bulkup", "drainpunch", "firepunch", "icepunch", "machpunch", "meteormash", "onetwopunch", "rapidspin", "shadowpunch", "suckerpunch"],
 		randomDoubleBattleMoves: ["drainpunch", "fakeout", "firepunch", "icepunch", "machpunch", "meteormash", "onetwopunch", "protect", "shadowpunch", "suckerpunch"],
-		tier: "UU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	hitmontop: {
-		randomBattleMoves: ["closecombat", "rapidspin", "stoneedge", "suckerpunch", "toxic"],
-		randomDoubleBattleMoves: ["closecombat", "fakeout", "feint", "helpinghand", "machpunch", "rapidspin", "suckerpunch", "wideguard"],
-		tier: "NU",
+		randomBattleMoves: ["closecombat", "rapidspin", "stoneedge", "suckerpunch", "toxic", "triplekick"],
+		randomDoubleBattleMoves: ["closecombat", "fakeout", "feint", "helpinghand", "machpunch", "rapidspin", "suckerpunch", "triplekick", "wideguard"],
+		tier: "RU",
 		doublesTier: "DUU",
 	},
 	lickitung: {
