@@ -3974,6 +3974,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 114,
 	},
+	striker: {
+		onBasePowerPriority: 23,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['kick']) {
+				this.debug('Striker boost');
+				return this.chainModify([4915, 4096]);
+			}
+		},
+		name: "Striker",
+		rating: 3,
+		num: -514,
+	},
 	strongjaw: {
 		onBasePowerPriority: 19,
 		onBasePower(basePower, attacker, defender, move) {
