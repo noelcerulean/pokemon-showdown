@@ -3364,9 +3364,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	klinklang: {
-		randomBattleMoves: ["geargrind", "return", "shiftgear", "substitute", "wildcharge"],
-		randomDoubleBattleMoves: ["geargrind", "protect", "return", "shiftgear", "wildcharge"],
-		tier: "NU",
+		randomBattleMoves: ["earthquake", "geargrind", "rapidspin", "shiftgear", "substitute", "wildcharge"],
+		randomDoubleBattleMoves: ["earthquake", "geargrind", "protect", "rapidspin", "shiftgear", "wildcharge"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	tynamo: {

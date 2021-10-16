@@ -6031,7 +6031,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	geargrind: {
 		num: 544,
-		accuracy: 85,
+		accuracy: 95,
 		basePower: 50,
 		category: "Physical",
 		name: "Gear Grind",
