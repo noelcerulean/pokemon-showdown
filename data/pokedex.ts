@@ -7229,7 +7229,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 403,
 		name: "Shinx",
 		types: ["Electric"],
-		baseStats: {hp: 55, atk: 85, def: 45, spa: 70, spd: 45, spe: 65},
+		baseStats: {hp: 55, atk: 75, def: 45, spa: 65, spd: 45, spe: 60},
 		abilities: {0: "Stakeout", 1: "Intimidate", H: "Guts"},
 		heightm: 0.5,
 		weightkg: 9.5,
