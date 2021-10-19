@@ -7241,7 +7241,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 404,
 		name: "Luxio",
 		types: ["Electric", "Dark"],
-		baseStats: {hp: 70, atk: 105, def: 70, spa: 85, spd: 70, spe: 80},
+		baseStats: {hp: 70, atk: 95, def: 70, spa: 85, spd: 70, spe: 80},
 		abilities: {0: "Stakeout", 1: "Intimidate", H: "Guts"},
 		heightm: 0.9,
 		weightkg: 30.5,
