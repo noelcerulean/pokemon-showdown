@@ -2432,9 +2432,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	luxray: {
-		randomBattleMoves: ["crunch", "facade", "icefang", "lightningkick", "superpower", "voltswitch"],
-		randomDoubleBattleMoves: ["crunch", "helpinghand", "icefang", "lightningkick", "protect", "superpower", "voltswitch"],
-		tier: "(PU)",
+		randomBattleMoves: ["facade", "icefang", "lightningkick", "psychicfangs", "playrough", "suckerpunch", "superpower", "voltswitch"],
+		randomDoubleBattleMoves: ["crunch", "helpinghand", "icefang", "lightningkick", "playrough", "protect", "psychicfangs", "suckerpunch", "superpower", "voltswitch"],
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	cranidos: {
