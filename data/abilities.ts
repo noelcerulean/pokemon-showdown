@@ -2316,8 +2316,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 					this.add('-immune', target, '[from] ability: Molten Tongue');
 				}
 				return null;
-			}
-			else if (target !== source && move.type === 'Bug') {
+			} else if (target !== source && move.type === 'Bug') {
 				if (!this.heal(target.baseMaxhp / 4)) {
 					this.add('-immune', target, '[from] ability: Molten Tongue');
 				}
