@@ -2485,13 +2485,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {},
 		onHit(pokemon) {
 			const noCopycat = [
-				'assist', 'banefulbunker', 'beakblast', 'behemothbash', 'behemothblade', 'belch', 'bestow', 'celebrate', 'chatter', 'circlethrow', 'copycat', 'counter', 'covet', 'craftyshield', 'destinybond', 'detect', 'dragontail', 'dynamaxcannon', 'endure', 'feint', 'focuspunch', 'followme', 'helpinghand', 'holdhands', 'kingsshield', 'matblock', 'mefirst', 'metronome', 'mimic', 'mirrorcoat', 'mirrormove', 'naturepower', 'obstruct', 'protect', 'ragepowder', 'roar', 'shadowbandit', 'shadowbolt', 'shadowbreak', 'shadowcascade', 'shadowchant', 'shadowcharge', 'shadowchill', 'shadowcinder', 'shadowcombust', 'shadowdance', 'shadowdevour', 'shadowdissolve', 'shadowdoomsday', 'shadowdown', 'shadowend', 'shadowfire', 'shadowfission', 'shadowfog', 'shadowfrost', 'shadowfumes', 'shadowfusion', 'shadowhatred', 'shadowhaunting', 'shadowhold', 'shadowhubris', 'shadowhurl', 'shadowintensify', 'shadowjolt', 'shadowmeld', 'shadowmist', 'shadowmoon', 'shadowpanic', 'shadowphoenix', 'shadowpivot', 'shadowpunish', 'shadowrage', 'shadowrainbow', 'shadowrave', 'shadowreset', 'shadowroulette', 'shadowrush', 'shadowscheme', 'shadowseed', 'shadowshackle', 'shadowshatter', 'shadowshed', 'shadowshuffle', 'shadowsiren', 'shadowslasher', 'shadowsnipe', 'shadowsorcery', 'shadowspell', 'shadowsprint', 'shadowstare', 'shadowstorm', 'shadowsun', 'shadowthreat', 'shadowtrance', 'shadowvelocity', 'shadowvengeance', 'shadowwall', 'shadowwave', 'shadowwheel', 'shadowwhip', 'shadowwreckage', 'shelltrap', 'sketch', 'sleeptalk', 'snatch', 'spikyshield', 'spotlight', 'struggle', 'switcheroo', 'thief', 'transform', 'trick', 'whirlwind',
+				'assist', 'banefulbunker', 'beakblast', 'behemothbash', 'behemothblade', 'belch', 'bestow', 'celebrate', 'chatter', 'circlethrow', 'copycat', 'counter', 'covet', 'craftyshield', 'destinybond', 'detect', 'dragontail', 'dynamaxcannon', 'endure', 'feint', 'focuspunch', 'followme', 'helpinghand', 'holdhands', 'kingsshield', 'matblock', 'mefirst', 'metronome', 'mimic', 'mirrorcoat', 'mirrormove', 'naturepower', 'obstruct', 'protect', 'ragepowder', 'roar', 'shelltrap', 'sketch', 'sleeptalk', 'snatch', 'spikyshield', 'spotlight', 'struggle', 'switcheroo', 'thief', 'transform', 'trick', 'whirlwind',
 			];
 			let move: Move | ActiveMove | null = this.lastMove;
 			if (!move) return;
 
 			if (move.isMax && move.baseMove) move = this.dex.moves.get(move.baseMove);
-			if (noCopycat.includes(move.id) || move.isZ || move.isMax) {
+			if (noCopycat.includes(move.id) || move.isZ || move.isMax || move.type === 'Shadow') {
 				return false;
 			}
 			this.actions.useMove(move.id, pokemon);
@@ -11244,12 +11244,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1, authentic: 1, mystery: 1},
 		onHit(target, source) {
-			const disallowedMoves = ['chatter', 'mimic', 'shadowbandit', 'shadowbolt', 'shadowbreak', 'shadowcascade', 'shadowchant', 'shadowcharge', 'shadowchill', 'shadowcinder', 'shadowcombust', 'shadowdance', 'shadowdevour', 'shadowdissolve', 'shadowdoomsday', 'shadowdown', 'shadowend', 'shadowfire', 'shadowfission', 'shadowfog', 'shadowfrost', 'shadowfumes', 'shadowfusion', 'shadowhatred', 'shadowhaunting', 'shadowhold', 'shadowhubris', 'shadowhurl', 'shadowintensify', 'shadowjolt', 'shadowmeld', 'shadowmist', 'shadowmoon', 'shadowpanic', 'shadowphoenix', 'shadowpivot', 'shadowpunish', 'shadowrage', 'shadowrainbow', 'shadowrave', 'shadowreset', 'shadowroulette', 'shadowrush', 'shadowscheme', 'shadowseed', 'shadowshackle', 'shadowshatter', 'shadowshed', 'shadowshuffle', 'shadowsiren', 'shadowslasher', 'shadowsnipe', 'shadowsorcery', 'shadowspell', 'shadowsprint', 'shadowstare', 'shadowstorm', 'shadowsun', 'shadowthreat', 'shadowtrance', 'shadowvelocity', 'shadowvengeance', 'shadowwall', 'shadowwave', 'shadowwheel', 'shadowwhip', 'shadowwreckage', 'sketch', 'struggle', 'transform'];
+			const disallowedMoves = ['chatter', 'mimic', 'sketch', 'struggle', 'transform'];
 			const move = target.lastMove;
 			if (source.transformed || !move || disallowedMoves.includes(move.id) || source.moves.includes(move.id)) {
 				return false;
 			}
-			if (move.isZ || move.isMax) return false;
+			if (move.isZ || move.isMax || move.type === 'Shadow') return false;
 			const mimicIndex = source.moves.indexOf('mimic');
 			if (mimicIndex < 0) return false;
 
