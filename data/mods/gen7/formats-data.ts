@@ -2008,13 +2008,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	zangoose: {
 		randomBattleMoves: ["closecombat", "facade", "knockoff", "quickattack", "swordsdance"],
 		randomDoubleBattleMoves: ["closecombat", "facade", "knockoff", "protect", "quickattack"],
-		tier: "PU",
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	seviper: {
-		randomBattleMoves: ["darkpulse", "earthquake", "flamethrower", "gigadrain", "poisonjab", "sludgewave", "suckerpunch", "switcheroo", "swordsdance"],
+		randomBattleMoves: ["darkpulse", "earthquake", "flamethrower", "gigadrain", "nastyplot", "poisonjab", "sludgewave", "suckerpunch", "switcheroo", "swordsdance"],
 		randomDoubleBattleMoves: ["aquatail", "earthquake", "flamethrower", "gigadrain", "glare", "poisonjab", "protect", "sludgebomb", "suckerpunch"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	lunatone: {

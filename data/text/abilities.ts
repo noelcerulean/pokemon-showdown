@@ -1657,8 +1657,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	toxicboost: {
 		name: "Toxic Boost",
-		desc: "While this Pokemon is poisoned, the power of its physical attacks is multiplied by 1.5.",
-		shortDesc: "While this Pokemon is poisoned, its physical attacks have 1.5x power.",
+		desc: "While this Pokemon is poisoned, it takes no poison damage and the power of its physical attacks is multiplied by 1.5.",
+		shortDesc: "Immunity to poison/toxic damage. When poisoned, its physical attacks have 1.5x power.",
 	},
 	trace: {
 		name: "Trace",

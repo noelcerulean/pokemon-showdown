@@ -4300,6 +4300,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 181,
 	},
 	toxicboost: {
+		onDamagePriority: 1,
+		onDamage(damage, target, source, effect) {
+			if (effect.id === 'psn' || effect.id === 'tox') {
+				return false;
+			}
+		},
 		onBasePowerPriority: 19,
 		onBasePower(basePower, attacker, defender, move) {
 			if ((attacker.status === 'psn' || attacker.status === 'tox') && move.category === 'Physical') {
@@ -4307,7 +4313,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 		name: "Toxic Boost",
-		rating: 2.5,
+		rating: 4,
 		num: 137,
 	},
 	trace: {
