@@ -2309,6 +2309,26 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 104,
 	},
+	moltentongue: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Steel') {
+				if (!this.boost({spa: 1})) {
+					this.add('-immune', target, '[from] ability: Molten Tongue');
+				}
+				return null;
+			}
+			else if (target !== source && move.type === 'Bug') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Molten Tongue');
+				}
+				return null;
+			}
+		},
+		isBreakable: true,
+		name: "Molten Tongue",
+		rating: 4,
+		num: -515,
+	},
 	moody: {
 		onResidualOrder: 28,
 		onResidualSubOrder: 2,

@@ -859,6 +859,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		start: "  [POKEMON] breaks the mold!",
 	},
+	moltentongue: {
+		name: "Molten Tongue",
+		desc: "This Pokemon is immune to Bug-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Bug-type move. This Pokemon is also immune to Steel-type moves and raises its Special Attack by 1 stage when hit by a Steel-type move.",
+		shortDesc: "Bug & Steel Immunity. Bug moves Heal 1/4 of max HP; Steel moves raise Sp. Atk by 1.",
+	},
 	moody: {
 		name: "Moody",
 		desc: "This Pokemon has a random stat other than accuracy or evasion raised by 2 stages and another stat lowered by 1 stage at the end of each turn.",

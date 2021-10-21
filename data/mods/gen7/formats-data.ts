@@ -3502,9 +3502,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	heatmor: {
-		randomBattleMoves: ["fireblast", "focusblast", "gigadrain", "knockoff", "suckerpunch"],
-		randomDoubleBattleMoves: ["firelash", "gigadrain", "incinerate", "protect", "suckerpunch", "superpower"],
-		tier: "(PU)",
+		randomBattleMoves: ["earthpower", "fireblast", "firelash", "flareblitz", "focusblast", "gigadrain", "knockoff", "powerwhip", "rockslide", "suckerpunch", "superpower", "swordsdance", "yawn"],
+		randomDoubleBattleMoves: ["earthpower", "fireblast", "firelash", "flareblitz", "focusblast", "gigadrain", "incinerate", "knockoff", "powerwhip", "protect", "rockslide", "suckerpunch", "superpower", "swordsdance", "yawn"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	durant: {
