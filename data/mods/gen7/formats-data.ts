@@ -2,6 +2,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	bulbasaur: {
 		tier: "LC",
 	},
+	bulbasaurshadow: {
+		tier: "Uber",
+	},
 	ivysaur: {
 		tier: "NFE",
 	},
@@ -188,6 +191,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["encore", "extremespeed", "fakeout", "focusblast", "grassknot", "hiddenpowerice", "jumpkick", "knockoff", "lightningkick", "protect", "swordsdance", "surf", "thunderbolt", "uturn", "voltswitch", "volttackle"],
 		tier: "RUBL",
 		doublesTier: "DUU",
+	},
+	raichushadow: {
+		tier: "Uber",
 	},
 	raichualola: {
 		randomBattleMoves: ["focusblast", "nastyplot", "psyshock", "surf", "thunderbolt", "voltswitch"],
@@ -784,6 +790,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NUBL",
 		doublesTier: "DOU",
 	},
+	kingdrashadow: {
+		tier: "Uber",
+	},
 	goldeen: {
 		tier: "LC",
 	},
@@ -915,6 +924,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	vaporeonshadow: {
+		tier: "Uber",
+	},
 	jolteon: {
 		randomBattleMoves: ["hiddenpowerice", "shadowball", "signalbeam", "thunderbolt", "voltswitch"],
 		randomDoubleBattleMoves: ["helpinghand", "hiddenpowergrass", "hiddenpowerice", "protect", "signalbeam", "thunderbolt", "voltswitch"],
@@ -965,6 +977,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["allyswitch", "icebeam", "protect", "recover", "thunderbolt", "thunderwave", "triattack"],
 		tier: "RU",
 		doublesTier: "DOU",
+	},
+	porygon2shadow: {
+		tier: "Uber",
 	},
 	porygonz: {
 		randomBattleMoves: ["icebeam", "nastyplot", "shadowball", "thunderbolt", "triattack", "trick"],
@@ -1088,6 +1103,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["earthpower", "eruption", "extrasensory", "focusblast", "heatwave", "hiddenpowergrass"],
 		tier: "RUBL",
 		doublesTier: "(DUU)",
+	},
+	typhlosionshadow: {
+		tier: "Uber",
 	},
 	totodile: {
 		tier: "LC",
@@ -1250,8 +1268,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	yanmegashadow: {
+		tier: "Uber",
+	},
 	wooper: {
 		tier: "LC",
+	},
+	woopershadow: {
+		tier: "Uber",
 	},
 	quagsire: {
 		randomBattleMoves: ["earthquake", "encore", "icebeam", "recover", "scald", "toxic"],
@@ -1317,6 +1341,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["airslash", "dracometeor", "fireblast", "followme", "helpinghand", "icywind", "protect", "roost", "wideguard"],
 		tier: "OU",
 		doublesTier: "DOU",
+	},
+	soarsparceshadow: {
+		tier: "Uber",
 	},
 	stucksparce: {
 		tier: "NFE",
@@ -2083,6 +2110,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "DOU",
 	},
+	miloticshadow: {
+		tier: "Uber",
+	},
 	castform: {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
@@ -2101,6 +2131,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["drainpunch", "fakeout", "knockoff", "protect", "shadowsneak", "trickroom"],
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	kecleonshadow: {
+		tier: "Uber",
 	},
 	shuppet: {
 		tier: "LC",
@@ -2908,6 +2941,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
+	emboarshadow: {
+		tier: "Uber",
+	},
 	oshawott: {
 		tier: "LC",
 	},
@@ -2967,6 +3003,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["delinquency", "fireblast", "flareblitz", "focusblast", "grassknot", "heatwave", "mudshot", "nastyplot", "overheat", "protect", "rockslide", "superpower", "taunt", "thunderpunch"],
 		tier: "UUBL",
 		doublesTier: "(DUU)",
+	},
+	simisearshadow: {
+		tier: "Uber",
 	},
 	panpour: {
 		tier: "LC",
@@ -3381,6 +3420,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
+	eelektrossshadow: {
+		tier: "Uber",
+	},
 	elgyem: {
 		tier: "LC",
 	},
@@ -3678,6 +3720,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	braixen: {
 		tier: "NFE",
 	},
+	braixenshadow: {
+		tier: "Uber",
+	},
 	delphox: {
 		randomBattleMoves: ["calmmind", "fireblast", "grassknot", "psyshock", "shadowball", "switcheroo"],
 		randomDoubleBattleMoves: ["calmmind", "fireblast", "grassknot", "heatwave", "protect", "psyshock", "switcheroo"],
@@ -3930,6 +3975,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["explosion", "lightscreen", "moonblast", "protect", "reflect", "stealthrock", "trickroom"],
 		tier: "UU",
 		doublesTier: "(DUU)",
+	},
+	carbinkshadow: {
+		tier: "Uber",
 	},
 	goomy: {
 		tier: "LC",
@@ -4530,6 +4578,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	hakamoo: {
 		tier: "NFE",
+	},
+	hakamooshadow: {
+		tier: "Uber",
 	},
 	kommoo: {
 		randomBattleMoves: ["clangingscales", "closecombat", "dragondance", "outrage", "poisonjab"],

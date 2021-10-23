@@ -2,6 +2,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	bulbasaur: {
 		tier: "LC",
 	},
+	bulbasaurshadow: {
+		tier: "Uber",
+	},
 	ivysaur: {
 		tier: "NFE",
 	},
@@ -258,6 +261,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleNoDynamaxMoves: ["encore", "focusblast", "grassknot", "nastyplot", "surf", "thunderbolt", "voltswitch"],
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	raichushadow: {
+		tier: "Uber",
 	},
 	raichualola: {
 		randomBattleMoves: ["focusblast", "grassknot", "nastyplot", "psyshock", "thunderbolt", "voltswitch"],
@@ -1012,6 +1018,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PUBL",
 		doublesTier: "DOU",
 	},
+	kingdrashadow: {
+		tier: "Uber",
+	},
 	goldeen: {
 		tier: "LC",
 	},
@@ -1196,6 +1205,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	vaporeonshadow: {
+		tier: "Uber",
+	},
 	jolteon: {
 		randomBattleMoves: ["hypervoice", "shadowball", "thunderbolt", "voltswitch"],
 		randomBattleLevel: 82,
@@ -1268,6 +1280,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 82,
 		tier: "RU",
 		doublesTier: "DOU",
+	},
+	porygon2shadow: {
+		tier: "Uber",
 	},
 	porygonz: {
 		randomBattleMoves: ["darkpulse", "icebeam", "nastyplot", "thunderbolt", "triattack", "trick"],
@@ -1445,6 +1460,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	typhlosionshadow: {
+		tier: "Uber",
+	},
 	totodile: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -1610,8 +1628,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	yanmegashadow: {
+		tier: "Uber",
+	},
 	wooper: {
 		tier: "LC",
+	},
+	woopershadow: {
+		tier: "Uber",
 	},
 	quagsire: {
 		randomBattleMoves: ["earthquake", "icebeam", "recover", "scald", "toxic"],
@@ -1678,6 +1702,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 80,
 		tier: "OU",
 		doublesTier: "DOU",
+	},
+	soarsparceshadow: {
+		tier: "Uber",
 	},
 	stucksparce: {
 		tier: "NFE",
@@ -2501,6 +2528,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	miloticshadow: {
+		tier: "Uber",
+	},
 	castform: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -2517,6 +2547,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	kecleon: {
 		isNonstandard: "Past",
 		tier: "Illegal",
+	},
+	kecleonshadow: {
+		tier: "Uber",
 	},
 	shuppet: {
 		isNonstandard: "Past",
@@ -3338,6 +3371,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	emboarshadow: {
+		tier: "Uber",
+	},
 	oshawott: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -3398,6 +3434,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	simisear: {
 		isNonstandard: "Past",
 		tier: "Illegal",
+	},
+	simisearshadow: {
+		tier: "Uber",
 	},
 	panpour: {
 		isNonstandard: "Past",
@@ -3908,6 +3947,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	eelektrossshadow: {
+		tier: "Uber",
+	},
 	elgyem: {
 		tier: "LC",
 	},
@@ -4283,6 +4325,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	braixenshadow: {
+		tier: "Uber",
+	},
 	delphox: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -4557,6 +4602,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 90,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	carbinkshadow: {
+		tier: "Uber",
 	},
 	goomy: {
 		tier: "LC",
@@ -5268,6 +5316,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	hakamoo: {
 		tier: "NFE",
+	},
+	hakamooshadow: {
+		tier: "Uber",
 	},
 	kommoo: {
 		randomBattleMoves: ["clangingscales", "clangoroussoul", "closecombat", "poisonjab", "stealthrock"],
