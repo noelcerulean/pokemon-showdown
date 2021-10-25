@@ -19119,6 +19119,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			shadowdevour: ["7L1"],
 			shadowmeld: ["7L1"],
+			shadowpanic: ["7L1"],
 			shadowrave: ["7L1"],
 			shadowsun: ["7L1"],
 			shadowtrance: ["7L1"],
@@ -19231,6 +19232,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowmoon: ["7L1"],
 			shadowrage: ["7L1"],
 			shadowrush: ["7L1"],
+			shadowsiren: ["7L1"],
 			shadowstare: ["7L1"],
 		},
 	},
@@ -57882,6 +57884,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowhatred: ["7L1"],
 			shadowhold: ["7L1"],
 			shadowpivot: ["7L1"],
+			shadowrage: ["7L1"],
 			shadowrush: ["7L1"],
 			shadowscheme: ["7L1"],
 			shadowsnipe: ["7L1"],
@@ -62251,6 +62254,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			shadowchant: ["7L1"],
 			shadowcinder: ["7L1"],
+			shadowhatred: ["7L1"],
 			shadowhubris: ["7L1"],
 			shadowpanic: ["7L1"],
 			shadowrave: ["7L1"],

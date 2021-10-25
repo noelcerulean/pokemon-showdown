@@ -11565,7 +11565,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Braixen",
 		types: ["Fire"],
 		genderRatio: {M: 0.875, F: 0.125},
-		baseStats: {hp: 59, atk: 59, def: 58, spa: 90, spd: 70, spe: 73},
+		baseStats: {hp: 59, atk: 59, def: 58, spa: 90, spd: 70, spe: 133},
 		abilities: {0: "Blaze", H: "Magician"},
 		heightm: 1,
 		weightkg: 14.5,
