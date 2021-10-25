@@ -19121,6 +19121,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowmeld: ["7L1"],
 			shadowpanic: ["7L1"],
 			shadowrave: ["7L1"],
+			shadowroulette: ["7L1"],
 			shadowsun: ["7L1"],
 			shadowtrance: ["7L1"],
 			shadowwave: ["7L1"],
