@@ -6388,7 +6388,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Milotic-Shadow",
 		types: ["Water"],
 		gender: "F",
-		baseStats: {hp: 95, atk: 60, def: 79, spa: 100, spd: 125, spe: 81},
+		baseStats: {hp: 95, atk: 60, def: 79, spa: 130, spd: 125, spe: 81},
 		abilities: {0: "Shadow Armor"},
 		heightm: 6.2,
 		weightkg: 162,

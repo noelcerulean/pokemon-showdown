@@ -22271,6 +22271,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowcharge: ["7L1"],
 			shadowcinder: ["7L1"],
 			shadowfumes: ["7L1"],
+			shadowhubris: ["7L1"],
 			shadowrave: ["7L1"],
 			shadowrush: ["7L1"],
 			shadowshed: ["7L1"],
