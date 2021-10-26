@@ -19228,6 +19228,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	umbreonshadow: {
 		learnset: {
+			shadowbandit: ["7L1"],
 			shadowbreak: ["7L1"],
 			shadowfusion: ["7L1"],
 			shadowmoon: ["7L1"],
@@ -19235,6 +19236,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowrush: ["7L1"],
 			shadowsiren: ["7L1"],
 			shadowstare: ["7L1"],
+			shadowwall: ["7L1"],
 		},
 	},
 	leafeon: {
