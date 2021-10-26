@@ -12381,7 +12381,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Carbink-Shadow",
 		types: ["Rock", "Fairy"],
 		gender: "N",
-		baseStats: {hp: 60, atk: 60, def: 160, spa: 60, spd: 160, spe: 50},
+		baseStats: {hp: 90, atk: 60, def: 160, spa: 60, spd: 160, spe: 50},
 		abilities: {0: "Shadow Armor"},
 		heightm: 0.3,
 		weightkg: 5.7,
