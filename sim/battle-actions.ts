@@ -1694,13 +1694,13 @@ export class BattleActions {
 		if (isCrit && !suppressMessages) this.battle.add('-crit', target);
 
 		if (pokemon.status === 'brn' && move.category === 'Physical' && !pokemon.hasAbility('guts')) {
-			if (this.battle.gen < 6 || move.id !== 'facade' || move.id !== 'shadowrage') {
+			if (this.battle.gen < 6 || move.id !== 'facade' && move.id !== 'shadowrage') {
 				baseDamage = this.battle.modify(baseDamage, 0.5);
 			}
 		}
 
 		if (pokemon.status === 'frz' && move.category === 'Special' && !pokemon.hasAbility('magmaarmor')) {
-			if (this.battle.gen < 6 || move.id !== 'facade' || move.id !== 'shadowrage') {
+			if (this.battle.gen < 6 || move.id !== 'facade' && move.id !== 'shadowrage') {
 				baseDamage = this.battle.modify(baseDamage, 0.5);
 			}
 		}
