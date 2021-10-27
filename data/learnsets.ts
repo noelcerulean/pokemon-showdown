@@ -29776,6 +29776,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		],
 		eventOnly: true,
 	},
+	enteishadow: {
+		learnset: {
+			shadowbreak: ["7L1"],
+			shadowcharge: ["7L1"],
+			shadowcinder: ["7L1"],
+			shadowcombust: ["7L1"],
+			shadowend: ["7L1"],
+			shadowfire: ["7L1"],
+			shadowpivot: ["7L1"],
+			shadowrage: ["7L1"],
+			shadowrave: ["7L1"],
+			shadowrush: ["7L1"],
+			shadowsprint: ["7L1"],
+			shadowwreckage: ["7L1"],
+		},
+	},
 	suicune: {
 		learnset: {
 			agility: ["8M"],
@@ -50164,6 +50180,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowhubris: ["7L1"],
 			shadowhurl: ["7L1"],
 			shadowintensify: ["7L1"],
+			shadowpunish: ["7L1"],
 			shadowrage: ["7L1"],
 			shadowrush: ["7L1"],
 			shadowscheme: ["7L1"],

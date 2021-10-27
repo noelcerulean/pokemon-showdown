@@ -3504,6 +3504,23 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: -800,
 	},
+	shadowconvection: {
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Shadow Convection');
+		},
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Fire') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Shadow Convection');
+				}
+				return null;
+			}
+		},
+		isBreakable: true,
+		name: "Shadow Convection",
+		rating: 3.5,
+		num: -802,
+	},
 	shadowshield: {
 		onSourceModifyDamage(damage, source, target, move) {
 			if (target.hp >= target.maxhp) {

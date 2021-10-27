@@ -5198,6 +5198,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a higher chance for a critical hit.",
 		shortDesc: "High critical hit ratio.",
 	},
+	shadowcombust: {
+		name: "Shadow Combust",
+		desc: "Always crits. 100% chance to drop Defense and Sp. Defense of the target by 1 stage.",
+		shortDesc: "Crits. 100% chance to drop target Def/SpD by 1.",
+	},
 	shadowdance: {
 		name: "Shadow Dance",
 		desc: "Raises the user's Attack and Speed by 1 stage.",
@@ -5227,6 +5232,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Shares HP of user and target equally.",
 
 		activate: "  The battlers shared their pain!",
+	},
+	shadowfire: {
+		name: "Shadow Fire",
+		desc: "Always crits. Has a 100% chance to burn the target.",
+		shortDesc: "Crits. 100% chance to burn the target.",
 	},
 	shadowfog: {
 		name: "Shadow Fog",
