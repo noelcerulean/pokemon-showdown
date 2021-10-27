@@ -16530,8 +16530,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	shadowwhip: {
 		num: -820,
-		accuracy: 70,
-		basePower: 100,
+		accuracy: 100,
+		basePower: 70,
 		category: "Physical",
 		name: "Shadow Whip",
 		pp: 15,
