@@ -17868,21 +17868,22 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	spiderweb: {
 		num: 169,
-		accuracy: true,
-		basePower: 0,
-		category: "Status",
-		isNonstandard: "Past",
+		accuracy: 100,
+		basePower: 70,
+		category: "Physical",
 		name: "Spider Web",
 		pp: 10,
 		priority: 0,
-		flags: {protect: 1, reflectable: 1, mirror: 1},
-		onHit(target, source, move) {
-			return target.addVolatile('trapped', source, move, 'trapper');
+		flags: {protect: 1, mirror: 1},
+		volatileStatus: 'partiallytrapped',
+		secondary: {
+			chance: 100,
+			boosts: {
+				spe: -2,
+			},
 		},
-		secondary: null,
 		target: "normal",
 		type: "Bug",
-		zMove: {boost: {def: 1}},
 		contestType: "Clever",
 	},
 	spikecannon: {
@@ -19987,21 +19988,24 @@ export const Moves: {[moveid: string]: MoveData} = {
 	toxicthread: {
 		num: 672,
 		accuracy: 100,
-		basePower: 0,
-		category: "Status",
-		isNonstandard: "Past",
+		basePower: 70,
+		category: "Physical",
 		name: "Toxic Thread",
-		pp: 20,
+		pp: 10,
 		priority: 0,
-		flags: {protect: 1, reflectable: 1, mirror: 1},
-		status: 'psn',
-		boosts: {
-			spe: -1,
+		flags: {protect: 1, mirror: 1},
+		onHit(target, source, move) {
+			return target.addVolatile('trapped', source, move, 'trapper');
 		},
-		secondary: null,
+		status: 'psn',
+		secondary: {
+			chance: 100,
+			boosts: {
+				spe: -2,
+			},
+		},
 		target: "normal",
 		type: "Poison",
-		zMove: {boost: {spe: 1}},
 		contestType: "Tough",
 	},
 	transform: {

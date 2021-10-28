@@ -574,9 +574,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	muk: {
-		randomBattleMoves: ["curse", "firepunch", "gunkshot", "icepunch", "memento", "poisonjab", "shadowsneak"],
-		randomDoubleBattleMoves: ["firepunch", "gunkshot", "icepunch", "poisonjab", "protect", "shadowsneak"],
-		tier: "(PU)",
+		randomBattleMoves: ["curse", "drainpunch", "firepunch", "gunkshot", "icepunch", "memento", "poisonjab", "shadowpunch", "shadowsneak", "toxic"],
+		randomDoubleBattleMoves: ["drainpunch", "firepunch", "gunkshot", "icepunch", "poisonjab", "protect", "shadowpunch", "shadowsneak", "toxic"],
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	mukalola: {
@@ -1150,9 +1150,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	ariados: {
-		randomBattleMoves: ["megahorn", "poisonjab", "stickyweb", "suckerpunch", "toxicspikes"],
+		randomBattleMoves: ["leechlife", "megahorn", "poisonjab", "spiderweb", "stickyweb", "stompingtantrum", "suckerpunch", "toxicspikes", "toxicthread"],
 		randomDoubleBattleMoves: ["megahorn", "poisonjab", "protect", "ragepowder", "stickyweb", "toxicthread"],
-		tier: "(PU)",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	chinchou: {

@@ -1017,6 +1017,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 194,
 	},
+	enfeeblingvenom: {
+		onSourceModifyDamage(damage, source, target, move) {
+			let mod = 1;
+			if (target.status === 'psn' || target.status === 'tox') mod /= 2;
+			return this.chainModify(mod);
+		},
+		isBreakable: true,
+		name: "Enfeebling Venom",
+		rating: 3.5,
+		num: -516,
+	},
 	erraticflight: {
 		// upokecenter says this is implemented as an added secondary effect
 		onModifyMove(move) {

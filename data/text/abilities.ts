@@ -366,6 +366,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage bringing it to 1/2 or less of its maximum HP, it immediately switches out to a chosen ally. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect. This effect applies to both direct and indirect damage, except Curse and Substitute on use, Belly Drum, Pain Split, and confusion damage.",
 		shortDesc: "This Pokemon switches out when it reaches 1/2 or less of its maximum HP.",
 	},
+	enfeeblingvenom: {
+		name: "Enfeebling Venom",
+		desc: "This Pokemon receives 1/2 damage from poisoned pokemon.",
+		shortDesc: "This Pokemon takes 1/2 damage from poisoned pokemon.",
+	},
 	erraticflight: {
 		name: "Erratic Flight",
 		shortDesc: "This Pokemon's contact moves have a 100% chance of confusing.",
