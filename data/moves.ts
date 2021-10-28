@@ -15310,7 +15310,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	shadowcascade: {
 		num: -861,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 80,
 		category: "Physical",
 		name: "Shadow Cascade",
 		pp: 10,
