@@ -1022,6 +1022,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	suicune: {
 		name: "Suicune",
 	},
+	suicuneshadow: {
+		name: "Suicune-Shadow",
+	},
 	larvitar: {
 		name: "Larvitar",
 	},

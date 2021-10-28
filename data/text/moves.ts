@@ -5177,6 +5177,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Shadow Break",
 		shortDesc: "Always crits. User takes 1/3 recoil.",
 	},
+	shadowcascade: {
+		name: "Shadow Cascade",
+		desc: "Always crits. 100% chance to drop Attack and Sp. Attack of the target by 1 stage.",
+		shortDesc: "Crits. 100% chance to drop target Atk/SpA by 1.",
+	},
 	shadowchant: {
 		name: "Shadow Chant",
 		desc: "For 5 turns, the user and its party members cannot be struck by a critical hit. Fails if the effect is already active on the user's side.",
@@ -5188,6 +5193,11 @@ export const MovesText: {[k: string]: MoveText} = {
 	shadowcharge: {
 		name: "Shadow Charge",
 		shortDesc: "Crits. Raises the user's Speed by 1.",
+	},
+	shadowchill: {
+		name: "Shadow Chill",
+		desc: "Always crits. Has a 100% chance to freeze the target.",
+		shortDesc: "Crits. 100% chance to freeze the target.",
 	},
 	shadowcinder: {
 		name: "Shadow Cinder",

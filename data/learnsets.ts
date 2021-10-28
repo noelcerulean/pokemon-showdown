@@ -29908,6 +29908,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		],
 		eventOnly: true,
 	},
+	suicuneshadow: {
+		learnset: {
+			shadowcascade: ["7L1"],
+			shadowchill: ["7L1"],
+			shadowdissolve: ["7L1"],
+			shadowfrost: ["7L1"],
+			shadowhubris: ["7L1"],
+			shadowpivot: ["7L1"],
+			shadowrave: ["7L1"],
+			shadowrush: ["7L1"],
+			shadowscheme: ["7L1"],
+			shadowshed: ["7L1"],
+			shadowstorm: ["7L1"],
+			shadowwave: ["7L1"],
+		},
+	},
 	larvitar: {
 		learnset: {
 			ancientpower: ["8E", "7E", "7V", "6E", "5E", "4T", "4E", "3E"],

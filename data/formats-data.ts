@@ -1925,6 +1925,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	suicuneshadow: {
+		tier: "Uber",
+	},
 	larvitar: {
 		tier: "LC",
 	},

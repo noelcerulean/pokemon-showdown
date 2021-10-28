@@ -3532,6 +3532,23 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: -802,
 	},
+	shadowhydraulics: {
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Shadow Hydraulics');
+		},
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Water') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Shadow Hydraulics');
+				}
+				return null;
+			}
+		},
+		isBreakable: true,
+		name: "Shadow Hydraulics",
+		rating: 3.5,
+		num: -803,
+	},
 	shadowshield: {
 		onSourceModifyDamage(damage, source, target, move) {
 			if (target.hp >= target.maxhp) {

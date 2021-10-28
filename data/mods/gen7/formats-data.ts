@@ -1538,6 +1538,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "DOU",
 	},
+	suicuneshadow: {
+		tier: "Uber",
+	},
 	larvitar: {
 		tier: "LC",
 	},
