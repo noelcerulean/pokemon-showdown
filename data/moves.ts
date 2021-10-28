@@ -15749,7 +15749,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 50,
 		category: "Special",
 		name: "Shadow Hubris",
-		pp: 30,
+		pp: 20,
 		priority: 0,
 		flags: {protect: 1},
 		willCrit: true,
