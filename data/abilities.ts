@@ -1020,7 +1020,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	enfeeblingvenom: {
 		onSourceModifyDamage(damage, source, target, move) {
 			let mod = 1;
-			if (target.status === 'psn' || target.status === 'tox') mod /= 2;
+			if (source.status === 'psn' || source.status === 'tox') mod /= 2;
 			return this.chainModify(mod);
 		},
 		isBreakable: true,
