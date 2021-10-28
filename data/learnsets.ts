@@ -23218,6 +23218,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			sonicboom: ["7E", "7V", "6E", "5E", "4E", "3E"],
 			spiderweb: ["7L29", "7V", "6L29", "5L29", "4L29", "3L37"],
 			stickyweb: ["7L50", "6L50"],
+			stompingtantrum: ["7T"],
 			stringshot: ["7L1", "7V", "6L1", "5L1", "4T", "4L1", "3L1"],
 			strugglebug: ["6M", "5M"],
 			substitute: ["7M", "6M", "5M", "4M", "3T"],
