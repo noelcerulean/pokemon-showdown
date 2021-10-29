@@ -1311,6 +1311,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		start: "  [POKEMON] is surrounded by a shadowy aura!",
 	},
+	shadowconduction: {
+		name: "Shadow Conduction",
+		desc: "This Pokemon is immune to Electric-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Electric-type move.",
+		shortDesc: "This Pokemon heals 1/4 of its max HP when hit by Electric moves; Electric immunity.",
+
+		start: "  [POKEMON] is surrounded by a shadowy aura!",
+	},
 	shadowconvection: {
 		name: "Shadow Convection",
 		desc: "This Pokemon is immune to Fire-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Fire-type move.",

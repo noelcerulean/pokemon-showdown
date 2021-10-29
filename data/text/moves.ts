@@ -5168,6 +5168,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Always crits. If this attack was successful and the user has not fainted, it steals the target's held item if the user is not holding one. The target's item is not stolen if it is a Mail or Z-Crystal, or if the target is a Kyogre holding a Blue Orb, a Groudon holding a Red Orb, a Giratina holding a Griseous Orb, an Arceus holding a Plate, a Genesect holding a Drive, a Silvally holding a Memory, or a Pokemon that can Mega Evolve holding the Mega Stone for its species. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
 		shortDesc: "Crits. If possible, steals target's item.",
 	},
+	shadowbolt: {
+		name: "Shadow Bolt",
+		desc: "Always crits. Has a 100% chance to paralyze the target.",
+		shortDesc: "Crits. 100% chance to paralyze the target.",
+	},
 	shadowbone: {
 		name: "Shadow Bone",
 		desc: "Has a 20% chance to lower the target's Defense by 1 stage.",
@@ -5312,6 +5317,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Shadow Intesify",
 		desc: "Raises the user's Defense and Special Defense by 1 stage.",
 		shortDesc: "Raises user's Defense and Sp. Defense by 1.",
+	},
+	shadowjolt: {
+		name: "Shadow Jolt",
+		desc: "Always crits. 100% chance to drop Speed of the target by 2 stages.",
+		shortDesc: "Crits. 100% chance to drop target speed by 2.",
 	},
 	shadowmeld: {
 		name: "Shadow Meld",

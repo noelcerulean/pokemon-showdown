@@ -26559,6 +26559,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	soarsparceshadow: {
 		learnset: {
 			shadowchant: ["7L1"],
+			shadowdance: ["7L1"],
 			shadowdown: ["7L1"],
 			shadowhold: ["7L1"],
 			shadowrave: ["7L1"],
@@ -29694,6 +29695,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 3, level: 40},
 		],
 		eventOnly: true,
+	},
+	raikoushadow: {
+		learnset: {
+			shadowbolt: ["7L1"],
+			shadowdevour: ["7L1"],
+			shadowjolt: ["7L1"],
+			shadowhubris: ["7L1"],
+			shadowpivot: ["7L1"],
+			shadowrave: ["7L1"],
+			shadowreset: ["7L1"],
+			shadowrush: ["7L1"],
+			shadowstare: ["7L1"],
+			shadowstorm: ["7L1"],
+			shadowvelocity: ["7L1"],
+			shadowwave: ["7L1"],
+		},
 	},
 	entei: {
 		learnset: {

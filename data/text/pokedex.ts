@@ -1013,6 +1013,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	raikou: {
 		name: "Raikou",
 	},
+	raikoushadow: {
+		name: "Raikou-Shadow",
+	},
 	entei: {
 		name: "Entei",
 	},

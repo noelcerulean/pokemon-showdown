@@ -15272,6 +15272,24 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Shadow",
 	},
+	shadowbolt: {
+		num: -857,
+		accuracy: 100,
+		basePower: 75,
+		category: "Special",
+		name: "Shadow Bolt",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1},
+		willCrit: true,
+		noSketch: true,
+		secondary: {
+			chance: 100,
+			status: 'par',
+		},
+		target: "normal",
+		type: "Shadow",
+	},
 	shadowbone: {
 		num: 708,
 		accuracy: 100,
@@ -15797,6 +15815,26 @@ export const Moves: {[moveid: string]: MoveData} = {
 		noSketch: true,
 		secondary: null,
 		target: "self",
+		type: "Shadow",
+	},
+	shadowjolt: {
+		num: -860,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Shadow Jolt",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		willCrit: true,
+		noSketch: true,
+		secondary: {
+			chance: 100,
+			boosts: {
+				spe: -2,
+			},
+		},
+		target: "normal",
 		type: "Shadow",
 	},
 	shadowmeld: {
@@ -20036,13 +20074,17 @@ export const Moves: {[moveid: string]: MoveData} = {
 		onHit(target, source, move) {
 			return target.addVolatile('trapped', source, move, 'trapper');
 		},
-		status: 'psn',
-		secondary: {
-			chance: 100,
-			boosts: {
-				spe: -2,
+		secondaries: [
+			{
+				chance: 100,
+				boosts: {
+					spe: -2,
+				},
+			}, {
+				chance: 100,
+				status: 'psn',
 			},
-		},
+		],
 		target: "normal",
 		type: "Poison",
 		contestType: "Tough",

@@ -3515,6 +3515,23 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: -800,
 	},
+	shadowconduction: {
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Shadow Conduction');
+		},
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Electric') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Shadow Conduction');
+				}
+				return null;
+			}
+		},
+		isBreakable: true,
+		name: "Shadow Conduction",
+		rating: 3.5,
+		num: -804,
+	},
 	shadowconvection: {
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Shadow Convection');

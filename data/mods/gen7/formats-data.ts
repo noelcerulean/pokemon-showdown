@@ -1523,6 +1523,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	raikoushadow: {
+		tier: "Uber",
+	},
 	entei: {
 		randomBattleMoves: ["extremespeed", "flareblitz", "sacredfire", "stompingtantrum", "stoneedge"],
 		randomDoubleBattleMoves: ["extremespeed", "flareblitz", "protect", "sacredfire", "stompingtantrum", "stoneedge"],
