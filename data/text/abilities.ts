@@ -1332,6 +1332,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		start: "  [POKEMON] is surrounded by a shadowy aura!",
 	},
+	shadowrebirth: {
+		name: "Shadow Rebirth",
+		shortDesc: "This Pokemon restores 1/2 of its maximum HP, rounded down, when it switches out.",
+
+		start: "  [POKEMON] is surrounded by a shadowy aura!",
+	},
 	shadowshield: {
 		name: "Shadow Shield",
 		desc: "If this Pokemon is at full HP, damage taken from attacks is halved. Moongeist Beam, Sunsteel Strike, and the Mold Breaker, Teravolt, and Turboblaze Abilities cannot ignore this Ability.",

@@ -5343,6 +5343,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Shadow Panic",
 		shortDesc: "Crits. 100% chance to confuse target.",
 	},
+	shadowphoenix: {
+		name: "Shadow Phoenix",
+		desc: "Always crits. Burns Target. 100% chance to drop Defense of the target.",
+		shortDesc: "Crits. Burns. 100% chance to drop target Def by 1.",
+	},
 	shadowpivot: {
 		name: "Shadow Pivot",
 		desc: "Always crits. If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.",
@@ -5363,6 +5368,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Facade",
 		desc: "Always crits. Power doubles if the user is burned, paralyzed, or poisoned. The physical damage halving effect from the user's burn is ignored.",
 		shortDesc: "Crits. x2 power if user is burn/poison/paralyzed.",
+	},
+	shadowrainbow: {
+		name: "Shadow Rainbow",
+		desc: "Always crits. 100% chance to drop stats of target by 1 stage.",
+		shortDesc: "Crits. 100% chance to drop all target stats by 1.",
 	},
 	shadowrave: {
 		name: "Shadow Rave",

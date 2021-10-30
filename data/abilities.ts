@@ -3566,6 +3566,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: -803,
 	},
+	shadowrebirth: {
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Shadow Rebirth');
+		},
+		onSwitchOut(pokemon) {
+			pokemon.heal(pokemon.baseMaxhp / 2);
+		},
+		name: "Shadow Rebirth",
+		rating: 4.5,
+		num: -806,
+	},
 	shadowshield: {
 		onSourceModifyDamage(damage, source, target, move) {
 			if (target.hp >= target.maxhp) {

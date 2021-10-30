@@ -143,6 +143,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowrave: ["7L1"],
 			shadowreset: ["7L1"],
 			shadowseed: ["7L1"],
+			shadowsun: ["7L1"],
 			shadowwall: ["7L1"],
 			shadowwave: ["7L1"],
 			shadowwhip: ["7L1"],
@@ -19623,6 +19624,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	porygon2shadow: {
 		learnset: {
+			shadowcinder: ["7L1"],
 			shadowdance: ["7L1"],
 			shadowdevour: ["7L1"],
 			shadowdissolve: ["7L1"],
@@ -22295,12 +22297,14 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			shadowcharge: ["7L1"],
 			shadowcinder: ["7L1"],
+			shadowdevour: ["7L1"],
 			shadowfumes: ["7L1"],
 			shadowhubris: ["7L1"],
 			shadowrave: ["7L1"],
 			shadowrush: ["7L1"],
 			shadowshed: ["7L1"],
 			shadowsprint: ["7L1"],
+			shadowstorm: ["7L1"],
 			shadowthreat: ["7L1"],
 			shadowvelocity: ["7L1"],
 			shadowwave: ["7L1"],
@@ -30496,6 +30500,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 2, level: 40},
 		],
 		eventOnly: true,
+	},
+	hoohshadow: {
+		learnset: {
+			shadowbolt: ["7L1"],
+			shadowchill: ["7L1"],
+			shadowend: ["7L1"],
+			shadowfire: ["7L1"],
+			shadowphoenix: ["7L1"],
+			shadowpivot: ["7L1"],
+			shadowrainbow: ["7L1"],
+			shadowrave: ["7L1"],
+			shadowreset: ["7L1"],
+			shadowrush: ["7L1"],
+			shadowstorm: ["7L1"],
+			shadowwave: ["7L1"],
+		},
 	},
 	celebi: {
 		learnset: {
@@ -62333,6 +62353,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	braixenshadow: {
 		learnset: {
 			shadowchant: ["7L1"],
+			shadowchill: ["7L1"],
 			shadowcinder: ["7L1"],
 			shadowhatred: ["7L1"],
 			shadowhubris: ["7L1"],

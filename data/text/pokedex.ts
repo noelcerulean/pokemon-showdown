@@ -1046,6 +1046,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	hooh: {
 		name: "Ho-Oh",
 	},
+	hoohshadow: {
+		name: "Ho-Oh-Shadow",
+	},
 	celebi: {
 		name: "Celebi",
 	},
