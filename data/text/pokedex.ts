@@ -1541,6 +1541,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	jirachi: {
 		name: "Jirachi",
 	},
+	jirachishadow: {
+		name: "Jirachi-Shadow",
+	},
 	deoxys: {
 		name: "Deoxys",
 	},

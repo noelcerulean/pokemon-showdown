@@ -2807,6 +2807,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "DUber",
 	},
+	jirachishadow: {
+		tier: "Uber",
+	},
 	deoxys: {
 		isNonstandard: "Past",
 		tier: "Illegal",

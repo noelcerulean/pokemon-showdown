@@ -3549,6 +3549,19 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: -802,
 	},
+	shadowdust: {
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Shadow Dust');
+		},
+		onModifySecondaries(secondaries) {
+			this.debug('Shadow Dust prevent secondary');
+			return secondaries.filter(effect => !!(effect.self || effect.dustproof));
+		},
+		isBreakable: true,
+		name: "Shadow Dust",
+		rating: 2,
+		num: -805,
+	},
 	shadowhydraulics: {
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Shadow Hydraulics');

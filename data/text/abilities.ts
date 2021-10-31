@@ -1325,6 +1325,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		start: "  [POKEMON] is surrounded by a shadowy aura!",
 	},
+	shadowdust: {
+		name: "Shadow Dust",
+		shortDesc: "This Pokemon is not affected by the secondary effect of another Pokemon's attack.",
+
+		start: "  [POKEMON] is surrounded by a shadowy aura!",
+	},
 	shadowhydraulics: {
 		name: "Shadow Hydraulics",
 		desc: "This Pokemon is immune to Water-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Water-type move.",

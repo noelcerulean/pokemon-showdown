@@ -2380,6 +2380,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DUber",
 	},
+	jirachishadow: {
+		tier: "Uber",
+	},
 	deoxys: {
 		randomBattleMoves: ["extremespeed", "icebeam", "firepunch", "knockoff", "psychoboost", "stealthrock", "superpower"],
 		randomDoubleBattleMoves: ["extremespeed", "firepunch", "icebeam", "knockoff", "protect", "psychoboost", "superpower"],

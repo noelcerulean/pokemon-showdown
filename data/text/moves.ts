@@ -5232,6 +5232,14 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Always crits. The target's Ability is rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, or Zen Mode, this effect does not happen, and receiving the effect through Baton Pass ends the effect immediately.",
 		shortDesc: "Crits. Nullifies the target's Ability.",
 	},
+	shadowdoomsday: {
+		name: "Shadow Doomsday",
+		desc: "Deals damage two turns after this move is used. At the end of that turn, the damage is calculated at that time and dealt to the Pokemon at the position the target had when the move was used. If the user is no longer active at the time, damage is calculated based on the user's natural Attack stat, types, and level, with no boosts from its held item or Ability. Fails if this move or Doom Desire/Future Sight is already in effect for the target's position. This move becomes a special attack if the user's Sp. Attack is greater than its Attack, including stat stage changes.",
+		shortDesc: "Crits. Special if Sp. Atk > Atk. Hits in 2 turns.",
+
+		start: "  [POKEMON] foretold the dark end of days!",
+		activate: "  [TARGET] was consumed by apocalyptic shadows!",
+	},
 	shadowdown: {
 		name: "Shadow Down",
 		desc: "Cannot be reflected. Infiltrates. Lowers the target's Defense and Special Defense by 1 stage.",

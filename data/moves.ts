@@ -15521,6 +15521,64 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Shadow",
 	},
+	shadowdoomsday: {
+		num: -863,
+		accuracy: 100,
+		basePower: 140,
+		category: "Physical",
+		name: "Shadow Doomsday",
+		pp: 5,
+		priority: 0,
+		flags: {},
+		willCrit: true,
+		noSketch: true,
+		isFutureMove: true,
+		onTry(source, target) {
+			if (!target.side.addSlotCondition(target, 'futuremove')) return false;
+			if (source.getStat('atk', false, true) >= source.getStat('spa', false, true)) {
+				Object.assign(target.side.slotConditions[target.position]['futuremove'], {
+					move: 'shadowdoomsday',
+					source: source,
+					moveData: {
+						id: 'shadowdoomsday',
+						name: "Shadow Doomsday",
+						accuracy: 100,
+						basePower: 140,
+						category: "Physical",
+						priority: 0,
+						flags: {},
+						willCrit: true,
+						effectType: 'Move',
+						isFutureMove: true,
+						type: 'Shadow',
+					},
+				});
+			} else if (source.getStat('spa', false, true) > source.getStat('atk', false, true)) {
+				Object.assign(target.side.slotConditions[target.position]['futuremove'], {
+					move: 'shadowdoomsday',
+					source: source,
+					moveData: {
+						id: 'shadowdoomsday',
+						name: "Shadow Doomsday",
+						accuracy: 100,
+						basePower: 140,
+						category: "Special",
+						priority: 0,
+						flags: {},
+						willCrit: true,
+						effectType: 'Move',
+						isFutureMove: true,
+						type: 'Shadow',
+					},
+				});
+			}
+			this.add('-start', source, 'Shadow Doomsday');
+			return this.NOT_FAIL;
+		},
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
 	shadowdown: {
 		num: -809,
 		accuracy: true,
