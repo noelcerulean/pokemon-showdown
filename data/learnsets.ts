@@ -31877,7 +31877,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			rocksmash: ["7V", "6M", "5M", "4M", "3M"],
 			roost: ["7M", "6M", "5T", "4M"],
 			round: ["8M", "7M", "6M", "5M"],
-			sacredfire: ["8L54", "7L43", "7V","6L43", "5L43", "4L43", "3L77"],
+			sacredfire: ["8L54", "7L43", "7V", "6L43", "5L43", "4L43", "3L77"],
 			safeguard: ["8M", "8L18", "7M", "7L65", "7V", "6M", "6L65", "5M", "5L65", "4M", "4L9", "3M", "3L11"],
 			sandstorm: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 			scorchingsands: ["8T"],
