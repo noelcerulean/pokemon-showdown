@@ -3707,7 +3707,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			uproar: ["8M"],
 			uturn: ["7M"],
 			voltswitch: ["8M", "7M", "6M", "5M"],
-			voltackle: ["7L1"],
+			volttackle: ["7L1"],
 			wildcharge: ["8M", "7M", "6M", "5M"],
 			wish: ["7L1"],
 			workup: ["7M"],
