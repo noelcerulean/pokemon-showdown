@@ -2,8 +2,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	bulbasaur: {
 		name: "Bulbasaur",
 	},
-	bulbasaurshadow: {
-		name: "Bulbasaur-Shadow",
+	bulbasaursaur: {
+		name: "Bulbasaur-Saur",
 	},
 	ivysaur: {
 		name: "Ivysaur",
@@ -167,8 +167,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	raichu: {
 		name: "Raichu",
 	},
-	raichushadow: {
-		name: "Raichu-Shadow",
+	raichumalachite: {
+		name: "Raichu-Malachite",
 	},
 	raichualola: {
 		name: "Raichu-Alola",
@@ -614,8 +614,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	vaporeon: {
 		name: "Vaporeon",
 	},
-	vaporeonshadow: {
-		name: "Vaporeon-Shadow",
+	vaporeonlinguine: {
+		name: "Vaporeon-Linguine",
 	},
 	jolteon: {
 		name: "Jolteon",
@@ -698,8 +698,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	typhlosion: {
 		name: "Typhlosion",
 	},
-	typhlosionshadow: {
-		name: "Typhlosion-Shadow",
+	typhlosionvesuvius: {
+		name: "Typhlosion-Vesuvius",
 	},
 	totodile: {
 		name: "Totodile",
@@ -821,8 +821,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	wooper: {
 		name: "Wooper",
 	},
-	woopershadow: {
-		name: "Wooper-Shadow",
+	wooperwooperoth: {
+		name: "Wooper-Wooperoth",
 	},
 	quagsire: {
 		name: "Quagsire",
@@ -830,14 +830,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	espeon: {
 		name: "Espeon",
 	},
-	espeonshadow: {
-		name: "Espeon-Shadow",
+	espeondaybreak: {
+		name: "Espeon-Daybreak",
 	},
 	umbreon: {
 		name: "Umbreon",
 	},
-	umbreonshadow: {
-		name: "Umbreon-Shadow",
+	umbreonnocturne: {
+		name: "Umbreon-Nocturne",
 	},
 	murkrow: {
 		name: "Murkrow",
@@ -872,8 +872,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	soarsparce: {
 		name: "Soarsparce",
 	},
-	soarsparceshadow: {
-		name: "Soarsparce-Shadow",
+	soarsparcealfred: {
+		name: "Soarsparce-Alfred",
 	},
 	stucksparce: {
 		name: "Stucksparce",
@@ -968,8 +968,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	kingdra: {
 		name: "Kingdra",
 	},
-	kingdrashadow: {
-		name: "Kingdra-Shadow",
+	kingdrakmarxdra: {
+		name: "Kingdra-K.Marxdra",
 	},
 	phanpy: {
 		name: "Phanpy",
@@ -980,8 +980,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	porygon2: {
 		name: "Porygon2",
 	},
-	porygon2shadow: {
-		name: "Porygon2-Shadow",
+	porygon2poryexe: {
+		name: "Porygon2-Pory.EXE",
 	},
 	stantler: {
 		name: "Stantler",
@@ -1013,20 +1013,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	raikou: {
 		name: "Raikou",
 	},
-	raikoushadow: {
-		name: "Raikou-Shadow",
+	raikoujasper: {
+		name: "Raikou-Jasper",
 	},
 	entei: {
 		name: "Entei",
 	},
-	enteishadow: {
-		name: "Entei-Shadow",
+	enteibismuth: {
+		name: "Entei-Bismuth",
 	},
 	suicune: {
 		name: "Suicune",
 	},
-	suicuneshadow: {
-		name: "Suicune-Shadow",
+	suicuneopal: {
+		name: "Suicune-Opal",
 	},
 	larvitar: {
 		name: "Larvitar",
@@ -1046,8 +1046,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	hooh: {
 		name: "Ho-Oh",
 	},
-	hoohshadow: {
-		name: "Ho-Oh-Shadow",
+	hoohrainbow: {
+		name: "Ho-Oh-Rainbow",
 	},
 	celebi: {
 		name: "Celebi",
@@ -1391,8 +1391,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	milotic: {
 		name: "Milotic",
 	},
-	miloticshadow: {
-		name: "Milotic-Shadow",
+	miloticlothraxia: {
+		name: "Milotic-Lothraxia",
 	},
 	castform: {
 		name: "Castform",
@@ -1409,8 +1409,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	kecleon: {
 		name: "Kecleon",
 	},
-	kecleonshadow: {
-		name: "Kecleon-Shadow",
+	kecleongenocalypse: {
+		name: "Kecleon-Genocalypse",
 	},
 	shuppet: {
 		name: "Shuppet",
@@ -1541,8 +1541,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	jirachi: {
 		name: "Jirachi",
 	},
-	jirachishadow: {
-		name: "Jirachi-Shadow",
+	jirachiwishmaker: {
+		name: "Jirachi-Wishmaker",
 	},
 	deoxys: {
 		name: "Deoxys",
@@ -1826,8 +1826,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	yanmega: {
 		name: "Yanmega",
 	},
-	yanmegashadow: {
-		name: "Yanmega-Shadow",
+	yanmegazumbra: {
+		name: "Yanmega-Zumbra",
 	},
 	leafeon: {
 		name: "Leafeon",
@@ -1997,8 +1997,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	emboar: {
 		name: "Emboar",
 	},
-	emboarshadow: {
-		name: "Emboar-Shadow",
+	emboardynamite: {
+		name: "Emboar-Dynamite",
 	},
 	oshawott: {
 		name: "Oshawott",
@@ -2042,8 +2042,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	simisear: {
 		name: "Simisear",
 	},
-	simisearshadow: {
-		name: "Simisear-Shadow",
+	simisearhanuman: {
+		name: "Simisear-Hanuman",
 	},
 	panpour: {
 		name: "Panpour",
@@ -2339,8 +2339,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	eelektross: {
 		name: "Eelektross",
 	},
-	eelektrossshadow: {
-		name: "Eelektross-Shadow",
+	eelektrossmrlamprey: {
+		name: "Eelektross-Mr.Lamprey",
 	},
 	elgyem: {
 		name: "Elgyem",
@@ -2528,8 +2528,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	braixen: {
 		name: "Braixen",
 	},
-	braixenshadow: {
-		name: "Braixen-Shadow",
+	braixennonzerda: {
+		name: "Braixen-Nonzerda",
 	},
 	delphox: {
 		name: "Delphox",
@@ -2696,8 +2696,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	carbink: {
 		name: "Carbink",
 	},
-	carbinkshadow: {
-		name: "Carbink-Shadow",
+	carbinkfloatamo: {
+		name: "Carbink-Floatamo",
 	},
 	goomy: {
 		name: "Goomy",
@@ -3074,8 +3074,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	hakamoo: {
 		name: "Hakamo-o",
 	},
-	hakamooshadow: {
-		name: "Hakamo-o-Shadow",
+	hakamoojacinto: {
+		name: "Hakamo-o-Jacinto",
 	},
 	kommoo: {
 		name: "Kommo-o",
