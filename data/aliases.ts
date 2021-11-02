@@ -373,6 +373,7 @@ export const Aliases: {[alias: string]: string} = {
 	gengareve: "Gengar",
 	delcattyroyal: "Delcatty",
 	aurorusfall: "Aurorus",
+	octillerytank: "Octillery",
 
 	alcremierubycream: "Alcremie",
 	alcremiematchacream: "Alcremie",

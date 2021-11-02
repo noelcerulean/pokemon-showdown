@@ -4463,6 +4463,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Remoraid",
 		evoLevel: 25,
 		eggGroups: ["Water 1", "Water 2"],
+		cosmeticFormes: ["Octillery-Tank"],
+		formeOrder: ["Octillery", "Octillery-Tank"],
 	},
 	delibird: {
 		num: 225,
