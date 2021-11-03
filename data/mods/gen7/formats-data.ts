@@ -1296,9 +1296,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	mismagius: {
-		randomBattleMoves: ["dazzlinggleam", "destinybond", "nastyplot", "painsplit", "shadowball", "substitute", "taunt", "thunderbolt", "willowisp"],
+		randomBattleMoves: ["destinybond", "moonblast", "nastyplot", "painsplit", "shadowball", "substitute", "taunt", "thunderbolt", "willowisp"],
 		randomDoubleBattleMoves: ["dazzlinggleam", "nastyplot", "protect", "shadowball", "taunt", "thunderbolt", "willowisp"],
-		tier: "NU",
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	unown: {
