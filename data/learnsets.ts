@@ -3818,7 +3818,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	sandshrew: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
-			agility: ["8M", "8L27"],
+			agility: ["8M", "8L27", "7L1"],
 			amnesia: ["8M"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 			bide: ["7V"],
@@ -3854,6 +3854,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			headbutt: ["8V", "7V", "4T"],
 			hiddenpower: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			honeclaws: ["8E", "7E", "6M", "5M"],
+			ironhead: ["7T"],
 			irontail: ["8M", "8V", "7T", "7V", "6T", "5T", "4M", "3M"],
 			knockoff: ["7T", "6T", "5T", "4T"],
 			leechlife: ["8M"],
@@ -3891,6 +3892,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			slash: ["8L30", "8V", "7L26", "7V", "6L26", "5L31", "4L31", "3L23"],
 			sleeptalk: ["8M", "7M", "7V", "6M", "5T", "4M", "3T"],
 			snore: ["8M", "7T", "7V", "6T", "5T", "4T", "3T"],
+			spikes: ["7L1"],
 			stealthrock: ["8M", "8V", "7T", "6T", "5T", "4M"],
 			steelroller: ["8T"],
 			stompingtantrum: ["8M", "7T"],
@@ -3986,6 +3988,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			slash: ["8L30", "8V", "7L26"],
 			sleeptalk: ["8M", "7M"],
 			snore: ["8M", "7T"],
+			spikes: ["7L1"],
 			stealthrock: ["8M", "8V", "7T"],
 			steelbeam: ["8T"],
 			steelroller: ["8T"],
@@ -4009,7 +4012,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	sandslash: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
-			agility: ["8M"],
+			agility: ["8M", "7L1"],
 			amnesia: ["8M"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 			bide: ["7V"],
@@ -4047,6 +4050,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			hiddenpower: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			honeclaws: ["6M", "5M"],
 			hyperbeam: ["8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
+			ironhead: ["7T"],
 			irontail: ["8M", "8V", "7T", "7V", "6T", "5T", "4M", "3M"],
 			knockoff: ["7T", "6T", "5T", "4T"],
 			leechlife: ["8M"],
@@ -4082,7 +4086,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			slash: ["8L36", "8V", "7L28", "7V", "6L26", "5L40", "4L40", "3L24"],
 			sleeptalk: ["8M", "7M", "7V", "6M", "5T", "4M", "3T"],
 			snore: ["8M", "7T", "7V", "6T", "5T", "4T", "3T"],
-			spikes: ["8M"],
+			spikes: ["8M", "7L1"],
+			spikyshield: ["7L1"],
 			stealthrock: ["8M", "8V", "7T", "6T", "5T", "4M"],
 			steelroller: ["8T"],
 			stompingtantrum: ["8M", "7T"],
@@ -4110,7 +4115,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	sandslashalola: {
 		learnset: {
 			aerialace: ["7M"],
-			agility: ["8M"],
+			agility: ["8M", "7L1"],
 			amnesia: ["8M"],
 			aquatail: ["7T"],
 			attract: ["8M", "7M"],
@@ -4177,7 +4182,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			slash: ["8L1", "7L1"],
 			sleeptalk: ["8M", "7M"],
 			snore: ["8M", "7T"],
-			spikes: ["8M"],
+			spikes: ["8M", "7L1"],
 			stealthrock: ["8M", "8V", "7T"],
 			steelbeam: ["8T"],
 			steelroller: ["8T"],

@@ -208,15 +208,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	sandslash: {
-		randomBattleMoves: ["earthquake", "knockoff", "rapidspin", "stealthrock", "stoneedge", "swordsdance", "toxic"],
+		randomBattleMoves: ["earthquake", "knockoff", "rapidspin", "spikes", "stealthrock", "stoneedge", "swordsdance", "toxic"],
 		randomDoubleBattleMoves: ["earthquake", "knockoff", "protect", "stealthrock", "stoneedge", "swordsdance"],
-		tier: "(PU)",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	sandslashalola: {
-		randomBattleMoves: ["earthquake", "iciclecrash", "ironhead", "knockoff", "rapidspin", "stealthrock", "swordsdance"],
+		randomBattleMoves: ["earthquake", "iciclecrash", "ironhead", "knockoff", "rapidspin", "spikes", "stealthrock", "swordsdance"],
 		randomDoubleBattleMoves: ["drillrun", "iciclecrash", "ironhead", "protect", "swordsdance"],
-		tier: "PU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	nidoranf: {
