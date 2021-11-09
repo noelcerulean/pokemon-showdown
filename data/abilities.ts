@@ -1532,17 +1532,19 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onResidualOrder: 5,
 		onResidualSubOrder: 3,
 		onResidual(pokemon) {
+			let eligiblePokemon = [];
 			let ally = pokemon;
-			do {
-				ally = pokemon.side.pokemon[this.random(pokemon.side.pokemon.length)];
-				// remove "&& ally !== pokemon" if you want the pokemon with healer to be able to heal itself
-				if (ally.hp && ally.status && ally !== pokemon && this.randomChance(99, 100)) {
-					this.debug('healer');
-					// this should make the activate text appear
-					this.add('-activate', pokemon, 'ability: Healer');
-					ally.cureStatus();
-				}
-			} while (ally === pokemon);
+			const team = pokemon.side.pokemon;
+			for (let i = 0; i < team.length; i++) {
+				ally = team[i];
+				if (ally.hp && ally.status && ally !== pokemon) eligiblePokemon.push(i);
+			}
+			if (eligiblePokemon.length > 0 && this.randomChance(99, 100)) {
+				ally = team[eligiblePokemon[this.random(eligiblePokemon.length - 1)]];
+				this.debug('healer');
+				this.add('-activate', pokemon, 'ability: Healer');
+				ally.cureStatus();
+			}
 		},
 		rating: 3,
 		num: 131,
