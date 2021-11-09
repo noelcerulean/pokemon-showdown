@@ -542,6 +542,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Healer",
 		desc: "There is a 30% chance of curing an adjacent ally's non-volatile status condition at the end of each turn.",
 		shortDesc: "30% chance of curing an adjacent ally's status at the end of each turn.",
+
+		activate: "  [POKEMON] was healed by Healer!",
 	},
 	heatproof: {
 		name: "Heatproof",
