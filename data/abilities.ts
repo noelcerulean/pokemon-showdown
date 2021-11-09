@@ -1537,7 +1537,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			if (ally.hp && ally.status && ally !== pokemon && this.randomChance(30, 100)) {
 				this.debug('healer');
 				// this should make the activate text appear
-				if (ally.cureStatus()) this.add('-activate', ally, 'ability: Healer'); 
+				if (ally.cureStatus()) this.add('-activate', ally, 'ability: Healer');
 			}
 		},
 		rating: 3,
