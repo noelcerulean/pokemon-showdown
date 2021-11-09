@@ -1536,10 +1536,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			do {
 				ally = pokemon.side.pokemon[this.random(pokemon.side.pokemon.length)];
 				// remove "&& ally !== pokemon" if you want the pokemon with healer to be able to heal itself
-				if (ally.hp && ally.status && ally !== pokemon && this.randomChance(99, 100)) {
+				if (ally.hp && ally.status && ally !== pokemon && this.randomChance(30, 100)) {
 					this.debug('healer');
 					// this should make the activate text appear
-					if (ally.cureStatus()) this.add('-activate', pokemon, 'ability: Healer');
+					this.add('-activate', pokemon, 'ability: Healer');
+					ally.cureStatus()
 				}
 			} while (ally === pokemon);
 		},
