@@ -1540,7 +1540,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 					this.debug('healer');
 					// this should make the activate text appear
 					this.add('-activate', pokemon, 'ability: Healer');
-					ally.cureStatus()
+					ally.cureStatus();
 				}
 			} while (ally === pokemon);
 		},
