@@ -632,9 +632,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	hypno: {
-		randomBattleMoves: ["foulplay", "protect", "psychic", "seismictoss", "thunderwave", "toxic", "wish"],
-		randomDoubleBattleMoves: ["hypnosis", "protect", "psychic", "seismictoss", "thunderwave"],
-		tier: "(PU)",
+		randomBattleMoves: ["bakupunch", "bulkup", "hypnosis", "knockoff", "moonlight", "playrough", "superpower", "thunderwave"],
+		randomDoubleBattleMoves: ["bakupunch", "hypnosis", "knockoff", "playrough", "protect", "superpower", "thunderwave"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	krabby: {
@@ -2717,15 +2717,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	abomasnow: {
-		randomBattleMoves: ["blizzard", "earthquake", "focuspunch", "gigadrain", "iceshard", "leechseed", "substitute", "woodhammer"],
-		randomDoubleBattleMoves: ["blizzard", "earthquake", "gigadrain", "iceshard", "protect", "woodhammer"],
-		tier: "PU",
+		randomBattleMoves: ["blizzard", "earthquake", "focuspunch", "gigadrain", "iceshard", "icehammer", "leafstorm", "leechseed", "substitute", "woodhammer"],
+		randomDoubleBattleMoves: ["blizzard", "earthquake", "gigadrain", "iceshard", "icehammer", "leafstorm", "protect", "woodhammer"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	abomasnowmega: {
-		randomBattleMoves: ["blizzard", "earthquake", "gigadrain", "hiddenpowerfire", "iceshard", "woodhammer"],
-		randomDoubleBattleMoves: ["blizzard", "earthquake", "gigadrain", "iceshard", "protect", "woodhammer"],
-		tier: "NU",
+		randomBattleMoves: ["blizzard", "earthquake", "gigadrain", "hiddenpowerfire", "iceshard", "icehammer", "leafstorm", "leechseed", "woodhammer"],
+		randomDoubleBattleMoves: ["blizzard", "earthquake", "gigadrain", "iceshard", "icehammer", "leafstorm", "protect", "woodhammer"],
+		tier: "UU",
 		doublesTier: "DUU",
 	},
 	rotom: {
@@ -3092,15 +3092,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	audino: {
-		randomBattleMoves: ["doubleedge", "encore", "healbell", "protect", "toxic", "wish"],
-		randomDoubleBattleMoves: ["healpulse", "helpinghand", "hypervoice", "protect", "thunderwave", "trickroom"],
-		tier: "PU",
+		randomBattleMoves: ["doubleedge", "encore", "healbell", "protect", "seismictoss", "toxic", "wish"],
+		randomDoubleBattleMoves: ["healpulse", "helpinghand", "hypervoice", "protect", "seismictoss", "thunderwave", "trickroom"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	audinomega: {
-		randomBattleMoves: ["calmmind", "dazzlinggleam", "fireblast", "healbell", "protect", "wish"],
-		randomDoubleBattleMoves: ["dazzlinggleam", "healpulse", "helpinghand", "hypervoice", "protect", "thunderwave", "trickroom"],
-		tier: "NU",
+		randomBattleMoves: ["calmmind", "fireblast", "healbell", "moonblast", "protect", "wish"],
+		randomDoubleBattleMoves: ["healpulse", "helpinghand", "hypervoice", "moonblast", "protect", "seismictoss", "thunderwave", "trickroom"],
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	timburr: {

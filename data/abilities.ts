@@ -918,6 +918,21 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 263,
 	},
+	dreamfeast: {
+		onResidualOrder: 28,
+		onResidualSubOrder: 2,
+		onResidual(pokemon) {
+			if (!pokemon.hp) return;
+			for (const target of pokemon.foes()) {
+				if (target.status === 'slp' || target.hasAbility('comatose')) {
+					this.heal(pokemon.baseMaxhp / 8);
+				}
+			}
+		},
+		name: "Dream Feast",
+		rating: 1.5,
+		num: -517,
+	},
 	drizzle: {
 		onStart(source) {
 			for (const action of this.queue) {
@@ -1539,7 +1554,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				ally = team[i];
 				if (ally.hp && ally.status && ally !== pokemon) eligiblePokemon.push(i);
 			}
-			if (eligiblePokemon.length > 0 && this.randomChance(99, 100)) {
+			if (eligiblePokemon.length > 0 && this.randomChance(3, 10)) {
 				ally = team[eligiblePokemon[this.random(eligiblePokemon.length - 1)]];
 				this.debug('healer');
 				this.add('-activate', pokemon, 'ability: Healer');

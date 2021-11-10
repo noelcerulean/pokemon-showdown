@@ -323,6 +323,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Dragon's Maw",
 		shortDesc: "This Pokemon's attacking stat is multiplied by 1.5 while using a Dragon-type attack.",
 	},
+	dreamfeast: {
+		name: "Dream Feast",
+		desc: "Restores 1/8th of maximum HP at the end of each turn if the target is asleep.",
+		shortDesc: "Restores 1/8th max HP each turn foe is asleep.",
+
+		heal: "  [POKEMON] feasted on dreams!",
+	},
 	drizzle: {
 		name: "Drizzle",
 		shortDesc: "On switch-in, this Pokemon summons Rain Dance.",
