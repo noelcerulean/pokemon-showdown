@@ -1805,7 +1805,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	watercompaction: {
 		name: "Water Compaction",
-		shortDesc: "This Pokemon's Defense is raised 2 stages after it is damaged by a Water-type move.",
+		shortDesc: "Foe's water moves raise Defense by 2; Water immunity.",
 	},
 	waterveil: {
 		name: "Water Veil",

@@ -4408,7 +4408,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	palossand: {
 		randomBattleMoves: ["earthpower", "shadowball", "shoreup", "stealthrock", "toxic"],
 		randomDoubleBattleMoves: ["earthpower", "protect", "shadowball", "shoreup", "stealthrock", "toxic"],
-		tier: "NU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	pyukumuku: {
