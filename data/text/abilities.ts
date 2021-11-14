@@ -145,6 +145,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			shortDesc: "At 1/3 or less of its max HP, this Pokemon's Fire-type attacks have 1.5x power.",
 		},
 	},
+	bugcatcher: {
+		name: "Bugcatcher",
+		desc: "This Pokemon is immune to Bug-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Bug-type move.",
+		shortDesc: "Bug Immunity. Foe's bug moves heal 1/4 of max HP.",
+	},
 	bulletproof: {
 		name: "Bulletproof",
 		desc: "This Pokemon is immune to ballistic moves. Ballistic moves include Bullet Seed, Octazooka, Barrage, Rock Wrecker, Zap Cannon, Acid Spray, Aura Sphere, Focus Blast, and all moves with Ball or Bomb in their name.",
@@ -872,11 +877,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		},
 
 		start: "  [POKEMON] breaks the mold!",
-	},
-	moltentongue: {
-		name: "Molten Tongue",
-		desc: "This Pokemon is immune to Bug-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Bug-type move. This Pokemon is also immune to Steel-type moves and raises its Special Attack by 1 stage when hit by a Steel-type move.",
-		shortDesc: "Bug & Steel Immunity. Bug moves Heal 1/4 of max HP; Steel moves raise Sp. Atk by 1.",
 	},
 	moody: {
 		name: "Moody",

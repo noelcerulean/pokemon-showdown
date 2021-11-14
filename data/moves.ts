@@ -20687,6 +20687,28 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Poison",
 		contestType: "Beautiful",
 	},
+	venuschomp: {
+		num: -517,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Venus Chomp",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, bite: 1, protect: 1, mirror: 1},
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Bug') return 1;
+		},
+		secondary: {
+			chance: 100,
+			onHit(target, source, move) {
+				if (source.isActive) target.addVolatile('trapped', source, move, 'trapper');
+			},
+		},
+		target: "normal",
+		type: "Grass",
+		contestType: "Tough",
+	},
 	vinewhip: {
 		num: 22,
 		accuracy: 100,

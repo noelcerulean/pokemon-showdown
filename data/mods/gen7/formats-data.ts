@@ -2169,9 +2169,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	dusknoir: {
-		randomBattleMoves: ["earthquake", "focuspunch", "icepunch", "painsplit", "shadowsneak", "substitute", "willowisp"],
+		randomBattleMoves: ["drainpunch", "earthquake", "focuspunch", "icepunch", "painsplit", "shadowsneak", "substitute", "willowisp"],
 		randomDoubleBattleMoves: ["allyswitch", "helpinghand", "icepunch", "painsplit", "protect", "shadowsneak", "trickroom", "willowisp"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	tropius: {
@@ -2699,9 +2699,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	carnivine: {
-		randomBattleMoves: ["knockoff", "powerwhip", "return", "sleeppowder", "substitute", "swordsdance"],
-		randomDoubleBattleMoves: ["knockoff", "powerwhip", "protect", "ragepowder", "return", "sleeppowder", "swordsdance"],
-		tier: "(PU)",
+		randomBattleMoves: ["knockoff", "poisonfang", "return", "sleeppowder", "substitute", "swordsdance", "venuschomp"],
+		randomDoubleBattleMoves: ["knockoff", "protect", "ragepowder", "return", "sleeppowder", "swordsdance", "venuschomp"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	finneon: {
@@ -2996,9 +2996,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	liepard: {
-		randomBattleMoves: ["copycat", "darkpulse", "encore", "knockoff", "nastyplot", "playrough", "substitute", "thunderwave", "uturn"],
+		randomBattleMoves: ["copycat", "darkpulse", "encore", "knockoff", "memento", "nastyplot", "partingshot", "playrough", "substitute", "thunderwave", "uturn"],
 		randomDoubleBattleMoves: ["encore", "fakeout", "knockoff", "playrough", "protect", "suckerpunch", "thunderwave", "uturn"],
-		tier: "PU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	pansage: {

@@ -4,7 +4,7 @@ const assert = require('./../../assert');
 const common = require('./../../common');
 
 let battle;
-const trappers = ['Block', 'Mean Look', 'Thousand Waves', 'Anchor Shot', 'Spirit Shackle', 'Toxic Thread', 'Shadow Shackle'];
+const trappers = ['Block', 'Mean Look', 'Thousand Waves', 'Anchor Shot', 'Spirit Shackle', 'Toxic Thread', 'Shadow Shackle', 'Venus Chomp'];
 const partialtrappers = ['Bind', 'Clamp', 'Fire Spin', 'Infestation', 'Magma Storm', 'Sand Tomb', 'Shadow Hold', 'Spider Web', 'Spore Slash', 'Whirlpool', 'Wrap'];
 
 describe('Trapping Moves', function () {
