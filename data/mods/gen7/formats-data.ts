@@ -2635,7 +2635,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	spiritomb: {
 		randomBattleMoves: ["calmmind", "darkpulse", "psychic", "pursuit", "rest", "shadowsneak", "sleeptalk", "willowisp"],
 		randomDoubleBattleMoves: ["foulplay", "icywind", "protect", "shadowsneak", "snarl", "willowisp"],
-		tier: "PU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	gible: {
