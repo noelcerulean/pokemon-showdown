@@ -5108,7 +5108,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 261,
 		name: "Poochyena",
 		types: ["Dark"],
-		baseStats: {hp: 50, atk: 95, def: 70, spa: 30, spd: 65, spe: 70},
+		baseStats: {hp: 50, atk: 95, def: 65, spa: 30, spd: 60, spe: 60},
 		abilities: {0: "Intimidate", 1: "Strong Jaw", H: "Moxie"},
 		heightm: 0.5,
 		weightkg: 13.6,
