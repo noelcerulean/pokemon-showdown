@@ -1609,7 +1609,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onBasePowerPriority: 19,
 		onBasePower(basePower, attacker, defender, move) {
 			if (move.flags['bullet']) {
-				return this.chainModify(1.5);
+				return this.chainModify(1.3);
 			}
 		},
 		name: "High Caliber",
