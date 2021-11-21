@@ -3890,9 +3890,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	aromatisse: {
-		randomBattleMoves: ["calmmind", "moonblast", "rest", "sleeptalk", "toxic"],
+		randomBattleMoves: ["calmmind", "moonblast", "psychic", "protect", "trickroom", "wish"],
 		randomDoubleBattleMoves: ["healpulse", "moonblast", "protect", "thunderbolt", "trickroom"],
-		tier: "PUBL",
+		tier: "RUBL",
+		doublesTier: "(DUU)",
+	},
+	aromatissefnf: {
+		randomBattleMoves: ["darkpulse", "moonblast", "nastyplot", "psychic", "trickroom"],
+		randomDoubleBattleMoves: ["darkpulse", "healpulse", "moonblast", "protect", "psychic", "thunderbolt", "trickroom"],
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	swirlix: {

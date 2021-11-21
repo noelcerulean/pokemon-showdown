@@ -4506,6 +4506,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
+	aromatissefnf: {
+		randomBattleMoves: ["calmmind", "moonblast", "protect", "toxic", "wish"],
+		randomBattleLevel: 88,
+		randomDoubleBattleMoves: ["healpulse", "moonblast", "protect", "thunderbolt", "trickroom", "wish"],
+		randomDoubleBattleLevel: 86,
+		tier: "PU",
+		doublesTier: "(DUU)",
+	},
 	swirlix: {
 		tier: "NFE",
 	},

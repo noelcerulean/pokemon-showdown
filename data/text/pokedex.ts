@@ -2636,6 +2636,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	aromatisse: {
 		name: "Aromatisse",
 	},
+	aromatissefnf: {
+		name: "Aromatisse-FnF",
+	},
 	swirlix: {
 		name: "Swirlix",
 	},
