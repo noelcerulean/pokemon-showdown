@@ -66881,6 +66881,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			hyperbeam: ["8M", "7M"],
 			hypnosis: ["7L20"],
 			imprison: ["7L23"],
+			infestation: ["7M"],
 			lightscreen: ["8M", "7M"],
 			lunaticeyes: ["7L49"],
 			magiccoat: ["7T"],
