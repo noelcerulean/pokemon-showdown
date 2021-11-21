@@ -66690,6 +66690,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			afteryou: ["8E", "7T", "6T"],
 			allyswitch: ["8M", "7T"],
 			aromatherapy: ["8L12", "7L25", "6L25"],
+			aromaticmist: ["7L1"],
 			attract: ["8M", "8L18", "7M", "7L29", "6M", "6L29"],
 			calmmind: ["8M", "8L33", "7M", "7L17", "6M", "6L17"],
 			captivate: ["7E", "6E"],
