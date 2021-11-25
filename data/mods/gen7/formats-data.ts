@@ -198,7 +198,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	raichualola: {
 		randomBattleMoves: ["focusblast", "nastyplot", "psyshock", "surf", "thunderbolt", "voltswitch"],
 		randomDoubleBattleMoves: ["fakeout", "grassknot", "nastyplot", "protect", "psyshock", "thunderbolt", "voltswitch"],
-		tier: "PU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	sandshrew: {
