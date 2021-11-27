@@ -5004,7 +5004,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Combusken",
 		types: ["Fire", "Fighting"],
 		genderRatio: {M: 0.875, F: 0.125},
-		baseStats: {hp: 60, atk: 85, def: 60, spa: 85, spd: 60, spe: 55},
+		baseStats: {hp: 60, atk: 85, def: 60, spa: 85, spd: 60, spe: 60},
 		abilities: {0: "Blaze", H: "Speed Boost"},
 		heightm: 0.9,
 		weightkg: 19.5,
