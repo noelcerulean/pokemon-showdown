@@ -2229,7 +2229,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 98,
 		name: "Krabby",
 		types: ["Water"],
-		baseStats: {hp: 40, atk: 115, def: 115, spa: 25, spd: 45, spe: 51},
+		baseStats: {hp: 40, atk: 115, def: 95, spa: 25, spd: 45, spe: 51},
 		abilities: {0: "Hyper Cutter", 1: "Shell Armor", H: "Sheer Force"},
 		heightm: 0.4,
 		weightkg: 6.5,
