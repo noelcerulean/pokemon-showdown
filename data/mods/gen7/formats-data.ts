@@ -641,9 +641,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	kingler: {
-		randomBattleMoves: ["agility", "knockoff", "liquidation", "rockslide", "superpower", "swordsdance", "xscissor"],
-		randomDoubleBattleMoves: ["agility", "knockoff", "liquidation", "protect", "rockslide", "wideguard", "xscissor"],
-		tier: "PUBL",
+		randomBattleMoves: ["agility", "knockoff", "liquidation", "lunge", "poisonjab", "rockslide", "superpower", "swordsdance"],
+		randomDoubleBattleMoves: ["agility", "knockoff", "liquidation", "lunge", "poisonjab", "protect", "rockslide", "wideguard"],
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	voltorb: {
