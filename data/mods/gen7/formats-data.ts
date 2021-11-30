@@ -2099,9 +2099,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	cradily: {
-		randomBattleMoves: ["curse", "gigadrain", "recover", "rockslide", "seedbomb", "stealthrock", "toxic"],
+		randomBattleMoves: ["curse", "earthquake", "gigadrain", "leechseed", "powerwhip", "prehistoricpulse", "protect", "recover", "rockslide", "stealthrock", "toxic"],
 		randomDoubleBattleMoves: ["gigadrain", "protect", "recover", "rockslide", "stealthrock", "stringshot", "toxic"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	anorith: {
