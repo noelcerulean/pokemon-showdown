@@ -405,12 +405,13 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 201,
 	},
 	bigpecks: {
-		onModifyMove(move, defender) {
-			if (defender.boosts['def'] > 0) {
-				move.ignoreDefensive = true;
+		onAnyModifyBoost(boosts, pokemon) {
+			const bigPecksUser = this.effectState.target;
+			if (bigPecksUser === pokemon) return;
+			if (bigPecksUser === this.activePokemon && pokemon === this.activeTarget) {
+				if (boosts['def'] > 0) boosts['def'] = 0;
 			}
 		},
-		isBreakable: true,
 		name: "Big Pecks",
 		rating: 2,
 		num: 145,
