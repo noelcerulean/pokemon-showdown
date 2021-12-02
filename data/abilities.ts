@@ -409,7 +409,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			const bigPecksUser = this.effectState.target;
 			if (bigPecksUser === pokemon) return;
 			if (bigPecksUser === this.activePokemon && pokemon === this.activeTarget) {
-				if (boosts['def'] > 0) boosts['def'] = 0;
+				if (boosts?.def && boosts.def > 0) boosts.def = 0;
 			}
 		},
 		name: "Big Pecks",
