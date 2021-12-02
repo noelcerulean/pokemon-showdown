@@ -136,9 +136,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	fearow: {
-		randomBattleMoves: ["doubleedge", "drillpeck", "drillrun", "pursuit", "return", "uturn"],
-		randomDoubleBattleMoves: ["doubleedge", "drillpeck", "drillrun", "protect", "quickattack", "return", "uturn"],
-		tier: "(PU)",
+		randomBattleMoves: ["bravebird", "doubleedge", "drillrun", "pursuit", "return", "swordsdance", "taunt", "uturn"],
+		randomDoubleBattleMoves: ["bravebird", "doubleedge", "drillrun", "protect", "quickattack", "return", "taunt", "uturn"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	ekans: {
@@ -544,9 +544,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	farfetchd: {
-		randomBattleMoves: ["bravebird", "knockoff", "leafblade", "return", "roost", "swordsdance"],
-		randomDoubleBattleMoves: ["bravebird", "knockoff", "leafblade", "protect", "return", "swordsdance"],
-		tier: "(PU)",
+		randomBattleMoves: ["drillpeck", "knockoff", "leafblade", "roost", "slash", "swordsdance"],
+		randomDoubleBattleMoves: ["drillpeck", "knockoff", "leafblade", "protect", "slash", "swordsdance"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	doduo: {

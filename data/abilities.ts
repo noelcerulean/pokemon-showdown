@@ -406,8 +406,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	bigpecks: {
 		onModifyMove(move, defender) {
-			if (defender.boosts['def'] < 0) return;
-			move.ignoreDefensive = true;
+			if (defender.boosts['def'] > 0) {
+				move.ignoreDefensive = true;
+			}
 		},
 		isBreakable: true,
 		name: "Big Pecks",
