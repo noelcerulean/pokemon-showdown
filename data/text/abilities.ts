@@ -134,7 +134,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	bigpecks: {
 		name: "Big Pecks",
-		shortDesc: "Prevents other Pokemon from lowering this Pokemon's Defense stat stage.",
+		shortDesc: "This pokemon ignores boosts to the target's Defense stat when attacking.",
 	},
 	blaze: {
 		name: "Blaze",
@@ -498,7 +498,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	galewings: {
 		name: "Gale Wings",
-		shortDesc: "If this Pokemon is at full HP, its Flying-type moves have their priority increased by 1.",
+		shortDesc: "If this Pokemon is above half HP, its Flying-type moves gain +1 priority.",
 		gen6: {
 			shortDesc: "This Pokemon's Flying-type moves have their priority increased by 1.",
 		},

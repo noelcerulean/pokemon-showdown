@@ -405,18 +405,13 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 201,
 	},
 	bigpecks: {
-		onBoost(boost, target, source, effect) {
-			if (source && target === source) return;
-			if (boost.def && boost.def < 0) {
-				delete boost.def;
-				if (!(effect as ActiveMove).secondaries && effect.id !== 'octolock') {
-					this.add("-fail", target, "unboost", "Defense", "[from] ability: Big Pecks", "[of] " + target);
-				}
-			}
+		onModifyMove(move, defender) {
+			if (defender.boosts['def'] < 0) return;
+			move.ignoreDefensive = true;
 		},
 		isBreakable: true,
 		name: "Big Pecks",
-		rating: 0.5,
+		rating: 2,
 		num: 145,
 	},
 	blaze: {
@@ -1390,10 +1385,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	galewings: {
 		onModifyPriority(priority, pokemon, target, move) {
-			if (move?.type === 'Flying' && pokemon.hp === pokemon.maxhp) return priority + 1;
+			if (move?.type === 'Flying' && pokemon.hp > pokemon.maxhp / 2) return priority + 1;
 		},
 		name: "Gale Wings",
-		rating: 3,
+		rating: 4,
 		num: 177,
 	},
 	galvanize: {
