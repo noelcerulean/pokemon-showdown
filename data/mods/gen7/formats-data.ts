@@ -3544,9 +3544,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	braviary: {
-		randomBattleMoves: ["bravebird", "bulkup", "return", "roost", "substitute", "superpower", "uturn"],
-		randomDoubleBattleMoves: ["bravebird", "protect", "return", "skydrop", "superpower", "tailwind", "uturn"],
-		tier: "NU",
+		randomBattleMoves: ["bravebird", "bulkup", "closecombat", "return", "roost", "substitute", "uturn"],
+		randomDoubleBattleMoves: ["bravebird", "closecombat", "protect", "return", "skydrop", "tailwind", "uturn"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	vullaby: {
