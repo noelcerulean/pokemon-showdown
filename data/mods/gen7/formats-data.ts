@@ -2256,9 +2256,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	luvdisc: {
-		randomBattleMoves: ["icebeam", "protect", "scald", "sweetkiss", "toxic"],
-		randomDoubleBattleMoves: ["healpulse", "icebeam", "icywind", "protect", "scald", "sweetkiss", "toxic"],
-		tier: "(PU)",
+		randomBattleMoves: ["heartswap", "hydropump", "icebeam", "lovelykiss", "moonblast"],
+		randomDoubleBattleMoves: ["healpulse", "heartswap", "lovelykiss", "hydropump", "icebeam", "icywind", "moonblast", "protect", "scald"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	bagon: {
