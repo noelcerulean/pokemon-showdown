@@ -1479,15 +1479,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	houndoom: {
-		randomBattleMoves: ["darkpulse", "fireblast", "hiddenpowergrass", "nastyplot", "suckerpunch"],
+		randomBattleMoves: ["agility", "darkpulse", "fireblast", "hiddenpowergrass", "nastyplot", "suckerpunch"],
 		randomDoubleBattleMoves: ["darkpulse", "heatwave", "nastyplot", "protect", "suckerpunch"],
-		tier: "PUBL",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	houndoommega: {
-		randomBattleMoves: ["darkpulse", "fireblast", "hiddenpowergrass", "nastyplot", "taunt"],
+		randomBattleMoves: ["agility", "darkpulse", "fireblast", "hiddenpowergrass", "nastyplot", "taunt"],
 		randomDoubleBattleMoves: ["darkpulse", "heatwave", "hiddenpowergrass", "nastyplot", "protect", "taunt"],
-		tier: "RUBL",
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	phanpy: {

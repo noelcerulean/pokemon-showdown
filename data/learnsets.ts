@@ -30188,6 +30188,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	houndour: {
 		learnset: {
+			agility: ["7L39"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			beatup: ["7L25", "7E", "7V", "6L25", "6E", "5L25", "5E", "4L27", "4E", "3E"],
 			bite: ["7L16", "7V", "6L16", "5L16", "4L17", "3L25"],
@@ -30216,6 +30217,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			firespin: ["7E", "7V", "6E", "5E", "4E", "3E"],
 			flamecharge: ["7M", "6M", "5M"],
 			flamethrower: ["7M", "7L44", "7V", "6M", "6L44", "5M", "5L44", "4M", "4L43", "3M", "3L43"],
+			flareblitz: ["7L42"],
 			foulplay: ["7T", "7L40", "6T", "6L40", "5T", "5L40"],
 			frustration: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			headbutt: ["7V", "4T"],
@@ -30263,6 +30265,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			superfang: ["7T", "6T", "5T", "4T"],
 			swagger: ["7M", "7V", "6M", "5M", "4M", "3T"],
 			swift: ["7V", "4T", "3T"],
+			switcheroo: ["7L21"],
 			taunt: ["7M", "6M", "5M", "4M", "3M"],
 			thief: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			thunderfang: ["7E", "6E", "5E", "4E"],
@@ -30278,6 +30281,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	houndoom: {
 		learnset: {
+			agility: ["7L41"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			beatup: ["7L26", "6L26", "5L26", "4L28"],
 			bite: ["7L16", "7V", "6L16", "5L16", "4L17", "3L27"],
@@ -30302,6 +30306,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			firefang: ["7L30", "6L30", "5L30", "4L32"],
 			flamecharge: ["7M", "6M", "5M"],
 			flamethrower: ["7M", "7L50", "7V", "6M", "6L50", "6S0", "5M", "5L50", "4M", "4L48", "3M", "3L51"],
+			flareblitz: ["7L49"],
 			foulplay: ["7T", "7L45", "6T", "6L45", "5T", "5L45"],
 			frustration: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			gigaimpact: ["7M", "6M", "5M", "4M"],
@@ -30349,6 +30354,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			superfang: ["7T", "6T", "5T", "4T"],
 			swagger: ["7M", "7V", "6M", "5M", "4M", "3T"],
 			swift: ["7V", "4T", "3T"],
+			switcheroo: ["7L25"],
 			taunt: ["7M", "6M", "5M", "4M", "3M"],
 			thief: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			throatchop: ["7T"],
