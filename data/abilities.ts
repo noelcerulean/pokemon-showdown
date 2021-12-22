@@ -3312,6 +3312,31 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2.5,
 		num: 24,
 	},
+	royalguard: {
+		onSourceModifyDamage(damage, source, target, move) {
+			if (target.hp <= target.maxhp / 2) {
+				this.debug('Royal Guard weaken');
+				return this.chainModify(0.75);
+			}
+		},
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (attacker.hp <= attacker.maxhp / 2) {
+				this.debug('Royal Guard boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (attacker.hp <= attacker.maxhp / 2) {
+				this.debug('Royal Guard boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Royal Guard",
+		rating: 4,
+		num: -518,
+	},
 	runaway: {
 		onTrapPokemonPriority: -10,
 		onTrapPokemon(pokemon) {

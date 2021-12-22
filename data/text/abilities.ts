@@ -1250,6 +1250,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		damage: "  [POKEMON] was hurt!",
 	},
+	royalguard: {
+		name: "Royal Guard",
+		desc: "When this Pokemon has 1/2 or less of its maximum HP, rounded down, its attacking stats are multiplied by 1.5 and it takes 3/4th damage from attacks.",
+		shortDesc: "Deals 1.5x & takes 0.75x damage when at 1/2 or less max HP.",
+	},
 	runaway: {
 		name: "Run Away",
 		desc: "This Pokemon can switch out even if it is trapped by opposing moves or abilities, or affected by Ingrain.",

@@ -2519,9 +2519,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	wormadamtrash: {
-		randomBattleMoves: ["flashcannon", "protect", "recover", "stealthrock", "thunderwave", "toxic"],
-		randomDoubleBattleMoves: ["bugbuzz", "flashcannon", "protect", "recover", "stringshot", "strugglebug", "suckerpunch"],
-		tier: "UU",
+		randomBattleMoves: ["clearsmog", "flashcannon", "protect", "recycle", "stealthrock", "thunderwave", "toxic"],
+		randomDoubleBattleMoves: ["bugbuzz", "flashcannon", "protect", "recycle", "stringshot", "strugglebug", "suckerpunch"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	mothim: {
@@ -2534,9 +2534,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	vespiquen: {
-		randomBattleMoves: ["infestation", "protect", "roost", "toxic", "uturn"],
+		randomBattleMoves: ["attackorder", "defendorder", "protect", "roost", "toxic"],
 		randomDoubleBattleMoves: ["attackorder", "healorder", "protect", "stringshot", "strugglebug", "tailwind"],
-		tier: "(PU)",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	pachirisu: {
@@ -2849,7 +2849,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	shayminsky: {
 		randomBattleMoves: ["airslash", "earthpower", "hiddenpowerice", "leechseed", "seedflare", "substitute"],
 		randomDoubleBattleMoves: ["airslash", "earthpower", "hiddenpowerice", "protect", "rest", "seedflare", "tailwind"],
-		tier: "OU",
+		tier: "Uber",
 		doublesTier: "DUU",
 	},
 	arceus: {
