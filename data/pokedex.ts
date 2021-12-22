@@ -7617,7 +7617,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Combee",
 		types: ["Bug", "Flying"],
 		genderRatio: {M: 0.875, F: 0.125},
-		baseStats: {hp: 46, atk: 47, def: 92, spa: 70, spd: 82, spe: 103},
+		baseStats: {hp: 46, atk: 57, def: 82, spa: 67, spd: 72, spe: 103},
 		abilities: {0: "Honey Gather", 1: "Adaptability", H: "Hustle"},
 		heightm: 0.3,
 		weightkg: 5.5,
