@@ -1652,6 +1652,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	vespiquen: {
 		name: "Vespiquen",
 	},
+	vespiquenarmored: {
+		name: "Vespiquen-Armored",
+	},
 	pachirisu: {
 		name: "Pachirisu",
 	},

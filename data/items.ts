@@ -6544,6 +6544,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	vespiquenarmor: {
+		name: "Vespiquen Armor",
+		spritenum: 743,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Vespiquen-Armored') return false;
+			return true;
+		},
+		itemUser: ["Vespiquen-Armored"],
+		num: -502,
+		gen: 7,
+	},
 	wacanberry: {
 		name: "Wacan Berry",
 		spritenum: 526,

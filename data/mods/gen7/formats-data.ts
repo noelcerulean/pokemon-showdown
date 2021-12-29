@@ -2539,6 +2539,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
+	vespiquenarmored: {
+		randomBattleMoves: ["bugbuzz", "calmmind", "psychic", "roost"],
+		randomDoubleBattleMoves: ["bugbuzz", "healorder", "protect", "psychic", "stringshot", "strugglebug", "trickroom"],
+		tier: "RUBL",
+		doublesTier: "(DUU)",
+	},
 	pachirisu: {
 		randomBattleMoves: ["nuzzle", "superfang", "thunderbolt", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["followme", "helpinghand", "nuzzle", "protect", "superfang", "thunderbolt", "uturn"],

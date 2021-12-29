@@ -2951,6 +2951,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	vespiquenarmored: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	pachirisu: {
 		isNonstandard: "Past",
 		tier: "Illegal",

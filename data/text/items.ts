@@ -2197,6 +2197,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Venusaurite",
 		desc: "If held by a Venusaur, this item allows it to Mega Evolve in battle.",
 	},
+	vespiquenarmor: {
+		name: "Vespiquen Armor",
+		desc: "Armor developed by DoReMi for Vespiquen to enhance its battle capabilities.",
+		shortDesc: "Attach to Vespiquen-Armored forme (not base forme!!!) in the teambuilder.",
+	},
 	wacanberry: {
 		name: "Wacan Berry",
 		desc: "Halves damage taken from a supereffective Electric-type attack. Single use.",
