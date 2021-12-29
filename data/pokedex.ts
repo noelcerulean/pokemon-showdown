@@ -7647,7 +7647,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Bug", "Psychic"],
 		gender: "F",
 		baseStats: {hp: 76, atk: 70, def: 112, spa: 125, spd: 142, spe: 20},
-		abilities: {0: "Royal Guard",},
+		abilities: {0: "Royal Guard"},
 		heightm: 1.2,
 		weightkg: 38.5,
 		color: "Yellow",
