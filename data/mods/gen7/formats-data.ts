@@ -562,9 +562,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	dewgong: {
-		randomBattleMoves: ["encore", "icebeam", "perishsong", "protect", "surf", "toxic"],
-		randomDoubleBattleMoves: ["encore", "fakeout", "helpinghand", "icebeam", "icywind", "liquidation", "protect", "toxic"],
-		tier: "(PU)",
+		randomBattleMoves: ["aquajet", "hail", "iceshard", "iciclecrash", "liquidation", "swordsdance", "uturn"],
+		randomDoubleBattleMoves: ["encore", "fakeout", "helpinghand", "iciclecrash", "icywind", "liquidation", "protect", "toxic"],
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	grimer: {
@@ -905,9 +905,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "DUU",
 	},
 	lapras: {
-		randomBattleMoves: ["healbell", "hydropump", "icebeam", "substitute", "thunderbolt", "toxic"],
+		randomBattleMoves: ["dragondance", "iciclecrash", "raindance", "rest", "toxic", "waterfall"],
 		randomDoubleBattleMoves: ["freezedry", "helpinghand", "hydropump", "iceshard", "icywind", "protect"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	ditto: {
@@ -2229,9 +2229,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	walrein: {
-		randomBattleMoves: ["icebeam", "protect", "roar", "superfang", "surf", "toxic"],
+		randomBattleMoves: ["bellydrum", "earthquake", "iceshard", "liquidation"],
 		randomDoubleBattleMoves: ["brine", "icywind", "protect", "superfang"],
-		tier: "(PU)",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	clamperl: {

@@ -1752,6 +1752,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 248,
 	},
+	icepacking: {
+		onResidualOrder: 5,
+		onResidualSubOrder: 3,
+		onResidual(pokemon) {
+			if (pokemon.status && ['hail'].includes(pokemon.effectiveWeather())) {
+				this.debug('icepacking');
+				this.add('-activate', pokemon, 'ability: Ice Packing');
+				pokemon.cureStatus();
+			}
+		},
+		name: "Ice Packing",
+		rating: 1.5,
+		num: -519,
+	},
 	icescales: {
 		onSourceModifyDamage(damage, source, target, move) {
 			if (move.category === 'Special') {

@@ -610,6 +610,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "If this Pokemon is an Eiscue, the first physical hit it takes in battle deals 0 neutral damage. Its ice face is then broken and it changes forme to Noice Face. Eiscue regains its Ice Face forme when Hail begins or when Eiscue switches in while Hail is active. Confusion damage also breaks the ice face.",
 		shortDesc: "If Eiscue, the first physical hit it takes deals 0 damage. This effect is restored in Hail.",
 	},
+	icepacking: {
+		name: "Ice Packing",
+		desc: "This Pokemon has its non-volatile status condition cured at the end of each turn if Hail is active. If this Pokemon is holding Utility Umbrella, its non-volatile status condition will not be cured.",
+		shortDesc: "This Pokemon has its status cured at the end of each turn if Hail is active.",
+	},
 	icescales: {
 		name: "Ice Scales",
 		shortDesc: "This Pokemon receives 1/2 damage from special attacks.",
