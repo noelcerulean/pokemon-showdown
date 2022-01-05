@@ -1216,6 +1216,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Regenerator",
 		shortDesc: "This Pokemon restores 1/3 of its maximum HP, rounded down, when it switches out.",
 	},
+	retribution: {
+		name: "Retribution",
+		shortDesc: "This Pokemon lays a curse on the first target to hit it with a contact move.",
+
+		start: "  [POKEMON] laid a curse in retribution!",
+		activate: "  [POKEMON] laid a curse in retribution!",
+	},
 	reverberation: {
 		name: "Reverberation",
 		desc: "Pokemon that attack this Pokemon with non-contact moves lose 1/8 of their maximum HP, rounded down.",

@@ -3231,6 +3231,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4.5,
 		num: 144,
 	},
+	retribution: {
+		onDamagingHit(damage, target, source, move) {
+			if (!this.checkMoveMakesContact(move, source, target)) return;
+			target.addVolatile('gastroacid');
+
+			let announced = false;
+			for (const pokemon of [target, source]) {
+				if (pokemon.volatiles['curse']) continue;
+				if (!announced) {
+					this.add('-ability', target, 'Retribution');
+					announced = true;
+				}
+				pokemon.addVolatile('curse');
+			}
+		},
+		name: "Retribution",
+		rating: 4.5,
+		num: -520,
+	},
 	reverberation: {
 		onDamagingHitOrder: 1,
 		onDamagingHit(damage, target, source, move) {

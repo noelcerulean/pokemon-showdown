@@ -2151,15 +2151,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	banette: {
-		randomBattleMoves: ["destinybond", "knockoff", "shadowclaw", "shadowsneak", "suckerpunch", "taunt", "willowisp"],
-		randomDoubleBattleMoves: ["knockoff", "protect", "shadowclaw", "shadowsneak", "willowisp"],
-		tier: "(PU)",
+		randomBattleMoves: ["destinybond", "knockoff", "shadowpunch", "shadowsneak", "suckerpunch", "taunt", "willowisp"],
+		randomDoubleBattleMoves: ["knockoff", "protect", "shadowpunch", "shadowsneak", "willowisp"],
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	banettemega: {
-		randomBattleMoves: ["destinybond", "knockoff", "shadowclaw", "suckerpunch", "taunt", "willowisp"],
-		randomDoubleBattleMoves: ["destinybond", "knockoff", "protect", "shadowclaw", "suckerpunch", "taunt", "willowisp"],
-		tier: "RU",
+		randomBattleMoves: ["destinybond", "haze", "knockoff", "shadowpunch", "suckerpunch", "taunt", "willowisp"],
+		randomDoubleBattleMoves: ["destinybond", "knockoff", "protect", "shadowpunch", "suckerpunch", "taunt", "willowisp"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	duskull: {
