@@ -4054,6 +4054,15 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 1,
 		isPokeball: true,
 	},
+	pokedoll: {
+		name: "Poke Doll",
+		spritenum: 346,
+		fling: {
+			basePower: 30,
+		},
+		num: -503,
+		gen: 1,
+	},
 	pomegberry: {
 		name: "Pomeg Berry",
 		spritenum: 351,

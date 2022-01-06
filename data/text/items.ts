@@ -1277,6 +1277,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Poke Ball",
 		desc: "A device for catching wild Pokemon. It is designed as a capsule system.",
 	},
+	pokedoll: {
+		name: "Poke Doll",
+		desc: "A doll that attracts attention. No battle effect.",
+	},
 	pomegberry: {
 		name: "Pomeg Berry",
 		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
