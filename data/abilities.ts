@@ -1875,7 +1875,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onDamagingHit(damage, target, source, move) {
 			this.boost({def: -1}, target);
-			target.volatiles[target.battle.dex.conditions.get('gastroacid').id] = {id: target.battle.dex.conditions.get('gastroacid').id};
+			target.setAbility('noability');
 		},
 		isBreakable: true,
 		name: "Inflate",

@@ -7504,6 +7504,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Cranidos",
 		evoLevel: 30,
 		eggGroups: ["Monster"],
+		cosmeticFormes: ["Rampardos-Egg"],
+		formeOrder: ["Rampardos", "Rampardos-Egg"],
 	},
 	shieldon: {
 		num: 410,
