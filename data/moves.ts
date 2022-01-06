@@ -11987,7 +11987,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			let item = target.getItem();
 			if (!this.singleEvent('TakeItem', item, target.itemState, target, target, move, item)) return;
 			if (source.hp) {
-				const item = target.setItem('charcoal');
+				item = target.setItem('charcoal');
 				if (item) {
 					this.add('-item', target, target.getItem(), '[from] move: Naughty-or-Nice', '[of] ' + source);
 				}
