@@ -3240,8 +3240,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			if (source.volatiles['curse']) return;
 			source.volatiles[source.battle.dex.conditions.get('curse').id] = {id: source.battle.dex.conditions.get('curse').id};
 			this.add('-start', source, 'Curse', '[silent]');
-			target.volatiles[target.battle.dex.conditions.get('gastroacid').id] = {id: target.battle.dex.conditions.get('gastroacid').id};
 			this.add('-end', target, 'Retribution');
+			target.setAbility('noability');
 		},
 		name: "Retribution",
 		rating: 4,
