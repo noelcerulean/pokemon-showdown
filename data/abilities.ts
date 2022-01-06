@@ -3819,9 +3819,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				if (!pokemon.hp) return;
 				for (const target of pokemon.side.foe.active) {
 					if (!target || !target.hp) continue;
-					if (target.hasType('Poison')) {
-						this.add('-immune', target, '[silent]');
-					} else {
+					if (!target.hasType('Poison')) {
 						this.damage(target.baseMaxhp / 8, target, pokemon);
 					}
 				}
