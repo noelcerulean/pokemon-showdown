@@ -3234,8 +3234,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	retribution: {
 		onDamagingHit(damage, target, source, move) {
 			if (!this.checkMoveMakesContact(move, source, target)) return;
-			source.volatiles[source.battle.dex.conditions.get('curse').id] = {id: source.battle.dex.conditions.get('curse').id};
-			target.volatiles[target.battle.dex.conditions.get('gastroacid').id] = {id: target.battle.dex.conditions.get('gastroacid').id};
+			target.addVolatile('gastroacid');
+
+			let announced = false;
+			for (const pokemon of [target, source]) {
+				if (pokemon.volatiles['curse']) continue;
+				if (!announced) {
+					this.add('-ability', target, 'Retribution');
+					announced = true;
+				}
+				pokemon.addVolatile('curse'), '[silent]';
+			}
 		},
 		name: "Retribution",
 		rating: 4.5,
