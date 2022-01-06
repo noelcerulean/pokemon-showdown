@@ -1872,10 +1872,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	inflate: {
 		onStart(pokemon) {
 			this.boost({def: 1}, pokemon);
+			this.add('-start', pokemon, 'ability: Inflate');
 		},
 		onDamagingHit(damage, target, source, move) {
 			this.boost({def: -1}, target);
-			target.addVolatile('gastroacid');
+			this.add('-end', target, 'ability: Inflate');
+			target.volatiles[target.battle.dex.conditions.get('gastroacid').id] = {id: target.battle.dex.conditions.get('gastroacid').id};
 		},
 		isBreakable: true,
 		name: "Inflate",
@@ -3232,12 +3234,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 144,
 	},
 	retribution: {
+		onStart(pokemon) {
+			this.add('-start', pokemon, 'ability: Retribution');
+		},
 		onDamagingHit(damage, target, source, move) {
 			if (!this.checkMoveMakesContact(move, source, target)) return;
 			if (source.volatiles['curse']) return;
 			source.addVolatile('curse', target);
 			target.volatiles[target.battle.dex.conditions.get('gastroacid').id] = {id: target.battle.dex.conditions.get('gastroacid').id};
-			this.add('-ability', target, 'Retribution');
+			this.add('-end', target, 'Retribution');
 		},
 		name: "Retribution",
 		rating: 4,
