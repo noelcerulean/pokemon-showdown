@@ -1872,11 +1872,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	inflate: {
 		onStart(pokemon) {
 			this.boost({def: 1}, pokemon);
-			this.add('-start', pokemon, 'ability: Inflate');
 		},
 		onDamagingHit(damage, target, source, move) {
 			this.boost({def: -1}, target);
-			this.add('-end', target, 'ability: Inflate');
 			target.volatiles[target.battle.dex.conditions.get('gastroacid').id] = {id: target.battle.dex.conditions.get('gastroacid').id};
 		},
 		isBreakable: true,
