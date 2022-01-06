@@ -11983,11 +11983,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1},
-		onAfterHit(target, source) {
-			if ((source.hp) && !target.hasAbility('stickyhold')) {
+		onAfterHit(target, source, move) {
+			let item = target.getItem();
+			if (!this.singleEvent('TakeItem', item, target.itemState, target, target, move, item)) return;
+			if (source.hp) {
 				const item = target.setItem('charcoal');
 				if (item) {
-					this.add('-item', target, item, '[from] move: Naughty-or-Nice', '[of] ' + source);
+					this.add('-item', target, target.getItem(), '[from] move: Naughty-or-Nice', '[of] ' + source);
 				}
 			}
 		},
