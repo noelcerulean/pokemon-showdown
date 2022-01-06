@@ -11974,6 +11974,28 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fairy",
 		contestType: "Tough",
 	},
+	naughtyornice: {
+		num: -518,
+		accuracy: 100,
+		basePower: 60,
+		category: "Physical",
+		name: "Naughty-or-Nice",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1},
+		onAfterHit(target, source) {
+			if ((source.hp) && !target.hasAbility('stickyhold')) {
+				const item = target.setItem('charcoal');
+				if (item) {
+					this.add('-item', target, item, '[from] move: Naughty-or-Nice', '[of] ' + source);
+				}
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Ice",
+		contestType: "Cute",
+	},
 	needlearm: {
 		num: 302,
 		accuracy: 100,

@@ -4045,6 +4045,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Deals damage to the target equal to half of its current HP, rounded down, but not less than 1 HP.",
 		shortDesc: "Does damage equal to 1/2 target's current HP.",
 	},
+	naughtyornice: {
+		name: "Naughty-or-Nice",
+		shortDesc: "Grants the target a random item.",
+	},
 	needlearm: {
 		name: "Needle Arm",
 		desc: "Has a 30% chance to make the target flinch.",
