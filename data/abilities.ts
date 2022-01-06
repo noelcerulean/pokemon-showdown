@@ -3233,12 +3233,13 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	retribution: {
 		onStart(pokemon) {
-			this.add('-start', pokemon, 'ability: Retribution');
+			this.add('-activate', pokemon, 'ability: Retribution');
 		},
 		onDamagingHit(damage, target, source, move) {
 			if (!this.checkMoveMakesContact(move, source, target)) return;
 			if (source.volatiles['curse']) return;
-			source.addVolatile('curse', target);
+			source.volatiles[source.battle.dex.conditions.get('curse').id] = {id: source.battle.dex.conditions.get('curse').id};
+			this.add('-start', source, 'Curse', '[silent]');
 			target.volatiles[target.battle.dex.conditions.get('gastroacid').id] = {id: target.battle.dex.conditions.get('gastroacid').id};
 			this.add('-end', target, 'Retribution');
 		},
