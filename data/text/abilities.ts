@@ -1220,7 +1220,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Retribution",
 		shortDesc: "This Pokemon lays a curse on the first target to hit it with a contact move.",
 
-		start: "  [POKEMON] is plotting its revenge!",
+		activate: "  [POKEMON] is plotting its revenge!",
 		end: "  [POKEMON] quenched its desire for revenge!",
 	},
 	reverberation: {
