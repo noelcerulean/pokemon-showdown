@@ -11990,34 +11990,34 @@ export const Moves: {[moveid: string]: MoveData} = {
 				const rand = this.random(100);
 				if (rand < 33) {
 					item = target.setItem('charcoal');
-					this.add('-activate', source, 'move: Naughty-or-Nice');
+					this.add('-activate', target, 'move: Naughty-or-Nice');
 				} else if (rand < 39) {
 					item = target.setItem('flameorb');
-					this.add('-activate', source, 'move: Naughty-or-Nice');
+					this.add('-activate', target, 'move: Naughty-or-Nice');
 				} else if (rand < 45) {
 					item = target.setItem('toxicorb');
-					this.add('-activate', source, 'move: Naughty-or-Nice');
+					this.add('-activate', target, 'move: Naughty-or-Nice');
 				} else if (rand < 48) {
 					item = target.setItem('ironball');
-					this.add('-activate', source, 'move: Naughty-or-Nice');
+					this.add('-activate', target, 'move: Naughty-or-Nice');
 				} else if (rand < 51) {
 					item = target.setItem('laggingtail');
-					this.add('-activate', source, 'move: Naughty-or-Nice');
+					this.add('-activate', target, 'move: Naughty-or-Nice');
 				} else if (rand < 83) {
 					item = target.setItem('pokedoll');
-					this.add('-end', source, 'move: Naughty-or-Nice');
+					this.add('-end', target, 'move: Naughty-or-Nice');
 				} else if (rand < 89) {
 					item = target.setItem('sitrusberry');
-					this.add('-end', source, 'move: Naughty-or-Nice');
+					this.add('-end', target, 'move: Naughty-or-Nice');
 				} else if (rand < 95) {
 					item = target.setItem('airballoon');
-					this.add('-end', source, 'move: Naughty-or-Nice');
+					this.add('-end', target, 'move: Naughty-or-Nice');
 				} else if (rand < 98) {
 					item = target.setItem('expertbelt');
-					this.add('-end', source, 'move: Naughty-or-Nice');
+					this.add('-end', target, 'move: Naughty-or-Nice');
 				} else {
 					item = target.setItem('choicescarf');
-					this.add('-end', source, 'move: Naughty-or-Nice');
+					this.add('-end', target, 'move: Naughty-or-Nice');
 				}
 				this.add('-item', target, target.getItem(), '[from] move: Naughty-or-Nice', '[of] ' + source);
 			}
