@@ -4048,6 +4048,9 @@ export const MovesText: {[k: string]: MoveText} = {
 	naughtyornice: {
 		name: "Naughty-or-Nice",
 		shortDesc: "Grants the target a random item.",
+
+		activate: "  [TARGET] was naughty!",
+		end: "  [TARGET] was nice!",
 	},
 	needlearm: {
 		name: "Needle Arm",

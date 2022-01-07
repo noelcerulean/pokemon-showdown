@@ -11986,39 +11986,40 @@ export const Moves: {[moveid: string]: MoveData} = {
 		onAfterHit(target, source, move) {
 			let item = target.getItem();
 			if (!this.singleEvent('TakeItem', item, target.itemState, target, target, move, item)) return;
-			if ((source.hp) && !target.hasAbility('stickyhold')) {
+			if ((source.hp) && !(target.hasAbility('stickyhold') && (target.item))) {
 				const rand = this.random(100);
 				if (rand < 33) {
 					item = target.setItem('charcoal');
-					this.add('-item', target, target.getItem(), '[from] move: Naughty-or-Nice', '[of] ' + source);
+					this.add('-activate', source, 'move: Naughty-or-Nice');
 				} else if (rand < 39) {
 					item = target.setItem('flameorb');
-					this.add('-item', target, target.getItem(), '[from] move: Naughty-or-Nice', '[of] ' + source);
+					this.add('-activate', source, 'move: Naughty-or-Nice');
 				} else if (rand < 45) {
 					item = target.setItem('toxicorb');
-					this.add('-item', target, target.getItem(), '[from] move: Naughty-or-Nice', '[of] ' + source);
+					this.add('-activate', source, 'move: Naughty-or-Nice');
 				} else if (rand < 48) {
 					item = target.setItem('ironball');
-					this.add('-item', target, target.getItem(), '[from] move: Naughty-or-Nice', '[of] ' + source);
+					this.add('-activate', source, 'move: Naughty-or-Nice');
 				} else if (rand < 51) {
 					item = target.setItem('laggingtail');
-					this.add('-item', target, target.getItem(), '[from] move: Naughty-or-Nice', '[of] ' + source);
+					this.add('-activate', source, 'move: Naughty-or-Nice');
 				} else if (rand < 83) {
 					item = target.setItem('pokedoll');
-					this.add('-item', target, target.getItem(), '[from] move: Naughty-or-Nice', '[of] ' + source);
+					this.add('-end', source, 'move: Naughty-or-Nice');
 				} else if (rand < 89) {
 					item = target.setItem('sitrusberry');
-					this.add('-item', target, target.getItem(), '[from] move: Naughty-or-Nice', '[of] ' + source);
+					this.add('-end', source, 'move: Naughty-or-Nice');
 				} else if (rand < 95) {
 					item = target.setItem('airballoon');
-					this.add('-item', target, target.getItem(), '[from] move: Naughty-or-Nice', '[of] ' + source);
+					this.add('-end', source, 'move: Naughty-or-Nice');
 				} else if (rand < 98) {
 					item = target.setItem('expertbelt');
-					this.add('-item', target, target.getItem(), '[from] move: Naughty-or-Nice', '[of] ' + source);
+					this.add('-end', source, 'move: Naughty-or-Nice');
 				} else {
 					item = target.setItem('choicescarf');
-					this.add('-item', target, target.getItem(), '[from] move: Naughty-or-Nice', '[of] ' + source);
+					this.add('-end', source, 'move: Naughty-or-Nice');
 				}
+				this.add('-item', target, target.getItem(), '[from] move: Naughty-or-Nice', '[of] ' + source);
 			}
 		},
 		secondary: null,
