@@ -4050,7 +4050,7 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Grants the target a random item.",
 
 		activate: "  [TARGET] was naughty!",
-		end: "  [TARGET] was nice!",
+		end: "  [POKEMON] was nice!",
 	},
 	needlearm: {
 		name: "Needle Arm",
