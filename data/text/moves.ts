@@ -4047,7 +4047,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	naughtyornice: {
 		name: "Naughty-or-Nice",
-		shortDesc: "Grants the target a random item.",
+		desc: "Replaces the target's item after attacking. 32% chance for Charcoal, 32% chance for Poke Doll, 6% chance for Flame Orb, 6% chance for Toxic Orb, 6% chance for Sitrus Berry, 6% chance for Air Balloon, 3% chance for Iron Ball, 3% chance for Lagging Tail, 3% chance for Expert Belt, 3% chance for Choice Scarf.",
+		shortDesc: "Replaces the target's item after attacking.",
 
 		activate: "  [TARGET] was naughty!",
 		end: "  [POKEMON] was nice!",
