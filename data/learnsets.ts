@@ -29905,6 +29905,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			mimic: ["3T"],
 			mudslap: ["7V", "4T", "3T"],
 			naturalgift: ["4M"],
+			naughtyornice: ["7L1"],
 			pluck: ["5M", "4M"],
 			poweruppunch: ["6M"],
 			present: ["8L1", "7L1", "7V", "6L1", "6S1", "5L1", "5D", "4L1", "3L1", "3S0"],
