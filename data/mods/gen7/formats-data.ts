@@ -884,9 +884,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	tauros: {
-		randomBattleMoves: ["bodyslam", "doubleedge", "earthquake", "rockslide", "zenheadbutt"],
+		randomBattleMoves: ["bodyslam", "doubleedge", "earthquake", "fireblast", "playrough", "rockslide", "superpower", "zenheadbutt"],
 		randomDoubleBattleMoves: ["doubleedge", "protect", "return", "rockslide", "stompingtantrum", "stoneedge", "zenheadbutt"],
-		tier: "PUBL",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	magikarp: {

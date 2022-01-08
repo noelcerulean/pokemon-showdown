@@ -1179,6 +1179,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			desc: "If Rain Dance is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn.",
 		},
 	},
+	rampage: {
+		name: "Rampage",
+		shortDesc: "If this Pokemon KOs a target with a recharge move, it does not need to recharge.",
+	},
 	rattled: {
 		name: "Rattled",
 		desc: "This Pokemon's Speed is raised by 1 stage if hit by a Bug-, Dark-, or Ghost-type attack, or Intimidate.",

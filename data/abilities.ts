@@ -3151,6 +3151,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2.5,
 		num: 95,
 	},
+	rampage: {
+		onSourceAfterFaint(length, target, source, effect) {
+			if (effect && effect.effectType === 'Move') {
+				delete source.volatiles['mustrecharge'];
+				this.add('-end', source, 'mustrecharge', '[silent]');
+			}
+		},
+		name: "Rampage",
+		rating: 2,
+		num: -521,
+	},
 	raindish: {
 		onWeather(target, source, effect) {
 			if (target.hasItem('utilityumbrella')) return;
