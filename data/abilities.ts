@@ -3159,7 +3159,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 		name: "Rampage",
-		rating: 2,
+		rating: 1.5,
 		num: -521,
 	},
 	raindish: {
