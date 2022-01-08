@@ -22877,6 +22877,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			dig: ["7V", "6M", "5M", "4M", "3M"],
 			doubleedge: ["7L64", "6L64", "5L64", "4L53", "3T"],
 			doubleteam: ["7M", "7V", "6M", "5M", "4M", "3M"],
+			earthpower: ["7T"],
 			ember: ["7L10", "7V", "6L10", "5L10", "4L10", "3L12"],
 			endure: ["7V", "4M", "3T"],
 			eruption: ["7L75", "6L68", "5L68", "4L57"],
