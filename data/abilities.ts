@@ -3155,11 +3155,21 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onSourceAfterFaint(length, target, source, effect) {
 			if (effect && effect.effectType === 'Move') {
 				source.removeVolatile('mustrecharge');
-				this.add('-end', source, 'mustrecharge');
+				this.add('-end', source, 'Must recharge', '[silent]');
+				source.volatiles[source.battle.dex.conditions.get('ignorerecharge').id] = {id: source.battle.dex.conditions.get('ignorerecharge').id};
+			}
+		},
+		onResidualOrder: 28,
+		onResidualSubOrder: 2,
+		onResidual(pokemon) {
+			if (pokemon.volatiles['ignorerecharge']) {
+				pokemon.removeVolatile('mustrecharge');
+				pokemon.removeVolatile('ignorerecharge');
+				this.add('-end', pokemon, 'Must recharge', '[silent]');
 			}
 		},
 		name: "Rampage",
-		rating: 1.5,
+		rating: 2.5,
 		num: -521,
 	},
 	raindish: {

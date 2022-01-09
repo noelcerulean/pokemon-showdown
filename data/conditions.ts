@@ -339,6 +339,10 @@ export const Conditions: {[k: string]: ConditionData} = {
 		},
 		onLockMove: 'recharge',
 	},
+	ignorerecharge: {
+		name: 'ignorerecharge',
+		duration: 2,
+	},
 	futuremove: {
 		// this is a slot condition
 		name: 'futuremove',
