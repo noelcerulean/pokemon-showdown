@@ -3159,6 +3159,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				this.add('-end', source, 'Must recharge', '[silent]');
 			}
 		},
+		onAfterMoveSecondarySelf(pokemon, target, move) {
+			if (!move.flags['recharge']) return;
+			if (!target || target.fainted || target.hp <= 0) {
+				this.add('-ability', pokemon, 'Rampage');
+				this.add('-end', pokemon, 'mustrecharge', '[silent');
+				delete pokemon.volatiles['mustrecharge'];
+				this.hint('It may look like this Pokemon is going to recharge next turn, but it will not recharge.');
+			}
+		},
 		name: "Rampage",
 		rating: 2.5,
 		num: -521,
