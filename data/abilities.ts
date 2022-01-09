@@ -3155,7 +3155,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onSourceAfterFaint(length, target, source, effect) {
 			if (effect && effect.effectType === 'Move') {
 				source.removeVolatile('mustrecharge');
-				this.add('-end', source, 'Must recharge', '[silent]');
+				this.add('-end', source, 'mustrecharge');
 			}
 		},
 		name: "Rampage",
