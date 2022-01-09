@@ -339,8 +339,8 @@ export const Conditions: {[k: string]: ConditionData} = {
 		},
 		onLockMove: 'recharge',
 	},
-	ignorerecharge: {
-		name: 'ignorerecharge',
+	mightrecharge: {
+		name: 'mightrecharge',
 		duration: 2,
 	},
 	futuremove: {

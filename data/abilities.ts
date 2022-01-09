@@ -3152,20 +3152,24 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 95,
 	},
 	rampage: {
+		onTryAddVolatile(status, pokemon) {
+			if (status.id === 'mustrecharge') {
+				pokemon.addVolatile('mightrecharge');
+			} return null;
+		},
 		onSourceAfterFaint(length, target, source, effect) {
 			if (effect && effect.effectType === 'Move') {
-				source.removeVolatile('mustrecharge');
-				this.add('-end', source, 'Must recharge', '[silent]');
-				source.volatiles[source.battle.dex.conditions.get('ignorerecharge').id] = {id: source.battle.dex.conditions.get('ignorerecharge').id};
+				source.removeVolatile('mightrecharge');
+				this.add('-end', source, 'Might recharge', '[silent]');
 			}
 		},
 		onResidualOrder: 28,
 		onResidualSubOrder: 2,
 		onResidual(pokemon) {
-			if (pokemon.volatiles['ignorerecharge']) {
-				pokemon.removeVolatile('mustrecharge');
-				pokemon.removeVolatile('ignorerecharge');
-				this.add('-end', pokemon, 'Must recharge', '[silent]');
+			if (pokemon.volatiles['mightrecharge']) {
+				pokemon.removeVolatile('mightrecharge');
+				pokemon.addVolatile('mustrecharge');
+				this.add('-end', pokemon, 'Might recharge', '[silent]');
 			}
 		},
 		name: "Rampage",
