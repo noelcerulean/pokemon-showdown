@@ -329,6 +329,7 @@ export const Conditions: {[k: string]: ConditionData} = {
 		duration: 2,
 		onBeforeMovePriority: 11,
 		onBeforeMove(pokemon) {
+			if (pokemon.hasAbility('rampage')) return;
 			this.add('cant', pokemon, 'recharge');
 			pokemon.removeVolatile('mustrecharge');
 			pokemon.removeVolatile('truant');
@@ -338,10 +339,6 @@ export const Conditions: {[k: string]: ConditionData} = {
 			this.add('-mustrecharge', pokemon);
 		},
 		onLockMove: 'recharge',
-	},
-	mightrecharge: {
-		name: 'mightrecharge',
-		duration: 2,
 	},
 	futuremove: {
 		// this is a slot condition
