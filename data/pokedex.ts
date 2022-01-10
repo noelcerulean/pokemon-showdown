@@ -7613,6 +7613,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Burmy",
 		evoLevel: 20,
 		eggGroups: ["Bug"],
+		cosmeticFormes: ["Mothim-Bigshot"],
+		formeOrder: ["Mothim", "Mothim-Bigshot"],
 	},
 	combee: {
 		num: 415,
