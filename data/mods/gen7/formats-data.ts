@@ -2090,9 +2090,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	claydol: {
-		randomBattleMoves: ["earthquake", "icebeam", "psychic", "rapidspin", "stealthrock", "toxic"],
-		randomDoubleBattleMoves: ["allyswitch", "earthpower", "protect", "rapidspin", "stealthrock", "toxic"],
-		tier: "PU",
+		randomBattleMoves: ["cosmicspin", "earthpower", "earthquake", "icebeam", "lunaticeyes", "moonblast", "moonlight", "prehistoricpulse", "rapidspin", "stealthrock", "stoneedge", "toxic"],
+		randomDoubleBattleMoves: ["allyswitch", "cosmicspin", "earthpower", "lunaticeyes", "moonblast", "moonlight", "prehistoricpulse", "protect", "rapidspin", "stealthrock", "stoneedge", "toxic"],
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	lileep: {
@@ -2585,9 +2585,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	drifblim: {
-		randomBattleMoves: ["acrobatics", "destinybond", "hex", "shadowball", "substitute", "willowisp"],
-		randomDoubleBattleMoves: ["acrobatics", "destinybond", "hypnosis", "protect", "shadowball", "thunderbolt", "willowisp"],
-		tier: "(PU)",
+		randomBattleMoves: ["acrobatics", "airslash", "destinybond", "heatwave", "hex", "shadowball", "strengthsap", "substitute", "willowisp"],
+		randomDoubleBattleMoves: ["acrobatics", "airslash", "destinybond", "heatwave", "hypnosis", "protect", "shadowball", "thunderbolt", "willowisp"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	buneary: {
