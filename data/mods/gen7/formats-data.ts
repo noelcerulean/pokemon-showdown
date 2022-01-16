@@ -2252,7 +2252,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	relicanth: {
 		randomBattleMoves: ["doubleedge", "earthquake", "headsmash", "stealthrock", "toxic", "waterfall"],
 		randomDoubleBattleMoves: ["doubleedge", "earthquake", "headsmash", "protect", "rockslide", "waterfall"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	luvdisc: {
