@@ -1542,7 +1542,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "Randomized Metas",
-		column: 2,
+		column: 1,
 	},
 	{
 		name: "[Gen 8] Monotype Random Battle",
