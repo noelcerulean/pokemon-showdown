@@ -619,275 +619,6 @@ export const Formats: FormatList = [
 			'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Swagger Clause',
 		],
 	},
-	{
-		name: "[Gen 8] Monotype Random Battle",
-
-		mod: 'gen8',
-		team: 'random',
-		ruleset: ['Obtainable', 'Same Type Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
-	},
-	{
-		name: "[Gen 8] Random Battle (No Dmax)",
-
-		mod: 'gen8',
-		team: 'random',
-		ruleset: ['[Gen 8] Random Battle', 'Dynamax Clause'],
-	},
-	{
-		name: "[Gen 8] BSS Factory",
-		desc: `Randomized 3v3 Singles featuring Pok&eacute;mon and movesets popular in Battle Stadium Singles.`,
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3675374/">Information and Suggestions Thread</a>`,
-		],
-
-		team: 'randomBSSFactory',
-		ruleset: ['Flat Rules'],
-	},
-	{
-		name: "[Gen 8] Super Staff Bros 4",
-		desc: "The fourth iteration of Super Staff Bros is here! Battle with a random team of pokemon created by the sim staff.",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/articles/super-staff-bros-4">Introduction &amp; Roster</a>`,
-			`&bullet; <a href="https://www.smogon.com/forums/threads/super-staff-bros-4-discussion-thread.3675237/">Discussion Thread</a>`,
-		],
-
-		mod: 'ssb',
-		team: 'randomStaffBros',
-		ruleset: ['Dynamax Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
-		onBegin() { // TODO look into making an event to put this right after turn|1
-			// https://discordapp.com/channels/630837856075513856/630845310033330206/716126469528485909
-			// Requires client change
-			this.add(`raw|<div class='broadcast-green'><b>Wondering what all these custom moves, abilities, and items do?<br />Check out the <a href="https://www.smogon.com/articles/super-staff-bros-4" target="_blank">Super Staff Bros 4 Guide</a> or use /ssb to find out!</b></div>`);
-
-			this.add('message', [
-				'THE BATTLE FOR SURVIVAL BEGINS!', 'WHO WILL SURVIVE?', 'GET READY TO KEEP UP!', 'GET READY!', 'DARE TO BELIEVE YOU CAN SURVIVE!', 'THERE CAN BE ONLY ONE WINNER!', 'GET READY FOR THE FIGHT OF YOUR LIFE!', 'WHO WILL PREVAIL?', 'ONLY ONE TEAM WILL BE LEFT STANDING!', 'BATTLE WITHOUT LIMITS!',
-			][this.random(10)]);
-			this.add('message', 'FIGHT!');
-		},
-		onSwitchInPriority: 100,
-		onSwitchIn(pokemon) {
-			let name: string = this.toID(pokemon.illusion ? pokemon.illusion.name : pokemon.name);
-			if (this.dex.species.get(name).exists || this.dex.moves.get(name).exists || this.dex.abilities.get(name).exists) {
-				// Certain pokemon have volatiles named after their id
-				// To prevent overwriting those, and to prevent accidentaly leaking
-				// that a pokemon is on a team through the onStart even triggering
-				// at the start of a match, users with pokemon names will need their
-				// statuses to end in "user".
-				name = name + 'user';
-			}
-			// Add the mon's status effect to it as a volatile.
-			const status = this.dex.conditions.get(name);
-			if (status?.exists) {
-				pokemon.addVolatile(name, pokemon);
-			}
-			if (pokemon.m.hasBounty) this.add('-start', pokemon, 'bounty', '[silent]');
-			const details = pokemon.species.name + (pokemon.level === 100 ? '' : ', L' + pokemon.level) +
-				(pokemon.gender === '' ? '' : ', ' + pokemon.gender) + (pokemon.set.shiny ? ', shiny' : '');
-			if (pokemon.m.nowShiny) this.add('replace', pokemon, details);
-		},
-		onFaint(target, source, effect) {
-			if (effect?.effectType !== 'Move') return;
-			if (!target.m.hasBounty) return;
-			if (source) {
-				this.add('-message', `${source.name} received the bounty!`);
-				this.boost({atk: 1, def: 1, spa: 1, spd: 1, spe: 1}, source, target, effect);
-			}
-		},
-	},
-	{
-		name: "[Gen 8] Challenge Cup",
-
-		mod: 'gen8',
-		team: 'randomCC',
-		searchShow: false,
-		ruleset: ['Obtainable', 'HP Percentage Mod', 'Cancel Mod'],
-	},
-	{
-		name: "[Gen 8] Challenge Cup 1v1",
-
-		mod: 'gen8',
-		team: 'randomCC',
-		ruleset: ['[Gen 8] Challenge Cup', 'Team Preview', 'Dynamax Clause', 'Picked Team Size = 1'],
-	},
-	{
-		name: "[Gen 8] Challenge Cup 2v2",
-
-		mod: 'gen8',
-		team: 'randomCC',
-		gameType: 'doubles',
-		searchShow: false,
-		ruleset: ['[Gen 8] Challenge Cup 1v1', '!! Picked Team Size = 2'],
-	},
-	{
-		name: "[Gen 8] Hackmons Cup",
-		desc: `Randomized teams of level-balanced Pok&eacute;mon with absolutely any ability, moves, and item.`,
-
-		mod: 'gen8',
-		team: 'randomHC',
-		ruleset: ['Obtainable Formes', 'HP Percentage Mod', 'Cancel Mod'],
-	},
-	{
-		name: "[Gen 8] Doubles Hackmons Cup",
-
-		mod: 'gen8',
-		gameType: 'doubles',
-		team: 'randomHC',
-		searchShow: false,
-		ruleset: ['Obtainable', 'HP Percentage Mod', 'Cancel Mod'],
-	},
-	{
-		name: "[Gen 8] CAP 1v1",
-		desc: `Randomly generated 1v1-style teams only including Pok&eacute;mon made by the Create-A-Pok&eacute;mon Project.`,
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3663533/">CAP 1v1</a>`,
-		],
-
-		mod: 'gen8',
-		team: 'randomCAP1v1',
-		ruleset: [
-			'Picked Team Size = 1',
-			'Max Team Size = 3',
-			'Species Clause', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Dynamax Clause',
-		],
-	},
-	{
-		name: "[Gen 7] Random Battle",
-		desc: `Randomized teams of level-balanced Pok&eacute;mon with sets that are generated to be competitively viable.`,
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3591157/">Sets and Suggestions</a>`,
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3616946/">Role Compendium</a>`,
-		],
-
-		mod: 'gen7',
-		team: 'random',
-		ruleset: ['Obtainable', 'Sleep Clause Mod', 'HP Percentage Mod', 'Cancel Mod'],
-	},
-	{
-		name: "[Gen 7] Random Doubles Battle",
-		threads: [`&bullet; <a href="https://www.smogon.com/forums/threads/3601525/">Sets and Suggestions</a>`],
-
-		mod: 'gen7',
-		gameType: 'doubles',
-		team: 'random',
-		searchShow: false,
-		ruleset: ['Obtainable', 'HP Percentage Mod', 'Cancel Mod'],
-	},
-	{
-		name: "[Gen 7] Battle Factory",
-		desc: `Randomized teams of Pok&eacute;mon for a generated Smogon tier with sets that are competitively viable.`,
-
-		mod: 'gen7',
-		team: 'randomFactory',
-		ruleset: ['Obtainable', 'Sleep Clause Mod', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Mega Rayquaza Clause'],
-	},
-	{
-		name: "[Gen 7] BSS Factory",
-		desc: `Randomized 3v3 Singles featuring Pok&eacute;mon and movesets popular in Battle Spot Singles.`,
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3604845/">Information and Suggestions Thread</a>`,
-		],
-
-		mod: 'gen7',
-		team: 'randomBSSFactory',
-		searchShow: false,
-		ruleset: ['Flat Rules'],
-	},
-	{
-		name: "[Gen 7] Hackmons Cup",
-		desc: `Randomized teams of level-balanced Pok&eacute;mon with absolutely any ability, moves, and item.`,
-
-		mod: 'gen7',
-		team: 'randomHC',
-		searchShow: false,
-		ruleset: ['HP Percentage Mod', 'Cancel Mod'],
-	},
-	{
-		name: "[Gen 7 Let's Go] Random Battle",
-
-		mod: 'gen7letsgo',
-		team: 'random',
-		searchShow: false,
-		ruleset: ['Obtainable', 'Allow AVs', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
-	},
-	{
-		name: "[Gen 6] Random Battle",
-
-		mod: 'gen6',
-		team: 'random',
-		ruleset: ['Obtainable', 'Sleep Clause Mod', 'HP Percentage Mod', 'Cancel Mod'],
-	},
-	{
-		name: "[Gen 6] Battle Factory",
-		desc: `Randomized teams of Pok&eacute;mon for a generated Smogon tier with sets that are competitively viable.`,
-
-		mod: 'gen6',
-		team: 'randomFactory',
-		searchShow: false,
-		ruleset: ['Obtainable', 'Sleep Clause Mod', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Mega Rayquaza Clause'],
-	},
-	{
-		name: "[Gen 5] Random Battle",
-
-		mod: 'gen5',
-		team: 'random',
-		ruleset: ['Obtainable', 'Sleep Clause Mod', 'HP Percentage Mod', 'Cancel Mod'],
-	},
-	{
-		name: "[Gen 4] Random Battle",
-
-		mod: 'gen4',
-		team: 'random',
-		ruleset: ['Obtainable', 'Sleep Clause Mod', 'HP Percentage Mod', 'Cancel Mod'],
-	},
-	{
-		name: "[Gen 3] Random Battle",
-
-		mod: 'gen3',
-		team: 'random',
-		ruleset: ['Standard'],
-	},
-	{
-		name: "[Gen 2] Random Battle",
-
-		mod: 'gen2',
-		team: 'random',
-		ruleset: ['Standard'],
-	},
-	{
-		name: "[Gen 1] Random Battle",
-
-		mod: 'gen1',
-		team: 'random',
-		ruleset: ['Standard'],
-	},
-	{
-		name: "[Gen 1] Challenge Cup",
-
-		mod: 'gen1',
-		team: 'randomCC',
-		searchShow: false,
-		ruleset: ['Obtainable', 'HP Percentage Mod', 'Cancel Mod', 'Desync Clause Mod'],
-	},
-	{
-		name: "[Gen 1] Hackmons Cup",
-		desc: `Randomized teams of level-balanced Pok&eacute;mon with absolutely any moves, types, and stats.`,
-
-		mod: 'gen1',
-		team: 'randomHC',
-		searchShow: false,
-		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Desync Clause Mod', 'Sleep Clause Mod', 'Freeze Clause Mod', 'Team Type Preview'],
-		onModifySpecies(species, target, source, effect) {
-			if (!target) return;
-			return {...species, ...(target.set as any).hc};
-		},
-		onSwitchIn(pokemon) {
-			this.add('-start', pokemon, 'typechange', pokemon.getTypes(true).join('/'), '[silent]');
-			for (const i in pokemon.species.baseStats) {
-				if (i === 'spd') continue;
-				this.add('-start', pokemon, `${pokemon.species.baseStats[i as keyof StatsTable]}${i === 'spa' ? 'spc' : i}`, '[silent]');
-			}
-		},
-	},
 
 	// Other Metagames
 	///////////////////////////////////////////////////////////////////
@@ -1802,7 +1533,275 @@ export const Formats: FormatList = [
 		section: "Randomized Metas",
 		column: 2,
 	},
+	{
+		name: "[Gen 8] Monotype Random Battle",
 
+		mod: 'gen8',
+		team: 'random',
+		ruleset: ['Obtainable', 'Same Type Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
+	},
+	{
+		name: "[Gen 8] Random Battle (No Dmax)",
+
+		mod: 'gen8',
+		team: 'random',
+		ruleset: ['[Gen 8] Random Battle', 'Dynamax Clause'],
+	},
+	{
+		name: "[Gen 8] BSS Factory",
+		desc: `Randomized 3v3 Singles featuring Pok&eacute;mon and movesets popular in Battle Stadium Singles.`,
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3675374/">Information and Suggestions Thread</a>`,
+		],
+
+		team: 'randomBSSFactory',
+		ruleset: ['Flat Rules'],
+	},
+	{
+		name: "[Gen 8] Super Staff Bros 4",
+		desc: "The fourth iteration of Super Staff Bros is here! Battle with a random team of pokemon created by the sim staff.",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/articles/super-staff-bros-4">Introduction &amp; Roster</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/threads/super-staff-bros-4-discussion-thread.3675237/">Discussion Thread</a>`,
+		],
+
+		mod: 'ssb',
+		team: 'randomStaffBros',
+		ruleset: ['Dynamax Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
+		onBegin() { // TODO look into making an event to put this right after turn|1
+			// https://discordapp.com/channels/630837856075513856/630845310033330206/716126469528485909
+			// Requires client change
+			this.add(`raw|<div class='broadcast-green'><b>Wondering what all these custom moves, abilities, and items do?<br />Check out the <a href="https://www.smogon.com/articles/super-staff-bros-4" target="_blank">Super Staff Bros 4 Guide</a> or use /ssb to find out!</b></div>`);
+
+			this.add('message', [
+				'THE BATTLE FOR SURVIVAL BEGINS!', 'WHO WILL SURVIVE?', 'GET READY TO KEEP UP!', 'GET READY!', 'DARE TO BELIEVE YOU CAN SURVIVE!', 'THERE CAN BE ONLY ONE WINNER!', 'GET READY FOR THE FIGHT OF YOUR LIFE!', 'WHO WILL PREVAIL?', 'ONLY ONE TEAM WILL BE LEFT STANDING!', 'BATTLE WITHOUT LIMITS!',
+			][this.random(10)]);
+			this.add('message', 'FIGHT!');
+		},
+		onSwitchInPriority: 100,
+		onSwitchIn(pokemon) {
+			let name: string = this.toID(pokemon.illusion ? pokemon.illusion.name : pokemon.name);
+			if (this.dex.species.get(name).exists || this.dex.moves.get(name).exists || this.dex.abilities.get(name).exists) {
+				// Certain pokemon have volatiles named after their id
+				// To prevent overwriting those, and to prevent accidentaly leaking
+				// that a pokemon is on a team through the onStart even triggering
+				// at the start of a match, users with pokemon names will need their
+				// statuses to end in "user".
+				name = name + 'user';
+			}
+			// Add the mon's status effect to it as a volatile.
+			const status = this.dex.conditions.get(name);
+			if (status?.exists) {
+				pokemon.addVolatile(name, pokemon);
+			}
+			if (pokemon.m.hasBounty) this.add('-start', pokemon, 'bounty', '[silent]');
+			const details = pokemon.species.name + (pokemon.level === 100 ? '' : ', L' + pokemon.level) +
+				(pokemon.gender === '' ? '' : ', ' + pokemon.gender) + (pokemon.set.shiny ? ', shiny' : '');
+			if (pokemon.m.nowShiny) this.add('replace', pokemon, details);
+		},
+		onFaint(target, source, effect) {
+			if (effect?.effectType !== 'Move') return;
+			if (!target.m.hasBounty) return;
+			if (source) {
+				this.add('-message', `${source.name} received the bounty!`);
+				this.boost({atk: 1, def: 1, spa: 1, spd: 1, spe: 1}, source, target, effect);
+			}
+		},
+	},
+	{
+		name: "[Gen 8] Challenge Cup",
+
+		mod: 'gen8',
+		team: 'randomCC',
+		searchShow: false,
+		ruleset: ['Obtainable', 'HP Percentage Mod', 'Cancel Mod'],
+	},
+	{
+		name: "[Gen 8] Challenge Cup 1v1",
+
+		mod: 'gen8',
+		team: 'randomCC',
+		ruleset: ['[Gen 8] Challenge Cup', 'Team Preview', 'Dynamax Clause', 'Picked Team Size = 1'],
+	},
+	{
+		name: "[Gen 8] Challenge Cup 2v2",
+
+		mod: 'gen8',
+		team: 'randomCC',
+		gameType: 'doubles',
+		searchShow: false,
+		ruleset: ['[Gen 8] Challenge Cup 1v1', '!! Picked Team Size = 2'],
+	},
+	{
+		name: "[Gen 8] Hackmons Cup",
+		desc: `Randomized teams of level-balanced Pok&eacute;mon with absolutely any ability, moves, and item.`,
+
+		mod: 'gen8',
+		team: 'randomHC',
+		ruleset: ['Obtainable Formes', 'HP Percentage Mod', 'Cancel Mod'],
+	},
+	{
+		name: "[Gen 8] Doubles Hackmons Cup",
+
+		mod: 'gen8',
+		gameType: 'doubles',
+		team: 'randomHC',
+		searchShow: false,
+		ruleset: ['Obtainable', 'HP Percentage Mod', 'Cancel Mod'],
+	},
+	{
+		name: "[Gen 8] CAP 1v1",
+		desc: `Randomly generated 1v1-style teams only including Pok&eacute;mon made by the Create-A-Pok&eacute;mon Project.`,
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3663533/">CAP 1v1</a>`,
+		],
+
+		mod: 'gen8',
+		team: 'randomCAP1v1',
+		ruleset: [
+			'Picked Team Size = 1',
+			'Max Team Size = 3',
+			'Species Clause', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Dynamax Clause',
+		],
+	},
+	{
+		name: "[Gen 7] Random Battle",
+		desc: `Randomized teams of level-balanced Pok&eacute;mon with sets that are generated to be competitively viable.`,
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3591157/">Sets and Suggestions</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3616946/">Role Compendium</a>`,
+		],
+
+		mod: 'gen7',
+		team: 'random',
+		ruleset: ['Obtainable', 'Sleep Clause Mod', 'HP Percentage Mod', 'Cancel Mod'],
+	},
+	{
+		name: "[Gen 7] Random Doubles Battle",
+		threads: [`&bullet; <a href="https://www.smogon.com/forums/threads/3601525/">Sets and Suggestions</a>`],
+
+		mod: 'gen7',
+		gameType: 'doubles',
+		team: 'random',
+		searchShow: false,
+		ruleset: ['Obtainable', 'HP Percentage Mod', 'Cancel Mod'],
+	},
+	{
+		name: "[Gen 7] Battle Factory",
+		desc: `Randomized teams of Pok&eacute;mon for a generated Smogon tier with sets that are competitively viable.`,
+
+		mod: 'gen7',
+		team: 'randomFactory',
+		ruleset: ['Obtainable', 'Sleep Clause Mod', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Mega Rayquaza Clause'],
+	},
+	{
+		name: "[Gen 7] BSS Factory",
+		desc: `Randomized 3v3 Singles featuring Pok&eacute;mon and movesets popular in Battle Spot Singles.`,
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3604845/">Information and Suggestions Thread</a>`,
+		],
+
+		mod: 'gen7',
+		team: 'randomBSSFactory',
+		searchShow: false,
+		ruleset: ['Flat Rules'],
+	},
+	{
+		name: "[Gen 7] Hackmons Cup",
+		desc: `Randomized teams of level-balanced Pok&eacute;mon with absolutely any ability, moves, and item.`,
+
+		mod: 'gen7',
+		team: 'randomHC',
+		searchShow: false,
+		ruleset: ['HP Percentage Mod', 'Cancel Mod'],
+	},
+	{
+		name: "[Gen 7 Let's Go] Random Battle",
+
+		mod: 'gen7letsgo',
+		team: 'random',
+		searchShow: false,
+		ruleset: ['Obtainable', 'Allow AVs', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
+	},
+	{
+		name: "[Gen 6] Random Battle",
+
+		mod: 'gen6',
+		team: 'random',
+		ruleset: ['Obtainable', 'Sleep Clause Mod', 'HP Percentage Mod', 'Cancel Mod'],
+	},
+	{
+		name: "[Gen 6] Battle Factory",
+		desc: `Randomized teams of Pok&eacute;mon for a generated Smogon tier with sets that are competitively viable.`,
+
+		mod: 'gen6',
+		team: 'randomFactory',
+		searchShow: false,
+		ruleset: ['Obtainable', 'Sleep Clause Mod', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Mega Rayquaza Clause'],
+	},
+	{
+		name: "[Gen 5] Random Battle",
+
+		mod: 'gen5',
+		team: 'random',
+		ruleset: ['Obtainable', 'Sleep Clause Mod', 'HP Percentage Mod', 'Cancel Mod'],
+	},
+	{
+		name: "[Gen 4] Random Battle",
+
+		mod: 'gen4',
+		team: 'random',
+		ruleset: ['Obtainable', 'Sleep Clause Mod', 'HP Percentage Mod', 'Cancel Mod'],
+	},
+	{
+		name: "[Gen 3] Random Battle",
+
+		mod: 'gen3',
+		team: 'random',
+		ruleset: ['Standard'],
+	},
+	{
+		name: "[Gen 2] Random Battle",
+
+		mod: 'gen2',
+		team: 'random',
+		ruleset: ['Standard'],
+	},
+	{
+		name: "[Gen 1] Random Battle",
+
+		mod: 'gen1',
+		team: 'random',
+		ruleset: ['Standard'],
+	},
+	{
+		name: "[Gen 1] Challenge Cup",
+
+		mod: 'gen1',
+		team: 'randomCC',
+		searchShow: false,
+		ruleset: ['Obtainable', 'HP Percentage Mod', 'Cancel Mod', 'Desync Clause Mod'],
+	},
+	{
+		name: "[Gen 1] Hackmons Cup",
+		desc: `Randomized teams of level-balanced Pok&eacute;mon with absolutely any moves, types, and stats.`,
+
+		mod: 'gen1',
+		team: 'randomHC',
+		searchShow: false,
+		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Desync Clause Mod', 'Sleep Clause Mod', 'Freeze Clause Mod', 'Team Type Preview'],
+		onModifySpecies(species, target, source, effect) {
+			if (!target) return;
+			return {...species, ...(target.set as any).hc};
+		},
+		onSwitchIn(pokemon) {
+			this.add('-start', pokemon, 'typechange', pokemon.getTypes(true).join('/'), '[silent]');
+			for (const i in pokemon.species.baseStats) {
+				if (i === 'spd') continue;
+				this.add('-start', pokemon, `${pokemon.species.baseStats[i as keyof StatsTable]}${i === 'spa' ? 'spc' : i}`, '[silent]');
+			}
+		},
+	},
 
 	// RoA Spotlight
 	///////////////////////////////////////////////////////////////////
