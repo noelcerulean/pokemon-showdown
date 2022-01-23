@@ -599,6 +599,27 @@ export const Formats: FormatList = [
 		column: 2,
 	},
 	{
+		name: "[Gen 7] Free-For-All",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3681641/">Free-For-All</a>`,
+		],
+
+		mod: 'gen7',
+		gameType: 'freeforall',
+		ruleset: ['Standard Doubles', 'Swagger Clause'],
+		banlist: ['Eevium Z'],
+	},
+	{
+		name: "[Gen 7] Multi Battle",
+
+		mod: 'gen7',
+		gameType: 'multi',
+		ruleset: [
+			'Max Team Size = 3',
+			'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Swagger Clause',
+		],
+	},
+	{
 		name: "[Gen 8] First Blood",
 		desc: `The first team to have a Pok&eacute;mon faint loses.`,
 		threads: [
@@ -1716,29 +1737,6 @@ export const Formats: FormatList = [
 		team: 'randomBSSFactory',
 		searchShow: false,
 		ruleset: ['Flat Rules'],
-	},
-	{
-		name: "[Gen 7] Free-For-All",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3681641/">Free-For-All</a>`,
-		],
-
-		mod: 'gen7',
-		gameType: 'freeforall',
-		tournamentShow: false,
-		ruleset: ['Standard Doubles', 'Swagger Clause'],
-		banlist: ['Eevium Z'],
-	},
-	{
-		name: "[Gen 7] Multi Battle",
-
-		mod: 'gen7',
-		gameType: 'multi',
-		tournamentShow: false,
-		ruleset: [
-			'Max Team Size = 3',
-			'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Swagger Clause',
-		],
 	},
 	{
 		name: "[Gen 7] Hackmons Cup",
