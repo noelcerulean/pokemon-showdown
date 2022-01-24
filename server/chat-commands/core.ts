@@ -237,6 +237,7 @@ const avatarTable = new Set([
 	'ninjaboy-gen3', 'ninjaboy',
 	'nikita',
 	'noland-gen3',
+	'noobscrub',
 	'norman-gen3', 'norman',
 	'n',
 	'nurse',
