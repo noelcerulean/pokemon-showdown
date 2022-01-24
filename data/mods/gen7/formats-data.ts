@@ -2829,10 +2829,16 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	phione: {
-		randomBattleMoves: ["healbell", "icebeam", "knockoff", "scald", "toxic", "uturn"],
+		randomBattleMoves: ["bubbleprison", "healbell", "icebeam", "knockoff", "scald", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["helpinghand", "icywind", "protect", "scald", "uturn"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
+	},
+	phioneprimal: {
+		randomBattleMoves: ["bubbleprison", "calmmind", "icebeam", "originpulse", "rest", "scald", "sleeptalk", "toxic", "uturn"],
+		randomDoubleBattleMoves: ["calmmind", "icebeam", "icywind", "originpulse", "protect"],
+		tier: "OU",
+		doublesTier: "DOU",
 	},
 	manaphy: {
 		randomBattleMoves: ["energyball", "icebeam", "psychic", "surf", "tailglow"],

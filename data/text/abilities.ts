@@ -1116,6 +1116,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		start: "  [POKEMON] is exerting its pressure!",
 	},
+	primaltide: {
+		name: "Primal Tide",
+		shortDesc: "This Pokemon's water moves will always hit.",
+	},
 	primordialsea: {
 		name: "Primordial Sea",
 		desc: "On switch-in, the weather becomes heavy rain that prevents damaging Fire-type moves from executing, in addition to all the effects of Rain Dance. This weather remains in effect until this Ability is no longer active for any Pokemon, or the weather is changed by Delta Stream or Desolate Land.",
@@ -1750,6 +1754,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	triage: {
 		name: "Triage",
 		shortDesc: "This Pokemon's healing moves have their priority increased by 3.",
+	},
+	tropicalcurrent: {
+		name: "Tropical Current",
+		desc: "This Pokemon is immune to Ice-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Ice-type move.",
+		shortDesc: "This Pokemon heals 1/4 of its max HP when hit by Ice moves; Ice immunity.",
 	},
 	truant: {
 		name: "Truant",

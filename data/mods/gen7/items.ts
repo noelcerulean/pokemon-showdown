@@ -579,6 +579,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	tealorb: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	toxicplate: {
 		inherit: true,
 		isNonstandard: null,

@@ -1913,6 +1913,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	phione: {
 		name: "Phione",
 	},
+	phioneprimal: {
+		name: "Phione-Primal",
+	},
 	manaphy: {
 		name: "Manaphy",
 	},

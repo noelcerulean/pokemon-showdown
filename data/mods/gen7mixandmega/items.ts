@@ -19,6 +19,26 @@ export const Items: {[k: string]: ModdedItemData} = {
 		},
 		onTakeItem: false,
 	},
+	tealorb: {
+		inherit: true,
+		onSwitchIn(pokemon) {
+			if (pokemon.isActive && !pokemon.species.isPrimal) {
+				this.queue.insertChoice({pokemon, choice: 'runPrimal'});
+			}
+		},
+		onPrimal(pokemon) {
+			// @ts-ignore
+			const species: Species = this.actions.getMixedSpecies(pokemon.m.originalSpecies, 'Phione-Primal');
+			if (pokemon.m.originalSpecies === 'Phione') {
+				pokemon.formeChange(species, this.effect, true);
+			} else {
+				pokemon.formeChange(species, this.effect, true);
+				pokemon.baseSpecies = species;
+				this.add('-start', pokemon, 'Teal Orb', '[silent]');
+			}
+		},
+		onTakeItem: false,
+	},
 	redorb: {
 		inherit: true,
 		onSwitchIn(pokemon) {

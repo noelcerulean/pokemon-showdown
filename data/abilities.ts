@@ -3004,6 +3004,16 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2.5,
 		num: 46,
 	},
+	primaltide: {
+		onModifyMove(move) {
+			if (move?.type === 'Water') {
+				move.accuracy = true;
+			}
+		},
+		name: "Primal Tide",
+		rating: 4,
+		num: -524,
+	},
 	primordialsea: {
 		onStart(source) {
 			this.field.setWeather('primordialsea');
@@ -4557,6 +4567,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Triage",
 		rating: 3.5,
 		num: 205,
+	},
+	tropicalcurrent: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Ice') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Tropical Current');
+				}
+				return null;
+			}
+		},
+		isBreakable: true,
+		name: "Tropical Current",
+		rating: 3.5,
+		num: -523,
 	},
 	truant: {
 		onStart(pokemon) {

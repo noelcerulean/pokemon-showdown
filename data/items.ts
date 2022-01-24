@@ -5479,6 +5479,26 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 1117,
 		gen: 8,
 	},
+	tealorb: {
+		name: "Teal Orb",
+		spritenum: 744,
+		onSwitchIn(pokemon) {
+			if (pokemon.isActive && pokemon.baseSpecies.name === 'Phione') {
+				this.queue.insertChoice({choice: 'runPrimal', pokemon: pokemon});
+			}
+		},
+		onPrimal(pokemon) {
+			pokemon.formeChange('Phione-Primal', this.effect, true);
+		},
+		onTakeItem(item, source) {
+			if (source.baseSpecies.baseSpecies === 'Phione') return false;
+			return true;
+		},
+		itemUser: ["Phione"],
+		num: -503,
+		gen: 7,
+		isNonstandard: "Past",
+	},
 	terrainextender: {
 		name: "Terrain Extender",
 		spritenum: 662,

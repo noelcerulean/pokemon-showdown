@@ -1734,6 +1734,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Tart Apple",
 		desc: "Evolves Applin into Flapple when used.",
 	},
+	tealorb: {
+		name: "Teal Orb",
+		desc: "If held by a Phione, this item triggers its Primal Reversion in battle.",
+	},
 	terrainextender: {
 		name: "Terrain Extender",
 		desc: "Holder's use of Electric/Grassy/Misty/Psychic Terrain lasts 8 turns instead of 5.",
