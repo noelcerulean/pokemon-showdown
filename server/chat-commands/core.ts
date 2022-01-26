@@ -121,6 +121,7 @@ const avatarTable = new Set([
 	'dakim-event',
 	'daisy-gen3',
 	'dancer',
+	'dani',
 	'darach',
 	'dawn-gen4pt', 'dawn',
 	'depotagent',
