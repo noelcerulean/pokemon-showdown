@@ -8501,6 +8501,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoItem: "Razor Fang",
 		evoCondition: "at night",
 		eggGroups: ["Bug"],
+		cosmeticFormes: ["Gliscor-Grimm"],
+		formeOrder: ["Gliscor", "Gliscor-Grimm"],
 	},
 	mamoswine: {
 		num: 473,
