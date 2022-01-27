@@ -443,6 +443,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	cloyster: {
 		name: "Cloyster",
 	},
+	turbann: {
+		name: "Turbann",
+	},
 	gastly: {
 		name: "Gastly",
 	},

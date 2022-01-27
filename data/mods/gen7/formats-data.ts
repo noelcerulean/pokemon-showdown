@@ -594,6 +594,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	turbann: {
+		randomBattleMoves: ["explosion", "icefang", "liquidation", "rapidspin", "spikes", "toxicspikes"],
+		randomDoubleBattleMoves: ["iciclespear", "liquidation", "protect", "rockblast", "shellsmash"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	gastly: {
 		tier: "LC",
 	},

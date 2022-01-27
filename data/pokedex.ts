@@ -2098,7 +2098,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 0.3,
 		weightkg: 4,
 		color: "Purple",
-		evos: ["Cloyster"],
+		evos: ["Cloyster", "Turbann"],
 		eggGroups: ["Water 3"],
 	},
 	cloyster: {
@@ -2113,6 +2113,19 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Shellder",
 		evoType: "useItem",
 		evoItem: "Water Stone",
+		eggGroups: ["Water 3"],
+	},
+	turbann: {
+		num: -504,
+		name: "Turbann",
+		types: ["Water"],
+		baseStats: {hp: 50, atk: 95, def: 180, spa: 70, spd: 85, spe: 45},
+		abilities: {0: "Shell Armor", 1: "Poison Point", H: "Overcoat"},
+		heightm: 1.5,
+		weightkg: 132.5,
+		color: "Purple",
+		prevo: "Shellder",
+		evoLevel: 37,
 		eggGroups: ["Water 3"],
 	},
 	gastly: {

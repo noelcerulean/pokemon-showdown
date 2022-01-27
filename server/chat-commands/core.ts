@@ -345,6 +345,7 @@ const avatarTable = new Set([
 	'twins-gen2', 'twins-gen3', 'twins-gen3rs', 'twins-gen4dp', 'twins-gen4', 'twins',
 	'unknownf',
 	'unknown',
+	'valentina',
 	'venus',
 	'venus-event',
 	'veteranf',

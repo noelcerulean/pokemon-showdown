@@ -773,6 +773,15 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	turbann: {
+		randomBattleMoves: ["explosion", "icefang", "liquidation", "rapidspin", "spikes", "toxicspikes"],
+		randomBattleLevel: 80,
+		randomDoubleBattleMoves: ["iciclespear", "liquidation", "protect", "rockblast", "shellsmash"],
+		randomDoubleBattleLevel: 84,
+		randomBattleNoDynamaxMoves: ["explosion", "icefang", "liquidation", "rapidspin", "spikes", "toxicspikes"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	gastly: {
 		tier: "NFE",
 	},
