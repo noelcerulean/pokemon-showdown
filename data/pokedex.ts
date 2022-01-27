@@ -10603,6 +10603,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 5,
 		color: "White",
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Emolga-Patches"],
+		formeOrder: ["Emolga", "Emolga-Patches"],
 	},
 	karrablast: {
 		num: 588,
