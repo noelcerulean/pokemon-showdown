@@ -6776,8 +6776,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	toxicthread: {
 		name: "Toxic Thread",
-		desc: "Lowers the target's Speed by 2 stages, traps it, and poisons it. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
-		shortDesc: "Traps target, poisons, and lowers its speed by 2.",
+		desc: "Lowers the target's Speed by 2 stages and poisons it.",
+		shortDesc: "Poisons target and lowers its speed by 2 stages.",
 	},
 	transform: {
 		name: "Transform",

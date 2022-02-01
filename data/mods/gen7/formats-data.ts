@@ -282,7 +282,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	wigglytuff: {
 		randomBattleMoves: ["fireblast", "healbell", "hypervoice", "icebeam", "lightscreen", "moonblast", "moonlight", "protect", "psychic", "reflect", "seismictoss", "stealthrock", "thunderwave", "toxic", "wish"],
-		randomDoubleBattleMoves: ["boomburst", "fireblast", "followme", "lightscreen", "moonblast", "protect", "psychic", "reflect", "stealthrock", "thunderwave"],
+		randomDoubleBattleMoves: ["fireblast", "followme", "lightscreen", "moonblast", "protect", "psychic", "reflect", "stealthrock", "thunderwave"],
 		tier: "UUBL",
 		doublesTier: "DUU",
 	},
@@ -1346,7 +1346,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["dracometeor", "fireblast", "glare", "hurricane", "roost"],
 		randomDoubleBattleMoves: ["airslash", "dracometeor", "fireblast", "followme", "helpinghand", "icywind", "protect", "roost", "wideguard"],
 		tier: "OU",
-		doublesTier: "DOU",
+		doublesTier: "DUber",
 	},
 	soarsparcealfred: {
 		tier: "Uber",
@@ -2844,7 +2844,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["bubbleprison", "calmmind", "icebeam", "originpulse", "rest", "scald", "sleeptalk", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["calmmind", "icebeam", "icywind", "originpulse", "protect"],
 		tier: "OU",
-		doublesTier: "DOU",
+		doublesTier: "DUber",
 	},
 	manaphy: {
 		randomBattleMoves: ["energyball", "icebeam", "psychic", "surf", "tailglow"],
@@ -3436,8 +3436,8 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	klinklang: {
-		randomBattleMoves: ["earthquake", "geargrind", "rapidspin", "shiftgear", "substitute", "wildcharge"],
-		randomDoubleBattleMoves: ["earthquake", "geargrind", "protect", "rapidspin", "shiftgear", "wildcharge"],
+		randomBattleMoves: ["geargrind", "highhorsepower", "rapidspin", "shiftgear", "substitute", "wildcharge"],
+		randomDoubleBattleMoves: ["geargrind", "highhorsepower", "protect", "rapidspin", "shiftgear", "wildcharge"],
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},

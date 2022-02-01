@@ -12578,7 +12578,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		secondary: null,
 		target: "normal",
 		type: "Grass",
-		zMove: {boost: {def: 1, spd: 1}},
+		zMove: {boost: {atk: 1, spa: 1}},
 		contestType: "Clever",
 	},
 	partingshot: {
@@ -20262,9 +20262,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
-		onHit(target, source, move) {
-			return target.addVolatile('trapped', source, move, 'trapper');
-		},
 		secondaries: [
 			{
 				chance: 100,
