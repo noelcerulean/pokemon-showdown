@@ -9987,7 +9987,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Petilil",
 		types: ["Grass"],
 		gender: "F",
-		baseStats: {hp: 45, atk: 35, def: 50, spa: 85, spd: 50, spe: 65},
+		baseStats: {hp: 45, atk: 35, def: 50, spa: 75, spd: 50, spe: 65},
 		abilities: {0: "Chlorophyll", 1: "Own Tempo", H: "Leaf Guard"},
 		heightm: 0.5,
 		weightkg: 6.6,

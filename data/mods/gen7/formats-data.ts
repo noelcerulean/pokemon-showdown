@@ -1318,7 +1318,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	wobbuffet: {
 		randomBattleMoves: ["counter", "destinybond", "encore", "mirrorcoat"],
 		randomDoubleBattleMoves: ["charm", "counter", "encore", "mirrorcoat"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	girafarig: {
@@ -3326,7 +3326,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	gothitelle: {
 		randomBattleMoves: ["charm", "confide", "rest", "taunt"],
 		randomDoubleBattleMoves: ["charm", "healpulse", "protect", "psychic", "shadowball", "taunt", "thunderbolt", "trickroom"],
-		tier: "(PU)",
+		tier: "OU",
 		doublesTier: "DOU",
 	},
 	solosis: {
