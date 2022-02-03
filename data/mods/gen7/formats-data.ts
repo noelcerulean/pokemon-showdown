@@ -3988,7 +3988,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	aurorus: {
 		randomBattleMoves: ["ancientpower", "blizzard", "earthpower", "freezedry", "hypervoice", "stealthrock", "thunderwave"],
 		randomDoubleBattleMoves: ["ancientpower", "earthpower", "freezedry", "hypervoice", "icywind", "protect", "thunderwave"],
-		tier: "PU",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	sylveon: {
