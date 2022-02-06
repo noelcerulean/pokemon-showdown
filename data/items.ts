@@ -1445,6 +1445,16 @@ export const Items: {[itemid: string]: ItemData} = {
 		fling: {
 			basePower: 80,
 		},
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (
+				move && (user.baseSpecies.num === 466) &&
+				(move.type === 'Electric')
+			) {
+				return this.chainModify(1.5);
+			}
+		},
+		itemUser: ["Electivire"],
 		num: 322,
 		gen: 4,
 	},
@@ -3137,6 +3147,16 @@ export const Items: {[itemid: string]: ItemData} = {
 		fling: {
 			basePower: 80,
 		},
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (
+				move && (user.baseSpecies.num === 467) &&
+				(move.type === 'Fire')
+			) {
+				return this.chainModify(1.5);
+			}
+		},
+		itemUser: ["Magmortar"],
 		num: 323,
 		gen: 4,
 	},

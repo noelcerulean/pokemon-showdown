@@ -860,9 +860,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	electivire: {
-		randomBattleMoves: ["crosschop", "earthquake", "flamethrower", "icepunch", "lightningkick", "voltswitch"],
-		randomDoubleBattleMoves: ["crosschop", "flamethrower", "followme", "icepunch", "lightningkick", "protect", "stompingtantrum"],
-		tier: "(PU)",
+		randomBattleMoves: ["bulletpunch", "closecombat", "earthquake", "flamethrower", "icepunch", "lightningkick", "voltswitch"],
+		randomDoubleBattleMoves: ["closecombat", "flamethrower", "followme", "icepunch", "lightningkick", "protect", "stompingtantrum"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	magby: {
@@ -872,9 +872,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	magmortar: {
-		randomBattleMoves: ["earthquake", "fireblast", "focusblast", "hiddenpowergrass", "hiddenpowerice", "substitute", "thunderbolt"],
-		randomDoubleBattleMoves: ["fireblast", "followme", "heatwave", "hiddenpowergrass", "hiddenpowerice", "protect", "taunt", "thunderbolt", "willowisp"],
-		tier: "NU",
+		randomBattleMoves: ["aurasphere", "earthquake", "energyball", "hiddenpowerice", "searingshot", "substitute", "thunderbolt"],
+		randomDoubleBattleMoves: ["aurasphere", "energyball", "followme", "heatwave", "hiddenpowerice", "searingshot", "protect", "taunt", "thunderbolt", "willowisp"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	pinsir: {
@@ -2175,8 +2175,8 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	dusknoir: {
-		randomBattleMoves: ["drainpunch", "earthquake", "focuspunch", "icepunch", "painsplit", "shadowsneak", "substitute", "willowisp"],
-		randomDoubleBattleMoves: ["allyswitch", "helpinghand", "icepunch", "painsplit", "protect", "shadowsneak", "trickroom", "willowisp"],
+		randomBattleMoves: ["drainpunch", "earthquake", "icepunch", "painsplit", "shadowsneak", "spectralthief", "substitute", "willowisp"],
+		randomDoubleBattleMoves: ["allyswitch", "helpinghand", "icepunch", "painsplit", "protect", "shadowsneak", "spectralthief", "trickroom", "willowisp"],
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
@@ -3118,7 +3118,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	audinomega: {
 		randomBattleMoves: ["calmmind", "fireblast", "healbell", "moonblast", "protect", "wish"],
 		randomDoubleBattleMoves: ["healpulse", "helpinghand", "hypervoice", "moonblast", "protect", "seismictoss", "thunderwave", "trickroom"],
-		tier: "Uber",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	timburr: {

@@ -2477,6 +2477,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 152,
 	},
+	mysticpower: {
+		onModifySpAPriority: 5,
+		onModifySpA(spa) {
+			return this.chainModify(2);
+		},
+		name: "Mystic Power",
+		rating: 5,
+		num: -525,
+	},
 	naturalcure: {
 		onCheckShow(pokemon) {
 			// This is complicated

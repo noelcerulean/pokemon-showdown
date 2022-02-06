@@ -930,6 +930,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		changeAbility: "  [TARGET]'s Ability became Mummy!",
 	},
+	mysticpower: {
+		name: "Mystic Power",
+		shortDesc: "This Pokemon's Sp. Attack is doubled.",
+	},
 	naturalcure: {
 		name: "Natural Cure",
 		shortDesc: "This Pokemon has its non-volatile status condition cured when it switches out.",

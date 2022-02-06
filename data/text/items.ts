@@ -432,7 +432,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	electirizer: {
 		name: "Electirizer",
-		desc: "Evolves Electabuzz into Electivire when traded.",
+		desc: "If held by Electivire, its Electric-type moves have 1.5x power.",
 	},
 	electricgem: {
 		name: "Electric Gem",
@@ -997,7 +997,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	magmarizer: {
 		name: "Magmarizer",
-		desc: "Evolves Magmar into Magmortar when traded.",
+		desc: "If held by Magmortar, its Fire-type moves have 1.5x power.",
 	},
 	magnet: {
 		name: "Magnet",
