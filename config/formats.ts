@@ -86,7 +86,7 @@ export const Formats: FormatList = [
 		banlist: ['Baton Pass'],
 	},
 	{
-		name: "[Gen 7] Multi Battle",
+		name: "[Gen 7] Multi Battle FnF",
 
 		mod: 'gen7',
 		gameType: 'multi',
