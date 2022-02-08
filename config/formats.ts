@@ -96,11 +96,8 @@ export const Formats: FormatList = [
 		],
 	},
 	{
-		name: "[Gen 7] Free-For-All",
+		name: "[Gen 7] Free-For-All Battle",
 		desc: `4 players fight each other in a free for all match.`,
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3681641/">Free-For-All</a>`,
-		],
 
 		mod: 'gen7',
 		gameType: 'freeforall',
