@@ -1071,6 +1071,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: -513,
 	},
+	escapeartist: {
+		onBasePowerPriority: 19,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.id === 'flipturn' || move.id === 'shadowpivot' || move.id === 'uturn' || move.id === 'voltswitch') {
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Escape Artist",
+		rating: 4,
+		num: -526,
+	},
 	fairyaura: {
 		onStart(pokemon) {
 			if (this.suppressingAbility(pokemon)) return;

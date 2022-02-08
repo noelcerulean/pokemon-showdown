@@ -380,6 +380,7 @@ export const Aliases: {[alias: string]: string} = {
 	maractusbald: "Maractus",
 	gliscorgrimm: "Gliscor",
 	emolgapatches: "Emolga",
+	spiritombpepper: "Spiritomb",
 
 	alcremierubycream: "Alcremie",
 	alcremiematchacream: "Alcremie",

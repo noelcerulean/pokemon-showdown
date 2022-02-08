@@ -387,6 +387,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Erratic Flight",
 		shortDesc: "This Pokemon's contact moves have a 100% chance of confusing.",
 	},
+	escapeartist: {
+		name: "Escape Artist",
+		desc: "This Pokemon's pivot moves have their power multiplied by 1.5.",
+		shortDesc: "This Pokemon's pivot moves have 1.5x power.",
+	},
 	fairyaura: {
 		name: "Fairy Aura",
 		desc: "While this Pokemon is active, the power of Fairy-type moves used by active Pokemon is multiplied by 1.33.",
