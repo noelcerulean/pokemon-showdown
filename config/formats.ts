@@ -602,7 +602,7 @@ export const Formats: FormatList = [
 	},
 
 	{
-		name: "[Gen 8] Random Battle",
+		name: "[Gen 8] SwSh Random Battle",
 		desc: `Randomized teams of level-balanced Pok&eacute;mon with sets that are generated to be competitively viable.`,
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3656537/">Random Battle Suggestions</a>`,
@@ -720,15 +720,15 @@ export const Formats: FormatList = [
 	},
 
 
-	// Past Gens OU
+	// Other Gens OU
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "Past Gens OU",
+		section: "Other Gens OU",
 		column: 4,
 	},
 	{
-		name: "[Gen 8] OU",
+		name: "[Gen 8] SwSh OU",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
