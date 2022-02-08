@@ -10613,7 +10613,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Emolga",
 		types: ["Electric", "Flying"],
 		baseStats: {hp: 60, atk: 95, def: 65, spa: 95, spd: 65, spe: 128},
-		abilities: {0: "Static", 1: "Escape Artist", H: "Motor Drive"},
+		abilities: {0: "Static", 1: "Escape Artist", H: "Lightning Rod"},
 		heightm: 0.4,
 		weightkg: 5,
 		color: "White",
