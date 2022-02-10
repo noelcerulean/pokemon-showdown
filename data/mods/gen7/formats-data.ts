@@ -2145,9 +2145,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["blizzard", "fireblast", "hail", "thunderbolt"],
 	},
 	kecleon: {
-		randomBattleMoves: ["drainpunch", "fakeout", "knockoff", "recover", "shadowsneak", "stealthrock", "suckerpunch"],
+		randomBattleMoves: ["drainpunch", "fakeout", "irondefense", "knockoff", "recover", "shadowsneak", "stealthrock", "suckerpunch"],
 		randomDoubleBattleMoves: ["drainpunch", "fakeout", "knockoff", "protect", "shadowsneak", "trickroom"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	kecleongenocalypse: {
