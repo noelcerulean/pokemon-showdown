@@ -1033,9 +1033,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "DUber",
 	},
 	articuno: {
-		randomBattleMoves: ["freezedry", "hurricane", "roost", "substitute", "toxic"],
+		randomBattleMoves: ["calmmind", "chillingrime", "freezedry", "hurricane", "roost", "substitute", "toxic"],
 		randomDoubleBattleMoves: ["freezedry", "hurricane", "protect", "roost", "tailwind"],
-		tier: "PU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	zapdos: {

@@ -796,6 +796,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "For Chatot, 31% chance to confuse the target.",
 		},
 	},
+	chillingrime: {
+		name: "Chilling Rime",
+		desc: "Freezes the target.",
+		shortDesc: "Freezes the target.",
+	},
 	chipaway: {
 		name: "Chip Away",
 		desc: "Ignores the target's stat stage changes, including evasiveness.",
