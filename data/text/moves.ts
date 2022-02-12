@@ -1428,7 +1428,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	dragonhammer: {
 		name: "Dragon Hammer",
-		shortDesc: "No additional effect.",
+		desc: "Has a 10% chance to lower the target's Defense by 1 stage.",
+		shortDesc: "10% chance to lower the foe's Def by 1.",
 	},
 	dragonpulse: {
 		name: "Dragon Pulse",

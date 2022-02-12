@@ -336,6 +336,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["explosion", "icebeam", "spikes", "surf", "toxic"],
 		tier: "OU",
 	},
+	turbann: {
+		randomBattleMoves: ["explosion", "icebeam", "rapidspin", "spikes", "surf", "toxic"],
+		tier: "OU",
+	},
 	gastly: {
 		tier: "NU",
 	},

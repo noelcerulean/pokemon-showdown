@@ -11074,7 +11074,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 621,
 		name: "Druddigon",
 		types: ["Dragon"],
-		baseStats: {hp: 77, atk: 120, def: 90, spa: 60, spd: 90, spe: 48},
+		baseStats: {hp: 77, atk: 130, def: 105, spa: 60, spd: 90, spe: 58},
 		abilities: {0: "Rough Skin", 1: "Sheer Force", H: "Mold Breaker"},
 		heightm: 1.6,
 		weightkg: 139,

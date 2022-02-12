@@ -3529,9 +3529,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "DUU",
 	},
 	druddigon: {
-		randomBattleMoves: ["dragontail", "earthquake", "firepunch", "glare", "gunkshot", "outrage", "stealthrock", "suckerpunch"],
+		randomBattleMoves: ["dragonhammer", "dragontail", "earthquake", "firepunch", "glare", "gunkshot", "outrage", "stealthrock", "suckerpunch"],
 		randomDoubleBattleMoves: ["dragonclaw", "earthquake", "firepunch", "glare", "protect", "suckerpunch", "superpower", "thunderpunch"],
-		tier: "NU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	golett: {
