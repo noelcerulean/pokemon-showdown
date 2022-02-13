@@ -1256,8 +1256,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	rivalry: {
 		name: "Rivalry",
-		desc: "This Pokemon's attacks have their power multiplied by 1.25 against targets of the same gender or multiplied by 0.75 against targets of the opposite gender. There is no modifier if either this Pokemon or the target is genderless.",
-		shortDesc: "This Pokemon's attacks do 1.25x on same gender targets; 0.75x on opposite gender.",
+		desc: "This Pokemon's attacks have their power multiplied by 1.2 against targets who share a type with it.",
+		shortDesc: "This Pokemon's attacks do 1.2x against targets it shares a type with.",
 	},
 	rkssystem: {
 		name: "RKS System",

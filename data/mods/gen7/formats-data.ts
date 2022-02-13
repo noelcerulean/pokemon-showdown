@@ -1668,7 +1668,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	beautifly: {
 		randomBattleMoves: ["bugbuzz", "energyball", "hiddenpowerfighting", "psychic", "quiverdance"],
 		randomDoubleBattleMoves: ["aircutter", "bugbuzz", "protect", "quiverdance", "stringshot", "tailwind"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	cascoon: {
@@ -1677,7 +1677,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	dustox: {
 		randomBattleMoves: ["bugbuzz", "defog", "quiverdance", "roost", "sludgebomb", "uturn"],
 		randomDoubleBattleMoves: ["bugbuzz", "protect", "sludgebomb", "stringshot", "strugglebug", "tailwind"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	lotad: {

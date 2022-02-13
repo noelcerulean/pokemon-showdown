@@ -507,12 +507,13 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['[Gen 7] OU', '2 Ability Clause', '!Obtainable Abilities'],
-		banlist: ['Archeops', 'Buzzwole', 'Dragonite', 'Hoopa-Unbound', 'Kartana', 'Keldeo', 'Kyurem-Black', 'Regigigas', 'Shedinja', 'Slaking', 'Terrakion', 'Weavile', 'Victini'],
-		unbanlist: ['Aegislash', 'Blaziken', 'Genesect', 'Landorus-Base', 'Metagross-Mega', 'Naganadel', 'Pheromosa'],
-		restricted: [
+		banlist: [
+			'Archeops', 'Buzzwole', 'Dragonite', 'Hoopa-Unbound', 'Kartana', 'Keldeo', 'Kyurem-Black', 'Regigigas', 'Shedinja', 'Slaking', 'Terrakion', 'Weavile', 'Victini',
 			'Bagwormicade', 'Comatose', 'Contrary', 'Fluffy', 'Fur Coat', 'Huge Power', 'Illusion', 'Imposter', 'Inflate', 'Innards Out',
-			'Magnet Pull', 'Parental Bond', 'Protean', 'Pure Power', 'Simple', 'Speed Boost', 'Stakeout', 'Water Bubble', 'Wonder Guard',
+			'Magnet Pull', 'Mystic Power', 'Parental Bond', 'Protean', 'Pure Power', 'Simple', 'Speed Boost', 'Stakeout', 'Water Bubble', 'Wind Chime', 'Wonder Guard',
+			'Shadow Armor', 'Shadow Conduction', 'Shadow Convection', 'Shadow Dust', 'Shadow Hydraulics', 'Shadow Rebirth',
 		],
+		unbanlist: ['Aegislash', 'Blaziken', 'Genesect', 'Landorus-Base', 'Metagross-Mega', 'Naganadel', 'Pheromosa'],
 	},
 	{
 		name: "[Gen 7] Balanced Hackmons",
