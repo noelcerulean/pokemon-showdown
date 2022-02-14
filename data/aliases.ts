@@ -381,6 +381,9 @@ export const Aliases: {[alias: string]: string} = {
 	gliscorgrimm: "Gliscor",
 	emolgapatches: "Emolga",
 	spiritombpepper: "Spiritomb",
+	flygonwinter: "Flygon",
+	vibravawinter: "Vibrava",
+	trapinchwinter: "Trapinch",
 
 	alcremierubycream: "Alcremie",
 	alcremiematchacream: "Alcremie",

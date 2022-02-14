@@ -6149,8 +6149,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		evos: ["Vibrava"],
 		eggGroups: ["Bug", "Dragon"],
-		cosmeticFormes: ["Trapinch-Hat"],
-		formeOrder: ["Trapinch", "Trapinch-Hat"],
+		cosmeticFormes: ["Trapinch-Hat", "Trapinch-Winter"],
+		formeOrder: ["Trapinch", "Trapinch-Hat", "Trapinch-Winter"],
 	},
 	vibrava: {
 		num: 329,
@@ -6165,6 +6165,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 35,
 		evos: ["Flygon"],
 		eggGroups: ["Bug", "Dragon"],
+		cosmeticFormes: ["Vibrava-Winter"],
+		formeOrder: ["Vibrava", "Vibrava-Winter"],
 	},
 	flygon: {
 		num: 330,
@@ -6178,6 +6180,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Vibrava",
 		evoLevel: 45,
 		eggGroups: ["Bug", "Dragon"],
+		cosmeticFormes: ["Flygon-Winter"],
+		formeOrder: ["Flygon", "Flygon-Winter"],
 	},
 	cacnea: {
 		num: 331,
