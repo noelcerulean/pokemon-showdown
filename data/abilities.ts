@@ -2264,6 +2264,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 178,
 	},
+	melodyallegretto: {
+		onModifyPriority(priority, pokemon, target, move) {
+			if (move?.flags['sound']) return priority + 3;
+		},
+		name: "Melody Allegretto",
+		rating: 3.5,
+		num: -504,
+	},
 	merciless: {
 		onModifyCritRatio(critRatio, source, target) {
 			if (target && ['psn', 'tox'].includes(target.status)) return 5;
@@ -4898,14 +4906,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Wimp Out",
 		rating: 1,
 		num: 193,
-	},
-	windchime: {
-		onModifyPriority(priority, pokemon, target, move) {
-			if (move?.flags['sound']) return priority + 3;
-		},
-		name: "Wind Chime",
-		rating: 3.5,
-		num: -504,
 	},
 	wonderguard: {
 		onTryHit(target, source, move) {

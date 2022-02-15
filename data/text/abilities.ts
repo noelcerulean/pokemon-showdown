@@ -837,6 +837,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon's pulse moves have their power multiplied by 1.5. Heal Pulse restores 3/4 of a target's maximum HP, rounded half down.",
 		shortDesc: "This Pokemon's pulse moves have 1.5x power. Heal Pulse heals 3/4 target's max HP.",
 	},
+	melodyallegretto: {
+		name: "Melody Allegretto",
+		shortDesc: "This Pokemon's sound-based moves have their priority increased by 3.",
+	},
 	merciless: {
 		name: "Merciless",
 		shortDesc: "This Pokemon's attacks are critical hits if the target is poisoned.",
@@ -1872,10 +1876,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Wimp Out",
 		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage bringing it to 1/2 or less of its maximum HP, it immediately switches out to a chosen ally. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect. This effect applies to both direct and indirect damage, except Curse and Substitute on use, Belly Drum, Pain Split, and confusion damage.",
 		shortDesc: "This Pokemon switches out when it reaches 1/2 or less of its maximum HP.",
-	},
-	windchime: {
-		name: "Wind Chime",
-		shortDesc: "This Pokemon's sound-based moves have their priority increased by 3.",
 	},
 	wonderguard: {
 		name: "Wonder Guard",

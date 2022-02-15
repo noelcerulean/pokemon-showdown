@@ -2474,9 +2474,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	kricketune: {
-		randomBattleMoves: ["endeavor", "knockoff", "leechlife", "stickyweb", "taunt", "toxic"],
-		randomDoubleBattleMoves: ["knockoff", "leechlife", "protect", "stickyweb", "taunt"],
-		tier: "(PU)",
+		randomBattleMoves: ["bugbuzz", "endeavor", "knockoff", "leechlife", "stickyweb", "taunt", "toxic", "uturn"],
+		randomDoubleBattleMoves: ["bugbuzz", "knockoff", "leechlife", "protect", "stickyweb", "taunt"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	shinx: {
