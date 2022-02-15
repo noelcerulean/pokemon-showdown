@@ -6950,6 +6950,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "No additional effect.",
 		shortDesc: "Usually goes first.",
 	},
+	vaporize: {
+		name: "Vaporize",
+		desc: "Has a 10% chance to burn the target. This move's type effectiveness against Water is changed to be super effective no matter what this move's type is.",
+		shortDesc: "10% chance to burn. Super effective on Water.",
+	},
 	vcreate: {
 		name: "V-create",
 		desc: "Lowers the user's Speed, Defense, and Special Defense by 1 stage.",

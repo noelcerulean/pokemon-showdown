@@ -20694,6 +20694,26 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fighting",
 		contestType: "Cool",
 	},
+	vaporize: {
+		num: -521,
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		name: "Vaporize",
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Water') return 1;
+		},
+		secondary: {
+			chance: 10,
+			status: 'brn',
+		},
+		target: "normal",
+		type: "Fire",
+		contestType: "Beautiful",
+	},
 	vcreate: {
 		num: 557,
 		accuracy: 95,

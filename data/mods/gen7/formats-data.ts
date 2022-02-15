@@ -1982,15 +1982,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	camerupt: {
-		randomBattleMoves: ["earthpower", "fireblast", "hiddenpowergrass", "lavaplume", "roar", "rockpolish", "stealthrock", "stoneedge"],
-		randomDoubleBattleMoves: ["earthpower", "fireblast", "heatwave", "incinerate", "protect", "stealthrock"],
-		tier: "(PU)",
+		randomBattleMoves: ["earthpower", "fireblast", "hiddenpowergrass", "roar", "rockpolish", "stealthrock", "stoneedge", "vaporize"],
+		randomDoubleBattleMoves: ["earthpower", "fireblast", "heatwave", "incinerate", "protect", "stealthrock", "vaporize"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	cameruptmega: {
-		randomBattleMoves: ["ancientpower", "earthpower", "fireblast", "stealthrock", "toxic", "willowisp"],
-		randomDoubleBattleMoves: ["earthpower", "fireblast", "heatwave", "protect", "rockslide"],
-		tier: "NUBL",
+		randomBattleMoves: ["earthpower", "fireblast", "prehistoricpulse", "stealthrock", "vaporize"],
+		randomDoubleBattleMoves: ["earthpower", "fireblast", "heatwave", "protect", "rockslide", "vaporize"],
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	torkoal: {
