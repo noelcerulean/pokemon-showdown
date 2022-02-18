@@ -1762,9 +1762,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	masquerain: {
-		randomBattleMoves: ["airslash", "bugbuzz", "hydropump", "quiverdance", "stickyweb"],
-		randomDoubleBattleMoves: ["airslash", "bugbuzz", "hydropump", "protect", "quiverdance", "stickyweb", "strugglebug", "tailwind"],
-		tier: "(PU)",
+		randomBattleMoves: ["airslash", "bugbuzz", "gigadrain", "glare", "hydropump", "icebeam", "quiverdance", "stickyweb"],
+		randomDoubleBattleMoves: ["airslash", "bugbuzz", "glare", "hydropump", "icebeam", "protect", "quiverdance", "stickyweb", "strugglebug", "tailwind"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	shroomish: {

@@ -2145,7 +2145,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			return true;
 		},
 		itemUser: ["Granbull-Armored"],
-		num: -504,
+		num: -505,
 		gen: 7,
 	},
 	grassgem: {
@@ -5526,7 +5526,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			return true;
 		},
 		itemUser: ["Phione"],
-		num: -503,
+		num: -504,
 		gen: 7,
 		isNonstandard: "Past",
 	},
