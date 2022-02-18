@@ -668,6 +668,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Gold Bottle Cap",
 		desc: "Used for Hyper Training. All of a Pokemon's stats are calculated with an IV of 31.",
 	},
+	granbullarmor: {
+		name: "Granbull Armor",
+		desc: "Armor developed by DoReMi for Granbull to enhance its battle capabilities.",
+		shortDesc: "Attach to Granbull-Armored forme (not base forme!!!) in the teambuilder.",
+	},
 	grassgem: {
 		name: "Grass Gem",
 		desc: "Holder's first successful Grass-type attack will have 1.3x power. Single use.",

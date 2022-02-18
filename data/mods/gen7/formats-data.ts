@@ -1377,7 +1377,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	granbull: {
 		randomBattleMoves: ["crunch", "earthquake", "healbell", "playrough", "thunderwave"],
 		randomDoubleBattleMoves: ["playrough", "protect", "snarl", "stompingtantrum", "thunderwave"],
-		tier: "(PU)",
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
+	granbullarmored: {
+		randomBattleMoves: ["agility", "closecombat", "crunch", "earthquake", "healbell", "playrough", "swordsdance", "thunderwave"],
+		randomDoubleBattleMoves: ["closecombat", "playrough", "protect", "snarl", "stompingtantrum", "thunderwave"],
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	qwilfish: {
@@ -3165,9 +3171,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	leavanny: {
-		randomBattleMoves: ["knockoff", "leafblade", "stickyweb", "swordsdance", "xscissor"],
-		randomDoubleBattleMoves: ["leafblade", "protect", "stickyweb", "swordsdance", "xscissor"],
-		tier: "(PU)",
+		randomBattleMoves: ["knockoff", "leafblade", "leechlife", "stickyweb", "sacredsword", "swordsdance", "xscissor"],
+		randomDoubleBattleMoves: ["leafblade", "leechlife", "protect", "sacredsword", "stickyweb", "swordsdance", "xscissor"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	venipede: {

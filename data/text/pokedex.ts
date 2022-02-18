@@ -899,6 +899,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	granbull: {
 		name: "Granbull",
 	},
+	granbullarmored: {
+		name: "Granbull-Armored",
+	},
 	qwilfish: {
 		name: "Qwilfish",
 	},
