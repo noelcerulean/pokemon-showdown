@@ -8784,6 +8784,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Restricted Legendary"],
 		color: "White",
 		eggGroups: ["Undiscovered"],
+		cosmeticFormes: ["Dialga-PMD"],
+		formeOrder: ["Dialga", "Dialga-PMD"],
 	},
 	palkia: {
 		num: 484,

@@ -49,8 +49,8 @@ export const Formats: FormatList = [
 		name: "[Gen 7] Story",
 
 		mod: 'gen7',
-		ruleset: ['Standard', 'Item Clause'],
-		banlist: ['Uber', 'Phione-Primal', 'Blaziken + Speed Boost', 'Greninja + Protean', 'Battle Bond', 'Landorus + Sheer Force', 'Power Construct', 'Baton Pass', 'Kommonium Z'],
+		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause'],
+		banlist: ['Phione-Primal', 'Blaziken + Speed Boost', 'Greninja + Protean', 'Battle Bond', 'Landorus + Sheer Force', 'Power Construct', 'Baton Pass', 'Kommonium Z'],
 	},
 	{
 		name: "[Gen 7] UU",
