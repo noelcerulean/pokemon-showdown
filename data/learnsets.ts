@@ -42075,7 +42075,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			bodyslam: ["7L1", "3T"],
 			brickbreak: ["7M", "6M", "5M", "4M", "3M"],
 			bulletpunch: ["7L1"],
-			calmmmind: ["7M"],
+			calmmind: ["7M"],
 			camouflage: ["7L30", "6L30"],
 			captivate: ["7L1", "4M"],
 			chargebeam: ["7M", "6M", "5M", "4M"],
