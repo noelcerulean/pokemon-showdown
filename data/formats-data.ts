@@ -1670,6 +1670,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	kurstraw: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	pangshi: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	unown: {
 		isNonstandard: "Past",
 		tier: "Illegal",

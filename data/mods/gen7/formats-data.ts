@@ -1307,6 +1307,18 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},
+	kurstraw: {
+		randomBattleMoves: ["nastyplot", "psychic", "shadowball", "substitute", "willowisp"],
+		randomDoubleBattleMoves: ["nastyplot", "psychic", "protect", "shadowball", "substitute", "willowisp"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
+	pangshi: {
+		randomBattleMoves: ["knockoff", "return", "shadowpunch", "shadowsneak", "strengthsap", "substitute", "swordsdance", "willowisp"],
+		randomDoubleBattleMoves: ["knockoff", "protect", "return", "shadowpunch", "strengthsap", "substitute", "swordsdance", "willowisp"],
+		tier: "OU",
+		doublesTier: "(DUU)",
+	},
 	unown: {
 		randomBattleMoves: ["hiddenpowerpsychic"],
 		tier: "(PU)",

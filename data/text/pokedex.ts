@@ -851,6 +851,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	misdreavus: {
 		name: "Misdreavus",
 	},
+	kurstraw: {
+		name: "Kurstraw",
+	},
+	pangshi: {
+		name: "Pangshi",
+	},
 	unown: {
 		name: "Unown",
 	},

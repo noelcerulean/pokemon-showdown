@@ -742,6 +742,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["meanlook", "painsplit", "perishsong", "psychic", "shadowball", "thief", "thunderbolt"],
 		tier: "OU",
 	},
+	kurstraw: {
+		randomBattleMoves: ["gigadrain", "meanlook", "painsplit", "perishsong", "psychic", "shadowball", "substitute"],
+		tier: "OU",
+	},
+	pangshi: {
+		randomBattleMoves: ["meanlook", "painsplit", "perishsong", "return", "shadowball"],
+		tier: "OU",
+	},
 	unown: {
 		randomBattleMoves: ["hiddenpowerpsychic"],
 		tier: "NU",
