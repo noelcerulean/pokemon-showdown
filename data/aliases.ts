@@ -387,6 +387,8 @@ export const Aliases: {[alias: string]: string} = {
 	vibravawinter: "Vibrava",
 	trapinchwinter: "Trapinch",
 	dialgapmd: "Dialga",
+	kurstrawmelon: "Kurstraw",
+	pangshimelon: "Pangshi",
 
 	alcremierubycream: "Alcremie",
 	alcremiematchacream: "Alcremie",

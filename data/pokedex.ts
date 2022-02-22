@@ -4052,6 +4052,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		evos: ["Pangshi"],
 		eggGroups: ["Amorphous"],
+		cosmeticFormes: ["Kurstraw-Melon"],
+		formeOrder: ["Kurstraw", "Kurstraw-Melon"],
 	},
 	pangshi: {
 		num: -506,
@@ -4065,6 +4067,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Kurstraw",
 		evoType: "levelFriendship",
 		eggGroups: ["Amorphous"],
+		cosmeticFormes: ["Pangshi-Melon"],
+		formeOrder: ["Pangshi", "Pangshi-Melon"],
 	},
 	unown: {
 		num: 201,
