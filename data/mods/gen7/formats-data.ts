@@ -1225,14 +1225,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	sudowoodo: {
-		randomBattleMoves: ["earthquake", "headsmash", "stealthrock", "suckerpunch", "toxic", "woodhammer"],
-		randomDoubleBattleMoves: ["headsmash", "helpinghand", "protect", "stealthrock", "stompingtantrum", "suckerpunch", "woodhammer"],
-		tier: "(PU)",
+		randomBattleMoves: ["earthquake", "headsmash", "rockpolish", "stealthrock", "suckerpunch", "toxic", "woodhammer"],
+		randomDoubleBattleMoves: ["headsmash", "helpinghand", "protect", "rockpolish", "stealthrock", "stompingtantrum", "suckerpunch", "woodhammer"],
+		tier: "UU",
 		doublesTier: "(DUU)",
-	},
-	sudowoodobusted: {
-		randomBattleMoves: ["earthquake", "headsmash", "stealthrock", "suckerpunch", "toxic", "woodhammer"],
-		randomDoubleBattleMoves: ["headsmash", "helpinghand", "protect", "stealthrock", "stompingtantrum", "suckerpunch", "woodhammer"],
 	},
 	hoppip: {
 		tier: "LC",

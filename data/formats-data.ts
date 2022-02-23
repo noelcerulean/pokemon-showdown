@@ -1597,7 +1597,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	sudowoodobusted: {},
 	hoppip: {
 		isNonstandard: "Past",
 		tier: "Illegal",
