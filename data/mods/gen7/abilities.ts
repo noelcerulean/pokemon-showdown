@@ -8,6 +8,15 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 			}
 		},
 	},
+	mimictree: {
+		inherit: true,
+		onUpdate(pokemon) {
+			if (['sudowoodo'].includes(pokemon.species.id) && this.effectState.busted) {
+				const speciesid = pokemon.species.id === 'Sudowoodo-Busted';
+				pokemon.formeChange('Sudowoodo-Busted', this.effect, true);
+			}
+		},
+	},
 	innerfocus: {
 		inherit: true,
 		rating: 1,

@@ -1310,7 +1310,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	kurstraw: {
 		randomBattleMoves: ["nastyplot", "psychic", "shadowball", "substitute", "willowisp"],
 		randomDoubleBattleMoves: ["nastyplot", "psychic", "protect", "shadowball", "substitute", "willowisp"],
-		tier: "UU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	pangshi: {
@@ -2002,13 +2002,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	camerupt: {
 		randomBattleMoves: ["earthpower", "fireblast", "hiddenpowergrass", "roar", "rockpolish", "stealthrock", "stoneedge", "vaporize"],
 		randomDoubleBattleMoves: ["earthpower", "fireblast", "heatwave", "incinerate", "protect", "stealthrock", "vaporize"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	cameruptmega: {
 		randomBattleMoves: ["earthpower", "fireblast", "prehistoricpulse", "stealthrock", "vaporize"],
 		randomDoubleBattleMoves: ["earthpower", "fireblast", "heatwave", "protect", "rockslide", "vaporize"],
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "DOU",
 	},
 	torkoal: {
@@ -3185,7 +3185,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	leavanny: {
 		randomBattleMoves: ["knockoff", "leafblade", "leechlife", "stickyweb", "sacredsword", "swordsdance", "xscissor"],
 		randomDoubleBattleMoves: ["leafblade", "leechlife", "protect", "sacredsword", "stickyweb", "swordsdance", "xscissor"],
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	venipede: {

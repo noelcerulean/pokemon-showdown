@@ -303,6 +303,7 @@ export const Aliases: {[alias: string]: string} = {
 	meowsticm: "Meowstic",
 	meowsticmale: "Meowstic",
 	mimikyudisguised: "Mimikyu",
+	sudowoododisguised: "Sudowoodo",
 	aegislashs: "Aegislash",
 	aegislashshield: "Aegislash",
 	pumpkabooaverage: "Pumpkaboo",

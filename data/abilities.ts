@@ -2333,6 +2333,53 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 0.5,
 		num: 250,
 	},
+	mimictree: {
+		onDamagePriority: 1,
+		onDamage(damage, target, source, effect) {
+			if (
+				effect && effect.effectType === 'Move' &&
+				['sudowoodo'].includes(target.species.id) && !target.transformed
+			) {
+				this.add('-activate', target, 'ability: Mimictree');
+				this.effectState.busted = true;
+				return 0;
+			}
+		},
+		onCriticalHit(target, source, move) {
+			if (!target) return;
+			if (!['sudowoodo'].includes(target.species.id) || target.transformed) {
+				return;
+			}
+			const hitSub = target.volatiles['substitute'] && !move.flags['authentic'] && !(move.infiltrates && this.gen >= 6);
+			if (hitSub) return;
+
+			if (!target.runImmunity(move.type)) return;
+			return false;
+		},
+		onEffectiveness(typeMod, target, type, move) {
+			if (!target || move.category === 'Status') return;
+			if (!['sudowoodo'].includes(target.species.id) || target.transformed) {
+				return;
+			}
+
+			const hitSub = target.volatiles['substitute'] && !move.flags['authentic'] && !(move.infiltrates && this.gen >= 6);
+			if (hitSub) return;
+
+			if (!target.runImmunity(move.type)) return;
+			return 0;
+		},
+		onUpdate(pokemon) {
+			if (['sudowoodo'].includes(pokemon.species.id) && this.effectState.busted) {
+				pokemon.formeChange('Sudowoodo-Busted', this.effect, true);
+				this.damage(pokemon.baseMaxhp / 8, pokemon, pokemon, this.dex.species.get('Sudowoodo-Busted'));
+			}
+		},
+		isBreakable: true,
+		isPermanent: true,
+		name: "Mimictree",
+		rating: 3.5,
+		num: -527,
+	},
 	minus: {
 		onModifySpAPriority: 5,
 		onModifySpA(spa, pokemon) {

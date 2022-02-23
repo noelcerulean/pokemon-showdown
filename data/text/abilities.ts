@@ -851,6 +851,18 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		activate: "  [POKEMON] returned to its original type!",
 	},
+	mimictree: {
+		name: "Mimictree",
+		desc: "If this Pokemon is a Sudowoodo, the first hit it takes in battle deals 0 neutral damage. Its disguise is then broken, it changes to Busted Form, and it loses 1/8 of its max HP. Confusion damage also breaks the disguise.",
+		shortDesc: "(Sudowoodo only) The first hit it takes is blocked, and it takes 1/8 HP damage instead.",
+		gen7: {
+			desc: "If this Pokemon is a Sudowoodo, the first hit it takes in battle deals 0 neutral damage. Its disguise is then broken and it changes to Busted Form. Confusion damage also breaks the disguise.",
+			shortDesc: "(Sudowoodo only) First hit deals 0 damage, breaks disguise.",
+		},
+
+		block: "  Its mimicry served it as a decoy!",
+		transform: "[POKEMON]'s mimicry was busted!",
+	},
 	minus: {
 		name: "Minus",
 		desc: "If an active ally has this Ability or the Plus Ability, this Pokemon's Special Attack is multiplied by 1.5.",
