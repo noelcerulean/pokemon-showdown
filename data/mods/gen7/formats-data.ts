@@ -1230,6 +1230,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	sudowoodobusted: {
+		randomBattleMoves: ["earthquake", "headsmash", "stealthrock", "suckerpunch", "toxic", "woodhammer"],
+		randomDoubleBattleMoves: ["headsmash", "helpinghand", "protect", "stealthrock", "stompingtantrum", "suckerpunch", "woodhammer"],
+	},
 	hoppip: {
 		tier: "LC",
 	},
