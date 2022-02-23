@@ -8056,7 +8056,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 438,
 		name: "Bonsly",
 		types: ["Rock"],
-		baseStats: {hp: 50, atk: 90, def: 95, spa: 10, spd: 55, spe: 50},
+		baseStats: {hp: 50, atk: 90, def: 95, spa: 10, spd: 55, spe: 40},
 		abilities: {0: "Sturdy", 1: "Rock Head", H: "Rattled"},
 		heightm: 0.5,
 		weightkg: 15,

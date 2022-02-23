@@ -25490,6 +25490,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			doubleedge: ["8L44", "7L43", "6L40", "5L46", "4L46"],
 			doubleteam: ["7M", "6M", "5M", "4M"],
 			earthpower: ["8M", "7T", "6T", "5T", "4T"],
+			earthquake: ["7M"],
 			endure: ["8M", "7E", "6E", "5E", "4M"],
 			explosion: ["7M", "6M", "5M", "4M"],
 			facade: ["8M", "7M", "6M", "5M", "4M"],
