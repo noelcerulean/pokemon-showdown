@@ -1232,8 +1232,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Paras-FnF",
 		evoLevel: 24,
 		eggGroups: ["Bug", "Field"],
-		cosmeticFormes: ["Parasect-FnF-Sunset", "Parasect-FnF-Sakura"],
-		formeOrder: ["Parasect-FnF", "Parasect-FnF-Sunset", "Parasect-FnF-Sakura"],
+		cosmeticFormes: ["Parasect-FnF-Sunset", "Parasect-FnF-Sakura", "Parasect-FnF-Cream"],
+		formeOrder: ["Parasect-FnF", "Parasect-FnF-Sunset", "Parasect-FnF-Sakura", "Parasect-FnF-Cream"],
 	},
 	venonat: {
 		num: 48,
@@ -5206,6 +5206,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Poochyena",
 		evoLevel: 18,
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Mightyena-Pink"],
+		formeOrder: ["Mightyena", "Mightyena-Pink"],
 	},
 	zigzagoon: {
 		num: 263,

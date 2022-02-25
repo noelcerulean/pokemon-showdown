@@ -19297,6 +19297,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			detect: ["7L5"],
 			dig: ["8M", "8L5", "6M", "5M", "4M", "3M"],
 			dive: ["8M", "6M", "5M", "4T", "3M"],
+			drypass: ["7L1"],
 			doubleedge: ["8L1", "7L5", "3T"],
 			doublekick: ["8L5"],
 			doubleteam: ["7M", "7L5", "6M", "5M", "4M", "3M"],
