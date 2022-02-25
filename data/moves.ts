@@ -3998,6 +3998,27 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Grass",
 	},
+	drypass: {
+		num: -522,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Dry Pass",
+		pp: 40,
+		priority: 0,
+		flags: {},
+		self: {
+			onHit(source) {
+				source.skipBeforeSwitchOutEventFlag = true;
+			},
+		},
+		selfSwitch: true,
+		secondary: null,
+		target: "self",
+		type: "Normal",
+		zMove: {effect: 'clearnegativeboost'},
+		contestType: "Cute",
+	},
 	dualchop: {
 		num: 530,
 		accuracy: 90,

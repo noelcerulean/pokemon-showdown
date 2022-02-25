@@ -1494,6 +1494,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 100% chance to lower the target's Speed by 1 stage.",
 		shortDesc: "100% chance to lower the target's Speed by 1.",
 	},
+	drypass: {
+		name: "Dry Pass",
+		desc: "The user is replaced with another Pokemon in its party.",
+		shortDesc: "User switches out.",
+	},
 	dualchop: {
 		name: "Dual Chop",
 		desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
