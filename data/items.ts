@@ -339,7 +339,9 @@ export const Items: {[itemid: string]: ItemData} = {
 		onResidualOrder: 5,
 		onResidualSubOrder: 4,
 		onResidual(pokemon) {
-			this.heal(pokemon.baseMaxhp / 8);
+			if (pokemon.baseSpecies.name === 'Tropius') {
+				this.heal(pokemon.baseMaxhp / 8);
+			}
 		},
 		itemUser: ["Tropius"],
 		onTakeItem(item, pokemon, source) {
