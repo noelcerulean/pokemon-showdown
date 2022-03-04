@@ -84,6 +84,12 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Babiri Berry",
 		desc: "Halves damage taken from a supereffective Steel-type attack. Single use.",
 	},
+	bananabunch: {
+		name: "Banana Bunch",
+		desc: "Heals 1/8th HP each turn when held by Tropius.",
+
+		heal: "  [POKEMON] snacked on its bananas!",
+	},
 	banettite: {
 		name: "Banettite",
 		desc: "If held by a Banette, this item allows it to Mega Evolve in battle.",
