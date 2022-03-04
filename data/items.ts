@@ -350,7 +350,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: -506,
 		gen: 7,
-		isNonstandard: "Past",
 	},
 	banettite: {
 		name: "Banettite",
