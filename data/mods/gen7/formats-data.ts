@@ -1198,15 +1198,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	ampharos: {
-		randomBattleMoves: ["focusblast", "healbell", "hiddenpowerice", "lightscreen", "reflect", "thunderbolt", "toxic", "voltswitch"],
+		randomBattleMoves: ["focusblast", "healbell", "hiddenpowerice", "lightscreen", "reflect", "tailglow", "thunderbolt", "toxic", "voltswitch"],
 		randomDoubleBattleMoves: ["focusblast", "hiddenpowergrass", "hiddenpowerice", "protect", "thunderbolt", "thunderwave"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	ampharosmega: {
-		randomBattleMoves: ["agility", "dragonpulse", "focusblast", "healbell", "thunderbolt", "voltswitch"],
+		randomBattleMoves: ["agility", "dragonpulse", "focusblast", "healbell", "tailglow", "thunderbolt", "voltswitch"],
 		randomDoubleBattleMoves: ["dragonpulse", "focusblast", "hiddenpowergrass", "hiddenpowerice", "protect", "thunderbolt"],
-		tier: "RU",
+		tier: "UU",
 		doublesTier: "DUU",
 	},
 	azurill: {

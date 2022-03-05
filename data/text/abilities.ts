@@ -865,8 +865,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	minus: {
 		name: "Minus",
-		desc: "If an active ally has this Ability or the Plus Ability, this Pokemon's Special Attack is multiplied by 1.5.",
-		shortDesc: "If an active ally has this Ability or the Plus Ability, this Pokemon's Sp. Atk is 1.5x.",
+		desc: "Lowers the foe's speed by 1 stage when using an Electric Type damaging move. If an active ally has this Ability or the Plus Ability, this Pokemon's Special Attack is multiplied by 1.5.",
+		shortDesc: "-1 speed to foes hit by Electric Type attacks. 1.5x SpA w/ Minus/Plus allies.",
 		gen4: {
 			desc: "If an active ally has the Plus Ability, this Pokemon's Special Attack is multiplied by 1.5.",
 			shortDesc: "If an active ally has the Plus Ability, this Pokemon's Sp. Atk is 1.5x.",
@@ -1070,8 +1070,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	plus: {
 		name: "Plus",
-		desc: "If an active ally has this Ability or the Minus Ability, this Pokemon's Special Attack is multiplied by 1.5.",
-		shortDesc: "If an active ally has this Ability or the Minus Ability, this Pokemon's Sp. Atk is 1.5x.",
+		desc: "Raises the user's speed by 1 stage when using an Electric Type damaging move. If an active ally has this Ability or the Minus Ability, this Pokemon's Special Attack is multiplied by 1.5.",
+		shortDesc: "Boosts speed by 1 when using Electric attacks. 1.5x SpA w/ Plus/Minus allies.",
 		gen4: {
 			desc: "If an active ally has the Minus Ability, this Pokemon's Special Attack is multiplied by 1.5.",
 			shortDesc: "If an active ally has the Minus Ability, this Pokemon's Sp. Atk is 1.5x.",

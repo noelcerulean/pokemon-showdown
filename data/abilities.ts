@@ -2389,8 +2389,23 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				}
 			}
 		},
+		onModifyMovePriority: -1,
+		onModifyMove(move) {
+			if (move.type === 'Electric' && move.category !== "Status") {
+				if (!move.secondaries) {
+					move.secondaries = [];
+				}
+				move.secondaries.push({
+					chance: 100,
+					boosts: {
+						spe: -1,
+					},
+					ability: this.dex.abilities.get('minus'),
+				});
+			}
+		},
 		name: "Minus",
-		rating: 0,
+		rating: 3,
 		num: 58,
 	},
 	mirrorarmor: {
@@ -2964,8 +2979,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				}
 			}
 		},
+		onModifyMovePriority: -1,
+		onModifyMove(move) {
+			if (move.type === 'Electric' && move.category !== "Status") {
+				if (!move.secondaries) {
+					move.secondaries = [];
+				}
+				move.secondaries.push({
+					chance: 100,
+					self: {
+						boosts: {
+							spe: 1,
+						},
+					},
+					ability: this.dex.abilities.get('plus'),
+				});
+			}
+		},
 		name: "Plus",
-		rating: 0,
+		rating: 3,
 		num: 57,
 	},
 	poisonheal: {
