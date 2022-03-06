@@ -2987,9 +2987,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	emboar: {
-		randomBattleMoves: ["fireblast", "flareblitz", "grassknot", "headsmash", "suckerpunch", "superpower", "wildcharge"],
+		randomBattleMoves: ["fireblast", "flareblitz", "grassknot", "headsmash", "slackoff", "submission", "suckerpunch", "superpower", "wildcharge"],
 		randomDoubleBattleMoves: ["flareblitz", "headsmash", "heatwave", "protect", "rockslide", "superpower", "wildcharge"],
-		tier: "NUBL",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	emboardynamite: {
