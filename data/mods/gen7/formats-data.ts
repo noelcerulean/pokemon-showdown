@@ -4728,9 +4728,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	guzzlord: {
-		randomBattleMoves: ["dracometeor", "earthquake", "fireblast", "heavyslam", "knockoff"],
-		randomDoubleBattleMoves: ["dracometeor", "fireblast", "knockoff", "protect", "wideguard"],
-		tier: "PUBL",
+		randomBattleMoves: ["dracometeor", "dragonhammer", "earthquake", "fireblast", "gunkshot", "heavyslam", "knockoff", "stealthrock"],
+		randomDoubleBattleMoves: ["dracometeor", "dragonhammer", "fireblast", "knockoff", "protect", "wideguard"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	necrozma: {

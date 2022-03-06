@@ -56,6 +56,12 @@ export const Items: {[itemid: string]: ItemData} = {
 				return this.chainModify([4915, 4096]);
 			}
 		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 483) || pokemon.baseSpecies.num === 483) {
+				return false;
+			}
+			return true;
+		},
 		itemUser: ["Dialga"],
 		num: 135,
 		gen: 4,
@@ -1145,6 +1151,12 @@ export const Items: {[itemid: string]: ItemData} = {
 				return this.chainModify(2);
 			}
 		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 366) || pokemon.baseSpecies.num === 366) {
+				return false;
+			}
+			return true;
+		},
 		itemUser: ["Clamperl"],
 		num: 227,
 		gen: 3,
@@ -1160,6 +1172,12 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (pokemon.baseSpecies.name === 'Clamperl') {
 				return this.chainModify(2);
 			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 366) || pokemon.baseSpecies.num === 366) {
+				return false;
+			}
+			return true;
 		},
 		itemUser: ["Clamperl"],
 		num: 226,
@@ -1476,6 +1494,12 @@ export const Items: {[itemid: string]: ItemData} = {
 			) {
 				return this.chainModify(1.5);
 			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 466) || pokemon.baseSpecies.num === 466) {
+				return false;
+			}
+			return true;
 		},
 		itemUser: ["Electivire"],
 		num: 322,
@@ -2162,7 +2186,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	granbullarmor: {
 		name: "Granbull Armor",
-		spritenum: 745,
+		spritenum: 746,
 		onTakeItem(item, source) {
 			if (source.baseSpecies.name === 'Granbull-Armored') return false;
 			return true;
@@ -2890,6 +2914,12 @@ export const Items: {[itemid: string]: ItemData} = {
 				return critRatio + 2;
 			}
 		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 83) || (source && source.baseSpecies.num === 865) || pokemon.baseSpecies.num === 83 || pokemon.baseSpecies.num === 865) {
+				return false;
+			}
+			return true;
+		},
 		itemUser: ["Farfetch\u2019d", "Sirfetch\u2019d"],
 		num: 259,
 		gen: 8,
@@ -2995,6 +3025,12 @@ export const Items: {[itemid: string]: ItemData} = {
 				return this.chainModify(2);
 			}
 		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 25) || pokemon.baseSpecies.num === 25) {
+				return false;
+			}
+			return true;
+		},
 		itemUser: ["Pikachu"],
 		num: 236,
 		gen: 2,
@@ -3063,6 +3099,12 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (user.baseSpecies.name === 'Chansey') {
 				return critRatio + 2;
 			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 113) || pokemon.baseSpecies.num === 113) {
+				return false;
+			}
+			return true;
 		},
 		itemUser: ["Chansey"],
 		num: 256,
@@ -3140,6 +3182,12 @@ export const Items: {[itemid: string]: ItemData} = {
 				return this.chainModify([4915, 4096]);
 			}
 		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 484) || pokemon.baseSpecies.num === 484) {
+				return false;
+			}
+			return true;
+		},
 		itemUser: ["Palkia"],
 		num: 136,
 		gen: 4,
@@ -3189,6 +3237,12 @@ export const Items: {[itemid: string]: ItemData} = {
 			) {
 				return this.chainModify(1.5);
 			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 467) || pokemon.baseSpecies.num === 467) {
+				return false;
+			}
+			return true;
 		},
 		itemUser: ["Magmortar"],
 		num: 323,
@@ -3436,6 +3490,12 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (pokemon.species.name === 'Ditto' && !pokemon.transformed) {
 				return this.chainModify(2);
 			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 132) || pokemon.baseSpecies.num === 132) {
+				return false;
+			}
+			return true;
 		},
 		itemUser: ["Ditto"],
 		num: 257,
@@ -4380,6 +4440,12 @@ export const Items: {[itemid: string]: ItemData} = {
 				return this.chainModify(2);
 			}
 		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 132) || pokemon.baseSpecies.num === 132) {
+				return false;
+			}
+			return true;
+		},
 		itemUser: ["Ditto"],
 		num: 274,
 		gen: 4,
@@ -5187,6 +5253,12 @@ export const Items: {[itemid: string]: ItemData} = {
 				return this.chainModify([4915, 4096]);
 			}
 		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 380) || (source && source.baseSpecies.num === 381) || pokemon.baseSpecies.num === 380 || pokemon.baseSpecies.num === 381) {
+				return false;
+			}
+			return true;
+		},
 		itemUser: ["Latios", "Latias"],
 		num: 225,
 		gen: 3,
@@ -5373,6 +5445,12 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (this.toID(user.baseSpecies.baseSpecies) === 'farfetchd') {
 				return critRatio + 2;
 			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 83) || pokemon.baseSpecies.num === 83) {
+				return false;
+			}
+			return true;
 		},
 		itemUser: ["Farfetch\u2019d"],
 		num: 259,
@@ -5573,6 +5651,12 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (pokemon.baseSpecies.baseSpecies === 'Cubone' || pokemon.baseSpecies.baseSpecies === 'Marowak') {
 				return this.chainModify(2);
 			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 104) || (source && source.baseSpecies.num === 105) || pokemon.baseSpecies.num === 104 || pokemon.baseSpecies.num === 105) {
+				return false;
+			}
+			return true;
 		},
 		itemUser: ["Marowak", "Cubone"],
 		num: 258,
