@@ -3178,6 +3178,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4.5,
 		num: 168,
 	},
+	psychecontrol: {
+		onModifyMovePriority: -5,
+		onModifyMove(move) {
+			if (!move.ignoreImmunity) move.ignoreImmunity = {};
+			if (move.ignoreImmunity !== true) {
+				move.ignoreImmunity['Psychic'] = true;
+			}
+		},
+		name: "Psyche Control",
+		rating: 3,
+		num: -528,
+	},
 	psychicsurge: {
 		onStart(source) {
 			this.field.setTerrain('psychicterrain');

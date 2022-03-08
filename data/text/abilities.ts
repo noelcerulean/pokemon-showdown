@@ -1164,6 +1164,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon's type changes to match the type of the move it is about to use. This effect comes after all effects that change a move's type.",
 		shortDesc: "This Pokemon's type changes to match the type of the move it is about to use.",
 	},
+	psychecontrol: {
+		name: "Psyche Control",
+		desc: "This Pokemon can hit Dark types with Psychic-type moves.",
+		shortDesc: "This Pokemon can hit Dark types with Psychic-type moves.",
+	},
 	psychicsurge: {
 		name: "Psychic Surge",
 		shortDesc: "On switch-in, this Pokemon summons Psychic Terrain.",

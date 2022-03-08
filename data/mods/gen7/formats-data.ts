@@ -2021,9 +2021,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	grumpig: {
-		randomBattleMoves: ["focusblast", "healbell", "lightscreen", "psychic", "reflect", "thunderwave", "toxic", "whirlwind"],
+		randomBattleMoves: ["focusblast", "healbell", "lightscreen", "nastyplot", "psychic", "reflect", "shadowball", "thunderwave", "toxic", "whirlwind"],
 		randomDoubleBattleMoves: ["focusblast", "lightscreen", "protect", "psychic", "reflect", "taunt", "thunderwave"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	spinda: {
