@@ -1448,7 +1448,7 @@ export class RandomGen7Teams extends RandomTeams {
 				case 'Arceus': case 'Silvally':
 					if (this.randomChance(8, 9) && !isMonotype) continue;
 					break;
-				case 'Oricorio':
+				case 'Oricorio': case 'Sawsbuck':
 					if (this.randomChance(3, 4)) continue;
 					break;
 				case 'Castform': case 'Floette':

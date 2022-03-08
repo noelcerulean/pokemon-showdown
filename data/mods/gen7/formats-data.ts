@@ -3384,9 +3384,27 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	sawsbuck: {
-		randomBattleMoves: ["hornleech", "jumpkick", "return", "substitute", "swordsdance"],
+		randomBattleMoves: ["hornleech", "jumpkick", "return", "seasonalspirit", "substitute", "swordsdance"],
 		randomDoubleBattleMoves: ["hornleech", "jumpkick", "protect", "return", "swordsdance"],
-		tier: "(PU)",
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
+	sawsbucksummer: {
+		randomBattleMoves: ["hornleech", "jumpkick", "return", "seasonalspirit", "substitute", "swordsdance"],
+		randomDoubleBattleMoves: ["hornleech", "jumpkick", "protect", "return", "swordsdance"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
+	sawsbuckautumn: {
+		randomBattleMoves: ["hornleech", "jumpkick", "return", "seasonalspirit", "substitute", "swordsdance"],
+		randomDoubleBattleMoves: ["hornleech", "jumpkick", "protect", "return", "swordsdance"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
+	sawsbuckwinter: {
+		randomBattleMoves: ["hornleech", "jumpkick", "return", "seasonalspirit", "substitute", "swordsdance"],
+		randomDoubleBattleMoves: ["hornleech", "jumpkick", "protect", "return", "swordsdance"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	emolga: {

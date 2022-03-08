@@ -15221,6 +15221,33 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Steel",
 		contestType: "Cool",
 	},
+	seasonalspirit: {
+		num: -523,
+		accuracy: 100,
+		basePower: 100,
+		category: "Physical",
+		name: "Seasonal Spirit",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onModifyType(move, source, pokemon) {
+			if (pokemon.species.name === 'Sawsbuck-Summer') {
+				move.type = 'Fire';
+			} else if (pokemon.species.name === 'Sawsbuck-Autumn') {
+				move.type = 'Ground';
+			} else if (pokemon.species.name === 'Sawsbuck-Winter') {
+				move.type = 'Ice';
+			} else if (pokemon.species.name === 'Sawsbuck' || pokemon.species.name === 'Sawsbuck-Spring') {
+				move.type = 'Fairy';
+			} else {
+				move.type = 'Normal';
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+		contestType: "Beautiful",
+	},
 	secretpower: {
 		num: 290,
 		accuracy: 100,

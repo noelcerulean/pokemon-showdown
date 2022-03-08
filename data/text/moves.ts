@@ -5133,6 +5133,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Lowers the target's Defense by 2 stages.",
 		shortDesc: "Lowers the target's Defense by 2.",
 	},
+	seasonalspirit: {
+		name: "Seasonal Spirit",
+		desc: "This move's type depends on the user's form. If the user is Sawsbuck-Summer, it is Fire-type. If the user is Sawsbuck-Autumn, it is Ground-type. If the user is Sawsbuck-Winter, it is Ice-type. If the user is Sawsbuck-Spring, it is Fairy-type.",
+		shortDesc: "Type varies based on the user's forme.",
+	},
 	searingshot: {
 		name: "Searing Shot",
 		desc: "Has a 30% chance to burn the target.",

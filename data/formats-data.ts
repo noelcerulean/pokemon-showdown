@@ -3898,6 +3898,18 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	sawsbucksummer: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sawsbuckautumn: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sawsbuckwinter: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	emolga: {
 		randomBattleMoves: ["airslash", "defog", "energyball", "roost", "thunderbolt", "toxic", "uturn"],
 		randomBattleLevel: 88,
