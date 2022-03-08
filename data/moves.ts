@@ -15230,7 +15230,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
-		onModifyType(move, source, pokemon) {
+		onModifyType(move, pokemon) {
 			if (pokemon.species.name === 'Sawsbuck-Summer') {
 				move.type = 'Fire';
 			} else if (pokemon.species.name === 'Sawsbuck-Autumn') {
