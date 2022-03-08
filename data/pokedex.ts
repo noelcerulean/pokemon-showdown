@@ -10671,7 +10671,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseForme: "Spring",
 		types: ["Normal", "Grass"],
 		baseStats: {hp: 80, atk: 100, def: 70, spa: 60, spd: 70, spe: 95},
-		abilities: {0: "Slower Veil", 1: "Serene Grace", H: "Sap Sipper"},
+		abilities: {0: "Flower Veil", 1: "Serene Grace", H: "Sap Sipper"},
 		heightm: 1.9,
 		weightkg: 92.5,
 		color: "Brown",
