@@ -72463,6 +72463,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			featherdance: ["7L20"],
 			fly: ["7M"],
 			frustration: ["7M"],
+			grassknot: ["7M"],
 			growl: ["7L4"],
 			helpinghand: ["7T", "7L10"],
 			hiddenpower: ["7M"],

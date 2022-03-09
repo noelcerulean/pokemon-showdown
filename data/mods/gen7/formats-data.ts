@@ -4282,25 +4282,25 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	oricorio: {
 		randomBattleMoves: ["calmmind", "hurricane", "revelationdance", "roost", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["airslash", "hurricane", "protect", "revelationdance", "tailwind"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	oricoriopompom: {
 		randomBattleMoves: ["calmmind", "hurricane", "revelationdance", "roost", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["airslash", "hurricane", "protect", "revelationdance", "tailwind"],
-		tier: "PU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	oricoriopau: {
 		randomBattleMoves: ["calmmind", "hurricane", "revelationdance", "roost", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["airslash", "hurricane", "protect", "revelationdance", "tailwind"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	oricoriosensu: {
 		randomBattleMoves: ["calmmind", "hurricane", "revelationdance", "roost", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["airslash", "hurricane", "protect", "revelationdance", "tailwind"],
-		tier: "PU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	cutiefly: {

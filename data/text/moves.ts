@@ -4865,7 +4865,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	revelationdance: {
 		name: "Revelation Dance",
 		desc: "This move's type depends on the user's primary type. If the user's primary type is typeless, this move's type is the user's secondary type if it has one, otherwise the added type from Forest's Curse or Trick-or-Treat. This move is typeless if the user's type is typeless alone.",
-		shortDesc: "Type varies based on the user's primary type.",
+		shortDesc: "Type varies. 50% chance to raise Sp. Attack.",
 	},
 	revenge: {
 		name: "Revenge",
