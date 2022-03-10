@@ -50,6 +50,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	blastoisegmax: {
 		name: "Blastoise-Gmax",
 	},
+	venustoise: {
+		name: "Venustoise",
+	},
 	caterpie: {
 		name: "Caterpie",
 	},

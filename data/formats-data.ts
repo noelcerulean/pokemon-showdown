@@ -83,6 +83,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "AG",
 		doublesTier: "(DUber)",
 	},
+	venustoise: {
+		randomBattleMoves: ["earthquake", "gigadrain", "hydropump", "icebeam", "leechseed", "shellsmash", "sleeppowder"],
+		randomBattleLevel: 82,
+		tier: "RUBL",
+		doublesTier: "(DUU)",
+	},
 	caterpie: {
 		tier: "LC",
 	},

@@ -253,6 +253,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Monster", "Water 1"],
 		changesFrom: "Blastoise",
 	},
+	venustoise: {
+		num: -507,
+		name: "Venustoise",
+		types: ["Water", "Grass"],
+		gender: "N",
+		baseStats: {hp: 80, atk: 83, def: 92, spa: 93, spd: 103, spe: 79},
+		abilities: {0: "Torrent", 1: "Overgrow"},
+		heightm: 2.6,
+		weightkg: 135.5,
+		color: "Blue",
+		eggGroups: ["Undiscovered"],
+	},
 	caterpie: {
 		num: 10,
 		name: "Caterpie",

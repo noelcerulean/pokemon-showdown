@@ -62,6 +62,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	venustoise: {
+		randomBattleMoves: ["dragontail", "gigadrain", "haze", "icebeam", "leechseed", "rapidspin", "roar", "scald", "synthesis", "toxic"],
+		randomDoubleBattleMoves: ["fakeout", "followme", "gigadrain", "icywind", "muddywater", "protect", "rapidspin", "scald"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	caterpie: {
 		tier: "LC",
 	},
