@@ -1429,7 +1429,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	sneasel: {
-		tier: "NU",
+		tier: "UUBL",
 		doublesTier: "NFE",
 	},
 	weavile: {
@@ -2639,9 +2639,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	purugly: {
-		randomBattleMoves: ["fakeout", "knockoff", "quickattack", "return", "suckerpunch", "uturn"],
+		randomBattleMoves: ["fakeout", "knockoff", "quickattack", "return", "submission", "suckerpunch", "uturn"],
 		randomDoubleBattleMoves: ["fakeout", "knockoff", "protect", "quickattack", "return", "uturn"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	stunky: {
@@ -2650,7 +2650,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	skuntank: {
 		randomBattleMoves: ["crunch", "defog", "fireblast", "poisonjab", "pursuit", "suckerpunch", "taunt"],
 		randomDoubleBattleMoves: ["crunch", "fireblast", "poisonjab", "protect", "snarl", "suckerpunch", "taunt"],
-		tier: "PU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	bronzor: {
@@ -3350,7 +3350,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	gothitelle: {
 		randomBattleMoves: ["charm", "confide", "rest", "taunt"],
 		randomDoubleBattleMoves: ["charm", "healpulse", "protect", "psychic", "shadowball", "taunt", "thunderbolt", "trickroom"],
-		tier: "OU",
+		tier: "PU",
 		doublesTier: "DOU",
 	},
 	solosis: {

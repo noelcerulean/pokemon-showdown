@@ -1590,8 +1590,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	stench: {
 		name: "Stench",
-		desc: "This Pokemon's attacks without a chance to make the target flinch gain a 10% chance to make the target flinch.",
-		shortDesc: "This Pokemon's attacks without a chance to flinch gain a 10% chance to flinch.",
+		shortDesc: "This Pokemon's attacking stat is multiplied by 1.3 while using a Poison-type attack.",
 		gen4: {
 			desc: "No competitive use.",
 			shortDesc: "No competitive use.",

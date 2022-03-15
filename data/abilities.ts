@@ -4235,22 +4235,22 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 252,
 	},
 	stench: {
-		onModifyMovePriority: -1,
-		onModifyMove(move) {
-			if (move.category !== "Status") {
-				this.debug('Adding Stench flinch');
-				if (!move.secondaries) move.secondaries = [];
-				for (const secondary of move.secondaries) {
-					if (secondary.volatileStatus === 'flinch') return;
-				}
-				move.secondaries.push({
-					chance: 10,
-					volatileStatus: 'flinch',
-				});
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Poison') {
+				this.debug('Stench boost');
+				return this.chainModify(1.3);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Poison') {
+				this.debug('Stench boost');
+				return this.chainModify(1.3);
 			}
 		},
 		name: "Stench",
-		rating: 0.5,
+		rating: 3.5,
 		num: 1,
 	},
 	stickyhold: {
