@@ -1863,7 +1863,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	sableye: {
 		randomBattleMoves: ["foulplay", "recover", "taunt", "toxic", "willowisp"],
 		randomDoubleBattleMoves: ["fakeout", "foulplay", "helpinghand", "protect", "recover", "snarl", "taunt", "willowisp"],
-		tier: "PU",
+		tier: "RU",
 		doublesTier: "DUU",
 	},
 	sableyemega: {

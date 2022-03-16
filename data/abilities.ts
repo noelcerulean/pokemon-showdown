@@ -4137,9 +4137,22 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 198,
 	},
 	stall: {
+		onModifyDefPriority: 6,
+		onModifyDef(def) {
+			return this.chainModify(1.5);
+		},
+		onModifySpDPriority: 6,
+		onModifySpD(spd) {
+			return this.chainModify(1.5);
+		},
+		onModifyAccuracyPriority: 6,
+		onModifyAccuracy(accuracy) {
+			return this.chainModify(1.5);
+		},
 		onFractionalPriority: -0.1,
+		isBreakable: true,
 		name: "Stall",
-		rating: -1,
+		rating: 4,
 		num: 100,
 	},
 	stalwart: {

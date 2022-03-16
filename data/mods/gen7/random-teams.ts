@@ -1680,7 +1680,7 @@ export class RandomGen7Teams extends RandomTeams {
 
 		// The teams generated depend on the tier choice in such a way that
 		// no exploitable information is leaked from rolling the tier in getTeam(p1).
-		const availableTiers = ['Uber', 'OU', 'UU', 'RU', 'NU'];
+		const availableTiers = ['OU', 'UU', 'RU'];
 		if (!this.factoryTier) this.factoryTier = this.sample(availableTiers);
 		const chosenTier = this.factoryTier;
 

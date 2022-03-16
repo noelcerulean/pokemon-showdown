@@ -1543,7 +1543,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	stall: {
 		name: "Stall",
-		shortDesc: "This Pokemon moves last among Pokemon using the same or greater priority moves.",
+		shortDesc: "1.5x Def, Sp Def, and Accuracy. This Pokemon moves last in its priority bracket.",
 	},
 	stalwart: {
 		name: "Stalwart",
