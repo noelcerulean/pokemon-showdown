@@ -4147,7 +4147,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onModifyAccuracyPriority: 6,
 		onModifyAccuracy(accuracy) {
-			return this.chainModify(1.5);
+			return this.chainModify(1.3);
 		},
 		onFractionalPriority: -0.1,
 		isBreakable: true,
