@@ -1916,7 +1916,7 @@
 				"ability": ["Snow Warning"],
 				"evs": {"hp": 248, "spa": 8, "spe": 252},
 				"nature": "Timid",
-				"moves": [["Aurora Veil"], ["Freeze-Dry"], ["Hypnosis"], ["Hail"]]
+				"moves": [["Aurora Veil"], ["Freeze-Dry"], ["Moonblast"], ["Hypnosis", "Hail"]]
 			}]
 		},
 		"octillery": {
@@ -2039,6 +2039,81 @@
 				"evs": {"hp": 248, "def": 244, "spd": 16},
 				"nature": "Impish",
 				"moves": [["Curse", "Swords Dance"], ["Bullet Punch"], ["Knock Off", "U-turn", "Superpower"], ["Roost"]]
+			}]
+		},
+		"simipour": {
+			"flags": {},
+			"sets": [{
+				"species": "Simipour",
+				"item": ["Choice Scarf"],
+				"ability": ["Contrary"],
+				"evs": {"atk": 4, "spa": 252, "spe": 252},
+				"nature": "Hasty",
+				"moves": [["Geyser Blast"], ["Ice Beam"], ["Grass Knot"], ["Superpower"]]
+			}, {
+				"species": "Simipour",
+				"item": ["Life Orb", "Grassium Z"],
+				"ability": ["Contrary"],
+				"evs": {"atk": 4, "spa": 252, "spe": 252},
+				"nature": "Hasty",
+				"moves": [["Geyser Blast"], ["Ice Beam"], ["Grass Knot", "Delinquency"], ["Superpower"]]
+			}, {
+				"species": "Simipour",
+				"item": ["Life Orb"],
+				"ability": ["Contrary"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Delinquency"], ["Ice Punch"], ["Liquidation"], ["Superpower"]]
+			}]
+		},
+		"simisage": {
+			"flags": {},
+			"sets": [{
+				"species": "Simisage",
+				"item": ["Choice Scarf"],
+				"ability": ["Contrary"],
+				"evs": {"atk": 4, "spa": 252, "spe": 252},
+				"nature": "Hasty",
+				"moves": [["Leaf Storm"], ["Superpower"], ["Rock Slide"], ["Sludge Bomb"]]
+			}, {
+				"species": "Simisage",
+				"item": ["Life Orb"],
+				"ability": ["Contrary"],
+				"evs": {"atk": 4, "spa": 252, "spe": 252},
+				"nature": "Hasty",
+				"moves": [["Leaf Storm"], ["Superpower"], ["Delinquency"], ["Sludge Bomb", "Hidden Power Fire", "Rock Slide"]]
+			}, {
+				"species": "Simisage",
+				"item": ["Salac Berry"],
+				"ability": ["Gluttony"],
+				"evs": {"hp": 4, "atk": 252, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Belly Drum"], ["Superpower"], ["Leaf Blade"], ["Gunk Shot"]]
+			}]
+		},
+		"simisear": {
+			"flags": {},
+			"sets": [{
+				"species": "Simisear",
+				"item": ["Choice Scarf"],
+				"ability": ["Contrary"],
+				"evs": {"atk": 4, "spa": 252, "spe": 252},
+				"nature": "Hasty",
+				"moves": [["Overheat"], ["Grass Knot"], ["Hidden Power Ice"], ["Superpower"]]
+			}, {
+				"species": "Simisear",
+				"item": ["Grassium Z"],
+				"ability": ["Contrary"],
+				"evs": {"atk": 4, "spa": 252, "spe": 252},
+				"nature": "Hasty",
+				"moves": [["Overheat"], ["Solar Beam"], ["Delinquency"], ["Superpower"]]
+			}, {
+				"species": "Simisear",
+				"item": ["Life Orb"],
+				"ability": ["Contrary"],
+				"evs": {"atk": 4, "spa": 252, "spe": 252},
+				"nature": "Hasty",
+				"moves": [["Overheat"], ["Grass Knot"], ["Delinquency"], ["Superpower"]]
 			}]
 		},
 		"skarmory": {

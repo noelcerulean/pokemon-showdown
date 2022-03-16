@@ -3909,7 +3909,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	furfrou: {
 		randomBattleMoves: ["cottonguard", "rest", "return", "substitute", "suckerpunch", "thunderwave", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["cottonguard", "protect", "return", "snarl", "thunderwave", "uturn"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	espurr: {

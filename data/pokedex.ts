@@ -12231,7 +12231,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Furfrou",
 		baseForme: "Natural",
 		types: ["Normal"],
-		baseStats: {hp: 75, atk: 80, def: 60, spa: 65, spd: 90, spe: 102},
+		baseStats: {hp: 75, atk: 90, def: 75, spa: 65, spd: 100, spe: 102},
 		abilities: {0: "Fur Coat"},
 		heightm: 1.2,
 		weightkg: 28,
