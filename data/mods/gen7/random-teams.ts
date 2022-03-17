@@ -1783,7 +1783,7 @@ export class RandomGen7Teams extends RandomTeams {
 
 				// Limit 1 of any type combination
 				let typeCombo = types.slice().sort().join();
-				if (set.ability + '' === 'Drought' || set.ability + '' === 'Drizzle') {
+				if (set.ability + '' === 'Drought' || set.ability + '' === 'Drizzle' || set.ability + '' === 'Snow Warning') {
 				// Drought and Drizzle don't count towards the type combo limit
 					typeCombo = set.ability + '';
 				}
@@ -1978,10 +1978,12 @@ export class RandomGen7Teams extends RandomTeams {
 			sandstream: 'sandstorm',
 		};
 		const resistanceAbilities: {[k: string]: string[]} = {
-			waterabsorb: ['Water'],
-			flashfire: ['Fire'],
+			waterabsorb: ['Water'], stormdrain: ['Water'],
+			flashfire: ['Fire'], flameabsorb: ['Fire'],
 			lightningrod: ['Electric'], voltabsorb: ['Electric'],
 			thickfat: ['Ice', 'Fire'],
+			tropicalcurrent: ['Ice'],
+			bugcatcher: ['Bug'],
 			levitate: ['Ground'],
 		};
 

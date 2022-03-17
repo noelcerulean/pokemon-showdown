@@ -1391,6 +1391,31 @@
 				"moves": [["Shadow Ball"], ["Sludge Wave"], ["Focus Blast"], ["Trick", "Thunderbolt"]]
 			}]
 		},
+		"girafarig": {
+			"flags": {},
+			"sets": [{
+				"species": "Girafarig",
+				"item": ["Choice Band", "Choice Scarf"],
+				"ability": ["Psychic Surge"],
+				"evs": {"hp": 4, "atk": 252, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Psychic Fangs"], ["Jump Kick"], ["Crunch"], ["Trick", "Dry Pass"]]
+			}, {
+				"species": "Girafarig",
+				"item": ["Life Orb"],
+				"ability": ["Psychic Surge"],
+				"evs": {"hp": 4, "atk": 252, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Psychic Fangs"], ["Jump Kick"], ["Crunch"], ["Swords Dance", "Agility"]]
+			}, {
+				"species": "Girafarig",
+				"item": ["Fightinium Z"],
+				"ability": ["Psychic Surge"],
+				"evs": {"hp": 4, "atk": 252, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Psychic Fangs"], ["Jump Kick"], ["Crunch"], ["Swords Dance"]]
+			}]
+		},
 		"greninja": {
 			"flags": {},
 			"sets": [{
@@ -1682,6 +1707,108 @@
 				"moves": [["Return"], ["High Jump Kick"], ["Ice Punch", "Quick Attack", "Encore"], ["Power-Up Punch"]]
 			}]
 		},
+		"lumineon": {
+			"flags": {},
+			"sets": [{
+				"species": "Lumineon",
+				"item": ["Leftovers"],
+				"ability": ["Illuminate"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Hydro Pump"], ["Defog"], ["U-Turn"], ["Blizzard", "Healing Wish"]]
+			}, {
+				"species": "Lumineon",
+				"item": ["Choice Specs"],
+				"ability": ["Illuminate"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Hydro Pump"], ["Hurricane"], ["U-Turn"], ["Blizzard"]]
+			}, {
+				"species": "Lumineon",
+				"item": ["Leftovers"],
+				"ability": ["Water Absorb"],
+				"evs": {"hp": 252, "def": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Scald"], ["Defog"], ["U-Turn"], ["Toxic", "Healing Wish"]]
+			}]
+		},
+		"lunatone": {
+			"flags": {},
+			"sets": [{
+				"species": "Lunatone",
+				"item": ["Weakness Policy"],
+				"ability": ["Filter"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Modest",
+				"moves": [["Rock Polish"], ["Prehistoric Pulse"], ["Psychic", "Moonblast", "Lunatic Eyes"], ["Earth Power"]]
+			}, {
+				"species": "Lunatone",
+				"item": ["Weakness Policy"],
+				"ability": ["Filter"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Modest",
+				"moves": [["Rock Polish"], ["Prehistoric Pulse", "Ice Beam"], ["Psychic"], ["Earth Power"]]
+			}, {
+				"species": "Lunatone",
+				"item": ["Life Orb"],
+				"ability": ["Filter", "Levitate"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Modest",
+				"moves": [["Rock Polish"], ["Prehistoric Pulse", "Ice Beam"], ["Psychic"], ["Earth Power"]]
+			}, {
+				"species": "Lunatone",
+				"item": ["Leftovers"],
+				"ability": ["Filter", "Levitate"],
+				"evs": {"hp": 252, "spa": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Defog", "Stealth Rock"], ["Lunatic Eyes"], ["Moonlight"], ["Prophetic Asteroid"]]
+			}, {
+				"species": "Lunatone",
+				"item": ["Kee Berry", "Leftovers"],
+				"ability": ["Filter"],
+				"evs": {"hp": 252, "def": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Calm Mind"], ["Lunatic Eyes"], ["Moonlight"], ["Prehistoric Pulse"]]
+			}, {
+				"species": "Lunatone",
+				"item": ["Leftovers"],
+				"ability": ["Filter"],
+				"evs": {"hp": 252, "def": 252, "spe": 4},
+				"nature": "Bold",
+				"moves": [["Calm Mind"], ["Lunatic Eyes"], ["Moonlight"], ["Prehistoric Pulse"]]
+			}, {
+				"species": "Lunatone",
+				"item": ["Leftovers"],
+				"ability": ["Filter", "Levitate"],
+				"evs": {"hp": 252, "spa": 252, "spe": 4},
+				"nature": "Timid",
+				"moves": [["Dry Pass"], ["Lunatic Eyes"], ["Moonlight"], ["Prehistoric Pulse"]]
+			}, {
+				"species": "Lunatone",
+				"item": ["Icium Z"],
+				"ability": ["Syzygy"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Hail"], ["Blizzard"], ["Prehistoric Pulse"], ["Earth Power"]]
+			}, {
+				"species": "Lunatone",
+				"item": ["Choice Scarf"],
+				"ability": ["Syzygy"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Psychic", "Moonblast"], ["Ice Beam"], ["Prehistoric Pulse"], ["Earth Power"]]
+			}, {
+				"species": "Lunatone",
+				"item": ["Psychium Z"],
+				"ability": ["Levitate", "Filter"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Hypnosis"], ["Psychic"], ["Prehistoric Pulse"], ["Earth Power"]]
+			}]
+		},
 		"magearna": {
 			"flags": {},
 			"sets": [{
@@ -1769,6 +1896,24 @@
 				"evs": {"hp": 4, "spa": 252, "spe": 252},
 				"nature": "Timid",
 				"moves": [["Tail Glow"], ["Scald"], ["Ice Beam"], ["Psychic"]]
+			}]
+		},
+		"maractus": {
+			"flags": {},
+			"sets": [{
+				"species": "Maractus",
+				"item": ["Life Orb"],
+				"ability": ["Sand Rush"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Modest",
+				"moves": [["Giga Drain"], ["Sunshine Dance"], ["Earth Power"], ["Hidden Power Ice", "Sandstorm", "Spikes"]]
+			}, {
+				"species": "Maractus",
+				"item": ["Life Orb"],
+				"ability": ["Sand Rush"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Wood Hammer", "Petal Blizzard"], ["Earthquake"], ["Poison Jab"], ["Knock Off", "Sandstorm", "Spikes"]]
 			}]
 		},
 		"mawile": {
@@ -1919,6 +2064,38 @@
 				"moves": [["Aurora Veil"], ["Freeze-Dry"], ["Moonblast"], ["Hypnosis", "Hail"]]
 			}]
 		},
+		"ninjask": {
+			"flags": {},
+			"sets": [{
+				"species": "Ninjask",
+				"item": ["Life Orb"],
+				"ability": ["Speed Boost"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Flutter Strike"], ["U-Turn"], ["Brick Break"], ["Leech Life"]]
+			}, {
+				"species": "Ninjask",
+				"item": ["Fightinium Z"],
+				"ability": ["Speed Boost"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Flutter Strike"], ["U-Turn"], ["Brick Break"], ["Swords Dance"]]
+			}, {
+				"species": "Ninjask",
+				"item": ["Groundium Z"],
+				"ability": ["Speed Boost"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Flutter Strike"], ["U-Turn"], ["Dig"], ["Swords Dance"]]
+			}, {
+				"species": "Ninjask",
+				"item": ["Focus Sash"],
+				"ability": ["Speed Boost"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Flutter Strike"], ["U-Turn"], ["Brick Break"], ["Spikes", "Swords Dance"]]
+			}]
+		},
 		"octillery": {
 			"flags": {},
 			"sets": [{
@@ -1944,6 +2121,24 @@
 				"evs": {"hp": 252, "atk": 252, "spe": 4},
 				"nature": "Adamant",
 				"moves": [["Waterfall"], ["Seed Bomb"], ["Barrage", "Rock Blast"], ["Gunk Shot"]]
+			}]
+		},
+		"parasect": {
+			"flags": {},
+			"sets": [{
+				"species": "Parasect",
+				"item": ["Leftovers"],
+				"ability": ["Effect Spore"],
+				"evs": {"hp": 252, "def": 4, "spd": 252},
+				"nature": "Careful",
+				"moves": [["Parasitic Drain"], ["Spore Slash"], ["Toxic", "Aromatherapy"], ["Leech Life"]]
+			}, {
+				"species": "Parasect",
+				"item": ["Leftovers"],
+				"ability": ["Effect Spore"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": "Impish",
+				"moves": [["Parasitic Drain"], ["Spore Slash"], ["Toxic", "Aromatherapy"], ["Leech Life"]]
 			}]
 		},
 		"pelipper": {
@@ -2002,17 +2197,6 @@
 				"ivs": {"atk": 0, "def": 0, "spd": 0},
 				"nature": "Hasty",
 				"moves": [["Toxic"], ["Soak"], ["Rest"], ["Block"]]
-			}]
-		},
-		"ribombee": {
-			"flags": {},
-			"sets": [{
-				"species": "Ribombee",
-				"item": ["Focus Sash"],
-				"ability": ["Shield Dust"],
-				"evs": {"spa": 252, "spd": 4, "spe": 252},
-				"nature": "Timid",
-				"moves": [["Sticky Web"], ["Moonblast"], ["Hidden Power Fire"], ["Stun Spore", "Quiver Dance"]]
 			}]
 		},
 		"sableye": {
@@ -2133,6 +2317,73 @@
 				"evs": {"hp": 248, "def": 252, "spd": 8},
 				"nature": "Impish",
 				"moves": [["Roost"], ["Whirlwind", "Defog"], ["Toxic", "Spikes"], ["Brave Bird"]]
+			}]
+		},
+		"solrock": {
+			"flags": {},
+			"sets": [{
+				"species": "Solrock",
+				"item": ["Weakness Policy"],
+				"ability": ["Filter"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Rock Polish"], ["Stone Edge"], ["Cosmic Spin"], ["Earthquake", "Flare Blitz"]]
+			}, {
+				"species": "Solrock",
+				"item": ["Leftovers"],
+				"ability": ["Filter", "Levitate"],
+				"evs": {"hp": 252, "def": 252, "spe": 4},
+				"nature": "Impish",
+				"moves": [["Rapid Spin", "Stealth Rock"], ["Morning Sun"], ["Cosmic Spin"], ["Prophetic Asteroid"]]
+			}, {
+				"species": "Solrock",
+				"item": ["Leftovers"],
+				"ability": ["Filter", "Levitate"],
+				"evs": {"hp": 252, "def": 252, "spe": 4},
+				"nature": "Impish",
+				"moves": [["Will-o-Wisp"], ["Morning Sun"], ["Cosmic Spin"], ["Prophetic Asteroid"]]
+			}, {
+				"species": "Solrock",
+				"item": ["Firium Z"],
+				"ability": ["Corona"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Sunny Day"], ["Stone Edge"], ["Flare Blitz"], ["Solar Blade"]]
+			}, {
+				"species": "Solrock",
+				"item": ["Choice Scarf"],
+				"ability": ["Corona"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Earthquake"], ["Stone Edge"], ["Flare Blitz"], ["Zen Headbutt"]]
+			}, {
+				"species": "Solrock",
+				"item": ["Leftovers"],
+				"ability": ["Filter", "Levitate"],
+				"evs": {"hp": 252, "atk": 252, "spe": 4},
+				"nature": "Jolly",
+				"moves": [["Dry Pass"], ["Cosmic Spin"], ["Morning Sun"], ["Stone Edge"]]
+			}, {
+				"species": "Solrock",
+				"item": ["Grassium Z", "Power Herb"],
+				"ability": ["Corona"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Zen Headbutt"], ["Stone Edge"], ["Flare Blitz"], ["Solar Blade"]]
+			}, {
+				"species": "Solrock",
+				"item": ["Leftovers"],
+				"ability": ["Filter"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": "Impish",
+				"moves": [["Cosmic Spin"], ["Morning Sun"], ["Cosmic Power"], ["Prophetic Asteroid"]]
+			}, {
+				"species": "Solrock",
+				"item": ["Psychium Z"],
+				"ability": ["Levitate", "Filter"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Hypnosis"], ["Stone Edge"], ["Zen Headbutt"], ["Earthquake"]]
 			}]
 		},
 		"tangrowth": {
@@ -2276,6 +2527,38 @@
 				"moves": [["Psychic"], ["Moonblast"], ["Hidden Power Fire"], ["Focus Blast", "Thunderbolt", "Nature's Madness"]]
 			}]
 		},
+		"torterra": {
+			"flags": {},
+			"sets": [{
+				"species": "Torterra",
+				"item": ["Leftovers"],
+				"ability": ["Stamina"],
+				"evs": {"hp": 248, "def": 8, "spd": 252},
+				"nature": "Careful",
+				"moves": [["Stealth Rock", "Leech Seed"], ["Wood Hammer"], ["Earthquake"], ["Synthesis"]]
+			}, {
+				"species": "Torterra",
+				"item": ["Leftovers"],
+				"ability": ["Stamina"],
+				"evs": {"hp": 248, "def": 8, "spd": 252},
+				"nature": "Careful",
+				"moves": [["Curse"], ["Stone Edge"], ["Earthquake"], ["Synthesis"]]
+			}, {
+				"species": "Torterra",
+				"item": ["White Herb"],
+				"ability": ["Stamina"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Shell Smash"], ["Wood Hammer"], ["Earthquake"], ["Stone Edge"]]
+			}, {
+				"species": "Torterra",
+				"item": ["Leftovers", "Rocky Helmet"],
+				"ability": ["Stamina"],
+				"evs": {"hp": 248, "def": 252, "spd": 8},
+				"nature": "Careful",
+				"moves": [["Stealth Rock", "Leech Seed"], ["Wood Hammer"], ["Earthquake"], ["Synthesis"]]
+			}]
+		},
 		"toxapex": {
 			"flags": {},
 			"sets": [{
@@ -2285,6 +2568,31 @@
 				"evs": {"hp": 252, "def": 4, "spd": 252},
 				"nature": "Calm",
 				"moves": [["Scald"], ["Haze"], ["Recover"], ["Toxic", "Toxic Spikes", "Knock Off"]]
+			}]
+		},
+		"turtonator": {
+			"flags": {},
+			"sets": [{
+				"species": "Turtonator",
+				"item": ["Rocky Helmet"],
+				"ability": ["Shell Armor"],
+				"evs": {"hp": 248, "def": 252, "spa": 8},
+				"nature": "Bold",
+				"moves": [["Flamethrower"], ["Morning Sun"], ["Will-O-Wisp", "Toxic"], ["Draco Meteor"]]
+			}, {
+				"species": "Turtonator",
+				"item": ["Leftovers"],
+				"ability": ["Shell Armor"],
+				"evs": {"hp": 248, "atk": 8, "spd": 252},
+				"nature": "Careful",
+				"moves": [["Flame Wheel"], ["Morning Sun"], ["Earthquake"], ["Bulk Up"]]
+			}, {
+				"species": "Turtonator",
+				"item": ["Life Orb"],
+				"ability": ["Weak Armor"],
+				"evs": {"spa": 252, "def": 4, "spe": 252},
+				"nature": "Modest",
+				"moves": [["Flamethrower"], ["Shell Smash"], ["Dragon Pulse"], ["Focus Blast", "Hidden Power Ground"]]
 			}]
 		},
 		"tyranitar": {
@@ -2387,6 +2695,56 @@
 				"evs": {"hp": 248, "def": 112, "spe": 148},
 				"nature": "Timid",
 				"moves": [["Bug Buzz"], ["Flamethrower"], ["Quiver Dance"], ["Roost"]]
+			}]
+		},
+		"whiscash": {
+			"flags": {},
+			"sets": [{
+				"species": "Whiscash",
+				"item": ["Flyinium Z", "Power Herb"],
+				"ability": ["Seismography"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Dragon Dance"], ["Earthquake"], ["Waterfall"], ["Bounce"]]
+			}, {
+				"species": "Whiscash",
+				"item": ["Choice Band", "Choice Scarf", "Assault Vest"],
+				"ability": ["Seismography"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["U-Turn"], ["Earthquake"], ["Waterfall"], ["Stone Edge"]]
+			}]
+		},
+		"wigglytuff": {
+			"flags": {},
+			"sets": [{
+				"species": "Wigglytuff",
+				"item": ["Rocky Helmet"],
+				"ability": ["Inflate"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": "Bold",
+				"moves": [["Wish"], ["Protect"], ["Moonblast"], ["Heal Bell", "Thunder Wave", "Seismic Toss"]]
+			}, {
+				"species": "Wigglytuff",
+				"item": ["Leftovers"],
+				"ability": ["Inflate"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": "Bold",
+				"moves": [["Moonlight"], ["Fire Blast"], ["Moonblast"], ["Stealth Rock", "Toxic"]]
+			}, {
+				"species": "Wigglytuff",
+				"item": ["Choice Specs"],
+				"ability": ["Inflate"],
+				"evs": {"def": 4, "spa": 252, "spd": 252},
+				"nature": "Modest",
+				"moves": [["Hyper Voice"], ["Fire Blast"], ["Moonblast"], ["Psychic", "Thunderbolt"]]
+			}, {
+				"species": "Wigglytuff",
+				"item": ["Leftovers"],
+				"ability": ["Inflate"],
+				"evs": {"hp": 252, "def": 4, "spd": 252},
+				"nature": "Calm",
+				"moves": [["Wish"], ["Protect"], ["Moonblast"], ["Toxic", "Counter", "Knock Off"]]
 			}]
 		},
 		"zapdos": {
@@ -5460,17 +5818,6 @@
 				"evs": {"hp": 248, "def": 252, "spd": 8},
 				"nature": "Bold",
 				"moves": [["Stealth Rock"], ["Lava Plume"], ["Explosion"], ["Toxic"]]
-			}]
-		},
-		"torterra": {
-			"flags": {},
-			"sets": [{
-				"species": "Torterra",
-				"item": ["Leftovers"],
-				"ability": ["Overgrow"],
-				"evs": {"hp": 248, "def": 252, "spd": 8},
-				"nature": "Careful",
-				"moves": [["Stealth Rock"], ["Wood Hammer"], ["Earthquake"], ["Synthesis"]]
 			}]
 		},
 		"toxicroak": {

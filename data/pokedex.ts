@@ -12552,7 +12552,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Tyrunt",
 		types: ["Rock", "Dragon"],
 		genderRatio: {M: 0.875, F: 0.125},
-		baseStats: {hp: 68, atk: 99, def: 88, spa: 55, spd: 50, spe: 58},
+		baseStats: {hp: 68, atk: 109, def: 88, spa: 55, spd: 50, spe: 58},
 		abilities: {0: "Strong Jaw", H: "Sturdy"},
 		heightm: 0.8,
 		weightkg: 26,
