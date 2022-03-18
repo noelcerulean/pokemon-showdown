@@ -387,6 +387,10 @@ export class RandomGen7Teams extends RandomTeams {
 				moves.has('gigadrain') ||
 				moves.has('leafstorm')
 			)};
+		case 'solarblade':
+			return {cull: (
+				(!abilities.has('Drought') && !moves.has('sunnyday') && !teamDetails.sun)
+			)};
 		case 'bonemerang': case 'precipiceblades':
 			return {cull: moves.has('earthquake')};
 		case 'earthpower':

@@ -1286,11 +1286,11 @@
 			"flags": {},
 			"sets": [{
 				"species": "Cherrim",
-				"item": ["Life Orb"],
+				"item": ["Life Orb", "Firium Z"],
 				"ability": ["Flower Gift"],
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": "Naive",
-				"moves": [["Solar Blade"], ["Sunshine Dance"], ["Play Rough"], ["Growth"]]
+				"moves": [["Solar Blade"], ["Sunshine Dance"], ["Play Rough", "Growth"], ["Sunny Day"]]
 			}]
 		},
 		"clefable": {
@@ -2385,14 +2385,14 @@
 				"ability": ["Sand Rush"],
 				"evs": {"spa": 252, "spd": 4, "spe": 252},
 				"nature": "Modest",
-				"moves": [["Giga Drain"], ["Sunshine Dance"], ["Earth Power"], ["Hidden Power Ice", "Sandstorm", "Spikes"]]
+				"moves": [["Giga Drain"], ["Sunshine Dance"], ["Earth Power"], ["Sandstorm"]]
 			}, {
 				"species": "Maractus",
 				"item": ["Life Orb"],
 				"ability": ["Sand Rush"],
 				"evs": {"atk": 252, "spd": 4, "spe": 252},
 				"nature": "Adamant",
-				"moves": [["Wood Hammer", "Petal Blizzard"], ["Earthquake"], ["Poison Jab"], ["Knock Off", "Sandstorm", "Spikes"]]
+				"moves": [["Wood Hammer", "Petal Blizzard"], ["Earthquake"], ["Poison Jab", "Knock Off"], ["Sandstorm"]]
 			}]
 		},
 		"mawile": {
@@ -3101,7 +3101,7 @@
 				"ability": ["Dark Aura"],
 				"evs": {"hp": 252, "def": 252, "spd": 4},
 				"nature": "Bold",
-				"moves": [["Calm Mind"], ["Sleep Talk"], ["Dark Pulse"], ["Taunt", "Will-O-Wisp"]]
+				"moves": [["Calm Mind"], ["Sleep Talk"], ["Dark Pulse"], ["Rest"]]
 			}, {
 				"species": "Spiritomb",
 				"item": ["Black Glasses"],
@@ -3591,43 +3591,56 @@
 		}
 	},
 	"UU": {
-		"scizor": {
+		"abomasnow": {
+			"flags": {
+				"megaOnly": 1
+			},
+			"sets": [{
+				"species": "Abomasnow",
+				"item": ["Abomasite"],
+				"ability": ["Thick Fat", "Soundproof"],
+				"evs": {"atk": 92, "spa": 252, "spe": 164},
+				"nature": "Rash",
+				"moves": [["Blizzard"], ["Wood Hammer", "Giga Drain"], ["Ice Shard"], ["Focus Blast"]]
+			}, {
+				"species": "Abomasnow",
+				"item": ["Abomasite"],
+				"ability": ["Thick Fat", "Soundproof"],
+				"evs": {"hp": 252, "atk": 252, "spe": 4},
+				"nature": "Adamant",
+				"moves": [["Ice Shard"], ["Wood Hammer"], ["Earthquake"], ["Swords Dance"]]
+			}]
+		},
+		"absol": {
 			"flags": {},
 			"sets": [{
-				"species": "Scizor",
-				"item": ["Choice Band"],
-				"ability": ["Technician"],
-				"evs": {"hp": 164, "atk": 252, "spe": 92},
-				"nature": "Adamant",
-				"moves": [["Bullet Punch"], ["U-turn"], ["Superpower"], ["Knock Off", "Pursuit"]]
+				"species": "Absol",
+				"item": ["Absolite"],
+				"ability": ["Intimidate"],
+				"evs": {"atk": 252, "spa": 4, "spe": 252},
+				"nature": "Naive",
+				"moves": [["Knock Off"], ["Pursuit"], ["Fire Blast", "Superpower"], ["Sucker Punch", "Iron Tail"]]
 			}, {
-				"species": "Scizor",
-				"item": ["Fightinium Z", "Metal Coat"],
-				"ability": ["Technician"],
-				"evs": {"hp": 252, "atk": 204, "def": 48, "spe": 4},
-				"nature": "Adamant",
-				"moves": [["Swords Dance"], ["Bullet Punch"], ["Superpower"], ["Roost", "Knock Off"]]
+				"species": "Absol",
+				"item": ["Choice Scarf"],
+				"ability": ["Intimidate", "Justified"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Knock Off"], ["Pursuit"], ["Superpower"], ["Play Rough", "Iron Tail"]]
 			}, {
-				"species": "Scizor",
-				"item": ["Metal Coat"],
-				"ability": ["Technician"],
-				"evs": {"hp": 252, "atk": 204, "def": 48, "spe": 4},
-				"nature": "Adamant",
-				"moves": [["Swords Dance"], ["Bullet Punch"], ["Roost"], ["Knock Off"]]
-			}, {
-				"species": "Scizor",
-				"item": ["Buginium Z", "Leftovers"],
-				"ability": ["Technician"],
-				"evs": {"hp": 244, "atk": 16, "def": 148, "spd": 96, "spe": 4},
-				"nature": "Adamant",
-				"moves": [["Swords Dance"], ["Bullet Punch"], ["U-turn"], ["Roost"]]
-			}, {
-				"species": "Scizor",
-				"item": ["Life Orb"],
-				"ability": ["Technician"],
+				"species": "Absol",
+				"item": ["Black Glasses"],
+				"ability": ["Intimidate"],
 				"evs": {"atk": 252, "spd": 4, "spe": 252},
 				"nature": "Adamant",
-				"moves": [["Swords Dance"], ["Bullet Punch"], ["Bug Bite", "Quick Attack"], ["Superpower", "Knock Off"]]
+				"moves": [["Knock Off"], ["Sucker Punch"], ["Swords Dance"], ["Play Rough"]]
+			}, {
+				"species": "Absol",
+				"item": ["Absolite"],
+				"ability": ["Intimidate"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Knock Off"], ["Play Rough"], ["Swords Dance"], ["Sucker Punch"]]
 			}]
 		},
 		"aerodactyl": {
@@ -3641,6 +3654,30 @@
 				"evs": {"atk": 252, "spd": 4, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Stone Edge"], ["Wing Attack", "Aqua Tail"], ["Earthquake", "Fire Fang"], ["Pursuit", "Roost"]]
+			}]
+		},
+		"aggron": {
+			"flags": {
+				"megaOnly": 1
+			},
+			"sets": [{
+				"species": "Aggron",
+				"item": ["Aggronite"],
+				"ability": ["Sturdy"],
+				"evs": {"hp": 248, "def": 8, "spd": 252},
+				"nature": "Careful",
+				"moves": [["Heavy Slam"], ["Earthquake"], ["Stealth Rock"], ["Toxic", "Fire Punch", "Curse"]]
+			}]
+		},
+		"alomomola": {
+			"flags": {},
+			"sets": [{
+				"species": "Alomomola",
+				"item": ["Leftovers", "Rocky Helmet"],
+				"ability": ["Regenerator"],
+				"evs": {"hp": 40, "def": 252, "spd": 216},
+				"nature": "Bold",
+				"moves": [["Wish"], ["Protect"], ["Toxic"], ["Scald", "Knock Off"]]
 			}]
 		},
 		"altaria": {
@@ -3682,6 +3719,132 @@
 				"evs": {"hp": 248, "atk": 160, "def": 4, "spe": 96},
 				"nature": "Adamant",
 				"moves": [["Body Slam", "Return"], ["Fire Blast"], ["Earthquake"], ["Roost"]]
+			}]
+		},
+		"amoonguss": {
+			"flags": {},
+			"sets": [{
+				"species": "Amoonguss",
+				"item": ["Black Sludge", "Rocky Helmet"],
+				"ability": ["Regenerator"],
+				"evs": {"hp": 252, "def": 176, "spd": 80},
+				"nature": "Bold",
+				"moves": [["Spore"], ["Giga Drain"], ["Hidden Power Fire"], ["Clear Smog"]]
+			}]
+		},
+		"ampharos": {
+			"flags": {},
+			"sets": [{
+				"species": "Ampharos",
+				"item": ["Ampharosite"],
+				"ability": ["Electric Surge"],
+				"evs": {"hp": 252, "spa": 252, "spe": 4},
+				"nature": "Modest",
+				"moves": [["Volt Switch"], ["Dragon Pulse"], ["Focus Blast"], ["Thunderbolt"]]
+			}, {
+				"species": "Ampharos",
+				"item": ["Shuca Berry"],
+				"ability": ["Electric Surge"],
+				"evs": {"hp": 252, "spa": 252, "spe": 4},
+				"nature": "Modest",
+				"moves": [["Volt Switch"], ["Hidden Power Ice"], ["Tail Glow"], ["Thunderbolt"]]
+			}, {
+				"species": "Ampharos",
+				"item": ["Ampharosite"],
+				"ability": ["Electric Surge"],
+				"evs": {"hp": 4, "spa": 252, "spe": 252},
+				"nature": "Modest",
+				"moves": [["Agility"], ["Dragon Pulse"], ["Focus Blast"], ["Thunderbolt"]]
+			}, {
+				"species": "Ampharos",
+				"item": ["Ampharosite"],
+				"ability": ["Electric Surge"],
+				"evs": {"hp": 4, "spa": 252, "spe": 252},
+				"nature": "Modest",
+				"moves": [["Volt Switch"], ["Dragon Pulse"], ["Tail Glow"], ["Thunderbolt"]]
+			}]
+		},
+		"ariados": {
+			"flags": {},
+			"sets": [{
+				"species": "Ariados",
+				"item": ["Black Sludge"],
+				"ability": ["Enfeebling Venom"],
+				"evs": {"hp": 252, "def": 252, "spe": 4},
+				"nature": ["Impish"],
+				"moves": [["Toxic Thread"], ["Spider Web"], ["Sticky Web"], ["Protect"]]
+			}, {
+				"species": "Ariados",
+				"item": ["Black Sludge"],
+				"ability": ["Enfeebling Venom"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": ["Adamant"],
+				"moves": [["Toxic Thread"], ["Leech Life"], ["Agility"], ["Stomping Tantrum"]]
+			}, {
+				"species": "Ariados",
+				"item": ["Focus Sash"],
+				"ability": ["Enfeebling Venom"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": ["Adamant"],
+				"moves": [["Toxic Thread"], ["Spider Web"], ["Sticky Web"], ["Toxic Spikes"]]
+			}]
+		},
+		"armaldo": {
+			"flags": {},
+			"sets": [{
+				"species": "Armaldo",
+				"item": ["Life Orb"],
+				"ability": ["Tough Claws"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": ["Adamant"],
+				"moves": [["Rock Polish"], ["Rock Climb"], ["Earthquake"], ["X-Scissor", "Aqua Jet"]]
+			}, {
+				"species": "Armaldo",
+				"item": ["Choice Band"],
+				"ability": ["Tough Claws"],
+				"evs": {"hp": 252, "atk": 252, "spe": 4},
+				"nature": ["Adamant"],
+				"moves": [["Aqua Jet"], ["Rock Climb"], ["Earthquake"], ["X-Scissor"]]
+			}, {
+				"species": "Armaldo",
+				"item": ["Assault Vest"],
+				"ability": ["Tough Claws"],
+				"evs": {"hp": 252, "atk": 252, "spe": 4},
+				"nature": ["Adamant"],
+				"moves": [["Rapid Spin"], ["Rock Climb"], ["Earthquake"], ["X-Scissor"]]
+			}, {
+				"species": "Armaldo",
+				"item": ["Leftovers"],
+				"ability": ["Tough Claws"],
+				"evs": {"hp": 252, "atk": 252, "spe": 4},
+				"nature": ["Adamant"],
+				"moves": [["Rapid Spin"], ["Rock Climb"], ["Earthquake"], ["Stealth Rock"]]
+			}]
+		},
+		"aromatisse": {
+			"flags": {},
+			"sets": [{
+				"species": "Aromatisse",
+				"item": ["Leftovers"],
+				"ability": ["Misty Surge", "Aroma Veil", "Healer"],
+				"evs": {"hp": 252, "def": 4, "spd": 252},
+				"nature": ["Calm"],
+				"moves": [["Moonblast"], ["Wish"], ["Protect"], ["Defog", "Toxic"]]
+			}, {
+				"species": "Aromatisse",
+				"item": ["Leftovers"],
+				"ability": ["Misty Surge", "Aroma Veil"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": ["Bold"],
+				"moves": [["Moonblast"], ["Wish"], ["Calm Mind"], ["Hidden Power Fire"]]
+			}, {
+				"species": "Aromatisse",
+				"item": ["Fairium Z"],
+				"ability": ["Misty Surge", "Aroma Veil"],
+				"evs": {"hp": 252, "spa": 252, "spd": 4},
+				"ivs": {"spe": 0},
+				"nature": ["Quiet"],
+				"moves": [["Moonblast"], ["Nasty Plot"], ["Trick Room"], ["Hidden Power Fire", "Psychic"]]
 			}]
 		},
 		"bisharp": {
@@ -3817,17 +3980,6 @@
 				"moves": [["Volt Switch"], ["Overheat", "Flamethrower"], ["Thunderbolt"], ["Hidden Power Ice", "Hidden Power Grass"]]
 			}]
 		},
-		"amoonguss": {
-			"flags": {},
-			"sets": [{
-				"species": "Amoonguss",
-				"item": ["Black Sludge", "Rocky Helmet"],
-				"ability": ["Regenerator"],
-				"evs": {"hp": 252, "def": 176, "spd": 80},
-				"nature": "Bold",
-				"moves": [["Spore"], ["Giga Drain"], ["Hidden Power Fire"], ["Clear Smog"]]
-			}]
-		},
 		"cobalion": {
 			"flags": {},
 			"sets": [{
@@ -3920,6 +4072,45 @@
 				"moves": [["Moonblast"], ["Scald"], ["Rest"], ["Sleep Talk"]]
 			}]
 		},
+		"scizor": {
+			"flags": {},
+			"sets": [{
+				"species": "Scizor",
+				"item": ["Choice Band"],
+				"ability": ["Technician"],
+				"evs": {"hp": 164, "atk": 252, "spe": 92},
+				"nature": "Adamant",
+				"moves": [["Bullet Punch"], ["U-turn"], ["Superpower"], ["Knock Off", "Pursuit"]]
+			}, {
+				"species": "Scizor",
+				"item": ["Fightinium Z", "Metal Coat"],
+				"ability": ["Technician"],
+				"evs": {"hp": 252, "atk": 204, "def": 48, "spe": 4},
+				"nature": "Adamant",
+				"moves": [["Swords Dance"], ["Bullet Punch"], ["Superpower"], ["Roost", "Knock Off"]]
+			}, {
+				"species": "Scizor",
+				"item": ["Metal Coat"],
+				"ability": ["Technician"],
+				"evs": {"hp": 252, "atk": 204, "def": 48, "spe": 4},
+				"nature": "Adamant",
+				"moves": [["Swords Dance"], ["Bullet Punch"], ["Roost"], ["Knock Off"]]
+			}, {
+				"species": "Scizor",
+				"item": ["Buginium Z", "Leftovers"],
+				"ability": ["Technician"],
+				"evs": {"hp": 244, "atk": 16, "def": 148, "spd": 96, "spe": 4},
+				"nature": "Adamant",
+				"moves": [["Swords Dance"], ["Bullet Punch"], ["U-turn"], ["Roost"]]
+			}, {
+				"species": "Scizor",
+				"item": ["Life Orb"],
+				"ability": ["Technician"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Swords Dance"], ["Bullet Punch"], ["Bug Bite", "Quick Attack"], ["Superpower", "Knock Off"]]
+			}]
+		},
 		"stakataka": {
 			"flags": {},
 			"sets": [{
@@ -3981,30 +4172,6 @@
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Plasma Fists"], ["Close Combat"], ["Bulk Up"], ["Giga Impact"]]
-			}]
-		},
-		"aggron": {
-			"flags": {
-				"megaOnly": 1
-			},
-			"sets": [{
-				"species": "Aggron",
-				"item": ["Aggronite"],
-				"ability": ["Sturdy"],
-				"evs": {"hp": 248, "def": 8, "spd": 252},
-				"nature": "Careful",
-				"moves": [["Heavy Slam"], ["Earthquake"], ["Stealth Rock"], ["Toxic", "Fire Punch", "Curse"]]
-			}]
-		},
-		"alomomola": {
-			"flags": {},
-			"sets": [{
-				"species": "Alomomola",
-				"item": ["Leftovers", "Rocky Helmet"],
-				"ability": ["Regenerator"],
-				"evs": {"hp": 40, "def": 252, "spd": 216},
-				"nature": "Bold",
-				"moves": [["Wish"], ["Protect"], ["Toxic"], ["Scald", "Knock Off"]]
 			}]
 		},
 		"beedrill": {
@@ -4670,19 +4837,6 @@
 				"moves": [["Steam Eruption"], ["Flamethrower"], ["Toxic"], ["Substitute", "Protect"]]
 			}]
 		},
-		"absol": {
-			"flags": {
-				"megaOnly": 1
-			},
-			"sets": [{
-				"species": "Absol",
-				"item": ["Absolite"],
-				"ability": ["Justified"],
-				"evs": {"atk": 252, "spa": 4, "spe": 252},
-				"nature": "Naive",
-				"moves": [["Knock Off"], ["Pursuit"], ["Fire Blast", "Superpower"], ["Sucker Punch", "Iron Tail"]]
-			}]
-		},
 		"bewear": {
 			"flags": {},
 			"sets": [{
@@ -5271,19 +5425,6 @@
 		}
 	},
 	"RU": {
-		"abomasnow": {
-			"flags": {
-				"megaOnly": 1
-			},
-			"sets": [{
-				"species": "Abomasnow",
-				"item": ["Abomasite"],
-				"ability": ["Soundproof"],
-				"evs": {"atk": 92, "spa": 252, "spe": 164},
-				"nature": "Rash",
-				"moves": [["Blizzard"], ["Wood Hammer"], ["Ice Shard"], ["Focus Blast"]]
-			}]
-		},
 		"aerodactyl": {
 			"flags": {},
 			"sets": [{
@@ -5293,19 +5434,6 @@
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Stone Edge"], ["Ice Fang"], ["Earthquake"], ["Pursuit"]]
-			}]
-		},
-		"ampharos": {
-			"flags": {
-				"megaOnly": 1
-			},
-			"sets": [{
-				"species": "Ampharos",
-				"item": ["Ampharosite"],
-				"ability": ["Static"],
-				"evs": {"hp": 4, "spa": 252, "spe": 252},
-				"nature": "Modest",
-				"moves": [["Volt Switch"], ["Dragon Pulse"], ["Focus Blast"], ["Thunderbolt"]]
 			}]
 		},
 		"araquanid": {
