@@ -3847,6 +3847,132 @@
 				"moves": [["Moonblast"], ["Nasty Plot"], ["Trick Room"], ["Hidden Power Fire", "Psychic"]]
 			}]
 		},
+		"aromatissefnf": {
+			"flags": {},
+			"sets": [{
+				"species": "Aromatisse-FnF",
+				"item": ["Choice Specs"],
+				"ability": ["Aroma Veil"],
+				"evs": {"hp": 252, "spa": 252, "spd": 4},
+				"nature": ["Modest"],
+				"moves": [["Moonblast"], ["Dark Pulse"], ["Psychic"], ["Hidden Power Fighting"]]
+			}, {
+				"species": "Aromatisse-FnF",
+				"item": ["Life Orb"],
+				"ability": ["Aroma Veil"],
+				"evs": {"hp": 252, "spa": 252, "spd": 4},
+				"ivs": {"spe": 0},
+				"nature": ["Quiet"],
+				"moves": [["Moonblast"], ["Dark Pulse"], ["Trick Room"], ["Nasty Plot"]]
+			}, {
+				"species": "Aromatisse-FnF",
+				"item": ["Life Orb"],
+				"ability": ["Aroma Veil"],
+				"evs": {"hp": 252, "spa": 252, "spd": 4},
+				"nature": ["Modest"],
+				"moves": [["Moonblast"], ["Dark Pulse"], ["Defog", "Wish", "Aromatherapy"], ["Lunatic Eyes"]]
+			}, {
+				"species": "Aromatisse-FnF",
+				"item": ["Leftovers"],
+				"ability": ["Aroma Veil"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": ["Bold"],
+				"moves": [["Calm Mind"], ["Draining Kiss"], ["Lunatic Eyes"], ["Aromatherapy"]]
+			}]
+		},
+		"aurorus": {
+			"flags": {},
+			"sets": [{
+				"species": "Aurorus",
+				"item": ["Choice Specs"],
+				"ability": ["Snow Warning"],
+				"evs": {"hp": 252, "spa": 252, "spd": 4},
+				"nature": ["Modest"],
+				"moves": [["Prehistoric Pulse"], ["Blizzard"], ["Earth Power"], ["Freeze-Dry"]]
+			}, {
+				"species": "Aurorus",
+				"item": ["Weakness Policy", "Life Orb"],
+				"ability": ["Snow Warning"],
+				"evs": {"hp": 4, "spa": 252, "spe": 252},
+				"nature": ["Modest"],
+				"moves": [["Prehistoric Pulse"], ["Rock Polish"], ["Earth Power"], ["Freeze-Dry"]]
+			}, {
+				"species": "Aurorus",
+				"item": ["Light Clay"],
+				"ability": ["Snow Warning"],
+				"evs": {"hp": 252, "spa": 252, "spe": 4},
+				"nature": ["Modest"],
+				"moves": [["Prehistoric Pulse"], ["Blizzard"], ["Aurora Veil"], ["Stealth Rock"]]
+			}, {
+				"species": "Aurorus",
+				"item": ["Leftovers"],
+				"ability": ["Snow Warning"],
+				"evs": {"hp": 252, "def": 252, "spa": 4},
+				"nature": ["Bold"],
+				"moves": [["Calm Mind"], ["Freeze-Dry"], ["Prehistoric Pulse"], ["Earth Power"]]
+			}]
+		},
+		"azelf": {
+			"flags": {},
+			"sets": [{
+				"species": "Azelf",
+				"item": ["Focus Sash"],
+				"ability": ["Levitate"],
+				"evs": {"atk": 252, "spa": 4, "spe": 252},
+				"nature": "Naive",
+				"moves": [["Stealth Rock"], ["Explosion"], ["Taunt"], ["Fire Blast", "Knock Off", "Psyshock"]]
+			}]
+		},
+		"beautifly": {
+			"flags": {},
+			"sets": [{
+				"species": "Beautifly",
+				"item": ["Focus Sash", "Flyinium Z"],
+				"ability": ["Dazzling"],
+				"evs": {"spa": 252, "def": 4, "spe": 252},
+				"nature": ["Timid"],
+				"moves": [["Quiver Dance"], ["Hurricane"], ["Bug Buzz", "Giga Drain"], ["Heat Wave"]]
+			}]
+		},
+		"beedrill": {
+			"flags": {
+				"megaOnly": 1
+			},
+			"sets": [{
+				"species": "Beedrill",
+				"item": ["Beedrillite"],
+				"ability": ["Swarm"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["U-turn"], ["Poison Jab"], ["Drill Run"], ["Knock Off", "Pursuit", "Toxic Spikes"]]
+			}]
+		},
+		"beheeyem": {
+			"flags": {},
+			"sets": [{
+				"species": "Beheeyem",
+				"item": ["Leftovers"],
+				"ability": ["Terraforming"],
+				"evs": {"hp": 252, "def": 4, "spd": 252},
+				"nature": ["Calm"],
+				"moves": [["Hypnosis"], ["Focus Blast", "Volt Switch"], ["Psychic"], ["Recover"]]
+			}, {
+				"species": "Beheeyem",
+				"item": ["Leftovers"],
+				"ability": ["Terraforming"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": ["Bold"],
+				"moves": [["Hypnosis"], ["Focus Blast", "Volt Switch"], ["Psychic"], ["Recover"]]
+			}, {
+				"species": "Beheeyem",
+				"item": ["Leftovers", "Colbur Berry", "Life Orb"],
+				"ability": ["Terraforming"],
+				"evs": {"hp": 252, "spa": 252, "spd": 4},
+				"ivs": {"spe": 0},
+				"nature": ["Quiet"],
+				"moves": [["Hypnosis"], ["Trick Room"], ["Psychic"], ["Focus Blast", "Volt Switch"]]
+			}]
+		},
 		"bisharp": {
 			"flags": {},
 			"sets": [{
@@ -3863,6 +3989,278 @@
 				"evs": {"hp": 188, "atk": 236, "spe": 84},
 				"nature": ["Adamant"],
 				"moves": [["Knock Off"], ["Sucker Punch"], ["Pursuit"], ["Iron Head"]]
+			}]
+		},
+		"blissey": {
+			"flags": {},
+			"sets": [{
+				"species": "Blissey",
+				"item": ["Leftovers"],
+				"ability": ["Natural Cure"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": "Bold",
+				"moves": [["Wish"], ["Seismic Toss"], ["Protect"], ["Heal Bell", "Toxic"]]
+			}, {
+				"species": "Blissey",
+				"item": ["Leftovers"],
+				"ability": ["Natural Cure"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": "Bold",
+				"moves": [["Soft-Boiled"], ["Seismic Toss"], ["Toxic"], ["Heal Bell", "Stealth Rock"]]
+			}]
+		},
+		"celebi": {
+			"flags": {},
+			"sets": [{
+				"species": "Celebi",
+				"item": ["Groundium Z"],
+				"ability": ["Natural Cure"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Nasty Plot"], ["Giga Drain"], ["Psychic"], ["Earth Power"]]
+			}, {
+				"species": "Celebi",
+				"item": ["Colbur Berry", "Leftovers"],
+				"ability": ["Natural Cure"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Nasty Plot"], ["Giga Drain"], ["Psychic"], ["Dazzling Gleam", "Hidden Power Fire"]]
+			}, {
+				"species": "Celebi",
+				"item": ["Leftovers"],
+				"ability": ["Natural Cure"],
+				"evs": {"hp": 252, "def": 236, "spe": 20},
+				"ivs": {"atk": 0},
+				"nature": "Bold",
+				"moves": [["Nasty Plot"], ["Giga Drain"], ["Psychic"], ["Hidden Power Fire"]]
+			}, {
+				"species": "Celebi",
+				"item": ["Psychium Z"],
+				"ability": ["Natural Cure"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Nasty Plot"], ["Giga Drain"], ["Psychic"], ["Dazzling Gleam"]]
+			}, {
+				"species": "Celebi",
+				"item": ["Grassium Z"],
+				"ability": ["Natural Cure"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Nasty Plot"], ["Leaf Storm"], ["Psychic"], ["Recover"]]
+			}]
+		},
+		"chandelure": {
+			"flags": {},
+			"sets": [{
+				"species": "Chandelure",
+				"item": ["Choice Scarf"],
+				"ability": ["Flame Body", "Flash Fire"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Fire Blast"], ["Shadow Ball"], ["Memento"], ["Trick", "Flamethrower", "Hidden Power Ice"]]
+			}, {
+				"species": "Chandelure",
+				"item": ["Leftovers"],
+				"ability": ["Flame Body", "Flash Fire"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Flamethrower"], ["Shadow Ball"], ["Calm Mind"], ["Substitute"]]
+			}]
+		},
+		"chesnaught": {
+			"flags": {},
+			"sets": [{
+				"species": "Chesnaught",
+				"item": ["Leftovers", "Rocky Helmet"],
+				"ability": ["Bulletproof", "Iron Barbs"],
+				"evs": {"hp": 244, "def": 252, "spd": 12},
+				"nature": "Impish",
+				"moves": [["Spikes"], ["Wood Hammer"], ["Synthesis"], ["Drain Punch"]]
+			}]
+		},
+		"claydol": {
+			"flags": {},
+			"sets": [{
+				"species": "Claydol",
+				"item": ["Leftovers"],
+				"ability": ["Levitate"],
+				"evs": {"hp": 252, "def": 4, "spd": 252},
+				"nature": "Calm",
+				"moves": [["Lunatic Eyes"], ["Rapid Spin"], ["Recover"], ["Toxic", "Earth Power", "Stealth Rock"]]
+			}, {
+				"species": "Claydol",
+				"item": ["Leftovers"],
+				"ability": ["Levitate"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": "Impish",
+				"moves": [["Cosmic Spin"], ["Rapid Spin"], ["Recover"], ["Toxic", "Earthquake", "Stealth Rock"]]
+			}]
+		},
+		"cobalion": {
+			"flags": {},
+			"sets": [{
+				"species": "Cobalion",
+				"item": ["Fightinium Z"],
+				"ability": ["Justified"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Swords Dance"], ["Close Combat"], ["Iron Head"], ["Rock Polish", "Stealth Rock"]]
+			}, {
+				"species": "Cobalion",
+				"item": ["Steelium Z", "Shuca Berry"],
+				"ability": ["Justified"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Stealth Rock", "Rock Polish"], ["Close Combat"], ["Iron Head"], ["Swords Dance"]]
+			}]
+		},
+		"cradily": {
+			"flags": {},
+			"sets": [{
+				"species": "Cradily",
+				"item": ["Leftovers"],
+				"ability": ["Slow Digestion"],
+				"evs": {"hp": 252, "def": 4, "spd": 252},
+				"nature": "Calm",
+				"moves": [["Leech Seed"], ["Protect"], ["Recover", "Toxic"], ["Giga Drain", "Infestation"]]
+			}, {
+				"species": "Cradily",
+				"item": ["Leftovers"],
+				"ability": ["Slow Digestion"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": "Bold",
+				"moves": [["Leech Seed"], ["Protect"], ["Recover", "Toxic"], ["Giga Drain", "Infestation"]]
+			}]
+		},
+		"crawdaunt": {
+			"flags": {},
+			"sets": [{
+				"species": "Crawdaunt",
+				"item": ["Waterium Z", "Life Orb"],
+				"ability": ["Adaptability"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Swords Dance"], ["Crabhammer"], ["Knock Off"], ["Aqua Jet"]]
+			}, {
+				"species": "Crawdaunt",
+				"item": ["Choice Band"],
+				"ability": ["Adaptability"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Superpower", "Crunch"], ["Crabhammer"], ["Knock Off"], ["Aqua Jet"]]
+			}]
+		},
+		"crobat": {
+			"flags": {},
+			"sets": [{
+				"species": "Crobat",
+				"item": ["Flyinium Z", "Sky Plate"],
+				"ability": ["Infiltrator"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Brave Bird"], ["Taunt"], ["Roost"], ["Super Fang", "U-turn"]]
+			}, {
+				"species": "Crobat",
+				"item": ["Flyinium Z", "Sky Plate"],
+				"ability": ["Infiltrator"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Brave Bird"], ["Defog"], ["Roost"], ["U-turn"]]
+			}, {
+				"species": "Crobat",
+				"item": ["Black Sludge"],
+				"ability": ["Infiltrator"],
+				"evs": {"hp": 248, "atk": 36, "spe": 224},
+				"nature": "Jolly",
+				"moves": [["Brave Bird"], ["U-turn", "Toxic"], ["Roost"], ["Taunt", "Defog"]]
+			}]
+		},
+		"delibird": {
+			"flags": {},
+			"sets": [{
+				"species": "Delibird",
+				"item": ["Focus Sash"],
+				"ability": ["Mountaineer"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Naughty-or-Nice"], ["Stealth Rock"], ["Spikes"], ["Destiny Bond", "Taunt", "Rapid Spin"]]
+			}, {
+				"species": "Delibird",
+				"item": ["Normalium Z"],
+				"ability": ["Hustle"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Splash"], ["Drill Peck"], ["Icicle Crash"], ["Brick Break"]]
+			}]
+		},
+		"doublade": {
+			"flags": {},
+			"sets": [{
+				"species": "Doublade",
+				"item": ["Eviolite"],
+				"ability": ["No Guard"],
+				"evs": {"hp": 240, "atk": 252, "spd": 16},
+				"ivs": {"spe": 0},
+				"nature": "Brave",
+				"moves": [["Swords Dance"], ["Gyro Ball"], ["Shadow Claw", "Sacred Sword"], ["Shadow Sneak"]]
+			}, {
+				"species": "Doublade",
+				"item": ["Eviolite"],
+				"ability": ["No Guard"],
+				"evs": {"hp": 240, "atk": 252, "spd": 16},
+				"nature": "Adamant",
+				"moves": [["Swords Dance"], ["Iron Head"], ["Shadow Claw", "Sacred Sword"], ["Shadow Sneak"]]
+			}]
+		},
+		"dusknoir": {
+			"flags": {},
+			"sets": [{
+				"species": "Dusknoir",
+				"item": ["Colbur Berry"],
+				"ability": ["Pickpocket"],
+				"evs": {"hp": 248, "atk": 252, "spd": 8},
+				"nature": "Adamant",
+				"moves": [["Spectral Thief"], ["Shadow Sneak"], ["Drain Punch"], ["Toxic"]]
+			}, {
+				"species": "Dusknoir",
+				"item": ["Leftovers"],
+				"ability": ["Pressure"],
+				"evs": {"hp": 248, "def": 8, "spd": 252},
+				"nature": "Careful",
+				"moves": [["Phantom Force"], ["Focus Punch"], ["Protect"], ["Substitute"]]
+			}, {
+				"species": "Dusknoir",
+				"item": ["Assault Vest"],
+				"ability": ["Pressure"],
+				"evs": {"hp": 248, "atk": 252, "spd": 8},
+				"nature": "Adamant",
+				"moves": [["Spectral Thief"], ["Shadow Sneak"], ["Drain Punch"], ["Power-Up Punch"]]
+			}]
+		},
+		"empoleon": {
+			"flags": {},
+			"sets": [{
+				"species": "Empoleon",
+				"item": ["Leftovers"],
+				"ability": ["Torrent"],
+				"evs": {"hp": 252, "def": 76, "spd": 180},
+				"ivs": {"atk": 0},
+				"nature": "Calm",
+				"moves": [["Scald"], ["Defog", "Stealth Rock"], ["Toxic", "Knock Off"], ["Roar"]]
+			}, {
+				"species": "Empoleon",
+				"item": ["Leftovers"],
+				"ability": ["Torrent"],
+				"evs": {"hp": 252, "def": 76, "spd": 180},
+				"ivs": {"atk": 0},
+				"nature": "Calm",
+				"moves": [["Scald"], ["Defog", "Stealth Rock"], ["Toxic"], ["Protect"]]
 			}]
 		},
 		"hydreigon": {
@@ -3978,24 +4376,6 @@
 				"evs": {"def": 4, "spa": 252, "spe": 252},
 				"nature": "Timid",
 				"moves": [["Volt Switch"], ["Overheat", "Flamethrower"], ["Thunderbolt"], ["Hidden Power Ice", "Hidden Power Grass"]]
-			}]
-		},
-		"cobalion": {
-			"flags": {},
-			"sets": [{
-				"species": "Cobalion",
-				"item": ["Fightinium Z"],
-				"ability": ["Justified"],
-				"evs": {"atk": 252, "spd": 4, "spe": 252},
-				"nature": "Jolly",
-				"moves": [["Swords Dance"], ["Close Combat"], ["Iron Head"], ["Rock Polish", "Stealth Rock"]]
-			}, {
-				"species": "Cobalion",
-				"item": ["Steelium Z", "Shuca Berry"],
-				"ability": ["Justified"],
-				"evs": {"atk": 252, "spd": 4, "spe": 252},
-				"nature": "Jolly",
-				"moves": [["Stealth Rock", "Rock Polish"], ["Close Combat"], ["Iron Head"], ["Swords Dance"]]
 			}]
 		},
 		"jirachi": {
@@ -4174,30 +4554,6 @@
 				"moves": [["Plasma Fists"], ["Close Combat"], ["Bulk Up"], ["Giga Impact"]]
 			}]
 		},
-		"beedrill": {
-			"flags": {
-				"megaOnly": 1
-			},
-			"sets": [{
-				"species": "Beedrill",
-				"item": ["Beedrillite"],
-				"ability": ["Swarm"],
-				"evs": {"atk": 252, "spd": 4, "spe": 252},
-				"nature": "Jolly",
-				"moves": [["U-turn"], ["Poison Jab"], ["Drill Run"], ["Knock Off", "Pursuit", "Toxic Spikes"]]
-			}]
-		},
-		"blissey": {
-			"flags": {},
-			"sets": [{
-				"species": "Blissey",
-				"item": ["Leftovers"],
-				"ability": ["Natural Cure"],
-				"evs": {"hp": 252, "def": 252, "spd": 4},
-				"nature": "Bold",
-				"moves": [["Soft-Boiled"], ["Seismic Toss"], ["Toxic"], ["Heal Bell", "Stealth Rock"]]
-			}]
-		},
 		"froslass": {
 			"flags": {},
 			"sets": [{
@@ -4348,81 +4704,6 @@
 				"moves": [["Nasty Plot"], ["Flamethrower"], ["Air Slash"], ["Roost"]]
 			}]
 		},
-		"azelf": {
-			"flags": {},
-			"sets": [{
-				"species": "Azelf",
-				"item": ["Focus Sash"],
-				"ability": ["Levitate"],
-				"evs": {"atk": 252, "spa": 4, "spe": 252},
-				"nature": "Naive",
-				"moves": [["Stealth Rock"], ["Explosion"], ["Taunt"], ["Fire Blast", "Knock Off"]]
-			}]
-		},
-		"doublade": {
-			"flags": {},
-			"sets": [{
-				"species": "Doublade",
-				"item": ["Eviolite"],
-				"ability": ["No Guard"],
-				"evs": {"hp": 240, "atk": 252, "spd": 16},
-				"ivs": {"spe": 0},
-				"nature": "Brave",
-				"moves": [["Swords Dance"], ["Gyro Ball"], ["Shadow Claw", "Sacred Sword"], ["Shadow Sneak"]]
-			}, {
-				"species": "Doublade",
-				"item": ["Eviolite"],
-				"ability": ["No Guard"],
-				"evs": {"hp": 240, "atk": 252, "spd": 16},
-				"nature": "Adamant",
-				"moves": [["Swords Dance"], ["Iron Head"], ["Shadow Claw", "Sacred Sword"], ["Shadow Sneak"]]
-			}]
-		},
-		"crobat": {
-			"flags": {},
-			"sets": [{
-				"species": "Crobat",
-				"item": ["Flyinium Z", "Sky Plate"],
-				"ability": ["Infiltrator"],
-				"evs": {"atk": 252, "spd": 4, "spe": 252},
-				"nature": "Jolly",
-				"moves": [["Brave Bird"], ["Taunt"], ["Roost"], ["Super Fang", "U-turn"]]
-			}, {
-				"species": "Crobat",
-				"item": ["Flyinium Z", "Sky Plate"],
-				"ability": ["Infiltrator"],
-				"evs": {"atk": 252, "spd": 4, "spe": 252},
-				"nature": "Jolly",
-				"moves": [["Brave Bird"], ["Defog"], ["Roost"], ["U-turn"]]
-			}, {
-				"species": "Crobat",
-				"item": ["Black Sludge"],
-				"ability": ["Infiltrator"],
-				"evs": {"hp": 248, "atk": 36, "spe": 224},
-				"nature": "Jolly",
-				"moves": [["Brave Bird"], ["U-turn", "Toxic"], ["Roost"], ["Taunt", "Defog"]]
-			}]
-		},
-		"empoleon": {
-			"flags": {},
-			"sets": [{
-				"species": "Empoleon",
-				"item": ["Leftovers"],
-				"ability": ["Torrent"],
-				"evs": {"hp": 252, "def": 76, "spd": 180},
-				"ivs": {"atk": 0},
-				"nature": "Calm",
-				"moves": [["Scald"], ["Defog", "Stealth Rock"], ["Toxic", "Knock Off"], ["Roar"]]
-			}, {
-				"species": "Empoleon",
-				"item": ["Leftovers"],
-				"ability": ["Torrent"],
-				"evs": {"hp": 252, "def": 76, "spd": 180},
-				"ivs": {"atk": 0},
-				"nature": "Calm",
-				"moves": [["Scald"], ["Defog", "Stealth Rock"], ["Toxic"], ["Protect"]]
-			}]
-		},
 		"hippowdon": {
 			"flags": {},
 			"sets": [{
@@ -4571,88 +4852,6 @@
 				"ivs": {"atk": 0},
 				"nature": "Modest",
 				"moves": [["Water Pulse", "Hydro Pump"], ["Dark Pulse"], ["Aura Sphere", "Ice Beam"], ["Rapid Spin"]]
-			}]
-		},
-		"celebi": {
-			"flags": {},
-			"sets": [{
-				"species": "Celebi",
-				"item": ["Groundium Z"],
-				"ability": ["Natural Cure"],
-				"evs": {"spa": 252, "spd": 4, "spe": 252},
-				"ivs": {"atk": 0},
-				"nature": "Timid",
-				"moves": [["Nasty Plot"], ["Giga Drain"], ["Psychic"], ["Earth Power"]]
-			}, {
-				"species": "Celebi",
-				"item": ["Colbur Berry", "Leftovers"],
-				"ability": ["Natural Cure"],
-				"evs": {"spa": 252, "spd": 4, "spe": 252},
-				"ivs": {"atk": 0},
-				"nature": "Timid",
-				"moves": [["Nasty Plot"], ["Giga Drain"], ["Psychic"], ["Dazzling Gleam", "Hidden Power Fire"]]
-			}, {
-				"species": "Celebi",
-				"item": ["Leftovers"],
-				"ability": ["Natural Cure"],
-				"evs": {"hp": 252, "def": 236, "spe": 20},
-				"ivs": {"atk": 0},
-				"nature": "Bold",
-				"moves": [["Nasty Plot"], ["Giga Drain"], ["Psychic"], ["Hidden Power Fire"]]
-			}, {
-				"species": "Celebi",
-				"item": ["Psychium Z"],
-				"ability": ["Natural Cure"],
-				"evs": {"spa": 252, "spd": 4, "spe": 252},
-				"ivs": {"atk": 0},
-				"nature": "Timid",
-				"moves": [["Nasty Plot"], ["Giga Drain"], ["Psychic"], ["Dazzling Gleam"]]
-			}, {
-				"species": "Celebi",
-				"item": ["Grassium Z"],
-				"ability": ["Natural Cure"],
-				"evs": {"spa": 252, "spd": 4, "spe": 252},
-				"ivs": {"atk": 0},
-				"nature": "Timid",
-				"moves": [["Nasty Plot"], ["Leaf Storm"], ["Psychic"], ["Recover"]]
-			}]
-		},
-		"chandelure": {
-			"flags": {},
-			"sets": [{
-				"species": "Chandelure",
-				"item": ["Choice Scarf"],
-				"ability": ["Flame Body", "Flash Fire"],
-				"evs": {"spa": 252, "spd": 4, "spe": 252},
-				"ivs": {"atk": 0},
-				"nature": "Timid",
-				"moves": [["Fire Blast"], ["Shadow Ball"], ["Memento"], ["Trick", "Flamethrower", "Hidden Power Ice"]]
-			}, {
-				"species": "Chandelure",
-				"item": ["Leftovers"],
-				"ability": ["Flame Body", "Flash Fire"],
-				"evs": {"spa": 252, "spd": 4, "spe": 252},
-				"ivs": {"atk": 0},
-				"nature": "Timid",
-				"moves": [["Flamethrower"], ["Shadow Ball"], ["Calm Mind"], ["Substitute"]]
-			}]
-		},
-		"crawdaunt": {
-			"flags": {},
-			"sets": [{
-				"species": "Crawdaunt",
-				"item": ["Waterium Z", "Life Orb"],
-				"ability": ["Adaptability"],
-				"evs": {"atk": 252, "def": 4, "spe": 252},
-				"nature": "Jolly",
-				"moves": [["Swords Dance"], ["Crabhammer"], ["Knock Off"], ["Aqua Jet"]]
-			}, {
-				"species": "Crawdaunt",
-				"item": ["Choice Band"],
-				"ability": ["Adaptability"],
-				"evs": {"atk": 252, "def": 4, "spe": 252},
-				"nature": "Adamant",
-				"moves": [["Superpower", "Crunch"], ["Crabhammer"], ["Knock Off"], ["Aqua Jet"]]
 			}]
 		},
 		"jellicent": {
@@ -5038,17 +5237,6 @@
 				"ivs": {"spe": 0},
 				"nature": "Sassy",
 				"moves": [["Stealth Rock"], ["Toxic"], ["Gyro Ball"], ["Protect", "Psywave"]]
-			}]
-		},
-		"chesnaught": {
-			"flags": {},
-			"sets": [{
-				"species": "Chesnaught",
-				"item": ["Leftovers", "Rocky Helmet"],
-				"ability": ["Bulletproof"],
-				"evs": {"hp": 244, "def": 252, "spd": 12},
-				"nature": "Impish",
-				"moves": [["Spikes"], ["Wood Hammer"], ["Synthesis"], ["Drain Punch"]]
 			}]
 		},
 		"decidueye": {
