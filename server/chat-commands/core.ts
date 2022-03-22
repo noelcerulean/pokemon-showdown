@@ -292,6 +292,7 @@ const avatarTable = new Set([
 	'rocketgrunt-gen2', 'rocketgrunt',
 	'rocketexecutivef-gen2',
 	'rocketexecutive-gen2',
+	'roll-in',
 	'rood',
 	'rosa-wonderlauncher', 'rosa',
 	'roughneck-gen4', 'roughneck',
