@@ -1135,9 +1135,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	furret: {
-		randomBattleMoves: ["aquatail", "doubleedge", "firepunch", "knockoff", "trick", "uturn"],
-		randomDoubleBattleMoves: ["doubleedge", "followme", "helpinghand", "knockoff", "protect", "superfang", "uturn"],
-		tier: "(PU)",
+		randomBattleMoves: ["aquatail", "doubleedge", "extremespeed", "firepunch", "knockoff", "playrough", "trick", "uturn"],
+		randomDoubleBattleMoves: ["doubleedge", "extremespeed", "followme", "helpinghand", "knockoff", "protect", "superfang", "uturn"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	hoothoot: {
@@ -2063,15 +2063,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	altaria: {
-		randomBattleMoves: ["defog", "dracometeor", "earthquake", "fireblast", "roost", "toxic"],
-		randomDoubleBattleMoves: ["dracometeor", "dragonclaw", "fireblast", "protect", "tailwind"],
-		tier: "(PU)",
+		randomBattleMoves: ["defog", "dracometeor", "fireblast", "hurricane", "moonblast", "roost", "toxic"],
+		randomDoubleBattleMoves: ["dracometeor", "fireblast", "protect", "tailwind"],
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	altariamega: {
 		randomBattleMoves: ["dragondance", "earthquake", "fireblast", "healbell", "return", "roost"],
 		randomDoubleBattleMoves: ["doubleedge", "dragondance", "earthquake", "fireblast", "protect", "return"],
-		tier: "UU",
+		tier: "(OU)",
 		doublesTier: "(DUU)",
 	},
 	zangoose: {
@@ -2519,18 +2519,18 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	rampardos: {
-		randomBattleMoves: ["crunch", "earthquake", "firepunch", "headsmash", "rockpolish", "rockslide"],
+		randomBattleMoves: ["crunch", "earthquake", "firepunch", "headsmash", "icepunch", "rockpolish", "rockslide"],
 		randomDoubleBattleMoves: ["crunch", "earthquake", "headsmash", "protect", "rockslide", "stoneedge", "zenheadbutt"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	shieldon: {
 		tier: "LC",
 	},
 	bastiodon: {
-		randomBattleMoves: ["metalburst", "protect", "roar", "rockblast", "stealthrock", "toxic"],
+		randomBattleMoves: ["dragontail", "kingsshield", "metalburst", "roar", "rockblast", "spikes", "stealthrock", "toxic"],
 		randomDoubleBattleMoves: ["guardsplit", "metalburst", "protect", "stealthrock", "stoneedge", "wideguard"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	burmy: {
@@ -3267,9 +3267,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	crustle: {
-		randomBattleMoves: ["earthquake", "rockblast", "shellsmash", "spikes", "stealthrock", "stoneedge", "xscissor"],
+		randomBattleMoves: ["crabhammer", "earthquake", "rockblast", "shellsmash", "spikes", "stealthrock", "stoneedge", "xscissor"],
 		randomDoubleBattleMoves: ["earthquake", "protect", "rockslide", "shellsmash", "stoneedge", "xscissor"],
-		tier: "(PU)",
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	scraggy: {
@@ -4127,9 +4127,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	avalugg: {
-		randomBattleMoves: ["avalanche", "earthquake", "rapidspin", "recover", "roar", "toxic"],
-		randomDoubleBattleMoves: ["avalanche", "earthquake", "protect", "recover"],
-		tier: "(PU)",
+		randomBattleMoves: ["avalanche", "chillingrime", "earthquake", "iceshard", "iciclecrash", "rapidspin", "recover", "roar", "stealthrock", "toxic"],
+		randomDoubleBattleMoves: ["avalanche", "earthquake", "iciclecrash", "protect", "recover"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	noibat: {
