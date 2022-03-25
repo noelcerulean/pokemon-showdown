@@ -3077,9 +3077,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	musharna: {
-		randomBattleMoves: ["calmmind", "healbell", "moonlight", "psychic", "psyshock", "signalbeam", "thunderwave"],
-		randomDoubleBattleMoves: ["helpinghand", "hypnosis", "moonlight", "protect", "psychic", "signalbeam", "thunderwave", "trickroom"],
-		tier: "PU",
+		randomBattleMoves: ["calmmind", "drypass", "healbell", "moonblast", "moonlight", "psychic", "psyshock", "thunderwave", "wish"],
+		randomDoubleBattleMoves: ["helpinghand", "hypnosis", "moonblast", "moonlight", "protect", "psychic", "thunderwave", "trickroom"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	pidove: {
