@@ -3266,9 +3266,18 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	dwebble: {
 		tier: "LC",
 	},
+	dwebbledeltacake: {
+		tier: "LC",
+	},
 	crustle: {
 		randomBattleMoves: ["crabhammer", "earthquake", "rockblast", "shellsmash", "spikes", "stealthrock", "stoneedge", "xscissor"],
 		randomDoubleBattleMoves: ["earthquake", "protect", "rockslide", "shellsmash", "stoneedge", "xscissor"],
+		tier: "UUBL",
+		doublesTier: "(DUU)",
+	},
+	crustledeltacake: {
+		randomBattleMoves: ["playrough", "shellsmash", "return", "superpower"],
+		randomDoubleBattleMoves: ["playrough", "shellsmash", "return", "superpower"],
 		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},

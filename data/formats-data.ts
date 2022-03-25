@@ -3739,6 +3739,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	dwebble: {
 		tier: "LC",
 	},
+	dwebbledeltacake: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	crustle: {
 		randomBattleMoves: ["earthquake", "shellsmash", "spikes", "stealthrock", "stoneedge", "xscissor"],
 		randomBattleLevel: 82,
@@ -3746,6 +3750,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 84,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	crustledeltacake: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	scraggy: {
 		tier: "LC",
