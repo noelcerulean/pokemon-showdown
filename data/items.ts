@@ -1194,8 +1194,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			return true;
 		},
 		num: -507,
-		gen: 6,
-		isNonstandard: "Past",
+		gen: 7,
 	},
 	destinyknot: {
 		name: "Destiny Knot",
