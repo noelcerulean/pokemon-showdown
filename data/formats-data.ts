@@ -3109,6 +3109,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	riolu: {
 		tier: "LC",
 	},
+	rioludelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	lucario: {
 		randomBattleMoves: ["closecombat", "extremespeed", "icepunch", "meteormash", "swordsdance"],
 		randomBattleLevel: 82,
@@ -3117,7 +3121,15 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
+	lucariodelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	lucariomega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	lucariodeltamega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
