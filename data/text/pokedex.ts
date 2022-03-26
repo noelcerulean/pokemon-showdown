@@ -1640,14 +1640,26 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	cranidos: {
 		name: "Cranidos",
 	},
+	cranidosdelta: {
+		name: "Cranidos-Delta",
+	},
 	rampardos: {
 		name: "Rampardos",
+	},
+	rampardosdelta: {
+		name: "Rampardos-Delta",
 	},
 	shieldon: {
 		name: "Shieldon",
 	},
+	shieldondelta: {
+		name: "Shieldon-Delta",
+	},
 	bastiodon: {
 		name: "Bastiodon",
+	},
+	bastiodondelta: {
+		name: "Bastiodon-Delta",
 	},
 	burmy: {
 		name: "Burmy",

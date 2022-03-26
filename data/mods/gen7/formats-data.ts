@@ -2518,18 +2518,36 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	cranidos: {
 		tier: "LC",
 	},
+	cranidosdelta: {
+		tier: "LC",
+	},
 	rampardos: {
 		randomBattleMoves: ["crunch", "earthquake", "firepunch", "headsmash", "icepunch", "rockpolish", "rockslide"],
 		randomDoubleBattleMoves: ["crunch", "earthquake", "headsmash", "protect", "rockslide", "stoneedge", "zenheadbutt"],
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
+	rampardosdelta: {
+		randomBattleMoves: ["autotomize", "crunch", "earthquake", "firepunch", "ironhead", "outrage"],
+		randomDoubleBattleMoves: ["autotomize", "crunch", "earthquake", "firepunch", "ironhead", "outrage", "protect"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
 	shieldon: {
+		tier: "LC",
+	},
+	shieldondelta: {
 		tier: "LC",
 	},
 	bastiodon: {
 		randomBattleMoves: ["dragontail", "kingsshield", "metalburst", "roar", "rockblast", "spikes", "stealthrock", "toxic"],
 		randomDoubleBattleMoves: ["guardsplit", "metalburst", "protect", "stealthrock", "stoneedge", "wideguard"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
+	bastiodondelta: {
+		randomBattleMoves: ["hex", "protect", "shadowball", "sludgewave", "toxic", "toxicspikes", "willowisp"],
+		randomDoubleBattleMoves: ["hex", "protect", "shadowball", "sludgewave", "toxic", "toxicspikes", "willowisp"],
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},

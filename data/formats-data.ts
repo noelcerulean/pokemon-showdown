@@ -2935,7 +2935,15 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	cranidosdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	rampardos: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	rampardosdelta: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -2943,7 +2951,15 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	shieldondelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	bastiodon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	bastiodondelta: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
