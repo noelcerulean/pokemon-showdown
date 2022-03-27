@@ -308,6 +308,7 @@ const avatarTable = new Set([
 	'schoolkid-gen3', 'schoolkid-gen4dp', 'schoolkid-gen4', 'schoolkid',
 	'scientistf',
 	'scientist-gen1', 'scientist-gen1rb', 'scientist-gen2', 'scientist-gen3', 'scientist-gen4dp', 'scientist-gen4', 'scientist',
+	'shadou',
 	'shadowtriad',
 	'shauntal',
 	'shelly-gen3',

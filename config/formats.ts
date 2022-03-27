@@ -43,14 +43,14 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['Standard'],
-		banlist: ['Uber', 'Arena Trap', 'Shadow Tag', 'Blaziken + Speed Boost', 'Landorus + Sheer Force', 'Power Construct', 'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z'],
+		banlist: ['Uber', 'Arena Trap', 'Shadow Tag', 'Blaziken + Speed Boost', 'Crustle-Delta-Cake + Simple', 'Landorus + Sheer Force', 'Power Construct', 'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z'],
 	},
 	{
 		name: "[Gen 7] Story",
 
 		mod: 'gen7',
 		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause'],
-		banlist: ['Phione-Primal', 'Blaziken + Speed Boost', 'Greninja + Protean', 'Battle Bond', 'Landorus + Sheer Force', 'Power Construct', 'Baton Pass', 'Kommonium Z'],
+		banlist: ['Phione-Primal', 'Blaziken + Speed Boost', 'Crustle-Delta-Cake + Simple', 'Greninja + Protean', 'Battle Bond', 'Landorus + Sheer Force', 'Power Construct', 'Baton Pass', 'Kommonium Z'],
 	},
 	{
 		name: "[Gen 7] UU",
