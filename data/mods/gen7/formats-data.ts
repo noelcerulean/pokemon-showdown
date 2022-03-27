@@ -1336,7 +1336,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	wobbuffet: {
 		randomBattleMoves: ["counter", "destinybond", "encore", "mirrorcoat"],
 		randomDoubleBattleMoves: ["charm", "counter", "encore", "mirrorcoat"],
-		tier: "UU",
+		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
 	girafarig: {
