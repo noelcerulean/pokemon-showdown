@@ -1172,6 +1172,17 @@
 				"moves": [["Shadow Punch"], ["Will-O-Wisp"], ["Destiny Bond"], ["Play Rough"]]
 			}]
 		},
+		"beautifly": {
+			"flags": {},
+			"sets": [{
+				"species": "Beautifly",
+				"item": ["Focus Sash", "Flyinium Z"],
+				"ability": ["Dazzling"],
+				"evs": {"spa": 252, "def": 4, "spe": 252},
+				"nature": ["Timid"],
+				"moves": [["Quiver Dance"], ["Hurricane"], ["Bug Buzz"], ["Heat Wave"]]
+			}]
+		},
 		"blacephalon": {
 			"flags": {},
 			"sets": [{
@@ -1366,6 +1377,77 @@
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": "Adamant",
 				"moves": [["Dragon Dance"], ["Fly"], ["Earthquake", "Fire Punch"], ["Extreme Speed"]]
+			}]
+		},
+		"dustox": {
+			"flags": {},
+			"sets": [{
+				"species": "Dustox",
+				"item": ["Black Sludge"],
+				"ability": ["Shield Dust"],
+				"evs": {"hp": 248, "def": 252, "spd": 8},
+				"nature": "Bold",
+				"moves": [["Bug Buzz"], ["Roost"], ["Iron Defense"], ["Quiver Dance"]]
+			}, {
+				"species": "Dustox",
+				"item": ["Black Sludge"],
+				"ability": ["Shield Dust"],
+				"evs": {"hp": 248, "def": 252, "spd": 8},
+				"nature": "Bold",
+				"moves": [["Sludge Bomb"], ["Roost"], ["Hidden Power Fire"], ["Quiver Dance"]]
+			}, {
+				"species": "Dustox",
+				"item": ["Black Sludge"],
+				"ability": ["Levitate"],
+				"evs": {"spa": 252, "def": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Sludge Bomb"], ["Roost"], ["Hidden Power Fire"], ["Quiver Dance"]]
+			}, {
+				"species": "Dustox",
+				"item": ["Black Sludge"],
+				"ability": ["Shield Dust"],
+				"evs": {"hp": 248, "def": 252, "spd": 8},
+				"nature": "Bold",
+				"moves": [["Spikes"], ["Roost"], ["U-Turn", "Whirlwind"], ["Sludge Bomb"]]
+			}, {
+				"species": "Dustox",
+				"item": ["Black Sludge"],
+				"ability": ["Shield Dust"],
+				"evs": {"hp": 248, "def": 252, "spd": 8},
+				"nature": "Bold",
+				"moves": [["Toxic Spikes"], ["Roost"], ["U-Turn"], ["Sludge Bomb"]]
+			}]
+		},
+		"emboar": {
+			"flags": {},
+			"sets": [{
+				"species": "Emboar",
+				"item": ["Choice Band", "Choice Scarf"],
+				"ability": ["Reckless"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Flare Blitz"], ["Submission"], ["Wild Charge"], ["Earthquake"]]
+			}, {
+				"species": "Emboar",
+				"item": ["Electrium Z"],
+				"ability": ["Reckless"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Flare Blitz"], ["Submission"], ["Wild Charge"], ["Flame Charge"]]
+			}, {
+				"species": "Emboar",
+				"item": ["Leftovers"],
+				"ability": ["Reckless"],
+				"evs": {"hp": 252, "atk": 4, "spd": 252},
+				"nature": "Careful",
+				"moves": [["Flare Blitz"], ["Drain Punch"], ["Slack Off"], ["Bulk Up"]]
+			}, {
+				"species": "Emboar",
+				"item": ["Assault Vest"],
+				"ability": ["Reckless"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Flare Blitz"], ["Drain Punch"], ["Wild Charge"], ["Sucker Punch"]]
 			}]
 		},
 		"excadrill": {
@@ -1745,20 +1827,6 @@
 				"evs": {"def": 4, "spa": 252, "spe": 252},
 				"nature": "Timid",
 				"moves": [["Dark Pulse"], ["Psyshock"], ["Focus Blast"], ["Trick", "Thunderbolt"]]
-			}]
-		},
-		"houndoom": {
-			"flags": {
-				"megaOnly": 1
-			},
-			"sets": [{
-				"species": "Houndoom",
-				"item": ["Houndoominite"],
-				"ability": ["Flash Fire"],
-				"evs": {"spa": 252, "spd": 4, "spe": 252},
-				"ivs": {"atk": 0},
-				"nature": "Timid",
-				"moves": [["Nasty Plot"], ["Fire Blast"], ["Dark Pulse"], ["Sludge Bomb", "Taunt", "Flame Charge"]]
 			}]
 		},
 		"infernape": {
@@ -2258,34 +2326,6 @@
 				"evs": {"spa": 252, "spd": 4, "spe": 252},
 				"nature": "Timid",
 				"moves": [["Hypnosis"], ["Psychic"], ["Prehistoric Pulse"], ["Earth Power"]]
-			}]
-		},
-		"luvdisc": {
-			"flags": {},
-			"sets": [{
-				"species": "Luvdisc",
-				"item": ["Choice Scarf"],
-				"ability": ["Soul-Heart"],
-				"evs": {"spa": 252, "def": 4, "spd": 252},
-				"ivs": {"atk": 0},
-				"nature": "Timid",
-				"moves": [["Moonblast"], ["Hydro Pump", "Surf"], ["Ice Beam"], ["Hidden Power Grass"]]
-			}, {
-				"species": "Luvdisc",
-				"item": ["Normalium Z"],
-				"ability": ["Soul-Heart"],
-				"evs": {"spa": 252, "def": 4, "spd": 252},
-				"ivs": {"atk": 0},
-				"nature": "Timid",
-				"moves": [["Moonblast"], ["Surf"], ["Ice Beam"], ["Lovely Kiss"]]
-			}, {
-				"species": "Luvdisc",
-				"item": ["Focus Sash"],
-				"ability": ["Soul-Heart"],
-				"evs": {"spa": 252, "def": 4, "spd": 252},
-				"ivs": {"atk": 0},
-				"nature": "Timid",
-				"moves": [["Moonblast"], ["Surf"], ["Ice Beam"], ["Lovely Kiss", "Agility", "Heart Swap"]]
 			}]
 		},
 		"magearna": {
@@ -3488,17 +3528,6 @@
 				"moves": [["Bug Buzz"], ["Flamethrower"], ["Quiver Dance"], ["Roost"]]
 			}]
 		},
-		"walrein": {
-			"flags": {},
-			"sets": [{
-				"species": "Walrein",
-				"item": ["Sitrus Berry", "Normalium Z"],
-				"ability": ["Thick Fat"],
-				"evs": {"hp": 252, "atk": 252, "spe": 4},
-				"nature": "Adamant",
-				"moves": [["Belly Drum"], ["Earthquake"], ["Waterfall"], ["Ice Shard"]]
-			}]
-		},
 		"weavile": {
 			"flags": {},
 			"sets": [{
@@ -3923,17 +3952,6 @@
 				"moves": [["Stealth Rock"], ["Explosion"], ["Taunt"], ["Fire Blast", "Knock Off", "Psyshock"]]
 			}]
 		},
-		"beautifly": {
-			"flags": {},
-			"sets": [{
-				"species": "Beautifly",
-				"item": ["Focus Sash", "Flyinium Z"],
-				"ability": ["Dazzling"],
-				"evs": {"spa": 252, "def": 4, "spe": 252},
-				"nature": ["Timid"],
-				"moves": [["Quiver Dance"], ["Hurricane"], ["Bug Buzz", "Giga Drain"], ["Heat Wave"]]
-			}]
-		},
 		"beedrill": {
 			"flags": {
 				"megaOnly": 1
@@ -4250,45 +4268,6 @@
 				"moves": [["Spectral Thief"], ["Shadow Sneak"], ["Drain Punch"], ["Power-Up Punch"]]
 			}]
 		},
-		"dustox": {
-			"flags": {},
-			"sets": [{
-				"species": "Dustox",
-				"item": ["Black Sludge"],
-				"ability": ["Shield Dust"],
-				"evs": {"hp": 248, "def": 252, "spd": 8},
-				"nature": "Bold",
-				"moves": [["Bug Buzz"], ["Roost"], ["Iron Defense"], ["Quiver Dance"]]
-			}, {
-				"species": "Dustox",
-				"item": ["Black Sludge"],
-				"ability": ["Shield Dust"],
-				"evs": {"hp": 248, "def": 252, "spd": 8},
-				"nature": "Bold",
-				"moves": [["Sludge Bomb"], ["Roost"], ["Hidden Power Fire"], ["Quiver Dance"]]
-			}, {
-				"species": "Dustox",
-				"item": ["Black Sludge"],
-				"ability": ["Levitate"],
-				"evs": {"spa": 252, "def": 4, "spe": 252},
-				"nature": "Timid",
-				"moves": [["Sludge Bomb"], ["Roost"], ["Hidden Power Fire"], ["Quiver Dance"]]
-			}, {
-				"species": "Dustox",
-				"item": ["Black Sludge"],
-				"ability": ["Shield Dust"],
-				"evs": {"hp": 248, "def": 252, "spd": 8},
-				"nature": "Bold",
-				"moves": [["Spikes"], ["Roost"], ["U-Turn", "Whirlwind"], ["Sludge Bomb"]]
-			}, {
-				"species": "Dustox",
-				"item": ["Black Sludge"],
-				"ability": ["Shield Dust"],
-				"evs": {"hp": 248, "def": 252, "spd": 8},
-				"nature": "Bold",
-				"moves": [["Toxic Spikes"], ["Roost"], ["U-Turn"], ["Sludge Bomb"]]
-			}]
-		},
 		"electivire": {
 			"flags": {},
 			"sets": [{
@@ -4305,38 +4284,6 @@
 				"evs": {"hp": 252, "atk": 252, "spe": 4},
 				"nature": "Adamant",
 				"moves": [["Lightning Kick"], ["Close Combat"], ["Ice Punch", "Bullet Punch"], ["Volt Switch"]]
-			}]
-		},
-		"emboar": {
-			"flags": {},
-			"sets": [{
-				"species": "Emboar",
-				"item": ["Choice Band", "Choice Scarf"],
-				"ability": ["Reckless"],
-				"evs": {"atk": 252, "def": 4, "spe": 252},
-				"nature": "Jolly",
-				"moves": [["Flare Blitz"], ["Submission"], ["Wild Charge"], ["Earthquake"]]
-			}, {
-				"species": "Emboar",
-				"item": ["Electrium Z"],
-				"ability": ["Reckless"],
-				"evs": {"atk": 252, "def": 4, "spe": 252},
-				"nature": "Jolly",
-				"moves": [["Flare Blitz"], ["Submission"], ["Wild Charge"], ["Flame Charge"]]
-			}, {
-				"species": "Emboar",
-				"item": ["Leftovers"],
-				"ability": ["Reckless"],
-				"evs": {"hp": 252, "atk": 4, "spd": 252},
-				"nature": "Careful",
-				"moves": [["Flare Blitz"], ["Drain Punch"], ["Slack Off"], ["Bulk Up"]]
-			}, {
-				"species": "Emboar",
-				"item": ["Assault Vest"],
-				"ability": ["Reckless"],
-				"evs": {"atk": 252, "def": 4, "spe": 252},
-				"nature": "Jolly",
-				"moves": [["Flare Blitz"], ["Drain Punch"], ["Wild Charge"], ["Sucker Punch"]]
 			}]
 		},
 		"empoleon": {
@@ -4684,6 +4631,20 @@
 				"moves": [["Volt Switch"], ["Overheat", "Flamethrower"], ["Thunderbolt"], ["Hidden Power Ice", "Hidden Power Grass"]]
 			}]
 		},
+		"houndoom": {
+			"flags": {
+				"megaOnly": 1
+			},
+			"sets": [{
+				"species": "Houndoom",
+				"item": ["Houndoominite"],
+				"ability": ["Flash Fire"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Nasty Plot"], ["Fire Blast"], ["Dark Pulse"], ["Sludge Bomb", "Taunt", "Flame Charge"]]
+			}]
+		},
 		"jirachi": {
 			"flags": {},
 			"sets": [{
@@ -4707,6 +4668,34 @@
 				"evs": {"atk": 252, "spd": 4, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Iron Head"], ["U-turn"], ["Healing Wish"], ["Fire Punch", "Ice Punch", "Trick"]]
+			}]
+		},
+		"luvdisc": {
+			"flags": {},
+			"sets": [{
+				"species": "Luvdisc",
+				"item": ["Choice Scarf"],
+				"ability": ["Soul-Heart"],
+				"evs": {"spa": 252, "def": 4, "spd": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Moonblast"], ["Hydro Pump", "Surf"], ["Ice Beam"], ["Hidden Power Grass"]]
+			}, {
+				"species": "Luvdisc",
+				"item": ["Normalium Z"],
+				"ability": ["Soul-Heart"],
+				"evs": {"spa": 252, "def": 4, "spd": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Moonblast"], ["Surf"], ["Ice Beam"], ["Lovely Kiss"]]
+			}, {
+				"species": "Luvdisc",
+				"item": ["Focus Sash"],
+				"ability": ["Soul-Heart"],
+				"evs": {"spa": 252, "def": 4, "spd": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Moonblast"], ["Surf"], ["Ice Beam"], ["Lovely Kiss", "Agility", "Heart Swap"]]
 			}]
 		},
 		"mamoswine": {
@@ -4833,6 +4822,17 @@
 				"evs": {"hp": 252, "def": 160, "spe": 96},
 				"nature": "Bold",
 				"moves": [["Calm Mind"], ["Rest"], ["Sleep Talk"], ["Scald"]]
+			}]
+		},
+		"walrein": {
+			"flags": {},
+			"sets": [{
+				"species": "Walrein",
+				"item": ["Sitrus Berry", "Normalium Z"],
+				"ability": ["Thick Fat"],
+				"evs": {"hp": 252, "atk": 252, "spe": 4},
+				"nature": "Adamant",
+				"moves": [["Belly Drum"], ["Earthquake"], ["Waterfall"], ["Ice Shard"]]
 			}]
 		},
 		"zeraora": {

@@ -86,6 +86,7 @@ const avatarTable = new Set([
 	'burglar-gen1', 'burglar-gen1rb', 'burglar-gen2', 'burglar-gen3', 'burglar',
 	'byron',
 	'cairo',
+	'cart',
 	'caitlin',
 	'cameraman',
 	'camper-gen2', 'camper-gen3', 'camper-gen3rs', 'camper',
