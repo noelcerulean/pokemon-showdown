@@ -2542,7 +2542,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	bastiodon: {
 		randomBattleMoves: ["dragontail", "kingsshield", "metalburst", "roar", "rockblast", "spikes", "stealthrock", "toxic"],
 		randomDoubleBattleMoves: ["guardsplit", "metalburst", "protect", "stealthrock", "stoneedge", "wideguard"],
-		tier: "RU",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	bastiodondelta: {
@@ -3305,7 +3305,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	crustle: {
 		randomBattleMoves: ["crabhammer", "earthquake", "rockblast", "shellsmash", "spikes", "stealthrock", "stoneedge", "xscissor"],
 		randomDoubleBattleMoves: ["earthquake", "protect", "rockslide", "shellsmash", "stoneedge", "xscissor"],
-		tier: "UUBL",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	crustledeltacake: {
