@@ -5887,7 +5887,7 @@
 			"sets": [{
 				"species": "Steelix",
 				"item": ["Steelixite"],
-				"ability": ["Sturdy"],
+				"ability": ["Heatproof"],
 				"evs": {"hp": 252, "atk": 208, "spd": 48},
 				"ivs": {"spe": 0},
 				"nature": "Brave",
@@ -7331,6 +7331,17 @@
 				"moves": [["Taunt"], ["Super Fang"], ["Hurricane"], ["Roost"]]
 			}]
 		},
+		"onix": {
+			"flags": {},
+			"sets": [{
+				"species": "Onix",
+				"item": ["Weakness Policy", "Eviomight"],
+				"ability": ["Sturdy"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Stealth Rock", "Explosion"], ["Earthquake"], ["Stone Edge"], ["Rock Polish"]]
+			}]
+		},
 		"oricoriopau": {
 			"flags": {},
 			"sets": [{
@@ -7680,6 +7691,17 @@
 				"evs": {"hp": 188, "def": 128, "spd": 192},
 				"nature": "Careful",
 				"moves": [["Curse"], ["Frustration"], ["Rest"], ["Earthquake"]]
+			}]
+		},
+		"steelix": {
+			"flags": {},
+			"sets": [{
+				"species": "Steelix",
+				"item": ["Leftovers"],
+				"ability": ["Heatproof"],
+				"evs": {"hp": 252, "atk": 76, "spd": 180},
+				"nature": "Careful",
+				"moves": [["Stealth Rock"], ["Earthquake"], ["Heavy Slam"], ["Curse"]]
 			}]
 		},
 		"stoutland": {

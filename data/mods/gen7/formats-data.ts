@@ -626,12 +626,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "DUber",
 	},
 	onix: {
-		tier: "LC",
+		randomBattleMoves: ["earthquake", "rockpolish", "stoneedge", "stealthrock", "toxic"],
+		randomDoubleBattleMoves: ["earthquake", "protect", "rockslide", "stealthrock", "wideguard"],
+		tier: "RU",
+		doublesTier: "(DUU)",
 	},
 	steelix: {
 		randomBattleMoves: ["earthquake", "ironhead", "roar", "rockslide", "stealthrock", "toxic"],
-		randomDoubleBattleMoves: ["earthquake", "headsmash", "heavyslam", "protect", "stealthrock", "wideguard"],
-		tier: "NU",
+		randomDoubleBattleMoves: ["earthquake", "heavyslam", "protect", "rock slide", "stealthrock", "wideguard"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	steelixmega: {
