@@ -4169,7 +4169,7 @@
 			"flags": {},
 			"sets": [{
 				"species": "Camerupt",
-				"item": ["Leftovers", "Passho Bery"],
+				"item": ["Leftovers", "Passho Berry"],
 				"ability": ["Solid Rock"],
 				"evs": {"hp": 252, "spa": 252, "spd": 4},
 				"nature": "Modest",
@@ -7411,6 +7411,31 @@
 				"evs": {"hp": 252, "def": 104, "spd": 152},
 				"nature": "Calm",
 				"moves": [["Recover"], ["Thunder Wave"], ["Ice Beam"], ["Foul Play"]]
+			}]
+		},
+		"primeape": {
+			"flags": {},
+			"sets": [{
+				"species": "Primeape",
+				"item": ["Choice Scarf"],
+				"ability": ["Defiant"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Close Combat"], ["U-turn"], ["Earthquake", "Gunk Shot"], ["Knock Off", "Stone Edge"]]
+			}, {
+				"species": "Primeape",
+				"item": ["Salac Berry"],
+				"ability": ["Adrenalize"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Close Combat"], ["Endure"], ["Gunk Shot"], ["Knock Off"]]
+			}, {
+				"species": "Primeape",
+				"item": ["Choice Band"],
+				"ability": ["Defiant"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Close Combat"], ["U-turn"], ["Earthquake", "Gunk Shot"], ["Knock Off", "Stone Edge"]]
 			}]
 		},
 		"raichualola": {

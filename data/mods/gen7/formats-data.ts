@@ -399,9 +399,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	primeape: {
-		randomBattleMoves: ["closecombat", "earthquake", "encore", "gunkshot", "icepunch", "stoneedge", "uturn"],
-		randomDoubleBattleMoves: ["closecombat", "icepunch", "poisonjab", "protect", "rockslide", "stompingtantrum", "stoneedge", "taunt", "uturn"],
-		tier: "PU",
+		randomBattleMoves: ["closecombat", "earthquake", "encore", "gunkshot", "icepunch", "knockoff", "stoneedge", "suckerpunch", "uturn"],
+		randomDoubleBattleMoves: ["closecombat", "icepunch", "knockoff", "poisonjab", "protect", "rockslide", "stompingtantrum", "stoneedge", "suckerpunch", "taunt", "uturn"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	growlithe: {
