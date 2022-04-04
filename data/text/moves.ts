@@ -1129,8 +1129,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	darkvoid: {
 		name: "Dark Void",
-		desc: "Causes the target to fall asleep. This move cannot be used successfully unless the user's current form, while considering Transform, is Darkrai.",
-		shortDesc: "Darkrai: Causes the foe(s) to fall asleep.",
+		desc: "Causes the target to fall asleep and raises Speed by 1 stage. This move cannot be used successfully unless the user's current form, while considering Transform, is Darkrai.",
+		shortDesc: "Darkrai: Causes foe(s) to fall asleep; +1 Speed.",
 		gen6: {
 			desc: "Causes the target to fall asleep.",
 			shortDesc: "Causes the foe(s) to fall asleep.",

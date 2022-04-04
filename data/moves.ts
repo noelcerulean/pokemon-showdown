@@ -3098,12 +3098,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	darkvoid: {
 		num: 464,
-		accuracy: 50,
+		accuracy: 80,
 		basePower: 0,
 		category: "Status",
 		isNonstandard: "Past",
 		name: "Dark Void",
-		pp: 10,
+		pp: 5,
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		status: 'slp',
@@ -3115,10 +3115,17 @@ export const Moves: {[moveid: string]: MoveData} = {
 			this.hint("Only a Pokemon whose form is Darkrai can use this move.");
 			return null;
 		},
-		secondary: null,
+		secondary: {
+			chance: 100,
+			self: {
+				boosts: {
+					spe: 1,
+				},
+			},
+		},
 		target: "allAdjacentFoes",
 		type: "Dark",
-		zMove: {effect: 'clearnegativeboost'},
+		zMove: {boost: {spe: 2}},
 		contestType: "Clever",
 	},
 	dazzlinggleam: {
