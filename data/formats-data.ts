@@ -3549,6 +3549,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	unfezantf: {
+		randomBattleMoves: ["bravebird", "defog", "nightslash", "roost", "uturn"],
+		randomBattleLevel: 84,
+		randomDoubleBattleMoves: ["bravebird", "nightslash", "quickattack", "roost", "tailwind", "uturn"],
+		randomDoubleBattleLevel: 86,
+		tier: "(PU)",
+		doublesTier: "(DUU)",
+	},
 	blitzle: {
 		isNonstandard: "Past",
 		tier: "Illegal",

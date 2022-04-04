@@ -3125,9 +3125,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	unfezant: {
-		randomBattleMoves: ["hypnosis", "nightslash", "pluck", "return", "roost", "tailwind", "uturn"],
-		randomDoubleBattleMoves: ["nightslash", "pluck", "protect", "return", "roost", "tailwind", "taunt", "uturn"],
-		tier: "(PU)",
+		randomBattleMoves: ["hypnosis", "nightslash", "pluck", "return", "roost", "swordsdance", "tailwind", "uturn", "wish"],
+		randomDoubleBattleMoves: ["bravebird", "nightslash", "pluck", "protect", "return", "roost", "tailwind", "taunt", "uturn"],
+		tier: "RUBL",
+		doublesTier: "(DUU)",
+	},
+	unfezantf: {
+		randomBattleMoves: ["bravebird", "hypnosis", "nightslash", "pluck", "return", "roost", "swordsdance", "tailwind", "toxic", "uturn", "wish"],
+		randomDoubleBattleMoves: ["bravebird", "nightslash", "pluck", "protect", "return", "roost", "tailwind", "taunt", "uturn"],
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	blitzle: {
@@ -3488,7 +3494,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	jellicent: {
 		randomBattleMoves: ["icebeam", "recover", "scald", "shadowball", "taunt", "toxic", "willowisp"],
 		randomDoubleBattleMoves: ["icywind", "protect", "recover", "scald", "shadowball", "trickroom", "willowisp"],
-		tier: "PU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	alomomola: {

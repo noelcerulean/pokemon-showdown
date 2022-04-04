@@ -318,6 +318,9 @@ export const Aliases: {[alias: string]: string} = {
 	ufof: "Pokestar UFO",
 	ufoflying: "Pokestar UFO",
 	vivillonmeadow: "Vivillon",
+	unfezantfemale: "Unfezant-F",
+	unfezantmale: "Unfezant",
+	unfezantm: "Unfezant",
 
 	// event formes
 	rockruffdusk: "Rockruff",

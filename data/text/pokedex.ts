@@ -2111,6 +2111,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	unfezant: {
 		name: "Unfezant",
 	},
+	unfezantf: {
+		name: "Unfezant-F",
+	},
 	blitzle: {
 		name: "Blitzle",
 	},

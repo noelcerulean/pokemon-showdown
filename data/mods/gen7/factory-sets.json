@@ -5095,7 +5095,7 @@
 				"ability": ["Flame Absorb", "Mega Launcher"],
 				"evs": {"spa": 252, "spd": 4, "spe": 252},
 				"nature": "Timid",
-				"moves": [["Flame Charge"], ["Searing Shot"], ["Energy Ball, Thunderbolt"], ["Hidden Power Ice", "Aura Sphere"]]
+				"moves": [["Flame Charge"], ["Searing Shot"], ["Energy Ball", "Thunderbolt"], ["Hidden Power Ice", "Aura Sphere"]]
 			}]
 		},
 		"magneton": {
@@ -5556,7 +5556,7 @@
 				"moves": [["Return"], ["Submission"], ["Knock Off"], ["U-Turn"]]
 			}, {
 				"species": "Purugly",
-				"item": ["Psychium Z Z"],
+				"item": ["Psychium Z"],
 				"ability": ["Defiant", "Scrappy"],
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": "Jolly",
@@ -6158,6 +6158,42 @@
 				"evs": {"spa": 252, "def": 4, "spe": 252},
 				"nature": "Timid",
 				"moves": [["Focus Blast"], ["Earth Power"], ["Flamethrower"], ["Solar Beam"]]
+			}]
+		},
+		"unfezant": {
+			"flags": {},
+			"sets": [{
+				"species": "Unfezant",
+				"item": ["Choice Band"],
+				"ability": ["Intimidate"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["U-Turn"], ["Brave Bird"], ["Return"], ["Quick Attack"]]
+			}, {
+				"species": "Unfezant",
+				"item": ["Flyinium Z"],
+				"ability": ["Intimidate"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Swords Dance"], ["Brave Bird"], ["Return"], ["Quick Attack"]]
+			}]
+		},
+		"unfezantf": {
+			"flags": {},
+			"sets": [{
+				"species": "Unfezant-F",
+				"item": ["Leftovers"],
+				"ability": ["Stamina"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Swords Dance"], ["Brave Bird"], ["Roost"], ["Taunt"]]
+			}, {
+				"species": "Unfezant-F",
+				"item": ["Leftovers"],
+				"ability": ["Stamina"],
+				"evs": {"hp": 252, "def": 252, "spe": 4},
+				"nature": "Jolly",
+				"moves": [["Wish"], ["Brave Bird"], ["U-Turn"], ["Taunt", "Toxic", "Protect"]]
 			}]
 		},
 		"vespiquenarmored": {
@@ -7060,6 +7096,18 @@
 				"evs": {"hp": 248, "spa": 252, "spd": 8},
 				"nature": "Modest",
 				"moves": [["Shadow Ball"], ["Focus Blast"], ["Nasty Plot"], ["Trick Room", "Psyshock"]]
+			}]
+		},
+		"jellicent": {
+			"flags": {},
+			"sets": [{
+				"species": "Jellicent",
+				"item": ["Leftovers", "Colbur Berry"],
+				"ability": ["Water Absorb"],
+				"evs": {"hp": 248, "def": 176, "spe": 84},
+				"ivs": {"atk": 0},
+				"nature": "Bold",
+				"moves": [["Scald", "Hex"], ["Taunt"], ["Will-O-Wisp"], ["Recover"]]
 			}]
 		},
 		"kecleon": {
