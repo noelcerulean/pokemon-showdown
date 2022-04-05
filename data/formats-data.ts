@@ -345,6 +345,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},
+	clefgar: {
+		randomBattleMoves: ["calmmind", "fireblast", "moonblast", "sludgewave", "softboiled", "stealthrock", "thunderwave"],
+		randomBattleLevel: 82,
+		randomDoubleBattleMoves: ["fireblast", "followme", "healpulse", "helpinghand", "moonblast", "protect", "sludgebomb", "thunderwave"],
+		randomDoubleBattleLevel: 86,
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
 	vulpix: {
 		tier: "LC",
 	},

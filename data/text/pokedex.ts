@@ -212,6 +212,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	clefable: {
 		name: "Clefable",
 	},
+	clefgar: {
+		name: "Clefgar",
+	},
 	vulpix: {
 		name: "Vulpix",
 	},

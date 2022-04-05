@@ -262,6 +262,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DUU",
 	},
+	clefgar: {
+		randomBattleMoves: ["calmmind", "fireblast", "moonblast", "sludgewave", "softboiled", "stealthrock", "thunderwave"],
+		randomDoubleBattleMoves: ["dazzlinggleam", "fireblast", "followme", "helpinghand", "moonblast", "protect", "sludgebomb", "softboiled", "thunderwave"],
+		tier: "UU",
+		doublesTier: "DUU",
+	},
 	vulpix: {
 		tier: "NFE",
 	},

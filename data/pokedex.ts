@@ -1035,6 +1035,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoItem: "Moon Stone",
 		eggGroups: ["Fairy"],
 	},
+	clefgar: {
+		num: -508,
+		name: "Clefgar",
+		types: ["Fairy", "Poison"],
+		gender: "N",
+		baseStats: {hp: 78, atk: 67, def: 67, spa: 113, spd: 82, spe: 85},
+		abilities: {0: "Magic Guard", 1: "Cursed Body"},
+		heightm: 1.4,
+		weightkg: 40,
+		color: "Purple",
+		eggGroups: ["Undiscovered"],
+	},
 	vulpix: {
 		num: 37,
 		name: "Vulpix",

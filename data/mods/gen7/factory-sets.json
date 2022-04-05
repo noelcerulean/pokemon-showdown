@@ -4269,6 +4269,31 @@
 				"moves": [["Cosmic Spin"], ["Rapid Spin"], ["Recover"], ["Toxic", "Earthquake", "Stealth Rock"]]
 			}]
 		},
+		"clefgar": {
+			"flags": {},
+			"sets": [{
+				"species": "Clefgar",
+				"item": ["Life Orb"],
+				"ability": ["Magic Guard"],
+				"evs": {"hp": 4, "spa": 252, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Moonblast"], ["Sludge Wave"], ["Flamethrower"], ["Psychic"]]
+			}, {
+				"species": "Clefgar",
+				"item": ["Choice Scarf"],
+				"ability": ["Magic Guard"],
+				"evs": {"hp": 4, "spa": 252, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Moonblast"], ["Sludge Wave"], ["Flamethrower"], ["Trick"]]
+			}, {
+				"species": "Clefgar",
+				"item": ["Psychium Z"],
+				"ability": ["Magic Guard"],
+				"evs": {"hp": 4, "spa": 252, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Moonblast"], ["Sludge Wave"], ["Fire Blast"], ["Hypnosis"]]
+			}]
+		},
 		"cobalion": {
 			"flags": {},
 			"sets": [{
