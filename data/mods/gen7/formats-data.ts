@@ -2063,9 +2063,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	cacturne: {
-		randomBattleMoves: ["darkpulse", "drainpunch", "focusblast", "gigadrain", "seedbomb", "spikes", "suckerpunch", "swordsdance"],
-		randomDoubleBattleMoves: ["drainpunch", "seedbomb", "spikyshield", "substitute", "suckerpunch", "swordsdance"],
-		tier: "(PU)",
+		randomBattleMoves: ["darkpulse", "drainpunch", "focusblast", "gigadrain", "knockoff", "seedbomb", "spikes", "suckerpunch", "swordsdance"],
+		randomDoubleBattleMoves: ["drainpunch", "knockoff", "seedbomb", "spikyshield", "substitute", "suckerpunch", "swordsdance"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	swablu: {

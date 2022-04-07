@@ -396,6 +396,8 @@ export const Aliases: {[alias: string]: string} = {
 	pangshimelon: "Pangshi",
 	mightyenapink: "Mightyena",
 	shuckleswag: "Shuckle",
+	clefgartongue: "Clefgar",
+	clefgarmint: "Clefgar",
 
 	alcremierubycream: "Alcremie",
 	alcremiematchacream: "Alcremie",

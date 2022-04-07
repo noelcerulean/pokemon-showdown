@@ -6515,6 +6515,24 @@
 				"moves": [["Stealth Rock"], ["Toxic"], ["Gyro Ball"], ["Protect"]]
 			}]
 		},
+		"cacturne": {
+			"flags": {},
+			"sets": [{
+				"species": "Cacturne",
+				"item": ["Choice Band"],
+				"ability": ["Stakeout"],
+				"evs": {"hp": 252, "atk": 252, "spe": 4},
+				"nature": "Adamant",
+				"moves": [["Knock Off"], ["Seed Bomb"], ["Sucker Punch", "Poison Jab", "Thunder Punch"], ["Drain Punch", "Superpower"]]
+			}, {
+				"species": "Cacturne",
+				"item": ["Life Orb"],
+				"ability": ["Stakeout"],
+				"evs": {"hp": 252, "spa": 252, "spe": 4},
+				"nature": "Rash",
+				"moves": [["Dark Pulse"], ["Energy Ball"], ["Sucker Punch"], ["Spikes"]]
+			}]
+		},
 		"carbink": {
 			"flags": {},
 			"sets": [{
