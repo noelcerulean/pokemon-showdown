@@ -1506,6 +1506,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	furretmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	hoothoot: {
 		tier: "LC",
 	},

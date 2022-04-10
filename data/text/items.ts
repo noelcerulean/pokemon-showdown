@@ -627,6 +627,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Full Incense",
 		desc: "Holder moves last in its priority bracket.",
 	},
+	furretite: {
+		name: "Furretite",
+		desc: "If held by an Furret, this item allows it to Mega Evolve in battle.",
+	},
 	galaricacuff: {
 		name: "Galarica Cuff",
 		desc: "Evolves Galarian Slowpoke into Galarian Slowbro when used.",

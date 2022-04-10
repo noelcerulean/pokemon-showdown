@@ -2040,6 +2040,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 316,
 		gen: 4,
 	},
+	furretite: {
+		name: "Furretite",
+		spritenum: 748,
+		megaStone: "Furret-Mega",
+		megaEvolves: "Furret",
+		itemUser: ["Furret"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -508,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	galaricacuff: {
 		name: "Galarica Cuff",
 		spritenum: 739,

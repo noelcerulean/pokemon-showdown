@@ -1563,6 +1563,26 @@
 				"moves": [["Dragon Dance"], ["Outrage"], ["Earthquake"], ["Stone Edge"]]
 			}]
 		},
+		"furret": {
+			"flags": {
+				"megaOnly": 1
+			},
+			"sets": [{
+				"species": "Furret",
+				"item": ["Furretite"],
+				"ability": ["Limber"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Extreme Speed"], ["Knock Off"], ["Dynamic Punch"], ["Coil"]]
+			}, {
+				"species": "Furret",
+				"item": ["Furretite"],
+				"ability": ["Limber"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Extreme Speed"], ["Knock Off"], ["U-Turn"], ["Fire Punch", "Wish"]]
+			}]
+		},
 		"gallade": {
 			"flags": {
 				"megaOnly": 1
@@ -3595,6 +3615,17 @@
 				"moves": [["Bug Buzz"], ["Flamethrower"], ["Quiver Dance"], ["Roost"]]
 			}]
 		},
+		"wailord": {
+			"flags": {},
+			"sets": [{
+				"species": "Wailord",
+				"item": ["Leftovers"],
+				"ability": ["Inflate"],
+				"evs": {"def": 252, "spa": 4, "spd": 252},
+				"nature": "Bold",
+				"moves": [["Bubble Prison"], ["Toxic"], ["Protect"], ["Ice Beam"]]
+			}]
+		},
 		"weavile": {
 			"flags": {},
 			"sets": [{
@@ -4500,6 +4531,17 @@
 				"ivs": {"atk": 0},
 				"nature": "Calm",
 				"moves": [["Scald"], ["Defog", "Stealth Rock"], ["Toxic"], ["Protect"]]
+			}]
+		},
+		"escavalier": {
+			"flags": {},
+			"sets": [{
+				"species": "Escavalier",
+				"item": ["Leftovers"],
+				"ability": ["No Guard"],
+				"evs": {"hp": 252, "atk": 52, "spd": 204},
+				"nature": "Adamant",
+				"moves": [["Megahorn"], ["Gyro Ball"], ["Protect", "Swords Dance"], ["Pursuit", "Drill Run", "Razor Shell"]]
 			}]
 		},
 		"farfetchd": {
@@ -6326,6 +6368,26 @@
 				"evs": {"atk": 252, "spa": 252, "spe": 4},
 				"nature": "Naughty",
 				"moves": [["Blizzard"], ["Wood Hammer", "Giga Drain"], ["Ice Shard"], ["Earthquake"]]
+			}]
+		},
+		"accelgor": {
+			"flags": {},
+			"sets": [{
+				"species": "Accelgor",
+				"item": ["Choice Specs"],
+				"ability": ["Sticky Hold"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Bug Buzz"], ["Focus Blast"], ["Energy Ball"], ["Spikes"]]
+			}, {
+				"species": "Accelgor",
+				"item": ["Fightinium Z"],
+				"ability": ["Hydration"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Bug Buzz"], ["Spikes"], ["Focus Blast"], ["Taunt"]]
 			}]
 		},
 		"aerodactyl": {

@@ -1149,6 +1149,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	furretmega: {
+		randomBattleMoves: ["aquatail", "coil", "doubleedge", "extremespeed", "firepunch", "knockoff", "playrough", "uturn"],
+		randomDoubleBattleMoves: ["doubleedge", "extremespeed", "followme", "helpinghand", "knockoff", "protect", "superfang", "uturn"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
 	hoothoot: {
 		tier: "LC",
 	},
@@ -2006,9 +2012,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	wailord: {
-		randomBattleMoves: ["hiddenpowerfire", "hiddenpowergrass", "hydropump", "icebeam", "waterspout"],
-		randomDoubleBattleMoves: ["hiddenpowerfire", "hiddenpowergrass", "hydropump", "icebeam", "waterspout"],
-		tier: "(PU)",
+		randomBattleMoves: ["bubbleprison", "icebeam", "protect", "toxic"],
+		randomDoubleBattleMoves: ["bubbleprison", "icebeam", "protect", "toxic"],
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	numel: {
@@ -3480,9 +3486,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	escavalier: {
-		randomBattleMoves: ["drillrun", "ironhead", "knockoff", "megahorn", "pursuit", "swordsdance"],
-		randomDoubleBattleMoves: ["drillrun", "ironhead", "knockoff", "megahorn", "protect", "swordsdance"],
-		tier: "RU",
+		randomBattleMoves: ["drillrun", "gyroball", "knockoff", "megahorn", "pursuit", "swordsdance"],
+		randomDoubleBattleMoves: ["drillrun", "gyroball", "knockoff", "megahorn", "protect", "swordsdance"],
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	foongus: {
@@ -3607,9 +3613,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	accelgor: {
-		randomBattleMoves: ["bugbuzz", "encore", "energyball", "focusblast", "hiddenpowerrock", "spikes", "toxicspikes", "yawn"],
+		randomBattleMoves: ["bugbuzz", "encore", "energyball", "focusblast", "hiddenpowerrock", "spikes", "taunt", "toxicspikes", "yawn"],
 		randomDoubleBattleMoves: ["bugbuzz", "encore", "energyball", "focusblast", "hiddenpowerrock", "protect", "sludgebomb", "yawn"],
-		tier: "NU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	stunfisk: {

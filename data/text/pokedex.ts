@@ -725,6 +725,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	furret: {
 		name: "Furret",
 	},
+	furretmega: {
+		name: "Furret-Mega",
+	},
 	hoothoot: {
 		name: "Hoothoot",
 	},
