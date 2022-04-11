@@ -538,7 +538,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['Standard', 'Overflow Stat Mod', '2 Ability Clause'],
-		banlist: ['Sneasel', 'Kurstraw', 'Type: Null', 'King\'s Rock', 'Baton Pass'],
+		banlist: ['Sneasel', 'Kurstraw', 'Type: Null', 'Wormadam', 'Wormadam-Sandy', 'Wormadam-Trash', 'King\'s Rock', 'Baton Pass'],
 		restricted: ['Shedinja', 'Solgaleo', 'Lunala'],
 		onValidateTeam(team) {
 			const names = new Set<ID>();
@@ -741,7 +741,7 @@ export const Formats: FormatList = [
 		],
 		mod: 'gen7',
 		ruleset: ['[Gen 7] OU', 'Evasion Abilities Clause'],
-		banlist: ['Excadrill', 'Porygon-Z'],
+		banlist: ['Excadrill', 'Mawile', 'Mightyena', 'Porygon-Z'],
 		onValidateSet(set) {
 			const species = this.dex.species.get(set.species);
 			const unSeenAbilities = Object.keys(species.abilities)

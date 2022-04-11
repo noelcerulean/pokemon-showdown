@@ -991,8 +991,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	cosmicspin: {
 		name: "Cosmic Spin",
-		desc: "Has a 100% chance to lower the target's Sp. Attack by 2 stages. Has a 10% burn chance.",
-		shortDesc: "Lowers target's Sp. Attack by 2. 10% burn chance",
+		desc: "Has a 100% chance to lower the target's Sp. Attack by 2 stages.",
+		shortDesc: "Lowers target's Sp. Attack by 2.",
 	},
 	cottonguard: {
 		name: "Cotton Guard",
@@ -3431,8 +3431,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	lunaticeyes: {
 		name: "Lunatic Eyes",
-		desc: "Has a 100% chance to lower the target's Attack by 2 stages. Has a 10% paralysis chance.",
-		shortDesc: "Lowers target's Attack by 2. 10% paralysis chance",
+		desc: "Has a 100% chance to lower the target's Attack by 2 stages.",
+		shortDesc: "Lowers target's Attack by 2.",
 	},
 	lunge: {
 		name: "Lunge",

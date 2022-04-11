@@ -1571,7 +1571,7 @@
 				"species": "Furret",
 				"item": ["Furretite"],
 				"ability": ["Limber"],
-				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"evs": {"hp": 252, "atk": 252, "spe": 4},
 				"nature": "Adamant",
 				"moves": [["Extreme Speed"], ["Knock Off"], ["Dynamic Punch"], ["Coil"]]
 			}, {

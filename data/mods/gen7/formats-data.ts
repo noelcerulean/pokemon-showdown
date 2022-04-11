@@ -1152,7 +1152,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	furretmega: {
 		randomBattleMoves: ["aquatail", "coil", "doubleedge", "extremespeed", "firepunch", "knockoff", "playrough", "uturn"],
 		randomDoubleBattleMoves: ["doubleedge", "extremespeed", "followme", "helpinghand", "knockoff", "protect", "superfang", "uturn"],
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	hoothoot: {

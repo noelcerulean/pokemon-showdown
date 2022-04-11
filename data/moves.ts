@@ -2638,17 +2638,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
-		secondaries: [
-			{
-				chance: 100,
-				boosts: {
-					spa: -2,
-				},
-			}, {
-				chance: 10,
-				status: 'brn',
+		secondary: {
+			chance: 100,
+			boosts: {
+				spa: -2,
 			},
-		],
+		},
 		target: "normal",
 		type: "Psychic",
 		contestType: "Beautiful",
@@ -10136,17 +10131,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
-		secondaries: [
-			{
-				chance: 100,
-				boosts: {
-					atk: -2,
-				},
-			}, {
-				chance: 10,
-				status: 'par',
+		secondary: {
+			chance: 100,
+			boosts: {
+				atk: -2,
 			},
-		],
+		},
 		target: "normal",
 		type: "Psychic",
 		contestType: "Beautiful",
