@@ -6412,6 +6412,17 @@
 				"moves": [["Sticky Web"], ["Liquidation"], ["Magic Coat", "Spider Web"], ["Leech Life"]]
 			}]
 		},
+		"arbok": {
+			"flags": {},
+			"sets": [{
+				"species": "Arbok",
+				"item": ["Black Sludge"],
+				"ability": ["Enfeebling Venom"],
+				"evs": {"hp": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Toxic"], ["Coil"], ["Earthquake"], ["Gunk Shot"]]
+			}]
+		},
 		"arcanine": {
 			"flags": {},
 			"sets": [{
