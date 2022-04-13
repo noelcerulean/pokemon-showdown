@@ -2955,20 +2955,6 @@
 			"flags": {},
 			"sets": [{
 				"species": "Seviper",
-				"item": ["Black Sludge"],
-				"ability": ["Multiscale"],
-				"evs": {"hp": 252, "def": 252, "spe": 4},
-				"nature": "Impish",
-				"moves": [["Glare"], ["Knock Off"], ["Taunt"], ["Gunk Shot"]]
-			}, {
-				"species": "Seviper",
-				"item": ["Black Sludge"],
-				"ability": ["Multiscale"],
-				"evs": {"hp": 252, "spa": 252, "spe": 4},
-				"nature": "Modest",
-				"moves": [["Nasty Plot"], ["Glare"], ["Sludge Wave", "Flamethrower"], ["Dark Pulse"]]
-			}, {
-				"species": "Seviper",
 				"item": ["Darkinium Z"],
 				"ability": ["Merciless"],
 				"evs": {"hp": 252, "atk": 252, "spe": 4},

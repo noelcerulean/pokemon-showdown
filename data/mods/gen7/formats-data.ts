@@ -2098,7 +2098,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	seviper: {
 		randomBattleMoves: ["darkpulse", "earthquake", "flamethrower", "gigadrain", "nastyplot", "poisonjab", "sludgewave", "suckerpunch", "switcheroo", "swordsdance"],
 		randomDoubleBattleMoves: ["aquatail", "earthquake", "flamethrower", "gigadrain", "glare", "poisonjab", "protect", "sludgebomb", "suckerpunch"],
-		tier: "UUBL",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	lunatone: {
