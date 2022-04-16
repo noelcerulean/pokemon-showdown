@@ -59345,6 +59345,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			swagger: ["7M", "6M", "5M"],
 			telekinesis: ["7T", "5M"],
 			thief: ["8M", "7M", "6M", "5M"],
+			torment: ["7M"],
 			toxic: ["7M", "6M", "5M"],
 			toxicspikes: ["8M"],
 			trick: ["8M", "7T", "6T", "5T"],
