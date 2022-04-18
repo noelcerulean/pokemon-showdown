@@ -470,6 +470,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	onix: {
 		name: "Onix",
 	},
+	baki: {
+		name: "Baki",
+	},
 	drowzee: {
 		name: "Drowzee",
 	},
@@ -541,6 +544,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	tangela: {
 		name: "Tangela",
+	},
+	rooskhan: {
+		name: "Rooskhan",
 	},
 	kangaskhan: {
 		name: "Kangaskhan",

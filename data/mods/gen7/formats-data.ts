@@ -649,6 +649,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
+	baki: {
+		tier: "LC",
+	},
 	drowzee: {
 		tier: "LC",
 	},
@@ -786,6 +789,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["earthquake", "focusblast", "gigadrain", "hiddenpowerice", "knockoff", "leechseed", "powerwhip", "protect", "ragepowder", "sleeppowder"],
 		tier: "OU",
 		doublesTier: "(DUU)",
+	},
+	rooskhan: {
+		tier: "LC",
 	},
 	kangaskhan: {
 		randomBattleMoves: ["crunch", "drainpunch", "earthquake", "fakeout", "return", "suckerpunch"],

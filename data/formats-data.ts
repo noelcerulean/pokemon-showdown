@@ -837,6 +837,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	baki: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	drowzee: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -1013,6 +1017,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 85,
 		tier: "UU",
 		doublesTier: "(DUU)",
+	},
+	rooskhan: {
+		tier: "NFE",
 	},
 	kangaskhan: {
 		randomBattleMoves: ["doubleedge", "earthquake", "fakeout", "hammerarm", "suckerpunch"],
