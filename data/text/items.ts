@@ -274,6 +274,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Coba Berry",
 		desc: "Halves damage taken from a supereffective Flying-type attack. Single use.",
 	},
+	cofagrigite: {
+		name: "Cofagrigite",
+		desc: "If held by an Cofagrigus, this item allows it to Mega Evolve in battle.",
+	},
 	colburberry: {
 		name: "Colbur Berry",
 		desc: "Halves damage taken from a supereffective Dark-type attack. Single use.",

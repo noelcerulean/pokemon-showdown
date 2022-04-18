@@ -2273,6 +2273,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	cofagrigus: {
 		name: "Cofagrigus",
 	},
+	cofagrigusmega: {
+		name: "Cofagrigus-Mega",
+	},
 	tirtouga: {
 		name: "Tirtouga",
 	},

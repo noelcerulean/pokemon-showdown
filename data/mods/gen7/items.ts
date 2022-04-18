@@ -96,6 +96,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	cofagrigite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	cornnberry: {
 		inherit: true,
 		isNonstandard: "Unobtainable",

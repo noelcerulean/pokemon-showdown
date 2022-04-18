@@ -3836,6 +3836,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "DUU",
 	},
+	cofagrigusmega: {
+		randomBattleMoves: ["bodypress", "memento", "shadowball", "toxicspikes", "willowisp"],
+		randomBattleLevel: 86,
+		randomDoubleBattleMoves: ["bodypress", "irondefense", "painsplit", "shadowball", "trickroom", "willowisp"],
+		randomDoubleBattleLevel: 88,
+		tier: "(PU)",
+		doublesTier: "DUU",
+	},
 	runerigus: {
 		randomBattleMoves: ["earthquake", "haze", "poltergeist", "stealthrock", "toxicspikes", "willowisp"],
 		randomBattleLevel: 84,

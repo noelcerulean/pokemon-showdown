@@ -6725,6 +6725,31 @@
 				"moves": [["Shell Smash"], ["Icicle Spear"], ["Explosion"], ["Hydro Pump"]]
 			}]
 		},
+		"cofagrigus": {
+			"flags": {},
+			"sets": [{
+				"species": "Cofagrigus",
+				"item": ["Leftovers"],
+				"ability": ["Mummy"],
+				"evs": {"hp": 248, "def": 252, "spd": 8},
+				"nature": "Relaxed",
+				"moves": [["Trick Room"], ["Shadow Ball"], ["Will-O-Wisp"], ["Pain Split"]]
+			}, {
+				"species": "Cofagrigus",
+				"item": ["Colbur Berry"],
+				"ability": ["Mummy"],
+				"evs": {"hp": 248, "def": 252, "spd": 8},
+				"nature": "Relaxed",
+				"moves": [["Trick Room"], ["Shadow Ball"], ["Toxic Spikes"], ["Memento", "Destiny Bond"]]
+			}, {
+				"species": "Cofagrigus",
+				"item": ["Cofagrigite"],
+				"ability": ["Mummy"],
+				"evs": {"hp": 248, "spa": 252, "spd": 8},
+				"nature": "Quiet",
+				"moves": [["Nasty Plot"], ["Shadow Ball"], ["Hidden Power Fighting"], ["Trick Room"]]
+			}]
+		},
 		"crabominable": {
 			"flags": {},
 			"sets": [{

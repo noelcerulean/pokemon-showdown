@@ -989,6 +989,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 192,
 		gen: 4,
 	},
+	cofagrigite: {
+		name: "Cofagrigite",
+		spritenum: 749,
+		megaStone: "Cofagrigus-Mega",
+		megaEvolves: "Cofagrigus",
+		itemUser: ["Cofagrigus"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -509,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	colburberry: {
 		name: "Colbur Berry",
 		spritenum: 78,

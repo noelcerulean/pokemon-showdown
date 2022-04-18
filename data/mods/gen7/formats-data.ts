@@ -3359,6 +3359,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NUBL",
 		doublesTier: "DUU",
 	},
+	cofagrigusmega: {
+		randomBattleMoves: ["haze", "hiddenpowerfighting", "nastyplot", "painsplit", "shadowball", "toxicspikes", "trickroom", "willowisp"],
+		randomDoubleBattleMoves: ["hiddenpowerfighting", "nastyplot", "protect", "shadowball", "trickroom", "willowisp"],
+		tier: "RU",
+		doublesTier: "DUU",
+	},
 	tirtouga: {
 		tier: "LC",
 	},
