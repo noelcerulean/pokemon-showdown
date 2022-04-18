@@ -2590,7 +2590,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Rooskhan",
 		types: ["Normal"],
 		gender: "F",
-		baseStats: {hp: 55, atk: 75, def: 50, spa: 35, spd: 50, spe: 45},
+		baseStats: {hp: 55, atk: 75, def: 50, spa: 25, spd: 50, spe: 45},
 		abilities: {0: "Early Bird", 1: "Scrappy", H: "Own Tempo"},
 		heightm: 0.4,
 		weightkg: 12,
