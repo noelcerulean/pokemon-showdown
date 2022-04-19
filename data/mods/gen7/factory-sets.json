@@ -5329,6 +5329,17 @@
 				"moves": [["Swords Dance"], ["Shadow Sneak"], ["Play Rough"], ["Shadow Claw"]]
 			}]
 		},
+		"minun": {
+			"flags": {},
+			"sets": [{
+				"species": "Minun",
+				"item": ["Leftovers"],
+				"ability": ["Minus"],
+				"evs": {"hp": 252, "spa": 4, "spd": 252},
+				"nature": "Calm",
+				"moves": [["Volt Switch"], ["Wish"], ["Protect"], ["Toxic", "Encore"]]
+			}]
+		},
 		"moltres": {
 			"flags": {},
 			"sets": [{
@@ -5576,6 +5587,24 @@
 				"evs": {"def": 4, "spa": 252, "spe": 252},
 				"nature": "Timid",
 				"moves": [["Hurricane"], ["Heat Wave"], ["U-turn", "Work Up", "Hidden Power Ground"], ["Roost"]]
+			}]
+		},
+		"plusle": {
+			"flags": {},
+			"sets": [{
+				"species": "Plusle",
+				"item": ["Focus Sash"],
+				"ability": ["Plus"],
+				"evs": {"def": 4, "spa": 252, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Thunderbolt"], ["Overheat"], ["Hidden Power Ice"], ["Nasty Plot"]]
+			}, {
+				"species": "Plusle",
+				"item": ["Firium Z"],
+				"ability": ["Plus"],
+				"evs": {"def": 4, "spa": 252, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Thunderbolt"], ["Overheat"], ["Encore"], ["Nasty Plot"]]
 			}]
 		},
 		"primarina": {
@@ -7331,6 +7360,17 @@
 				"moves": [["Hydro Pump"], ["Giga Drain"], ["Ice Beam"], ["Rain Dance"]]
 			}]
 		},
+		"lycanroc": {
+			"flags": {},
+			"sets": [{
+				"species": "Lycanroc",
+				"item": ["Lycanium Z", "Life Orb"],
+				"ability": ["Sand Rush"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Swords Dance"], ["Stone Edge"], ["Drill Run"], ["Accelerock"]]
+			}]
+		},
 		"lycanrocdusk": {
 			"flags": {},
 			"sets": [{
@@ -7340,6 +7380,24 @@
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Swords Dance"], ["Stone Edge"], ["Fire Fang"], ["Sucker Punch"]]
+			}]
+		},
+		"lycanrocmidnight": {
+			"flags": {},
+			"sets": [{
+				"species": "Lycanroc-Midnight",
+				"item": ["Choice Scarf", "Choice Band"],
+				"ability": ["No Guard"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Wild Charge"], ["Stone Edge"], ["Close Combat"], ["Fire Punch"]]
+			}, {
+				"species": "Lycanroc-Midnight",
+				"item": ["Focus Sash"],
+				"ability": ["Adrenalize"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Thunder Punch"], ["Stone Edge"], ["Close Combat", "Fire Punch"], ["Rock Polish"]]
 			}]
 		},
 		"machamp": {

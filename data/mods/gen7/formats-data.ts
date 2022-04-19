@@ -1954,15 +1954,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	plusle: {
-		randomBattleMoves: ["encore", "hiddenpowerice", "nastyplot", "substitute", "thunderbolt"],
+		randomBattleMoves: ["encore", "hiddenpowerice", "nastyplot", "overheat", "substitute", "thunderbolt"],
 		randomDoubleBattleMoves: ["encore", "helpinghand", "hiddenpowerice", "nastyplot", "protect", "thunderbolt"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	minun: {
-		randomBattleMoves: ["encore", "hiddenpowerice", "nastyplot", "substitute", "thunderbolt"],
+		randomBattleMoves: ["encore", "hiddenpowerice", "nastyplot", "paraboliccharge", "thunderbolt", "voltswitch", "wish"],
 		randomDoubleBattleMoves: ["encore", "helpinghand", "hiddenpowerice", "nastyplot", "protect", "thunderbolt"],
-		tier: "(PU)",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	volbeat: {
@@ -4404,15 +4404,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	lycanroc: {
-		randomBattleMoves: ["accelerock", "drillrun", "firefang", "stoneedge", "swordsdance"],
+		randomBattleMoves: ["accelerock", "drillrun", "firefang", "spikes", "stoneedge", "swordsdance"],
 		randomDoubleBattleMoves: ["accelerock", "crunch", "firefang", "protect", "stoneedge", "taunt"],
-		tier: "PU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	lycanrocmidnight: {
-		randomBattleMoves: ["firepunch", "stealthrock", "stoneedge", "suckerpunch", "swordsdance"],
+		randomBattleMoves: ["closecombat", "firepunch", "stealthrock", "stoneedge", "suckerpunch", "swordsdance"],
 		randomDoubleBattleMoves: ["protect", "stoneedge", "suckerpunch", "swordsdance", "taunt"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	lycanrocdusk: {
