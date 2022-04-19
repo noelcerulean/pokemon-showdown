@@ -838,6 +838,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UUBL",
 		doublesTier: "DUU",
 	},
+	starmiemega: {
+		randomBattleMoves: ["hydropump", "icebeam", "psyshock", "rapidspin", "recover", "scald", "thunderbolt"],
+		randomDoubleBattleMoves: ["hydropump", "icebeam", "protect", "psychic", "psyshock", "scald", "thunderbolt"],
+		tier: "UUBL",
+		doublesTier: "DUU",
+	},
 	mimejr: {
 		tier: "LC",
 	},

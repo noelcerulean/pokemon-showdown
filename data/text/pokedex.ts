@@ -572,6 +572,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	starmie: {
 		name: "Starmie",
 	},
+	starmiemega: {
+		name: "Starmie-Mega",
+	},
 	mrmime: {
 		name: "Mr. Mime",
 	},

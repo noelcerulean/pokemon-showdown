@@ -1073,6 +1073,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	starmiemega: {
+		randomBattleMoves: ["hydropump", "psyshock", "rapidspin", "recover", "scald", "thunderbolt", "icebeam"],
+		randomBattleLevel: 84,
+		randomDoubleBattleMoves: ["flipturn", "hydropump", "icebeam", "protect", "psyshock", "thunderbolt"],
+		randomDoubleBattleLevel: 84,
+		tier: "NU",
+		doublesTier: "(DUU)",
+	},
 	mimejr: {
 		tier: "LC",
 	},

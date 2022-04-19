@@ -3222,6 +3222,14 @@
 				"ivs": {"atk": 0},
 				"nature": "Timid",
 				"moves": [["Hydro Pump"], ["Blizzard"], ["Thunder"], ["Psyshock", "Rapid Spin"]]
+			}, {
+				"species": "Starmie-Mega",
+				"item": ["Starmite"],
+				"ability": ["Natural Cure"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Hydro Pump"], ["Blizzard"], ["Thunder"], ["Psyshock", "Rapid Spin"]]
 			}]
 		},
 		"tangrowth": {

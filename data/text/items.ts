@@ -1682,6 +1682,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Starf Berry",
 		desc: "Raises a random stat by 2 when at 1/4 max HP or less (not acc/eva). Single use.",
 	},
+	starmite: {
+		name: "Starmite",
+		desc: "If held by a Starmie, this item allows it to Mega Evolve in battle.",
+	},
 	starsweet: {
 		name: "Star Sweet",
 		desc: "Evolves Milcery into Alcremie when held and spun around.",

@@ -1208,7 +1208,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			return true;
 		},
 		num: -507,
-		gen: 7,
+		gen: 6,
 	},
 	destinyknot: {
 		name: "Destiny Knot",
@@ -5411,6 +5411,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 207,
 		gen: 3,
+	},
+	starmite: {
+		name: "Starmite",
+		spritenum: 750,
+		megaStone: "Starmie-Mega",
+		megaEvolves: "Starmie",
+		itemUser: ["Starmie"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -510,
+		gen: 6,
+		isNonstandard: "Past",
 	},
 	starsweet: {
 		name: "Star Sweet",

@@ -559,6 +559,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	starmite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	steelgem: {
 		inherit: true,
 		isNonstandard: "Unobtainable",
