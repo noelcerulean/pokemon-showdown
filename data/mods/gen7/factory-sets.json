@@ -1259,7 +1259,7 @@
 				"evs": {"hp": 252, "spa": 252, "spd": 4},
 				"ivs": {"spe": 0},
 				"nature": "Quiet",
-				"moves": [["Prehistoric Pulse"], ["Vaporize"], ["Earth Power"], ["Stealth Rock"]]
+				"moves": [["Ancient Power", "Hidden Power Ice"], ["Vaporize"], ["Earth Power"], ["Stealth Rock"]]
 			}]
 		},
 		"celesteela": {
@@ -1397,17 +1397,6 @@
 				"moves": [["Dragon Dance"], ["Fly"], ["Earthquake", "Fire Punch"], ["Extreme Speed"]]
 			}]
 		},
-		"druddigon": {
-			"flags": {},
-			"sets": [{
-				"species": "Druddigon",
-				"item": ["Life Orb"],
-				"ability": ["Sheer Force"],
-				"evs": {"atk": 252, "def": 4, "spe": 252},
-				"nature": "Jolly",
-				"moves": [["Dragon Dance"], ["Dragon Hammer"], ["Fire Punch"], ["Poison Jab"]]
-			}]
-		},
 		"dustox": {
 			"flags": {},
 			"sets": [{
@@ -1535,7 +1524,7 @@
 				"ability": ["Fur Coat"],
 				"evs": {"hp": 252, "atk": 4, "spd": 252},
 				"nature": "Careful",
-				"moves": [["Flare Blitz"], ["Morning Sun"], ["Will-O-Wisp"], ["Toxic", "Heal Bell", "Dry Pass"]]
+				"moves": [["Flare Blitz"], ["Wish"], ["Will-O-Wisp"], ["Toxic", "Heal Bell", "Dry Pass"]]
 			}]
 		},
 		"flygon": {
@@ -6887,6 +6876,31 @@
 				"evs": {"def": 4, "spa": 252, "spe": 252},
 				"nature": "Modest",
 				"moves": [["Strength Sap"], ["Calm Mind"], ["Shadow Ball"], ["Air Slash"]]
+			}]
+		},
+		"druddigon": {
+			"flags": {},
+			"sets": [{
+				"species": "Druddigon",
+				"item": ["Life Orb"],
+				"ability": ["Sheer Force"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Taunt"], ["Dragon Hammer"], ["Fire Punch"], ["Poison Jab"]]
+			}, {
+				"species": "Druddigon",
+				"item": ["Roseli Berry"],
+				"ability": ["Mold Breaker"],
+				"evs": {"hp": 232, "atk": 252, "spe": 24},
+				"nature": "Adamant",
+				"moves": [["Stealth Rock"], ["Iron Head"], ["Earthquake"], ["Glare"]]
+			}, {
+				"species": "Druddigon",
+				"item": ["Leftovers"],
+				"ability": ["Mold Breaker"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": "Impish",
+				"moves": [["Stealth Rock"], ["Dragon Tail"], ["Earthquake"], ["Toxic"]]
 			}]
 		},
 		"emolga": {
