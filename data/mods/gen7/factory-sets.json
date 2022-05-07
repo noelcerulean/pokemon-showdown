@@ -3212,7 +3212,7 @@
 				"nature": "Timid",
 				"moves": [["Hydro Pump"], ["Blizzard"], ["Thunder"], ["Psyshock", "Rapid Spin"]]
 			}, {
-				"species": "Starmie-Mega",
+				"species": "Starmie",
 				"item": ["Starmite"],
 				"ability": ["Natural Cure"],
 				"evs": {"spa": 252, "spd": 4, "spe": 252},
@@ -4177,6 +4177,24 @@
 				"evs": {"hp": 252, "def": 252, "spd": 4},
 				"nature": "Bold",
 				"moves": [["Soft-Boiled"], ["Seismic Toss"], ["Toxic"], ["Heal Bell", "Stealth Rock"]]
+			}]
+		},
+		"butterfree": {
+			"flags": {},
+			"sets": [{
+				"species": "Butterfree",
+				"item": ["Flyinium Z"],
+				"ability": ["Tinted Lens"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Quiver Dance"], ["Hurricane"], ["Bug Buzz", "Safeguard"], ["Roost"]]
+			}, {
+				"species": "Butterfree",
+				"item": ["Leftovers"],
+				"ability": ["Tinted Lens"],
+				"evs": {"hp": 252, "spa": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Quiver Dance"], ["Hurricane"], ["Sleep Powder"], ["Roost"]]
 			}]
 		},
 		"camerupt": {
@@ -5574,9 +5592,7 @@
 			}]
 		},
 		"pidgeot": {
-			"flags": {
-				"megaOnly": 1
-			},
+			"flags": {},
 			"sets": [{
 				"species": "Pidgeot",
 				"item": ["Pidgeotite"],
@@ -5584,6 +5600,20 @@
 				"evs": {"def": 4, "spa": 252, "spe": 252},
 				"nature": "Timid",
 				"moves": [["Hurricane"], ["Heat Wave"], ["U-turn", "Work Up", "Hidden Power Ground"], ["Roost"]]
+			}, {
+				"species": "Pidgeot",
+				"item": ["Choice Specs"],
+				"ability": ["Gale Wings"],
+				"evs": {"def": 4, "spa": 252, "spe": 252},
+				"nature": "Modest",
+				"moves": [["Hurricane"], ["Heat Wave"], ["U-turn"], ["Hyper Voice"]]
+			}, {
+				"species": "Pidgeot",
+				"item": ["Leftovers", "Flyinium Z"],
+				"ability": ["Gale Wings"],
+				"evs": {"def": 4, "spa": 252, "spe": 252},
+				"nature": "Modest",
+				"moves": [["Hurricane"], ["Heat Wave"], ["U-turn"], ["Roost"]]
 			}]
 		},
 		"plusle": {
@@ -5715,6 +5745,31 @@
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": "Adamant",
 				"moves": [["Outrage"], ["Crunch"], ["Iron Head"], ["Flame Wheel"]]
+			}]
+		},
+		"raticate": {
+			"flags": {},
+			"sets": [{
+				"species": "Raticate",
+				"item": ["Flame Orb"],
+				"ability": ["Guts"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["U-Turn"], ["Facade"], ["Sucker Punch", "Crunch"], ["Flame Wheel"]]
+			}, {
+				"species": "Raticate",
+				"item": ["Flame Orb"],
+				"ability": ["Guts"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Swords Dance"], ["Facade"], ["Sucker Punch"], ["Flame Wheel", "Stomping Tantrum"]]
+			}, {
+				"species": "Raticate",
+				"item": ["Choice Band"],
+				"ability": ["Hustle"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Double-Edge"], ["U-Turn"], ["Crunch", "Stomping Tantrum"], ["Flame Wheel"]]
 			}]
 		},
 		"reuniclus": {
@@ -7715,6 +7770,31 @@
 				"moves": [["Calm Mind"], ["Thunderbolt"], ["Hidden Power Ice"], ["Substitute"]]
 			}]
 		},
+		"raticatealola": {
+			"flags": {},
+			"sets": [{
+				"species": "Raticate-Alola",
+				"item": ["Aguav Berry"],
+				"ability": ["Gluttony"],
+				"evs": {"hp": 252, "spd": 140, "spe": 116},
+				"nature": "Jolly",
+				"moves": [["Knock Off"], ["Taunt"], ["Recycle"], ["U-Turn"]]
+			}, {
+				"species": "Raticate-Alola",
+				"item": ["Assault Vest"],
+				"ability": ["Thick Fat"],
+				"evs": {"hp": 252, "atk": 252, "spd": 4},
+				"nature": "Adamant",
+				"moves": [["Knock Off"], ["Return", "Gunk Shot"], ["Sucker Punch"], ["U-Turn"]]
+			}, {
+				"species": "Raticate-Alola",
+				"item": ["Sitrus Berry"],
+				"ability": ["Cheek Pouch"],
+				"evs": {"hp": 252, "spd": 252, "spe": 4},
+				"nature": "Careful",
+				"moves": [["Recycle"], ["Super Fang"], ["Knock Off"], ["Taunt"]]
+			}]
+		},
 		"registeel": {
 			"flags": {},
 			"sets": [{
@@ -7879,6 +7959,31 @@
 				"evs": {"spa": 252, "spd": 4, "spe": 252},
 				"nature": "Timid",
 				"moves": [["Seed Flare"], ["Earth Power"], ["Hidden Power Ice"], ["Synthesis"]]
+			}]
+		},
+		"shedinja": {
+			"flags": {},
+			"sets": [{
+				"species": "Shedinja",
+				"item": ["Cursed Crown"],
+				"ability": ["Wonder Guard"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Modest",
+				"moves": [["Pain Split"], ["Dry Pass"], ["Shadow Ball"], ["Bug Buzz", "Toxic"]]
+			}, {
+				"species": "Shedinja",
+				"item": ["Focus Sash"],
+				"ability": ["Wonder Guard"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Modest",
+				"moves": [["Nasty Plot"], ["Earth Power"], ["Shadow Ball"], ["Bug Buzz"]]
+			}, {
+				"species": "Shedinja",
+				"item": ["Focus Sash"],
+				"ability": ["Wonder Guard"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Modest",
+				"moves": [["Disable"], ["Protect"], ["Shadow Ball"], ["Bug Buzz", "Toxic"]]
 			}]
 		},
 		"sigilyph": {

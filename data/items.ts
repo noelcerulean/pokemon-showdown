@@ -1083,6 +1083,28 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 210,
 		gen: 4,
 	},
+	cursedcrown: {
+		name: "Cursed Crown",
+		fling: {
+			basePower: 60,
+		},
+		spritenum: 751,
+		onFractionalPriorityPriority: -1,
+		onFractionalPriority(priority, pokemon, target, move) {
+			if (pokemon.baseSpecies.name === 'Shedinja' && move.category === "Status") {
+				return 0.1;
+			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 292) || pokemon.baseSpecies.num === 292) {
+				return false;
+			}
+			return true;
+		},
+		itemUser: ["Shedinja"],
+		num: -511,
+		gen: 7,
+	},
 	damprock: {
 		name: "Damp Rock",
 		spritenum: 88,

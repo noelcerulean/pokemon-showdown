@@ -1895,7 +1895,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	wonderguard: {
 		name: "Wonder Guard",
-		shortDesc: "This Pokemon can only be damaged by supereffective moves and indirect damage.",
+		shortDesc: "Hazard immune. Pokemon only takes damage from supereffective moves and indirect damage.",
 		gen4: {
 			shortDesc: "This Pokemon is only damaged by Fire Fang, supereffective moves, indirect damage.",
 		},

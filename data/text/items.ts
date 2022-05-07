@@ -294,6 +294,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Cracked Pot",
 		desc: "Evolves Sinistea into Polteageist when used.",
 	},
+	cursedcrown: {
+		name: "Cursed Crown",
+		shortDesc: "When held by Shedinja, its Status moves go first in their priority bracket.",
+	},
 	custapberry: {
 		name: "Custap Berry",
 		desc: "Holder moves first in its priority bracket when at 1/4 max HP or less. Single use.",

@@ -75,9 +75,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	butterfree: {
-		randomBattleMoves: ["airslash", "bugbuzz", "energyball", "quiverdance", "sleeppowder"],
-		randomDoubleBattleMoves: ["airslash", "bugbuzz", "protect", "quiverdance", "sleeppowder"],
-		tier: "(PU)",
+		randomBattleMoves: ["airslash", "bugbuzz", "energyball", "hurricane", "quiverdance", "sleeppowder"],
+		randomDoubleBattleMoves: ["airslash", "bugbuzz", "hurricane", "protect", "quiverdance", "sleeppowder"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	weedle: {
@@ -105,9 +105,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	pidgeot: {
-		randomBattleMoves: ["bravebird", "defog", "heatwave", "return", "roost", "uturn"],
+		randomBattleMoves: ["bravebird", "defog", "heatwave", "hurricane", "return", "roost", "uturn"],
 		randomDoubleBattleMoves: ["bravebird", "doubleedge", "heatwave", "protect", "return", "tailwind", "uturn"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	pidgeotmega: {
@@ -123,15 +123,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	raticate: {
-		randomBattleMoves: ["facade", "protect", "stompingtantrum", "suckerpunch", "swordsdance", "uturn"],
-		randomDoubleBattleMoves: ["crunch", "facade", "protect", "stompingtantrum", "suckerpunch", "uturn"],
-		tier: "(PU)",
+		randomBattleMoves: ["facade", "flamewheel", "protect", "stompingtantrum", "suckerpunch", "swordsdance", "uturn"],
+		randomDoubleBattleMoves: ["crunch", "facade", "flamewheel", "protect", "stompingtantrum", "suckerpunch", "uturn"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	raticatealola: {
-		randomBattleMoves: ["doubleedge", "knockoff", "return", "suckerpunch", "swordsdance"],
-		randomDoubleBattleMoves: ["doubleedge", "knockoff", "protect", "suckerpunch", "uturn"],
-		tier: "(PU)",
+		randomBattleMoves: ["doubleedge", "gunkshot", "knockoff", "recycle", "return", "suckerpunch", "swordsdance"],
+		randomDoubleBattleMoves: ["doubleedge", "gunkshot", "knockoff", "recycle", "protect", "suckerpunch", "uturn"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	raticatealolatotem: {
@@ -1843,9 +1843,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	shedinja: {
-		randomBattleMoves: ["shadowclaw", "shadowsneak", "swordsdance", "willowisp", "xscissor"],
+		randomBattleMoves: ["disable", "earth power", "energy ball", "nastyplot", "painsplit", "shadow ball", "shadowclaw", "shadowsneak", "swordsdance", "taunt", "willowisp", "xscissor"],
 		randomDoubleBattleMoves: ["allyswitch", "protect", "shadowsneak", "swordsdance", "willowisp", "xscissor"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	whismur: {
