@@ -4472,7 +4472,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	lurantis: {
 		randomBattleMoves: ["hiddenpowerice", "knockoff", "leafstorm", "superpower", "synthesis"],
 		randomDoubleBattleMoves: ["hiddenpowerice", "knockoff", "leafstorm", "protect", "superpower"],
-		tier: "PU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	lurantistotem: {

@@ -7437,6 +7437,17 @@
 				"moves": [["Hydro Pump"], ["Giga Drain"], ["Ice Beam"], ["Rain Dance"]]
 			}]
 		},
+		"lurantis": {
+			"flags": {},
+			"sets": [{
+				"species": "Lurantis",
+				"item": ["Leftovers"],
+				"ability": ["Contrary"],
+				"evs": {"hp": 252, "spa": 4, "spd": 252},
+				"nature": "Sassy",
+				"moves": [["Leaf Storm"], ["Superpower"], ["Defog"], ["Synthesis"]]
+			}]
+		},
 		"lycanroc": {
 			"flags": {},
 			"sets": [{
