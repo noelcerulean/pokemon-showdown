@@ -1913,6 +1913,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			covet: ["7T"],
 			crunch: ["8V", "7L22"],
 			darkpulse: ["8V", "7M"],
+			delinquency: ["7L1"],
 			dig: ["8V"],
 			doubleedge: ["8V", "7L31"],
 			doubleteam: ["7M"],
