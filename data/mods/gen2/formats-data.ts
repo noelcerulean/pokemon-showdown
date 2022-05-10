@@ -750,6 +750,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["meanlook", "painsplit", "perishsong", "return", "shadowball"],
 		tier: "OU",
 	},
+	wolfman: {
+		tier: "LC",
+	},
+	warwolf: {
+		randomBattleMoves: ["blizzard", "rest", "return", "screech", "shadowball", "thief"],
+		tier: "NU",
+	},
 	unown: {
 		randomBattleMoves: ["hiddenpowerpsychic"],
 		tier: "NU",

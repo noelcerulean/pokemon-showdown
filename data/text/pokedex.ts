@@ -878,6 +878,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	pangshi: {
 		name: "Pangshi",
 	},
+	wolfman: {
+		name: "Wolfman",
+	},
+	warwolf: {
+		name: "Warwolf",
+	},
 	unown: {
 		name: "Unown",
 	},

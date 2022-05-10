@@ -1711,6 +1711,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	wolfman: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	warwolf: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	unown: {
 		isNonstandard: "Past",
 		tier: "Illegal",

@@ -6370,6 +6370,38 @@
 				"moves": [["Belly Drum"], ["Earthquake"], ["Waterfall"], ["Ice Shard"]]
 			}]
 		},
+		"warwolf": {
+			"flags": {},
+			"sets": [{
+				"species": "Warwolf",
+				"item": ["Icium Z"],
+				"ability": ["Tough Claws"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Hail"], ["Icicle Crash"], ["Knock Off"], ["Swords Dance"]]
+			}, {
+				"species": "Warwolf",
+				"item": ["Choice Scarf"],
+				"ability": ["Tough Claws"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Superpower"], ["Icicle Crash"], ["Knock Off"], ["Poison Jab"]]
+			}, {
+				"species": "Warwolf",
+				"item": ["Choice Band"],
+				"ability": ["Tough Claws"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Superpower"], ["Icicle Crash"], ["Knock Off"], ["Poison Jab", "Pursuit"]]
+			}, {
+				"species": "Warwolf",
+				"item": ["Blackglasses"],
+				"ability": ["Tough Claws"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Sucker Punch"], ["Icicle Crash"], ["Knock Off"], ["Swords Dance"]]
+			}]
+		},
 		"zebstrika": {
 			"flags": {},
 			"sets": [{
