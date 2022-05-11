@@ -1942,9 +1942,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	medicham: {
-		randomBattleMoves: ["bulletpunch", "drainpunch", "highjumpkick", "icepunch", "zenheadbutt"],
-		randomDoubleBattleMoves: ["bulletpunch", "drainpunch", "fakeout", "highjumpkick", "icepunch", "protect", "zenheadbutt"],
-		tier: "NU",
+		randomBattleMoves: ["aurapshere", "bulletpunch", "drainpunch", "highjumpkick", "icepunch", "psychic", "psyshock", "shadowball", "vacuumwave", "zenheadbutt"],
+		randomDoubleBattleMoves: ["aurasphere", "bulletpunch", "drainpunch", "fakeout", "highjumpkick", "icepunch", "protect", "psychic", "psyshock", "shadowball", "vacuumwave", "zenheadbutt"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	medichammega: {

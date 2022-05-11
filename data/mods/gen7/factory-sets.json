@@ -7591,6 +7591,13 @@
 				"evs": {"hp": 4, "atk": 252, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["High Jump Kick"], ["Zen Headbutt"], ["Thunder Punch"], ["Bullet Punch"]]
+			}, {
+				"species": "Medicham",
+				"item": ["Life Orb", "Choice Specs"],
+				"ability": ["Mystic Power"],
+				"evs": {"hp": 4, "spa": 252, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Aura Sphere"], ["Psychic", "Psyshock"], ["Vacuum Wave"], ["Shadow Ball"]]
 			}]
 		},
 		"metagross": {
