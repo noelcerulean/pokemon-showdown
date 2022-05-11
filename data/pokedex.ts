@@ -3637,7 +3637,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Chinchou",
 		evoLevel: 27,
 		eggGroups: ["Water 2"],
-		cosmeticFormes: ["Lamnturn-Anglara"],
+		cosmeticFormes: ["Lanturn-Anglara"],
 		formeOrder: ["Lanturn", "Lanturn-Anglara"],
 	},
 	pichu: {
