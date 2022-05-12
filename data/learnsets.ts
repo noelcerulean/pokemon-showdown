@@ -38265,7 +38265,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			astonish: ["8L3", "7L9", "6L9", "5L11", "4L11", "3L13"],
 			attract: ["8M", "7M", "6M", "5M", "4M", "3M"],
 			bide: ["8L2", "7L2"],
-			bodyslam: ["8M", "7L2", "3T"],
+			bodyslam: ["8M", "7L2", "6L1", "3T"],
 			brickbreak: ["8M", "7M", "6M", "5M", "4M", "3M"],
 			bulkup: ["8M", "8L42", "7M", "7L43", "6M", "6L43", "5M", "4M", "3M"],
 			bulldoze: ["8M", "7M", "6M", "5M"],
