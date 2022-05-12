@@ -7912,6 +7912,24 @@
 				"moves": [["Will-O-Wisp"], ["Taunt"], ["Recover"], ["Foul Play", "Knock Off"]]
 			}]
 		},
+		"sablechamp": {
+			"flags": {},
+			"sets": [{
+				"species": "Sablechamp",
+				"item": ["Choice Band"],
+				"ability": ["Prankster"],
+				"evs": {"hp": 248, "atk": 252, "spd": 8},
+				"nature": "Adamant",
+				"moves": [["Trick"], ["One-Two Punch"], ["Shadow Punch"], ["Meteor Mash", "Ice Punch"]]
+			}, {
+				"species": "Sablechamp",
+				"item": ["Leftovers"],
+				"ability": ["Prankster"],
+				"evs": {"hp": 248, "atk": 252, "spd": 8},
+				"nature": "Adamant",
+				"moves": [["Will-O-Wisp", "Encore"], ["One-Two Punch"], ["Shadow Sneak"], ["Recover"]]
+			}]
+		},
 		"salazzle": {
 			"flags": {},
 			"sets": [{

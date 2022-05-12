@@ -5915,6 +5915,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Human-Like"],
 		requiredItem: "Sablenite",
 	},
+	sablechamp: {
+		num: -513,
+		name: "Sablechamp",
+		types: ["Ghost", "Fighting"],
+		gender: "N",
+		baseStats: {hp: 70, atk: 103, def: 83, spa: 65, spd: 80, spe: 42},
+		abilities: {0: "Guts", 1: "Prankster"},
+		heightm: 1.1,
+		weightkg: 72,
+		color: "Purple",
+		eggGroups: ["Undiscovered"],
+	},
 	mawile: {
 		num: 303,
 		name: "Mawile",

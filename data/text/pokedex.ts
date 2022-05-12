@@ -1265,6 +1265,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	sableyemega: {
 		name: "Sableye-Mega",
 	},
+	sablechamp: {
+		name: "Sablechamp",
+	},
 	mawile: {
 		name: "Mawile",
 	},

@@ -1908,6 +1908,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DUU",
 	},
+	sablechamp: {
+		randomBattleMoves: ["closecombat", "encore", "foulplay", "knockoff", "recover", "shadowsneak", "taunt", "toxic", "willowisp"],
+		randomDoubleBattleMoves: ["closecombat", "encore", "fakeout", "foulplay", "helpinghand", "knockoff", "protect", "recover", "shadowsneak", "snarl", "taunt", "toxic", "willowisp"],
+		tier: "RU",
+		doublesTier: "DUU",
+	},
 	mawile: {
 		randomBattleMoves: ["ironhead", "knockoff", "playrough", "stealthrock", "suckerpunch", "swordsdance"],
 		randomDoubleBattleMoves: ["ironhead", "knockoff", "playrough", "protect", "suckerpunch", "swordsdance"],

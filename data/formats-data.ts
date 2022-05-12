@@ -2321,6 +2321,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	sablechamp: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	mawile: {
 		randomBattleMoves: ["ironhead", "playrough", "stealthrock", "suckerpunch", "swordsdance"],
 		randomBattleLevel: 86,
