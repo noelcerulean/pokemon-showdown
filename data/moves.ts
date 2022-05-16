@@ -14333,63 +14333,32 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 4,
 		flags: {},
-		stallingMove: true,
-		volatileStatus: 'regroup',
 		onTry(source) {
-			if (source.baseSpecies.baseSpecies === 'Wishiwashi') {
+			if (source.baseSpecies.baseSpecies === 'Wishiwashi' && source.level > 19) {
 				return;
 			}
 			this.add('-fail', source, 'move: Regroup');
-			this.hint("Only a Pokemon whose form is Wishiwashi can use this move.");
+			this.hint("Only a Pokemon whose form is Wishiwashi and whose level is 20 or greater can use this move.");
 			return null;
-		},
-		onPrepareHit(pokemon) {
-			if (pokemon.hp < pokemon.maxhp / 4) {
-				return !!this.queue.willAct() && this.runEvent('StallMove', pokemon);
-			}
-		},
-		onHit(pokemon) {
-			if (pokemon.hp < pokemon.maxhp / 4) {
-				pokemon.addVolatile('stall');
-			}
-		},
-		onModifyMove(move, pokemon) {
-			if (pokemon.hp < pokemon.maxhp / 4) {
-				move.heal = [1, 2];
-			} else if (pokemon.hp > pokemon.maxhp / 4) {
-				move.heal = [1, 4];
-				move.boosts = {atk: 1, spa: 1};
-			}
 		},
 		condition: {
 			duration: 1,
-			onStart(target) {
-				if (target.hp < target.maxhp / 4) {
-					this.add('-singleturn', target, 'Protect');
-				}
-			},
-			onTryHitPriority: 3,
-			onTryHit(target, source, move) {
-				if (target.hp > target.maxhp / 4) return;
-				if (!move.flags['protect']) {
-					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
-					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
+			onInvulnerability(target, source, move) {
+				if (target.species.id !== 'wishiwashi') {
+					return;
+				} if (move.isZ) {
 					return;
 				}
-				if (move.smartTarget) {
-					move.smartTarget = false;
-				} else {
-					this.add('-activate', target, 'move: Protect');
-				}
-				const lockedmove = source.getVolatile('lockedmove');
-				if (lockedmove) {
-					// Outrage counter is reset
-					if (source.volatiles['lockedmove'].duration === 2) {
-						delete source.volatiles['lockedmove'];
-					}
-				}
-				return this.NOT_FAIL;
+				return false;
 			},
+		},
+		onModifyMove(move, pokemon) {
+			if (pokemon.species.id === 'wishiwashi') {
+				move.heal = [1, 2];
+			} else if (pokemon.species.id === 'wishiwashischool') {
+				move.heal = [1, 4];
+				move.boosts = {atk: 1, spa: 1};
+			}
 		},
 		secondary: null,
 		target: "self",
