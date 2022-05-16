@@ -3366,15 +3366,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	scrafty: {
-		randomBattleMoves: ["bulkup", "dragondance", "drainpunch", "highjumpkick", "icepunch", "knockoff", "rest"],
+		randomBattleMoves: ["bulkup", "dragondance", "drainpunch", "gunkshot", "highjumpkick", "icepunch", "knockoff", "rest"],
 		randomDoubleBattleMoves: ["drainpunch", "fakeout", "icepunch", "knockoff", "protect", "superfang"],
-		tier: "NU",
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	sigilyph: {
 		randomBattleMoves: ["airslash", "calmmind", "heatwave", "icebeam", "psychic", "psyshock", "roost"],
 		randomDoubleBattleMoves: ["airslash", "calmmind", "heatwave", "protect", "psyshock", "tailwind"],
-		tier: "NU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	yamask: {
@@ -4070,9 +4070,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	malamar: {
-		randomBattleMoves: ["happyhour", "knockoff", "psychocut", "rest", "sleeptalk", "superpower"],
-		randomDoubleBattleMoves: ["knockoff", "protect", "psychocut", "rockslide", "superpower", "trickroom"],
-		tier: "NU",
+		randomBattleMoves: ["happyhour", "knockoff", "psychoboost", "psychocut", "rest", "sleeptalk", "superpower"],
+		randomDoubleBattleMoves: ["knockoff", "protect", "psychoboost", "psychocut", "rockslide", "superpower", "trickroom"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	binacle: {
@@ -4443,12 +4443,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	wishiwashi: {
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	wishiwashischool: {
-		randomBattleMoves: ["earthquake", "hiddenpowergrass", "hydropump", "icebeam", "scald"],
-		randomDoubleBattleMoves: ["earthquake", "endeavor", "helpinghand", "hiddenpowergrass", "hydropump", "icebeam", "protect"],
+		randomBattleMoves: ["earthquake", "hiddenpowergrass", "hydropump", "icebeam", "regroup", "scald"],
+		randomDoubleBattleMoves: ["earthquake", "endeavor", "helpinghand", "hiddenpowergrass", "hydropump", "icebeam", "protect", "regroup"],
 	},
 	mareanie: {
 		tier: "LC",

@@ -5933,6 +5933,31 @@
 				"moves": [["Swords Dance"], ["Bullet Punch"], ["Bug Bite"], ["Superpower", "Knock Off"]]
 			}]
 		},
+		"scrafty": {
+			"flags": {},
+			"sets": [{
+				"species": "Scrafty",
+				"item": ["Roseli Berry", "Poisonium Z"],
+				"ability": ["Moxie"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Dragon Dance"], ["Knock Off"], ["Close Combat"], ["Gunk Shot"]]
+			}, {
+				"species": "Scrafty",
+				"item": ["Leftovers"],
+				"ability": ["Shed Skin"],
+				"evs": {"hp": 252, "atk": 4, "spd": 252},
+				"nature": "Careful",
+				"moves": [["Bulk Up"], ["Drain Punch"], ["Knock Off"], ["Rest"]]
+			}, {
+				"species": "Scrafty",
+				"item": ["Assault Vest"],
+				"ability": ["Intimidate"],
+				"evs": {"hp": 252, "atk": 252, "spd": 4},
+				"nature": "Adamant",
+				"moves": [["Gunk Shot"], ["Drain Punch"], ["Knock Off"], ["Sucker Punch"]]
+			}]
+		},
 		"sharpedo": {
 			"flags": {
 				"megaOnly": 1
@@ -7531,6 +7556,17 @@
 				"moves": [["Close Combat"], ["Knock Off"], ["Facade"], ["Bullet Punch"]]
 			}]
 		},
+		"malamar": {
+			"flags": {},
+			"sets": [{
+				"species": "Malamar",
+				"item": ["Choice Scarf"],
+				"ability": ["Contrary"],
+				"evs": {"spa": 252, "atk": 4, "spe": 252},
+				"nature": "Naive",
+				"moves": [["Psycho Boost"], ["Superpower"], ["Knock Off"], ["Switcheroo"]]
+			}]
+		},
 		"mandibuzz": {
 			"flags": {},
 			"sets": [{
@@ -8063,6 +8099,13 @@
 				"evs": {"def": 4, "spa": 252, "spe": 252},
 				"nature": "Timid",
 				"moves": [["Psychic"], ["Heat Wave"], ["Roost"], ["Defog"]]
+			}, {
+				"species": "Sigilyph",
+				"item": ["Choice Specs", "Choice Scarf"],
+				"ability": ["Tinted Lens"],
+				"evs": {"def": 4, "spa": 252, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Psychic"], ["Heat Wave"], ["Trick"], ["Air Slash"]]
 			}]
 		},
 		"skuntank": {
@@ -8210,6 +8253,13 @@
 				"evs": {"hp": 4, "atk": 252, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Swords Dance"], ["Gunk Shot"], ["Drain Punch"], ["Sucker Punch"]]
+			}, {
+				"species": "Toxicroak",
+				"item": ["Black Sludge"],
+				"ability": ["Dry Skin"],
+				"evs": {"hp": 4, "atk": 252, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Substitute"], ["Gunk Shot"], ["Close Combat"], ["Swords Dance"]]
 			}]
 		},
 		"tropius": {
@@ -8381,6 +8431,31 @@
 				"evs": {"atk": 252, "spd": 4, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Close Combat"], ["Leaf Blade"], ["Stone Edge"], ["Swords Dance"]]
+			}]
+		},
+		"wishiwashi": {
+			"flags": {},
+			"sets": [{
+				"species": "Wishiwashi",
+				"item": ["Leftovers"],
+				"ability": ["Schooling"],
+				"evs": {"hp": 252, "atk": 252, "spd": 4},
+				"nature": "Adamant",
+				"moves": [["U-Turn"], ["Regroup"], ["Liquidation"], ["Earthquake"]]
+			}, {
+				"species": "Wishiwashi",
+				"item": ["Leftovers"],
+				"ability": ["Schooling"],
+				"evs": {"hp": 252, "spa": 252, "spd": 4},
+				"nature": "Modest",
+				"moves": [["Ice Beam"], ["Regroup"], ["Scald"], ["Hidden Power Grass"]]
+			}, {
+				"species": "Wishiwashi",
+				"item": ["Leftovers"],
+				"ability": ["Schooling"],
+				"evs": {"hp": 252, "def": 4, "spd": 252},
+				"nature": "Sassy",
+				"moves": [["U-Turn"], ["Regroup"], ["Scald"], ["Toxic"]]
 			}]
 		},
 		"wormadamtrash": {
