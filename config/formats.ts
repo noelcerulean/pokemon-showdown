@@ -46,13 +46,6 @@ export const Formats: FormatList = [
 		banlist: ['Uber', 'Arena Trap', 'Shadow Tag', 'Blaziken + Speed Boost', 'Crustle-Delta-Cake + Simple', 'Landorus + Sheer Force', 'Power Construct', 'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z'],
 	},
 	{
-		name: "[Gen 7] Story",
-
-		mod: 'gen7',
-		ruleset: ['Obtainable', 'Sleep Clause Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod'],
-		banlist: ['Phione-Primal', 'Blaziken + Speed Boost', 'Crustle-Delta-Cake + Simple', 'Greninja + Protean', 'Battle Bond', 'Landorus + Sheer Force', 'Power Construct', 'Baton Pass', 'Kommonium Z'],
-	},
-	{
 		name: "[Gen 7] UU",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3621217/">USM UU Sample Teams</a>`,
@@ -83,7 +76,22 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['Standard', 'Mega Rayquaza Clause'],
-		banlist: ['Baton Pass'],
+		banlist: [
+			'Baton Pass',
+			'Braixen-Nonzerda', 'Bulbasaur-Saur', 'Carbink-Floatamo', 'Eelektross-Mr.Lamprey', 'Emboar-Dynamite', 'Entei-Bismuth', 'Espeon-Daybreak', 'Hakamo-o-Jacinto',
+			'Ho-Oh-Rainbow', 'Jirachi-Wishmaker', 'Kecleon-Genocalypse', 'Kingdra-K.Marxdra', 'Milotic-Lothraxia', 'Porygon2-Pory.EXE', 'Raichu-Malachite',
+			'Raikou-Jasper', 'Simisear-Hanuman', 'Soarsparce-Alfred', 'Suicune-Opal', 'Typhlosion-Vesuvius', 'Umbreon-Nocturne', 'Vaporeon-Linguine',
+			'Wooper-Wooperoth', 'Yanmega-Zumbra'],
+	},
+	{
+		name: "[Gen 7] Shadowmons",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/posts/8286276/">USM Ubers</a>`,
+		],
+
+		mod: 'gen7',
+		ruleset: ['Standard', 'Mega Rayquaza Clause'],
+		banlist: ['Baton Pass', 'Ho-Oh-Rainbow'],
 	},
 	{
 		name: "[Gen 7] Multi Battle FnF",
@@ -103,6 +111,13 @@ export const Formats: FormatList = [
 		gameType: 'freeforall',
 		ruleset: ['Standard Doubles', 'Swagger Clause'],
 		banlist: ['Eevium Z'],
+	},
+	{
+		name: "[Gen 7] Story",
+
+		mod: 'gen7',
+		ruleset: ['Obtainable', 'Sleep Clause Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod'],
+		banlist: ['Phione-Primal', 'Blaziken + Speed Boost', 'Crustle-Delta-Cake + Simple', 'Greninja + Protean', 'Battle Bond', 'Landorus + Sheer Force', 'Power Construct', 'Baton Pass', 'Kommonium Z'],
 	},
 
 	// US/UM Singles
@@ -734,6 +749,12 @@ export const Formats: FormatList = [
 		},
 	},
 	{
+		name: "[Gen 7] Limitless",
+
+		mod: 'gen7limitless',
+		ruleset: ['Obtainable', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod'],
+	},
+	{
 		name: "[Gen 7] Mix and Mega",
 		desc: `Mega Stones and Primal Orbs can be used on almost any Pok&eacute;mon with no Mega Evolution limit.`,
 		threads: [
@@ -864,7 +885,7 @@ export const Formats: FormatList = [
 		restricted: ['Acupressure', 'Belly Drum', 'Chatter', 'Extreme Speed', 'Geomancy', 'Lovely Kiss', 'Shell Smash', 'Shift Gear', 'Spore', 'Thousand Arrows'],
 	},
 	{
-		name: "[Gen 7] VGC 2019",
+		name: "[Gen 7] FnF VGC 2019",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3641100/">VGC 2019 Discussion</a>`,
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3641123/">VGC 2019 Viability Rankings</a>`,
