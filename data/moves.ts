@@ -14334,26 +14334,83 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 4,
 		flags: {},
 		onTry(source) {
-			if (source.baseSpecies.baseSpecies === 'Wishiwashi' && source.level > 19) {
+			let move = 'regroup';
+			if (source.species.id === 'wishiwashischool' && source.level > 19) {
 				return;
+			} else if (source.species.id === 'wishiwashi' && source.level > 19) {
+				move = 'regroup2';
+			} else {
+				this.add('-fail', source, 'move: Regroup');
+				this.hint("Only a Pokemon whose form is Wishiwashi and whose level is 20 or greater can use this move.");
+				move = 'splash';
 			}
-			this.add('-fail', source, 'move: Regroup');
-			this.hint("Only a Pokemon whose form is Wishiwashi and whose level is 20 or greater can use this move.");
+			this.actions.useMove(move, source);
 			return null;
 		},
-		condition: {
-			duration: 1,
-			onInvulnerability(target, source, move) {
-				if (target.species.id === 'wishiwashi') return false;
-			},
-		},
 		onModifyMove(move, pokemon) {
-			if (pokemon.species.id === 'wishiwashi') {
-				move.heal = [1, 2];
-			} else if (pokemon.species.id === 'wishiwashischool') {
+			if (pokemon.species.id === 'wishiwashischool') {
 				move.heal = [1, 4];
 				move.boosts = {atk: 1, spa: 1};
 			}
+		},
+		secondary: null,
+		target: "self",
+		type: "Water",
+		zMove: {effect: 'clearnegativeboost'},
+		contestType: "Cute",
+	},
+	regroup2: {
+		num: -525,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Regroup2",
+		pp: 5,
+		priority: 4,
+		flags: {},
+		stallingMove: true,
+		volatileStatus: 'regroup2',
+		heal: [1, 2],
+		onTry(source) {
+			if (source.baseSpecies.baseSpecies === 'Wishiwashi' && source.level > 19) {
+				return;
+			}
+			this.add('-fail', source, 'move: Regroup2');
+			this.hint("Only a Pokemon whose form is Wishiwashi and whose level is 20 or greater can use this move.");
+			return null;
+		},
+		onPrepareHit(pokemon) {
+			return !!this.queue.willAct() && this.runEvent('StallMove', pokemon);
+		},
+		onHit(pokemon) {
+			pokemon.addVolatile('stall');
+		},
+		condition: {
+			duration: 1,
+			onStart(target) {
+				this.add('-singleturn', target, 'Protect');
+			},
+			onTryHitPriority: 3,
+			onTryHit(target, source, move) {
+				if (!move.flags['protect']) {
+					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
+					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
+					return;
+				}
+				if (move.smartTarget) {
+					move.smartTarget = false;
+				} else {
+					this.add('-activate', target, 'move: Protect');
+				}
+				const lockedmove = source.getVolatile('lockedmove');
+				if (lockedmove) {
+					// Outrage counter is reset
+					if (source.volatiles['lockedmove'].duration === 2) {
+						delete source.volatiles['lockedmove'];
+					}
+				}
+				return this.NOT_FAIL;
+			},
 		},
 		secondary: null,
 		target: "self",

@@ -4839,7 +4839,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	regroup: {
 		name: "Regroup",
 		desc: "When Wishiwashi is in Solo forme, this move Protects and heals 50%. When Wishiwashi is in Schooling forme, this move heals 25% and raises Attack and Sp. Attack by 1 stage each.",
-		shortDesc: "Protects, heals 50% (Solo). Heals 25%, +1 Atk/SpA (School).",
+		shortDesc: "Protects, heals 50% or Heals 25%, +1 Atk/SpA.",
+	},
+	regroup2: {
+		name: "Regroup2",
+		desc: "When Wishiwashi is in Solo forme, this move Protects and heals 50%. When Wishiwashi is in Schooling forme, this move heals 25% and raises Attack and Sp. Attack by 1 stage each.",
+		shortDesc: "Protects, heals 50% or Heals 25%, +1 Atk/SpA.",
 	},
 	relicsong: {
 		name: "Relic Song",

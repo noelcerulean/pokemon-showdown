@@ -1933,7 +1933,7 @@ export class Pokemon {
 	isProtected() {
 		return !!(
 			this.volatiles['protect'] || this.volatiles['detect'] || this.volatiles['maxguard'] ||
-			this.volatiles['kingsshield'] || this.volatiles['spikyshield'] || this.volatiles['banefulbunker'] ||
+			this.volatiles['kingsshield'] || this.volatiles['spikyshield'] || this.volatiles['regroup2'] || this.volatiles['banefulbunker'] ||
 			this.volatiles['obstruct']
 		);
 	}
