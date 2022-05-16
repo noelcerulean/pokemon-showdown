@@ -2978,7 +2978,10 @@ export const Items: {[itemid: string]: ItemData} = {
 			}
 		},
 		onTakeItem(item, pokemon, source) {
-			if ((source && source.baseSpecies.num === 83) || (source && source.baseSpecies.num === 865) || pokemon.baseSpecies.num === 83 || pokemon.baseSpecies.num === 865) {
+			if (
+				(source && source.baseSpecies.num === 83) || (source && source.baseSpecies.num === 865) ||
+				pokemon.baseSpecies.num === 83 || pokemon.baseSpecies.num === 865
+			) {
 				return false;
 			}
 			return true;
@@ -5317,7 +5320,10 @@ export const Items: {[itemid: string]: ItemData} = {
 			}
 		},
 		onTakeItem(item, pokemon, source) {
-			if ((source && source.baseSpecies.num === 380) || (source && source.baseSpecies.num === 381) || pokemon.baseSpecies.num === 380 || pokemon.baseSpecies.num === 381) {
+			if (
+				(source && source.baseSpecies.num === 380) || (source && source.baseSpecies.num === 381) ||
+				pokemon.baseSpecies.num === 380 || pokemon.baseSpecies.num === 381
+			) {
 				return false;
 			}
 			return true;
@@ -5730,7 +5736,10 @@ export const Items: {[itemid: string]: ItemData} = {
 			}
 		},
 		onTakeItem(item, pokemon, source) {
-			if ((source && source.baseSpecies.num === 104) || (source && source.baseSpecies.num === 105) || pokemon.baseSpecies.num === 104 || pokemon.baseSpecies.num === 105) {
+			if (
+				(source && source.baseSpecies.num === 104) || (source && source.baseSpecies.num === 105) ||
+				pokemon.baseSpecies.num === 104 || pokemon.baseSpecies.num === 105
+			) {
 				return false;
 			}
 			return true;

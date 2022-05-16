@@ -7600,8 +7600,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 		damageCallback(pokemon, target) {
 			const hp75 = Math.floor(target.getUndynamaxedHP() * 3 / 4);
 			if (
-				target.volatiles['protect'] || target.volatiles['banefulbunker'] || target.volatiles['regroup2'] || target.volatiles['kingsshield'] ||
-				target.volatiles['spikyshield'] || target.side.getSideCondition('matblock')
+				target.volatiles['protect'] || target.volatiles['banefulbunker'] || target.volatiles['regroup2'] ||
+				target.volatiles['spikyshield'] || target.volatiles['kingsshield'] || target.side.getSideCondition('matblock')
 			) {
 				this.add('-zbroken', target);
 				return this.clampIntRange(Math.ceil(hp75 / 4 - 0.5), 1);
