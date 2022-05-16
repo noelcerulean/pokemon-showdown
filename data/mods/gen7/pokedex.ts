@@ -54,6 +54,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	vibrava: {
 		inherit: true,
 		eggGroups: ["Bug"],
+		cosmeticFormes: ["Vibrava-Winter"],
+		formeOrder: ["Vibrava", "Vibrava-Winter"],
 	},
 	flygon: {
 		inherit: true,
