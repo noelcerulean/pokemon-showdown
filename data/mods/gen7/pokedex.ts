@@ -50,6 +50,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	trapinch: {
 		inherit: true,
 		eggGroups: ["Bug"],
+		cosmeticFormes: ["Trapinch-Hat", "Trapinch-Winter"],
+		formeOrder: ["Trapinch", "Trapinch-Hat", "Trapinch-Winter"],
 	},
 	vibrava: {
 		inherit: true,
@@ -60,6 +62,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	flygon: {
 		inherit: true,
 		eggGroups: ["Bug"],
+		cosmeticFormes: ["Flygon-Winter", "Flygon-Jacket"],
+		formeOrder: ["Flygon", "Flygon-Winter", "Flygon-Jacket"],
 	},
 	magnezone: {
 		inherit: true,
@@ -70,6 +74,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		evoType: "levelExtra",
 		evoCondition: "near a Moss Rock",
+		cosmeticFormes: ["Leafeon-Ipe"],
+		formeOrder: ["Leafeon", "Leafeon-Ipe"],
 	},
 	glaceon: {
 		inherit: true,
@@ -157,6 +163,176 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	tapufini: {
 		inherit: true,
 		abilities: {0: "Misty Surge"},
+	},
+	hypno: {
+		inherit: true,
+		cosmeticFormes: ["Hypno-Happy", "Hypno-Happyf"],
+		formeOrder: ["Hypno", "Hypno-Happy", "Hypno-Happyf"],
+	},
+	typhlosion: {
+		inherit: true,
+		cosmeticFormes: ["Typhlosion-Volc"],
+		formeOrder: ["Typhlosion", "Typhlosion-Volc"],
+	},
+	raichu: {
+		inherit: true,
+		cosmeticFormes: ["Raichu-Jooj", "Raichu-Joojf"],
+		formeOrder: ["Raichu", "Raichu-Alola", "Raichu-Jooj", "Raichu-Joojf"],
+	},
+	blacephalon: {
+		inherit: true,
+		cosmeticFormes: ["Blacephalon-Disco"],
+		formeOrder: ["Blacephalon", "Blacephalon-Disco"],
+	},
+	bastiodon: {
+		inherit: true,
+		cosmeticFormes: ["Bastiodon-Tux"],
+		formeOrder: ["Bastiodon", "Bastiodon-Tux"],
+	},
+	samurott: {
+		inherit: true,
+		cosmeticFormes: ["Samurott-Knight"],
+		formeOrder: ["Samurott", "Samurott-Knight"],
+	},
+	mamoswine: {
+		inherit: true,
+		cosmeticFormes: ["Mamoswine-Melon"],
+		formeOrder: ["Mamoswine", "Mamoswine-Melon"],
+	},
+	breloom: {
+		inherit: true,
+		cosmeticFormes: ["Breloom-Pastel"],
+		formeOrder: ["Breloom", "Breloom-Pastel"],
+	},
+	sableye: {
+		inherit: true,
+		cosmeticFormes: ["Sableye-Freeza"],
+		formeOrder: ["Sableye", "Sableye-Freeza", "Sableye-Mega"],
+	},
+	solrock: {
+		inherit: true,
+		cosmeticFormes: ["Solrock-Prism"],
+		formeOrder: ["Solrock", "Solrock-Prism"],
+	},
+	simisage: {
+		inherit: true,
+		cosmeticFormes: ["Simisage-Fiend"],
+		formeOrder: ["Simisage", "Simisage-Fiend"],
+	},
+	bulbasaur: {
+		inherit: true,
+		cosmeticFormes: ["Bulbasaur-Sylvanos"],
+		formeOrder: ["Bulbasaur", "Bulbasaur-Sylvanos"],
+	},
+	garchomp: {
+		inherit: true,
+		cosmeticFormes: ["Garchomp-Shark"],
+		formeOrder: ["Garchomp", "Garchomp-Shark", "Garchomp-Mega"],
+	},
+	parasectfnf: {
+		inherit: true,
+		cosmeticFormes: ["Parasect-FnF-Sunset", "Parasect-FnF-Sakura", "Parasect-FnF-Cream"],
+		formeOrder: ["Parasect-FnF", "Parasect-FnF-Sunset", "Parasect-FnF-Sakura", "Parasect-FnF-Cream"],
+	},
+	heatmor: {
+		inherit: true,
+		cosmeticFormes: ["Heatmor-Print"],
+		formeOrder: ["Heatmor", "Heatmor-Print"],
+	},
+	gengar: {
+		inherit: true,
+		cosmeticFormes: ["Gengar-Hallows", "Gengar-Eve"],
+		formeOrder: ["Gengar", "Gengar-Hallows", "Gengar-Eve", "Gengar-Mega"],
+	},
+	vespiquen: {
+		inherit: true,
+		cosmeticFormes: ["Vespiquen-Yasqueen"],
+		formeOrder: ["Vespiquen", "Vespiquen-Yasqueen"],
+	},
+	delcatty: {
+		inherit: true,
+		cosmeticFormes: ["Delcatty-Royal"],
+		formeOrder: ["Delcatty", "Delcatty-Royal"],
+	},
+	aurorus: {
+		inherit: true,
+		cosmeticFormes: ["Aurorus-Fall"],
+		formeOrder: ["Aurorus", "Aurorus-Fall"],
+	},
+	octillery: {
+		inherit: true,
+		cosmeticFormes: ["Octillery-Tank"],
+		formeOrder: ["Octillery", "Octillery-Tank"],
+	},
+	rampardos: {
+		inherit: true,
+		cosmeticFormes: ["Rampardos-Egg"],
+		formeOrder: ["Rampardos", "Rampardos-Egg"],
+	},
+	mothim: {
+		inherit: true,
+		cosmeticFormes: ["Mothim-Bigshot"],
+		formeOrder: ["Mothim", "Mothim-Bigshot"],
+	},
+	maractus: {
+		inherit: true,
+		cosmeticFormes: ["Maractus-Bald", "Maractus-Sombrero"],
+		formeOrder: ["Maractus", "Maractus-Bald", "Maractus-Sombrero"],
+	},
+	gliscor: {
+		inherit: true,
+		cosmeticFormes: ["Gliscor-Grimm"],
+		formeOrder: ["Gliscor", "Gliscor-Grimm"],
+	},
+	emolga: {
+		inherit: true,
+		cosmeticFormes: ["Emolga-Patches"],
+		formeOrder: ["Emolga", "Emolga-Patches"],
+	},
+	spiritomb: {
+		inherit: true,
+		cosmeticFormes: ["Spiritomb-Pepper"],
+		formeOrder: ["Spiritomb", "Spiritomb-Pepper"],
+	},
+	dialga: {
+		inherit: true,
+		cosmeticFormes: ["Dialga-PMD"],
+		formeOrder: ["Dialga", "Dialga-PMD"],
+	},
+	kurstraw: {
+		inherit: true,
+		cosmeticFormes: ["Kurstraw-Melon"],
+		formeOrder: ["Kurstraw", "Kurstraw-Melon"],
+	},
+	pangshi: {
+		inherit: true,
+		cosmeticFormes: ["Pangshi-Melon"],
+		formeOrder: ["Pangshi", "Pangshi-Melon"],
+	},
+	mightyena: {
+		inherit: true,
+		cosmeticFormes: ["Mightyena-Pink", "Mightyena-Rei"],
+		formeOrder: ["Mightyena", "Mightyena-Pink", "Mightyena-Rei"],
+	},
+	shuckle: {
+		inherit: true,
+		cosmeticFormes: ["Shuckle-Swag"],
+		formeOrder: ["Shuckle", "Shuckle-Swag"],
+	},
+	clefgar: {
+		inherit: true,
+		cosmeticFormes: ["Clefgar-Tongue", "Clefgar-Mint", "Clefgar-Melon"],
+		formeOrder: ["Clefgar", "Clefgar-Tongue", "Clefgar-Mint", "Clefgar-Melon"],
+	},
+	golisopod: {
+		inherit: true,
+		cosmeticFormes: ["Golisopod-Uncooked"],
+		formeOrder: ["Golisopod", "Golisopod-Uncooked"],
+	},
+	lanturn: {
+		inherit: true,
+		cosmeticFormes: ["Lanturn-Anglara"],
+		formeOrder: ["Lanturn", "Lanturn-Anglara"],
 	},
 	voodoom: {
 		inherit: true,
