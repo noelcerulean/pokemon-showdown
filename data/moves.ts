@@ -14344,12 +14344,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		condition: {
 			duration: 1,
 			onInvulnerability(target, source, move) {
-				if (target.species.id !== 'wishiwashi') {
-					return;
-				} if (move.isZ) {
-					return;
-				}
-				return false;
+				if (target.species.id === 'wishiwashi') return false;
 			},
 		},
 		onModifyMove(move, pokemon) {
