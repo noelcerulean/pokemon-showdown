@@ -14324,6 +14324,73 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {effect: 'heal'},
 		contestType: "Cute",
 	},
+	regroup: {
+		num: -524,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Regroup",
+		pp: 5,
+		priority: 4,
+		flags: {},
+		stallingMove: true,
+		volatileStatus: 'regroup',
+		onPrepareHit(pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Wishiwashi' && pokemon.hp < pokemon.maxhp / 4) {
+				return !!this.queue.willAct() && this.runEvent('StallMove', pokemon);
+			}
+		},
+		onHit(pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Wishiwashi' && pokemon.hp < pokemon.maxhp / 4) {
+				pokemon.addVolatile('stall');
+			}
+		},
+		onModifyMove(move, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Wishiwashi' && pokemon.hp < pokemon.maxhp / 4) {
+				move.heal = [1, 2];
+			} else if (pokemon.baseSpecies.baseSpecies === 'Wishiwashi' && pokemon.hp > pokemon.maxhp / 4) {
+				move.heal = [1, 4];
+				move.boosts = {atk: 1, spa: 1};
+			}
+		},
+		condition: {
+			duration: 1,
+			onStart(target) {
+				if (target.baseSpecies.baseSpecies === 'Wishiwashi' && target.hp < target.maxhp / 4) {
+					this.add('-singleturn', target, 'Protect');
+				}
+			},
+			onTryHitPriority: 3,
+			onTryHit(target, source, move) {
+				if (target.hp > target.maxhp / 4) return;
+				if (!move.flags['protect']) {
+					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
+					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
+					return;
+				}
+				if (move.smartTarget) {
+					move.smartTarget = false;
+				} else if (target.baseSpecies.baseSpecies === 'Wishiwashi') {
+					this.add('-activate', target, 'move: Protect');
+				} else {
+					return;
+				}
+				const lockedmove = source.getVolatile('lockedmove');
+				if (lockedmove) {
+					// Outrage counter is reset
+					if (source.volatiles['lockedmove'].duration === 2) {
+						delete source.volatiles['lockedmove'];
+					}
+				}
+				return this.NOT_FAIL;
+			},
+		},
+		secondary: null,
+		target: "self",
+		type: "Water",
+		zMove: {effect: 'clearnegativeboost'},
+		contestType: "Cute",
+	},
 	relicsong: {
 		num: 547,
 		accuracy: 100,

@@ -75044,6 +75044,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			mudshot: ["8M"],
 			protect: ["8M", "7M"],
 			raindance: ["8M", "7M"],
+			regroup: ["7L20"],
 			rest: ["8M", "7M"],
 			return: ["7M"],
 			round: ["8M", "7M"],

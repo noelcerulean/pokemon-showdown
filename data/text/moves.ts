@@ -4836,6 +4836,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "The user cures its burn, poison, or paralysis. Fails if the user is not burned, poisoned, or paralyzed.",
 		shortDesc: "User cures its burn, poison, or paralysis.",
 	},
+	regroup: {
+		name: "Regroup",
+		desc: "When Wishiwashi is in Solo forme, this move Protects and heals 50%. When Wishiwashi is in Schooling forme, this move heals 25% and raises Attack and Sp. Attack by 1 stage each.",
+		shortDesc: "Protects, heals 50% (Solo). Heals 25%, +1 Atk/SpA (School).",
+	},
 	relicsong: {
 		name: "Relic Song",
 		desc: "Has a 10% chance to cause the target to fall asleep. If this move is successful on at least one target and the user is a Meloetta, it changes to Pirouette Forme if it is currently in Aria Forme, or changes to Aria Forme if it is currently in Pirouette Forme. This forme change does not happen if the Meloetta has the Sheer Force Ability. The Pirouette Forme reverts to Aria Forme when Meloetta is not active.",
