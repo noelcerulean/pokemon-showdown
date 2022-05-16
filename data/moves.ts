@@ -14335,20 +14335,28 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {},
 		stallingMove: true,
 		volatileStatus: 'regroup',
+		onTry(source) {
+			if (source.baseSpecies.baseSpecies === 'Wishiwashi') {
+				return;
+			}
+			this.add('-fail', source, 'move: Regroup');
+			this.hint("Only a Pokemon whose form is Wishiwashi can use this move.");
+			return null;
+		},
 		onPrepareHit(pokemon) {
-			if (pokemon.baseSpecies.baseSpecies === 'Wishiwashi' && pokemon.hp < pokemon.maxhp / 4) {
+			if (pokemon.hp < pokemon.maxhp / 4) {
 				return !!this.queue.willAct() && this.runEvent('StallMove', pokemon);
 			}
 		},
 		onHit(pokemon) {
-			if (pokemon.baseSpecies.baseSpecies === 'Wishiwashi' && pokemon.hp < pokemon.maxhp / 4) {
+			if (pokemon.hp < pokemon.maxhp / 4) {
 				pokemon.addVolatile('stall');
 			}
 		},
 		onModifyMove(move, pokemon) {
-			if (pokemon.baseSpecies.baseSpecies === 'Wishiwashi' && pokemon.hp < pokemon.maxhp / 4) {
+			if (pokemon.hp < pokemon.maxhp / 4) {
 				move.heal = [1, 2];
-			} else if (pokemon.baseSpecies.baseSpecies === 'Wishiwashi' && pokemon.hp > pokemon.maxhp / 4) {
+			} else if (pokemon.hp > pokemon.maxhp / 4) {
 				move.heal = [1, 4];
 				move.boosts = {atk: 1, spa: 1};
 			}
@@ -14356,7 +14364,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		condition: {
 			duration: 1,
 			onStart(target) {
-				if (target.baseSpecies.baseSpecies === 'Wishiwashi' && target.hp < target.maxhp / 4) {
+				if (target.hp < target.maxhp / 4) {
 					this.add('-singleturn', target, 'Protect');
 				}
 			},
@@ -14370,10 +14378,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 				}
 				if (move.smartTarget) {
 					move.smartTarget = false;
-				} else if (target.baseSpecies.baseSpecies === 'Wishiwashi') {
-					this.add('-activate', target, 'move: Protect');
 				} else {
-					return;
+					this.add('-activate', target, 'move: Protect');
 				}
 				const lockedmove = source.getVolatile('lockedmove');
 				if (lockedmove) {
@@ -16416,7 +16422,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		volatileStatus: 'leechseed',
 		condition: {
 			onStart(target) {
-				this.add('-start', target, 'move: Shadow Sap');
+				this.add('-start', target, 'move: Shadow Seed');
 			},
 			onResidualOrder: 8,
 			onResidual(pokemon) {
