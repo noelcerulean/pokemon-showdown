@@ -3221,6 +3221,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	toxicroakarmored: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	carnivine: {
 		isNonstandard: "Past",
 		tier: "Illegal",

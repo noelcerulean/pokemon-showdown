@@ -1186,6 +1186,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Lowers the user's Speed by 1 stage.",
 		shortDesc: "Lowers the user's Speed by 1.",
 	},
+	demolition: {
+		name: "Demolition",
+		desc: "Confuses the user. Clears Reflect, Light Screen, Aurora Veil, Safeguard, Mist, Spikes, Toxic Spikes, Stealth Rock, and Sticky Web. Additionally, ends all weather and terrains.",
+		shortDesc: "Clears screens/hazards/weather/terrain. Confuses user.",
+	},
 	destinybond: {
 		name: "Destiny Bond",
 		desc: "Until the user's next move, if an opposing Pokemon's attack knocks the user out, that Pokemon faints as well, unless the attack was Doom Desire or Future Sight. Fails if the user used this move successfully as its last move, disregarding moves used through the Dancer Ability.",

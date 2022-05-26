@@ -5817,6 +5817,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 4,
 		isNonstandard: "Unobtainable",
 	},
+	toxicroakarmor: {
+		name: "Toxicroak Armor",
+		spritenum: 752,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Toxicroak-Armored') return false;
+			return true;
+		},
+		itemUser: ["Toxicroak-Armored"],
+		num: -511,
+		gen: 7,
+	},
 	tr00: {
 		name: "TR00",
 		fling: {

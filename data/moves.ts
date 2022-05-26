@@ -4,6 +4,7 @@ List of flags and their descriptions:
 
 authentic: Ignores a target's substitute.
 bite: Power is multiplied by 1.5 when used by a Pokemon with the Strong Jaw Ability.
+bone: Immunity is ignored when used by a Pokemon with the Bone Master Ability.
 bullet: Has no effect on Pokemon with the Bulletproof Ability.
 charge: The user is unable to make a move between turns.
 contact: Makes contact.
@@ -1486,7 +1487,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Bone Club",
 		pp: 20,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {bone: 1, protect: 1, mirror: 1},
 		secondary: {
 			chance: 10,
 			volatileStatus: 'flinch',
@@ -1503,7 +1504,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Bonemerang",
 		pp: 10,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {bone: 1, protect: 1, mirror: 1},
 		multihit: 2,
 		secondary: null,
 		target: "normal",
@@ -1519,7 +1520,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Bone Rush",
 		pp: 10,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {bone: 1, protect: 1, mirror: 1},
 		multihit: [2, 5],
 		secondary: null,
 		target: "normal",
@@ -3253,6 +3254,37 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Dark",
 		contestType: "Cool",
+	},
+	demolition: {
+		num: -526,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Demolition",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onHit(target, source, move) {
+			const removeAll = [
+				'lightscreen', 'reflect', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+			];
+			for (const sideCondition of removeAll) {
+				if (source.side.removeSideCondition(sideCondition)) {
+					this.add('-sideend', source.side, this.dex.conditions.get(sideCondition).name, '[from] move: Demolition', '[of] ' + source);
+				}
+			}
+			this.field.clearTerrain();
+			this.field.clearWeather();
+		},
+		secondary: {
+			chance: 100,
+			self: {
+				volatileStatus: 'confusion',
+			},
+		},
+		target: "allAdjacent",
+		type: "Normal",
+		contestType: "Tough",
 	},
 	destinybond: {
 		num: 194,
@@ -15550,7 +15582,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Shadow Bone",
 		pp: 10,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {bone: 1, protect: 1, mirror: 1},
 		secondary: {
 			chance: 20,
 			boosts: {

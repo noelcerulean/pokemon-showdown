@@ -435,6 +435,21 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 66,
 	},
+	bonemaster: {
+		onModifyMovePriority: -5,
+		onModifyMove(move) {
+			if (move.flags['bone']) {
+				if (!move.ignoreImmunity) move.ignoreImmunity = {};
+				if (move.ignoreImmunity !== true) {
+					move.ignoreImmunity['Ground'] = true;
+					move.ignoreImmunity['Ghost'] = true;
+				}
+			}
+		},
+		name: "Bone Master",
+		rating: 3,
+		num: -529,
+	},
 	bugcatcher: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Bug') {
@@ -508,6 +523,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Clear Body",
 		rating: 2,
 		num: 29,
+	},
+	clearedground: {
+		onSwitchIn(pokemon) {
+			this.effectState.switchingIn = true;
+			this.field.clearTerrain();
+		},
+		name: "Cleared Ground",
+		rating: 2,
+		num: -532,
 	},
 	cloudnine: {
 		onSwitchIn(pokemon) {
@@ -1484,11 +1508,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	grasspelt: {
 		onModifyDefPriority: 6,
 		onModifyDef(pokemon) {
-			if (this.field.isTerrain('grassyterrain')) return this.chainModify(1.5);
+			if (this.field.isTerrain('grassyterrain')) return this.chainModify(2);
 		},
 		isBreakable: true,
 		name: "Grass Pelt",
-		rating: 0.5,
+		rating: 2,
 		num: 179,
 	},
 	grassysurge: {
@@ -2428,6 +2452,16 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Mirror Armor",
 		rating: 2,
 		num: 240,
+	},
+	mistycover: {
+		onModifySpDPriority: 6,
+		onModifySpD(pokemon) {
+			if (this.field.isTerrain('mistyterrain')) return this.chainModify(2);
+		},
+		isBreakable: true,
+		name: "Misty Cover",
+		rating: 2,
+		num: -530,
 	},
 	mistysurge: {
 		onStart(source) {
@@ -4386,6 +4420,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Surge Surfer",
 		rating: 3,
 		num: 207,
+	},
+	surgingmindforce: {
+		onModifySpAPriority: 6,
+		onModifySpA(pokemon) {
+			if (this.field.isTerrain('psychicterrain')) return this.chainModify(2);
+		},
+		name: "Surging Mindforce",
+		rating: 2,
+		num: -531,
 	},
 	swarm: {
 		onModifyAtkPriority: 5,

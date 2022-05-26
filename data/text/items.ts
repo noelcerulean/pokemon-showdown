@@ -1801,6 +1801,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Toxic Plate",
 		desc: "Holder's Poison-type attacks have 1.2x power. Judgment is Poison type.",
 	},
+	toxicroakarmor: {
+		name: "Toxicroak Armor",
+		desc: "Armor developed by DoReMi for Toxicroak to enhance its battle capabilities.",
+		shortDesc: "Attach to Toxicroak-Armored forme (not base forme!!!) in the teambuilder.",
+	},
 	tr00: {
 		name: "TR00",
 		desc: "Teaches certain Pokemon the move Swords Dance. One use.",

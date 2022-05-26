@@ -145,6 +145,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			shortDesc: "At 1/3 or less of its max HP, this Pokemon's Fire-type attacks have 1.5x power.",
 		},
 	},
+	bonemaster: {
+		name: "Bone Master",
+		shortDesc: "This Pokemon's bone moves bypass immunities when dealing damage.",
+	},
 	bugcatcher: {
 		name: "Bugcatcher",
 		desc: "This Pokemon is immune to Bug-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Bug-type move.",
@@ -176,6 +180,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	clearbody: {
 		name: "Clear Body",
 		shortDesc: "Prevents other Pokemon from lowering this Pokemon's stat stages.",
+	},
+	clearedground: {
+		name: "Cleared Ground",
+		shortDesc: "On switch in, this Pokemon removes any active terrain.",
+
+		activate: "The terrain returned back to normal!",
 	},
 	cloudnine: {
 		name: "Cloud Nine",
@@ -527,7 +537,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	grasspelt: {
 		name: "Grass Pelt",
-		shortDesc: "If Grassy Terrain is active, this Pokemon's Defense is multiplied by 1.5.",
+		shortDesc: "If Grassy Terrain is active, this Pokemon's Defense is multiplied by 2.",
 	},
 	grassysurge: {
 		name: "Grassy Surge",
@@ -880,6 +890,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Mirror Armor",
 		desc: "When one of this Pokemon's stat stages would be lowered by another Pokemon, that Pokemon's stat stage is lowered instead. This effect does not happen if this Pokemon's stat stage was already -6.",
 		shortDesc: "If this Pokemon's stat stages would be lowered, the attacker's are lowered instead.",
+	},
+	mistycover: {
+		name: "Misty Cover",
+		shortDesc: "If Misty Terrain is active, this Pokemon's Sp. Def is multiplied by 2.",
 	},
 	mistysurge: {
 		name: "Misty Surge",
@@ -1652,6 +1666,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	surgesurfer: {
 		name: "Surge Surfer",
 		shortDesc: "If Electric Terrain is active, this Pokemon's Speed is doubled.",
+	},
+	surgingmindforce: {
+		name: "Surging Mindforce",
+		shortDesc: "If Psychic Terrain is active, this Pokemon's Sp. Attack is doubled.",
 	},
 	swarm: {
 		name: "Swarm",

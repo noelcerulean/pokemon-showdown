@@ -3471,6 +3471,24 @@
 				"moves": [["Scald"], ["Haze"], ["Recover"], ["Toxic", "Toxic Spikes", "Knock Off"]]
 			}]
 		},
+		"toxicroakarmored": {
+			"flags": {},
+			"sets": [{
+				"species": "Toxicroak-Armored",
+				"item": ["Toxicroak Armor"],
+				"ability": ["Bone Master"],
+				"evs": {"hp": 4, "atk": 252, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Rock Polish"], ["Bonemerang"], ["Gunk Shot"], ["Close Combat"]]
+			}, {
+				"species": "Toxicroak-Armored",
+				"item": ["Toxicroak Armor"],
+				"ability": ["Bone Master"],
+				"evs": {"hp": 4, "atk": 252, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Swords Dance", "Substitute"], ["Bonemerang"], ["Gunk Shot"], ["Close Combat"]]
+			}]
+		},
 		"turtonator": {
 			"flags": {},
 			"sets": [{
@@ -7055,6 +7073,38 @@
 				"moves": [["Calm Mind"], ["Psychic"], ["Shadow Ball"], ["Morning Sun"]]
 			}]
 		},
+		"exeggutor": {
+			"flags": {},
+			"sets": [{
+				"species": "Exeggutor",
+				"item": ["Choice Specs"],
+				"ability": ["Chlorophyll"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Modest",
+				"moves": [["Earth Power"], ["Leaf Storm"], ["Hidden Power Fire"], ["Psychic"]]
+			}, {
+				"species": "Exeggutor",
+				"item": ["Life Orb"],
+				"ability": ["Chlorophyll"],
+				"evs": {"hp": 252, "spa": 252, "spd": 4},
+				"ivs": {"spe": 0},
+				"nature": "Quiet",
+				"moves": [["Earth Power"], ["Trick Room"], ["Psychic"], ["Giga Drain"]]
+			}]
+		},
+		"exeggutoralola": {
+			"flags": {},
+			"sets": [{
+				"species": "Exeggutor-Alola",
+				"item": ["Choice Band"],
+				"ability": ["Frisk"],
+				"evs": {"hp": 252, "atk": 252, "spd": 4},
+				"ivs": {"atk": 0},
+				"nature": "Adamant",
+				"moves": [["Dragon Hammer"], ["Wood Hammer"], ["Earthquake"], ["Knock Off"]]
+			}]
+		},
 		"floetteeternal": {
 			"flags": {},
 			"sets": [{
@@ -7190,6 +7240,17 @@
 				"moves": [["Rapid Spin"], ["Explosion"], ["Spikes"], ["Stealth Rock"]]
 			}]
 		},
+		"golem": {
+			"flags": {},
+			"sets": [{
+				"species": "Golem",
+				"item": ["Weakness Policy"],
+				"ability": ["Sturdy"],
+				"evs": {"hp": 4, "atk": 252, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Earthquake"], ["Stone Edge"], ["Rock Polish"], ["Explosion", "Sucker Punch"]]
+			}]
+		},
 		"golemalola": {
 			"flags": {},
 			"sets": [{
@@ -7198,7 +7259,7 @@
 				"ability": ["Magnet Pull"],
 				"evs": {"hp": 4, "atk": 252, "spe": 252},
 				"nature": "Jolly",
-				"moves": [["Fire Punch"], ["Wild Charge"], ["Earthquake"], ["Stone Edge"]]
+				"moves": [["Flame Wheel"], ["Lightning Kick"], ["Earthquake"], ["Stone Edge"]]
 			}]
 		},
 		"golisopod": {
@@ -7658,6 +7719,17 @@
 				"moves": [["Scald"], ["Recover"], ["Haze"], ["Refresh"]]
 			}]
 		},
+		"miltank": {
+			"flags": {},
+			"sets": [{
+				"species": "Miltank",
+				"item": ["Leftovers"],
+				"ability": ["Scrappy"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": "Impish",
+				"moves": [["Rapid Spin"], ["Milk Drink"], ["Seismic Toss"], ["Toxic"]]
+			}]
+		},
 		"musharna": {
 			"flags": {},
 			"sets": [{
@@ -8043,6 +8115,17 @@
 				"moves": [["Close Combat"], ["Earthquake"], ["Knock Off"], ["Poison Jab"]]
 			}]
 		},
+		"seaking": {
+			"flags": {},
+			"sets": [{
+				"species": "Seaking",
+				"item": ["Choice Band"],
+				"ability": ["Lightning Rod"],
+				"evs": {"hp": 252, "atk": 252, "spd": 4},
+				"nature": "Adamant",
+				"moves": [["U-Turn"], ["Knock Off"], ["Liquidation"], ["Aqua Jet"]]
+			}]
+		},
 		"seismitoad": {
 			"flags": {},
 			"sets": [{
@@ -8420,6 +8503,26 @@
 				"evs": {"hp": 104, "spa": 252, "spe": 152},
 				"nature": "Modest",
 				"moves": [["Bug Buzz"], ["Thunderbolt"], ["Energy Ball"], ["Volt Switch"]]
+			}]
+		},
+		"vileplume": {
+			"flags": {},
+			"sets": [{
+				"species": "Vileplume",
+				"item": ["Black Sludge"],
+				"ability": ["Effect Spore"],
+				"evs": {"hp": 252, "spd": 252, "spe": 4},
+				"ivs": {"atk": 0},
+				"nature": "Calm",
+				"moves": [["Strength Sap"], ["Giga Drain"], ["Sludge Bomb"], ["Leech Seed"]]
+			}, {
+				"species": "Vileplume",
+				"item": ["Black Sludge"],
+				"ability": ["Effect Spore"],
+				"evs": {"hp": 252, "spd": 252, "spe": 4},
+				"ivs": {"atk": 0},
+				"nature": "Calm",
+				"moves": [["Moonlight"], ["Giga Drain"], ["Sludge Bomb"], ["Sleep Powder"]]
 			}]
 		},
 		"virizion": {

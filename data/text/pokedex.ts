@@ -1844,6 +1844,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	toxicroak: {
 		name: "Toxicroak",
 	},
+	toxicroakarmored: {
+		name: "Toxicroak-Armored",
+	},
 	carnivine: {
 		name: "Carnivine",
 	},
