@@ -26569,6 +26569,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			captivate: ["4M"],
 			confide: ["7M", "6M"],
 			cottonspore: ["7L44", "7V", "6L44", "5L44", "4L32", "3L33"],
+			cumulussomersault: ["7L1"],
 			curse: ["7V"],
 			dazzlinggleam: ["7M", "6M"],
 			defensecurl: ["7V", "3T"],

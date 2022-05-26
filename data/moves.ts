@@ -2985,6 +2985,30 @@ export const Moves: {[moveid: string]: MoveData} = {
 		maxMove: {basePower: 140},
 		contestType: "Tough",
 	},
+	cumulussomersault: {
+		num: -527,
+		accuracy: 100,
+		basePower: 50,
+		category: "Physical",
+		name: "Cumulus Somersault",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, distance: 1},
+		onHit() {
+			this.field.clearWeather();
+		},
+		secondary: {
+			chance: 50,
+			self: {
+				boosts: {
+					def: 1,
+				},
+			},
+		},
+		target: "normal",
+		type: "Flying",
+		contestType: "Cute",
+	},
 	curse: {
 		num: 174,
 		accuracy: true,
@@ -3265,16 +3289,24 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		onHit(target, source, move) {
+			const removeTarget = [
+				'lightscreen', 'reflect', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+			];
 			const removeAll = [
 				'lightscreen', 'reflect', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
 			];
+			for (const targetCondition of removeTarget) {
+				if (target.side.removeSideCondition(targetCondition)) {
+					if (!removeAll.includes(targetCondition)) continue;
+					this.add('-sideend', target.side, this.dex.conditions.get(targetCondition).name, '[from] move: Demolition', '[of] ' + source);
+				}
+			}
 			for (const sideCondition of removeAll) {
 				if (source.side.removeSideCondition(sideCondition)) {
 					this.add('-sideend', source.side, this.dex.conditions.get(sideCondition).name, '[from] move: Demolition', '[of] ' + source);
 				}
 			}
 			this.field.clearTerrain();
-			this.field.clearWeather();
 		},
 		secondary: {
 			chance: 100,
