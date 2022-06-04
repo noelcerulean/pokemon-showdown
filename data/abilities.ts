@@ -524,15 +524,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 29,
 	},
-	clearedground: {
-		onSwitchIn(pokemon) {
-			this.effectState.switchingIn = true;
-			this.field.clearTerrain();
-		},
-		name: "Cleared Ground",
-		rating: 2,
-		num: -532,
-	},
 	cloudnine: {
 		onSwitchIn(pokemon) {
 			this.effectState.switchingIn = true;
@@ -545,6 +536,29 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		suppressWeather: true,
 		name: "Cloud Nine",
+		rating: 2,
+		num: 13,
+	},
+	cloudguard: {
+		onSwitchIn(pokemon) {
+			this.effectState.switchingIn = true;
+		},
+		onStart(pokemon) {
+			// Cloud Nine does not activate when Skill Swapped or when Neutralizing Gas leaves the field
+			if (!this.effectState.switchingIn) return;
+			this.add('-ability', pokemon, 'Cloud Guard');
+			this.effectState.switchingIn = false;
+		},
+		onEffectivenessPriority: -1,
+		onEffectiveness(typeMod, target, type, move) {
+			if (!target) return;
+			if (move && move.effectType === 'Move' && move.category !== 'Status' && type === 'Flying' && typeMod > 0) {
+				this.add('-activate', '', 'Cloud Guard');
+				return 0;
+			}
+		},
+		suppressWeather: true,
+		name: "Cloud Guard",
 		rating: 2,
 		num: 13,
 	},
@@ -933,6 +947,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Download",
 		rating: 3.5,
 		num: 88,
+	},
+	draconiceesence: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Dragon') {
+				this.debug('Draconic Essence boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Dragon') {
+				this.debug('Draconic Essence boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Draconic Essence",
+		rating: 3.5,
+		num: -533,
 	},
 	dragonsmaw: {
 		onModifyAtkPriority: 5,
@@ -2047,23 +2080,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 103,
 	},
 	leafguard: {
-		onSetStatus(status, target, source, effect) {
-			if (['sunnyday', 'desolateland'].includes(target.effectiveWeather())) {
-				if ((effect as Move)?.status) {
-					this.add('-immune', target, '[from] ability: Leaf Guard');
-				}
-				return false;
+		onResidualOrder: 5,
+		onResidualSubOrder: 3,
+		onResidual(pokemon) {
+			if (pokemon.status && ['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
+				this.debug('leafguard');
+				this.add('-activate', pokemon, 'ability: Leaf Guard');
+				pokemon.cureStatus();
 			}
 		},
-		onTryAddVolatile(status, target) {
-			if (status.id === 'yawn' && ['sunnyday', 'desolateland'].includes(target.effectiveWeather())) {
-				this.add('-immune', target, '[from] ability: Leaf Guard');
-				return null;
-			}
-		},
-		isBreakable: true,
 		name: "Leaf Guard",
-		rating: 0.5,
+		rating: 1.5,
 		num: 102,
 	},
 	levitate: {
@@ -4084,17 +4111,22 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 117,
 	},
+	solarboost: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, pokemon) {
+			if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Solar Boost",
+		rating: 2,
+		num: -534,
+	},
 	solarpower: {
 		onModifySpAPriority: 5,
 		onModifySpA(spa, pokemon) {
 			if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
 				return this.chainModify(1.5);
-			}
-		},
-		onWeather(target, source, effect) {
-			if (target.hasItem('utilityumbrella')) return;
-			if (effect.id === 'sunnyday' || effect.id === 'desolateland') {
-				this.damage(target.baseMaxhp / 8, target, target);
 			}
 		},
 		name: "Solar Power",
@@ -4603,6 +4635,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Terraforming",
 		rating: 4,
 		num: -511,
+	},
+	territorial: {
+		onSwitchIn(pokemon) {
+			this.effectState.switchingIn = true;
+			this.field.clearTerrain();
+		},
+		name: "Territorial",
+		rating: 2,
+		num: -532,
 	},
 	thickfat: {
 		onSourceModifyAtkPriority: 6,

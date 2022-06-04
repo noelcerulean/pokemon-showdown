@@ -181,11 +181,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Clear Body",
 		shortDesc: "Prevents other Pokemon from lowering this Pokemon's stat stages.",
 	},
-	clearedground: {
-		name: "Cleared Ground",
-		shortDesc: "On switch in, this Pokemon removes any active terrain.",
+	cloudguard: {
+		name: "Cloud Guard",
+		shortDesc: "Ignores weather and removes Flying-type weaknesses for this Pokemon.",
 
-		activate: "The terrain returned back to normal!",
+		start: "#airlock",
 	},
 	cloudnine: {
 		name: "Cloud Nine",
@@ -333,6 +333,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Download",
 		desc: "On switch-in, this Pokemon's Attack or Special Attack is raised by 1 stage based on the weaker combined defensive stat of all opposing Pokemon. Attack is raised if their Defense is lower, and Special Attack is raised if their Special Defense is the same or lower.",
 		shortDesc: "On switch-in, Attack or Sp. Atk is raised 1 stage based on the foes' weaker Defense.",
+	},
+	draconicessence: {
+		name: "Draconic Essence",
+		shortDesc: "This Pokemon's attacking stat is multiplied by 1.5 while using a Dragon-type attack.",
 	},
 	dragonsmaw: {
 		name: "Dragon's Maw",
@@ -737,8 +741,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	leafguard: {
 		name: "Leaf Guard",
-		desc: "If Sunny Day is active and this Pokemon is not holding Utility Umbrella, this Pokemon cannot gain a non-volatile status condition and Rest will fail for it.",
-		shortDesc: "If Sunny Day is active, this Pokemon cannot be statused and Rest will fail for it.",
+		shortDesc: "This Pokemon has its status cured at the end of each turn if Sunny Day is active.",
 		gen7: {
 			desc: "If Sunny Day is active, this Pokemon cannot gain a non-volatile status condition and Rest will fail for it.",
 		},
@@ -1519,13 +1522,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Snow Warning",
 		shortDesc: "On switch-in, this Pokemon summons Hail.",
 	},
+	solarboost: {
+		name: "Solar Boost",
+		shortDesc: "If Sunny Day is active, this Pokemon's Atk is 1.5x.",
+	},
 	solarpower: {
 		name: "Solar Power",
-		desc: "If Sunny Day is active, this Pokemon's Special Attack is multiplied by 1.5 and it loses 1/8 of its maximum HP, rounded down, at the end of each turn. If this Pokemon is holding Utility Umbrella, its Special Attack remains the same and it does not lose any HP.",
-		shortDesc: "If Sunny Day is active, this Pokemon's Sp. Atk is 1.5x; loses 1/8 max HP per turn.",
-		gen7: {
-			desc: "If Sunny Day is active, this Pokemon's Special Attack is multiplied by 1.5 and it loses 1/8 of its maximum HP, rounded down, at the end of each turn.",
-		},
+		shortDesc: "If Sunny Day is active, this Pokemon's Sp. Atk is 1.5x.",
 	},
 	solidrock: {
 		name: "Solid Rock",
@@ -1753,6 +1756,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		shortDesc: "On switch-in, this Pokemon summons Gravity.",
 
 		start: "  [POKEMON] modified the atmosphere!",
+	},
+	territorial: {
+		name: "Territorial",
+		shortDesc: "On switch in, this Pokemon removes any active terrain.",
+
+		activate: "The terrain returned back to normal!",
 	},
 	thickfat: {
 		name: "Thick Fat",

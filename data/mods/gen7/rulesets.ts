@@ -10,10 +10,6 @@ export const Rulesets: {[k: string]: ModdedFormatData} = {
 	obtainablemoves: {
 		inherit: true,
 		banlist: [
-			// Leaf Blade: Gen 6+ Nuzleaf level-up
-			// Sucker Punch: Gen 4 Shiftry tutor
-			'Shiftry + Leaf Blade + Sucker Punch',
-
 			// Aura Break Zygarde can't be changed to 10% forme in gen 7
 			// making moves only obtainable from gen 6 illegal
 			'Zygarde-10% + Aura Break + Rock Smash',

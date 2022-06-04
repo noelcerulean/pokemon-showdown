@@ -1094,8 +1094,8 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "Power is equal to 120 * (target's current HP / target's maximum HP) + 1, rounded down.",
 		},
 	},
-	cumulussomersault: {
-		name: "Cumulus Somersault",
+	cumuloroll: {
+		name: "Cumulo-Roll",
 		shortDesc: "Clears weather. 50% chance to boost Def.",
 	},
 	curse: {

@@ -2985,12 +2985,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 		maxMove: {basePower: 140},
 		contestType: "Tough",
 	},
-	cumulussomersault: {
+	cumuloroll: {
 		num: -527,
 		accuracy: 100,
 		basePower: 50,
 		category: "Physical",
-		name: "Cumulus Somersault",
+		name: "Cumulo-Roll",
 		pp: 5,
 		priority: 0,
 		flags: {protect: 1, mirror: 1, distance: 1},
@@ -12646,7 +12646,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	paraboliccharge: {
 		num: 570,
 		accuracy: 100,
-		basePower: 65,
+		basePower: 75,
 		category: "Special",
 		name: "Parabolic Charge",
 		pp: 20,
