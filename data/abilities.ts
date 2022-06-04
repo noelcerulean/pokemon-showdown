@@ -559,8 +559,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		suppressWeather: true,
 		name: "Cloud Guard",
-		rating: 2,
-		num: 13,
+		rating: 4.5,
+		num: -535,
 	},
 	colorchange: {
 		onAfterMoveSecondary(target, source, move) {
