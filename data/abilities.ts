@@ -948,7 +948,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 88,
 	},
-	draconiceesence: {
+	draconiceessence: {
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
 			if (move.type === 'Dragon') {
