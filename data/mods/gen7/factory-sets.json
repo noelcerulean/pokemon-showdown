@@ -2661,31 +2661,6 @@
 				"moves": [["Roost"], ["Defog"], ["Flamethrower"], ["Substitute"]]
 			}]
 		},
-		"muk": {
-			"flags": {},
-			"sets": [{
-				"species": "Muk",
-				"item": ["Black Sludge"],
-				"ability": ["Corrosion"],
-				"evs": {"hp": 252, "def": 252, "spd": 4},
-				"nature": "Impish",
-				"moves": [["Toxic"], ["Gunk Shot"], ["Protect"], ["Taunt", "Seismic Toss"]]
-			}, {
-				"species": "Muk",
-				"item": ["Black Sludge"],
-				"ability": ["Corrosion"],
-				"evs": {"hp": 252, "def": 4, "spd": 252},
-				"nature": "Impish",
-				"moves": [["Toxic"], ["Acid Armor"], ["Protect"], ["Seismic Toss"]]
-			}, {
-				"species": "Muk",
-				"item": ["Black Sludge"],
-				"ability": ["Stench"],
-				"evs": {"hp": 252, "def": 252, "spd": 4},
-				"nature": "Careful",
-				"moves": [["Curse"], ["Poison Jab"], ["Drain Punch"], ["Ice Punch"]]
-			}]
-		},
 		"ninetalesalola": {
 			"flags": {},
 			"sets": [{
@@ -5271,6 +5246,24 @@
 				"moves": [["Fire Fang"], ["Play Rough"], ["Sucker Punch"], ["Iron Head", "Knock Off", "Thunder Punch"]]
 			}]
 		},
+		"medicham": {
+			"flags": {},
+			"sets": [{
+				"species": "Medicham",
+				"item": ["Life Orb"],
+				"ability": ["Pure Power"],
+				"evs": {"hp": 4, "atk": 252, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["High Jump Kick"], ["Zen Headbutt"], ["Thunder Punch"], ["Bullet Punch"]]
+			}, {
+				"species": "Medicham",
+				"item": ["Life Orb", "Choice Specs"],
+				"ability": ["Mystic Power"],
+				"evs": {"hp": 4, "spa": 252, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Aura Sphere"], ["Psychic", "Psyshock"], ["Vacuum Wave"], ["Shadow Ball"]]
+			}]
+		},
 		"meganium": {
 			"flags": {},
 			"sets": [{
@@ -5417,6 +5410,31 @@
 				"moves": [["U-Turn"], ["Flutter Strike"], ["Quick Attack"], ["Lunge"]]
 			}]
 		},
+		"muk": {
+			"flags": {},
+			"sets": [{
+				"species": "Muk",
+				"item": ["Black Sludge"],
+				"ability": ["Corrosion"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": "Impish",
+				"moves": [["Toxic"], ["Gunk Shot"], ["Protect"], ["Taunt", "Seismic Toss"]]
+			}, {
+				"species": "Muk",
+				"item": ["Black Sludge"],
+				"ability": ["Corrosion"],
+				"evs": {"hp": 252, "def": 4, "spd": 252},
+				"nature": "Impish",
+				"moves": [["Toxic"], ["Acid Armor"], ["Protect"], ["Seismic Toss"]]
+			}, {
+				"species": "Muk",
+				"item": ["Black Sludge"],
+				"ability": ["Stench"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": "Careful",
+				"moves": [["Curse"], ["Poison Jab"], ["Drain Punch"], ["Ice Punch"]]
+			}]
+		},
 		"mukalola": {
 			"flags": {},
 			"sets": [{
@@ -5426,6 +5444,31 @@
 				"evs": {"hp": 4, "atk": 252, "spd": 252},
 				"nature": "Adamant",
 				"moves": [["Pursuit"], ["Knock Off"], ["Gunk Shot", "Poison Jab"], ["Fire Punch", "Shadow Sneak"]]
+			}]
+		},
+		"musharna": {
+			"flags": {},
+			"sets": [{
+				"species": "Musharna",
+				"item": ["Leftovers"],
+				"ability": ["Comatose"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": "Bold",
+				"moves": [["Wish"], ["Dry Pass"], ["Toxic"], ["Psychic"]]
+			}, {
+				"species": "Musharna",
+				"item": ["Leftovers"],
+				"ability": ["Comatose"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": "Bold",
+				"moves": [["Psychic"], ["Moonblast"], ["Moonlight"], ["Calm Mind"]]
+			}, {
+				"species": "Musharna",
+				"item": ["Leftovers"],
+				"ability": ["Comatose"],
+				"evs": {"hp": 252, "spa": 252, "spd": 4},
+				"nature": "Modest",
+				"moves": [["Moonlight"], ["Barrier"], ["Calm Mind"], ["Moonblast"]]
 			}]
 		},
 		"necrozma": {
@@ -7679,24 +7722,6 @@
 				"moves": [["Quiver Dance"], ["Hydro Pump"], ["Bug Buzz"], ["Roost", "Giga Drain", "Sticky Web"]]
 			}]
 		},
-		"medicham": {
-			"flags": {},
-			"sets": [{
-				"species": "Medicham",
-				"item": ["Life Orb"],
-				"ability": ["Pure Power"],
-				"evs": {"hp": 4, "atk": 252, "spe": 252},
-				"nature": "Jolly",
-				"moves": [["High Jump Kick"], ["Zen Headbutt"], ["Thunder Punch"], ["Bullet Punch"]]
-			}, {
-				"species": "Medicham",
-				"item": ["Life Orb", "Choice Specs"],
-				"ability": ["Mystic Power"],
-				"evs": {"hp": 4, "spa": 252, "spe": 252},
-				"nature": "Timid",
-				"moves": [["Aura Sphere"], ["Psychic", "Psyshock"], ["Vacuum Wave"], ["Shadow Ball"]]
-			}]
-		},
 		"metagross": {
 			"flags": {},
 			"sets": [{
@@ -7728,31 +7753,6 @@
 				"evs": {"hp": 252, "def": 252, "spd": 4},
 				"nature": "Impish",
 				"moves": [["Rapid Spin"], ["Milk Drink"], ["Seismic Toss"], ["Toxic"]]
-			}]
-		},
-		"musharna": {
-			"flags": {},
-			"sets": [{
-				"species": "Musharna",
-				"item": ["Leftovers"],
-				"ability": ["Comatose"],
-				"evs": {"hp": 252, "def": 252, "spd": 4},
-				"nature": "Bold",
-				"moves": [["Wish"], ["Dry Pass"], ["Toxic"], ["Psychic"]]
-			}, {
-				"species": "Musharna",
-				"item": ["Leftovers"],
-				"ability": ["Comatose"],
-				"evs": {"hp": 252, "def": 252, "spd": 4},
-				"nature": "Bold",
-				"moves": [["Psychic"], ["Moonblast"], ["Moonlight"], ["Calm Mind"]]
-			}, {
-				"species": "Musharna",
-				"item": ["Leftovers"],
-				"ability": ["Comatose"],
-				"evs": {"hp": 252, "spa": 252, "spd": 4},
-				"nature": "Modest",
-				"moves": [["Moonlight"], ["Barrier"], ["Calm Mind"], ["Moonblast"]]
 			}]
 		},
 		"necrozma": {

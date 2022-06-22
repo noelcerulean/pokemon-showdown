@@ -43117,6 +43117,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			clearsmog: ["7E", "6E", "5E"],
 			confide: ["7M", "6M"],
 			cosmicpower: ["7E", "6E"],
+			cumuloroll: ["7L1"],
 			defensecurl: ["3T"],
 			defog: ["7T"],
 			disable: ["7E", "6E", "5E", "4E"],

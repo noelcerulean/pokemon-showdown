@@ -588,7 +588,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	muk: {
 		randomBattleMoves: ["curse", "drainpunch", "firepunch", "gunkshot", "icepunch", "memento", "poisonjab", "shadowpunch", "shadowsneak", "toxic"],
 		randomDoubleBattleMoves: ["drainpunch", "firepunch", "gunkshot", "icepunch", "poisonjab", "protect", "shadowpunch", "shadowsneak", "toxic"],
-		tier: "OU",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	mukalola: {
@@ -634,7 +634,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	onix: {
 		randomBattleMoves: ["earthquake", "rockpolish", "stoneedge", "stealthrock", "toxic"],
 		randomDoubleBattleMoves: ["earthquake", "protect", "rockslide", "stealthrock", "wideguard"],
-		tier: "RU",
+		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
 	steelix: {
@@ -1068,7 +1068,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	zapdos: {
 		randomBattleMoves: ["defog", "heatwave", "hiddenpowerice", "roost", "thunderbolt", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["heatwave", "hiddenpowergrass", "hiddenpowerice", "protect", "roost", "tailwind", "thunderbolt"],
-		tier: "UUBL",
+		tier: "OU",
 		doublesTier: "DOU",
 	},
 	moltres: {
@@ -1950,7 +1950,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	medicham: {
 		randomBattleMoves: ["aurasphere", "bulletpunch", "drainpunch", "highjumpkick", "icepunch", "psychic", "psyshock", "shadowball", "vacuumwave", "zenheadbutt"],
 		randomDoubleBattleMoves: ["aurasphere", "bulletpunch", "drainpunch", "fakeout", "highjumpkick", "icepunch", "protect", "psychic", "psyshock", "shadowball", "vacuumwave", "zenheadbutt"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	medichammega: {
@@ -3160,7 +3160,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	musharna: {
 		randomBattleMoves: ["calmmind", "drypass", "healbell", "moonblast", "moonlight", "psychic", "psyshock", "thunderwave", "wish"],
 		randomDoubleBattleMoves: ["helpinghand", "hypnosis", "moonblast", "moonlight", "protect", "psychic", "thunderwave", "trickroom"],
-		tier: "RU",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	pidove: {
@@ -4011,7 +4011,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	furfrou: {
 		randomBattleMoves: ["cottonguard", "rest", "return", "substitute", "suckerpunch", "thunderwave", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["cottonguard", "protect", "return", "snarl", "thunderwave", "uturn"],
-		tier: "RU",
+		tier: "NU",
 		doublesTier: "(DUU)",
 	},
 	espurr: {
