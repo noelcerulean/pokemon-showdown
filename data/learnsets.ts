@@ -24795,7 +24795,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			dynamicpunch: ["7V", "3T"],
 			endure: ["7V", "4M", "3T"],
 			facade: ["7M", "6M", "5M", "4M", "3M"],
-			firepunch: ["7T"],
 			flash: ["7V", "6M", "5M", "4M", "3M"],
 			fling: ["7M", "6M", "5M", "4M"],
 			flutterstrike: ["7L22"],
@@ -35611,6 +35610,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			tackle: ["8L1"],
 			takedown: ["8E", "7E", "6E", "5E", "4E", "3E"],
 			toxic: ["7M", "6M", "5M", "4M", "3M"],
+			woodhammer: ["7L50"],
 			worryseed: ["8E", "7T", "7E", "6T", "6E", "5T", "5E", "4T", "4E"],
 		},
 		eventData: [

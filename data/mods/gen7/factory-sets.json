@@ -1301,7 +1301,7 @@
 				"ability": ["Blaze"],
 				"evs": {"def": 4, "spa": 252, "spe": 252},
 				"nature": "Timid",
-				"moves": [["Flamethrower", "Fire Blast"], ["Solar Beam"], ["Focus Blast"], ["Roost"]]
+				"moves": [["Flamethrower", "Fire Blast"], ["Solar Beam"], ["Hurricane"], ["Roost"]]
 			}, {
 				"species": "Charizard",
 				"item": ["Charizardite X"],
@@ -4265,6 +4265,18 @@
 				"moves": [["Flamethrower"], ["Shadow Ball"], ["Calm Mind"], ["Substitute"]]
 			}]
 		},
+		"charizard": {
+			"flags": {},
+			"sets": [{
+				"species": "Charizard",
+				"item": ["Normalium Z"],
+				"ability": ["Draconic Essence"],
+				"evs": {"hp": 32, "spa": 228, "spd": 32, "spe": 216},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Hold Hands"], ["Fire Blast"], ["Hurricane"], ["Dragon Pulse"]]
+			}]
+		}, 
 		"chesnaught": {
 			"flags": {},
 			"sets": [{
@@ -6985,6 +6997,17 @@
 				"moves": [["Moonlight"], ["Psyshock"], ["Moonblast"], ["Toxic"]]
 			}]
 		},
+		"decidueye": {
+			"flags": {},
+			"sets": [{
+				"species": "Decidueye",
+				"item": ["Decidium Z"],
+				"ability": ["Sniper"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Swords Dance", "Agility"], ["Thousand Arrows"], ["Spirit Shackle"], ["Leaf Blade"]]
+			}]
+		},
 		"dewgong": {
 			"flags": {},
 			"sets": [{
@@ -7399,6 +7422,18 @@
 				"moves": [["Fire Lash"], ["Sucker Punch"], ["Power Whip"], ["Rock Slide"]]
 			}]
 		},
+		"heliolisk": {
+			"flags": {},
+			"sets": [{
+				"species": "Heliolisk",
+				"item": ["Choice Specs"],
+				"ability": ["Dry Skin"],
+				"evs": {"def": 4, "spa": 252,"spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Volt Switch"], ["Thunderbolt"], ["Hyper Voice"], ["Surf"]]
+			}]
+		},
 		"hitmonlee": {
 			"flags": {},
 			"sets": [{
@@ -7785,7 +7820,21 @@
 				"ability": ["Drought"],
 				"evs": {"spa": 252, "spd": 4, "spe": 252},
 				"nature": "Timid",
-				"moves": [["Nasty Plot"], ["Fire Blast"], ["Solar Beam"], ["Hidden Power Ice"]]
+				"moves": [["Nasty Plot"], ["Fire Blast"], ["Solar Beam"], ["Dazzling Gleam"]]
+			}, {
+				"species": "Ninetales",
+				"item": ["Choice Specs"],
+				"ability": ["Drought"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Hidden Power Ground"], ["Fire Blast"], ["Solar Beam"], ["Dazzling Gleam"]]
+			}, {
+				"species": "Ninetales",
+				"item": ["Heat Rock"],
+				"ability": ["Drought"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Morning Sun"], ["Flamethrower"], ["Solar Beam"], ["Calm Mind"]]
 			}]
 		},
 		"noivern": {
@@ -8170,7 +8219,25 @@
 				"ability": ["Wonder Guard"],
 				"evs": {"spa": 252, "spd": 4, "spe": 252},
 				"nature": "Modest",
-				"moves": [["Disable"], ["Protect"], ["Shadow Ball"], ["Bug Buzz", "Toxic"]]
+				"moves": [["Torment"], ["Protect"], ["Shadow Ball"], ["Bug Buzz", "Toxic"]]
+			}]
+		},
+		"shiftry": {
+			"flags": {},
+			"sets": [{
+				"species": "Shiftry",
+				"item": ["Life Orb"],
+				"ability": ["Chlorophyll"],
+				"evs": {"atk": 252, "spa": 4, "spe": 252},
+				"nature": "Lonely",
+				"moves": [["Knock Off"], ["Leaf Storm"], ["Sucker Punch"], ["Heat Wave"]]
+			}, {
+				"species": "Shiftry",
+				"item": ["Grassium Z", "Life Orb"],
+				"ability": ["Chlorophyll"],
+				"evs": {"hp": 4, "atk": 252, "spe": 252},
+				"nature": ["Adamant", "Jolly"],
+				"moves": [["Swords Dance"], ["Knock Off"], ["Leaf Blade", "Wood Hammer"], ["Sucker Punch"]]
 			}]
 		},
 		"sigilyph": {
@@ -8448,7 +8515,7 @@
 				"ability": ["Chlorophyll"],
 				"evs": {"def": 4, "spa": 252, "spe": 252},
 				"nature": "Modest",
-				"moves": [["Growth"], ["Sludge Bomb"], ["Giga Drain"], ["Hidden Power Fire"]]
+				"moves": [["Growth"], ["Sludge Bomb"], ["Giga Drain"], ["Earth Power"]]
 			}]
 		},
 		"venustoise": {
