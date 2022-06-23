@@ -6044,6 +6044,24 @@
 				"moves": [["Crunch"], ["Psychic Fangs", "Waterfall", "Earthquake"], ["Ice Fang"], ["Protect"]]
 			}]
 		},
+		"shiftry": {
+			"flags": {},
+			"sets": [{
+				"species": "Shiftry",
+				"item": ["Life Orb"],
+				"ability": ["Chlorophyll"],
+				"evs": {"atk": 252, "spa": 4, "spe": 252},
+				"nature": "Lonely",
+				"moves": [["Knock Off"], ["Leaf Storm"], ["Sucker Punch"], ["Heat Wave"]]
+			}, {
+				"species": "Shiftry",
+				"item": ["Grassium Z", "Life Orb"],
+				"ability": ["Chlorophyll"],
+				"evs": {"hp": 4, "atk": 252, "spe": 252},
+				"nature": ["Adamant", "Jolly"],
+				"moves": [["Swords Dance"], ["Knock Off"], ["Leaf Blade", "Wood Hammer"], ["Sucker Punch"]]
+			}]
+		},
 		"silvallysteel": {
 			"flags": {},
 			"sets": [{
@@ -8220,24 +8238,6 @@
 				"evs": {"spa": 252, "spd": 4, "spe": 252},
 				"nature": "Modest",
 				"moves": [["Torment"], ["Protect"], ["Shadow Ball"], ["Bug Buzz", "Toxic"]]
-			}]
-		},
-		"shiftry": {
-			"flags": {},
-			"sets": [{
-				"species": "Shiftry",
-				"item": ["Life Orb"],
-				"ability": ["Chlorophyll"],
-				"evs": {"atk": 252, "spa": 4, "spe": 252},
-				"nature": "Lonely",
-				"moves": [["Knock Off"], ["Leaf Storm"], ["Sucker Punch"], ["Heat Wave"]]
-			}, {
-				"species": "Shiftry",
-				"item": ["Grassium Z", "Life Orb"],
-				"ability": ["Chlorophyll"],
-				"evs": {"hp": 4, "atk": 252, "spe": 252},
-				"nature": ["Adamant", "Jolly"],
-				"moves": [["Swords Dance"], ["Knock Off"], ["Leaf Blade", "Wood Hammer"], ["Sucker Punch"]]
 			}]
 		},
 		"sigilyph": {
