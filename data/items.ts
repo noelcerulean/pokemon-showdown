@@ -1619,6 +1619,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 7,
 		isNonstandard: "Past",
 	},
+	electrodiumz: {
+		name: "Electrodium Z",
+		spritenum: 753,
+		onTakeItem: false,
+		zMove: "Boisterous Blackout",
+		zMoveFrom: "Power Outage",
+		itemUser: ["Electrode"],
+		num: -512,
+		gen: 7,
+		isNonstandard: "Past",
+	},
 	energypowder: {
 		name: "Energy Powder",
 		spritenum: 123,

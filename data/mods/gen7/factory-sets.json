@@ -7117,6 +7117,31 @@
 				"moves": [["Stealth Rock"], ["Dragon Tail"], ["Earthquake"], ["Toxic"]]
 			}]
 		},
+		"electrode": {
+			"flags": {},
+			"sets": [{
+				"species": "Electrode",
+				"item": ["Choice Specs"],
+				"ability": ["Galvanize"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Tri Attack"], ["Volt Switch"], ["Hidden Power Ice"], ["Overheat"]]
+			}, {
+				"species": "Electrode",
+				"item": ["Focus Sash"],
+				"ability": ["Aftermath"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Taunt"], ["Volt Switch"], ["Rapid Spin"], ["Overheat"]]
+			}, {
+				"species": "Electrode",
+				"item": ["Electrodium Z"],
+				"ability": ["Galvanize"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Power Outage"], ["Volt Switch", "Hidden Power Ice"], ["Tri Attack"], ["Overheat"]]
+			}]
+		},
 		"emolga": {
 			"flags": {},
 			"sets": [{

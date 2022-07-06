@@ -48,6 +48,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	boisterousblackout: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	boneclub: {
 		inherit: true,
 		isNonstandard: null,

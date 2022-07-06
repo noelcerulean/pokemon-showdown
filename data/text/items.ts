@@ -471,6 +471,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Electrium Z",
 		desc: "If holder has an Electric move, this item allows it to use an Electric Z-Move.",
 	},
+	electrodiumz: {
+		name: "Electrodium Z",
+		desc: "If held by an Electrode with Power Outage, it can use Boisterous Blackout.",
+	},
 	energypowder: {
 		name: "Energy Powder",
 		desc: "Restores 60 HP to one Pokemon.",

@@ -1440,6 +1440,28 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Normal",
 		contestType: "Tough",
 	},
+	boisterousblackout: {
+		num: -529,
+		accuracy: true,
+		basePower: 200,
+		category: "Special",
+		isNonstandard: "Past",
+		name: "Boisterous Blackout",
+		pp: 1,
+		priority: 0,
+		flags: {},
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Electric') return 1;
+		},
+		isZ: "electrodiumz",
+		secondary: {
+			chance: 100,
+			status: 'par',
+		},
+		target: "normal",
+		type: "Electric",
+		contestType: "Cool",
+	},
 	boltbeak: {
 		num: 754,
 		accuracy: 100,
@@ -13225,6 +13247,37 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Rock",
 		contestType: "Beautiful",
 	},
+	poweroutage: {
+		num: -528,
+		accuracy: 100,
+		basePower: 140,
+		category: "Special",
+		name: "Power Outage",
+		pp: 5,
+		priority: 0,
+		flags: {charge: 1, protect: 1, mirror: 1},
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			this.add('-prepare', attacker, move.name);
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		},
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Electric') return 1;
+		},
+		secondary: {
+			chance: 100,
+			status: 'par',
+		},
+		target: "allAdjacent",
+		type: "Electric",
+		contestType: "Cool",
+	},
 	powersplit: {
 		num: 471,
 		accuracy: true,
@@ -20535,7 +20588,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	triattack: {
 		num: 161,
 		accuracy: 100,
-		basePower: 80,
+		basePower: 85,
 		category: "Special",
 		name: "Tri Attack",
 		pp: 10,

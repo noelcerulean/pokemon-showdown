@@ -996,6 +996,7 @@ export const Aliases: {[alias: string]: string} = {
 	zprimarina: "Oceanic Operetta",
 	zpsychic: "Shattered Psyche",
 	zraichu: "Stoked Sparksurfer",
+	zelectrode: "Boisterous Blackout",
 	zsnorlax: "Pulverizing Pancake",
 	zsolgaleo: "Searing Sunraze Smash",
 	zsparklingaria: "Oceanic Operetta",

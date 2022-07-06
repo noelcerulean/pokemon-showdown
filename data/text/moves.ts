@@ -511,6 +511,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "Has a 30% chance to paralyze the target.",
 		},
 	},
+	boisterousblackout: {
+		name: "Boisterous Blackout",
+		desc: "Supper Effective vs. Electric types. Has a 100% chance to paralyze the target.",
+		shortDesc: "2x vs. Electric. 100% chance to paralyze target.",
+	},
 	boltbeak: {
 		name: "Bolt Beak",
 		desc: "Power doubles if the user moves before the target.",
@@ -4451,6 +4456,11 @@ export const MovesText: {[k: string]: MoveText} = {
 	powergem: {
 		name: "Power Gem",
 		shortDesc: "No additional effect.",
+	},
+	poweroutage: {
+		name: "Power Outage",
+		desc: "Supper Effective vs. Electric types. Has a 100% chance to paralyze the target.",
+		shortDesc: "2x vs. Electric. 100% chance to paralyze target.",
 	},
 	powersplit: {
 		name: "Power Split",
