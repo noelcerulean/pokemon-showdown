@@ -674,8 +674,8 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	electrode: {
-		randomBattleMoves: ["foulplay", "hiddenpowergrass", "overheat", "signalbeam", "taunt", "thunderbolt", "voltswitch"],
-		randomDoubleBattleMoves: ["foulplay", "overheat", "protect", "taunt", "thunderbolt", "thunderwave", "voltswitch"],
+		randomBattleMoves: ["foulplay", "hiddenpowergrass", "overheat", "signalbeam", "taunt", "triattack", "voltswitch"],
+		randomDoubleBattleMoves: ["foulplay", "overheat", "protect", "taunt", "triattack", "thunderwave", "voltswitch"],
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
