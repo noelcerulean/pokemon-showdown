@@ -491,8 +491,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	voltorb: {
 		name: "Voltorb",
 	},
+	voltorbfnf: {
+		name: "Voltorb-FnF",
+	},
 	electrode: {
 		name: "Electrode",
+	},
+	electrodefnf: {
+		name: "Electrode-FnF",
 	},
 	exeggcute: {
 		name: "Exeggcute",

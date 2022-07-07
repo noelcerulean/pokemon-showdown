@@ -673,10 +673,19 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	voltorb: {
 		tier: "LC",
 	},
+	voltorbfnf: {
+		tier: "LC",
+	},
 	electrode: {
 		randomBattleMoves: ["foulplay", "hiddenpowergrass", "overheat", "signalbeam", "taunt", "triattack", "voltswitch"],
 		randomDoubleBattleMoves: ["foulplay", "overheat", "protect", "taunt", "triattack", "thunderwave", "voltswitch"],
 		tier: "RU",
+		doublesTier: "(DUU)",
+	},
+	electrodefnf: {
+		randomBattleMoves: ["fireblast", "flamethrower", "hiddenpowergrass", "icebeam", "triattack"],
+		randomDoubleBattleMoves: ["flamethrower", "hiddenpowergrass", "icebeam", "protect", "triattack"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	exeggcute: {

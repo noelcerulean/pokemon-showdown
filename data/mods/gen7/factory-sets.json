@@ -4519,6 +4519,24 @@
 				"moves": [["Lightning Kick"], ["Close Combat"], ["Ice Punch", "Bullet Punch"], ["Volt Switch"]]
 			}]
 		},
+		"electrodefnf": {
+			"flags": {},
+			"sets": [{
+				"species": "Electrode-FnF",
+				"item": ["Choice Specs", "Life Orb"],
+				"ability": ["Galvanize"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Flamethrower"], ["Ice Beam"], ["Tri Attack"], ["Overheat"]]
+			}, {
+				"species": "Electrode-FnF",
+				"item": ["Icium Z"],
+				"ability": ["Galvanize"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Flamethrower"], ["Ice Beam"], ["Tri Attack"], ["Ice Burn"]]
+			}]
+		},
 		"empoleon": {
 			"flags": {},
 			"sets": [{

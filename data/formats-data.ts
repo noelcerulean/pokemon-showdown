@@ -871,7 +871,15 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	voltorbfnf: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	electrode: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	electrodefnf: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
