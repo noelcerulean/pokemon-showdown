@@ -2269,17 +2269,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: -505,
 		gen: 7,
 	},
-	granbullarmor2: {
-		name: "Granbull Armor 2",
-		spritenum: 754,
-		onTakeItem(item, source) {
-			if (source.baseSpecies.name === 'Nobunaga') return false;
-			return true;
-		},
-		itemUser: ["Nobunaga"],
-		num: -513,
-		gen: 7,
-	},
 	grassgem: {
 		name: "Grass Gem",
 		spritenum: 172,
@@ -3855,6 +3844,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 246,
 		gen: 2,
+	},
+	nobunagaarmor: {
+		name: "Nobunaga Armor",
+		spritenum: 754,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Granbull-Nobunaga') return false;
+			return true;
+		},
+		itemUser: ["Granbull-Nobunaga"],
+		num: -513,
+		gen: 7,
 	},
 	nomelberry: {
 		name: "Nomel Berry",

@@ -4429,7 +4429,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 0.6,
 		weightkg: 7.8,
 		color: "Pink",
-		evos: ["Granbull", "Granbull-Armored", "Nobunaga"],
+		evos: ["Granbull", "Granbull-Armored", "Granbull-Nobunaga"],
 		eggGroups: ["Field", "Fairy"],
 	},
 	granbull: {
@@ -4461,9 +4461,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Fairy"],
 		requiredItem: "Granbull Armor",
 	},
-	granbullarmoredjooj: {
+	granbullnobunaga: {
 		num: 210,
-		name: "Nobunaga",
+		name: "Granbull-Nobunaga",
 		types: ["Fairy", "Fighting"],
 		gender: "M",
 		baseStats: {hp: 90, atk: 175, def: 125, spa: 50, spd: 115, spe: 63},
@@ -4474,7 +4474,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Snubbull",
 		evoLevel: 23,
 		eggGroups: ["Field", "Fairy"],
-		requiredItem: "Granbull Armor 2",
+		requiredItem: "Nobunaga Armor",
 	},
 	qwilfish: {
 		num: 211,

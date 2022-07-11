@@ -1449,7 +1449,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},
-	granbullarmoredjooj: {
+	granbullnobunaga: {
 		randomBattleMoves: ["agility", "crunch", "earthquake", "flareblitz", "healbell", "playrough", "sacredsword", "swordsdance", "thunderwave"],
 		randomDoubleBattleMoves: ["flareblitz", "playrough", "protect", "sacredsword", "snarl", "stompingtantrum", "thunderwave"],
 		tier: "Uber",
