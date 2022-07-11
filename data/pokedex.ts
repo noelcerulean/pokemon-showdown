@@ -4429,7 +4429,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 0.6,
 		weightkg: 7.8,
 		color: "Pink",
-		evos: ["Granbull", "Granbull-Armored", "Jooj\u2019s Granbull"],
+		evos: ["Granbull", "Granbull-Armored", "Nobunaga"],
 		eggGroups: ["Field", "Fairy"],
 	},
 	granbull: {
@@ -4463,7 +4463,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	granbullarmoredjooj: {
 		num: 210,
-		name: "Jooj\u2019s Granbull",
+		name: "Nobunaga",
 		types: ["Fairy", "Fighting"],
 		gender: "M",
 		baseStats: {hp: 90, atk: 175, def: 125, spa: 50, spd: 115, spe: 63},

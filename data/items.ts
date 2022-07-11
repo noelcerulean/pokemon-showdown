@@ -2273,10 +2273,10 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Granbull Armor 2",
 		spritenum: 754,
 		onTakeItem(item, source) {
-			if (source.baseSpecies.name === 'Jooj\u2019s Granbull') return false;
+			if (source.baseSpecies.name === 'Nobunaga') return false;
 			return true;
 		},
-		itemUser: ["Jooj\u2019s Granbull"],
+		itemUser: ["Nobunaga"],
 		num: -513,
 		gen: 7,
 	},
