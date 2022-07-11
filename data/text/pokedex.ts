@@ -920,7 +920,7 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	stucksparce: {
 		name: "Stucksparce",
 	},
-	Sledgesparce: {
+	sledgesparce: {
 		name: "Sledgesparce",
 	},
 	gligar: {
@@ -940,6 +940,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	granbullarmored: {
 		name: "Granbull-Armored",
+	},
+	granbullarmoredjooj: {
+		name: "Jooj\u2019s Granbull",
 	},
 	qwilfish: {
 		name: "Qwilfish",

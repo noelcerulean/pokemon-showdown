@@ -1860,6 +1860,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "All of this Pokemon's moves that make contact bypass protection.",
 		shortDesc: "All contact moves hit through protection.",
 	},
+	unsheathed: {
+		name: "Unsheathed",
+		desc: "This Pokemon's blade-based attacks have their power multiplied by 1.2.",
+		shortDesc: "This Pokemon's blade-based attacks have 1.2x power.",
+	},
 	victorystar: {
 		name: "Victory Star",
 		shortDesc: "This Pokemon and its allies' moves have their accuracy multiplied by 1.1.",

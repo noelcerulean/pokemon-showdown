@@ -4895,6 +4895,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 260,
 	},
+	unsheathed: {
+		onBasePowerPriority: 23,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['blade']) {
+				this.debug('Unsheathed boost');
+				return this.chainModify([4915, 4096]);
+			}
+		},
+		name: "Unsheathed",
+		rating: 3,
+		num: -536,
+	},
 	victorystar: {
 		onAnyModifyAccuracyPriority: -1,
 		onAnyModifyAccuracy(accuracy, target, source) {

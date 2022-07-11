@@ -2269,6 +2269,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: -505,
 		gen: 7,
 	},
+	granbullarmor2: {
+		name: "Granbull Armor 2",
+		spritenum: 754,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Jooj\u2019s Granbull') return false;
+			return true;
+		},
+		itemUser: ["Jooj\u2019s Granbull"],
+		num: -513,
+		gen: 7,
+	},
 	grassgem: {
 		name: "Grass Gem",
 		spritenum: 172,

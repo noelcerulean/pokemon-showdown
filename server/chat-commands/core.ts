@@ -149,6 +149,7 @@ const avatarTable = new Set([
 	'eusine-gen2', 'eusine',
 	'expertf-gen3',
 	'expert-gen3',
+	'ezekiel',
 	'faina',
 	'faina-imposter',
 	'fairy-tale-girl',

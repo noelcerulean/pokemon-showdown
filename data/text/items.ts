@@ -699,6 +699,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		desc: "Armor developed by DoReMi for Granbull to enhance its battle capabilities.",
 		shortDesc: "Attach to Granbull-Armored forme (not base forme!!!) in the teambuilder.",
 	},
+	granbullarmor2: {
+		name: "Granbull Armor 2",
+		desc: "Jooj's Granbull's armor, adjusted by Agnes.",
+		shortDesc: "Attach to Jooj's Granbull (not base forme!!!) in the teambuilder.",
+	},
 	grassgem: {
 		name: "Grass Gem",
 		desc: "Holder's first successful Grass-type attack will have 1.3x power. Single use.",

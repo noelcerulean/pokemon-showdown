@@ -1449,6 +1449,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},
+	granbullarmoredjooj: {
+		randomBattleMoves: ["agility", "crunch", "earthquake", "flareblitz", "healbell", "playrough", "sacredsword", "swordsdance", "thunderwave"],
+		randomDoubleBattleMoves: ["flareblitz", "playrough", "protect", "sacredsword", "snarl", "stompingtantrum", "thunderwave"],
+		tier: "Uber",
+		doublesTier: "DOU",
+	},
 	qwilfish: {
 		randomBattleMoves: ["destinybond", "liquidation", "painsplit", "spikes", "taunt", "thunderwave", "toxicspikes"],
 		randomDoubleBattleMoves: ["destinybond", "liquidation", "poisonjab", "protect", "swordsdance", "taunt", "thunderwave"],
