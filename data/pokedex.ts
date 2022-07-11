@@ -4429,7 +4429,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 0.6,
 		weightkg: 7.8,
 		color: "Pink",
-		evos: ["Granbull", "Granbull-Armored"],
+		evos: ["Granbull", "Granbull-Armored", "Jooj\u2019s Granbull"],
 		eggGroups: ["Field", "Fairy"],
 	},
 	granbull: {
