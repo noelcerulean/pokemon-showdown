@@ -3777,6 +3777,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DOU",
 	},
+	samsarula: {
+		randomBattleMoves: ["earthpower", "gigadrain", "lightscreen", "prehistoricpulse", "psychic", "stealthrock", "toxic"],
+		randomDoubleBattleMoves: ["earthpower", "gigadrain", "lightscreen", "prehistoricpulse", "protect", "psychic", "stealthrock", "toxic"],
+		tier: "UU",
+		doublesTier: "DUU",
+	},
 	cobalion: {
 		randomBattleMoves: ["closecombat", "hiddenpowerice", "ironhead", "stealthrock", "stoneedge", "swordsdance", "taunt", "voltswitch"],
 		randomDoubleBattleMoves: ["closecombat", "ironhead", "protect", "stoneedge", "swordsdance", "thunderwave"],

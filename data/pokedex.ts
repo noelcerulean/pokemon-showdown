@@ -11773,6 +11773,17 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 59,
 		eggGroups: ["Bug"],
 	},
+	samsarula: {
+		num: -515,
+		name: "Samsarula",
+		types: ["Bug", "Ground"],
+		baseStats: {hp: 75, atk: 95, def: 105, spa: 115, spd: 145, spe: 65},
+		abilities: {0: "Pressure", 1: "Clear Body", H: "Sand Force"},
+		heightm: 1.6,
+		weightkg: 175,
+		color: "Brown",
+		eggGroups: ["Bug"],
+	},
 	cobalion: {
 		num: 638,
 		name: "Cobalion",

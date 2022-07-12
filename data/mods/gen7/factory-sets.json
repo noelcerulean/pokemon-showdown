@@ -5949,6 +5949,26 @@
 				"moves": [["Aqua Jet"], ["Liquidation"], ["Swords Dance"], ["Sacred Sword"]]
 			}]
 		},
+		"samsarula": {
+			"flags": {},
+			"sets": [{
+				"species": "Samsarula",
+				"item": ["Leftovers"],
+				"ability": ["Pressure"],
+				"evs": {"hp": 252, "def": 252, "spa": 4},
+				"ivs": {"atk": 0},
+				"nature": "Bold",
+				"moves": [["Stealth Rock"], ["Earth Power"], ["Giga Drain"], ["Prehistoric Pulse"]]
+			}, {
+				"species": "Samsarula",
+				"item": ["Leftovers"],
+				"ability": ["Pressure"],
+				"evs": {"hp": 252, "def": 4, "spd": 252},
+				"ivs": {"atk": 0},
+				"nature": "Calm",
+				"moves": [["Stealth Rock"], ["Earth Power"], ["Toxic"], ["Prehistoric Pulse"]]
+			}]
+		},
 		"sandslashalola": {
 			"flags": {},
 			"sets": [{

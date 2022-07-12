@@ -2552,6 +2552,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	volcarona: {
 		name: "Volcarona",
 	},
+	samsarula: {
+		name: "Samsarula",
+	},
 	cobalion: {
 		name: "Cobalion",
 	},

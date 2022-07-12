@@ -4325,6 +4325,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DUU",
 	},
+	samsarula: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	cobalion: {
 		randomBattleMoves: ["closecombat", "ironhead", "stealthrock", "stoneedge", "swordsdance", "voltswitch"],
 		randomBattleLevel: 78,
