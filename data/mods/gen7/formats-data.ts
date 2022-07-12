@@ -350,9 +350,18 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	venonat: {
 		tier: "LC",
 	},
+	venonatfnf: {
+		tier: "LC",
+	},
 	venomoth: {
 		randomBattleMoves: ["bugbuzz", "quiverdance", "sleeppowder", "sludgebomb", "substitute"],
 		randomDoubleBattleMoves: ["bugbuzz", "protect", "quiverdance", "ragepowder", "sleeppowder", "sludgebomb"],
+		tier: "RUBL",
+		doublesTier: "(DUU)",
+	},
+	manomoth: {
+		randomBattleMoves: ["bugbuzz", "darkpulse", "quiverdance", "sleeppowder", "sludgebomb", "substitute"],
+		randomDoubleBattleMoves: ["bugbuzz", "darkpulse", "protect", "quiverdance", "ragepowder", "sleeppowder", "sludgebomb"],
 		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},

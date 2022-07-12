@@ -445,7 +445,15 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	venonatfnf: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	venomoth: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	manomoth: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},

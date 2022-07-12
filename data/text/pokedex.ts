@@ -263,8 +263,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	venonat: {
 		name: "Venonat",
 	},
+	venonatfnf: {
+		name: "Venonat-FnF",
+	},
 	venomoth: {
 		name: "Venomoth",
+	},
+	manomoth: {
+		name: "Manomoth",
 	},
 	diglett: {
 		name: "Diglett",

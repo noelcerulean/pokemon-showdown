@@ -7789,6 +7789,17 @@
 				"moves": [["Scald"], ["Roost"], ["Defog"], ["Toxic"]]
 			}]
 		},
+		"manomoth": {
+			"flags": {},
+			"sets": [{
+				"species": "Manomoth",
+				"item": ["Darkinium Z"],
+				"ability": ["Tinted Lens"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Quiver Dance"], ["Sleep Powder", "Sludge Bomb"], ["Bug Buzz"], ["Dark Pulse"]]
+			}]
+		},
 		"marowakalola": {
 			"flags": {},
 			"sets": [{
