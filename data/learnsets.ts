@@ -66457,7 +66457,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			mindreader: ["7L26"],
 			mirrorshot: ["7L29"],
 			naturepower: ["7L17"],
-			nautralgift: ["7L1"],
+			naturalgift: ["7L1"],
 			payback: ["7M"],
 			powersplit: ["7L34"],
 			powerswap: ["7L34"],
