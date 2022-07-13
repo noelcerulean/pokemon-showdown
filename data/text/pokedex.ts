@@ -710,6 +710,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	mew: {
 		name: "Mew",
 	},
+	robodachi: {
+		name: "Robodachi",
+	},
 	chikorita: {
 		name: "Chikorita",
 	},

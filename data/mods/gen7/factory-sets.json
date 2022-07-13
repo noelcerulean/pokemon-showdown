@@ -5882,6 +5882,17 @@
 				"moves": [["Psychic", "Psyshock"], ["Shadow Ball"], ["Focus Blast"], ["Trick Room"]]
 			}]
 		},
+		"robodachi": {
+			"flags": {},
+			"sets": [{
+				"species": "Robodachi",
+				"item": ["Normalium Z"],
+				"ability": ["Volt Absorb"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Hold Hands"], ["Techno Blast"], ["Psychic"], ["Overheat"]]
+			}]
+		},
 		"rotomheat": {
 			"flags": {},
 			"sets": [{

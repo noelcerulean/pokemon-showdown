@@ -1490,6 +1490,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DOU",
 	},
+	robodachi: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	chikorita: {
 		isNonstandard: "Past",
 		tier: "Illegal",

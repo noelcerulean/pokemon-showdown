@@ -1131,6 +1131,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "DOU",
 	},
+	robodachi: {
+		randomBattleMoves: ["holdhands", "overheat", "psychic", "recover", "technoblast"],
+		randomDoubleBattleMoves: ["holdhands", "overheat", "protect", "psychic", "recover", "technoblast"],
+		tier: "RUBL",
+		doublesTier: "(DUU)",
+	},
 	chikorita: {
 		tier: "LC",
 	},

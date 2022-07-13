@@ -3398,6 +3398,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Mythical"],
 		eggGroups: ["Undiscovered"],
 	},
+	robodachi: {
+		num: -516,
+		name: "Robodachi",
+		types: ["Steel", "Normal"],
+		gender: "N",
+		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
+		abilities: {0: "Volt Absorb"},
+		heightm: 1,
+		weightkg: 22.5,
+		color: "Yellow",
+		eggGroups: ["Undiscovered"],
+	},
 	chikorita: {
 		num: 152,
 		name: "Chikorita",
