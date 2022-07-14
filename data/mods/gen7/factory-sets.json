@@ -2841,6 +2841,24 @@
 				"moves": [["Scald"], ["Earthquake"], ["Recover"], ["Toxic"]]
 			}]
 		},
+		"robodachi": {
+			"flags": {},
+			"sets": [{
+				"species": "Robodachi",
+				"item": ["Normalium Z"],
+				"ability": ["Download"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Hold Hands"], ["Techno Blast"], ["Psychic"], ["Overheat"]]
+			}, {
+				"species": "Robodachi",
+				"item": ["Normalium Z"],
+				"ability": ["Download"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Hold Hands"], ["Return"], ["Earthquake"], ["Play Rough"]]
+			}]
+		},
 		"rotomwash": {
 			"flags": {},
 			"sets": [{
@@ -5880,17 +5898,6 @@
 				"evs": {"hp": 252, "def": 4, "spa": 252},
 				"nature": "Quiet",
 				"moves": [["Psychic", "Psyshock"], ["Shadow Ball"], ["Focus Blast"], ["Trick Room"]]
-			}]
-		},
-		"robodachi": {
-			"flags": {},
-			"sets": [{
-				"species": "Robodachi",
-				"item": ["Normalium Z"],
-				"ability": ["Volt Absorb"],
-				"evs": {"spa": 252, "spd": 4, "spe": 252},
-				"nature": "Timid",
-				"moves": [["Hold Hands"], ["Techno Blast"], ["Psychic"], ["Overheat"]]
 			}]
 		},
 		"rotomheat": {

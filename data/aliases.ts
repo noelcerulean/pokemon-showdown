@@ -403,6 +403,7 @@ export const Aliases: {[alias: string]: string} = {
 	clefgarmelon: "Clefgar",
 	golisopoduncooked: "Golisopod",
 	lanturnanglara: "Lanturn",
+	dewottscalchops: "Dewott",
 
 	alcremierubycream: "Alcremie",
 	alcremiematchacream: "Alcremie",
