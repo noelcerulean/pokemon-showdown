@@ -5103,6 +5103,13 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 73,
 	},
 	wimpout: {
+		onDamagingHitOrder: 1,
+		onDamagingHit(damage, target, source, move) {
+			if (move.flags['contact']) {
+				this.add('-ability', target, 'Wimp Out');
+				target.side.foe.addSideCondition('spikes');
+			}
+		},
 		onEmergencyExit(target) {
 			if (!this.canSwitch(target.side) || target.forceSwitchFlag || target.switchFlag) return;
 			for (const side of this.sides) {

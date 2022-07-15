@@ -389,8 +389,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	emergencyexit: {
 		name: "Emergency Exit",
-		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage bringing it to 1/2 or less of its maximum HP, it immediately switches out to a chosen ally. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect. This effect applies to both direct and indirect damage, except Curse and Substitute on use, Belly Drum, Pain Split, and confusion damage.",
-		shortDesc: "This Pokemon switches out when it reaches 1/2 or less of its maximum HP.",
+		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage bringing it to 1/2 or less of its maximum HP, it switches out to a chosen ally at the end of the turn.",
+		shortDesc: "This Pokemon switches at end of turn when it reaches 1/2 or less max HP.",
 	},
 	enfeeblingvenom: {
 		name: "Enfeebling Venom",
@@ -1922,8 +1922,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	wimpout: {
 		name: "Wimp Out",
-		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage bringing it to 1/2 or less of its maximum HP, it immediately switches out to a chosen ally. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect. This effect applies to both direct and indirect damage, except Curse and Substitute on use, Belly Drum, Pain Split, and confusion damage.",
-		shortDesc: "This Pokemon switches out when it reaches 1/2 or less of its maximum HP.",
+		desc: "Sets spikes when hit by contact moves. When this Pokemon has more than 1/2 its maximum HP and takes damage bringing it to 1/2 or less of its maximum HP, it immediately switches out to a chosen ally. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect. This effect applies to both direct and indirect damage, except Curse and Substitute on use, Belly Drum, Pain Split, and confusion damage.",
+		shortDesc: "Sets spikes on contact. Switches out on reaching <=1/2 max HP.",
 	},
 	wonderguard: {
 		name: "Wonder Guard",
