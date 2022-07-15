@@ -7436,6 +7436,13 @@
 				"evs": {"hp": 168, "atk": 252, "spe": 88},
 				"nature": "Adamant",
 				"moves": [["First Impression"], ["Liquidation"], ["Leech Life"], ["Aqua Jet"]]
+			}, {
+				"species": "Golisopod",
+				"item": ["Fightinium Z"],
+				"ability": ["Emergency Exit"],
+				"evs": {"hp": 168, "atk": 252, "spe": 88},
+				"nature": "Adamant",
+				"moves": [["Superpower"], ["Liquidation"], ["Leech Life"], ["Aqua Jet"]]
 			}]
 		},
 		"goodra": {

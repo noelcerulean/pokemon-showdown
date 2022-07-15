@@ -4601,7 +4601,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	golisopod: {
-		randomBattleMoves: ["aquajet", "firstimpression", "knockoff", "liquidation", "spikes"],
+		randomBattleMoves: ["aquajet", "firstimpression", "knockoff", "liquidation", "spikes", "superpower"],
 		randomDoubleBattleMoves: ["aquajet", "firstimpression", "leechlife", "liquidation", "protect", "wideguard"],
 		tier: "RU",
 		doublesTier: "(DUU)",

@@ -14233,7 +14233,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 767,
 		name: "Wimpod",
 		types: ["Bug", "Water"],
-		baseStats: {hp: 25, atk: 35, def: 40, spa: 20, spd: 30, spe: 80},
+		baseStats: {hp: 25, atk: 45, def: 60, spa: 20, spd: 40, spe: 80},
 		abilities: {0: "Wimp Out"},
 		heightm: 0.5,
 		weightkg: 12,
