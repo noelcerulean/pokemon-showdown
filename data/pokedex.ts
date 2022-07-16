@@ -9780,7 +9780,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 504,
 		name: "Patrat",
 		types: ["Normal"],
-		baseStats: {hp: 65, atk: 75, def: 49, spa: 65, spd: 49, spe: 92},
+		baseStats: {hp: 45, atk: 75, def: 49, spa: 65, spd: 49, spe: 92},
 		abilities: {0: "Run Away", 1: "Keen Eye", H: "Analytic"},
 		heightm: 0.5,
 		weightkg: 11.6,
