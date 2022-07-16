@@ -2561,9 +2561,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	bibarel: {
-		randomBattleMoves: ["aquajet", "liquidation", "quickattack", "return", "swordsdance"],
+		randomBattleMoves: ["aquajet", "liquidation", "quickattack", "return", "swordsdance", "woodhammer"],
 		randomDoubleBattleMoves: ["aquajet", "liquidation", "quickattack", "return", "swordsdance"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	kricketot: {
@@ -3130,7 +3130,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	watchog: {
 		randomBattleMoves: ["hypnosis", "knockoff", "return", "substitute", "superfang", "swordsdance"],
 		randomDoubleBattleMoves: ["hypnosis", "knockoff", "protect", "return", "superfang", "swordsdance"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	lillipup: {
@@ -3142,7 +3142,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	stoutland: {
 		randomBattleMoves: ["crunch", "icefang", "return", "superpower", "wildcharge"],
 		randomDoubleBattleMoves: ["crunch", "protect", "return", "superpower", "wildcharge"],
-		tier: "PU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	purrloin: {
@@ -4391,7 +4391,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	gumshoos: {
 		randomBattleMoves: ["crunch", "earthquake", "firepunch", "return", "uturn"],
 		randomDoubleBattleMoves: ["crunch", "protect", "return", "superfang", "uturn"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	gumshoostotem: {

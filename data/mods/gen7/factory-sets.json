@@ -4129,6 +4129,17 @@
 				"moves": [["Hypnosis"], ["Trick Room"], ["Psychic"], ["Focus Blast", "Volt Switch"]]
 			}]
 		},
+		"bibarel": {
+			"flags": {},
+			"sets": [{
+				"species": "Bibarel",
+				"item": ["Normalium Z"],
+				"ability": ["Simple"],
+				"evs": {"hp": 252, "atk": 252, "spe": 4},
+				"nature": "Adamant",
+				"moves": [["Return"], ["Aqua Jet"], ["Quick Attack"], ["Swords Dance"]]
+			}]
+		},
 		"bisharp": {
 			"flags": {},
 			"sets": [{
@@ -7492,6 +7503,17 @@
 				"moves": [["Calm Mind"], ["Psychic"], ["Slack Off"], ["Focus Blast"]]
 			}]
 		},
+		"gumshoos": {
+			"flags": {},
+			"sets": [{
+				"species": "Gumshoos",
+				"item": ["Choice Band"],
+				"ability": ["Adaptability"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Return"], ["Crunch"], ["U-Turn"], ["Earthquake"]]
+			}]
+		},
 		"guzzlord": {
 			"flags": {},
 			"sets": [{
@@ -8454,10 +8476,17 @@
 			"sets": [{
 				"species": "Stoutland",
 				"item": ["Choice Band"],
-				"ability": ["Sand Rush"],
+				"ability": ["Sand Rush", "Slush Rush"],
 				"evs": {"atk": 252, "spd": 4, "spe": 252},
 				"nature": "Adamant",
-				"moves": [["Return"], ["Superpower"], ["Pursuit"], ["Crunch"]]
+				"moves": [["Return"], ["Earthquake"], ["Pursuit"], ["Crunch"]]
+			}, {
+				"species": "Stoutland",
+				"item": ["Leftovers"],
+				"ability": ["Intimidate"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Bulk Up"], ["Earthquake"], ["Return"], ["Crunch"]]
 			}]
 		},
 		"swalot": {
@@ -8700,6 +8729,17 @@
 				"evs": {"atk": 252, "spd": 4, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Close Combat"], ["Leaf Blade"], ["Stone Edge"], ["Swords Dance"]]
+			}]
+		},
+		"watchog": {
+			"flags": {},
+			"sets": [{
+				"species": "Watchog",
+				"item": ["Fightinium Z"],
+				"ability": ["Illuminate"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Return"], ["Knock Off"], ["Focus Punch"], ["Swords Dance", "Hypnosis"]]
 			}]
 		},
 		"wishiwashi": {
