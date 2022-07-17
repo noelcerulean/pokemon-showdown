@@ -479,7 +479,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	forecast: {
 		name: "Forecast",
 		shortDesc: "Sets weather based on held rock. Changes forme with weather.",
-		},
 	},
 	forewarn: {
 		name: "Forewarn",
