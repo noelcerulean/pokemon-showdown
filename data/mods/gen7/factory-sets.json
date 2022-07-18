@@ -3710,6 +3710,38 @@
 				"moves": [["Spikes", "Stealth Rock"], ["Toxic"], ["Shore Up"], ["Earthquake"]]
 			}]
 		},
+		"xatu": {
+			"flags": {},
+			"sets": [{
+				"species": "Xatu",
+				"item": ["Rocky Helmet"],
+				"ability": ["Magic Bounce"],
+				"evs": {"hp": 252, "def": 152, "spe": 104},
+				"nature": "Bold",
+				"moves": [["Roost"], ["U-turn"], ["Psychic"], ["Toxic"]]
+			}, {
+				"species": "Xatu",
+				"item": ["Leftovers"],
+				"ability": ["Magic Bounce"],
+				"evs": {"spa": 252, "def": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Roost"], ["Calm Mind"], ["Psychic"], ["Heat Wave"]]
+			}, {
+				"species": "Xatu",
+				"item": ["Choice Specs"],
+				"ability": ["Magic Bounce"],
+				"evs": {"spa": 252, "def": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Psychic", "Psyshock"], ["U-turn", "Trick"], ["Heat Wave"], ["Air Slash"]]
+			}, {
+				"species": "Xatu",
+				"item": ["Choice Scarf"],
+				"ability": ["Magic Bounce"],
+				"evs": {"spa": 252, "def": 4, "spe": 252},
+				"nature": "Modest",
+				"moves": [["Psychic", "Psyshock"], ["U-turn", "Trick"], ["Heat Wave"], ["Air Slash"]]
+			}]
+		},
 		"zangoose": {
 			"flags": {},
 			"sets": [{
@@ -8863,17 +8895,6 @@
 				"evs": {"hp": 252, "def": 4, "spd": 252},
 				"nature": "Calm",
 				"moves": [["Stealth Rock"], ["Toxic Spikes"], ["Thunder Wave"], ["Bug Buzz"]]
-			}]
-		},
-		"xatu": {
-			"flags": {},
-			"sets": [{
-				"species": "Xatu",
-				"item": ["Rocky Helmet"],
-				"ability": ["Magic Bounce"],
-				"evs": {"hp": 252, "def": 152, "spe": 104},
-				"nature": "Bold",
-				"moves": [["Roost"], ["U-turn"], ["Psychic"], ["Toxic"]]
 			}]
 		},
 		"yanmega": {

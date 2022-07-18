@@ -1243,10 +1243,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	xatu: {
-		randomBattleMoves: ["calmmind", "heatwave", "psychic", "reflect", "roost", "thunderwave", "toxic", "uturn"],
+		randomBattleMoves: ["calmmind", "heatwave", "psychic", "psyshock", "reflect", "roost", "thunderwave", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["heatwave", "protect", "psychic", "roost", "tailwind", "thunderwave", "uturn"],
-		tier: "NU",
-		doublesTier: "(DUU)",
+		tier: "OU",
+		doublesTier: "DOU",
 	},
 	mareep: {
 		tier: "LC",
