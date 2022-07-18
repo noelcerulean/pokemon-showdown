@@ -528,10 +528,6 @@ export const Conditions: {[k: string]: ConditionData} = {
 				this.add('-weather', 'SunnyDay');
 			}
 		},
-		onImmunity(type, pokemon) {
-			if (pokemon.hasItem('utilityumbrella')) return;
-			if (type === 'frz') return false;
-		},
 		onFieldResidualOrder: 1,
 		onFieldResidual() {
 			this.add('-weather', 'SunnyDay', '[upkeep]');
@@ -563,10 +559,6 @@ export const Conditions: {[k: string]: ConditionData} = {
 		},
 		onFieldStart(field, source, effect) {
 			this.add('-weather', 'DesolateLand', '[from] ability: ' + effect, '[of] ' + source);
-		},
-		onImmunity(type, pokemon) {
-			if (pokemon.hasItem('utilityumbrella')) return;
-			if (type === 'frz') return false;
 		},
 		onFieldResidualOrder: 1,
 		onFieldResidual() {

@@ -4952,6 +4952,19 @@
 				"moves": [["Light Screen"], ["Strength Sap"], ["U-turn"], ["Reflect"]]
 			}]
 		},
+		"kangaskhan": {
+			"flags": {
+				"megaOnly": 1
+			},
+			"sets": [{
+				"species": "Kangaskhan",
+				"item": ["Kangaskhanite"],
+				"ability": ["Early Bird"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Sucker Punch"], ["Return"], ["Fake Out"], ["Power-Up Punch"]]
+			}]
+		},
 		"klefki": {
 			"flags": {},
 			"sets": [{
@@ -7046,6 +7059,18 @@
 				"moves": [["Nasty Plot"], ["Shadow Ball"], ["Hidden Power Fighting"], ["Trick Room"]]
 			}]
 		},
+		"comfey": {
+			"flags": {},
+			"sets": [{
+				"species": "Comfey",
+				"item": ["Life Orb"],
+				"ability": ["Triage"],
+				"evs": {"hp": 236, "spa": 252, "spe": 20},
+				"ivs": {"atk": 0},
+				"nature": "Modest",
+				"moves": [["Calm Mind"], ["Draining Kiss"], ["Giga Drain"], ["Hidden Power Fire", "Healing Wish"]]
+			}]
+		},
 		"crabominable": {
 			"flags": {},
 			"sets": [{
@@ -7109,7 +7134,7 @@
 			"sets": [{
 				"species": "Diancie",
 				"item": ["Leftovers"],
-				"ability": ["Clear Body"],
+				"ability": ["Fairy Aura"],
 				"evs": {"hp": 252, "def": 4, "spd": 252},
 				"nature": "Sassy",
 				"moves": [["Stealth Rock"], ["Moonblast"], ["Diamond Storm"], ["Heal Bell"]]
@@ -7667,6 +7692,17 @@
 				"moves": [["Scald", "Hex"], ["Taunt"], ["Will-O-Wisp"], ["Recover"]]
 			}]
 		},
+		"kangaskhan": {
+			"flags": {},
+			"sets": [{
+				"species": "Kangaskhan",
+				"item": ["Normalium Z"],
+				"ability": ["Parental Bond"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Sing"], ["Return"], ["Crunch"], ["Power-Up Punch"]]
+			}]
+		},
 		"kecleon": {
 			"flags": {},
 			"sets": [{
@@ -7750,6 +7786,17 @@
 				"moves": [["Dragon Dance"], ["Icicle Crash"], ["Safeguard"], ["Waterfall"]]
 			}]
 		},
+		"lickilicky": {
+			"flags": {},
+			"sets": [{
+				"species": "Lickilicky",
+				"item": ["Leftovers"],
+				"ability": ["Unaware"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": "Relaxed",
+				"moves": [["Wish"], ["Toxic"], ["Protect"], ["Seismic Toss"]]
+			}]
+		},
 		"ludicolo": {
 			"flags": {},
 			"sets": [{
@@ -7821,6 +7868,13 @@
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": "Adamant",
 				"moves": [["Close Combat"], ["Knock Off"], ["Facade"], ["Bullet Punch"]]
+			}, {
+				"species": "Machamp",
+				"item": ["Assault Vest"],
+				"ability": ["No Guard"],
+				"evs": {"hp": 252, "atk": 252, "spe": 4},
+				"nature": "Adamant",
+				"moves": [["Dynamic Punch"], ["Knock Off"], ["Zap Cannon"], ["Bullet Punch"]]
 			}]
 		},
 		"malamar": {
@@ -7853,7 +7907,7 @@
 				"ability": ["Water Absorb"],
 				"evs": {"hp": 252, "def": 4, "spd": 252},
 				"nature": "Calm",
-				"moves": [["Scald"], ["Roost"], ["Defog"], ["Toxic"]]
+				"moves": [["Scald"], ["Roost"], ["Defog"], ["Toxic", "U-Turn", "Whirlwind"]]
 			}]
 		},
 		"manomoth": {
@@ -7894,6 +7948,25 @@
 				"evs": {"def": 4, "spa": 252, "spe": 252},
 				"nature": "Timid",
 				"moves": [["Quiver Dance"], ["Hydro Pump"], ["Bug Buzz"], ["Roost", "Giga Drain", "Sticky Web"]]
+			}]
+		},
+		"mesprit": {
+			"flags": {},
+			"sets": [{
+				"species": "Mesprit",
+				"item": ["Colbur Berry"],
+				"ability": ["Levitate"],
+				"evs": {"hp": 252, "def": 240, "spe": 16},
+				"nature": "Bold",
+				"moves": [["Psychic"], ["U-turn"], ["Stealth Rock"], ["Recover"]]
+			}, {
+				"species": "Mesprit",
+				"item": ["Leftovers"],
+				"ability": ["Levitate"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Psychic"], ["Ice Beam"], ["Recover"], ["Calm Mind"]]
 			}]
 		},
 		"metagross": {
@@ -8729,6 +8802,13 @@
 				"evs": {"atk": 252, "spd": 4, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Close Combat"], ["Leaf Blade"], ["Stone Edge"], ["Swords Dance"]]
+			}, {
+				"species": "Virizion",
+				"item": ["Leftovers"],
+				"ability": ["Justified"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Close Combat"], ["Horn Leech"], ["Stone Edge"], ["Swords Dance"]]
 			}]
 		},
 		"watchog": {
@@ -8804,7 +8884,7 @@
 				"ability": ["Tinted Lens"],
 				"evs": {"spa": 252, "spd": 4, "spe": 252},
 				"nature": "Timid",
-				"moves": [["Bug Buzz"], ["Air Slash"], ["U-turn"], ["Giga Drain"]]
+				"moves": [["Bug Buzz"], ["Hurricane"], ["U-turn"], ["Giga Drain"]]
 			}]
 		},
 		"zygarde10": {
