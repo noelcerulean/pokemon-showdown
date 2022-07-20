@@ -264,7 +264,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {heal: 1, snatch: 1},
-		onHit(source, move) {
+		onTryHit(source, move) {
 			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
 			for (const condition of sideConditions) {
 				if (source.side.removeSideCondition(condition)) {
