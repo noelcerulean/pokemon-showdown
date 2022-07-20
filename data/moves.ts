@@ -266,14 +266,18 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {heal: 1, snatch: 1},
 		onTryHit(source, move) {
 			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+			let hazardsCleared = false;
 			for (const condition of sideConditions) {
 				if (source.side.removeSideCondition(condition)) {
-					this.add('-activate', source, 'move: Aggregate');
-					this.heal(source.baseMaxhp / 2);
+					hazardsCleared = true;
 					this.add('-sideend', source.side, this.dex.conditions.get(condition).name, '[from] move: Aggregate', '[of] ' + source);
-				} else {
-					this.add('-fail', source, 'move: Aggregate');
 				}
+			}
+			if (hazardsCleared === true) {
+				this.add('-activate', source, 'move: Aggregate');
+				this.heal(source.baseMaxhp / 2);
+			} else {
+				this.add('-fail', source, 'move: Aggregate');
 			}
 		},
 		secondary: null,
