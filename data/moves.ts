@@ -268,8 +268,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
 			for (const condition of sideConditions) {
 				if (source.side.removeSideCondition(condition)) {
+					this.add('-activate', source, 'move: Aggregate');
 					this.heal(source.baseMaxhp / 2);
 					this.add('-sideend', source.side, this.dex.conditions.get(condition).name, '[from] move: Aggregate', '[of] ' + source);
+				} else {
+					this.add('-fail', source, 'move: Aggregate');
 				}
 			}
 		},
