@@ -10969,6 +10969,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	golem: {
 		learnset: {
+			aggregate: ["7L1"],
 			ancientpower: ["4T"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			bide: ["8V", "7V"],
@@ -11064,6 +11065,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	golemalola: {
 		learnset: {
+			aggregate: ["7L1"],
 			allyswitch: ["7T"],
 			attract: ["7M"],
 			bide: ["8V"],
@@ -49623,6 +49625,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wormadam: {
 		learnset: {
+			aggregate: ["7L30"],
 			allyswitch: ["7T"],
 			attract: ["7M", "7L41", "6M", "6L41", "5M", "5L41", "4M", "4L41"],
 			aromatherapy: ["7L30"],
@@ -49697,6 +49700,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wormadamsandy: {
 		learnset: {
+			aggregate: ["7L30"],
 			allyswitch: ["7T"],
 			attract: ["7M", "7L41", "6M", "6L41", "5M", "5L41", "4M", "4L41"],
 			bugbite: ["7T", "7L1", "6T", "6L15", "5T", "5L15", "4T", "4L15"],
@@ -49766,6 +49770,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wormadamtrash: {
 		learnset: {
+			aggregate: ["7L30"],
 			allyswitch: ["7T"],
 			attract: ["7M", "7L41", "6M", "6L41", "5M", "5L41", "4M", "4L41"],
 			barrage: ["7L24"],
@@ -61192,6 +61197,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	trubbish: {
 		learnset: {
 			acidspray: ["8L6", "7L12", "6L12", "5L12"],
+			aggregate: ["7L36"],
 			amnesia: ["8M", "8L9", "7L40", "6L40", "5L40"],
 			attract: ["8M", "7M", "6M", "5M"],
 			autotomize: ["8E", "7E"],
@@ -61217,6 +61223,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			painsplit: ["8L37", "7T", "6T", "5T"],
 			payback: ["8M", "7M", "6M", "5M"],
 			poisongas: ["8L1", "7L1", "6L1", "5L1"],
+			poisonjab: ["7M"],
 			pound: ["8L1", "7L1", "6L1", "5L1"],
 			protect: ["8M", "7M", "6M", "5M"],
 			raindance: ["8M", "7M", "6M", "5M"],
@@ -61253,9 +61260,11 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	garbodor: {
 		learnset: {
 			acidspray: ["8L1", "7L12", "6L12", "5L12"],
+			aggregate: ["7L40"],
 			amnesia: ["8M", "8L9", "7L46", "6L46", "5L46"],
 			attract: ["8M", "7M", "6M", "5M"],
 			belch: ["8L33", "7L49", "6L49"],
+			block: ["7T"],
 			bodypress: ["8M"],
 			bodyslam: ["8M", "8L24", "7L25", "6L25", "5L25"],
 			clearsmog: ["8L12", "7L34", "6L34", "5L34"],
@@ -61269,6 +61278,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			endure: ["8M"],
 			explosion: ["8L48", "7M", "7L59", "6M", "6L59", "5M", "5L59"],
 			facade: ["8M", "7M", "6M", "5M"],
+			fireblast: ["7M"],
+			flamethrower: ["7M"],
 			fling: ["8M", "7M", "6M", "5M"],
 			focusblast: ["8M", "7M", "6M", "5M"],
 			frustration: ["7M", "6M", "5M"],
@@ -61278,10 +61289,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			hiddenpower: ["7M", "6M", "5M"],
 			hyperbeam: ["8M", "7M", "6M", "5M"],
 			infestation: ["7M", "6M"],
+			irondefense: ["7T"],
+			knockoff: ["7T"],
 			metalclaw: ["8L1"],
 			painsplit: ["8L39", "7T", "6T", "5T"],
 			payback: ["8M", "7M", "6M", "5M"],
 			poisongas: ["8L1", "7L1", "6L1", "5L1"],
+			poisonjab: ["7M"],
 			pound: ["8L1", "7L1", "6L1", "5L1"],
 			protect: ["8M", "7M", "6M", "5M"],
 			psychic: ["8M", "7M", "6M", "5M"],

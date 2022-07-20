@@ -3452,7 +3452,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	garbodor: {
 		randomBattleMoves: ["gunkshot", "haze", "painsplit", "spikes", "stompingtantrum", "toxic", "toxicspikes"],
 		randomDoubleBattleMoves: ["drainpunch", "gunkshot", "painsplit", "protect", "toxicspikes"],
-		tier: "NU",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	zorua: {

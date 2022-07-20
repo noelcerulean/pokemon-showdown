@@ -1054,6 +1054,16 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 87,
 	},
+	dumpsterdiving: {
+		onResidualOrder: 5,
+		onResidualSubOrder: 4,
+		onResidual(pokemon) {
+			this.heal(pokemon.baseMaxhp / 16);
+		},
+		name: "Dumpster Diving",
+		rating: 4,
+		num: -537,
+	},
 	earlybird: {
 		name: "Early Bird",
 		// Implemented in statuses.js

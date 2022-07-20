@@ -367,6 +367,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		damage: "  ([POKEMON] was hurt by its Dry Skin.)",
 	},
+	dumpsterdiving: {
+		name: "Dumpster Diving",
+		desc: "This Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn.",
+		shortDesc: "This Pokemon heals 1/16 of its max HP each turn.",
+
+		heal: "  [POKEMON] ate its trash!",
+	},
 	earlybird: {
 		name: "Early Bird",
 		shortDesc: "This Pokemon's sleep counter drops by 2 instead of 1.",

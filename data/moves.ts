@@ -255,6 +255,30 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {spe: 1}},
 		contestType: "Cute",
 	},
+	aggregate: {
+		num: -530,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Aggregate",
+		pp: 10,
+		priority: 0,
+		flags: {heal: 1, snatch: 1},
+		onHit(source, move) {
+			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+			for (const condition of sideConditions) {
+				if (source.side.removeSideCondition(condition)) {
+					this.heal(source.baseMaxhp / 2);
+					this.add('-sideend', source.side, this.dex.conditions.get(condition).name, '[from] move: Aggregate', '[of] ' + source);
+				}
+			}
+		},
+		secondary: null,
+		target: "self",
+		type: "Normal",
+		zMove: {boost: {def: 1, spd: 1}},
+		contestType: "Clever",
+	},
 	agility: {
 		num: 97,
 		accuracy: true,

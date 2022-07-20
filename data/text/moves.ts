@@ -84,6 +84,13 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		activate: "  [TARGET] took the kind offer!",
 	},
+	aggregate: {
+		name: "Aggregate",
+		desc: "All hazards are removed from the user's side of the field and heals 50% HP. If no hazards were present, this move fails.",
+		shortDesc: "If hazards by user, clears them/heals 50% HP.",
+
+		heal: "  [POKEMON] aggregated the hazards around it!",
+	},
 	agility: {
 		name: "Agility",
 		desc: "Raises the user's Speed by 2 stages.",

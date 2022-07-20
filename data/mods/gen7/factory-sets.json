@@ -1585,6 +1585,31 @@
 				"moves": [["Swords Dance"], ["Close Combat"], ["Zen Headbutt"], ["Knock Off"]]
 			}]
 		},
+		"garbodor": {
+			"flags": {},
+			"sets": [{
+				"species": "Garbodor",
+				"item": ["Choice Band"],
+				"ability": ["Stench"],
+				"evs": {"hp": 252, "atk": 252, "spe": 4},
+				"nature": "Adamant",
+				"moves": [["Gunk Shot"], ["Knock Off"], ["Drain Punch"], ["Explosion", "Spikes", "Toxic Spikes"]]
+			} ,{
+				"species": "Garbodor",
+				"item": ["Black Sludge"],
+				"ability": ["Dumpster Diving"],
+				"evs": {"hp": 252, "atk": 252, "spe": 4},
+				"nature": "Adamant",
+				"moves": [["Gunk Shot"], ["Protect"], ["Toxic"], ["Stomping Tantrum"]]
+			}, {
+				"species": "Garbodor",
+				"item": ["Black Sludge"],
+				"ability": ["Dumpster Diving"],
+				"evs": {"hp": 252, "def": 252, "spe": 4},
+				"nature": "Impish",
+				"moves": [["Aggregate"], ["Spikes"], ["Gunk Shot"], ["Stomping Tantrum"]]
+			}]
+		},
 		"garchomp": {
 			"flags": {},
 			"sets": [{
