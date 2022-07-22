@@ -12787,11 +12787,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 		num: 6,
 		accuracy: 100,
 		basePower: 40,
-		category: "Physical",
+		category: "Special",
+		defensiveCategory: "Physical",
 		name: "Pay Day",
-		pp: 20,
+		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
+		multihit: 2,
 		onHit() {
 			this.add('-fieldactivate', 'move: Pay Day');
 		},

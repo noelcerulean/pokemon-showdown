@@ -228,6 +228,37 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	amuletcoin: {
+		name: "Amulet Coin",
+		spritenum: 8,
+		fling: {
+			basePower: 60,
+		},
+		onModifyAtkPriority: 1,
+		onModifyAtk(atk, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Meowth') {
+				return this.chainModify(2);
+			}
+		},
+		onModifySpAPriority: 1,
+		onModifySpA(spa, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Meowth') {
+				return this.chainModify(2);
+			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if (
+				(source && source.baseSpecies.num === 52) || (source && source.baseSpecies.num === 52) ||
+				pokemon.baseSpecies.num === 52 || pokemon.baseSpecies.num === 52
+			) {
+				return false;
+			}
+			return true;
+		},
+		itemUser: ["Meowth"],
+		num: -514,
+		gen: 2,
+	},
 	apicotberry: {
 		name: "Apicot Berry",
 		spritenum: 10,

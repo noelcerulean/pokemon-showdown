@@ -60,6 +60,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Ampharosite",
 		desc: "If held by an Ampharos, this item allows it to Mega Evolve in battle.",
 	},
+	amuletcoin: {
+		name: "Amulet Coin",
+		desc: "If held by a Meowth, its Attack and Sp. Atk are doubled.",
+	},
 	apicotberry: {
 		name: "Apicot Berry",
 		desc: "Raises holder's Sp. Def by 1 stage when at 1/4 max HP or less. Single use.",

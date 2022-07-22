@@ -390,9 +390,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	persian: {
-		randomBattleMoves: ["fakeout", "knockoff", "return", "taunt", "uturn"],
+		randomBattleMoves: ["fakeout", "happyhour", "knockoff", "payday", "psychic", "return", "snarl", "taunt", "uturn"],
 		randomDoubleBattleMoves: ["fakeout", "hypnosis", "knockoff", "protect", "return", "taunt", "uturn"],
-		tier: "(PU)",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	persianalola: {
@@ -3622,9 +3622,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	eelektross: {
-		randomBattleMoves: ["flamethrower", "gigadrain", "hiddenpowerice", "knockoff", "superpower", "thunderbolt", "uturn"],
+		randomBattleMoves: ["flamethrower", "gigadrain", "hiddenpowerice", "knockoff", "parasiticdrain", "superpower", "thunderbolt", "uturn"],
 		randomDoubleBattleMoves: ["flamethrower", "gigadrain", "knockoff", "protect", "thunderbolt", "uturn", "voltswitch"],
-		tier: "PU",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	eelektrossmrlamprey: {
@@ -4542,7 +4542,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	shiinotic: {
 		randomBattleMoves: ["leechseed", "moonblast", "spore", "strengthsap", "substitute"],
 		randomDoubleBattleMoves: ["gigadrain", "leechseed", "moonblast", "protect", "spore", "strengthsap"],
-		tier: "(PU)",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	salandit: {

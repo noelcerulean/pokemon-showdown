@@ -1436,6 +1436,24 @@
 				"moves": [["Toxic Spikes"], ["Roost"], ["U-Turn"], ["Sludge Bomb"]]
 			}]
 		},
+		"eelektross": {
+			"flags": {},
+			"sets": [{
+				"species": "Eelektross",
+				"item": ["Leftovers"],
+				"ability": ["Levitate"],
+				"evs": {"hp": 252, "atk": 4, "spd": 252},
+				"nature": "Careful",
+				"moves": [["Parasitic Drain"], ["Leech Life", "Fire Punch", "Aqua Tail"], ["Thunder Punch"], ["Coil"]]
+			}, {
+				"species": "Eelektross",
+				"item": ["Leftovers"],
+				"ability": ["Levitate"],
+				"evs": {"hp": 252, "spa": 252, "spe": 4},
+				"nature": "Modest",
+				"moves": [["Parasitic Drain"], ["Volt Switch"], ["Flamethrower"], ["Giga Drain"]]
+			}]
+		},
 		"emboar": {
 			"flags": {},
 			"sets": [{
@@ -2810,6 +2828,24 @@
 				"moves": [["Scald"], ["U-turn"], ["Roost"], ["Hurricane", "Defog"]]
 			}]
 		},
+		"persian": {
+			"flags": {},
+			"sets": [{
+				"species": "Persian",
+				"item": ["Choice Specs"],
+				"ability": ["Technician"],
+				"evs": {"spa": 252, "atk": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Pay Day"], ["Psychic"], ["Hidden Power Fighting"], ["U-Turn", "Switcheroo"]]
+			}, {
+				"species": "Persian",
+				"item": ["Normalium Z"],
+				"ability": ["Technician"],
+				"evs": {"spa": 252, "atk": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Pay Day"], ["Psychic"], ["Hidden Power Fighting"], ["Happy Hour"]]
+			}]
+		},
 		"phione": {
 			"flags": {},
 			"sets": [{
@@ -2967,6 +3003,26 @@
 				"evs": {"hp": 252, "atk": 252, "spe": 4},
 				"nature": "Adamant",
 				"moves": [["Sucker Punch"], ["Swords Dance"], ["Toxic Spikes"], ["Earthquake"]]
+			}]
+		},
+		"shiinotic": {
+			"flags": {},
+			"sets": [{
+				"species": "Shiinotic",
+				"item": ["Leftovers"],
+				"ability": ["Misty Cover"],
+				"evs": {"hp": 248, "def": 252, "spd": 8},
+				"ivs": {"atk": 0},
+				"nature": "Bold",
+				"moves": [["Strength Sap"], ["Calm Mind"], ["Misty Terrain"], ["Moonblast"]]
+			}, {
+				"species": "Shiinotic",
+				"item": ["Toxic Orb"],
+				"ability": ["Poison Heal"],
+				"evs": {"hp": 248, "def": 252, "spd": 8},
+				"ivs": {"atk": 0},
+				"nature": "Bold",
+				"moves": [["Strength Sap"], ["Calm Mind"], ["Giga Drain"], ["Moonblast"]]
 			}]
 		},
 		"simipour": {
