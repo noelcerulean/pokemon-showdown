@@ -187,6 +187,23 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 0.5,
 		num: 107,
 	},
+	antlure: {
+		onFoeTrapPokemon(pokemon) {
+			if (this.effectState.target.activeTurns >= 2) return;
+			if (!pokemon.isAdjacent(this.effectState.target)) {
+				pokemon.tryTrap(true);
+			}
+		},
+		onFoeMaybeTrapPokemon(pokemon, source) {
+			if (this.effectState.target.activeTurns >= 2) return;
+			if (!source) source = this.effectState.target;
+			if (!source || !pokemon.isAdjacent(source)) return;
+			pokemon.maybeTrapped = true;
+		},
+		name: "Antlure",
+		rating: 5,
+		num: -538,
+	},
 	arenatrap: {
 		onFoeTrapPokemon(pokemon) {
 			if (!pokemon.isAdjacent(this.effectState.target)) return;

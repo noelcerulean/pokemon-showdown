@@ -58,6 +58,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		activate: "  [POKEMON] shuddered!",
 	},
+	antlure: {
+		name: "Antlure",
+		desc: "Prevents adjacent opposing Pokemon from choosing to switch out for one turn.",
+		shortDesc: "Prevents adjacent foes from choosing to switch for one turn.",
+	},
 	arenatrap: {
 		name: "Arena Trap",
 		desc: "Prevents adjacent opposing Pokemon from choosing to switch out unless they are immune to trapping or are airborne.",

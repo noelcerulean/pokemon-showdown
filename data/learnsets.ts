@@ -23719,6 +23719,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			headsmash: ["7L1"],
 			headbutt: ["7L1"],
 			heartstamp: ["7L1"],
+			helpinghand: ["7L1"],
 			hiddenpower: ["7M"],
 			holdback: ["7L1"],
 			holdhands: ["7L1"],
