@@ -2120,7 +2120,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onResidual(pokemon) {
 			pokemon.trySetStatus('frz', pokemon);
 		},
-		num: -514,
+		num: -515,
 		gen: 7,
 	},
 	fullincense: {
