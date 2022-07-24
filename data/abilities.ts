@@ -190,7 +190,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	antlure: {
 		onFoeTrapPokemon(pokemon) {
 			if (this.activePokemon !== null) {
-				if (this.activePokemon.activeTurns >= 1) return;
+				if (this.activePokemon.activeTurns >= 2) return;
 			}
 			if (!pokemon.isAdjacent(this.effectState.target)) {
 				pokemon.tryTrap(true);
@@ -198,7 +198,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onFoeMaybeTrapPokemon(pokemon, source) {
 			if (this.activePokemon !== null) {
-				if (this.activePokemon.activeTurns >= 1) return;
+				if (this.activePokemon.activeTurns >= 2) return;
 			}
 			if (!source) source = this.effectState.target;
 			if (!source || !pokemon.isAdjacent(source)) return;
