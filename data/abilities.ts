@@ -190,9 +190,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	antlure: {
 		onStart(pokemon) {
 			this.field.addPseudoWeather('fairylock');
-			if (!pokemon.activeTurns) {
-				this.field.pseudoWeather['fairylock'].duration = 2;
-			} else {
+			if (this.queue.willMove(pokemon)) {
 				this.field.pseudoWeather['fairylock'].duration = 1;
 			}
 		},
