@@ -15150,7 +15150,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Poipole",
 		types: ["Poison"],
 		gender: "N",
-		baseStats: {hp: 67, atk: 73, def: 67, spa: 87, spd: 67, spe: 87},
+		baseStats: {hp: 67, atk: 73, def: 67, spa: 89, spd: 67, spe: 89},
 		abilities: {0: "Beast Boost"},
 		heightm: 0.6,
 		weightkg: 1.8,
