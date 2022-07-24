@@ -190,8 +190,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	antlure: {
 		onStart(pokemon) {
 			this.field.addPseudoWeather('fairylock');
-			if (this.queue.willMove(pokemon)) {
+			if (pokemon.hp) {
 				this.field.pseudoWeather['fairylock'].duration = 1;
+			}
+		},
+		onResidualOrder: 29,
+		onResidual(pokemon) {
+			if (!pokemon.activeTurns) {
+				this.field.pseudoWeather['fairylock'].duration = 2;
 			}
 		},
 		onTrapPokemonPriority: -10,
