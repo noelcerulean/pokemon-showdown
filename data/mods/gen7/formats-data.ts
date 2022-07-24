@@ -1017,7 +1017,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	glaceon: {
 		randomBattleMoves: ["healbell", "hiddenpowerground", "freezedry", "icebeam", "protect", "shadowball", "surf", "toxic", "wish"],
 		randomDoubleBattleMoves: ["freezedry", "helpinghand", "hiddenpowerground", "icebeam", "protect", "surf", "toxic"],
-		tier: "UU",
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	porygon: {
@@ -1305,7 +1305,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	ambipom: {
 		randomBattleMoves: ["fakeout", "knockoff", "lowkick", "return", "seedbomb", "switcheroo", "uturn"],
 		randomDoubleBattleMoves: ["fakeout", "icepunch", "knockoff", "lowkick", "protect", "return", "uturn"],
-		tier: "NU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	sunkern: {
@@ -1598,7 +1598,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	stantler: {
 		randomBattleMoves: ["doubleedge", "earthquake", "jumpkick", "megahorn", "suckerpunch"],
 		randomDoubleBattleMoves: ["earthquake", "jumpkick", "megahorn", "protect", "return", "suckerpunch"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	smeargle: {
@@ -3468,9 +3468,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	cinccino: {
-		randomBattleMoves: ["bulletseed", "knockoff", "rockblast", "tailslap", "uturn"],
+		randomBattleMoves: ["bulletseed", "knockoff", "rockblast", "sweepup", "tailslap", "uturn"],
 		randomDoubleBattleMoves: ["bulletseed", "knockoff", "protect", "rockblast", "tailslap", "uturn"],
-		tier: "PUBL",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	gothita: {
@@ -3729,7 +3729,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	bouffalant: {
 		randomBattleMoves: ["earthquake", "headcharge", "megahorn", "stoneedge", "superpower", "swordsdance"],
 		randomDoubleBattleMoves: ["headcharge", "megahorn", "protect", "stompingtantrum", "stoneedge", "superpower", "swordsdance"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	rufflet: {
@@ -4744,7 +4744,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	komala: {
 		randomBattleMoves: ["earthquake", "playrough", "return", "suckerpunch", "uturn", "woodhammer"],
 		randomDoubleBattleMoves: ["playrough", "protect", "return", "shadowclaw", "suckerpunch", "swordsdance", "uturn", "woodhammer"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	turtonator: {

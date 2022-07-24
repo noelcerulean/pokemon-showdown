@@ -6450,6 +6450,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "The user restores its HP based on its Stockpile count. Restores 1/4 of its maximum HP if it's 1, 1/2 of its maximum HP if it's 2, both rounded half down, and all of its HP if it's 3. Fails if the user's Stockpile count is 0. The user's Stockpile count resets to 0.",
 		},
 	},
+	sweepup: {
+		name: "Sweep Up",
+		desc: "Hits twice. Clears Spikes, Toxic Spikes, Stealth Rock, and Sticky Web. Additionally, clears the terrain.",
+		shortDesc: "Clears hazards/terrain. Hits twice.",
+	},
 	sweetkiss: {
 		name: "Sweet Kiss",
 		shortDesc: "Causes the target to become confused.",

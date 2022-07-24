@@ -2108,6 +2108,21 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 2,
 		isPokeball: true,
 	},
+	frostorb: {
+		name: "Frost Orb",
+		spritenum: 755,
+		fling: {
+			basePower: 30,
+			status: 'frz',
+		},
+		onResidualOrder: 28,
+		onResidualSubOrder: 3,
+		onResidual(pokemon) {
+			pokemon.trySetStatus('frz', pokemon);
+		},
+		num: -514,
+		gen: 7,
+	},
 	fullincense: {
 		name: "Full Incense",
 		spritenum: 155,

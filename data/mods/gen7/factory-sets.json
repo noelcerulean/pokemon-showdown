@@ -1703,6 +1703,17 @@
 				"moves": [["Psychic Fangs"], ["Jump Kick"], ["Crunch"], ["Swords Dance"]]
 			}]
 		},
+		"glaceon": {
+			"flags": {},
+			"sets": [{
+				"species": "Glaceon",
+				"item": ["Life Orb", "Icium Z"],
+				"ability": ["Slush Rush"],
+				"evs": {"hp": 4, "spa": 252, "spe": 252},
+				"nature": "Modest",
+				"moves": [["Hail"], ["Freeze-Dry"], ["Surf"], ["Blizzard", "Hidden Power Fire"]]
+			}]
+		},
 		"gliscor": {
 			"flags": {},
 			"sets": [{
@@ -4796,17 +4807,6 @@
 				"moves": [["Shadow Ball"], ["Sludge Wave"], ["Focus Blast"], ["Trick", "Thunderbolt"]]
 			}]
 		},
-		"glaceon": {
-			"flags": {},
-			"sets": [{
-				"species": "Glaceon",
-				"item": ["Life Orb", "Icium Z"],
-				"ability": ["Slush Rush"],
-				"evs": {"hp": 4, "spa": 252, "spe": 252},
-				"nature": "Modest",
-				"moves": [["Hail"], ["Freeze-Dry"], ["Surf"], ["Blizzard", "Hidden Power Fire"]]
-			}]
-		},
 		"glalie": {
 			"flags": {
 				"megaOnly": 1
@@ -6809,6 +6809,24 @@
 				"moves": [["Stone Edge"], ["Ice Fang"], ["Earthquake"], ["Pursuit", "Hone Claws"]]
 			}]
 		},
+		"ambipom": {
+			"flags": {},
+			"sets": [{
+				"species": "Ambipom",
+				"item": ["Life Orb"],
+				"ability": ["Technician"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Fake Out"], ["U-Turn"], ["Return"], ["Pursuit", "Low Kick"]]
+			}, {
+				"species": "Ambipom",
+				"item": ["Life Orb"],
+				"ability": ["Skill Link"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Knock Off"], ["U-Turn"], ["Tail Slap"], ["Arm Thrust"]]
+			}]
+		},
 		"araquanid": {
 			"flags": {},
 			"sets": [{
@@ -6957,6 +6975,24 @@
 				"evs": {"def": 4, "spa": 252, "spe": 252},
 				"nature": "Modest",
 				"moves": [["Rapid Spin"], ["Dark Pulse"], ["Aura Sphere"], ["Ice Beam"]]
+			}]
+		},
+		"bouffalant": {
+			"flags": {},
+			"sets": [{
+				"species": "Bouffalant",
+				"item": ["Choice Band"],
+				"ability": ["Reckless"],
+				"evs": {"hp": 252, "atk": 252, "spe": 4},
+				"nature": "Adamant",
+				"moves": [["Head Charge"], ["Earthquake"], ["Pursuit"], ["Wild Charge"]]
+			}, {
+				"species": "Bouffalant",
+				"item": ["Leftovers"],
+				"ability": ["Sap Sipper"],
+				"evs": {"hp": 252, "atk": 252, "spe": 4},
+				"nature": "Adamant",
+				"moves": [["Head Charge"], ["Substitute"], ["Earthquake"], ["Pursuit"]]
 			}]
 		},
 		"braviary": {
@@ -7134,6 +7170,24 @@
 				"evs": {"hp": 252, "def": 252, "spd": 4},
 				"nature": "Relaxed",
 				"moves": [["Wrap"], ["Perish Song"], ["Recover"], ["Protect"]]
+			}]
+		},
+		"cinccino": {
+			"flags": {},
+			"sets": [{
+				"species": "Cinccino",
+				"item": ["Choice Band"],
+				"ability": ["Technician"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Sweep Up"], ["U-Turn"], ["Knock Off"], ["Wake-Up Slap"]]
+			}, {
+				"species": "Cinccino",
+				"item": ["Choice Band"],
+				"ability": ["Skill Link"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Tail Slap"], ["U-Turn"], ["Knock Off"], ["Bullet Seed"]]
 			}]
 		},
 		"cloyster": {
@@ -7850,6 +7904,17 @@
 				"evs": {"spa": 252, "spd": 4, "spe": 252},
 				"nature": "Timid",
 				"moves": [["Focus Energy"], ["Draco Meteor"], ["Hydro Pump"], ["Substitute"]]
+			}]
+		},
+		"komala": {
+			"flags": {},
+			"sets": [{
+				"species": "Komala",
+				"item": ["Assault Vest"],
+				"ability": ["Comatose"],
+				"evs": {"hp": 252, "spa": 252, "spe": 4},
+				"nature": "Adamant",
+				"moves": [["U-Turn"], ["Sucker Punch", "Earthquake"], ["Return"], ["Rapid Spin"]]
 			}]
 		},
 		"kricketune": {
@@ -8644,6 +8709,38 @@
 				"evs": {"hp": 188, "def": 128, "spd": 192},
 				"nature": "Careful",
 				"moves": [["Curse"], ["Frustration"], ["Rest"], ["Earthquake"]]
+			}]
+		},
+		"stantler": {
+			"flags": {},
+			"sets": [{
+				"species": "Stantler",
+				"item": ["Choice Band", "Choice Scarf"],
+				"ability": ["Antlure"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["U-Turn"], ["Jump Kick", "Earthquake"], ["Return"], ["Throat Chop"]]
+			}, {
+				"species": "Stantler",
+				"item": ["Choice Specs", "Choice Scarf"],
+				"ability": ["Antlure"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["U-Turn"], ["Hyper Voice"], ["Earth Power"], ["Ice Beam", "Shadow Ball", "Trick"]]
+			}, {
+				"species": "Stantler",
+				"item": ["Eject Button"],
+				"ability": ["Antlure"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["U-Turn"], ["Hyper Voice"], ["Earth Power"], ["Ice Beam", "Trick"]]
+			}, {
+				"species": "Stantler",
+				"item": ["Leftovers"],
+				"ability": ["Antlure"],
+				"evs": {"hp": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["U-Turn"], ["Thunder Wave"], ["Stealth Rock"], ["Wish"]]
 			}]
 		},
 		"steelix": {

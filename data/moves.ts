@@ -7975,10 +7975,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 	headcharge: {
 		num: 543,
 		accuracy: 100,
-		basePower: 120,
+		basePower: 150,
 		category: "Physical",
 		name: "Head Charge",
-		pp: 15,
+		pp: 10,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		recoil: [1, 4],
@@ -19564,6 +19564,43 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Tough",
 	},
+	sweepup: {
+		num: -531,
+		accuracy: 90,
+		basePower: 40,
+		category: "Physical",
+		name: "Sweep Up",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		multihit: 2,
+		onHit(target, source, move) {
+			const removeTarget = [
+				'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+			];
+			const removeAll = [
+				'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+			];
+			for (const targetCondition of removeTarget) {
+				if (target.side.removeSideCondition(targetCondition)) {
+					if (!removeAll.includes(targetCondition)) continue;
+					this.add('-sideend', target.side, this.dex.conditions.get(targetCondition).name, '[from] move: Sweep Up', '[of] ' + source);
+				}
+			}
+			for (const sideCondition of removeAll) {
+				if (source.side.removeSideCondition(sideCondition)) {
+					this.add('-sideend', source.side, this.dex.conditions.get(sideCondition).name, '[from] move: Sweep Up', '[of] ' + source);
+				}
+			}
+			this.field.clearTerrain();
+		},
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+		zMove: {basePower: 140},
+		maxMove: {basePower: 120},
+		contestType: "Cool",
+	},
 	sweetkiss: {
 		num: 186,
 		accuracy: 75,
@@ -19781,7 +19818,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	tailslap: {
 		num: 541,
-		accuracy: 85,
+		accuracy: 90,
 		basePower: 25,
 		category: "Physical",
 		name: "Tail Slap",

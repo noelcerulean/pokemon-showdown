@@ -60,8 +60,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	antlure: {
 		name: "Antlure",
-		desc: "Prevents adjacent opposing Pokemon from choosing to switch out for one turn.",
-		shortDesc: "Prevents adjacent foes from choosing to switch for one turn.",
+		desc: "Immunity from trapping. Prevents adjacent opposing Pokemon from choosing to switch out for one turn.",
+		shortDesc: "Trap immunity. Prevents adjacent foes from choosing to switch for one turn.",
 	},
 	arenatrap: {
 		name: "Arena Trap",
