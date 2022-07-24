@@ -189,6 +189,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	antlure: {
 		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Antlure');
 			this.field.addPseudoWeather('fairylock');
 			if (pokemon.hp) {
 				this.field.pseudoWeather['fairylock'].duration = 1;
