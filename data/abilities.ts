@@ -188,21 +188,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 107,
 	},
 	antlure: {
-		onFoeTrapPokemon(pokemon) {
-			if (this.activePokemon !== null) {
-				if (this.activePokemon.activeTurns >= 2) return;
-			}
-			if (!pokemon.isAdjacent(this.effectState.target)) {
-				pokemon.tryTrap(true);
+		onStart(pokemon) {
+			this.field.addPseudoWeather('fairylock');
+			if (!(this.lastMove?.selfSwitch || this.lastMove?.forceSwitch)) {
+				this.field.pseudoWeather['fairylock'].duration = 1;
 			}
 		},
-		onFoeMaybeTrapPokemon(pokemon, source) {
-			if (this.activePokemon !== null) {
-				if (this.activePokemon.activeTurns >= 2) return;
-			}
-			if (!source) source = this.effectState.target;
-			if (!source || !pokemon.isAdjacent(source)) return;
-			pokemon.maybeTrapped = true;
+		onTrapPokemonPriority: -10,
+		onTrapPokemon(pokemon) {
+			pokemon.trapped = pokemon.maybeTrapped = false;
 		},
 		name: "Antlure",
 		rating: 5,
