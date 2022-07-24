@@ -191,9 +191,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onStart(pokemon) {
 			this.field.addPseudoWeather('fairylock');
 			if (this.lastMove?.selfSwitch || this.lastMove?.forceSwitch) {
-				this.field.pseudoWeather['fairylock'].duration = 2;
+				this.field.pseudoWeather['fairylock'].duration = 3;
 			} else {
-				this.field.pseudoWeather['fairylock'].duration = 1;
+				this.field.pseudoWeather['fairylock'].duration = 2;
 			}
 		},
 		onTrapPokemonPriority: -10,
