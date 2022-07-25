@@ -4849,7 +4849,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	truant: {
 		onStart(pokemon) {
 			pokemon.removeVolatile('truant');
-			if (pokemon.hp > pokemon.maxhp / 2 && pokemon.activeTurns && (pokemon.moveThisTurnResult !== undefined || !this.queue.willMove(pokemon))) {
+			if (pokemon.activeTurns && (pokemon.moveThisTurnResult !== undefined || !this.queue.willMove(pokemon))) {
 				pokemon.addVolatile('truant');
 			}
 		},
@@ -4859,9 +4859,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				this.add('cant', pokemon, 'ability: Truant');
 				return false;
 			}
-			if (pokemon.hp > pokemon.maxhp / 2) {
-				pokemon.addVolatile('truant');
-			}
+			pokemon.addVolatile('truant');
 		},
 		condition: {},
 		name: "Truant",
