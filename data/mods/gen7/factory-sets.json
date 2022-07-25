@@ -6657,6 +6657,17 @@
 				"moves": [["Wish"], ["Brave Bird"], ["U-Turn"], ["Taunt", "Toxic", "Protect"]]
 			}]
 		},
+		"ursaring": {
+			"flags": {},
+			"sets": [{
+				"species": "Ursaring",
+				"item": ["Frost Orb"],
+				"ability": ["Guts", "Quick Feet"],
+				"evs": {"hp": 4, "atk": 252, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Swords Dance"], ["Facade"], ["Crunch"], ["Close Combat"]]
+			}]
+		},
 		"vespiquenarmored": {
 			"flags": {},
 			"sets": [{
@@ -7491,6 +7502,17 @@
 				"moves": [["Dragon Hammer"], ["Wood Hammer"], ["Earthquake"], ["Knock Off"]]
 			}]
 		},
+		"exploud": {
+			"flags": {},
+			"sets": [{
+				"species": "Exploud",
+				"item": ["Choice Specs"],
+				"ability": ["Scrappy"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Boomburst"], ["Thunderbolt"], ["Fire Blast"], ["Focus Blast"]]
+			}]
+		},
 		"floetteeternal": {
 			"flags": {},
 			"sets": [{
@@ -7991,6 +8013,17 @@
 				"evs": {"hp": 252, "def": 252, "spd": 4},
 				"nature": "Relaxed",
 				"moves": [["Wish"], ["Toxic"], ["Protect"], ["Seismic Toss"]]
+			}]
+		},
+		"lopunny": {
+			"flags": {},
+			"sets": [{
+				"species": "Lopunny",
+				"item": ["Life Orb"],
+				"ability": ["Striker"],
+				"evs": {"hp": 4, "atk": 252, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["High Jump Kick"], ["Mega Kick"], ["Ice Punch"], ["Fake Out", "Power-Up Punch"]]
 			}]
 		},
 		"ludicolo": {

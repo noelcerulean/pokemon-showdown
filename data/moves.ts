@@ -11175,7 +11175,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	megakick: {
 		num: 25,
-		accuracy: 75,
+		accuracy: 85,
 		basePower: 120,
 		category: "Physical",
 		name: "Mega Kick",

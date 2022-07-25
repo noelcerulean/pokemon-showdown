@@ -1510,7 +1510,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	ursaring: {
 		randomBattleMoves: ["closecombat", "crunch", "facade", "protect", "swordsdance"],
 		randomDoubleBattleMoves: ["closecombat", "crunch", "facade", "protect", "swordsdance"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	slugma: {
@@ -1896,7 +1896,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	exploud: {
 		randomBattleMoves: ["boomburst", "fireblast", "focusblast", "icebeam", "surf"],
 		randomDoubleBattleMoves: ["boomburst", "fireblast", "focusblast", "hypervoice", "icebeam", "protect"],
-		tier: "NUBL",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	makuhita: {
@@ -2714,9 +2714,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	lopunny: {
-		randomBattleMoves: ["highjumpkick", "icepunch", "return", "switcheroo"],
-		randomDoubleBattleMoves: ["encore", "fakeout", "firepunch", "helpinghand", "protect", "return", "switcheroo", "thunderwave"],
-		tier: "(PU)",
+		randomBattleMoves: ["highjumpkick", "icepunch", "megakick", "switcheroo"],
+		randomDoubleBattleMoves: ["encore", "fakeout", "firepunch", "helpinghand", "megakick", "protect", "switcheroo", "thunderwave"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	lopunnymega: {
