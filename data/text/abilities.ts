@@ -1828,7 +1828,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	truant: {
 		name: "Truant",
-		shortDesc: "This Pokemon skips every other turn instead of using a move.",
+		shortDesc: "When above half HP, skips every other turn instead of using a move.",
 
 		cant: "[POKEMON] is loafing around!",
 	},

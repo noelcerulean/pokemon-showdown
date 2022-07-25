@@ -1602,9 +1602,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	smeargle: {
-		randomBattleMoves: ["destinybond", "spore", "stealthrock", "stickyweb", "whirlwind"],
+		randomBattleMoves: ["aggregate", "destinybond", "parasiticdrain", "spore", "sporeslash", "stealthrock", "stickyweb", "toxicthread", "whirlwind"],
 		randomDoubleBattleMoves: ["fakeout", "followme", "helpinghand", "kingsshield", "spore", "stickyweb", "tailwind", "transform", "wideguard"],
-		tier: "(PU)",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	miltank: {
@@ -1867,9 +1867,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	slaking: {
-		randomBattleMoves: ["earthquake", "firepunch", "gigaimpact", "nightslash", "pursuit", "retaliate"],
+		randomBattleMoves: ["doubleedge", "earthquake", "firepunch", "gigaimpact", "nightslash", "pursuit", "retaliate"],
 		randomDoubleBattleMoves: ["doubleedge", "earthquake", "hammerarm", "nightslash", "retaliate", "rockslide"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	nincada: {

@@ -3155,6 +3155,24 @@
 				"moves": [["Earthquake"], ["Double-Edge"], ["Stone Edge"], ["Wild Charge"]]
 			}]
 		},
+		"smeargle": {
+			"flags": {},
+			"sets": [{
+				"species": "Smeargle",
+				"item": ["Focus Sash"],
+				"ability": ["Prankster"],
+				"evs": {"hp": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Spore", "Spore Slash"], ["Parasitic Drain"], ["Parting Shot"], ["Spider Web"]]
+			}, {
+				"species": "Smeargle",
+				"item": ["Focus Sash"],
+				"ability": ["Prankster"],
+				"evs": {"hp": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Taunt"], ["Destiny Bond"], ["Sticky Web"], ["Spider Web"]]
+			}]
+		},
 		"sneasel": {
 			"flags": {},
 			"sets": [{
@@ -8653,6 +8671,24 @@
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": "Adamant",
 				"moves": [["Sucker Punch"], ["Pursuit"], ["Gunk Shot"], ["Defog"]]
+			}]
+		},
+		"slaking": {
+			"flags": {},
+			"sets": [{
+				"species": "Slaking",
+				"item": ["Life Orb"],
+				"ability": ["Truant"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Pursuit"], ["Earthquake"], ["Double-Edge"], ["Night Slash"]]
+			}, {
+				"species": "Slaking",
+				"item": ["Life Orb"],
+				"ability": ["Truant"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Pursuit"], ["Earthquake"], ["Return"], ["Taunt"]]
 			}]
 		},
 		"slowbro": {
