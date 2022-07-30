@@ -24,7 +24,6 @@ const avatarTable = new Set([
 	'acetrainercouple-gen3', 'acetrainercouple',
 	'acetrainerf-gen1', 'acetrainerf-gen1rb', 'acetrainerf-gen2', 'acetrainerf-gen3', 'acetrainerf-gen3rs', 'acetrainerf-gen4dp', 'acetrainerf-gen4', 'acetrainerf',
 	'acetrainer-gen1', 'acetrainer-gen1rb', 'acetrainer-gen2', 'acetrainer-gen3jp', 'acetrainer-gen3', 'acetrainer-gen3rs', 'acetrainer-gen4dp', 'acetrainer-gen4', 'acetrainer',
-	'acetrainer-gen6xy', 'acetrainerf-gen6xy',
 	'acetrainersnowf',
 	'acetrainersnow',
 	'adrik',
@@ -88,7 +87,7 @@ const avatarTable = new Set([
 	'byron',
 	'cairo',
 	'cart',
-	'caitlin',
+	'caitlin', 'caitlin-gen4',
 	'cameraman',
 	'camper-gen2', 'camper-gen3', 'camper-gen3rs', 'camper',
 	'candice',
@@ -130,8 +129,8 @@ const avatarTable = new Set([
 	'daisy-gen3',
 	'dancer',
 	'dani',
-	'darach',
-	'dawn-gen4pt', 'dawn', 'dawn-legends',
+	'darach', 'darach-caitlin',
+	'dawn-gen4pt', 'dawn',
 	'depotagent',
 	'doctor',
 	'dominique',
@@ -153,7 +152,6 @@ const avatarTable = new Set([
 	'ezekiel',
 	'faina',
 	'faina-imposter',
-	'fairy-tale-girl',
 	'falkner-gen2',
 	'falkner',
 	'fantina',
@@ -179,7 +177,6 @@ const avatarTable = new Set([
 	'guitarist-gen2', 'guitarist-gen3', 'guitarist-gen4', 'guitarist',
 	'gus',
 	'harlequin',
-	'hex-maniac',
 	'hexmaniac-gen3jp', 'hexmaniac-gen3',
 	'hiker-gen1', 'hiker-gen1rb', 'hiker-gen2', 'hiker-gen3', 'hiker-gen3rs', 'hiker-gen4', 'hiker',
 	'hilbert-wonderlauncher', 'hilbert',
@@ -404,8 +401,71 @@ const avatarTableGnomowladny = new Set([
 	'valerie', 'viola', 'wallace-gen6', 'wikstrom', 'winona-gen6', 'wulfric', 'xerosic', 'youngn', 'zinnia',
 ]);
 
+const avatarTableBrumirage = new Set([
+	'adaman', 'agatha-lgpe', 'akari', 'allister', 'archie-gen6', 'arezu', 'avery', 'ballguy', 'bea', 'bede',
+	'bede-leader', 'brendan-contest', 'burnet-radar', 'calaba', 'calem', 'chase', 'cogita', 'cynthia-gen7',
+	'cynthia-masters', 'diantha', 'doctor-gen8', 'elaine', 'gloria', 'gordie', 'hilda-masters2', 'hop',
+	'irida', 'kabu', 'klara', 'koga-lgpe', 'leon', 'leon-tower', 'lian', 'lisia', 'lorelei-lgpe', 'magnolia',
+	'mai', 'marnie', 'may-contest', 'melony', 'milo', 'mina-lgpe', 'mustard', 'mustard-master', 'nessa',
+	'oleana', 'opal', 'peony', 'pesselle', 'phoebe-gen6', 'piers', 'raihan', 'rei', 'rose', 'sabi',
+	'sanqua', 'shielbert', 'sonia', 'sonia-professor', 'sordward', 'sordward-shielbert', 'tateandliza-gen6',
+	'victor', 'victor-dojo', 'volo', 'yellgrunt', 'yellgruntf', 'zisu',
+]);
+
+const avatarTableZacWeavile = new Set([
+	'gloria-dojo', 'shauna',
+]);
+
+const avatarTableKyleDove = new Set([
+	'acetrainerf-gen6', 'acetrainerf-gen6xy', 'acetrainer-gen6', 'acetrainer-gen6xy', 'aquagrunt', 'aquagruntf',
+	'aromalady-gen6', 'artistf-gen6', 'artist-gen6', 'artist-gen8', 'backpacker-gen6', 'backpacker-gen8',
+	'battlegirl-gen6', 'battlegirl-gen6xy', 'beauty-gen6', 'beauty-gen6xy', 'beauty-gen8', 'birdkeeper-gen6',
+	'blackbelt-gen6', 'blackbelt-gen8', 'bugcatcher-gen6', 'bugmaniac-gen6', 'butler', 'cabbie', 'cafemaster',
+	'cameraman-gen6', 'cameraman-gen8', 'camper-gen6', 'chef', 'clerkf-gen8', 'clerk-gen8', 'collector-gen6',
+	'cook', 'dancer-gen8', 'delinquent', 'doctorf-gen8', 'dragontamer-gen6', 'expertf-gen6', 'expert-gen6',
+	'fairytalegirl', 'fisher-gen8', 'fisherman-gen6', 'fisherman-gen6xy', 'freediver', 'furisodegirl-blue',
+	'furisodegirl-white', 'garcon', 'gardener', 'gentleman-gen6', 'gentleman-gen6xy', 'gentleman-gen8',
+	'guitarist-gen6', 'hexmaniac-gen6', 'hiker-gen6', 'hiker-gen8', 'interviewers-gen6', 'kindler-gen6', 'lady-gen6',
+	'lady-gen6oras', 'lass-gen6', 'lass-gen6oras', 'lass-gen8', 'leaguestaff', 'leaguestafff', 'madame-gen6',
+	'madame-gen8', 'maid-gen6', 'model-gen8', 'musician-gen8', 'ninjaboy-gen6', 'owner', 'parasollady-gen6',
+	'picnicker-gen6', 'pokefanf-gen6', 'pokefanf-gen6xy', 'pokefan-gen6', 'pokefan-gen6xy', 'pokekidf-gen8',
+	'pokekid-gen8', 'pokemaniac-gen6', 'pokemonbreederf-gen6', 'pokemonbreederf-gen6xy', 'pokemonbreederf-gen8',
+	'pokemonbreeder-gen6', 'pokemonbreeder-gen6xy', 'pokemonbreeder-gen8', 'pokemonrangerf-gen6', 'pokemonrangerf-gen6xy',
+	'pokemonranger-gen6', 'pokemonranger-gen6xy', 'policeman-gen8', 'postman', 'preschoolerf-gen6', 'preschooler-gen6',
+	'psychic-gen6', 'punkgirl', 'punkguy', 'railstaff', 'reporter-gen6', 'reporter-gen8', 'richboy-gen6', 'richboy-gen6xy',
+	'risingstarf-gen6', 'risingstar-gen6', 'rollerskater', 'rollerskaterf', 'ruinmaniac-gen6', 'sailor-gen6', 'schoolboy',
+	'schoolgirl', 'schoolkidf-gen6', 'schoolkidf-gen8', 'schoolkid-gen6', 'schoolkid-gen8', 'scientistf-gen6',
+	'scientist-gen6', 'scubadiver', 'skytrainer', 'skytrainerf', 'streetthug', 'swimmerf2-gen6', 'swimmerf-gen6',
+	'swimmerf-gen8', 'swimmer-gen6', 'swimmer-gen8', 'teammates', 'tourist', 'touristf', 'touristf2',
+	'triathletebiker-gen6', 'triathleterunner-gen6', 'triathleteswimmer-gen6', 'tuberf-gen6', 'tuber-gen6', 'twins-gen6',
+	'veteranf-gen6', 'veteran-gen6', 'waitress-gen6', 'worker2-gen6', 'workerf-gen8', 'worker-gen6', 'worker-gen8',
+	'youngcouple-gen6', 'youngster-gen6', 'youngster-gen6xy', 'youngster-gen8',
+	'acerola-masters', 'bea-masters', 'blue-masters', 'brendan-masters', 'brock-masters', 'burgh-masters', 'caitlin-masters',
+	'cynthia-masters2', 'cyrus-masters', 'dawn-masters', 'dawn-masters2', 'diantha-masters', 'elesa-masters', 'emmet-masters',
+	'erika-masters', 'erika-masters2', 'ethan-masters', 'giovanni-masters', 'gloria-masters', 'grimsley-masters',
+	'guzma-masters', 'hilbert-masters', 'hilda-masters', 'ingo-masters', 'jasmine-masters', 'korrina-masters', 'kris-masters',
+	'lance-masters', 'leaf-masters', 'leon-masters', 'leon-masters2', 'lillie-masters', 'lillie-masters2', 'lillie-masters3',
+	'lusamine-masters', 'lyra-masters', 'lyra-masters2', 'marnie-masters', 'marnie-masters2', 'may-masters', 'may-masters2',
+	'may-masters3', 'misty-masters', 'morty-masters', 'morty-masters2', 'n-masters', 'n-masters2', 'nessa-masters',
+	'raihan-masters', 'red-masters', 'rosa-masters', 'sabrina-masters', 'serena-masters', 'serena-masters2',
+	'siebold-masters', 'skyla-masters', 'sonia-masters', 'steven-masters', 'steven-masters2', 'volkner-masters',
+]);
+
+const avatarTableHyooppa = new Set([
+	'brendan', 'maxie-gen6', 'may',
+]);
+
+const avatarTableGrapo = new Set([
+	'peonia', 'skyla-masters2', 'volo-ginkgo',
+]);
+
 for (const avatar of avatarTableBeliot419) avatarTable.add(avatar);
 for (const avatar of avatarTableGnomowladny) avatarTable.add(avatar);
+for (const avatar of avatarTableBrumirage) avatarTable.add(avatar);
+for (const avatar of avatarTableZacWeavile) avatarTable.add(avatar);
+for (const avatar of avatarTableKyleDove) avatarTable.add(avatar);
+for (const avatar of avatarTableHyooppa) avatarTable.add(avatar);
+for (const avatar of avatarTableGrapo) avatarTable.add(avatar);
 
 export const crqHandlers: {[k: string]: Chat.CRQHandler} = {
 	userdetails(target, user, trustable) {
