@@ -245,11 +245,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "When this Pokemon is hit by an attack, the Speed of all other Pokemon on the field is lowered by 1 stage.",
 		shortDesc: "If this Pokemon is hit, it lowers the Speed of all other Pokemon on the field 1 stage.",
 	},
-	cunningblade: {
-		name: "Cunning Blade",
-		desc: "This Pokemon's blade-based attacks hit as Special hits and have their power multiplied by 1.2.",
-		shortDesc: "This Pokemon's Blade-based attacks have 1.2x power & are Special Attacks.",
-	},
 	curiousmedicine: {
 		name: "Curious Medicine",
 		shortDesc: "On switch-in, this Pokemon's allies have their stat stages reset to 0.",

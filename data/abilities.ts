@@ -713,21 +713,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 238,
 	},
-	cunningblade: {
-		onBasePowerPriority: 23,
-		onBasePower(basePower, attacker, defender, move) {
-			if (move.flags['blade']) {
-				this.debug('Cunning Blade boost');
-				return this.chainModify([4915, 4096]);
-			}
-		},
-		onModifyMove(move, pokemon) {
-			if (move.flags['blade']) move.category = 'Special';
-		},
-		name: "Cunning Blade",
-		rating: 3.5,
-		num: -539,
-	},
 	curiousmedicine: {
 		onStart(pokemon) {
 			for (const ally of pokemon.adjacentAllies()) {
