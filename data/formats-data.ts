@@ -1498,6 +1498,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	chikoritashadow: {
+		tier: "Uber",
+	},
 	bayleef: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -1505,6 +1508,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	meganium: {
 		isNonstandard: "Past",
 		tier: "Illegal",
+	},
+	meganiumshadow: {
+		tier: "Uber",
 	},
 	cyndaquil: {
 		isNonstandard: "Past",
@@ -1715,6 +1721,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	honchkrowshadow: {
+		tier: "Uber",
+	},
 	misdreavus: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -1726,6 +1735,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	kurstraw: {
 		isNonstandard: "Past",
 		tier: "Illegal",
+	},
+	kurstrawshadow: {
+		tier: "Uber",
 	},
 	pangshi: {
 		isNonstandard: "Past",
@@ -2079,6 +2091,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	sceptilemega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
+	},
+	sceptileshadow: {
+		tier: "Uber",
 	},
 	torchic: {
 		tier: "LC",
@@ -2481,6 +2496,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	cameruptmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
+	},
+	cameruptshadow: {
+		tier: "Uber",
 	},
 	torkoal: {
 		randomBattleMoves: ["earthquake", "lavaplume", "rapidspin", "solarbeam", "stealthrock"],
@@ -3527,6 +3545,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	dewottshadow: {
+		tier: "Uber",
+	},
 	samurott: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -4162,6 +4183,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	fraxure: {
 		tier: "NFE",
 	},
+	fraxureshadow: {
+		tier: "Uber",
+	},
 	haxorus: {
 		randomBattleMoves: ["closecombat", "dragondance", "earthquake", "outrage", "poisonjab"],
 		randomBattleLevel: 78,
@@ -4309,6 +4333,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	zweilous: {
 		tier: "NFE",
+	},
+	zweilousshadow: {
+		tier: "Uber",
 	},
 	hydreigon: {
 		randomBattleMoves: ["darkpulse", "dracometeor", "fireblast", "flashcannon", "nastyplot", "roost", "uturn"],
@@ -4665,6 +4692,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["closecombat", "ironhead", "kingsshield", "shadowclaw", "shadowsneak", "swordsdance"],
 		randomDoubleBattleLevel: 84,
 	},
+	aegislashshadow: {
+		tier: "Uber",
+	},
 	spritzee: {
 		tier: "LC",
 	},
@@ -4981,6 +5011,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	decidueyeshadow: {
+		tier: "Uber",
+	},
 	litten: {
 		tier: "LC",
 	},
@@ -5267,6 +5300,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "RU",
 		doublesTier: "(DUU)",
+	},
+	golisopodshadow: {
+		tier: "Uber",
 	},
 	sandygast: {
 		tier: "LC",

@@ -23858,6 +23858,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 6, level: 5, moves: ["tackle", "growl"], pokeball: "cherishball"},
 		],
 	},
+	chikoritashadow: {
+		learnset: {
+			shadowdance: ["7L1"],
+			shadowdevour: ["7L1"],
+			shadowfog: ["7L1"],
+			shadowfumes: ["7L1"],
+			shadowhold: ["7L1"],
+			shadowintensify: ["7L1"],
+			shadowpanic: ["7L1"],
+			shadowpunish: ["7L1"],
+			shadowrave: ["7L1"],
+			shadowreset: ["7L1"],
+			shadowseed: ["7L1"],
+			shadowwall: ["7L1"],
+		},
+	},
 	bayleef: {
 		learnset: {
 			ancientpower: ["4T"],
@@ -24020,6 +24036,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		eventData: [
 			{generation: 6, level: 50, isHidden: true, moves: ["solarbeam", "sunnyday", "synthesis", "bodyslam"], pokeball: "pokeball"},
 		],
+	},
+	meganiumshadow: {
+		learnset: {
+			shadowbreak: ["7L1"],
+			shadowdevour: ["7L1"],
+			shadowfumes: ["7L1"],
+			shadowhold: ["7L1"],
+			shadowhubris: ["7L1"],
+			shadowpunish: ["7L1"],
+			shadowrave: ["7L1"],
+			shadowscheme: ["7L1"],
+			shadowseed: ["7L1"],
+			shadowstorm: ["7L1"],
+			shadowwave: ["7L1"],
+			shadowwhip: ["7L1"],
+		},
 	},
 	cyndaquil: {
 		learnset: {
@@ -28061,6 +28093,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 7, level: 65, gender: "M", abilities: ["superluck"], moves: ["nightslash", "skyattack", "heatwave", "icywind"], pokeball: "cherishball"},
 		],
 	},
+	honchkrowshadow: {
+		learnset: {
+			shadowbreak: ["7L1"],
+			shadowchant: ["7L1"],
+			shadowdance: ["7L1"],
+			shadowdown: ["7L1"],
+			shadowhubris: ["7L1"],
+			shadowpanic: ["7L1"],
+			shadowpivot: ["7L1"],
+			shadowrage: ["7L1"],
+			shadowrush: ["7L1"],
+			shadowshed: ["7L1"],
+			shadowsiren: ["7L1"],
+			shadowstare: ["7L1"],
+		},
+	},
 	misdreavus: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -28335,6 +28383,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		encounters: [
 			{generation: 2, level: 4},
 		],
+	},
+	kurstrawshadow: {
+		learnset: {
+			shadowcinder: ["7L1"],
+			shadowdevour: ["7L1"],
+			shadowdissolve: ["7L1"],
+			shadowfission: ["7L1"],
+			shadowfumes: ["7L1"],
+			shadowhatred: ["7L1"],
+			shadowhaunting: ["7L1"],
+			shadowintensify: ["7L1"],
+			shadowrave: ["7L1"],
+			shadowshackle: ["7L1"],
+			shadowsorcery: ["7L1"],
+			shadowspell: ["7L1"],
+		},
 	},
 	pangshi: {
 		learnset: {
@@ -34407,6 +34471,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		eventData: [
 			{generation: 5, level: 50, shiny: 1, moves: ["leafstorm", "dragonpulse", "focusblast", "rockslide"], pokeball: "cherishball"},
 		],
+	},
+	sceptileshadow: {
+		learnset: {
+			shadowbandit: ["7L1"],
+			shadowbreak: ["7L1"],
+			shadowdance: ["7L1"],
+			shadowhubris: ["7L1"],
+			shadowpivot: ["7L1"],
+			shadowrave: ["7L1"],
+			shadowrush: ["7L1"],
+			shadowscheme: ["7L1"],
+			shadowseed: ["7L1"],
+			shadowslasher: ["7L1"],
+			shadowsprint: ["7L1"],
+			shadowwave: ["7L1"],
+		},
 	},
 	torchic: {
 		learnset: {
@@ -41081,6 +41161,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		encounters: [
 			{generation: 6, level: 30},
 		],
+	},
+	cameruptshadow: {
+		learnset: {
+			shadowcinder: ["7L1"],
+			shadowdissolve: ["7L1"],
+			shadowfumes: ["7L1"],
+			shadowhubris: ["7L1"],
+			shadowrage: ["7L1"],
+			shadowrave: ["7L1"],
+			shadowreset: ["7L1"],
+			shadowrush: ["7L1"],
+			shadowscheme: ["7L1"],
+			shadowstorm: ["7L1"],
+			shadowwave: ["7L1"],
+			shadowwreckage: ["7L1"],
+		},
 	},
 	torkoal: {
 		learnset: {
@@ -55822,6 +55918,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			xscissor: ["7M", "6M", "5M"],
 		},
 	},
+	dewottshadow: {
+		learnset: {
+			shadowbandit: ["7L1"],
+			shadowfrost: ["7L1"],
+			shadowhubris: ["7L1"],
+			shadowmist: ["7L1"],
+			shadowpivot: ["7L1"],
+			shadowrave: ["7L1"],
+			shadowrush: ["7L1"],
+			shadowscheme: ["7L1"],
+			shadowsprint: ["7L1"],
+			shadowvelocity: ["7L1"],
+			shadowwave: ["7L1"],
+			shadowwheel: ["7L1"],
+		},
+	},
 	samurott: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M"],
@@ -64489,6 +64601,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 6, level: 30},
 		],
 	},
+	fraxureshadow: {
+		learnset: {
+			shadowbandit: ["7L1"],
+			shadowbreak: ["7L1"],
+			shadowcharge: ["7L1"],
+			shadowend: ["7L1"],
+			shadowpivot: ["7L1"],
+			shadowpunish: ["7L1"],
+			shadowroulette: ["7L1"],
+			shadowrush: ["7L1"],
+			shadowsprint: ["7L1"],
+			shadowvelocity: ["7L1"],
+			shadowvengeance: ["7L1"],
+			shadowwreckage: ["7L1"],
+		},
+	},
 	haxorus: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M"],
@@ -66374,6 +66502,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		encounters: [
 			{generation: 5, level: 49},
 		],
+	},
+	zweilousshadow: {
+		learnset: {
+			shadowbreak: ["7L1"],
+			shadowdance: ["7L1"],
+			shadowend: ["7L1"],
+			shadowfumes: ["7L1"],
+			shadowhatred: ["7L1"],
+			shadowpunish: ["7L1"],
+			shadowrage: ["7L1"],
+			shadowshackle: ["7L1"],
+			shadowshed: ["7L1"],
+			shadowsprint: ["7L1"],
+			shadowvengeance: ["7L1"],
+			shadowwreckage: ["7L1"],
+		},
 	},
 	hydreigon: {
 		learnset: {
@@ -70626,6 +70770,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 6, level: 50, gender: "F", nature: "Quiet", moves: ["wideguard", "kingsshield", "shadowball", "flashcannon"], pokeball: "cherishball"},
 		],
 	},
+	aegislashshadow: {
+		learnset: {
+			shadowbreak: ["7L1"],
+			shadowfission: ["7L1"],
+			shadowhold: ["7L1"],
+			shadowhurl: ["7L1"],
+			shadowpunish: ["7L1"],
+			shadowrave: ["7L1"],
+			shadowrush: ["7L1"],
+			shadowscheme: ["7L1"],
+			shadowshackle: ["7L1"],
+			shadowslasher: ["7L1"],
+			shadowwhip: ["7L1"],
+			shadowwreckage: ["7L1"],
+		},
+	},
 	spritzee: {
 		learnset: {
 			afteryou: ["8E", "7T", "6T"],
@@ -74213,6 +74373,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 7, level: 50, isHidden: true, moves: ["leafblade", "phantomforce", "shadowsneak", "bravebird"], pokeball: "pokeball"},
 		],
 	},
+	decidueyeshadow: {
+		learnset: {
+			shadowbandit: ["7L1"],
+			shadowchant: ["7L1"],
+			shadowdance: ["7L1"],
+			shadowdissolve: ["7L1"],
+			shadowpanic: ["7L1"],
+			shadowpivot: ["7L1"],
+			shadowrave: ["7L1"],
+			shadowrush: ["7L1"],
+			shadowshackle: ["7L1"],
+			shadowshuffle: ["7L1"],
+			shadowsnipe: ["7L1"],
+			shadowwave: ["7L1"],
+		},
+	},
 	litten: {
 		learnset: {
 			acrobatics: ["8M", "7M"],
@@ -77743,6 +77919,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			waterfall: ["8M", "7M"],
 			waterpulse: ["7T"],
 			xscissor: ["8M", "7M"],
+		},
+	},
+	golisopodshadow: {
+		learnset: {
+			shadowbreak: ["7L1"],
+			shadowend: ["7L1"],
+			shadowfumes: ["7L1"],
+			shadowhurl: ["7L1"],
+			shadowmist: ["7L1"],
+			shadowpivot: ["7L1"],
+			shadowrage: ["7L1"],
+			shadowrush: ["7L1"],
+			shadowshatter: ["7L1"],
+			shadowslasher: ["7L1"],
+			shadowthreat: ["7L1"],
+			shadowwreckage: ["7L1"],
 		},
 	},
 	sandygast: {

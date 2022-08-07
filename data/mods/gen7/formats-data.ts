@@ -1140,6 +1140,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	chikorita: {
 		tier: "LC",
 	},
+	chikoritashadow: {
+		tier: "Uber",
+	},
 	bayleef: {
 		tier: "NFE",
 	},
@@ -1148,6 +1151,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["dragontail", "earthpower", "earthquake", "energyball", "healpulse", "leafstorm", "leechseed", "petalblizzard", "protect", "sleeppowder", "toxic"],
 		tier: "UU",
 		doublesTier: "(DUU)",
+	},
+	meganiumshadow: {
+		tier: "Uber",
 	},
 	cyndaquil: {
 		tier: "LC",
@@ -1355,6 +1361,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	honchkrowshadow: {
+		tier: "Uber",
+	},
 	misdreavus: {
 		tier: "NFE",
 	},
@@ -1369,6 +1378,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["nastyplot", "psychic", "protect", "shadowball", "substitute", "willowisp"],
 		tier: "RU",
 		doublesTier: "(DUU)",
+	},
+	kurstrawshadow: {
+		tier: "Uber",
 	},
 	pangshi: {
 		randomBattleMoves: ["knockoff", "return", "shadowpunch", "shadowsneak", "strengthsap", "substitute", "swordsdance", "willowisp"],
@@ -1696,6 +1708,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["dragonpulse", "energyball", "focusblast", "hiddenpowerfire", "hiddenpowerice", "leafstorm", "protect"],
 		tier: "OU",
 		doublesTier: "DUU",
+	},
+	sceptileshadow: {
+		tier: "Uber",
 	},
 	torchic: {
 		tier: "LC",
@@ -2088,6 +2103,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["earthpower", "fireblast", "heatwave", "protect", "rockslide", "vaporize"],
 		tier: "OU",
 		doublesTier: "DOU",
+	},
+	cameruptshadow: {
+		tier: "Uber",
 	},
 	torkoal: {
 		randomBattleMoves: ["earthpower", "fireblast", "lavaplume", "rapidspin", "solarbeam", "stealthrock", "yawn"],
@@ -3118,6 +3136,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	dewott: {
 		tier: "NFE",
 	},
+	dewottshadow: {
+		tier: "Uber",
+	},
 	samurott: {
 		randomBattleMoves: ["aquajet", "bulkup", "calmmind", "focusblast", "grassknot", "icebeam", "iciclespear", "liquidation", "pinmissile", "sacredsword", "swordsdance", "swordstream", "vacuumwave"],
 		randomDoubleBattleMoves: ["aquajet", "focusblast", "helpinghand", "hiddenpowergrass", "icebeam", "iciclespear", "pinmissile", "protect", "scald", "swordstream", "taunt", "vacuumwave"],
@@ -3657,6 +3678,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	fraxure: {
 		tier: "NFE",
 	},
+	fraxureshadow: {
+		tier: "Uber",
+	},
 	haxorus: {
 		randomBattleMoves: ["dragondance", "earthquake", "outrage", "poisonjab", "swordsdance", "taunt"],
 		randomDoubleBattleMoves: ["dragonclaw", "dragondance", "earthquake", "poisonjab", "protect", "swordsdance", "taunt"],
@@ -3767,6 +3791,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	zweilous: {
 		tier: "NFE",
+	},
+	zweilousshadow: {
+		tier: "Uber",
 	},
 	hydreigon: {
 		randomBattleMoves: ["darkpulse", "dracometeor", "dragonpulse", "earthpower", "fireblast", "flashcannon", "roost", "superpower", "uturn"],
@@ -4084,6 +4111,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["ironhead", "sacredsword", "shadowclaw", "shadowsneak", "swordsdance"],
 		randomDoubleBattleMoves: ["ironhead", "kingsshield", "sacredsword", "shadowclaw", "shadowsneak", "swordsdance"],
 	},
+	aegislashshadow: {
+		tier: "Uber",
+	},
 	spritzee: {
 		tier: "LC",
 	},
@@ -4349,6 +4379,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	decidueyeshadow: {
+		tier: "Uber",
+	},
 	litten: {
 		tier: "LC",
 	},
@@ -4605,6 +4638,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["aquajet", "firstimpression", "leechlife", "liquidation", "protect", "wideguard"],
 		tier: "RU",
 		doublesTier: "(DUU)",
+	},
+	golisopodshadow: {
+		tier: "Uber",
 	},
 	sandygast: {
 		tier: "LC",

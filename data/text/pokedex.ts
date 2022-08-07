@@ -716,11 +716,17 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	chikorita: {
 		name: "Chikorita",
 	},
+	chikoritashadow: {
+		name: "Chikorita-Shadow",
+	},
 	bayleef: {
 		name: "Bayleef",
 	},
 	meganium: {
 		name: "Meganium",
+	},
+	meganiumshadow: {
+		name: "Meganium-Shadow",
 	},
 	cyndaquil: {
 		name: "Cyndaquil",
@@ -889,6 +895,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	kurstraw: {
 		name: "Kurstraw",
+	},
+	kurstrawshadow: {
+		name: "Kurstraw-Shadow",
 	},
 	pangshi: {
 		name: "Pangshi",
@@ -1120,6 +1129,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	sceptilemega: {
 		name: "Sceptile-Mega",
+	},
+	sceptileshadow: {
+		name: "Sceptile-Shadow",
 	},
 	torchic: {
 		name: "Torchic",
@@ -1366,6 +1378,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	cameruptmega: {
 		name: "Camerupt-Mega",
+	},
+	cameruptshadow: {
+		name: "Camerupt-Shadow",
 	},
 	torkoal: {
 		name: "Torkoal",
@@ -1775,6 +1790,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	honchkrow: {
 		name: "Honchkrow",
 	},
+	honchkrowshadow: {
+		name: "Honchkrow-Shadow",
+	},
 	glameow: {
 		name: "Glameow",
 	},
@@ -2095,6 +2113,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	dewott: {
 		name: "Dewott",
+	},
+	dewottshadow: {
+		name: "Dewott-Shadow",
 	},
 	samurott: {
 		name: "Samurott",
@@ -2474,6 +2495,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	fraxure: {
 		name: "Fraxure",
 	},
+	fraxureshadow: {
+		name: "Fraxure-Shadow",
+	},
 	haxorus: {
 		name: "Haxorus",
 	},
@@ -2545,6 +2569,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	zweilous: {
 		name: "Zweilous",
+	},
+	zweilousshadow: {
+		name: "Zweilous-Shadow",
 	},
 	hydreigon: {
 		name: "Hydreigon",
@@ -2744,6 +2771,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	aegislashblade: {
 		name: "Aegislash-Blade",
 	},
+	aegislashshadow: {
+		name: "Aegislash-Shadow",
+	},
 	spritzee: {
 		name: "Spritzee",
 	},
@@ -2912,6 +2942,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	decidueye: {
 		name: "Decidueye",
 	},
+	decidueyeshadow: {
+		name: "Decidueye-Shadow",
+	},
 	litten: {
 		name: "Litten",
 	},
@@ -3079,6 +3112,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	golisopod: {
 		name: "Golisopod",
+	},
+	golisopodshadow: {
+		name: "Golisopod-Shadow",
 	},
 	sandygast: {
 		name: "Sandygast",
