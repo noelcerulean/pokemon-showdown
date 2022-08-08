@@ -15675,6 +15675,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Shadow",
 	},
+	shadowbath: {
+		num: -868,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Bath",
+		pp: 5,
+		priority: 0,
+		flags: {heal: 1},
+		onHit(pokemon) {
+			if (['', 'slp'].includes(pokemon.status)) return false;
+			pokemon.cureStatus();
+		},
+		heal: [1, 2],
+		noSketch: true,
+		secondary: null,
+		target: "self",
+		type: "Shadow",
+	},
 	shadowbolt: {
 		num: -857,
 		accuracy: 100,
@@ -16161,6 +16180,24 @@ export const Moves: {[moveid: string]: MoveData} = {
 		noSketch: true,
 		secondary: null,
 		target: "normal",
+		type: "Shadow",
+	},
+	shadowglow: {
+		num: -869,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Glow",
+		pp: 5,
+		priority: 0,
+		flags: {heal: 1},
+		boosts: {
+			spe: 1,
+		},
+		heal: [1, 2],
+		noSketch: true,
+		secondary: null,
+		target: "self",
 		type: "Shadow",
 	},
 	shadowhatred: {

@@ -20384,6 +20384,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			scald: ["8M", "8L5", "7M", "6M", "5M"],
 			secretpower: ["6M", "4M", "3M"],
 			shadowball: ["8M", "8L5", "7M", "7L5", "6M", "5M", "4M", "3M"],
+			shadowbath: ["7L1"],
 			shadowdissolve: ["7L1"],
 			shadowdown: ["7L1"],
 			shadowfrost: ["7L1"],
@@ -20522,6 +20523,18 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 6, level: 10, moves: ["celebrate", "tailwhip", "sandattack", "thundershock"], pokeball: "cherishball"},
 			{generation: 7, level: 50, gender: "F", moves: ["thunderbolt", "shadowball", "lightscreen", "voltswitch"], pokeball: "cherishball"},
 		],
+	},
+	jolteonshadow: {
+		learnset: {
+			shadowbolt: ["7L1"],
+			shadowcharge: ["7L1"],
+			shadowglow: ["7L1"],
+			shadowpanic: ["7L1"],
+			shadowrave: ["7L1"],
+			shadowsprint: ["7L1"],
+			shadowstare: ["7L1"],
+			shadowvelocity: ["7L1"],
+		},
 	},
 	flareon: {
 		learnset: {

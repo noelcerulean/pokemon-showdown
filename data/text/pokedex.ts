@@ -650,6 +650,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	jolteon: {
 		name: "Jolteon",
 	},
+	jolteonshadow: {
+		name: "Jolteon-Shadow",
+	},
 	flareon: {
 		name: "Flareon",
 	},

@@ -3930,6 +3930,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 231,
 	},
+	shadowsparks: {
+		onModifySpe(spe, pokemon) {
+			if (this.field.isTerrain('electricterrain')) return this.chainModify(2);
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(spa, pokemon) {
+			if (this.field.isTerrain('electricterrain')) return this.chainModify(1.5);
+		},
+		onResidualOrder: 5,
+		onResidualSubOrder: 4,
+		onResidual(pokemon) {
+			if (this.field.isTerrain('electricterrain')) {
+				this.heal(pokemon.baseMaxhp / 16);
+			}
+		},
+		name: "Shadow Sparks",
+		rating: 5,
+		num: -811,
+	},
 	shadowtag: {
 		onFoeTrapPokemon(pokemon) {
 			if (!pokemon.hasAbility('shadowtag') && pokemon.isAdjacent(this.effectState.target)) {

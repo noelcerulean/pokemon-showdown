@@ -984,6 +984,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	jolteonshadow: {
+		tier: "Uber",
+	},
 	flareon: {
 		randomBattleMoves: ["flamecharge", "flareblitz", "morningsun", "quickattack", "stompingtantrum", "superpower"],
 		randomDoubleBattleMoves: ["flamecharge", "flareblitz", "protect", "stompingtantrum", "superpower"],

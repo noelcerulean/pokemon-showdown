@@ -5251,6 +5251,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Always crits. If this attack was successful and the user has not fainted, it steals the target's held item if the user is not holding one. The target's item is not stolen if it is a Mail or Z-Crystal, or if the target is a Kyogre holding a Blue Orb, a Groudon holding a Red Orb, a Giratina holding a Griseous Orb, an Arceus holding a Plate, a Genesect holding a Drive, a Silvally holding a Memory, or a Pokemon that can Mega Evolve holding the Mega Stone for its species. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
 		shortDesc: "Crits. If possible, steals target's item.",
 	},
+	shadowbath: {
+		name: "Shadow Bath",
+		shortDesc: "Heals status and 50% of user's max HP.",
+	},
 	shadowbolt: {
 		name: "Shadow Bolt",
 		desc: "Always crits. Has a 100% chance to paralyze the target.",
@@ -5377,6 +5381,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Infiltrates. Averages Attack/Sp. Atk with target.",
 
 		activate: "  [POKEMON] fused its power with its target!",
+	},
+	shadowglow: {
+		name: "Shadow Glow",
+		shortDesc: "+1 Spe. Heals the user by 50% of its max HP.",
 	},
 	shadowhatred: {
 		name: "Shadow Hatred",

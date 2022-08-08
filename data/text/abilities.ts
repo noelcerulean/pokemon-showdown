@@ -1440,6 +1440,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "If this Pokemon is at full HP, damage taken from attacks is halved. Moongeist Beam, Sunsteel Strike, and the Mold Breaker, Teravolt, and Turboblaze Abilities cannot ignore this Ability.",
 		shortDesc: "If this Pokemon is at full HP, damage taken from attacks is halved.",
 	},
+	shadowsparks: {
+		name: "Shadow Sparks",
+		shortDesc: "During Electric Terrain: 2x Spe, 1.5x SpA, 1/16th HP healed each turn.",
+
+		start: "  [POKEMON] is surrounded by a shadowy aura!",
+	},
 	shadowtag: {
 		name: "Shadow Tag",
 		desc: "Prevents adjacent opposing Pokemon from choosing to switch out unless they are immune to trapping or also have this Ability.",
