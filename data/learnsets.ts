@@ -74407,6 +74407,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowchant: ["7L1"],
 			shadowdance: ["7L1"],
 			shadowdissolve: ["7L1"],
+			shadowend: ["7L1"],
 			shadowpanic: ["7L1"],
 			shadowpivot: ["7L1"],
 			shadowrave: ["7L1"],
