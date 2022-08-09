@@ -15685,10 +15685,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {heal: 1},
 		onHit(pokemon) {
-			if (['', 'slp'].includes(pokemon.status)) return false;
-			pokemon.cureStatus();
+			const success = !!this.heal(this.modify(pokemon.maxhp, 0.5));
+			return pokemon.cureStatus() || success;
 		},
-		heal: [1, 2],
 		noSketch: true,
 		secondary: null,
 		target: "self",
