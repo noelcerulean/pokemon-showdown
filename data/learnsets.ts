@@ -70800,6 +70800,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	aegislashshadow: {
 		learnset: {
 			shadowbreak: ["7L1"],
+			shadowdance: ["7L1"],
 			shadowfission: ["7L1"],
 			shadowhold: ["7L1"],
 			shadowhurl: ["7L1"],
