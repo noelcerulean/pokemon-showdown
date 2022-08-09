@@ -713,6 +713,21 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 238,
 	},
+	cunningblade: {
+		onBasePowerPriority: 23,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['blade']) {
+				this.debug('Cunning Blade boost');
+				return this.chainModify([4915, 4096]);
+			}
+		},
+		onModifyMove(move, pokemon) {
+			if (move.flags['blade']) move.category = 'Special';
+		},
+		name: "Cunning Blade",
+		rating: 3.5,
+		num: -539,
+	},
 	curiousmedicine: {
 		onStart(pokemon) {
 			for (const ally of pokemon.adjacentAllies()) {
@@ -3929,6 +3944,28 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Shadow Shield",
 		rating: 3.5,
 		num: 231,
+	},
+	shadowslush: {
+		onModifySpe(spe, pokemon) {
+			if (this.field.isWeather('hail')) {
+				return this.chainModify(2);
+			}
+		},
+		onWeather(target, source, effect) {
+			if (effect.id === 'hail') {
+				this.heal(target.baseMaxhp / 16);
+			}
+		},
+		onResidual(pokemon) {
+			if (pokemon.status && ['hail'].includes(pokemon.effectiveWeather())) {
+				this.debug('shadowslush');
+				this.add('-activate', pokemon, 'ability: Shadow Slush');
+				pokemon.cureStatus();
+			}
+		},
+		name: "Shadow Slush",
+		rating: 5,
+		num: -807,
 	},
 	shadowsparks: {
 		onModifySpe(spe, pokemon) {

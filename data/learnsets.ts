@@ -21247,6 +21247,18 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 7, level: 50, gender: "F", moves: ["blizzard", "shadowball", "hail", "auroraveil"], pokeball: "cherishball"},
 		],
 	},
+	glaceonshadow: {
+		learnset: {
+			shadowchill: ["7L1"],
+			shadowdissolve: ["7L1"],
+			shadowfrost: ["7L1"],
+			shadowglaze: ["7L1"],
+			shadowhubris: ["7L1"],
+			shadowmist: ["7L1"],
+			shadowrave: ["7L1"],
+			shadowsorcery: ["7L1"],
+		},
+	},
 	porygon: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],

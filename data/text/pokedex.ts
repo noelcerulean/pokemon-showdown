@@ -1943,6 +1943,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	glaceon: {
 		name: "Glaceon",
 	},
+	glaceonshadow: {
+		name: "Glaceon-Shadow",
+	},
 	gliscor: {
 		name: "Gliscor",
 	},

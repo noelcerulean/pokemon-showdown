@@ -5382,6 +5382,10 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		activate: "  [POKEMON] fused its power with its target!",
 	},
+	shadowglaze: {
+		name: "Shadow Glaze",
+		shortDesc: "+1 Def. Heals the user by 50% of its max HP.",
+	},
 	shadowglow: {
 		name: "Shadow Glow",
 		shortDesc: "+1 Spe. Heals the user by 50% of its max HP.",

@@ -1023,6 +1023,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
+	glaceonshadow: {
+		tier: "Uber",
+	},
 	porygon: {
 		tier: "NFE",
 	},
