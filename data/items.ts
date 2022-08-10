@@ -4418,6 +4418,32 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 294,
 		gen: 4,
 	},
+	preciousscale: {
+		name: "Precious Scale",
+		spritenum: 757,
+		fling: {
+			basePower: 30,
+		},
+		onModifyAtkPriority: 1,
+		onModifyAtk(atk, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Feebas-Vanessa') {
+				return this.chainModify(2);
+			}
+		},
+		onModifySpAPriority: 1,
+		onModifySpA(spa, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Feebas-Vanessa') {
+				return this.chainModify(2);
+			}
+		},
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Feebas-Vanessa') return false;
+			return true;
+		},
+		itemUser: ["Feebas-Vanessa"],
+		num: -517,
+		gen: 7,
+	},
 	premierball: {
 		name: "Premier Ball",
 		spritenum: 363,

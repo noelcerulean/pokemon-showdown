@@ -1281,6 +1281,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	flareonshadow: {
+		tier: "Uber",
+	},
 	espeon: {
 		randomBattleMoves: ["calmmind", "dazzlinggleam", "morningsun", "psychic", "shadowball"],
 		randomBattleLevel: 82,
@@ -1310,6 +1313,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 86,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	leafeonshadow: {
+		tier: "Uber",
 	},
 	glaceon: {
 		randomBattleMoves: ["freezedry", "protect", "shadowball", "toxic", "wish"],
@@ -2645,6 +2651,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	feebas: {
 		tier: "LC",
+	},
+	feebasvanessa: {
+		tier: "Uber",
 	},
 	milotic: {
 		randomBattleMoves: ["haze", "icebeam", "recover", "scald", "toxic"],

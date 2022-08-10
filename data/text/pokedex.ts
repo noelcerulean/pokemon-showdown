@@ -656,6 +656,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	flareon: {
 		name: "Flareon",
 	},
+	flareonshadow: {
+		name: "Flareon-Shadow",
+	},
 	porygon: {
 		name: "Porygon",
 	},
@@ -1466,6 +1469,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	feebas: {
 		name: "Feebas",
 	},
+	feebasvanessa: {
+		name: "Feebas-Vanessa",
+	},
 	milotic: {
 		name: "Milotic",
 	},
@@ -1939,6 +1945,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	leafeon: {
 		name: "Leafeon",
+	},
+	leafeonshadow: {
+		name: "Leafeon-Shadow",
 	},
 	glaceon: {
 		name: "Glaceon",

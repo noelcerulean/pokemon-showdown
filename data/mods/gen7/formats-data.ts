@@ -993,6 +993,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},
+	flareonshadow: {
+		tier: "Uber",
+	},
 	espeon: {
 		randomBattleMoves: ["calmmind", "dazzlinggleam", "morningsun", "psychic", "psyshock", "shadowball"],
 		randomDoubleBattleMoves: ["calmmind", "dazzlinggleam", "helpinghand", "protect", "psychic", "shadowball"],
@@ -1016,6 +1019,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["helpinghand", "knockoff", "leafblade", "protect", "rockslide", "stompingtantrum", "swordsdance", "uturn", "xscissor"],
 		tier: "OU",
 		doublesTier: "(DUU)",
+	},
+	leafeonshadow: {
+		tier: "Uber",
 	},
 	glaceon: {
 		randomBattleMoves: ["healbell", "hiddenpowerground", "freezedry", "icebeam", "protect", "shadowball", "surf", "toxic", "wish"],
@@ -2241,6 +2247,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	feebas: {
 		tier: "LC",
+	},
+	feebasvanessa: {
+		tier: "Uber",
 	},
 	milotic: {
 		randomBattleMoves: ["dragontail", "icebeam", "recover", "rest", "scald", "sleeptalk", "toxic"],

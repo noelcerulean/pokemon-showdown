@@ -5348,6 +5348,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Always crits. Has a 100% chance to burn the target.",
 		shortDesc: "Crits. 100% chance to burn the target.",
 	},
+	shadowflame: {
+		name: "Shadow Flame",
+		shortDesc: "+1 Acc. Heals the user by 50% of its max HP.",
+	},
 	shadowfog: {
 		name: "Shadow Fog",
 		desc: "Resets the stat stages of all active Pokemon to 0.",
@@ -5441,6 +5445,10 @@ export const MovesText: {[k: string]: MoveText} = {
 	shadowmoon: {
 		name: "Shadow Moon",
 		shortDesc: "+1 Atk. Heals the user by 50% of its max HP.",
+	},
+	shadowmoss: {
+		name: "Shadow Moss",
+		shortDesc: "+1 SpD. Heals the user by 50% of its max HP.",
 	},
 	shadowpanic: {
 		name: "Shadow Panic",

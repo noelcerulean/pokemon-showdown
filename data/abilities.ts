@@ -3859,6 +3859,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: -800,
 	},
+	shadowbirch: {
+		onModifySpe(spe, pokemon) {
+			if (this.field.isTerrain('grassyterrain')) return this.chainModify(2);
+		},
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, pokemon) {
+			if (this.field.isTerrain('grassyterrain')) return this.chainModify(1.5);
+		},
+		onResidualOrder: 5,
+		onResidualSubOrder: 4,
+		onResidual(pokemon) {
+			if (this.field.isTerrain('grassyterrain')) {
+				this.heal(pokemon.baseMaxhp / 16);
+			}
+		},
+		name: "Shadow Birch",
+		rating: 5,
+		num: -810,
+	},
 	shadowconduction: {
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Shadow Conduction');
@@ -3905,6 +3924,29 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Shadow Dust",
 		rating: 2,
 		num: -805,
+	},
+	shadowembers: {
+		onModifySpe(spe, pokemon) {
+			if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
+				return this.chainModify(2);
+			}
+		},
+		onWeather(target, source, effect) {
+			if (target.hasItem('utilityumbrella')) return;
+			if (effect.id === 'sunnyday' || effect.id === 'desolateland') {
+				this.heal(target.baseMaxhp / 16);
+			}
+		},
+		onResidual(pokemon) {
+			if (pokemon.status && ['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
+				this.debug('shadowembers');
+				this.add('-activate', pokemon, 'ability: Shadow Embers');
+				pokemon.cureStatus();
+			}
+		},
+		name: "Shadow Embers",
+		rating: 5,
+		num: -808,
 	},
 	shadowhydraulics: {
 		onStart(pokemon) {

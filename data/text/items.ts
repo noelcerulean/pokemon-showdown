@@ -1359,6 +1359,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Power Weight",
 		desc: "Holder's Speed is halved. The Klutz Ability does not ignore this effect.",
 	},
+	preciousscale: {
+		name: "Precious Scale",
+		desc: "If held by Feebas-Vanessa, Attack/Sp. Attack is doubled.",
+	},
 	premierball: {
 		name: "Premier Ball",
 		desc: "A rare Poke Ball that has been crafted to commemorate an event.",

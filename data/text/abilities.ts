@@ -1407,6 +1407,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		start: "  [POKEMON] is surrounded by a shadowy aura!",
 	},
+	shadowbirch: {
+		name: "Shadow Birch",
+		shortDesc: "During Grassy Terrain: 2x Spe, 1.5x Atk, 1/16th HP healed each turn.",
+
+		start: "  [POKEMON] is surrounded by a shadowy aura!",
+	},
 	shadowconduction: {
 		name: "Shadow Conduction",
 		desc: "This Pokemon is immune to Electric-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Electric-type move.",
@@ -1424,6 +1430,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	shadowdust: {
 		name: "Shadow Dust",
 		shortDesc: "This Pokemon is not affected by the secondary effect of another Pokemon's attack.",
+
+		start: "  [POKEMON] is surrounded by a shadowy aura!",
+	},
+	shadowembers: {
+		name: "Shadow Embers",
+		shortDesc: "During Sun: 2x Spe, Heals status, 1/16th HP healed each turn.",
 
 		start: "  [POKEMON] is surrounded by a shadowy aura!",
 	},
