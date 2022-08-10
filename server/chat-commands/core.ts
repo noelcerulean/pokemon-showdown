@@ -277,6 +277,7 @@ const avatarTable = new Set([
 	'policeman-gen4', 'policeman',
 	'preschoolerf',
 	'preschooler',
+	'prim',
 	'proton',
 	'pryce-gen2', 'pryce',
 	'psychicf-gen3', 'psychicf-gen3rs', 'psychicf-gen4', 'psychicfjp-gen3', 'psychicf',
