@@ -4222,6 +4222,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "DUU",
 	},
+	sylveonshadow: {
+		tier: "Uber",
+	},
 	hawlucha: {
 		randomBattleMoves: ["acrobatics", "highjumpkick", "skyattack", "substitute", "swordsdance"],
 		randomDoubleBattleMoves: ["acrobatics", "encore", "highjumpkick", "protect", "swordsdance"],

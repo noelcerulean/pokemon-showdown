@@ -5573,6 +5573,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Shadow Sprint",
 		shortDesc: "Usually goes first. Always crits.",
 	},
+	shadowsprites: {
+		name: "Shadow Sprites",
+		shortDesc: "+1 Random Stat. Heals user by 50% max HP.",
+	},
 	shadowstare: {
 		name: "Shadow Stare",
 		shortDesc: "Non-reflectable. Infiltrates. Paralyzes target.",

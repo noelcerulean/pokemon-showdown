@@ -3976,6 +3976,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4.5,
 		num: -806,
 	},
+	shadowribbons: {
+		onModifySpe(spe, pokemon) {
+			if (this.field.isTerrain('mistyterrain')) return this.chainModify(2);
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(spa, pokemon) {
+			if (this.field.isTerrain('mistyterrain')) return this.chainModify(1.5);
+		},
+		onResidualOrder: 5,
+		onResidualSubOrder: 4,
+		onResidual(pokemon) {
+			if (this.field.isTerrain('mistyterrain')) {
+				this.heal(pokemon.baseMaxhp / 16);
+			}
+		},
+		name: "Shadow Ribbons",
+		rating: 5,
+		num: -809,
+	},
 	shadowshield: {
 		onSourceModifyDamage(damage, source, target, move) {
 			if (target.hp >= target.maxhp) {

@@ -16959,6 +16959,38 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Shadow",
 	},
+	shadowsprites: {
+		num: -871,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Sprites",
+		pp: 5,
+		priority: 0,
+		flags: {heal: 1},
+		onHit(target) {
+			const stats: BoostID[] = [];
+			let stat: BoostID;
+			for (stat in target.boosts) {
+				if (target.boosts[stat] < 6) {
+					stats.push(stat);
+				}
+			}
+			if (stats.length) {
+				const randomStat = this.sample(stats);
+				const boost: SparseBoostsTable = {};
+				boost[randomStat] = 1;
+				this.boost(boost);
+			} else {
+				return false;
+			}
+		},
+		heal: [1, 2],
+		noSketch: true,
+		secondary: null,
+		target: "self",
+		type: "Shadow",
+	},
 	shadowstare: {
 		num: -853,
 		accuracy: 95,

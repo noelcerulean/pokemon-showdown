@@ -13174,6 +13174,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoCondition: "with a Fairy-type move and two levels of Affection",
 		eggGroups: ["Field"],
 	},
+	sylveonshadow: {
+		num: 700,
+		name: "Sylveon-Shadow",
+		types: ["Fairy"],
+		gender: "M",
+		baseStats: {hp: 95, atk: 65, def: 65, spa: 110, spd: 140, spe: 95},
+		abilities: {0: "Shadow Ribbons"},
+		heightm: 1,
+		weightkg: 23.5,
+		color: "Pink",
+		eggGroups: ["Undiscovered"],
+	},
 	hawlucha: {
 		num: 701,
 		name: "Hawlucha",

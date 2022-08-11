@@ -23911,6 +23911,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	chikoritashadow: {
 		learnset: {
+			shadowbreak: ["7L1"],
 			shadowdance: ["7L1"],
 			shadowdevour: ["7L1"],
 			shadowfog: ["7L1"],
@@ -34536,6 +34537,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowscheme: ["7L1"],
 			shadowseed: ["7L1"],
 			shadowslasher: ["7L1"],
+			shadowsnipe: ["7L1"],
 			shadowsprint: ["7L1"],
 			shadowwave: ["7L1"],
 		},
@@ -72484,6 +72486,18 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 6, level: 10, gender: "F", moves: ["disarmingvoice", "babydolleyes", "quickattack", "drainingkiss"], pokeball: "cherishball"},
 			{generation: 7, level: 50, gender: "F", isHidden: true, moves: ["hyperbeam", "drainingkiss", "psyshock", "calmmind"], pokeball: "cherishball"},
 		],
+	},
+	sylveonshadow: {
+		learnset: {
+			shadowfumes: ["7L1"],
+			shadowhold: ["7L1"],
+			shadowrave: ["7L1"],
+			shadowreset: ["7L1"],
+			shadowscheme: ["7L1"],
+			shadowspell: ["7L1"],
+			shadowsprites: ["7L1"],
+			shadowwhip: ["7L1"],
+		},
 	},
 	hawlucha: {
 		learnset: {

@@ -1336,6 +1336,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "DUU",
 	},
+	sylveonshadow: {
+		tier: "Uber",
+	},
 	porygon: {
 		tier: "LC",
 	},

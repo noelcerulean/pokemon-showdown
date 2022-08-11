@@ -1452,6 +1452,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		start: "  [POKEMON] is surrounded by a shadowy aura!",
 	},
+	shadowribbons: {
+		name: "Shadow Ribbons",
+		shortDesc: "During Misty Terrain: 2x Spe, 1.5x SpA, 1/16th HP healed each turn.",
+
+		start: "  [POKEMON] is surrounded by a shadowy aura!",
+	},
 	shadowshield: {
 		name: "Shadow Shield",
 		desc: "If this Pokemon is at full HP, damage taken from attacks is halved. Moongeist Beam, Sunsteel Strike, and the Mold Breaker, Teravolt, and Turboblaze Abilities cannot ignore this Ability.",
