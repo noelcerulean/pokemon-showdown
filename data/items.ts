@@ -4940,6 +4940,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 686,
 		gen: 6,
 	},
+	roseradearmor: {
+		name: "Roserade Armor",
+		spritenum: 756,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Roserade-Armored') return false;
+			return true;
+		},
+		itemUser: ["Roserade-Armored"],
+		num: -516,
+		gen: 7,
+	},
 	rowapberry: {
 		name: "Rowap Berry",
 		spritenum: 420,

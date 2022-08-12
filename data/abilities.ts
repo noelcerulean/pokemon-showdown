@@ -3843,6 +3843,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 32,
 	},
+	shadowadaptation: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Shadow') {
+				this.debug('Shadow Adaptation boost');
+				return this.chainModify(2);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Shadow') {
+				this.debug('Shadow Adaptation boost');
+				return this.chainModify(2);
+			}
+		},
+		name: "Shadow Adaptation",
+		rating: 5,
+		num: -812,
+	},
 	shadowarmor: {
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Shadow Armor');

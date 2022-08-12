@@ -1242,6 +1242,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	eevee: {
 		tier: "LC",
 	},
+	eeveeshadow: {
+		tier: "Uber",
+	},
 	eeveestarter: {
 		isNonstandard: "LGPE",
 		tier: "Illegal",
@@ -2465,6 +2468,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 86,
 		tier: "RU",
 		doublesTier: "(DUU)",
+	},
+	roseradearmored: {
+		tier: "OU",
 	},
 	gulpin: {
 		isNonstandard: "Past",

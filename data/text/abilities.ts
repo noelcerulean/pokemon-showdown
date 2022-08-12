@@ -1400,6 +1400,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Serene Grace",
 		shortDesc: "This Pokemon's moves have their secondary effect chance doubled.",
 	},
+	shadowadaptation: {
+		name: "Shadow Adaptation",
+		shortDesc: "Atk and SpA are doubled when using Shadow moves.",
+
+		start: "  [POKEMON] is surrounded by a shadowy aura!",
+	},
 	shadowarmor: {
 		name: "Shadow Armor",
 		desc: "Negates critical hits. The power of Shadow-type attacks against this Pokemon is halved.",

@@ -1522,6 +1522,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Roseli Berry",
 		desc: "Halves damage taken from a supereffective Fairy-type attack. Single use.",
 	},
+	roseradearmor: {
+		name: "Roserade Armor",
+		desc: "Armor developed by DoReMi for Roserade to enhance its battle capabilities.",
+		shortDesc: "Attach to Roserade-Armored forme (not base forme!!!) in the teambuilder.",
+	},
 	rowapberry: {
 		name: "Rowap Berry",
 		desc: "If holder is hit by a special move, attacker loses 1/8 of its max HP. Single use.",

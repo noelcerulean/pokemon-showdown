@@ -969,6 +969,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	eevee: {
 		tier: "LC",
 	},
+	eeveeshadow: {
+		tier: "Uber",
+	},
 	vaporeon: {
 		randomBattleMoves: ["icebeam", "protect", "roar", "scald", "toxic", "wish"],
 		randomDoubleBattleMoves: ["helpinghand", "icywind", "muddywater", "protect", "scald", "toxic"],
@@ -2067,6 +2070,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["gigadrain", "hiddenpowerfire", "leafstorm", "protect", "sleeppowder", "sludgebomb"],
 		tier: "RU",
 		doublesTier: "(DUU)",
+	},
+	roseradearmored: {
+		tier: "OU",
 	},
 	gulpin: {
 		tier: "LC",

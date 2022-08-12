@@ -5336,6 +5336,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Shadow End",
 		shortDesc: "Always crits. User takes 1/2 recoil.",
 	},
+	shadowevoboost: {
+		name: "Shadow Evoboost",
+		desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 2 stages.",
+		shortDesc: "Raises user's Atk, Def, SpA, SpD, and Spe by 2.",
+	},
 	shadowfission: {
 		name: "Shadow Fission",
 		desc: "The user and the target's HP become the average of their current HP, rounded down, but not more than the maximum HP of either one.",

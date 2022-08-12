@@ -635,6 +635,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	eevee: {
 		name: "Eevee",
 	},
+	eeveeshadow: {
+		name: "Eevee-Shadow",
+	},
 	eeveestarter: {
 		name: "Eevee-Starter",
 	},
@@ -1702,6 +1705,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	roserade: {
 		name: "Roserade",
+	},
+	roseradearmored: {
+		name: "Roserade-Armored",
 	},
 	cranidos: {
 		name: "Cranidos",
