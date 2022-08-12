@@ -43955,6 +43955,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			scald: ["8M", "7M", "6M", "5M"],
 			scaleshot: ["8T"],
 			secretpower: ["7L1", "6M", "4M", "3M"],
+			shadowdevastation: ["7L1"],
 			shadowfog: ["7L1"],
 			shadowfrost: ["7L1"],
 			shadowhold: ["7L1"],

@@ -4805,6 +4805,16 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 0,
 		num: 140,
 	},
+	tenacity: {
+		onSourceAfterFaint(length, target, source, effect) {
+			if (effect && effect.effectType === 'Move') {
+				this.boost({spa: length}, source);
+			}
+		},
+		name: "Tenacity",
+		rating: 3,
+		num: -541,
+	},
 	teravolt: {
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Teravolt');
