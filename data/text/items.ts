@@ -1588,6 +1588,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 			desc: "Holder's Water-type attacks have 1.05x power.",
 		},
 	},
+	shadowgyaradosite: {
+		name: "Shadow Gyaradosite",
+		desc: "If held by a Gyarados-Shadow, this item allows it to Mega Evolve in battle.",
+	},
 	sharpbeak: {
 		name: "Sharp Beak",
 		desc: "Holder's Flying-type attacks have 1.2x power.",

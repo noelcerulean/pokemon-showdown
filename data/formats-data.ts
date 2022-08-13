@@ -1214,9 +1214,15 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
+	gyaradosshadow: {
+		tier: "Uber",
+	},
 	gyaradosmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
+	},
+	gyaradosmegashadow: {
+		tier: "Uber",
 	},
 	lapras: {
 		tier: "(PU)",

@@ -5310,6 +5310,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Raises the user's Attack and Speed by 1 stage.",
 		shortDesc: "Raises the user's Attack and Speed by 1.",
 	},
+	shadowdestruction: {
+		name: "Shadow Destruction",
+		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
+		shortDesc: "User cannot move next turn.",
+	},
 	shadowdevastation: {
 		name: "Shadow Devastation",
 		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",

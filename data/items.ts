@@ -5144,6 +5144,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 254,
 		gen: 3,
 	},
+	shadowgyaradosite: {
+		name: "Shadow Gyaradosite",
+		spritenum: 761,
+		megaStone: "Gyarados-Mega-Shadow",
+		megaEvolves: "Gyarados-Shadow",
+		itemUser: ["Gyarados-Shadow"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -520,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	sharpbeak: {
 		name: "Sharp Beak",
 		spritenum: 436,

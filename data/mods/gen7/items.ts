@@ -273,6 +273,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	shadowgyaradosite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	helixfossil: {
 		inherit: true,
 		isNonstandard: null,

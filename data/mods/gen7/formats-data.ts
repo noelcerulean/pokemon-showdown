@@ -949,11 +949,17 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UUBL",
 		doublesTier: "DUU",
 	},
+	gyaradosshadow: {
+		tier: "Uber",
+	},
 	gyaradosmega: {
 		randomBattleMoves: ["crunch", "dragondance", "earthquake", "icefang", "substitute", "waterfall"],
 		randomDoubleBattleMoves: ["crunch", "dragondance", "icefang", "protect", "taunt", "thunderwave", "waterfall"],
 		tier: "OU",
 		doublesTier: "DUU",
+	},
+	gyaradosmegashadow: {
+		tier: "Uber",
 	},
 	lapras: {
 		randomBattleMoves: ["dragondance", "iciclecrash", "raindance", "rest", "toxic", "waterfall"],

@@ -1490,6 +1490,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			shortDesc: "Prevents opposing Pokemon from choosing to switch out.",
 		},
 	},
+	shadowtyrant: {
+		name: "Shadow Tyrant",
+		shortDesc: "If this Pokemon KOs a target with a recharge move, it does not need to recharge.",
+
+		start: "  [POKEMON] is surrounded by a shadowy aura!",
+	},
 	shedskin: {
 		name: "Shed Skin",
 		desc: "This Pokemon has a 33% chance to have its non-volatile status condition cured at the end of each turn.",

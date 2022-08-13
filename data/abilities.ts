@@ -4083,6 +4083,28 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 5,
 		num: 23,
 	},
+	shadowtyrant: {
+		onSourceAfterFaint(length, target, source, effect) {
+			if (effect && effect.effectType === 'Move') {
+				delete source.volatiles['mustrecharge'];
+				source.removeVolatile('mustrecharge');
+				this.add('-end', source, 'Must recharge', '[silent]');
+			}
+		},
+		onAfterMoveSecondarySelf(pokemon, target, move) {
+			if (!move.flags['recharge']) return;
+			if (!target || target.fainted || target.hp <= 0) {
+				this.add('-ability', pokemon, 'Shadow Tyrant');
+				delete pokemon.volatiles['mustrecharge'];
+				pokemon.removeVolatile('mustrecharge');
+				this.add('-end', pokemon, 'Must recharge', '[silent]');
+				this.hint('It may look like this Pokemon is going to recharge next turn, but it will not recharge.');
+			}
+		},
+		name: "Shadow Tyrant",
+		rating: 2.5,
+		num: -813,
+	},
 	shedskin: {
 		onResidualOrder: 5,
 		onResidualSubOrder: 3,

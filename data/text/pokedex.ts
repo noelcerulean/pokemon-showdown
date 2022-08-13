@@ -620,8 +620,11 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	gyarados: {
 		name: "Gyarados",
 	},
-	gyaradosmega: {
-		name: "Gyarados-Mega",
+	gyaradosshadow: {
+		name: "Gyarados-Shadow",
+	},
+	gyaradosmegashadow: {
+		name: "Gyarados-Mega-Shadow",
 	},
 	lapras: {
 		name: "Lapras",
