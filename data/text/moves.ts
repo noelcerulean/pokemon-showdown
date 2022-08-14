@@ -5613,6 +5613,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Shadow Threat",
 		shortDesc: "Raises target Def/Sp. Def by 1 and confuses it.",
 	},
+	shadowtitan: {
+		name: "Shadow Titan",
+		desc: "This move and its effects ignore the Abilities of other Pokemon.",
+		shortDesc: "Ignores the Abilities of other Pokemon.",
+	},
 	shadowtrance: {
 		name: "Shadow Trance",
 		shortDesc: "Non-reflectable. Infiltrates. Sleeps target.",

@@ -11819,6 +11819,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 43,
 		eggGroups: ["Mineral"],
 	},
+	golurkshadow: {
+		num: 623,
+		name: "Golurk-Shadow",
+		types: ["Ground", "Ghost"],
+		gender: "N",
+		baseStats: {hp: 109, atk: 164, def: 130, spa: 142, spd: 120, spe: 85},
+		abilities: {0: "Shadow Armor"},
+		heightm: 2.8,
+		weightkg: 330,
+		color: "Green",
+		eggGroups: ["Undiscovered"],
+	},
 	pawniard: {
 		num: 624,
 		name: "Pawniard",

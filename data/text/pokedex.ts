@@ -2561,6 +2561,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	golurk: {
 		name: "Golurk",
 	},
+	golurkshadow: {
+		name: "Golurk-Shadow",
+	},
 	pawniard: {
 		name: "Pawniard",
 	},

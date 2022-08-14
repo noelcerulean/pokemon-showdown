@@ -3768,6 +3768,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
+	golurkshadow: {
+		tier: "Uber",
+	},
 	pawniard: {
 		tier: "LC",
 	},
