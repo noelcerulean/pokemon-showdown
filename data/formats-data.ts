@@ -1214,14 +1214,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
-	gyaradosshadow: {
+	gyaradosalarix: {
 		tier: "Uber",
 	},
 	gyaradosmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	gyaradosmegashadow: {
+	gyaradosmegaalarix: {
 		tier: "Uber",
 	},
 	lapras: {
@@ -1248,7 +1248,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	eevee: {
 		tier: "LC",
 	},
-	eeveeshadow: {
+	eeveedurum: {
 		tier: "Uber",
 	},
 	eeveestarter: {
@@ -1279,7 +1279,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
-	jolteonshadow: {
+	jolteonradiatori: {
 		tier: "Uber",
 	},
 	flareon: {
@@ -1290,7 +1290,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	flareonshadow: {
+	flareonlasagna: {
 		tier: "Uber",
 	},
 	espeon: {
@@ -1323,7 +1323,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	leafeonshadow: {
+	leafeontagliatelle: {
 		tier: "Uber",
 	},
 	glaceon: {
@@ -1334,7 +1334,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	glaceonshadow: {
+	glaceonmanicotti: {
 		tier: "Uber",
 	},
 	sylveon: {
@@ -1345,7 +1345,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "DUU",
 	},
-	sylveonshadow: {
+	sylveonfarfalle: {
 		tier: "Uber",
 	},
 	porygon: {
@@ -1522,7 +1522,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	chikoritashadow: {
+	chikoritaminty: {
 		tier: "Uber",
 	},
 	bayleef: {
@@ -1533,7 +1533,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	meganiumshadow: {
+	meganiumaniseed: {
 		tier: "Uber",
 	},
 	cyndaquil: {
@@ -1745,7 +1745,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	honchkrowshadow: {
+	honchkrowgodfather: {
 		tier: "Uber",
 	},
 	misdreavus: {
@@ -1760,7 +1760,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	kurstrawshadow: {
+	kurstrawcrona: {
 		tier: "Uber",
 	},
 	pangshi: {
@@ -2116,7 +2116,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	sceptileshadow: {
+	sceptilemoscho: {
 		tier: "Uber",
 	},
 	torchic: {
@@ -2524,7 +2524,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	cameruptshadow: {
+	cameruptmaxie: {
 		tier: "Uber",
 	},
 	torkoal: {
@@ -3575,7 +3575,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	dewottshadow: {
+	dewottpika: {
 		tier: "Uber",
 	},
 	samurott: {
@@ -4213,7 +4213,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	fraxure: {
 		tier: "NFE",
 	},
-	fraxureshadow: {
+	fraxurefrenzy: {
 		tier: "Uber",
 	},
 	haxorus: {
@@ -4301,7 +4301,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
-	golurkshadow: {
+	golurktitan: {
 		tier: "Uber",
 	},
 	pawniard: {
@@ -4367,7 +4367,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	zweilous: {
 		tier: "NFE",
 	},
-	zweilousshadow: {
+	zweilousterror: {
 		tier: "Uber",
 	},
 	hydreigon: {
@@ -4725,7 +4725,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["closecombat", "ironhead", "kingsshield", "shadowclaw", "shadowsneak", "swordsdance"],
 		randomDoubleBattleLevel: 84,
 	},
-	aegislashshadow: {
+	aegislashzato: {
 		tier: "Uber",
 	},
 	spritzee: {
@@ -5044,7 +5044,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
-	decidueyeshadow: {
+	decidueyeapollo: {
 		tier: "Uber",
 	},
 	litten: {
@@ -5334,7 +5334,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
-	golisopodshadow: {
+	golisopodmusashi: {
 		tier: "Uber",
 	},
 	sandygast: {

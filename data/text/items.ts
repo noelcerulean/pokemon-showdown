@@ -48,6 +48,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Alakazite",
 		desc: "If held by an Alakazam, this item allows it to Mega Evolve in battle.",
 	},
+	alarixite: {
+		name: "Alarixite",
+		desc: "If held by a Gyarados-Alarix, this item allows it to Mega Evolve in battle.",
+	},
 	aloraichiumz: {
 		name: "Aloraichium Z",
 		desc: "If held by an Alolan Raichu with Thunderbolt, it can use Stoked Sparksurfer.",
@@ -1587,10 +1591,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 		gen3: {
 			desc: "Holder's Water-type attacks have 1.05x power.",
 		},
-	},
-	shadowgyaradosite: {
-		name: "Shadow Gyaradosite",
-		desc: "If held by a Gyarados-Shadow, this item allows it to Mega Evolve in battle.",
 	},
 	sharpbeak: {
 		name: "Sharp Beak",

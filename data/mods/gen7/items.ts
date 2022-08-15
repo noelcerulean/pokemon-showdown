@@ -28,6 +28,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	alarixite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	altarianite: {
 		inherit: true,
 		isNonstandard: null,
@@ -270,10 +274,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 		isNonstandard: null,
 	},
 	gyaradosite: {
-		inherit: true,
-		isNonstandard: null,
-	},
-	shadowgyaradosite: {
 		inherit: true,
 		isNonstandard: null,
 	},

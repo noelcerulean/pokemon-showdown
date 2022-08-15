@@ -949,7 +949,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UUBL",
 		doublesTier: "DUU",
 	},
-	gyaradosshadow: {
+	gyaradosalarix: {
 		tier: "Uber",
 	},
 	gyaradosmega: {
@@ -958,7 +958,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DUU",
 	},
-	gyaradosmegashadow: {
+	gyaradosmegaalarix: {
 		tier: "Uber",
 	},
 	lapras: {
@@ -975,7 +975,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	eevee: {
 		tier: "LC",
 	},
-	eeveeshadow: {
+	eeveedurum: {
 		tier: "Uber",
 	},
 	vaporeon: {
@@ -993,7 +993,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
-	jolteonshadow: {
+	jolteonradiatori: {
 		tier: "Uber",
 	},
 	flareon: {
@@ -1002,7 +1002,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},
-	flareonshadow: {
+	flareonlasagna: {
 		tier: "Uber",
 	},
 	espeon: {
@@ -1029,7 +1029,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},
-	leafeonshadow: {
+	leafeontagliatelle: {
 		tier: "Uber",
 	},
 	glaceon: {
@@ -1038,7 +1038,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
-	glaceonshadow: {
+	glaceonmanicotti: {
 		tier: "Uber",
 	},
 	porygon: {
@@ -1161,7 +1161,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	chikorita: {
 		tier: "LC",
 	},
-	chikoritashadow: {
+	chikoritaminty: {
 		tier: "Uber",
 	},
 	bayleef: {
@@ -1173,7 +1173,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
-	meganiumshadow: {
+	meganiumaniseed: {
 		tier: "Uber",
 	},
 	cyndaquil: {
@@ -1382,7 +1382,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
-	honchkrowshadow: {
+	honchkrowgodfather: {
 		tier: "Uber",
 	},
 	misdreavus: {
@@ -1400,7 +1400,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
-	kurstrawshadow: {
+	kurstrawcrona: {
 		tier: "Uber",
 	},
 	pangshi: {
@@ -1730,7 +1730,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DUU",
 	},
-	sceptileshadow: {
+	sceptilemoscho: {
 		tier: "Uber",
 	},
 	torchic: {
@@ -2128,7 +2128,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DOU",
 	},
-	cameruptshadow: {
+	cameruptmaxie: {
 		tier: "Uber",
 	},
 	torkoal: {
@@ -3163,7 +3163,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	dewott: {
 		tier: "NFE",
 	},
-	dewottshadow: {
+	dewottpika: {
 		tier: "Uber",
 	},
 	samurott: {
@@ -3705,7 +3705,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	fraxure: {
 		tier: "NFE",
 	},
-	fraxureshadow: {
+	fraxurefrenzy: {
 		tier: "Uber",
 	},
 	haxorus: {
@@ -3768,7 +3768,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
-	golurkshadow: {
+	golurktitan: {
 		tier: "Uber",
 	},
 	pawniard: {
@@ -3822,7 +3822,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	zweilous: {
 		tier: "NFE",
 	},
-	zweilousshadow: {
+	zweilousterror: {
 		tier: "Uber",
 	},
 	hydreigon: {
@@ -4141,7 +4141,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["ironhead", "sacredsword", "shadowclaw", "shadowsneak", "swordsdance"],
 		randomDoubleBattleMoves: ["ironhead", "kingsshield", "sacredsword", "shadowclaw", "shadowsneak", "swordsdance"],
 	},
-	aegislashshadow: {
+	aegislashzato: {
 		tier: "Uber",
 	},
 	spritzee: {
@@ -4237,7 +4237,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "DUU",
 	},
-	sylveonshadow: {
+	sylveonfarfalle: {
 		tier: "Uber",
 	},
 	hawlucha: {
@@ -4412,7 +4412,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
-	decidueyeshadow: {
+	decidueyeapollo: {
 		tier: "Uber",
 	},
 	litten: {
@@ -4672,7 +4672,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
-	golisopodshadow: {
+	golisopodmusashi: {
 		tier: "Uber",
 	},
 	sandygast: {

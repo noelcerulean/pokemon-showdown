@@ -189,6 +189,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	alarixite: {
+		name: "Alarixite",
+		spritenum: 761,
+		megaStone: "Gyarados-Mega-Alarix",
+		megaEvolves: "Gyarados-Alarix",
+		itemUser: ["Gyarados-Alarix"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -520,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	aloraichiumz: {
 		name: "Aloraichium Z",
 		spritenum: 655,
@@ -1201,7 +1215,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Sinister Arrow Raid",
 		zMoveFrom: "Spirit Shackle",
-		itemUser: ["Decidueye"],
+		itemUser: ["Decidueye", "Decidueye-Apollo"],
 		num: 798,
 		gen: 7,
 		isNonstandard: "Past",
@@ -5143,20 +5157,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 254,
 		gen: 3,
-	},
-	shadowgyaradosite: {
-		name: "Shadow Gyaradosite",
-		spritenum: 761,
-		megaStone: "Gyarados-Mega-Shadow",
-		megaEvolves: "Gyarados-Shadow",
-		itemUser: ["Gyarados-Shadow"],
-		onTakeItem(item, source) {
-			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
-			return true;
-		},
-		num: -520,
-		gen: 6,
-		isNonstandard: "Past",
 	},
 	sharpbeak: {
 		name: "Sharp Beak",
