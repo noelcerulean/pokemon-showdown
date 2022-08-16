@@ -28433,6 +28433,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			naturalgift: ["7L1", "4M"],
 			nightslash: ["7L1", "6L1", "5L1", "4L1"],
 			ominouswind: ["7L1", "4T"],
+			outrage: ["7L1"],
 			protect: ["7M", "6M", "5M", "4M"],
 			psychic: ["7M", "6M", "5M", "4M"],
 			psychup: ["7M", "6M", "5M", "4M"],
