@@ -2931,6 +2931,24 @@
 				"moves": [["Hold Hands"], ["Return"], ["Earthquake"], ["Play Rough"]]
 			}]
 		},
+		"roseradearmored": {
+			"flags": {},
+			"sets": [{
+				"species": "Roserade-Armored",
+				"item": ["Roserade Armor"],
+				"ability": ["Cunning Blade"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Leaf Blade"], ["Night Slash"], ["Sleep Powder"], ["Nasty Plot", "Sacred Sword"]]
+			}, {
+				"species": "Roserade-Armored",
+				"item": ["Roserade Armor"],
+				"ability": ["Cunning Blade"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Leaf Blade"], ["Night Slash"], ["Nasty Plot", "Sleep Powder"], ["Sacred Sword"]]
+			}]
+		},
 		"rotomwash": {
 			"flags": {},
 			"sets": [{

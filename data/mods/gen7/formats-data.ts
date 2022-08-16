@@ -2078,7 +2078,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	roseradearmored: {
+		randomBattleMoves: ["leafblade", "nastyplot", "nightslash", "sacredsword", "sleeppowder"],
+		randomDoubleBattleMoves: ["leafblade", "nightslash", "protect", "sacredsword", "sleeppowder"],
 		tier: "OU",
+		doublesTier: "(DUU)",
 	},
 	gulpin: {
 		tier: "LC",

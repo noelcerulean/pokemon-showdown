@@ -302,6 +302,8 @@ function generateSSBMoveInfo(sigMove: Move, dex: ModdedDex) {
 		if (sigMove.flags['contact']) details["&#10003; Contact"] = "";
 		if (sigMove.flags['sound']) details["&#10003; Sound"] = "";
 		if (sigMove.flags['bullet']) details["&#10003; Bullet"] = "";
+		if (sigMove.flags['kick']) details["&#10003; Kick"] = "";
+		if (sigMove.flags['blade']) details["&#10003; Blade"] = "";
 		if (sigMove.flags['pulse']) details["&#10003; Pulse"] = "";
 		if (!sigMove.flags['protect'] && !/(ally|self)/i.test(sigMove.target)) details["&#10003; Bypasses Protect"] = "";
 		if (sigMove.flags['authentic']) details["&#10003; Bypasses Substitutes"] = "";
