@@ -2388,15 +2388,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	huntail: {
-		randomBattleMoves: ["icebeam", "shellsmash", "suckerpunch", "waterfall"],
-		randomDoubleBattleMoves: ["icebeam", "protect", "shellsmash", "suckerpunch", "waterfall"],
-		tier: "(PU)",
+		randomBattleMoves: ["crunch", "icefang", "shellsmash", "suckerpunch", "waterfall"],
+		randomDoubleBattleMoves: ["crunch", "protect", "shellsmash", "suckerpunch", "waterfall"],
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	gorebyss: {
-		randomBattleMoves: ["hiddenpowergrass", "hydropump", "icebeam", "shellsmash"],
-		randomDoubleBattleMoves: ["hiddenpowergrass", "hydropump", "icebeam", "protect", "shellsmash"],
-		tier: "(PU)",
+		randomBattleMoves: ["hiddenpowergrass", "hydropump", "icebeam", "psychic", "shellsmash"],
+		randomDoubleBattleMoves: ["hiddenpowergrass", "hydropump", "icebeam", "protect", "psychic", "shellsmash"],
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	relicanth: {
@@ -4826,13 +4826,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	togedemaru: {
-		randomBattleMoves: ["ironhead", "nuzzle", "spikyshield", "uturn", "wish", "zingzap"],
+		randomBattleMoves: ["ironhead", "nuzzle", "rapidspin", "spikes", "spikyshield", "uturn", "wish", "zingzap"],
 		randomDoubleBattleMoves: ["encore", "fakeout", "ironhead", "nuzzle", "spikyshield", "uturn", "zingzap"],
-		tier: "NU",
+		tier: "RU",
 		doublesTier: "DUU",
 	},
 	togedemarutotem: {
-		tier: "NU",
+		tier: "RU",
 		doublesTier: "DUU",
 	},
 	mimikyu: {

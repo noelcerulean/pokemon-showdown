@@ -4881,6 +4881,18 @@
 				"moves": [["Stealth Rock", "Defog"], ["Earthquake"], ["Toxic", "U-turn", "Knock Off"], ["Roost"]]
 			}]
 		},
+		"gorebyss": {
+			"flags": {},
+			"sets": [{
+				"species": "Gorebyss",
+				"item": ["White Herb"],
+				"ability": ["Swift Swim"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Modest",
+				"moves": [["Shell Smash"], ["Hydro Pump"], ["Ice Beam"], ["Psychic"]]
+			}]
+		},
 		"haxorus": {
 			"flags": {},
 			"sets": [{
@@ -4956,6 +4968,17 @@
 				"evs": {"spa": 252, "spd": 4, "spe": 252},
 				"nature": "Timid",
 				"moves": [["Nasty Plot"], ["Dark Pulse"], ["Fire Blast"], ["Taunt,", "Destiny Bond", "Agility"]]
+			}]
+		},
+		"huntail": {
+			"flags": {},
+			"sets": [{
+				"species": "Huntail",
+				"item": ["White Herb"],
+				"ability": ["Swift Swim"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Shell Smash"], ["Crunch"], ["Waterfall"], ["Sucker Punch"]]
 			}]
 		},
 		"hydreigon": {
@@ -8879,6 +8902,31 @@
 				"evs": {"def": 4, "spa": 252, "spe": 252},
 				"nature": "Timid",
 				"moves": [["Boomburst"], ["U-turn"], ["Heat Wave"], ["Air Slash"]]
+			}]
+		},
+		"togedemaru": {
+			"flags": {},
+			"sets": [{
+				"species": "Togedemaru",
+				"item": ["Leftovers"],
+				"ability": ["Iron Barbs"],
+				"evs": {"hp": 252, "spd": 100, "spe": 156},
+				"nature": "Jolly",
+				"moves": [["Wish"], ["Spiky Shield"], ["Zing Zap"], ["Toxic"]]
+			}, {
+				"species": "Togedemaru",
+				"item": ["Leftovers"],
+				"ability": ["Iron Barbs"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Iron Head"], ["U-turn"], ["Zing Zap"], ["Nuzzle", "Rapid Spin", "Spikes"]]
+			}, {
+				"species": "Togedemaru",
+				"item": ["Leftovers"],
+				"ability": ["Sturdy"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Spikes"], ["Rapid Spin"], ["Zing Zap"], ["U-Turn"]]
 			}]
 		},
 		"torkoal": {
