@@ -1545,6 +1545,45 @@
 				"moves": [["Flare Blitz"], ["Wish"], ["Will-O-Wisp"], ["Toxic", "Heal Bell", "Dry Pass"]]
 			}]
 		},
+		"floatzel": {
+			"flags": {},
+			"sets": [{
+				"species": "Floatzel",
+				"item": ["Choice Scarf"],
+				"ability": ["Water Veil"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Waterfall"], ["U-turn"], ["Ice Punch"], ["Switcheroo"]]
+			}, {
+				"species": "Floatzel",
+				"item": ["Choice Band"],
+				"ability": ["Water Veil"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Waterfall"], ["U-turn"], ["Ice Punch"], ["Aqua Jet"]]
+			}, {
+				"species": "Floatzel",
+				"item": ["Choice Specs"],
+				"ability": ["Limber"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Hydro Pump"], ["U-turn"], ["Ice Beam"], ["Switcheroo"]]
+			}, {
+				"species": "Floatzel",
+				"item": ["Life Orb"],
+				"ability": ["Limber"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Hydro Pump"], ["U-turn"], ["Ice Beam"], ["Nasty Plot"]]
+			}, {
+				"species": "Floatzel",
+				"item": ["Life Orb"],
+				"ability": ["Water Veil"],
+				"evs": {"atl": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Waterfall"], ["U-turn", "Aqua Jet"], ["Ice Punch"], ["Swords Dance"]]
+			}]
+		},
 		"flygon": {
 			"flags": {},
 			"sets": [{
@@ -4477,6 +4516,26 @@
 				"moves": [["Spikes"], ["Wood Hammer"], ["Synthesis"], ["Drain Punch"]]
 			}]
 		},
+		"clawitzer": {
+			"flags": {},
+			"sets": [{
+				"species": "Clawitzer",
+				"item": ["Choice Specs"],
+				"ability": ["High Caliber"],
+				"evs": {"spa": 252, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Modest",
+				"moves": [["Propulsion Shot"], ["Ice Beam"], ["Dark Pulse"], ["Aura Sphere"]]
+			}, {
+				"species": "Clawitzer",
+				"item": ["Choice Scarf"],
+				"ability": ["High Caliber"],
+				"evs": {"spa": 252, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Propulsion Shot"], ["Ice Beam"], ["Dark Pulse"], ["Aura Sphere"]]
+			}]
+		},
 		"claydol": {
 			"flags": {},
 			"sets": [{
@@ -6707,6 +6766,17 @@
 				"evs": {"hp": 4, "atk": 252, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Swords Dance"], ["Facade"], ["Crunch"], ["Close Combat"]]
+			}]
+		},
+		"venomoth": {
+			"flags": {},
+			"sets": [{
+				"species": "Venomoth",
+				"item": ["Buginium Z"],
+				"ability": ["Tinted Lens"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Quiver Dance"], ["Sleep Powder"], ["Bug Buzz"], ["Sludge Bomb"]]
 			}]
 		},
 		"vespiquenarmored": {

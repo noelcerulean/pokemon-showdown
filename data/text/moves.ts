@@ -4534,6 +4534,13 @@ export const MovesText: {[k: string]: MoveText} = {
 		start: "  [POKEMON] prophesized a spaceborne destruction!",
 		activate: "  [TARGET] was blasted with a shower of asteroids!",
 	},
+	propulsionshot: {
+		name: "Propulsion Shot",
+		desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.",
+		shortDesc: "User switches out after damaging the target.",
+
+		switchOut: "[POKEMON] went back to [TRAINER]!",
+	},
 	protect: {
 		name: "Protect",
 		desc: "The user is protected from most attacks made by other Pokemon during this turn. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Obstruct, Protect, Quick Guard, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",

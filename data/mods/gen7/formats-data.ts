@@ -2723,9 +2723,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	floatzel: {
-		randomBattleMoves: ["aquajet", "brickbreak", "bulkup", "icepunch", "liquidation", "substitute", "taunt"],
+		randomBattleMoves: ["aquajet", "brickbreak", "bulkup", "icepunch", "liquidation", "nastyplot", "substitute", "swordsdance", "taunt", "uturn"],
 		randomDoubleBattleMoves: ["aquajet", "icepunch", "liquidation", "protect", "switcheroo", "taunt"],
-		tier: "(PU)",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	cherubi: {
@@ -4202,9 +4202,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	clawitzer: {
-		randomBattleMoves: ["aurasphere", "darkpulse", "icebeam", "scald", "uturn", "waterpulse"],
+		randomBattleMoves: ["aurasphere", "darkpulse", "icebeam", "propulsionshot", "uturn", "waterpulse"],
 		randomDoubleBattleMoves: ["aurasphere", "darkpulse", "helpinghand", "icebeam", "muddywater", "protect", "uturn", "waterpulse"],
-		tier: "NU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	helioptile: {
