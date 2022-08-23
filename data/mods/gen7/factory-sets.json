@@ -4400,6 +4400,24 @@
 				"moves": [["Soft-Boiled"], ["Seismic Toss"], ["Toxic"], ["Heal Bell", "Stealth Rock"]]
 			}]
 		},
+		"bruxish": {
+			"flags": {},
+			"sets": [{
+				"species": "Bruxish",
+				"item": ["Life Orb"],
+				"ability": ["Strong Jaw"],
+				"evs": {"hp": 4, "atk": 252, "spd": 252},
+				"nature": "Adamant",
+				"moves": [["Psychic Fangs"], ["Ice Fang"], ["Liquidation"], ["Agility"]]
+			}, {
+				"species": "Bruxish",
+				"item": ["Life Orb"],
+				"ability": ["Strong Jaw"],
+				"evs": {"hp": 4, "atk": 252, "spd": 252},
+				"nature": "Jolly",
+				"moves": [["Psychic Fangs"], ["Aqua Jet"], ["Liquidation"], ["Swords Dance"]]
+			}]
+		},
 		"butterfree": {
 			"flags": {},
 			"sets": [{
@@ -4945,7 +4963,7 @@
 			"sets": [{
 				"species": "Gorebyss",
 				"item": ["White Herb"],
-				"ability": ["Swift Swim"],
+				"ability": ["Dazzling"],
 				"evs": {"spa": 252, "spd": 4, "spe": 252},
 				"ivs": {"atk": 0},
 				"nature": "Modest",
@@ -7786,6 +7804,38 @@
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Rapid Spin"], ["Explosion"], ["Spikes"], ["Stealth Rock"]]
+			}]
+		},
+		"golduck": {
+			"flags": {},
+			"sets": [{
+				"species": "Golduck",
+				"item": ["Choice Specs"],
+				"ability": ["Psyche Control"],
+				"evs": {"hp": 4, "spa": 252, "spd": 252},
+				"nature": "Timid",
+				"moves": [["Psychic"], ["Ice Beam"], ["Hydro Pump"], ["Trick"]]
+			}, {
+				"species": "Golduck",
+				"item": ["Choice Band"],
+				"ability": ["Psyche Control"],
+				"evs": {"hp": 4, "atk": 252, "spd": 252},
+				"nature": "Jolly",
+				"moves": [["Waterfall"], ["Zen Headbutt"], ["Ice Punch"], ["Trick"]]
+			}, {
+				"species": "Golduck",
+				"item": ["Psychium Z"],
+				"ability": ["Psyche Control"],
+				"evs": {"hp": 4, "spa": 252, "spd": 252},
+				"nature": "Timid",
+				"moves": [["Psychic"], ["Ice Beam"], ["Hydro Pump"], ["Nasty Plot"]]
+			}, {
+				"species": "Golduck",
+				"item": ["Psychium Z"],
+				"ability": ["Psyche Control"],
+				"evs": {"hp": 4, "atk": 252, "spd": 252},
+				"nature": "Jolly",
+				"moves": [["Waterfall"], ["Zen Headbutt"], ["Ice Punch"], ["Swords Dance"]]
 			}]
 		},
 		"golem": {

@@ -1168,6 +1168,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: -516,
 	},
+	enigmatify: {
+		onStart(pokemon) {
+			this.field.addPseudoWeather('wonderroom');
+		},
+		name: "Enigmatify",
+		rating: 2.5,
+		num: -540,
+	},
 	erraticflight: {
 		// upokecenter says this is implemented as an added secondary effect
 		onModifyMove(move) {

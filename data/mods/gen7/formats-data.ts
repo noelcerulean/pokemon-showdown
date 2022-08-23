@@ -407,7 +407,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	golduck: {
 		randomBattleMoves: ["calmmind", "encore", "hydropump", "icebeam", "psyshock", "scald", "substitute"],
 		randomDoubleBattleMoves: ["calmmind", "encore", "focusblast", "hydropump", "icebeam", "protect", "scald"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	mankey: {
@@ -4847,9 +4847,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	mimikyubustedtotem: {},
 	bruxish: {
-		randomBattleMoves: ["aquajet", "crunch", "icefang", "liquidation", "psychicfangs", "swordsdance"],
+		randomBattleMoves: ["agility", "aquajet", "crunch", "icefang", "liquidation", "psychicfangs", "swordsdance"],
 		randomDoubleBattleMoves: ["aquajet", "crunch", "liquidation", "protect", "psychicfangs", "swordsdance"],
-		tier: "NUBL",
+		tier: "RUBL",
 		doublesTier: "DUU",
 	},
 	drampa: {

@@ -416,6 +416,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon receives 1/2 damage from poisoned pokemon.",
 		shortDesc: "This Pokemon takes 1/2 damage from poisoned pokemon.",
 	},
+	enigmatify: {
+		name: "Enigmatify",
+		shortDesc: "On switch-in, this Pokemon summons Wonder Room.",
+	},
 	erraticflight: {
 		name: "Erratic Flight",
 		shortDesc: "This Pokemon's contact moves have a 100% chance of confusing.",
