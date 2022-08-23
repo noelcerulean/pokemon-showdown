@@ -7248,6 +7248,24 @@
 				"moves": [["Venus Chomp"], ["Knock Off"], ["Defog"], ["Synthesis"]]
 			}]
 		},
+		"carracosta": {
+			"flags": {},
+			"sets": [{
+				"species": "Carracosta",
+				"item": ["Weakness Policy"],
+				"ability": ["Solid Rock"],
+				"evs": {"hp": 252, "atk": 252, "def": 4},
+				"nature": "Adamant",
+				"moves": [["Liquidation"], ["Poison Jab"], ["Aqua Jet"], ["Rock Climb"]]
+			}, {
+				"species": "Carracosta",
+				"item": ["Leftovers"],
+				"ability": ["Solid Rock"],
+				"evs": {"hp": 248, "def": 252, "spd": 8},
+				"nature": "Relaxed",
+				"moves": [["Stealth Rock"], ["Counter"], ["Waterfall"], ["Toxic", "Knock Off"]]
+			}]
+		},
 		"chatot": {
 			"flags": {},
 			"sets": [{
@@ -7376,6 +7394,17 @@
 				"ivs": {"atk": 0},
 				"nature": "Modest",
 				"moves": [["Calm Mind"], ["Draining Kiss"], ["Giga Drain"], ["Hidden Power Fire", "Healing Wish"]]
+			}]
+		},
+		"corsola": {
+			"flags": {},
+			"sets": [{
+				"species": "Corsola",
+				"item": ["Rocky Helmet"],
+				"ability": ["Regenerator"],
+				"evs": {"hp": 248, "def": 252, "spd": 8},
+				"nature": "Relaxed",
+				"moves": [["Stealth Rock"], ["Scald"], ["Recover"], ["Dry Pass", "Toxic", "Haze", "Heal Bell"]]
 			}]
 		},
 		"crabominable": {
@@ -8010,6 +8039,17 @@
 				"moves": [["Scald", "Hex"], ["Taunt"], ["Will-O-Wisp"], ["Recover"]]
 			}]
 		},
+		"kabutops": {
+			"flags": {},
+			"sets": [{
+				"species": "Kabutops",
+				"item": ["Life Orb", "Lum Berry"],
+				"ability": ["Unsheathed"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Swords Dance"], ["Rock Climb"], ["Waterfall"], ["Aqua Jet", "X-Scissor"]]
+			}]
+		},
 		"kangaskhan": {
 			"flags": {},
 			"sets": [{
@@ -8398,6 +8438,18 @@
 				"evs": {"hp": 252, "spd": 4, "spe": 252},
 				"nature": "Timid",
 				"moves": [["Taunt"], ["Super Fang"], ["Hurricane"], ["Roost"]]
+			}]
+		},
+		"omastar": {
+			"flags": {},
+			"sets": [{
+				"species": "Omastar",
+				"item": ["White Herb", "Waterium Z"],
+				"ability": ["Weak Armor"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Shell Smash"], ["Hydro Pump"], ["Ice Beam"], ["Prehistoric Pulse"]]
 			}]
 		},
 		"onix": {

@@ -1065,7 +1065,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	omastar: {
 		randomBattleMoves: ["earthpower", "hydropump", "icebeam", "scald", "shellsmash", "spikes", "stealthrock"],
 		randomDoubleBattleMoves: ["earthpower", "hiddenpowerelectric", "hydropump", "icebeam", "muddywater", "protect", "shellsmash"],
-		tier: "PU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	kabuto: {
@@ -1074,7 +1074,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	kabutops: {
 		randomBattleMoves: ["aquajet", "knockoff", "liquidation", "rapidspin", "stoneedge", "swordsdance"],
 		randomDoubleBattleMoves: ["aquajet", "knockoff", "liquidation", "protect", "rockslide", "stoneedge", "swordsdance"],
-		tier: "PU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	aerodactyl: {
@@ -1571,7 +1571,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	corsola: {
 		randomBattleMoves: ["powergem", "recover", "scald", "stealthrock", "toxic"],
 		randomDoubleBattleMoves: ["icywind", "powergem", "protect", "scald", "stealthrock", "toxic"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	remoraid: {
@@ -3485,7 +3485,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	carracosta: {
 		randomBattleMoves: ["aquajet", "earthquake", "liquidation", "shellsmash", "stoneedge"],
 		randomDoubleBattleMoves: ["aquajet", "earthquake", "liquidation", "protect", "rockslide", "shellsmash", "stoneedge", "wideguard"],
-		tier: "PU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	archen: {
