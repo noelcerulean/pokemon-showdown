@@ -53,7 +53,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	blastoise: {
 		randomBattleMoves: ["dragontail", "icebeam", "rapidspin", "roar", "scald", "toxic"],
 		randomDoubleBattleMoves: ["fakeout", "followme", "icywind", "muddywater", "protect", "rapidspin", "scald"],
-		tier: "NU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	blastoisemega: {
