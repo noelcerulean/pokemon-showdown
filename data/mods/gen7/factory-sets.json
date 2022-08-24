@@ -6967,6 +6967,31 @@
 				"moves": [["Stone Edge"], ["Ice Fang"], ["Earthquake"], ["Pursuit", "Hone Claws"]]
 			}]
 		},
+		"aggron": {
+			"flags": {},
+			"sets": [{
+				"species": "Aggron",
+				"item": ["Choice Band"],
+				"ability": ["Rock Head"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": ["Adamant", "Jolly"],
+				"moves": [["Head Smash"], ["Heavy Slam"], ["Ice Punch", "Earthquake"], ["Superpower"]]
+			}, {
+				"species": "Aggron",
+				"item": ["Rockium Z"],
+				"ability": ["Rock Head"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": ["Adamant", "Jolly"],
+				"moves": [["Head Smash"], ["Heavy Slam"], ["Stealth Rock"], ["Taunt"]]
+			}, {
+				"species": "Aggron",
+				"item": ["Weakness Policy"],
+				"ability": ["Sturdy"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": ["Jolly"],
+				"moves": [["Rock Climb"], ["Heavy Slam"], ["Earthquake"], ["Rock Polish"]]
+			}]
+		},
 		"ambipom": {
 			"flags": {},
 			"sets": [{

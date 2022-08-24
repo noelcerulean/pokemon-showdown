@@ -2001,7 +2001,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	aggron: {
 		randomBattleMoves: ["aquatail", "autotomize", "earthquake", "headsmash", "heavyslam", "lowkick", "stealthrock"],
 		randomDoubleBattleMoves: ["headsmash", "heavyslam", "protect", "stealthrock", "stompingtantrum"],
-		tier: "PU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	aggronmega: {
