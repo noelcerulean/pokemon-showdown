@@ -3999,7 +3999,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	delphox: {
 		randomBattleMoves: ["calmmind", "fireblast", "grassknot", "psyshock", "shadowball", "switcheroo"],
 		randomDoubleBattleMoves: ["calmmind", "fireblast", "grassknot", "heatwave", "protect", "psyshock", "switcheroo"],
-		tier: "NU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	froakie: {
