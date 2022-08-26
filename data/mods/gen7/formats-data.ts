@@ -3333,9 +3333,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	seismitoad: {
-		randomBattleMoves: ["earthquake", "hydropump", "knockoff", "raindance", "scald", "sludgewave", "stealthrock", "toxic"],
+		randomBattleMoves: ["earthquake", "hydropump", "knockoff", "powerwhip", "raindance", "scald", "sludgewave", "stealthrock", "toxic"],
 		randomDoubleBattleMoves: ["earthquake", "hydropump", "muddywater", "protect", "raindance", "sludgebomb"],
-		tier: "NU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	throh: {
@@ -3554,7 +3554,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	swanna: {
 		randomBattleMoves: ["bravebird", "defog", "hurricane", "icebeam", "raindance", "roost", "scald"],
 		randomDoubleBattleMoves: ["bravebird", "hurricane", "icebeam", "protect", "scald", "tailwind"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	vanillite: {

@@ -4402,6 +4402,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4.5,
 		num: 3,
 	},
+	squall: {
+		onBasePowerPriority: 21,
+		onBasePower(basePower, attacker, defender, move) {
+			if (this.field.isWeather('raindance')) {
+				if (move.type === 'Water' || move.type === 'Flying' || move.type === 'Electric') {
+					this.debug('Squall boost');
+					return this.chainModify([5325, 4096]);
+				}
+			}
+		},
+		name: "Squall",
+		rating: 3,
+		num: -542,
+	},
 	stakeout: {
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender) {

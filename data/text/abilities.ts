@@ -1615,6 +1615,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon's Speed is raised by 1 stage at the end of each full turn it has been on the field.",
 		shortDesc: "This Pokemon's Speed is raised 1 stage at the end of each full turn on the field.",
 	},
+	squall: {
+		name: "Squall",
+		desc: "If Rain Dance is active, this Pokemon's Water-, Flying-, and Electric-type attacks have their power multiplied by 1.3.",
+		shortDesc: "This Pokemon's Water/Flying/Electric attacks do 1.3x in Rain.",
+	},
 	stakeout: {
 		name: "Stakeout",
 		shortDesc: "This Pokemon's attacking stat is doubled against a target that switched in this turn.",

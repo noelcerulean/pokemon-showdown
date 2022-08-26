@@ -6545,6 +6545,31 @@
 				"moves": [["Stealth Rock"], ["Earthquake"], ["Scald"], ["Roar", "Toxic", "Counter"]]
 			}]
 		},
+		"swanna": {
+			"flags": {},
+			"sets": [{
+				"species": "Swanna",
+				"item": ["Waterium Z"],
+				"ability": ["Squall"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Liquidation"], ["Brave Bird"], ["Rain Dance"], ["Aqua Jet"]]
+			}, {
+				"species": "Swanna",
+				"item": ["Choice Band"],
+				"ability": ["Squall"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Liquidation"], ["Brave Bird"], ["Rain Dance"], ["Aqua Jet"]]
+			}, {
+				"species": "Swanna",
+				"item": ["Waterium Z"],
+				"ability": ["Squall"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Hydro Pump"], ["Hurricane"], ["Rain Dance"], ["Hidden Power Electric"]]
+			}]
+		},
 		"sylveon": {
 			"flags": {},
 			"sets": [{
@@ -8864,10 +8889,17 @@
 			"sets": [{
 				"species": "Seismitoad",
 				"item": ["Leftovers"],
-				"ability": ["Water Absorb"],
-				"evs": {"hp": 252, "def": 252, "spd": 4},
-				"nature": "Relaxed",
-				"moves": [["Scald"], ["Toxic"], ["Earthquake"], ["Stealth Rock"]]
+				"ability": ["Seismography"],
+				"evs": {"hp": 252, "atk": 252, "spd": 4},
+				"nature": "Adamant",
+				"moves": [["Liquidation"], ["Power Whip", "Toxic"], ["Earthquake"], ["Stealth Rock"]]
+			}, {
+				"species": "Seismitoad",
+				"item": ["Leftovers"],
+				"ability": ["Seismography"],
+				"evs": {"hp": 252, "spa": 252, "spd": 4},
+				"nature": "Modest",
+				"moves": [["Surf"], ["Sludge Wave", "Toxic"], ["Earth Power"], ["Stealth Rock"]]
 			}]
 		},
 		"shaymin": {
