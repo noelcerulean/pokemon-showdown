@@ -321,6 +321,9 @@ export const Aliases: {[alias: string]: string} = {
 	unfezantfemale: "Unfezant-F",
 	unfezantmale: "Unfezant",
 	unfezantm: "Unfezant",
+	pyroarfemale: "Pyroar-F",
+	pyroarmale: "Pyroar",
+	pyroarm: "Pyroar",
 
 	// event formes
 	rockruffdusk: "Rockruff",

@@ -326,7 +326,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	bellossom: {
 		randomBattleMoves: ["gigadrain", "hiddenpowerground", "moonblast", "quiverdance", "sleeppowder", "strengthsap"],
 		randomDoubleBattleMoves: ["energyball", "moonblast", "quiverdance", "sleeppowder", "strengthsap"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	paras: {
@@ -2055,14 +2055,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	volbeat: {
 		randomBattleMoves: ["defog", "encore", "roost", "tailwind", "thunderwave", "uturn"],
 		randomDoubleBattleMoves: ["encore", "helpinghand", "protect", "stringshot", "strugglebug", "tailwind", "thunderwave", "uturn"],
-		tier: "(PU)",
-		doublesTier: "(DUU)",
+		tier: "UU",
+		doublesTier: "DOU",
 	},
 	illumise: {
 		randomBattleMoves: ["bugbuzz", "defog", "encore", "roost", "thunderwave", "uturn", "wish"],
 		randomDoubleBattleMoves: ["bugbuzz", "encore", "helpinghand", "protect", "tailwind", "thunderwave"],
-		tier: "(PU)",
-		doublesTier: "(DUU)",
+		tier: "UU",
+		doublesTier: "DOU",
 	},
 	budew: {
 		tier: "LC",
@@ -4066,7 +4066,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	pyroar: {
 		randomBattleMoves: ["darkpulse", "fireblast", "hypervoice", "solarbeam", "sunnyday", "willowisp"],
 		randomDoubleBattleMoves: ["fireblast", "hypervoice", "protect", "solarbeam", "sunnyday", "willowisp"],
-		tier: "PUBL",
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
+	pyroarf: {
+		randomBattleMoves: ["crunch", "flamewheel", "flareblitz", "return", "wildcharge"],
+		randomDoubleBattleMoves: ["crunch", "flamewheel", "flareblitz", "protect", "return", "wildcharge"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	flabebe: {

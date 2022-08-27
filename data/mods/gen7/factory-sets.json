@@ -1146,14 +1146,14 @@
 			"sets": [{
 				"species": "Altaria",
 				"item": ["Leftovers"],
-				"ability": ["Delta Stream"],
+				"ability": ["Cloud Guard"],
 				"evs": {"hp": 252, "def": 4, "spd": 252},
 				"nature": "Calm",
 				"moves": [["Toxic"], ["Flamethrower", "Defog", "Heal Bell"], ["Hurricane"], ["Roost"]]
 			}, {
 				"species": "Altaria",
 				"item": ["Altarianite"],
-				"ability": ["Delta Stream"],
+				"ability": ["Cloud Guard"],
 				"evs": {"hp": 72, "atk": 252, "spe": 184},
 				"nature": "Adamant",
 				"moves": [["Dragon Dance"], ["Return"], ["Earthquake", "Refresh", "Heal Bell"], ["Roost"]]
@@ -4328,6 +4328,17 @@
 				"moves": [["Hypnosis"], ["Trick Room"], ["Psychic"], ["Focus Blast", "Volt Switch"]]
 			}]
 		},
+		"bellossom": {
+			"flags": {},
+			"sets": [{
+				"species": "Bellossom",
+				"item": ["Leftovers"],
+				"ability": ["Grassy Surge"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Quiver Dance"], ["Sunshine Dance"], ["Giga Drain"], ["Moonblast", "Strength Sap", "Sleep Powder"]]
+			}]
+		},
 		"bibarel": {
 			"flags": {},
 			"sets": [{
@@ -5149,6 +5160,24 @@
 				"evs": {"hp": 252, "def": 4, "spd": 252},
 				"nature": "Calm",
 				"moves": [["Wish"], ["Dry Pass", "Heal Bell", "Toxic", "Thunder Wave"], ["Seismic Toss"], ["Protect"]]
+			}]
+		},
+		"illumise": {
+			"flags": {},
+			"sets": [{
+				"species": "Illumise",
+				"item": ["Light Clay"],
+				"ability": ["Prankster"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": "Bold",
+				"moves": [["Taunt"], ["Light Screen"], ["Reflect"], ["Memento"]]
+			}, {
+				"species": "Illumise",
+				"item": ["Normalium Z"],
+				"ability": ["Tinted Lens"],
+				"evs": {"hp": 4, "spa": 252, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Hold Hands"], ["Bug Buzz"], ["Roost"], ["Calm Mind", "Barrier", "Substitute", "Taunt"]]
 			}]
 		},
 		"jirachi": {
@@ -6054,6 +6083,49 @@
 				"moves": [["Return"], ["Submission"], ["Knock Off"], ["Hypnosis"]]
 			}]
 		},
+		"pyroar": {
+			"flags": {},
+			"sets": [{
+				"species": "Pyroar",
+				"item": ["Life Orb", "Firium Z"],
+				"ability": ["Tenacity"],
+				"evs": {"def": 4, "spa": 252, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Fire Blast"], ["Hyper Voice"], ["Hidden Power Grass"], ["Will-O-Wisp", "Taunt"]]
+			}, {
+				"species": "Pyroar",
+				"item": ["Choice Specs"],
+				"ability": ["Tenacity"],
+				"evs": {"def": 4, "spa": 252, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Fire Blast"], ["Hyper Voice"], ["Hidden Power Grass"], ["Flamethrower", "Overheat"]]
+			}, {
+				"species": "Pyroar",
+				"item": ["Choice Scarf"],
+				"ability": ["Tenacity"],
+				"evs": {"def": 4, "spa": 252, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Fire Blast"], ["Hyper Voice"], ["Hidden Power Grass"], ["Flamethrower"]]
+			}]
+		},
+		"pyroarf": {
+			"flags": {},
+			"sets": [{
+				"species": "Pyroar-F",
+				"item": ["Life Orb", "Firium Z"],
+				"ability": ["Moxie"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Flare Blitz"], ["Return"], ["Wild Charge"], ["Flame Wheel", "Crunch", "Flame Charge"]]
+			}, {
+				"species": "Pyroar-F",
+				"item": ["Choice Band", "Choice Scarf"],
+				"ability": ["Moxie"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Flare Blitz"], ["Return"], ["Wild Charge"], ["Flame Wheel", "Crunch"]]
+			}]
+		},
 		"raichu": {
 			"flags": {},
 			"sets": [{
@@ -6831,6 +6903,24 @@
 				"evs": {"hp": 252, "def": 252, "spa": 4},
 				"nature": "Bold",
 				"moves": [["Calm Mind", "Defend Order"], ["Roost"], ["Bug Buzz"], ["Psyshock"]]
+			}]
+		},
+		"volbeat": {
+			"flags": {},
+			"sets": [{
+				"species": "Volbeat",
+				"item": ["Choice Band"],
+				"ability": ["Prankster"],
+				"evs": {"hp": 4, "atk": 252, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["U-Turn"], ["Drain Punch"], ["Switcheroo"], ["Knock Off"]]
+			}, {
+				"species": "Volbeat",
+				"item": ["Leftovers"],
+				"ability": ["Prankster"],
+				"evs": {"hp": 252, "def": 252, "spe": 4},
+				"nature": "Impish",
+				"moves": [["Thunder Wave"], ["U-Turn"], ["Roost"], ["Encore", "Reflect"]]
 			}]
 		},
 		"volcanion": {
