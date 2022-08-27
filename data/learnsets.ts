@@ -6972,7 +6972,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			facade: ["8M", "7M", "6M", "5M", "4M", "3M"],
 			flash: ["7V", "6M", "5M", "4M", "3M"],
 			fling: ["8M", "7M", "6M", "5M", "4M"],
-			flowerveil: ["7L1"],
+			flowershield: ["7L1"],
 			frustration: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			gastroacid: ["7T", "6T", "5T", "4T"],
 			gigadrain: ["8M", "8L1", "7T", "7V", "6T", "5T", "4M", "3M"],
