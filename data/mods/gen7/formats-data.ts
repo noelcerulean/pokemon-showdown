@@ -2716,7 +2716,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	pachirisu: {
 		randomBattleMoves: ["nuzzle", "superfang", "thunderbolt", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["followme", "helpinghand", "nuzzle", "protect", "superfang", "thunderbolt", "uturn"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	buizel: {
@@ -4258,7 +4258,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	dedenne: {
 		randomBattleMoves: ["grassknot", "hiddenpowerice", "nuzzle", "recycle", "substitute", "thunderbolt", "toxic"],
 		randomDoubleBattleMoves: ["eerieimpulse", "helpinghand", "nuzzle", "recycle", "superfang", "thunderbolt"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	carbink: {

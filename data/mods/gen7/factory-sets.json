@@ -4698,6 +4698,17 @@
 				"moves": [["Earthquake"], ["Shell Smash"], ["Rock Climb"], ["Crabhammer", "X-Scissor"]]
 			}]
 		},
+		"dedenne": {
+			"flags": {},
+			"sets": [{
+				"species": "Dedenne",
+				"item": ["Leftovers"],
+				"ability": ["Plus"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Parabolic Charge"], ["Calm Mind"], ["Moonblast"], ["Grass Knot", "Moonlight"]]
+			}]
+		},
 		"delibird": {
 			"flags": {},
 			"sets": [{
@@ -8698,6 +8709,17 @@
 				"ivs": {"atk": 0},
 				"nature": "Timid",
 				"moves": [["Revelation Dance"], ["Hurricane"], ["Grass Knot"], ["Calm Mind", "Taunt", "Roost", "U-Turn"]]
+			}]
+		},
+		"pachirisu": {
+			"flags": {},
+			"sets": [{
+				"species": "Pachirisu",
+				"item": ["Sitrus Berry"],
+				"ability": ["Cheek Pouch"],
+				"evs": {"hp": 252, "def": 252, "spe": 4},
+				"nature": "Impish",
+				"moves": [["Nuzzle"], ["U-Turn"], ["Recycle"], ["Knock Off"]]
 			}]
 		},
 		"pangoro": {
