@@ -6002,6 +6002,17 @@
 				"moves": [["Knock Off"], ["Slack Off"], ["Toxic"], ["Wish"]]
 			}]
 		},
+		"persianalola": {
+			"flags": {},
+			"sets": [{
+				"species": "Persian-Alola",
+				"item": ["Darkinium Z", "Leftovers"],
+				"ability": ["Fur Coat"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Knock Off"], ["Parting Shot"], ["Taunt"], ["Gunk Shot"]]
+			}]
+		},
 		"pidgeot": {
 			"flags": {},
 			"sets": [{
@@ -8496,6 +8507,17 @@
 				"moves": [["Quiver Dance"], ["Sleep Powder", "Sludge Bomb"], ["Bug Buzz"], ["Dark Pulse"]]
 			}]
 		},
+		"marowak": {
+			"flags": {},
+			"sets": [{
+				"species": "Marowak",
+				"item": ["Thick Club"],
+				"ability": ["Bone Master"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Bonemerang"], ["Stone Edge", "Fire Punch"], ["Swords Dance"], ["Submission"]]
+			}]
+		},
 		"marowakalola": {
 			"flags": {},
 			"sets": [{
@@ -8946,7 +8968,7 @@
 			"sets": [{
 				"species": "Sawsbuck-Winter",
 				"item": ["Leftovers"],
-				"ability": ["Rough Skin"],
+				"ability": ["Fur Coat"],
 				"evs": {"atk": 252, "def": 252, "spe": 4},
 				"nature": "Impish",
 				"moves": [["Horn Leech"], ["Seasonal Spirit"], ["Synthesis"], ["Jump Kick"]]

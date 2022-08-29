@@ -398,7 +398,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	persianalola: {
 		randomBattleMoves: ["darkpulse", "hiddenpowerfighting", "hypnosis", "nastyplot", "powergem"],
 		randomDoubleBattleMoves: ["fakeout", "foulplay", "hiddenpowerfighting", "icywind", "partingshot", "protect", "snarl"],
-		tier: "PU",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	psyduck: {
@@ -718,7 +718,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	marowak: {
 		randomBattleMoves: ["bonemerang", "doubleedge", "earthquake", "knockoff", "stealthrock", "stoneedge", "substitute"],
 		randomDoubleBattleMoves: ["bonemerang", "doubleedge", "firepunch", "protect", "rockslide", "stealthrock", "swordsdance"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	marowakalola: {
