@@ -3381,6 +3381,24 @@
 				"moves": [["Hydro Pump"], ["Blizzard"], ["Thunder"], ["Psyshock", "Rapid Spin"]]
 			}]
 		},
+		"stunfisk": {
+			"flags": {},
+			"sets": [{
+				"species": "Stunfisk",
+				"item": ["Leftovers"],
+				"ability": ["Storm Drain"],
+				"evs": {"hp": 252, "def": 4, "spd": 252},
+				"nature": "Calm",
+				"moves": [["Stealth Rock"], ["Toxic"], ["Volt Switch"], ["Earth Power"]]
+			}, {
+				"species": "Stunfisk",
+				"item": ["Leftovers"],
+				"ability": ["Storm Drain"],
+				"evs": {"hp": 252, "def": 4, "spa": 252},
+				"nature": "Modest",
+				"moves": [["Parabolic Charge"], ["Scald"], ["Substitute"], ["Earth Power"]]
+			}]
+		},
 		"tangrowth": {
 			"flags": {},
 			"sets": [{
@@ -4744,6 +4762,18 @@
 				"evs": {"hp": 240, "atk": 252, "spd": 16},
 				"nature": "Adamant",
 				"moves": [["Swords Dance"], ["Iron Head"], ["Shadow Claw", "Sacred Sword"], ["Shadow Sneak"]]
+			}]
+		},
+		"drampa": {
+			"flags": {},
+			"sets": [{
+				"species": "Drampa",
+				"item": ["Choice Specs"],
+				"ability": ["Sap Sipper", "Berserk"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Modest",
+				"moves": [["Draco Meteor"], ["Hyper Voice"], ["Fire Blast"], ["Focus Blast"]]
 			}]
 		},
 		"durant": {
@@ -8731,6 +8761,20 @@
 				"evs": {"hp": 4, "atk": 252, "spe": 252},
 				"nature": "Adamant",
 				"moves": [["Swords Dance"], ["Knock Off"], ["Drain Punch"], ["Bullet Punch"]]
+			}, {
+				"species": "Pangoro",
+				"item": ["Choice Band"],
+				"ability": ["Iron Fist"],
+				"evs": {"hp": 4, "atk": 252, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["One-Two Punch"], ["Knock Off"], ["Gunk Shot"], ["Bullet Punch"]]
+			}, {
+				"species": "Pangoro",
+				"item": ["Choice Scarf"],
+				"ability": ["Iron Fist"],
+				"evs": {"hp": 4, "atk": 252, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["One-Two Punch"], ["Knock Off"], ["Gunk Shot"], ["Parting Shot"]]
 			}]
 		},
 		"passimian": {
@@ -9522,6 +9566,25 @@
 				"evs": {"atk": 252, "spd": 4, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Close Combat"], ["Horn Leech"], ["Stone Edge"], ["Swords Dance"]]
+			}]
+		},
+		"vivillon": {
+			"flags": {},
+			"sets": [{
+				"species": "Vivillon",
+				"item": ["Leftovers"],
+				"ability": ["Compound Eyes"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Substitute"], ["Sleep Powder"], ["Quiver Dance"], ["Hurricane"]]
+			}, {
+				"species": "Vivillon",
+				"item": ["Flyinium Z"],
+				"ability": ["Compound Eyes"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Quiver Dance"], ["Sleep Powder"], ["Hurricane"], ["Energy Ball"]]
 			}]
 		},
 		"watchog": {

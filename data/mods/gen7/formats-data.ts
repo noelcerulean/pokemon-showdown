@@ -3742,9 +3742,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	stunfisk: {
-		randomBattleMoves: ["discharge", "earthpower", "rest", "scald", "sleeptalk", "stealthrock", "toxic"],
+		randomBattleMoves: ["discharge", "earthpower", "rest", "scald", "sleeptalk", "stealthrock", "toxic", "voltswitch"],
 		randomDoubleBattleMoves: ["discharge", "earthpower", "electroweb", "protect", "scald", "stealthrock"],
-		tier: "(PU)",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	mienfoo: {
@@ -4049,15 +4049,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	vivillon: {
 		randomBattleMoves: ["energyball", "hurricane", "quiverdance", "sleeppowder", "substitute"],
 		randomDoubleBattleMoves: ["bugbuzz", "hurricane", "protect", "quiverdance", "sleeppowder"],
-		tier: "NU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	vivillonfancy: {
-		tier: "NU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	vivillonpokeball: {
-		tier: "NU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	litleo: {
@@ -4105,9 +4105,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	pangoro: {
-		randomBattleMoves: ["bulletpunch", "drainpunch", "icepunch", "knockoff", "superpower", "swordsdance"],
-		randomDoubleBattleMoves: ["gunkshot", "hammerarm", "icepunch", "knockoff", "partingshot", "protect"],
-		tier: "NU",
+		randomBattleMoves: ["bulletpunch", "drainpunch", "icepunch", "knockoff", "onetwopunch", "swordsdance"],
+		randomDoubleBattleMoves: ["gunkshot", "icepunch", "knockoff", "onetwopunch", "partingshot", "protect"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	furfrou: {
@@ -4861,7 +4861,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	drampa: {
 		randomBattleMoves: ["dracometeor", "dragonpulse", "fireblast", "glare", "hypervoice", "roost", "thunderbolt"],
 		randomDoubleBattleMoves: ["dracometeor", "dragonpulse", "fireblast", "glare", "hypervoice", "protect", "roost"],
-		tier: "PU",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	dhelmise: {
