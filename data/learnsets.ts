@@ -66837,7 +66837,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			protect: ["8M", "7M", "6M", "5M"],
 			raindance: ["8M", "7M", "6M", "5M"],
 			reflecttype: ["8E", "7E", "6E"],
-			refresh: ["7L1"],
 			rest: ["8M", "7M", "6M", "5M"],
 			return: ["7M", "6M", "5M"],
 			revenge: ["8M", "8L15", "7L50", "6L50", "5L50"],
