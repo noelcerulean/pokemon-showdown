@@ -6402,8 +6402,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	glaciate: {
 		num: 549,
-		accuracy: 95,
-		basePower: 65,
+		accuracy: 100,
+		basePower: 70,
 		category: "Special",
 		name: "Glaciate",
 		pp: 10,
@@ -13870,6 +13870,31 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Psychic",
 		zMove: {boost: {spa: 2}},
+		contestType: "Clever",
+	},
+	psycleaner: {
+		num: -533,
+		accuracy: 100,
+		basePower: 90,
+		category: "Special",
+		name: "Psycleaner",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onTryHit(pokemon) {
+			// will shatter screens through sub, before you hit
+			pokemon.side.removeSideCondition('reflect');
+			pokemon.side.removeSideCondition('lightscreen');
+			pokemon.side.removeSideCondition('auroraveil');
+		},
+		secondary: {
+			chance: 20,
+			boosts: {
+				evasion: -1,
+			},
+		},
+		target: "normal",
+		type: "Psychic",
 		contestType: "Clever",
 	},
 	psyshock: {

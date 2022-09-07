@@ -3212,24 +3212,6 @@
 				"moves": [["Earthquake"], ["Double-Edge"], ["Stone Edge"], ["Wild Charge"]]
 			}]
 		},
-		"smeargle": {
-			"flags": {},
-			"sets": [{
-				"species": "Smeargle",
-				"item": ["Focus Sash"],
-				"ability": ["Prankster"],
-				"evs": {"hp": 252, "def": 4, "spe": 252},
-				"nature": "Jolly",
-				"moves": [["Spore", "Spore Slash"], ["Parasitic Drain"], ["Parting Shot"], ["Spider Web"]]
-			}, {
-				"species": "Smeargle",
-				"item": ["Focus Sash"],
-				"ability": ["Prankster"],
-				"evs": {"hp": 252, "def": 4, "spe": 252},
-				"nature": "Jolly",
-				"moves": [["Taunt"], ["Destiny Bond"], ["Sticky Web"], ["Spider Web"]]
-			}]
-		},
 		"sneasel": {
 			"flags": {},
 			"sets": [{
@@ -4714,6 +4696,26 @@
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Earthquake"], ["Shell Smash"], ["Rock Climb"], ["Crabhammer", "X-Scissor"]]
+			}]
+		},
+		"cryogonal": {
+			"flags": {},
+			"sets": [{
+				"species": "Cryogonal",
+				"item": ["Leftovers"],
+				"ability": ["Levitate", "Reverberation"],
+				"evs": {"hp": 248, "spd": 104, "spe": 156},
+				"ivs": {"atk": 0},
+				"nature": "Calm",
+				"moves": [["Freeze-Dry"], ["Rapid Spin"], ["Chilling Rime"], ["Recover"]]
+			}, {
+				"species": "Cryogonal",
+				"item": ["Life Orb"],
+				"ability": ["Levitate"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Calm",
+				"moves": [["Freeze-Dry"], ["Prehistoric Pulse"], ["Chilling Rime"], ["Recover"]]
 			}]
 		},
 		"dedenne": {
@@ -8286,6 +8288,26 @@
 				"moves": [["Scald", "Hex"], ["Taunt"], ["Will-O-Wisp"], ["Recover"]]
 			}]
 		},
+		"jynx": {
+			"flags": {},
+			"sets": [{
+				"species": "Jynx",
+				"item": ["Focus Sash", "Normalium Z"],
+				"ability": ["Dry Skin"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Nasty Plot", "Focus Blast"], ["Ice Beam"], ["Psyshock"], ["Lovely Kiss"]]
+			}, {
+				"species": "Jynx",
+				"item": ["Normalium Z", "Leftovers"],
+				"ability": ["Dry Skin"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Ice Beam"], ["Substitute"], ["Nasty Plot"], ["Lovely Kiss"]]
+			}]
+		},
 		"kabutops": {
 			"flags": {},
 			"sets": [{
@@ -8526,6 +8548,17 @@
 				"moves": [["Defog"], ["Taunt"], ["Roost"], ["Foul Play"]]
 			}]
 		},
+		"manectric": {
+			"flags": {},
+			"sets": [{
+				"species": "Manectric",
+				"item": ["Choice Specs"],
+				"ability": ["Minus"],
+				"evs": {"def": 4, "spa": 252, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Thunderbolt"], ["Volt Switch"], ["Overheat", "Flamethrower"], ["Hidden Power Grass"]]
+			}]
+		},
 		"mantine": {
 			"flags": {},
 			"sets": [{
@@ -8640,6 +8673,24 @@
 				"moves": [["Rapid Spin"], ["Milk Drink"], ["Seismic Toss"], ["Toxic"]]
 			}]
 		},
+		"mrmime": {
+			"flags": {},
+			"sets": [{
+				"species": "Mr. Mime",
+				"item": ["Life Orb", "Fairium Z"],
+				"ability": ["Filter"],
+				"evs": {"def": 4, "spa": 252, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Nasty Plot"], ["Moonblast"], ["Psycleaner"], ["Focus Blast"]]
+			}, {
+				"species": "Mr. Mime",
+				"item": ["Choice Scarf"],
+				"ability": ["Filter"],
+				"evs": {"def": 4, "spa": 252, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Trick"], ["Moonblast"], ["Psycleaner"], ["Focus Blast"]]
+			}]
+		},
 		"necrozma": {
 			"flags": {},
 			"sets": [{
@@ -8695,7 +8746,14 @@
 				"ability": ["Infiltrator"],
 				"evs": {"hp": 252, "spd": 4, "spe": 252},
 				"nature": "Timid",
-				"moves": [["Taunt"], ["Super Fang"], ["Hurricane"], ["Roost"]]
+				"moves": [["Taunt"], ["Super Fang"], ["Aeroblast"], ["Roost"]]
+			}, {
+				"species": "Noivern",
+				"item": ["Choice Specs"],
+				"ability": ["Infiltrator"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Aeroblast"], ["U-Turn"], ["Draco Meteor"], ["Flamethrower"]]
 			}]
 		},
 		"omastar": {
@@ -8932,6 +8990,64 @@
 				"evs": {"spa": 252, "spd": 4, "spe": 252},
 				"nature": "Timid",
 				"moves": [["Leaf Storm"], ["Sludge Bomb"], ["Hidden Power Fire"], ["Synthesis"]]
+			}]
+		},
+		"rotom": {
+			"flags": {},
+			"sets": [{
+				"species": "Rotom",
+				"item": ["Choice Scarf"],
+				"ability": ["Download"],
+				"evs": {"def": 4, "spa": 252, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Thunderbolt"], ["Volt Switch"], ["Trick"], ["Shadow Ball"]]
+			}, {
+				"species": "Rotom",
+				"item": ["Ghostium Z"],
+				"ability": ["Download"],
+				"evs": {"def": 4, "spa": 252, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Thunderbolt"], ["Hex"], ["Will-O-Wisp"], ["Volt Switch"]]
+			}, {
+				"species": "Rotom",
+				"item": ["Colbur Berry"],
+				"ability": ["Levitate"],
+				"evs": {"hp": 252, "spa": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Defog"], ["Hex"], ["Will-O-Wisp"], ["Volt Switch"]]
+			}]
+		},
+		"rotomfan": {
+			"flags": {},
+			"sets": [{
+				"species": "Rotom-Fan",
+				"item": ["Choice Scarf", "Choice Specs"],
+				"ability": ["Aerilate"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Hyper Voice"], ["Volt Switch"], ["Trick"], ["Thunderbolt"]]
+			}, {
+				"species": "Rotom-Fan",
+				"item": ["Leftovers"],
+				"ability": ["Aerilate"],
+				"evs": {"hp": 252, "spa": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": "Timid",
+				"moves": [["Defog"], ["Hyper Voice"], ["Will-O-Wisp"], ["Volt Switch"]]
+			}]
+		},
+		"rotomfrost": {
+			"flags": {},
+			"sets": [{
+				"species": "Rotom-Frost",
+				"item": ["Icium Z"],
+				"ability": ["Slush Rush"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Modest",
+				"moves": [["Hail"], ["Hidden Power Fire", "Hidden Power Ground"], ["Blizzard"], ["Thunderbolt"]]
 			}]
 		},
 		"rotommow": {
@@ -9314,6 +9430,17 @@
 				"evs": {"def": 4, "spa": 252, "spe": 252},
 				"nature": "Timid",
 				"moves": [["Boomburst"], ["U-turn"], ["Heat Wave"], ["Air Slash"]]
+			}]
+		},
+		"swoobat": {
+			"flags": {},
+			"sets": [{
+				"species": "Swoobat",
+				"item": ["Focus Sash", "Flyinium Z"],
+				"ability": ["Simple"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Hurricane"], ["Calm Mind"], ["Stored Power"], ["Heat Wave"]]
 			}]
 		},
 		"togedemaru": {

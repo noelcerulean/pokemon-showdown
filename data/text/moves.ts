@@ -4617,6 +4617,13 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "The user's non-volatile status condition is transferred to the target, and the user is then cured. Fails if the user has no non-volatile status condition or if the target already has one.",
 		shortDesc: "Transfers the user's status ailment to the target.",
 	},
+	psycleaner: {
+		name: "Psycleaner",
+		desc: "If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated.",
+		shortDesc: "Destroys screens on hit. 20% to drop evasion.",
+
+		activate: "  [POKEMON] wiped [TEAM]'s protections!",
+	},
 	psyshock: {
 		name: "Psyshock",
 		desc: "Deals damage to the target based on its Defense instead of Special Defense.",
