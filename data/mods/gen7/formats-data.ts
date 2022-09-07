@@ -2942,7 +2942,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "DUU",
 	},
 	rotomfrost: {
-		randomBattleMoves: ["blizzard", "painsplit", "thunderbolt", "trick", "voltswitch", "willowisp"],
+		randomBattleMoves: ["blizzard", "hail", "painsplit", "thunderbolt", "trick", "voltswitch", "willowisp"],
 		randomDoubleBattleMoves: ["blizzard", "electroweb", "protect", "thunderbolt", "trick", "voltswitch", "willowisp"],
 		tier: "RU",
 		doublesTier: "(DUU)",

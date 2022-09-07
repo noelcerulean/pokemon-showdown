@@ -55206,7 +55206,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			blizzard: ["8L1", "7R", "6R", "5R", "4R"],
 			glaciate: ["7R"],
-			haze: ["7R"],
+			hail: ["7R"],
 		},
 	},
 	rotomfan: {

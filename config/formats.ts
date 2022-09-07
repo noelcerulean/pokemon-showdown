@@ -545,6 +545,19 @@ export const Formats: FormatList = [
 		],
 	},
 	{
+		name: "[Gen 7] Camomons",
+		desc: "Pok&eacute;mon change type to match their first two moves.",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/camomons.3598418/">Almost Any Ability</a>`,
+		],
+
+		mod: 'gen7',
+		ruleset: ['[Gen 7] OU', 'Camomons Mod'],
+		banlist: [
+			'Dragonite', 'Kartana', 'Kyurem-Black', 'Shedinja',
+		],
+	},
+	{
 		name: "[Gen 7] Cross Evolution",
 		desc: `Give a Pok&eacute;mon a Pok&eacute;mon name of the next evolution stage as a nickname to inherit stat changes, typing, abilities, and up to 2 moves from the next stage Pok&eacute;mon.`,
 		threads: [
