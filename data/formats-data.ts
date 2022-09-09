@@ -539,10 +539,21 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	growlithe: {
 		tier: "LC",
 	},
+	growlithefnf: {
+		tier: "LC",
+	},
 	arcanine: {
 		randomBattleMoves: ["closecombat", "extremespeed", "flareblitz", "morningsun", "toxic", "wildcharge", "willowisp"],
 		randomBattleLevel: 82,
 		randomDoubleBattleMoves: ["closecombat", "extremespeed", "flareblitz", "morningsun", "protect", "snarl", "willowisp"],
+		randomDoubleBattleLevel: 84,
+		tier: "NU",
+		doublesTier: "DUU",
+	},
+	arcaninefnf: {
+		randomBattleMoves: ["closecombat", "extremespeed", "iceshard", "iciclecrash", "toxic", "wildcharge"],
+		randomBattleLevel: 82,
+		randomDoubleBattleMoves: ["closecombat", "extremespeed", "iceshard", "iciclecrash", "protect", "snarl"],
 		randomDoubleBattleLevel: 84,
 		tier: "NU",
 		doublesTier: "DUU",

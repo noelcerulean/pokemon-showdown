@@ -4083,6 +4083,17 @@
 				"moves": [["Sticky Web"], ["Liquidation"], ["Magic Coat"], ["Leech Life"]]
 			}]
 		},
+		"arcaninefnf": {
+			"flags": {},
+			"sets": [{
+				"species": "Arcanine-FnF",
+				"item": ["Choice Band"],
+				"ability": ["Fur Coat", "Intimidate"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Close Combat"], ["Ice Shard"], ["Icicle Crash"], ["Extreme Speed"]]
+			}]
+		},
 		"ariados": {
 			"flags": {},
 			"sets": [{
