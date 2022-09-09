@@ -257,6 +257,7 @@ const avatarTable = new Set([
 	'oak-gen1', 'oak-gen1rb', 'oak-gen2', 'oak-gen3',
 	'officer-gen2',
 	'oldcouple-gen3',
+	'owen',
 	'painter-gen3',
 	'palmer',
 	'parasollady-gen3', 'parasollady-gen4', 'parasollady',

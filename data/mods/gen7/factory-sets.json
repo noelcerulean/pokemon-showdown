@@ -1159,6 +1159,38 @@
 				"moves": [["Dragon Dance"], ["Return"], ["Earthquake", "Refresh", "Heal Bell"], ["Roost"]]
 			}]
 		},
+		"aurorus": {
+			"flags": {},
+			"sets": [{
+				"species": "Aurorus",
+				"item": ["Choice Specs"],
+				"ability": ["Snow Warning"],
+				"evs": {"hp": 252, "spa": 252, "spd": 4},
+				"nature": ["Modest"],
+				"moves": [["Prehistoric Pulse"], ["Blizzard"], ["Earth Power"], ["Freeze-Dry"]]
+			}, {
+				"species": "Aurorus",
+				"item": ["Weakness Policy", "Life Orb"],
+				"ability": ["Snow Warning"],
+				"evs": {"hp": 4, "spa": 252, "spe": 252},
+				"nature": ["Modest"],
+				"moves": [["Prehistoric Pulse"], ["Rock Polish"], ["Earth Power"], ["Freeze-Dry"]]
+			}, {
+				"species": "Aurorus",
+				"item": ["Light Clay"],
+				"ability": ["Snow Warning"],
+				"evs": {"hp": 252, "spa": 252, "spe": 4},
+				"nature": ["Modest"],
+				"moves": [["Prehistoric Pulse"], ["Blizzard"], ["Aurora Veil"], ["Stealth Rock"]]
+			}, {
+				"species": "Aurorus",
+				"item": ["Leftovers"],
+				"ability": ["Snow Warning"],
+				"evs": {"hp": 252, "def": 252, "spa": 4},
+				"nature": ["Bold"],
+				"moves": [["Calm Mind"], ["Freeze-Dry"], ["Prehistoric Pulse"], ["Earth Power"]]
+			}]
+		},
 		"azumarill": {
 			"flags": {},
 			"sets": [{
@@ -4208,38 +4240,6 @@
 				"evs": {"hp": 252, "def": 252, "spd": 4},
 				"nature": ["Bold"],
 				"moves": [["Calm Mind"], ["Draining Kiss"], ["Lunatic Eyes"], ["Aromatherapy"]]
-			}]
-		},
-		"aurorus": {
-			"flags": {},
-			"sets": [{
-				"species": "Aurorus",
-				"item": ["Choice Specs"],
-				"ability": ["Snow Warning"],
-				"evs": {"hp": 252, "spa": 252, "spd": 4},
-				"nature": ["Modest"],
-				"moves": [["Prehistoric Pulse"], ["Blizzard"], ["Earth Power"], ["Freeze-Dry"]]
-			}, {
-				"species": "Aurorus",
-				"item": ["Weakness Policy", "Life Orb"],
-				"ability": ["Snow Warning"],
-				"evs": {"hp": 4, "spa": 252, "spe": 252},
-				"nature": ["Modest"],
-				"moves": [["Prehistoric Pulse"], ["Rock Polish"], ["Earth Power"], ["Freeze-Dry"]]
-			}, {
-				"species": "Aurorus",
-				"item": ["Light Clay"],
-				"ability": ["Snow Warning"],
-				"evs": {"hp": 252, "spa": 252, "spe": 4},
-				"nature": ["Modest"],
-				"moves": [["Prehistoric Pulse"], ["Blizzard"], ["Aurora Veil"], ["Stealth Rock"]]
-			}, {
-				"species": "Aurorus",
-				"item": ["Leftovers"],
-				"ability": ["Snow Warning"],
-				"evs": {"hp": 252, "def": 252, "spa": 4},
-				"nature": ["Bold"],
-				"moves": [["Calm Mind"], ["Freeze-Dry"], ["Prehistoric Pulse"], ["Earth Power"]]
 			}]
 		},
 		"avalugg": {
