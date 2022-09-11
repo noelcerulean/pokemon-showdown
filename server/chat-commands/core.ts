@@ -420,6 +420,10 @@ const avatarTableZacWeavile = new Set([
 	'gloria-dojo', 'shauna',
 ]);
 
+const avatarTableIceJkai = new Set([
+	'matt-gen6',
+]);
+
 const avatarTableKyleDove = new Set([
 	'acetrainerf-gen6', 'acetrainerf-gen6xy', 'acetrainer-gen6', 'acetrainer-gen6xy', 'aquagrunt', 'aquagruntf',
 	'aromalady-gen6', 'artistf-gen6', 'artist-gen6', 'artist-gen8', 'backpacker-gen6', 'backpacker-gen8',
@@ -467,6 +471,7 @@ for (const avatar of avatarTableBeliot419) avatarTable.add(avatar);
 for (const avatar of avatarTableGnomowladny) avatarTable.add(avatar);
 for (const avatar of avatarTableBrumirage) avatarTable.add(avatar);
 for (const avatar of avatarTableZacWeavile) avatarTable.add(avatar);
+for (const avatar of avatarTableIceJkai) avatarTable.add(avatar);
 for (const avatar of avatarTableKyleDove) avatarTable.add(avatar);
 for (const avatar of avatarTableHyooppa) avatarTable.add(avatar);
 for (const avatar of avatarTableGrapo) avatarTable.add(avatar);
