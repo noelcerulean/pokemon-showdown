@@ -5023,6 +5023,24 @@
 				"moves": [["Stealth Rock", "Defog"], ["Earthquake"], ["Toxic", "U-turn", "Knock Off"], ["Roost"]]
 			}]
 		},
+		"golurk": {
+			"flags": {},
+			"sets": [{
+				"species": "Golurk",
+				"item": ["Weakness Policy"],
+				"ability": ["Iron Fist"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Earthquake"], ["Shadow Punch"], ["One-Two Punch"], ["Rock Polish"]]
+			}, {
+				"species": "Golurk",
+				"item": ["Choice Band"],
+				"ability": ["Iron Fist"],
+				"evs": {"hp": 252, "atk": 252, "spe": 4},
+				"nature": "Adamant",
+				"moves": [["Earthquake"], ["Shadow Punch"], ["One-Two Punch"], ["Ice Punch", "Trick"]]
+			}]
+		},
 		"gorebyss": {
 			"flags": {},
 			"sets": [{
@@ -5812,6 +5830,17 @@
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["U-Turn"], ["Flutter Strike"], ["Quick Attack"], ["Lunge"]]
+			}]
+		},
+		"mudsdale": {
+			"flags": {},
+			"sets": [{
+				"species": "Mudsdale",
+				"item": ["Leftovers", "Figy Berry"],
+				"ability": ["Stamina"],
+				"evs": {"hp": 252, "atk": 56, "def": 44, "spd": 156},
+				"nature": "Adamant",
+				"moves": [["Earthquake"], ["Toxic"], ["Bulk Up"], ["Protect"]]
 			}]
 		},
 		"muk": {
@@ -8875,6 +8904,38 @@
 				"moves": [["Bubble Prison"], ["Toxic"], ["U-Turn", "Heal Bell"], ["Protect"]]
 			}]
 		},
+		"pinsir": {
+			"flags": {},
+			"sets": [{
+				"species": "Pinsir",
+				"item": ["Salac Berry", "Lum Berry", "Life Orb"],
+				"ability": ["Mold Breaker"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Swords Dance"], ["Ultra Slicer"], ["Earthquake"], ["Stone Edge"]]
+			}, {
+				"species": "Pinsir",
+				"item": ["Normalium Z"],
+				"ability": ["Moxie"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Me First"], ["Ultra Slicer"], ["Earthquake"], ["Knock Off", "Stone Edge"]]
+			}, {
+				"species": "Pinsir",
+				"item": ["Choice Band"],
+				"ability": ["Mold Breaker"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Knock Off"], ["Ultra Slicer"], ["Earthquake"], ["Stone Edge", "Close Combat"]]
+			}, {
+				"species": "Pinsir",
+				"item": ["Choice Scarf"],
+				"ability": ["Moxie"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Knock Off"], ["Ultra Slicer"], ["Earthquake"], ["Stone Edge", "Close Combat"]]
+			}]
+		},
 		"porygon2": {
 			"flags": {},
 			"sets": [{
@@ -9666,6 +9727,13 @@
 				"evs": {"hp": 104, "spa": 252, "spe": 152},
 				"nature": "Modest",
 				"moves": [["Bug Buzz"], ["Thunderbolt"], ["Energy Ball"], ["Volt Switch"]]
+			}, {
+				"species": "Vikavolt",
+				"item": ["Leftovers"],
+				"ability": ["Levitate"],
+				"evs": {"hp": 252, "spa": 252, "spe": 4},
+				"nature": "Modest",
+				"moves": [["Bug Buzz"], ["Sticky Web"], ["Roost"], ["Volt Switch"]]
 			}]
 		},
 		"vileplume": {

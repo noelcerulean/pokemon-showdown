@@ -7019,6 +7019,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "20% chance to make the target flinch.",
 		},
 	},
+	ultraslicer: {
+		name: "Ultra Slicer",
+		desc: "Lowers the user's Defense and Special Defense by 1 stage.",
+		shortDesc: "Lowers the user's Defense and Sp. Def by 1.",
+	},
 	uturn: {
 		name: "U-turn",
 		desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.",

@@ -932,9 +932,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	pinsir: {
-		randomBattleMoves: ["closecombat", "earthquake", "knockoff", "stealthrock", "stoneedge", "xscissor"],
-		randomDoubleBattleMoves: ["closecombat", "feint", "knockoff", "protect", "rockslide", "xscissor"],
-		tier: "(PU)",
+		randomBattleMoves: ["closecombat", "earthquake", "knockoff", "stealthrock", "stoneedge", "ultraslicer"],
+		randomDoubleBattleMoves: ["closecombat", "feint", "knockoff", "protect", "rockslide", "ultraslicer"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	pinsirmega: {
@@ -3777,7 +3777,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	golurk: {
 		randomBattleMoves: ["dynamicpunch", "earthquake", "icepunch", "rockpolish", "shadowpunch", "stealthrock"],
 		randomDoubleBattleMoves: ["dynamicpunch", "earthquake", "icepunch", "protect", "rockpolish", "shadowpunch", "stoneedge"],
-		tier: "PU",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	golurktitan: {
@@ -4489,9 +4489,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	vikavolt: {
-		randomBattleMoves: ["agility", "bugbuzz", "energyball", "hiddenpowerice", "thunderbolt", "voltswitch"],
+		randomBattleMoves: ["agility", "bugbuzz", "energyball", "hiddenpowerice", "stickyweb", "thunderbolt", "voltswitch"],
 		randomDoubleBattleMoves: ["bugbuzz", "hiddenpowerice", "protect", "stringshot", "thunderbolt", "voltswitch"],
-		tier: "NU",
+		tier: "RU",
 		doublesTier: "DUU",
 	},
 	vikavolttotem: {
@@ -4589,9 +4589,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	mudsdale: {
-		randomBattleMoves: ["closecombat", "earthquake", "heavyslam", "rockslide", "stealthrock"],
+		randomBattleMoves: ["bulkup", "closecombat", "earthquake", "heavyslam", "rockslide", "stealthrock"],
 		randomDoubleBattleMoves: ["closecombat", "heavyslam", "highhorsepower", "protect", "rockslide"],
-		tier: "PU",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	dewpider: {
