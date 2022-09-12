@@ -4129,6 +4129,17 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Ambipom"],
 		eggGroups: ["Field"],
 	},
+	medipom: {
+		num: -517,
+		name: "Medipom",
+		types: ["Normal", "Fighting"],
+		baseStats: {hp: 42, atk: 60, def: 55, spa: 40, spd: 55, spe: 78},
+		abilities: {0: "Technician", 1: "Pure Power"},
+		heightm: 0.7,
+		weightkg: 11.4,
+		color: "Blue",
+		eggGroups: ["Undiscovered"],
+	},
 	sunkern: {
 		num: 191,
 		name: "Sunkern",

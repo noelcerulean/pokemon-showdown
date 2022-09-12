@@ -5686,6 +5686,31 @@
 				"moves": [["Aura Sphere"], ["Psychic", "Psyshock"], ["Vacuum Wave"], ["Shadow Ball"]]
 			}]
 		},
+		"medipom": {
+			"flags": {},
+			"sets": [{
+				"species": "Medipom",
+				"item": ["Life Orb"],
+				"ability": ["Pure Power"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Fake Out"], ["Knock Off"], ["Return"], ["High Jump Kick"]]
+			}, {
+				"species": "Medipom",
+				"item": ["Choice Scarf"],
+				"ability": ["Pure Power"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Knock Off"], ["U-Turn"], ["Return"], ["High Jump Kick"]]
+			}, {
+				"species": "Medipom",
+				"item": ["Choice Band"],
+				"ability": ["Pure Power"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Quick Attack"], ["U-Turn", "Knock Off"], ["Return"], ["High Jump Kick"]]
+			}]
+		},
 		"meganium": {
 			"flags": {},
 			"sets": [{

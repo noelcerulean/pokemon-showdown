@@ -1707,6 +1707,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	medipom: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	ambipom: {
 		isNonstandard: "Past",
 		tier: "Illegal",

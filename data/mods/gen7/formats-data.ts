@@ -1338,6 +1338,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	aipom: {
 		tier: "NFE",
 	},
+	medipom: {
+		randomBattleMoves: ["fakeout", "highjumpkick", "icepunch", "knockoff", "return", "seedbomb", "switcheroo", "uturn"],
+		randomDoubleBattleMoves: ["fakeout", "highjumpkick", "icepunch", "knockoff", "protect", "return", "uturn"],
+		tier: "RUBL",
+		doublesTier: "(DUU)",
+	},
 	ambipom: {
 		randomBattleMoves: ["fakeout", "knockoff", "lowkick", "return", "seedbomb", "switcheroo", "uturn"],
 		randomDoubleBattleMoves: ["fakeout", "icepunch", "knockoff", "lowkick", "protect", "return", "uturn"],
