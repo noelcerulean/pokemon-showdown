@@ -4290,6 +4290,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				return this.chainModify(2);
 			}
 		},
+		onImmunity(type, pokemon) {
+			if (type === 'hail') return false;
+		},
 		name: "Slush Rush",
 		rating: 3,
 		num: 202,
