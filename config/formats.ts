@@ -31,7 +31,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['Standard'],
-		banlist: ['Uber', 'Blaziken + Speed Boost', 'Greninja + Protean', 'Battle Bond', 'Landorus + Sheer Force', 'Power Construct', 'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z'],
+		banlist: ['Uber', 'Latias-Mega', 'Latios-Mega', 'Blaziken + Speed Boost', 'Greninja + Protean', 'Battle Bond', 'Landorus + Sheer Force', 'Power Construct', 'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z'],
 	},
 	{
 		name: "[Gen 7] OU",
@@ -81,7 +81,11 @@ export const Formats: FormatList = [
 			'Braixen-Nonzerda', 'Bulbasaur-Saur', 'Carbink-Floatamo', 'Eelektross-Mr.Lamprey', 'Emboar-Dynamite', 'Entei-Bismuth', 'Espeon-Daybreak', 'Hakamo-o-Jacinto',
 			'Ho-Oh-Rainbow', 'Jirachi-Wishmaker', 'Kecleon-Genocalypse', 'Kingdra-K.Marxdra', 'Milotic-Lothraxia', 'Porygon2-Pory.EXE', 'Raichu-Malachite',
 			'Raikou-Jasper', 'Simisear-Hanuman', 'Soarsparce-Alfred', 'Suicune-Opal', 'Typhlosion-Vesuvius', 'Umbreon-Nocturne', 'Vaporeon-Linguine',
-			'Wooper-Wooperoth', 'Yanmega-Zumbra'],
+			'Wooper-Wooperoth', 'Yanmega-Zumbra',
+			'Aegislash-Zato', 'Camerupt-Maxie', 'Chikorita-Minty', 'Decidueye-Apollo', 'Dewott-Pika', 'Eevee-Durum', 'Flareon-Lasagna', 'Fraxure-Frenzy',
+			'Glaceon-Manicotti', 'Golisopod-Musashi', 'Golurk-Titan', 'Gyarados-Alarix', 'Gyarados-Mega-Alarix', 'Honchkrow-Godfather', 'Jolteon-Radiatori',
+			'Kurstraw-Crona', 'Leafeon-Tagliatelle', 'Meganium-Aniseed', 'Sceptile-Moscho', 'Sylveon-Farfalle', 'Zweilous-Terror',
+		],
 	},
 	{
 		name: "[Gen 7] Shadowmons",
@@ -524,7 +528,7 @@ export const Formats: FormatList = [
 		ruleset: ['[Gen 7] OU', '2 Ability Clause', '!Obtainable Abilities'],
 		banlist: [
 			'Archeops', 'Buzzwole', 'Dragonite', 'Hoopa-Unbound', 'Kartana', 'Keldeo', 'Kyurem-Black', 'Regigigas', 'Shedinja', 'Slaking', 'Terrakion', 'Weavile', 'Victini',
-			'Bagwormicade', 'Comatose', 'Contrary', 'Fluffy', 'Fur Coat', 'Huge Power', 'Illusion', 'Imposter', 'Inflate', 'Innards Out',
+			'Antlure', 'Bagwormicade', 'Comatose', 'Contrary', 'Fluffy', 'Fur Coat', 'Huge Power', 'Illusion', 'Imposter', 'Inflate', 'Innards Out',
 			'Magnet Pull', 'Melody Allegretto', 'Mystic Power', 'Parental Bond', 'Protean', 'Pure Power', 'Simple', 'Speed Boost', 'Stakeout', 'Water Bubble', 'Wonder Guard',
 			'Shadow Armor', 'Shadow Conduction', 'Shadow Convection', 'Shadow Dust', 'Shadow Hydraulics', 'Shadow Rebirth',
 		],
@@ -541,7 +545,8 @@ export const Formats: FormatList = [
 		ruleset: ['-Nonexistent', '2 Ability Clause', 'OHKO Clause', 'Evasion Moves Clause', 'CFZ Clause', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Endless Battle Clause'],
 		banlist: [
 			'Groudon-Primal', 'Rayquaza-Mega', 'Gengarite', 'Comatose + Sleep Talk', 'Chatter',
-			'Arena Trap', 'Contrary', 'Huge Power', 'Illusion', 'Innards Out', 'Magnet Pull', 'Moody', 'Parental Bond', 'Protean', 'Psychic Surge', 'Pure Power', 'Shadow Tag', 'Stakeout', 'Water Bubble', 'Wonder Guard',
+			'Antlure', 'Arena Trap', 'Contrary', 'Huge Power', 'Illusion', 'Innards Out', 'Magnet Pull', 'Moody', 'Mystic Power',
+			'Parental Bond', 'Protean', 'Psychic Surge', 'Pure Power', 'Shadow Tag', 'Stakeout', 'Water Bubble', 'Wonder Guard',
 		],
 	},
 	{
@@ -702,7 +707,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['[Gen 7] Ubers'],
-		banlist: ['Huge Power', 'Pure Power', 'Shadow Tag', 'Blissey', 'Chansey', 'Deoxys-Attack', 'Sableye-Mega', 'Toxapex', 'Uber > 1', 'Uber ++ Power Construct'],
+		banlist: ['Huge Power', 'Mystic Power', 'Pure Power', 'Shadow Tag', 'Blissey', 'Chansey', 'Deoxys-Attack', 'Sableye-Mega', 'Toxapex', 'Uber > 1', 'Uber ++ Power Construct'],
 		onValidateTeam(team) {
 			const gods = new Set<string>();
 			for (const set of team) {
@@ -843,7 +848,7 @@ export const Formats: FormatList = [
 		],
 		mod: 'gen7',
 		ruleset: ['[Gen 7] OU', 'Evasion Abilities Clause'],
-		banlist: ['Excadrill', 'Mawile', 'Mightyena', 'Porygon-Z'],
+		banlist: ['Excadrill', 'Mawile', 'Mightyena', 'Porygon-Z', 'Clefable'],
 		onValidateSet(set) {
 			const species = this.dex.species.get(set.species);
 			const unSeenAbilities = Object.keys(species.abilities)
@@ -913,6 +918,9 @@ export const Formats: FormatList = [
 			'Ho-Oh-Rainbow', 'Jirachi-Wishmaker', 'Kecleon-Genocalypse', 'Kingdra-K.Marxdra', 'Milotic-Lothraxia', 'Porygon2-Pory.EXE', 'Raichu-Malachite',
 			'Raikou-Jasper', 'Simisear-Hanuman', 'Soarsparce-Alfred', 'Suicune-Opal', 'Typhlosion-Vesuvius', 'Umbreon-Nocturne', 'Vaporeon-Linguine',
 			'Wooper-Wooperoth', 'Yanmega-Zumbra',
+			'Aegislash-Zato', 'Camerupt-Maxie', 'Chikorita-Minty', 'Decidueye-Apollo', 'Dewott-Pika', 'Eevee-Durum', 'Flareon-Lasagna', 'Fraxure-Frenzy',
+			'Glaceon-Manicotti', 'Golisopod-Musashi', 'Golurk-Titan', 'Gyarados-Alarix', 'Gyarados-Mega-Alarix', 'Honchkrow-Godfather', 'Jolteon-Radiatori',
+			'Kurstraw-Crona', 'Leafeon-Tagliatelle', 'Meganium-Aniseed', 'Sceptile-Moscho', 'Sylveon-Farfalle', 'Zweilous-Terror',
 		],
 		banlist: ['Unown', 'Battle Bond'],
 	},

@@ -1753,8 +1753,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	facade: {
 		name: "Facade",
-		desc: "Power doubles if the user is burned, paralyzed, or poisoned. The physical damage halving effect from the user's burn is ignored.",
-		shortDesc: "Power doubles if user is burn/poison/paralyzed.",
+		desc: "Power doubles if the user is burned, frozen, paralyzed, or poisoned. The physical damage halving effect from the user's burn is ignored.",
+		shortDesc: "2x power if user frozen/burn/poison/paralyzed.",
 		gen5: {
 			desc: "Power doubles if the user is burned, paralyzed, or poisoned.",
 		},
@@ -5506,8 +5506,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	shadowrage: {
 		name: "Facade",
-		desc: "Always crits. Power doubles if the user is burned, paralyzed, or poisoned. The physical damage halving effect from the user's burn is ignored.",
-		shortDesc: "Crits. x2 power if user is burn/poison/paralyzed.",
+		desc: "Always crits. Power doubles if the user is burned, frozen, paralyzed, or poisoned. The physical damage halving effect from the user's burn is ignored.",
+		shortDesc: "2x power if user frozen/burn/poison/paralyzed.",
 	},
 	shadowrainbow: {
 		name: "Shadow Rainbow",

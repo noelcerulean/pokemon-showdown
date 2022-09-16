@@ -5053,6 +5053,24 @@
 				"moves": [["Shell Smash"], ["Hydro Pump"], ["Ice Beam"], ["Psychic"]]
 			}]
 		},
+		"hariyama": {
+			"flags": {},
+			"sets": [{
+				"species": "Hariyama",
+				"item": ["Assault Vest"],
+				"ability": ["Stamina"],
+				"evs": {"atk": 252, "def": 4, "spd": 252},
+				"nature": "Adamant",
+				"moves": [["Drain Punch"], ["Stone Edge"], ["Knock Off"], ["Heavy Slam"]]
+			}, {
+				"species": "Hariyama",
+				"item": ["Sitrus Berry"],
+				"ability": ["Stamina"],
+				"evs": {"atk": 252, "def": 4, "spd": 252},
+				"nature": "Adamant",
+				"moves": [["Drain Punch"], ["Belly Drum"], ["Knock Off"], ["Bullet Punch"]]
+			}]
+		},
 		"haxorus": {
 			"flags": {},
 			"sets": [{
@@ -5568,6 +5586,17 @@
 				"evs": {"atk": 252, "spd": 4, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Sucker Punch"], ["Lightning Kick"], ["Ice Fang"], ["Play Rough", "Psychic Fangs", "Protect"]]
+			}]
+		},
+		"magcargo": {
+			"flags": {},
+			"sets": [{
+				"species": "Magcargo",
+				"item": ["Leftovers"],
+				"ability": ["Dry Skin"],
+				"evs": {"hp": 252, "spa": 252, "spd": 4},
+				"nature": "Modest",
+				"moves": [["Recover"], ["Vaporize"], ["Prehistoric Pulse"], ["Stealth Rock", "Toxic", "Will-O-Wisp"]]
 			}]
 		},
 		"magmortar": {
@@ -7024,6 +7053,24 @@
 				"moves": [["Calm Mind", "Defend Order"], ["Roost"], ["Bug Buzz"], ["Psyshock"]]
 			}]
 		},
+		"victreebel": {
+			"flags": {},
+			"sets": [{
+				"species": "Victreebel",
+				"item": ["Life Orb"],
+				"ability": ["Chlorophyll"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Naive",
+				"moves": [["Sunny Day"], ["Solar Blade"], ["Poison Jab"], ["Weather Ball"]]
+			}, {
+				"species": "Victreebel",
+				"item": ["Black Sludge"],
+				"ability": ["Slow Digestion"],
+				"evs": {"hp": 252, "def": 252, "spe": 4},
+				"nature": "Bold",
+				"moves": [["Strength Sap"], ["Sleep Powder"], ["Knock Off"], ["Power Whip", "Poison Jab"]]
+			}]
+		},
 		"volbeat": {
 			"flags": {},
 			"sets": [{
@@ -8068,6 +8115,17 @@
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Rapid Spin"], ["Explosion"], ["Spikes"], ["Stealth Rock"]]
+			}]
+		},
+		"gogoat": {
+			"flags": {},
+			"sets": [{
+				"species": "Gogoat",
+				"item": ["Leftovers"],
+				"ability": ["Sap Sipper"],
+				"evs": {"atk": 252, "spa": 4, "spd": 252},
+				"nature": "Careful",
+				"moves": [["Horn Leech"], ["Bulk Up"], ["High Horsepower"], ["Rock Slide", "Milk Drink"]]
 			}]
 		},
 		"golduck": {
@@ -9327,6 +9385,31 @@
 				"evs": {"spa": 252, "spd": 4, "spe": 252},
 				"nature": "Modest",
 				"moves": [["Torment"], ["Protect"], ["Shadow Ball"], ["Bug Buzz", "Toxic"]]
+			}]
+		},
+		"shuckle": {
+			"flags": {},
+			"sets": [{
+				"species": "Shuckle",
+				"item": ["Leftovers"],
+				"ability": ["Oblivious"],
+				"evs": {"hp": 248, "def": 8, "spd": 252},
+				"nature": "Calm",
+				"moves": [["Sticky Web"], ["Stealth Rock"], ["Encore"], ["Infestation", "Knock Off"]]
+			}, {
+				"species": "Shuckle",
+				"item": ["Leftovers"],
+				"ability": ["Oblivious"],
+				"evs": {"hp": 248, "def": 8, "spd": 252},
+				"nature": "Calm",
+				"moves": [["Sticky Web"], ["Stealth Rock"], ["Toxic"], ["Infestation", "Encore"]]
+			}, {
+				"species": "Shuckle",
+				"item": ["Leftovers"],
+				"ability": ["Oblivious"],
+				"evs": {"hp": 248, "def": 252, "spd": 8},
+				"nature": "Bold",
+				"moves": [["Stealth Rock"], ["Sticky Web"], ["Encore"], ["Toxic", "Knock Off"]]
 			}]
 		},
 		"sigilyph": {
