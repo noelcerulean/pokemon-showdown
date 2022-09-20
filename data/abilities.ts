@@ -3817,6 +3817,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 251,
 	},
+	sedimentary: {
+		onResidualOrder: 5,
+		onResidualSubOrder: 3,
+		onResidual(pokemon) {
+			if (pokemon.status && ['sandstorm'].includes(pokemon.effectiveWeather())) {
+				this.debug('sedimentary');
+				this.add('-activate', pokemon, 'ability: Sedimentary');
+				pokemon.cureStatus();
+			}
+		},
+		name: "Sedimentary",
+		rating: 1.5,
+		num: -543,
+	},
 	seismography: {
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {

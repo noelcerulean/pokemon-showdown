@@ -1396,6 +1396,14 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Screen Cleaner",
 		shortDesc: "On switch-in, the effects of Aurora Veil, Light Screen, and Reflect end for both sides.",
 	},
+	sedimentary: {
+		name: "Sedimentary",
+		desc: "This Pokemon has its non-volatile status condition cured at the end of each turn if Sandstorm is active. If this Pokemon is holding Utility Umbrella, its non-volatile status condition will not be cured.",
+		shortDesc: "This Pokemon has its status cured at the end of each turn if Sandstorm is active.",
+		gen7: {
+			desc: "This Pokemon has its non-volatile status condition cured at the end of each turn if Sandstorm is active.",
+		},
+	},
 	seismography: {
 		name: "Seismography",
 		shortDesc: "This Pokemon's attacking stat is multiplied by 1.3 while using a Ground-type attack.",

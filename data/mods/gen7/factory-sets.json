@@ -2984,6 +2984,24 @@
 				"moves": [["Scald"], ["Earthquake"], ["Recover"], ["Toxic"]]
 			}]
 		},
+		"regice": {
+			"flags": {},
+			"sets": [{
+				"species": "Regice",
+				"item": ["Choice Specs"],
+				"ability": ["Syzygy"],
+				"evs": {"hp": 248, "def": 4, "spa": 252},
+				"nature": "Modest",
+				"moves": [["Ice Beam"], ["Earth Power"], ["Chilling Rime"], ["Thunderbolt"]]
+			}, {
+				"species": "Regice",
+				"item": ["Weakness Policy"],
+				"ability": ["Syzygy"],
+				"evs": {"hp": 248, "def": 4, "spa": 252},
+				"nature": "Timid",
+				"moves": [["Ice Beam"], ["Earth Power"], ["Rock Polish"], ["Thunderbolt"]]
+			}]
+		},
 		"robodachi": {
 			"flags": {},
 			"sets": [{
@@ -4758,6 +4776,24 @@
 				"moves": [["Splash"], ["Drill Peck"], ["Icicle Crash"], ["Brick Break"]]
 			}]
 		},
+		"dodrio": {
+			"flags": {},
+			"sets": [{
+				"species": "Dodrio",
+				"item": ["Choice Band"],
+				"ability": ["Run Away"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["High Horsepower", "Jump Kick"], ["Brave Bird"], ["Return"], ["Pursuit", "Knock Off"]]
+			}, {
+				"species": "Dodrio",
+				"item": ["Lax Incense"],
+				"ability": ["Tangled Feet"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["High Horsepower"], ["Drill Peck"], ["Demolition"], ["Substitute"]]
+			}]
+		},
 		"doublade": {
 			"flags": {},
 			"sets": [{
@@ -4787,6 +4823,42 @@
 				"ivs": {"atk": 0},
 				"nature": "Modest",
 				"moves": [["Draco Meteor"], ["Hyper Voice"], ["Fire Blast"], ["Focus Blast"]]
+			}]
+		},
+		"dugtrio": {
+			"flags": {},
+			"sets": [{
+				"species": "Dugtrio",
+				"item": ["Focus Sash"],
+				"ability": ["Seismography"],
+				"evs": {"atk": 252, "spa": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Earthquake"], ["Stone Edge"], ["Sucker Punch", "Memento", "Thief"], ["Stealth Rock"]]
+			}, {
+				"species": "Dugtrio",
+				"item": ["Choice Band"],
+				"ability": ["Seismography"],
+				"evs": {"atk": 252, "spa": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Earthquake"], ["Stone Edge"], ["Sucker Punch"], ["Pursuit"]]
+			}]
+		},
+		"dugtrioalola": {
+			"flags": {},
+			"sets": [{
+				"species": "Dugtrio-Alola",
+				"item": ["Choice Band"],
+				"ability": ["Steelworker"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Pursuit", "Sucker Punch", "Toxic"], ["Stone Edge"], ["Earthquake"], ["Iron Head"]]
+			}, {
+				"species": "Dugtrio-Alola",
+				"item": ["Focus Sash"],
+				"ability": ["Steelworker"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Memento"], ["Stealth Rock"], ["Earthquake"], ["Iron Head"]]
 			}]
 		},
 		"durant": {
@@ -6372,6 +6444,17 @@
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Double-Edge"], ["U-Turn"], ["Crunch", "Stomping Tantrum"], ["Flame Wheel"]]
+			}]
+		},
+		"regirock": {
+			"flags": {},
+			"sets": [{
+				"species": "Regirock",
+				"item": ["Leftovers"],
+				"ability": ["Clear Body"],
+				"evs": {"hp": 248, "def": 56, "spd": 204},
+				"nature": "Impish",
+				"moves": [["Aggregate"], ["Rock Climb"], ["Earthquake"], ["Toxic", "Protect"]]
 			}]
 		},
 		"reuniclus": {

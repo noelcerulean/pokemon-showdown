@@ -374,13 +374,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	dugtrio: {
 		randomBattleMoves: ["earthquake", "memento", "reversal", "stealthrock", "stoneedge", "substitute", "suckerpunch"],
 		randomDoubleBattleMoves: ["earthquake", "protect", "rockslide", "stoneedge", "suckerpunch"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	dugtrioalola: {
 		randomBattleMoves: ["earthquake", "ironhead", "stealthrock", "stoneedge", "substitute", "suckerpunch", "toxic"],
 		randomDoubleBattleMoves: ["earthquake", "ironhead", "protect", "rockslide", "stoneedge", "suckerpunch"],
-		tier: "PU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	meowth: {
@@ -583,9 +583,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	dodrio: {
-		randomBattleMoves: ["bravebird", "jumpkick", "knockoff", "quickattack", "return", "swordsdance"],
-		randomDoubleBattleMoves: ["bravebird", "knockoff", "protect", "quickattack", "return", "swordsdance"],
-		tier: "PU",
+		randomBattleMoves: ["bravebird", "demolition", "jumpkick", "highhorsepower", "knockoff", "quickattack", "return", "swordsdance"],
+		randomDoubleBattleMoves: ["bravebird", "highhorsepower", "knockoff", "protect", "quickattack", "return", "swordsdance"],
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	seel: {
@@ -2291,7 +2291,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Uber",
 	},
 	castform: {
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	castformsunny: {
@@ -2465,13 +2465,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	regirock: {
 		randomBattleMoves: ["curse", "drainpunch", "rest", "rockslide", "stealthrock", "stoneedge", "thunderwave", "toxic"],
 		randomDoubleBattleMoves: ["curse", "drainpunch", "protect", "rest", "rockslide", "stealthrock", "stoneedge", "thunderwave"],
-		tier: "PU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	regice: {
 		randomBattleMoves: ["focusblast", "icebeam", "rest", "rockpolish", "sleeptalk", "thunderbolt", "thunderwave"],
 		randomDoubleBattleMoves: ["icebeam", "icywind", "protect", "rockpolish", "thunderbolt", "thunderwave"],
-		tier: "(PU)",
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	registeel: {
