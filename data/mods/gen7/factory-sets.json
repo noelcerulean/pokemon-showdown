@@ -1233,6 +1233,19 @@
 				"moves": [["Quiver Dance"], ["Hurricane"], ["Bug Buzz"], ["Heat Wave"]]
 			}]
 		},
+		"beedrill": {
+			"flags": {
+				"megaOnly": 1
+			},
+			"sets": [{
+				"species": "Beedrill",
+				"item": ["Beedrillite"],
+				"ability": ["Swarm"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["U-turn"], ["Poison Jab"], ["Drill Run"], ["Megahorn", "Knock Off", "Pursuit", "Toxic Spikes"]]
+			}]
+		},
 		"blacephalon": {
 			"flags": {},
 			"sets": [{
@@ -4319,16 +4332,14 @@
 			}]
 		},
 		"beedrill": {
-			"flags": {
-				"megaOnly": 1
-			},
+			"flags": {},
 			"sets": [{
 				"species": "Beedrill",
-				"item": ["Beedrillite"],
-				"ability": ["Swarm"],
+				"item": ["Life Orb"],
+				"ability": ["Merciless"],
 				"evs": {"atk": 252, "spd": 4, "spe": 252},
 				"nature": "Jolly",
-				"moves": [["U-turn"], ["Poison Jab"], ["Drill Run"], ["Knock Off", "Pursuit", "Toxic Spikes"]]
+				"moves": [["U-turn"], ["Poison Jab"], ["Drill Run"], ["Twineedle"]]
 			}]
 		},
 		"beheeyem": {

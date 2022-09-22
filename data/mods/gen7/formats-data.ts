@@ -87,15 +87,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	beedrill: {
-		randomBattleMoves: ["endeavor", "knockoff", "poisonjab", "tailwind", "toxicspikes", "uturn"],
+		randomBattleMoves: ["endeavor", "knockoff", "poisonjab", "tailwind", "toxicspikes", "twineedle", "uturn"],
 		randomDoubleBattleMoves: ["knockoff", "poisonjab", "protect", "tailwind", "toxicspikes", "uturn"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	beedrillmega: {
-		randomBattleMoves: ["drillrun", "knockoff", "poisonjab", "swordsdance", "uturn", "xscissor"],
+		randomBattleMoves: ["drillrun", "knockoff", "megahorn", "poisonjab", "swordsdance", "uturn", "xscissor"],
 		randomDoubleBattleMoves: ["drillrun", "knockoff", "poisonjab", "protect", "uturn", "xscissor"],
-		tier: "UU",
+		tier: "UUBL",
 		doublesTier: "DUU",
 	},
 	pidgey: {
