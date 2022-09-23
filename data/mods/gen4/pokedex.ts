@@ -1,4 +1,8 @@
 export const Pokedex: {[k: string]: ModdedSpeciesData} = {
+	miltank: {
+		inherit: true,
+		abilities: {0: "Thick Fat"},
+	},
 	milotic: {
 		inherit: true,
 		evoType: 'levelExtra',

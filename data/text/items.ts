@@ -904,6 +904,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		desc: "Holder's attacks without a chance to make the target flinch gain a 10% chance to make the target flinch. Evolves Poliwhirl into Politoed and Slowpoke into Slowking when traded.",
 		shortDesc: "Holder's attacks without a chance to flinch gain a 10% chance to flinch.",
 	},
+	knightsedge: {
+		name: "Knight's Edge",
+		desc: "When held by Gallade, critical hit ratio of blade moves are raised by 2 stages.",
+		shortDesc: "Gallade: +2 crit ratio to blade moves.",
+	},
 	kommoniumz: {
 		name: "Kommonium Z",
 		desc: "If held by a Kommo-o with Clanging Scales, it can use Clangorous Soulblaze.",

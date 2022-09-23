@@ -2945,6 +2945,27 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 221,
 		gen: 2,
 	},
+	knightsedge: {
+		name: "Knight's Edge",
+		fling: {
+			basePower: 60,
+		},
+		spritenum: 762,
+		onModifyCritRatio(critRatio, source, target, move: ActiveMove) {
+			if ((source.baseSpecies.name === 'Gallade') && move.flags['blade']) {
+				return critRatio + 2;
+			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 475) || pokemon.baseSpecies.num === 475) {
+				return false;
+			}
+			return true;
+		},
+		itemUser: ["Gallade"],
+		num: -518,
+		gen: 7,
+	},
 	kommoniumz: {
 		name: "Kommonium Z",
 		spritenum: 690,

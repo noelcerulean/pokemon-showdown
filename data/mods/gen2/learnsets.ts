@@ -12375,6 +12375,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			protect: ["2M"],
 			psychup: ["2M"],
 			raindance: ["2M"],
+			rapidspin: ["2L33"],
 			rest: ["2M"],
 			return: ["2M"],
 			reversal: ["2E"],

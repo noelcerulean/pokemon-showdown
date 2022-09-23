@@ -1233,7 +1233,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	noctowl: {
 		randomBattleMoves: ["airslash", "defog", "heatwave", "hurricane", "hypervoice", "roost", "whirlwind"],
 		randomDoubleBattleMoves: ["airslash", "heatwave", "hypervoice", "hypnosis", "protect", "roost", "tailwind"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	ledyba: {
@@ -1884,7 +1884,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	gallade: {
 		randomBattleMoves: ["bulkup", "closecombat", "drainpunch", "icepunch", "knockoff", "shadowsneak", "substitute", "zenheadbutt"],
 		randomDoubleBattleMoves: ["closecombat", "helpinghand", "icepunch", "knockoff", "protect", "shadowsneak", "trick", "zenheadbutt"],
-		tier: "PUBL",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	gallademega: {
@@ -3509,7 +3509,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	archeops: {
 		randomBattleMoves: ["acrobatics", "aquatail", "earthquake", "endeavor", "headsmash", "stoneedge", "uturn"],
 		randomDoubleBattleMoves: ["acrobatics", "earthpower", "protect", "rockslide", "stoneedge", "tailwind", "taunt", "uturn"],
-		tier: "PUBL",
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	trubbish: {

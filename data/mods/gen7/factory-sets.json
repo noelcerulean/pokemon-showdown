@@ -1159,6 +1159,24 @@
 				"moves": [["Dragon Dance"], ["Return"], ["Earthquake", "Refresh", "Heal Bell"], ["Roost"]]
 			}]
 		},
+		"archeops": {
+			"flags": {},
+			"sets": [{
+				"species": "Archeops",
+				"item": ["Flyinium Z"],
+				"ability": ["Early Bird"],
+				"evs": {"atk": 252, "spa": 4, "spe": 252},
+				"nature": "Naive",
+				"moves": [["U-turn"], ["Fly"], ["Head Smash"], ["Heat Wave"]]
+			}, {
+				"species": "Archeops",
+				"item": ["Sitrus Berry"],
+				"ability": ["Early Bird"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["U-turn"], ["Acrobatics"], ["Head Smash"], ["Earthquake"]]
+			}]
+		},
 		"aurorus": {
 			"flags": {},
 			"sets": [{
@@ -5050,6 +5068,17 @@
 				"moves": [["Spikes"], ["Ice Beam"], ["Shadow Ball"], ["Nasty Plot"]]
 			}]
 		},
+		"gallade": {
+			"flags": {},
+			"sets": [{
+				"species": "Gallade",
+				"item": ["Knight's Edge"],
+				"ability": ["Unsheathed"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Swords Dance"], ["Sacred Sword"], ["Psycho Cut"], ["Night Slash"]]
+			}]
+		},
 		"gengar": {
 			"flags": {},
 			"sets": [{
@@ -6107,6 +6136,38 @@
 				"ivs": {"atk": 0},
 				"nature": "Timid",
 				"moves": [["Sludge Wave"], ["Power Gem", "Grass Knot"], ["Protect"], ["Thunderbolt"]]
+			}]
+		},
+		"noctowl": {
+			"flags": {},
+			"sets": [{
+				"species": "Noctowl",
+				"item": ["Leftovers"],
+				"ability": ["Tinted Lens"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Modest",
+				"moves": [["Agility"], ["Calm Mind"], ["Hurricane"], ["Hyper Voice"]]
+			}, {
+				"species": "Noctowl",
+				"item": ["Weakness Policy"],
+				"ability": ["Tinted Lens"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Modest",
+				"moves": [["Agility"], ["Calm Mind"], ["Hurricane"], ["Hyper Voice"]]
+			}, {
+				"species": "Noctowl",
+				"item": ["Psychium Z"],
+				"ability": ["Tinted Lens"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Hypnosis"], ["Calm Mind"], ["Hurricane"], ["Hyper Voice"]]
+			}, {
+				"species": "Noctowl",
+				"item": ["Flame Orb"],
+				"ability": ["Tinted Lens"],
+				"evs": {"hp": 252, "def": 252, "spe": 4},
+				"nature": "Bold",
+				"moves": [["Psycho Shift"], ["Calm Mind"], ["Hurricane"], ["Roost"]]
 			}]
 		},
 		"oricorio": {
