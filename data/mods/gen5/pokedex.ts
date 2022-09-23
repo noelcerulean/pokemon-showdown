@@ -72,6 +72,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		types: ["Normal"],
 		baseStats: {hp: 95, atk: 70, def: 73, spa: 85, spd: 90, spe: 60},
 	},
+	clefgar: {
+		inherit: true,
+		types: ["Normal", "Poison"],
+		baseStats: {hp: 78, atk: 67, def: 67, spa: 108, spd: 82, spe: 85},
+	},
 	jigglypuff: {
 		inherit: true,
 		types: ["Normal"],
@@ -198,9 +203,21 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		types: ["Normal"],
 	},
+	misdreavus: {
+		inherit: true,
+		types: ["Ghost"],
+	},
+	mismagius: {
+		inherit: true,
+		types: ["Ghost"],
+	},
 	granbull: {
 		inherit: true,
 		types: ["Normal"],
+	},
+	granbullarmored: {
+		inherit: true,
+		types: ["Normal", "Fighting"],
 	},
 	tyrogue: {
 		inherit: true,
@@ -309,6 +326,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	dusclops: {
 		inherit: true,
 		abilities: {0: "Pressure"},
+	},
+	luvdisc: {
+		inherit: true,
+		types: ["Water"],
 	},
 	regirock: {
 		inherit: true,
@@ -466,6 +487,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	krookodile: {
 		inherit: true,
 		baseStats: {hp: 95, atk: 117, def: 70, spa: 65, spd: 70, spe: 92},
+	},
+	dwebbledeltacake: {
+		inherit: true,
+		types: ["Normal"],
+	},
+	crustledeltacake: {
+		inherit: true,
+		types: ["Normal"],
 	},
 	gothita: {
 		inherit: true,

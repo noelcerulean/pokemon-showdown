@@ -1,4 +1,16 @@
 export const Pokedex: {[k: string]: ModdedSpeciesData} = {
+	clefable: {
+		inherit: true,
+		abilities: {0: "Cute Charm"},
+	},
+	clefgar: {
+		inherit: true,
+		abilities: {0: "Cute Charm", 1: "Levitate"},
+	},
+	misdreavus: {
+		inherit: true,
+		abilities: {0: "Levitate"},
+	},
 	miltank: {
 		inherit: true,
 		abilities: {0: "Thick Fat"},
@@ -7,6 +19,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		evoType: 'levelExtra',
 		evoCondition: 'with high Beauty',
+	},
+	luvdisc: {
+		inherit: true,
+		abilities: {0: "Swift Swim"},
 	},
 	rotomheat: {
 		inherit: true,
