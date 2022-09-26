@@ -13089,6 +13089,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		evos: ["Slurpuff"],
 		eggGroups: ["Fairy"],
+		cosmeticFormes: ["Swirlix-Vanilla"],
+		formeOrder: ["Swirlix", "Swirlix-Vanilla"],
 	},
 	slurpuff: {
 		num: 685,
