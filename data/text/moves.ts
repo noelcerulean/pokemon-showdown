@@ -3210,6 +3210,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up, and has its status condition cured.",
 		shortDesc: "User and allies: healed 1/4 max HP, status cured.",
 	},
+	kappo: {
+		name: "Kappo",
+		desc: "The user restores 1/2 of its maximum HP, rounded half up.",
+		shortDesc: "Heals the user by 50% of its max HP.",
+	},
 	karatechop: {
 		name: "Karate Chop",
 		desc: "Has a higher chance for a critical hit.",

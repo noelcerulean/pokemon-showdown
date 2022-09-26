@@ -332,7 +332,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "National Dex",
-		column: 3,
+		column: 4,
 	},
 	{
 		name: "[Gen 8] National Dex",
@@ -445,7 +445,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "National Dex Doubles",
-		column: 3,
+		column: 4,
 	},
 
 	{
@@ -515,7 +515,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "Other Metagames",
-		column: 4,
+		column: 3,
 	},
 	{
 		name: "[Gen 7] Almost Any Ability",
@@ -934,17 +934,6 @@ export const Formats: FormatList = [
 	},
 
 	{
-		name: "[Gen 8] SwSh Random Battle",
-		desc: `Randomized teams of level-balanced Pok&eacute;mon with sets that are generated to be competitively viable.`,
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3656537/">Random Battle Suggestions</a>`,
-		],
-
-		mod: 'gen8',
-		team: 'random',
-		ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Dynamax Clause'],
-	},
-	{
 		name: "[Gen 7] Random Battle",
 		desc: `Randomized teams of level-balanced Pok&eacute;mon with sets that are generated to be competitively viable.`,
 		threads: [
@@ -1009,6 +998,17 @@ export const Formats: FormatList = [
 		],
 	},
 	{
+		name: "[Gen 8] SwSh Random Battle",
+		desc: `Randomized teams of level-balanced Pok&eacute;mon with sets that are generated to be competitively viable.`,
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3656537/">Random Battle Suggestions</a>`,
+		],
+
+		mod: 'gen8',
+		team: 'random',
+		ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Dynamax Clause'],
+	},
+	{
 		name: "[Gen 6] Random Battle",
 
 		mod: 'gen6',
@@ -1057,7 +1057,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "Other Gens OU",
-		column: 4,
+		column: 3,
 	},
 	{
 		name: "[Gen 8] SwSh OU",

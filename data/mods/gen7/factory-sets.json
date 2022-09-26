@@ -6418,6 +6418,17 @@
 				"moves": [["Flare Blitz"], ["Return"], ["Wild Charge"], ["Flame Wheel", "Crunch"]]
 			}]
 		},
+		"qwilfish": {
+			"flags": {},
+			"sets": [{
+				"species": "Qwilfish",
+				"item": ["Rocky Helmet", "Black Sludge"],
+				"ability": ["Inflate"],
+				"evs": {"hp": 248, "def": 8, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Spikes"], ["Waterfall"], ["Taunt"], ["Toxic Spikes", "Poison Jab", "Destiny Bond"]]
+			}]
+		},
 		"raichu": {
 			"flags": {},
 			"sets": [{
@@ -9474,7 +9485,7 @@
 				"ability": ["Sturdy"],
 				"evs": {"atk": 252, "spd": 4, "spe": 252},
 				"nature": "Jolly",
-				"moves": [["Close Combat"], ["Earthquake"], ["Knock Off"], ["Poison Jab"]]
+				"moves": [["One-Two Punch"], ["Kappo"], ["Knock Off"], ["Poison Jab", "Earthquake"]]
 			}]
 		},
 		"seaking": {
@@ -9778,6 +9789,31 @@
 				"moves": [["Hurricane"], ["Calm Mind"], ["Stored Power"], ["Heat Wave"]]
 			}]
 		},
+		"throh": {
+			"flags": {},
+			"sets": [{
+				"species": "Throh",
+				"item": ["Leftovers"],
+				"ability": ["Guts"],
+				"evs": {"hp": 252, "def": 4, "spd": 252},
+				"nature": "Careful",
+				"moves": [["Storm Throw"], ["Bulk Up"], ["Kappo"], ["Knock Off"]]
+			}, {
+				"species": "Throh",
+				"item": ["Leftovers"],
+				"ability": ["Guts"],
+				"evs": {"hp": 4, "atk": 252, "spd": 252},
+				"nature": "Adamant",
+				"moves": [["Storm Throw"], ["Bulk Up"], ["Kappo"], ["Knock Off"]]
+			}, {
+				"species": "Throh",
+				"item": ["Leftovers"],
+				"ability": ["Mold Breaker"],
+				"evs": {"hp": 252, "atk": 252, "spd": 4},
+				"nature": "Adamant",
+				"moves": [["Circle Throw"], ["Stealth Rock"], ["Kappo"], ["Knock Off"]]
+			}]
+		},
 		"togedemaru": {
 			"flags": {},
 			"sets": [{
@@ -10065,6 +10101,18 @@
 				"evs": {"atk": 252, "spd": 4, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Return"], ["Knock Off"], ["Focus Punch"], ["Swords Dance", "Hypnosis"]]
+			}]
+		},
+		"weezing": {
+			"flags": {},
+			"sets": [{
+				"species": "Weezing",
+				"item": ["Rocky Helmet"],
+				"ability": ["Levitate"],
+				"evs": {"hp": 252, "def": 252, "spa": 4},
+				"ivs": {"atk": 0},
+				"nature": "Bold",
+				"moves": [["Sludge Bomb"], ["Will-O-Wisp"], ["Pain Split"], ["Toxic Spikes", "Flamethrower"]]
 			}]
 		},
 		"wishiwashi": {

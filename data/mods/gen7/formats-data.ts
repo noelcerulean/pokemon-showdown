@@ -776,7 +776,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	weezing: {
 		randomBattleMoves: ["fireblast", "painsplit", "protect", "sludgebomb", "toxicspikes", "willowisp"],
 		randomDoubleBattleMoves: ["fireblast", "painsplit", "protect", "sludgebomb", "toxicspikes", "willowisp"],
-		tier: "NU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	rhyhorn: {
@@ -1521,7 +1521,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	qwilfish: {
 		randomBattleMoves: ["destinybond", "liquidation", "painsplit", "spikes", "taunt", "thunderwave", "toxicspikes"],
 		randomDoubleBattleMoves: ["destinybond", "liquidation", "poisonjab", "protect", "swordsdance", "taunt", "thunderwave"],
-		tier: "PU",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	shuckle: {
@@ -3354,15 +3354,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	throh: {
-		randomBattleMoves: ["bulkup", "circlethrow", "icepunch", "knockoff", "rest", "sleeptalk", "stormthrow"],
+		randomBattleMoves: ["bulkup", "circlethrow", "icepunch", "kappo", "knockoff", "rest", "sleeptalk", "stormthrow"],
 		randomDoubleBattleMoves: ["circlethrow", "helpinghand", "icepunch", "knockoff", "protect", "stormthrow"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	sawk: {
-		randomBattleMoves: ["bulkup", "closecombat", "earthquake", "icepunch", "knockoff", "poisonjab"],
+		randomBattleMoves: ["bulkup", "closecombat", "earthquake", "icepunch", "kappo", "knockoff", "poisonjab"],
 		randomDoubleBattleMoves: ["closecombat", "icepunch", "knockoff", "protect", "rockslide"],
-		tier: "PUBL",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	sewaddle: {

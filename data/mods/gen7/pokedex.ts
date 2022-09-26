@@ -27,14 +27,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Static"},
 	},
-	koffing: {
-		inherit: true,
-		abilities: {0: "Levitate"},
-	},
-	weezing: {
-		inherit: true,
-		abilities: {0: "Levitate"},
-	},
 	ralts: {
 		inherit: true,
 		eggGroups: ["Amorphous"],
@@ -98,22 +90,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	aegislashblade: {
 		inherit: true,
 		baseStats: {hp: 60, atk: 150, def: 50, spa: 150, spd: 50, spe: 60},
-	},
-	pumpkaboosmall: {
-		inherit: true,
-		abilities: {0: "Pickup", 1: "Frisk"},
-	},
-	pumpkaboolarge: {
-		inherit: true,
-		abilities: {0: "Pickup", 1: "Frisk"},
-	},
-	gourgeistsmall: {
-		inherit: true,
-		abilities: {0: "Pickup", 1: "Frisk"},
-	},
-	gourgeistlarge: {
-		inherit: true,
-		abilities: {0: "Pickup", 1: "Frisk"},
 	},
 	hawlucha: {
 		inherit: true,
