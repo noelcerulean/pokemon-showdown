@@ -1767,7 +1767,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Strange Mucus",
 		desc: "Protects Pyukumuku from Attract, Encore, Disable, Heal Block, Torment, & Taunt.",
 
-		block: "  [POKEMON] is not affected thanks to its Strange Mucus!",
+		activate: "  [POKEMON] is not affected thanks to its Strange Mucus!",
 	},
 	strawberrysweet: {
 		name: "Strawberry Sweet",
