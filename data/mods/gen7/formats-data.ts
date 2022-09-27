@@ -444,15 +444,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	poliwrath: {
-		randomBattleMoves: ["circlethrow", "focusblast", "hydropump", "icepunch", "raindance", "rest", "scald", "sleeptalk"],
-		randomDoubleBattleMoves: ["circlethrow", "encore", "icywind", "protect", "scald", "superpower", "toxic"],
-		tier: "(PU)",
+		randomBattleMoves: ["closecombat", "focusblast", "hydropump", "icepunch", "liquidation", "raindance", "rest"],
+		randomDoubleBattleMoves: ["closecombat", "encore", "icywind", "liquidation", "protect", "toxic"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	politoed: {
 		randomBattleMoves: ["encore", "hypnosis", "perishsong", "protect", "rest", "scald", "toxic"],
 		randomDoubleBattleMoves: ["encore", "helpinghand", "hypnosis", "icywind", "protect", "scald"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "DOU",
 	},
 	abra: {
@@ -4711,7 +4711,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	pyukumuku: {
 		randomBattleMoves: ["block", "counter", "lightscreen", "recover", "toxic"],
 		randomDoubleBattleMoves: ["counter", "helpinghand", "lightscreen", "memento", "reflect"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	typenull: {

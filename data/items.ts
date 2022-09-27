@@ -5723,6 +5723,29 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 4,
 		isNonstandard: "Unobtainable",
 	},
+	strangemucus: {
+		name: "Strange Mucus",
+		fling: {
+			basePower: 40,
+		},
+		spritenum: 763,
+		onTryAddVolatile(status, target) {
+			if (target.baseSpecies.name !== 'Pyukumuku') return;
+			if (status.id === 'attract' || status.id === 'disable' || status.id === 'encore' || status.id === 'healblock' || status.id === 'taunt' || status.id === 'torment') {
+				this.add('-activate', target, 'item: Strange Mucus');
+				return null;
+			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 771) || pokemon.baseSpecies.num === 771) {
+				return false;
+			}
+			return true;
+		},
+		itemUser: ["Pyukumuku"],
+		num: -519,
+		gen: 7,
+	},
 	strawberrysweet: {
 		name: "Strawberry Sweet",
 		spritenum: 704,

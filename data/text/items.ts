@@ -1763,6 +1763,12 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Stone Plate",
 		desc: "Holder's Rock-type attacks have 1.2x power. Judgment is Rock type.",
 	},
+	strangemucus: {
+		name: "Strange Mucus",
+		desc: "Protects Pyukumuku from Attract, Encore, Disable, Heal Block, Torment, & Taunt.",
+
+		block: "  [POKEMON] is not affected thanks to its Strange Mucus!",
+	},
 	strawberrysweet: {
 		name: "Strawberry Sweet",
 		desc: "Evolves Milcery into Alcremie when held and spun around.",

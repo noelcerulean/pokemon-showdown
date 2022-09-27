@@ -9185,6 +9185,31 @@
 				"moves": [["Knock Off"], ["Ultra Slicer"], ["Earthquake"], ["Stone Edge", "Close Combat"]]
 			}]
 		},
+		"poliwrath": {
+			"flags": {},
+			"sets": [{
+				"species": "Poliwrath",
+				"item": ["Psychium Z"],
+				"ability": ["Water Absorb"],
+				"evs": {"hp": 4, "atk": 252, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Belly Drum"], ["Hypnosis"], ["Close Combat"], ["Liquidation"]]
+			}, {
+				"species": "Poliwrath",
+				"item": ["Leftovers"],
+				"ability": ["Water Absorb"],
+				"evs": {"hp": 4, "atk": 252, "spe": 252},
+				"nature": "Modest",
+				"moves": [["Calm Mind"], ["Scald"], ["Ice Beam"], ["Vacuum Wave"]]
+			}, {
+				"species": "Poliwrath",
+				"item": ["Choice Band", "Choice Scarf"],
+				"ability": ["Water Absorb"],
+				"evs": {"hp": 4, "atk": 252, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Earthquake"], ["Ice Punch"], ["Close Combat"], ["Liquidation"]]
+			}]
+		},
 		"porygon2": {
 			"flags": {},
 			"sets": [{
@@ -9219,6 +9244,24 @@
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Close Combat"], ["U-turn"], ["Earthquake", "Gunk Shot"], ["Knock Off", "Stone Edge"]]
+			}]
+		},
+		"pyukumuku": {
+			"flags": {},
+			"sets": [{
+				"species": "Pyukumuku",
+				"item": ["Leftovers", "Strange Mucus"],
+				"ability": ["Unaware"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": "Bold",
+				"moves": [["Toxic"], ["Soak"], ["Recover"], ["Block"]]
+			}, {
+				"species": "Pyukumuku",
+				"item": ["Leftovers", "Strange Mucus"],
+				"ability": ["Unaware"],
+				"evs": {"hp": 252, "def": 252, "spd": 4},
+				"nature": "Bold",
+				"moves": [["Spite"], ["Rest", "Taunt"], ["Recover"], ["Block"]]
 			}]
 		},
 		"raichualola": {
