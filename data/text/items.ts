@@ -1006,7 +1006,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	luckypunch: {
 		name: "Lucky Punch",
-		desc: "If held by a Chansey, its critical hit ratio is raised by 2 stages.",
+		desc: "If held by a Chansey, Doubles Attack & Punch moves +3 crit ratio.",
 		gen2: {
 			desc: "If held by a Chansey, its critical hit ratio is always at stage 2. (25% crit rate)",
 		},
@@ -1246,7 +1246,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	ovalstone: {
 		name: "Oval Stone",
-		desc: "Evolves Happiny into Chansey when held and leveled up during the day.",
+		desc: "Happiny 2x Attack & Sp. Atk. Egg Bomb 1.5x power & becomes Rock-type.",
 	},
 	pamtreberry: {
 		name: "Pamtre Berry",

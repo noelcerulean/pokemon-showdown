@@ -3253,9 +3253,15 @@ export const Items: {[itemid: string]: ItemData} = {
 		fling: {
 			basePower: 40,
 		},
-		onModifyCritRatio(critRatio, user) {
-			if (user.baseSpecies.name === 'Chansey') {
-				return critRatio + 2;
+		onModifyAtkPriority: 1,
+		onModifyAtk(atk, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Chansey') {
+				return this.chainModify(2);
+			}
+		},
+		onModifyCritRatio(critRatio, source, target, move: ActiveMove) {
+			if ((source.baseSpecies.name === 'Chansey') && move.flags['punch']) {
+				return critRatio + 3;
 			}
 		},
 		onTakeItem(item, pokemon, source) {
@@ -4051,6 +4057,36 @@ export const Items: {[itemid: string]: ItemData} = {
 		fling: {
 			basePower: 80,
 		},
+		onModifyAtkPriority: 1,
+		onModifyAtk(atk, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Happiny') {
+				return this.chainModify(2);
+			}
+		},
+		onModifySpAPriority: 1,
+		onModifySpA(spa, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Happiny') {
+				return this.chainModify(2);
+			}
+		},
+		onModifyTypePriority: -1,
+		onModifyType(move, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Happiny' && move.id === 'eggbomb') {
+				move.type = 'Rock';
+				move.ovalstoneBoosted = true;
+			}
+		},
+		onBasePowerPriority: 23,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.ovalstoneBoosted) return this.chainModify(1.5);
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 440) || pokemon.baseSpecies.num === 440) {
+				return false;
+			}
+			return true;
+		},
+		itemUser: ["Happiny"],
 		num: 110,
 		gen: 4,
 	},

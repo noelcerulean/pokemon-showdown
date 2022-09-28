@@ -4315,8 +4315,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	eggbomb: {
 		num: 121,
-		accuracy: 75,
-		basePower: 100,
+		accuracy: 85,
+		basePower: 120,
 		category: "Physical",
 		isNonstandard: "Past",
 		name: "Egg Bomb",
@@ -11205,8 +11205,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	megapunch: {
 		num: 5,
-		accuracy: 85,
-		basePower: 80,
+		accuracy: 90,
+		basePower: 85,
 		category: "Physical",
 		name: "Mega Punch",
 		pp: 20,

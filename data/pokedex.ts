@@ -8549,7 +8549,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Happiny",
 		types: ["Normal"],
 		gender: "F",
-		baseStats: {hp: 100, atk: 5, def: 5, spa: 15, spd: 65, spe: 30},
+		baseStats: {hp: 180, atk: 5, def: 5, spa: 25, spd: 65, spe: 30},
 		abilities: {0: "Natural Cure", 1: "Serene Grace", H: "Friend Guard"},
 		heightm: 0.6,
 		weightkg: 24.4,
