@@ -96,20 +96,18 @@ const avatarTable = new Set([
 	'candra-and-aarush',
 	'candra-and-aarush-event',
 	'channeler-gen1', 'channeler-gen1rb', 'channeler-gen3',
-	'chaser', 'chaserf',
 	'cheren-gen5bw2', 'cheren',
 	'cheryl',
 	'chili',
 	'chuck-gen2', 'chuck',
 	'cilan',
-	'cipher-peon', 'cipher-peonf',
-	'cipher-peon-event', 'cipher-peonf-event',
 	'clair-gen2', 'clair',
 	'clay',
 	'clemont',
 	'clerkf',
 	'clerk-boss', 'clerk',
 	'clown',
+	'colin',
 	'collector-gen3', 'collector',
 	'colress',
 	'courtney-gen3',
@@ -124,8 +122,6 @@ const avatarTable = new Set([
 	'cynthia-gen4', 'cynthia',
 	'cyrus',
 	'dahlia',
-	'dakim',
-	'dakim-event',
 	'daisy-gen3',
 	'dancer',
 	'dani',
@@ -138,8 +134,6 @@ const avatarTable = new Set([
 	'dragontamer-gen3', 'dragontamer',
 	'drake-gen3',
 	'drayden',
-	'ein',
-	'ein-event',
 	'elesa-gen5bw2', 'elesa',
 	'emmet',
 	'engineer-gen1', 'engineer-gen1rb', 'engineer-gen3',
@@ -169,8 +163,6 @@ const avatarTable = new Set([
 	'ghetsis-gen5bw', 'ghetsis',
 	'giovanni-gen1', 'giovanni-gen1rb', 'giovanni-gen3', 'giovanni',
 	'glacia-gen3',
-	'gonzap',
-	'gonzap-event',
 	'graeme',
 	'greta-gen3',
 	'grimsley',
@@ -184,7 +176,6 @@ const avatarTable = new Set([
 	'hooligans',
 	'hoopster',
 	'hugh',
-	'hunter', 'hunterf',
 	'idol',
 	'infielder',
 	'ingo',
@@ -237,14 +228,10 @@ const avatarTable = new Set([
 	'maylene',
 	'medium-gen2jp', 'medium',
 	'mira',
-	'mirorb',
-	'mirorb-event',
 	'misty-gen1', 'misty-gen2', 'misty-gen1rb', 'misty-gen3', 'misty',
 	'morty-gen2', 'morty',
 	'mrfuji-gen3',
 	'musician',
-	'nascour',
-	'nascour-event',
 	'nate-wonderlauncher', 'nate',
 	'ninjaboy-gen3', 'ninjaboy',
 	'nikita',
@@ -328,7 +315,6 @@ const avatarTable = new Set([
 	'spenser-gen3',
 	'srandjr-gen3',
 	'steven-gen3', 'steven',
-	'stperformer',
 	'striker', 'striker2',
 	'supernerd-gen1', 'supernerd-gen1rb', 'supernerd-gen2', 'supernerd-gen3', 'supernerd',
 	'swimmerf-gen2', 'swimmerf-gen3', 'swimmerf-gen3rs', 'swimmerf-gen4dp', 'swimmerf-gen4', 'swimmerfjp-gen2', 'swimmerf',
@@ -366,8 +352,6 @@ const avatarTable = new Set([
 	'unknownf',
 	'unknown',
 	'valentina',
-	'venus',
-	'venus-event',
 	'veteranf',
 	'veteran-gen4', 'veteran',
 	'volkner',
@@ -388,6 +372,12 @@ const avatarTable = new Set([
 	'zinzolin',
 ]);
 
+const avatarTableAkumaTsubasa = new Set([
+	'chaser', 'chaserf', 'cipher-peon', 'cipher-peonf', 'cipher-peon-event', 'cipher-peonf-event',
+	'dakim', 'dakim-event', 'ein', 'ein-event', 'gonzap', 'gonzap-event', 'hunter', 'hunterf',
+	'mirorb', 'mirorb-event', 'nascour', 'nascour-event', 'stperformer', 'venus', 'venus-event',
+]);
+
 const avatarTableBeliot419 = new Set([
 	'acerola', 'aetheremployee', 'aetheremployeef', 'aetherfoundation', 'aetherfoundationf', 'anabel',
 	'beauty-gen7', 'blue-gen7', 'burnet', 'colress-gen7', 'dexio', 'elio', 'faba', 'gladion-stance',
@@ -397,6 +387,10 @@ const avatarTableBeliot419 = new Set([
 	'pokemonbreederf-gen7', 'preschoolers', 'red-gen7', 'risingstar', 'risingstarf', 'ryuki',
 	'samsonoak', 'selene', 'sightseer', 'sina', 'sophocles', 'teacher-gen7', 'theroyal', 'wally',
 	'wicke', 'youngathlete', 'youngathletef', 'youngster-gen7',
+]);
+
+const avatarTableFiftyShadesofRez = new Set([
+	'rose-zerosuit',
 ]);
 
 const avatarTableGnomowladny = new Set([
@@ -417,7 +411,8 @@ const avatarTableBrumirage = new Set([
 ]);
 
 const avatarTableZacWeavile = new Set([
-	'gloria-dojo', 'shauna',
+	'alain', 'charm', 'coin', 'elio-usum', 'emma', 'essentia', 'gloria-dojo', 'marnie-league', 'morgan',
+	'shauna', 'skullgrunt', 'skullgruntf', 
 ]);
 
 const avatarTableIceJkai = new Set([
@@ -457,6 +452,11 @@ const avatarTableKyleDove = new Set([
 	'may-masters3', 'misty-masters', 'morty-masters', 'morty-masters2', 'n-masters', 'n-masters2', 'nessa-masters',
 	'raihan-masters', 'red-masters', 'rosa-masters', 'sabrina-masters', 'serena-masters', 'serena-masters2',
 	'siebold-masters', 'skyla-masters', 'sonia-masters', 'steven-masters', 'steven-masters2', 'volkner-masters',
+	'anthea', 'beni-ninja', 'beni', 'birch', 'blaine-lgpe', 'blue-lgpe', 'brigette', 'brock-lgpe', 'caraliss', 'cedricjuniper',
+	'celio', 'charon', 'clover', 'colza', 'concordia', 'cyllene', 'dawn-contest', 'elm', 'erika-lgpe', 'fennel', 'gaeric',
+	'ginter', 'giovanni-lgpe', 'grant', 'ingo-hisui', 'iscan', 'kamado-armor', 'kamado', 'kurt', 'lance-lgpe', 'lanette',
+	'laventon', 'lucas-contest', 'lucy', 'lysandre', 'melli', 'misty-lgpe', 'noland', 'palina', 'plumeria-league', 'rowan',
+	'roxanne-gen6', 'rye', 'sabrina-lgpe', 'scott', 'securitycorps', 'securitycorpsf', 'serena', 'sycamore', 'taohua', 'vessa',
 ]);
 
 const avatarTableHyooppa = new Set([
@@ -467,7 +467,9 @@ const avatarTableGrapo = new Set([
 	'peonia', 'skyla-masters2', 'volo-ginkgo',
 ]);
 
+for (const avatar of avatarTableAkumaTsubasa) avatarTable.add(avatar);
 for (const avatar of avatarTableBeliot419) avatarTable.add(avatar);
+for (const avatar of avatarTableFiftyShadesofRez) avatarTable.add(avatar);
 for (const avatar of avatarTableGnomowladny) avatarTable.add(avatar);
 for (const avatar of avatarTableBrumirage) avatarTable.add(avatar);
 for (const avatar of avatarTableZacWeavile) avatarTable.add(avatar);
@@ -719,6 +721,33 @@ export const commands: Chat.ChatCommands = {
 			this.sendReply(`${this.tr`Avatar changed to:`}\n|raw|<img src="//${Config.routes.client}/sprites/${avatarUrl}" alt="${avatar}" width="80" height="80" class="pixelated" />`);
 			if (avatarTableBeliot419.has(avatar)) {
 				this.sendReply(`|raw|(${this.tr`Artist: `}<a href="https://www.deviantart.com/beliot419">Beliot419</a>)`);
+			}
+			if (avatarTableAkumaTsubasa.has(avatar)) {
+				this.sendReply(`|raw|(${this.tr`Artist: `}<a href="https://www.deviantart.com/akuma-tsubasa">Akuma-Tsubasa</a>)`);
+			}
+			if (avatarTableGnomowladny.has(avatar)) {
+				this.sendReply(`|raw|(${this.tr`Artist: `}Gnomowladny)`);
+			}
+			if (avatarTableIceJkai.has(avatar)) {
+				this.sendReply(`|raw|(${this.tr`Artist: `}<a href="https://www.deviantart.com/icejkai">IceJkai</a>)`);
+			}
+			if (avatarTableBrumirage.has(avatar)) {
+				this.sendReply(`|raw|(${this.tr`Artist: `}<a href="https://twitter.com/Brumirage">Brumirage</a>)`);
+			}
+			if (avatarTableZacWeavile.has(avatar)) {
+				this.sendReply(`|raw|(${this.tr`Artist: `}ZacWeavile)`);
+			}
+			if (avatarTableKyleDove.has(avatar)) {
+				this.sendReply(`|raw|(${this.tr`Artist: `}<a href="https://twitter.com/DoveKyle">Kyledove</a>)`);
+			}
+			if (avatarTableHyooppa.has(avatar)) {
+				this.sendReply(`|raw|(${this.tr`Artist: `}<a href="https://twitter.com/hyo_oppa">hyo-oppa</a>)`);
+			}
+			if (avatarTableGrapo.has(avatar)) {
+				this.sendReply(`|raw|(${this.tr`Artist: `}<a href="https://twitter.com/Grapo_Sprites">Grapo</a>)`);
+			}
+			if (avatarTableFiftyShadesofRez.has(avatar)) {
+				this.sendReply(`|raw|(${this.tr`Artist: `}Fifty Shades of Rez)`);
 			}
 		}
 	},
