@@ -412,7 +412,7 @@ const avatarTableBrumirage = new Set([
 
 const avatarTableZacWeavile = new Set([
 	'alain', 'charm', 'coin', 'elio-usum', 'emma', 'essentia', 'gloria-dojo', 'marnie-league', 'morgan',
-	'shauna', 'skullgrunt', 'skullgruntf', 
+	'shauna', 'skullgrunt', 'skullgruntf',
 ]);
 
 const avatarTableIceJkai = new Set([
