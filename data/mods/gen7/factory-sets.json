@@ -8377,6 +8377,24 @@
 				"moves": [["Draco Meteor"], ["Fire Blast"], ["Thunderbolt"], ["Sludge Wave"]]
 			}]
 		},
+		"gourgeistsuper": {
+			"flags": {},
+			"sets": [{
+				"species": "Gourgeist-Super",
+				"item": ["Colbur Berry"],
+				"ability": ["Flame Body"],
+				"evs": {"hp": 248, "def": 252, "spd": 8},
+				"nature": "Impish",
+				"moves": [["Will-O-Wisp"], ["Synthesis"], ["Foul Play", "Power Whip"], ["Leech Seed"]]
+			}, {
+				"species": "Gourgeist-Super",
+				"item": ["Choice Band"],
+				"ability": ["Flame Body"],
+				"evs": {"hp": 248, "atk": 252, "spd": 8},
+				"nature": "Adamant",
+				"moves": [["Trick"], ["Power Whip"], ["Flame Wheel"], ["Shadow Sneak"]]
+			}]
+		},
 		"granbull": {
 			"flags": {},
 			"sets": [{
