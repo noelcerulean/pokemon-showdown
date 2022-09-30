@@ -5344,11 +5344,10 @@ export const Items: {[itemid: string]: ItemData} = {
 		spritenum: 764,
 		onStart(pokemon) {
 			if (pokemon.baseSpecies.name !== 'Spinda') return;
-			this.add("-start", pokemon, "item: Silly Soda");
 			pokemon.addVolatile('confusion');
 			if (pokemon.volatiles['confusion']) {
 				this.boost({atk: 2});
-				this.add("-activate", pokemon, "item: Silly Soda");
+				this.add('-activate', pokemon, 'item: Silly Soda');
 			}
 		},
 		onTakeItem(item, pokemon, source) {

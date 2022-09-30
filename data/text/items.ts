@@ -1642,7 +1642,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Silly Soda",
 		shortDesc: "On switch-in, confuses Spinda for 256 turns. If successful, raises Atk by 2.",
 
-		start: "  [POKEMON] drank some of its silly soda!",
 		activate: "  [POKEMON] started acting silly!",
 	},
 	silverpowder: {
