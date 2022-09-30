@@ -2165,9 +2165,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	spinda: {
-		randomBattleMoves: ["encore", "return", "rockslide", "superpower"],
-		randomDoubleBattleMoves: ["fakeout", "protect", "return", "suckerpunch", "superpower", "trickroom"],
-		tier: "(PU)",
+		randomBattleMoves: ["delinquency", "encore", "return", "rockslide", "superpower"],
+		randomDoubleBattleMoves: ["fakeout", "delinquency", "protect", "return", "suckerpunch", "superpower", "trickroom"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	trapinch: {

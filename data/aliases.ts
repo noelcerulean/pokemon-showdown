@@ -412,6 +412,7 @@ export const Aliases: {[alias: string]: string} = {
 	swirlixvanilla: "Swirlix",
 	dewottpikadress: "Dewott-Pika",
 	marshadowmug: "Marshadow",
+	fraxurefrenzydeity: "Fraxure-Frenzy",
 
 	alcremierubycream: "Alcremie",
 	alcremiematchacream: "Alcremie",

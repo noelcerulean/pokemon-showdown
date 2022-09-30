@@ -1638,6 +1638,13 @@ export const ItemsText: {[k: string]: ItemText} = {
 			desc: "Holder's Normal-type attacks have 1.1x power.",
 		},
 	},
+	sillysoda: {
+		name: "Silly Soda",
+		shortDesc: "On switch-in, confuses Spinda for 256 turns. If successful, raises Atk by 2.",
+
+		start: "  [POKEMON] drank some of its silly soda!",
+		activate: "  [POKEMON] started acting silly!",
+	},
 	silverpowder: {
 		name: "Silver Powder",
 		desc: "Holder's Bug-type attacks have 1.2x power.",

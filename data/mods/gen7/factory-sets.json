@@ -9756,6 +9756,24 @@
 				"moves": [["Curse"], ["Frustration"], ["Rest"], ["Earthquake"]]
 			}]
 		},
+		"spinda": {
+			"flags": {},
+			"sets": [{
+				"species": "Spinda",
+				"item": ["Leftovers"],
+				"ability": ["Contrary"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Delinquency"], ["Return"], ["Sucker Punch"], ["Superpower"]]
+			}, {
+				"species": "Spinda",
+				"item": ["Silly Soda"],
+				"ability": ["Tangled Feet"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Drain Punch"], ["Return"], ["Sucker Punch"], ["Ice Punch"]]
+			}]
+		},
 		"stantler": {
 			"flags": {},
 			"sets": [{

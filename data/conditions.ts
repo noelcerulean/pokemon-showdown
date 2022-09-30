@@ -139,7 +139,11 @@ export const Conditions: {[k: string]: ConditionData} = {
 			} else {
 				this.add('-start', target, 'confusion');
 			}
-			this.effectState.time = this.random(2, 6);
+			if (sourceEffect && sourceEffect.id === 'sillysoda') {
+				this.effectState.time = 256;
+			} else {
+				this.effectState.time = this.random(2, 6);
+			}
 		},
 		onEnd(target) {
 			this.add('-end', target, 'confusion');

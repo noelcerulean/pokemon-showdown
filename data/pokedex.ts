@@ -6570,7 +6570,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 327,
 		name: "Spinda",
 		types: ["Normal"],
-		baseStats: {hp: 60, atk: 60, def: 60, spa: 60, spd: 60, spe: 60},
+		baseStats: {hp: 90, atk: 90, def: 90, spa: 90, spd: 90, spe: 90},
 		abilities: {0: "Own Tempo", 1: "Tangled Feet", H: "Contrary"},
 		heightm: 1.1,
 		weightkg: 5,
@@ -11697,6 +11697,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 36,
 		color: "Green",
 		eggGroups: ["Undiscovered"],
+		cosmeticFormes: ["Fraxure-Frenzy-Deity"],
+		formeOrder: ["Fraxure-Frenzy", "Fraxure-Frenzy-Deity"],
 	},
 	haxorus: {
 		num: 612,

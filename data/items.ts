@@ -5335,6 +5335,32 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 251,
 		gen: 3,
 	},
+	sillysoda: {
+		name: "Silly Soda",
+		fling: {
+			basePower: 60,
+			volatileStatus: 'confusion',
+		},
+		spritenum: 764,
+		onStart(pokemon) {
+			if (pokemon.baseSpecies.name !== 'Spinda') return;
+			this.add("-start", pokemon, "item: Silly Soda");
+			pokemon.addVolatile('confusion');
+			if (pokemon.volatiles['confusion']) {
+				this.boost({atk: 2});
+				this.add("-activate", pokemon, "item: Silly Soda");
+			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 327) || pokemon.baseSpecies.num === 327) {
+				return false;
+			}
+			return true;
+		},
+		itemUser: ["Spinda"],
+		num: -521,
+		gen: 7,
+	},
 	silverpowder: {
 		name: "Silver Powder",
 		spritenum: 447,
