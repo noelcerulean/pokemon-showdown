@@ -5877,6 +5877,17 @@
 				"moves": [["Wish"], ["Protect", "Sleep Powder"], ["Aromatherapy"], ["Giga Drain"]]
 			}]
 		},
+		"meowsticf": {
+			"flags": {},
+			"sets": [{
+				"species": "Meowstic-F",
+				"item": ["Choice Specs"],
+				"ability": ["Psychic Surge"],
+				"evs": {"hp": 4, "spa": 252, "spe": 252},
+				"nature": "Timid",
+				"moves": [["Psychic"], ["Psyshock"], ["Dazzling Gleam"], ["Hidden Power Fire"]]
+			}]
+		},
 		"metagross": {
 			"flags": {},
 			"sets": [{
@@ -6502,6 +6513,17 @@
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": "Adamant",
 				"moves": [["Outrage"], ["Crunch"], ["Iron Head"], ["Flame Wheel"]]
+			}]
+		},
+		"rapidash": {
+			"flags": {},
+			"sets": [{
+				"species": "Rapidash",
+				"item": ["Choice Band"],
+				"ability": ["Run Away"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Dry Pass", "Play Rough"], ["Lightning Kick"], ["Flare Blitz"], ["High Horsepower"]]
 			}]
 		},
 		"raticate": {
@@ -8926,6 +8948,24 @@
 				"evs": {"def": 4, "spa": 252, "spe": 252},
 				"nature": "Timid",
 				"moves": [["Quiver Dance"], ["Hydro Pump"], ["Bug Buzz"], ["Roost", "Giga Drain", "Sticky Web"]]
+			}]
+		},
+		"meowstic": {
+			"flags": {},
+			"sets": [{
+				"species": "Meowstic",
+				"item": ["Light Clay"],
+				"ability": ["Prankster"],
+				"evs": {"hp": 252, "def": 252, "spe": 4},
+				"nature": "Bold",
+				"moves": [["Reflect"], ["Light Screen"], ["Memento"], ["Thunder Wave"]]
+			}, {
+				"species": "Meowstic",
+				"item": ["Leftovers"],
+				"ability": ["Prankster"],
+				"evs": {"hp": 252, "def": 252, "spe": 4},
+				"nature": "Bold",
+				"moves": [["Disable"], ["Psychic"], ["Memento"], ["Thunder Wave"]]
 			}]
 		},
 		"mesprit": {

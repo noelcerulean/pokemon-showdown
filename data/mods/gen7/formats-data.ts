@@ -536,7 +536,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	rapidash: {
 		randomBattleMoves: ["flareblitz", "highhorsepower", "lightningkick", "morningsun", "willowisp"],
 		randomDoubleBattleMoves: ["flareblitz", "highhorsepower", "hypnosis", "lightningkick", "protect", "willowisp"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	slowpoke: {
@@ -4137,13 +4137,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	meowstic: {
 		randomBattleMoves: ["healbell", "lightscreen", "psychic", "reflect", "thunderwave", "toxic", "yawn"],
 		randomDoubleBattleMoves: ["fakeout", "lightscreen", "protect", "psychic", "reflect", "thunderwave"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	meowsticf: {
-		randomBattleMoves: ["calmmind", "energyball", "psychic", "psyshock", "shadowball", "thunderbolt"],
+		randomBattleMoves: ["calmmind", "dazzlinggleam", "energyball", "psychic", "psyshock", "shadowball", "thunderbolt"],
 		randomDoubleBattleMoves: ["darkpulse", "energyball", "fakeout", "helpinghand", "nastyplot", "protect", "psychic", "thunderbolt"],
-		tier: "(PU)",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	honedge: {
