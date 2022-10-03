@@ -4678,13 +4678,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	oranguru: {
 		randomBattleMoves: ["focusblast", "nastyplot", "psyshock", "thunderbolt", "trickroom"],
 		randomDoubleBattleMoves: ["foulplay", "instruct", "protect", "psychic", "trickroom"],
-		tier: "(PU)",
+		tier: "RU",
 		doublesTier: "DUU",
 	},
 	passimian: {
 		randomBattleMoves: ["closecombat", "earthquake", "ironhead", "knockoff", "rockslide", "uturn"],
 		randomDoubleBattleMoves: ["closecombat", "knockoff", "protect", "rockslide", "taunt", "uturn"],
-		tier: "NU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	wimpod: {

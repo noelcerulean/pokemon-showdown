@@ -9187,7 +9187,7 @@
 			"sets": [{
 				"species": "Passimian",
 				"item": ["Choice Scarf"],
-				"ability": ["Receiver"],
+				"ability": ["Receiver", "Team Spirit"],
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Close Combat"], ["U-turn"], ["Knock Off"], ["Gunk Shot"]]
@@ -9390,6 +9390,13 @@
 				"evs": {"hp": 248, "atk": 16, "spd": 244},
 				"nature": "Adamant",
 				"moves": [["Stealth Rock"], ["Earthquake"], ["Rock Blast"], ["Ice Punch"]]
+			}, {
+				"species": "Rhyperior",
+				"item": ["Weakness Policy"],
+				"ability": ["Solid Rock"],
+				"evs": {"atk": 192, "spd": 80, "spe": 236},
+				"nature": "Jolly",
+				"moves": [["Rock Polish"], ["Earthquake"], ["Stone Edge"], ["Ice Punch"]]
 			}]
 		},
 		"ribombee": {
