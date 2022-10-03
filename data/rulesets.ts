@@ -563,7 +563,6 @@ export const Rulesets: {[k: string]: FormatData} = {
 				libero: 'protean',
 				minus: 'plus',
 				moxie: 'chillingneigh',
-				powerofalchemy: 'receiver',
 				propellertail: 'stalwart',
 				teravolt: 'moldbreaker',
 				turboblaze: 'moldbreaker',

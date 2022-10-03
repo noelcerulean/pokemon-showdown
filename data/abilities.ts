@@ -3203,7 +3203,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			if (!this.effectState.target.hp) return;
 			const ability = target.getAbility();
 			const additionalBannedAbilities = [
-				'noability', 'flowergift', 'forecast', 'hungerswitch', 'illusion', 'imposter', 'neutralizinggas', 'powerofalchemy', 'receiver', 'trace', 'wonderguard',
+				'noability', 'flowergift', 'forecast', 'hungerswitch', 'illusion', 'imposter', 'neutralizinggas', 'powerofalchemy', 'trace', 'wonderguard',
 			];
 			if (target.getAbility().isPermanent || additionalBannedAbilities.includes(target.ability)) return;
 			this.add('-ability', this.effectState.target, ability, '[from] ability: Power of Alchemy', '[of] ' + target);
@@ -3466,18 +3466,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 155,
 	},
 	receiver: {
-		onAllyFaint(target) {
-			if (!this.effectState.target.hp) return;
-			const ability = target.getAbility();
-			const additionalBannedAbilities = [
-				'noability', 'flowergift', 'forecast', 'hungerswitch', 'illusion', 'imposter', 'neutralizinggas', 'powerofalchemy', 'receiver', 'trace', 'wonderguard',
-			];
-			if (target.getAbility().isPermanent || additionalBannedAbilities.includes(target.ability)) return;
-			this.add('-ability', this.effectState.target, ability, '[from] ability: Receiver', '[of] ' + target);
-			this.effectState.target.setAbility(ability);
+		onFoeAfterBoost(boost, target, source, sourceEffect) {
+			if (sourceEffect.effectType !== 'Move' || target !== source) return;
+			this.boost(boost, this.effectState.target, this.effectState.target);
 		},
 		name: "Receiver",
-		rating: 0,
+		rating: 3,
 		num: 222,
 	},
 	reckless: {
@@ -4840,6 +4834,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 221,
 	},
+	teamspirit: {
+		onBasePower(basePower, pokemon) {
+			if (pokemon.side.faintedLastTurn) {
+				this.debug('Boosted for a faint last turn');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Team Spirit",
+		rating: 3,
+		num: -545,
+	},
 	technician: {
 		onBasePowerPriority: 30,
 		onBasePower(basePower, attacker, defender, move) {
@@ -4996,7 +5001,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 
 			const additionalBannedAbilities = [
 				// Zen Mode included here for compatability with Gen 5-6
-				'noability', 'flowergift', 'forecast', 'hungerswitch', 'illusion', 'imposter', 'neutralizinggas', 'powerofalchemy', 'receiver', 'trace', 'zenmode',
+				'noability', 'flowergift', 'forecast', 'hungerswitch', 'illusion', 'imposter', 'neutralizinggas', 'powerofalchemy', 'trace', 'zenmode',
 			];
 			const possibleTargets = pokemon.adjacentFoes().filter(target => (
 				!target.getAbility().isPermanent && !additionalBannedAbilities.includes(target.ability)

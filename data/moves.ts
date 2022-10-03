@@ -4660,7 +4660,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 
 			const additionalBannedSourceAbilities = [
 				// Zen Mode included here for compatability with Gen 5-6
-				'flowergift', 'forecast', 'hungerswitch', 'illusion', 'imposter', 'neutralizinggas', 'powerofalchemy', 'receiver', 'trace', 'zenmode',
+				'flowergift', 'forecast', 'hungerswitch', 'illusion', 'imposter', 'neutralizinggas', 'powerofalchemy', 'trace', 'zenmode',
 			];
 			if (
 				target.ability === source.ability ||
@@ -15017,7 +15017,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 
 			const additionalBannedTargetAbilities = [
 				// Zen Mode included here for compatability with Gen 5-6
-				'flowergift', 'forecast', 'hungerswitch', 'illusion', 'imposter', 'neutralizinggas', 'powerofalchemy', 'receiver', 'trace', 'wonderguard', 'zenmode',
+				'flowergift', 'forecast', 'hungerswitch', 'illusion', 'imposter', 'neutralizinggas', 'powerofalchemy', 'trace', 'wonderguard', 'zenmode',
 			];
 
 			if (target.getAbility().isPermanent || additionalBannedTargetAbilities.includes(target.ability) ||
