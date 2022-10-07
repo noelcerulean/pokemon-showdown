@@ -193,7 +193,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	bugmemory: {
 		name: "Bug Memory",
-		desc: "Holder's Multi-Attack is Bug type.",
+		desc: "Holder's Multi-Attack is Bug type and Bug type moves are 1.2x power.",
 	},
 	buginiumz: {
 		name: "Buginium Z",
@@ -325,7 +325,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	darkmemory: {
 		name: "Dark Memory",
-		desc: "Holder's Multi-Attack is Dark type.",
+		desc: "Holder's Multi-Attack is Dark type and Dark type moves are 1.2x power.",
 	},
 	darkiniumz: {
 		name: "Darkinium Z",
@@ -397,7 +397,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	dragonmemory: {
 		name: "Dragon Memory",
-		desc: "Holder's Multi-Attack is Dragon type.",
+		desc: "Holder's Multi-Attack is Dragon type and Dragon type moves are 1.2x power.",
 	},
 	dragonscale: {
 		name: "Dragon Scale",
@@ -469,7 +469,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	electricmemory: {
 		name: "Electric Memory",
-		desc: "Holder's Multi-Attack is Electric type.",
+		desc: "Holder's Multi-Attack is Electric type and Electric type moves are 1.2x power.",
 	},
 	electricseed: {
 		name: "Electric Seed",
@@ -519,7 +519,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	fairymemory: {
 		name: "Fairy Memory",
-		desc: "Holder's Multi-Attack is Fairy type.",
+		desc: "Holder's Multi-Attack is Fairy type and Fairy type moves are 1.2x power.",
 	},
 	fastball: {
 		name: "Fast Ball",
@@ -534,7 +534,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	fightingmemory: {
 		name: "Fighting Memory",
-		desc: "Holder's Multi-Attack is Fighting type.",
+		desc: "Holder's Multi-Attack is Fighting type and Fighting type moves are 1.2x power.",
 	},
 	fightiniumz: {
 		name: "Fightinium Z",
@@ -559,7 +559,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	firememory: {
 		name: "Fire Memory",
-		desc: "Holder's Multi-Attack is Fire type.",
+		desc: "Holder's Multi-Attack is Fire type and Fire type moves are 1.2x power.",
 	},
 	firestone: {
 		name: "Fire Stone",
@@ -599,7 +599,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	flyingmemory: {
 		name: "Flying Memory",
-		desc: "Holder's Multi-Attack is Flying type.",
+		desc: "Holder's Multi-Attack is Flying type and Flying type moves are 1.2x power.",
 	},
 	flyiniumz: {
 		name: "Flyinium Z",
@@ -692,7 +692,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	ghostmemory: {
 		name: "Ghost Memory",
-		desc: "Holder's Multi-Attack is Ghost type.",
+		desc: "Holder's Multi-Attack is Ghost type and Ghost type moves are 1.2x power.",
 	},
 	ghostiumz: {
 		name: "Ghostium Z",
@@ -720,7 +720,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	grassmemory: {
 		name: "Grass Memory",
-		desc: "Holder's Multi-Attack is Grass type.",
+		desc: "Holder's Multi-Attack is Grass type and Grass type moves are 1.2x power.",
 	},
 	grassiumz: {
 		name: "Grassium Z",
@@ -758,7 +758,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	groundmemory: {
 		name: "Ground Memory",
-		desc: "Holder's Multi-Attack is Ground type.",
+		desc: "Holder's Multi-Attack is Ground type and Ground type moves are 1.2x power.",
 	},
 	groundiumz: {
 		name: "Groundium Z",
@@ -830,7 +830,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	icememory: {
 		name: "Ice Memory",
-		desc: "Holder's Multi-Attack is Ice type.",
+		desc: "Holder's Multi-Attack is Ice type and Ice type moves are 1.2x power.",
 	},
 	icestone: {
 		name: "Ice Stone",
@@ -1320,7 +1320,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	poisonmemory: {
 		name: "Poison Memory",
-		desc: "Holder's Multi-Attack is Poison type.",
+		desc: "Holder's Multi-Attack is Poison type and Poison type moves are 1.2x power.",
 	},
 	poisoniumz: {
 		name: "Poisonium Z",
@@ -1403,7 +1403,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	psychicmemory: {
 		name: "Psychic Memory",
-		desc: "Holder's Multi-Attack is Psychic type.",
+		desc: "Holder's Multi-Attack is Psychic type and Psychic type moves are 1.2x power.",
 	},
 	psychicseed: {
 		name: "Psychic Seed",
@@ -1503,7 +1503,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	rockmemory: {
 		name: "Rock Memory",
-		desc: "Holder's Multi-Attack is Rock type.",
+		desc: "Holder's Multi-Attack is Rock type and Rock type moves are 1.2x power.",
 	},
 	rockiumz: {
 		name: "Rockium Z",
@@ -1748,7 +1748,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	steelmemory: {
 		name: "Steel Memory",
-		desc: "Holder's Multi-Attack is Steel type.",
+		desc: "Holder's Multi-Attack is Steel type and Steel type moves are 1.2x power.",
 	},
 	steeliumz: {
 		name: "Steelium Z",
@@ -2306,7 +2306,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	watermemory: {
 		name: "Water Memory",
-		desc: "Holder's Multi-Attack is Water type.",
+		desc: "Holder's Multi-Attack is Water type and Water type moves are 1.2x power.",
 	},
 	waterstone: {
 		name: "Water Stone",

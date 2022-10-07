@@ -643,6 +643,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "If Hail is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn. This Pokemon takes no damage from Hail.",
 		shortDesc: "If Hail is active, this Pokemon heals 1/16 of its max HP each turn; immunity to Hail.",
 	},
+	icebreaker: {
+		name: "Ice Breaker",
+		shortDesc: "If Hail is active, this Pokemon's Atk is 1.5x.",
+	},
 	iceface: {
 		name: "Ice Face",
 		desc: "If this Pokemon is an Eiscue, the first physical hit it takes in battle deals 0 neutral damage. Its ice face is then broken and it changes forme to Noice Face. Eiscue regains its Ice Face forme when Hail begins or when Eiscue switches in while Hail is active. Confusion damage also breaks the ice face.",
@@ -743,6 +747,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	justified: {
 		name: "Justified",
 		shortDesc: "This Pokemon's Attack is raised by 1 stage after it is damaged by a Dark-type move.",
+	},
+	karma: {
+		name: "Karma",
+		desc: "This Pokemon is immune to Dark-type moves and raises its Special Attack by 1 stage when hit by a Dark-type move. If this Pokemon is not the target of a single-target Dark-type move used by another Pokemon, this Pokemon redirects that move to itself if it is within the range of that move.",
+		shortDesc: "This Pokemon draws Dark moves to itself to raise Sp. Atk by 1; Dark immunity.",
+
+		activate: "  [POKEMON] took the attack!",
 	},
 	keeneye: {
 		name: "Keen Eye",

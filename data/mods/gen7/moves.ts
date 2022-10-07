@@ -618,7 +618,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	multiattack: {
 		inherit: true,
-		basePower: 90,
+		basePower: 120,
 	},
 	naturalgift: {
 		inherit: true,

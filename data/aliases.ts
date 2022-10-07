@@ -413,6 +413,8 @@ export const Aliases: {[alias: string]: string} = {
 	dewottpikadress: "Dewott-Pika",
 	marshadowmug: "Marshadow",
 	fraxurefrenzydeity: "Fraxure-Frenzy",
+	raichumalachiteberserker: "Raichu-Malachite",
+	altariaeventide: "Altaria",
 
 	alcremierubycream: "Alcremie",
 	alcremiematchacream: "Alcremie",

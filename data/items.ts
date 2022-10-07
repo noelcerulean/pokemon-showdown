@@ -663,6 +663,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Bug Memory",
 		spritenum: 673,
 		onMemory: 'Bug',
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move.type === 'Bug') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
 		onTakeItem(item, pokemon, source) {
 			if ((source && source.baseSpecies.num === 773) || pokemon.baseSpecies.num === 773) {
 				return false;
@@ -1177,6 +1183,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Dark Memory",
 		spritenum: 683,
 		onMemory: 'Dark',
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move.type === 'Dark') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
 		onTakeItem(item, pokemon, source) {
 			if ((source && source.baseSpecies.num === 773) || pokemon.baseSpecies.num === 773) {
 				return false;
@@ -1392,6 +1404,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Dragon Memory",
 		spritenum: 682,
 		onMemory: 'Dragon',
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move.type === 'Dragon') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
 		onTakeItem(item, pokemon, source) {
 			if ((source && source.baseSpecies.num === 773) || pokemon.baseSpecies.num === 773) {
 				return false;
@@ -1618,6 +1636,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Electric Memory",
 		spritenum: 679,
 		onMemory: 'Electric',
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move.type === 'Electric') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
 		onTakeItem(item, pokemon, source) {
 			if ((source && source.baseSpecies.num === 773) || pokemon.baseSpecies.num === 773) {
 				return false;
@@ -1792,6 +1816,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Fairy Memory",
 		spritenum: 684,
 		onMemory: 'Fairy',
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move.type === 'Fairy') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
 		onTakeItem(item, pokemon, source) {
 			if ((source && source.baseSpecies.num === 773) || pokemon.baseSpecies.num === 773) {
 				return false;
@@ -1828,6 +1858,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Fighting Memory",
 		spritenum: 668,
 		onMemory: 'Fighting',
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move.type === 'Fighting') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
 		onTakeItem(item, pokemon, source) {
 			if ((source && source.baseSpecies.num === 773) || pokemon.baseSpecies.num === 773) {
 				return false;
@@ -1895,6 +1931,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Fire Memory",
 		spritenum: 676,
 		onMemory: 'Fire',
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move.type === 'Fire') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
 		onTakeItem(item, pokemon, source) {
 			if ((source && source.baseSpecies.num === 773) || pokemon.baseSpecies.num === 773) {
 				return false;
@@ -2023,6 +2065,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Flying Memory",
 		spritenum: 669,
 		onMemory: 'Flying',
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move.type === 'Flying') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
 		onTakeItem(item, pokemon, source) {
 			if ((source && source.baseSpecies.num === 773) || pokemon.baseSpecies.num === 773) {
 				return false;
@@ -2272,6 +2320,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Ghost Memory",
 		spritenum: 674,
 		onMemory: 'Ghost',
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move.type === 'Ghost') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
 		onTakeItem(item, pokemon, source) {
 			if ((source && source.baseSpecies.num === 773) || pokemon.baseSpecies.num === 773) {
 				return false;
@@ -2348,6 +2402,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Grass Memory",
 		spritenum: 678,
 		onMemory: 'Grass',
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move.type === 'Grass') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
 		onTakeItem(item, pokemon, source) {
 			if ((source && source.baseSpecies.num === 773) || pokemon.baseSpecies.num === 773) {
 				return false;
@@ -2464,6 +2524,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Ground Memory",
 		spritenum: 671,
 		onMemory: 'Ground',
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move.type === 'Ground') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
 		onTakeItem(item, pokemon, source) {
 			if ((source && source.baseSpecies.num === 773) || pokemon.baseSpecies.num === 773) {
 				return false;
@@ -2666,6 +2732,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Ice Memory",
 		spritenum: 681,
 		onMemory: 'Ice',
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move.type === 'Ice') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
 		onTakeItem(item, pokemon, source) {
 			if ((source && source.baseSpecies.num === 773) || pokemon.baseSpecies.num === 773) {
 				return false;
@@ -3426,6 +3498,29 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 242,
 		gen: 2,
+	},
+	magneticstone: {
+		name: "Magnetic Stone",
+		spritenum: 6,
+		fling: {
+			basePower: 60,
+		},
+		onStart(pokemon) {
+			if (pokemon.baseSpecies.name !== 'Probopass') return;
+			if (!pokemon.ignoringItem() && !this.field.getPseudoWeather('gravity')) {
+				this.add('-item', pokemon, 'Magnetic Stone');
+				pokemon.addVolatile('magnetrise');
+			}
+		},
+		// airborneness implemented in sim/pokemon.js:Pokemon#isGrounded
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 476) || pokemon.baseSpecies.num === 476) {
+				return false;
+			}
+			return true;
+		},
+		num: -522,
+		gen: 7,
 	},
 	magoberry: {
 		name: "Mago Berry",
@@ -4343,6 +4438,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Poison Memory",
 		spritenum: 670,
 		onMemory: 'Poison',
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move.type === 'Poison') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
 		onTakeItem(item, pokemon, source) {
 			if ((source && source.baseSpecies.num === 773) || pokemon.baseSpecies.num === 773) {
 				return false;
@@ -4579,6 +4680,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Psychic Memory",
 		spritenum: 680,
 		onMemory: 'Psychic',
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move.type === 'Psychic') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
 		onTakeItem(item, pokemon, source) {
 			if ((source && source.baseSpecies.num === 773) || pokemon.baseSpecies.num === 773) {
 				return false;
@@ -4907,6 +5014,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Rock Memory",
 		spritenum: 672,
 		onMemory: 'Rock',
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move.type === 'Rock') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
 		onTakeItem(item, pokemon, source) {
 			if ((source && source.baseSpecies.num === 773) || pokemon.baseSpecies.num === 773) {
 				return false;
@@ -5696,6 +5809,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Steel Memory",
 		spritenum: 675,
 		onMemory: 'Steel',
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move.type === 'Steel') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
 		onTakeItem(item, pokemon, source) {
 			if ((source && source.baseSpecies.num === 773) || pokemon.baseSpecies.num === 773) {
 				return false;
@@ -7085,6 +7204,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Water Memory",
 		spritenum: 677,
 		onMemory: 'Water',
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move.type === 'Water') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
 		onTakeItem(item, pokemon, source) {
 			if ((source && source.baseSpecies.num === 773) || pokemon.baseSpecies.num === 773) {
 				return false;

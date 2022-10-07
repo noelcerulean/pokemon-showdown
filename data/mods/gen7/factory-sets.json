@@ -3004,6 +3004,17 @@
 				"moves": [["Swords Dance"], ["Return"], ["Earthquake", "Close Combat"], ["Quick Attack"]]
 			}]
 		},
+		"probopass": {
+			"flags": {},
+			"sets": [{
+				"species": "Probopass",
+				"item": ["Magnetic Stone"],
+				"ability": ["Magnet Pull"],
+				"evs": {"hp": 252, "def": 4, "spa": 252},
+				"nature": "Modest",
+				"moves": [["Stealth Rock", "Rapid Spin"], ["Earth Power"], ["Prehistoric Pulse"], ["Parabolic Charge"]]
+			}]
+		},
 		"quagsire": {
 			"flags": {},
 			"sets": [{
@@ -9778,6 +9789,17 @@
 				"evs": {"hp": 4, "atk": 252, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Belly Drum"], ["Play Rough"], ["Return"], ["Drain Punch"]]
+			}]
+		},
+		"smeargle": {
+			"flags": {},
+			"sets": [{
+				"species": "Smeargle",
+				"item": ["Focus Sash"],
+				"ability": ["Own Tempo"],
+				"evs": {"hp": 252, "def": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Sticky Web"], ["Parasitic Drain"], ["Spider Web"], ["Spore"]]
 			}]
 		},
 		"sneasel": {

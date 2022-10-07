@@ -1840,6 +1840,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 115,
 	},
+	icebreaker: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, pokemon) {
+			if (['hail'].includes(pokemon.effectiveWeather())) {
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Ice Breaker",
+		rating: 2,
+		num: -546,
+	},
 	iceface: {
 		onStart(pokemon) {
 			if (this.field.isWeather('hail') && pokemon.species.id === 'eiscuenoice' && !pokemon.transformed) {
@@ -2130,6 +2141,31 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Justified",
 		rating: 2.5,
 		num: 154,
+	},
+	karma: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Dark') {
+				if (!this.boost({spa: 1})) {
+					this.add('-immune', target, '[from] ability: Karma');
+				}
+				return null;
+			}
+		},
+		onAnyRedirectTarget(target, source, source2, move) {
+			if (move.type !== 'Dark' || ['firepledge', 'grasspledge', 'waterpledge'].includes(move.id)) return;
+			const redirectTarget = ['randomNormal', 'adjacentFoe'].includes(move.target) ? 'normal' : move.target;
+			if (this.validTarget(this.effectState.target, source, redirectTarget)) {
+				if (move.smartTarget) move.smartTarget = false;
+				if (this.effectState.target !== target) {
+					this.add('-activate', this.effectState.target, 'ability: Karma');
+				}
+				return this.effectState.target;
+			}
+		},
+		isBreakable: true,
+		name: "Karma",
+		rating: 3.5,
+		num: 31,
 	},
 	keeneye: {
 		onBoost(boost, target, source, effect) {
