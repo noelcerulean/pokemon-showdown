@@ -3501,7 +3501,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	magneticstone: {
 		name: "Magnetic Stone",
-		spritenum: 6,
+		spritenum: 427,
 		fling: {
 			basePower: 60,
 		},
@@ -3519,6 +3519,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			}
 			return true;
 		},
+		itemUser: ["Probopass"],
 		num: -522,
 		gen: 7,
 	},

@@ -1054,6 +1054,12 @@ export const ItemsText: {[k: string]: ItemText} = {
 			desc: "Holder's Electric-type attacks have 1.1x power.",
 		},
 	},
+	magneticstone: {
+		name: "Magnetic Stone",
+		desc: "Causes Probopass to use Magnet Rise on switch-in.",
+
+		start: "  [POKEMON] levitated using electromagnetism!",
+	},
 	magoberry: {
 		name: "Mago Berry",
 		desc: "Restores 33% max HP at 1/4 max HP or less; confuses if -Spe Nature. Single use.",
