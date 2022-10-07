@@ -1057,8 +1057,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 	magneticstone: {
 		name: "Magnetic Stone",
 		desc: "Causes Probopass to use Magnet Rise on switch-in.",
-
-		start: "  [POKEMON] levitated using electromagnetism!",
 	},
 	magoberry: {
 		name: "Mago Berry",
