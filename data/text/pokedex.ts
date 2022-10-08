@@ -2324,6 +2324,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	darmanitan: {
 		name: "Darmanitan",
 	},
+	darmanizen: {
+		name: "Darmanizen",
+	},
 	darmanitanzen: {
 		name: "Darmanitan-Zen",
 	},

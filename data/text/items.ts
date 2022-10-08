@@ -205,7 +205,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	calmcandybar: {
 		name: "Calm Candy Bar",
-		desc: "Give to Darmanitan-Zen forme in Teambuilder. Boosts Sp. Attack by 1.2x.",
+		desc: "Boosts the power of Darmanizen's/Darmanitan's special moves by 1.2x.",
 	},
 	cameruptite: {
 		name: "Cameruptite",

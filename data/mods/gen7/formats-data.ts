@@ -3440,7 +3440,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
-	darmanitanzen: {
+	darmanizen: {
 		randomBattleMoves: ["fireblast", "grassknot", "psychic", "willowisp"],
 		randomDoubleBattleMoves: ["fireblast", "grassknot", "protect", "psychic", "willowisp"],
 		tier: "RUBL",

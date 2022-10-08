@@ -728,8 +728,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			}
 			return true;
 		},
-		forcedForme: "Darmanitan-Zen",
-		itemUser: ["Darmanitan-Zen"],
+		itemUser: ["Darmanizen"],
 		num: -523,
 		gen: 5,
 	},
