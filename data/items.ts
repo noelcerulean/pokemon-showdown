@@ -707,6 +707,32 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 118,
 		gen: 5,
 	},
+	calmcandybar: {
+		name: "Calm Candy Bar",
+		spritenum: 376,
+		fling: {
+			basePower: 60,
+		},
+		onBasePowerPriority: 16,
+		onBasePower(basePower, user, target, move) {
+			if (
+				move && (user.baseSpecies.num === 555 || user.baseSpecies.num === 555) &&
+				(move.category === 'Special')
+			) {
+				return this.chainModify([4915, 4096]);
+			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 555) || pokemon.baseSpecies.num === 555) {
+				return false;
+			}
+			return true;
+		},
+		forcedForme: "Darmanitan-Zen",
+		itemUser: ["Darmanitan-Zen"],
+		num: -523,
+		gen: 5,
+	},
 	cameruptite: {
 		name: "Cameruptite",
 		spritenum: 625,

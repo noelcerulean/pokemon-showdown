@@ -203,6 +203,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Burn Drive",
 		desc: "Holder's Techno Blast is Fire type.",
 	},
+	calmcandybar: {
+		name: "Calm Candy Bar",
+		desc: "Puts Darmanitan in Zen forme. Boosts Sp. Attack by 1.2x.",
+	},
 	cameruptite: {
 		name: "Cameruptite",
 		desc: "If held by a Camerupt, this item allows it to Mega Evolve in battle.",
