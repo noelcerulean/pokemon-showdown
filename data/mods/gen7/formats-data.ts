@@ -3440,6 +3440,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
+	darmanitanzen: {
+		randomBattleMoves: ["fireblast", "grassknot", "psychic", "willowisp"],
+		randomDoubleBattleMoves: ["fireblast", "grassknot", "protect", "psychic", "willowisp"],
+		tier: "RUBL",
+		doublesTier: "(DUU)",
+	},
 	maractus: {
 		randomBattleMoves: ["earthpower", "energyball", "gigadrain", "hiddenpowerice", "leafstorm", "sandstorm", "sludgebomb", "spikes", "sunshinedance"],
 		randomDoubleBattleMoves: ["earthpower", "energyball", "gigadrain", "helpinghand", "hiddenpowerice", "leafstorm", "sludgebomb", "sunshinedance"],

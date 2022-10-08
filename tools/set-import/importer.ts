@@ -313,7 +313,6 @@ function skip(dex: ModdedDex, format: Format, pokemon: string, set: DeepPartial<
 	if (pokemon === 'Necrozma-Ultra' && set.item !== 'Ultranecrozium Z') return true;
 	if (pokemon === 'Greninja-Ash' && set.ability !== 'Battle Bond') return true;
 	if (pokemon === 'Zygarde-Complete' && set.ability !== 'Power Construct') return true;
-	if (pokemon === 'Darmanitan-Zen' && set.ability !== 'Zen Mode') return true;
 	if (pokemon === 'Meloetta-Pirouette' && !hasMove('Relic Song')) return true;
 
 	return false;
