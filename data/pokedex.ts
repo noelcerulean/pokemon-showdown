@@ -7984,7 +7984,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 407,
 		name: "Roserade-Armored",
 		types: ["Grass", "Dark"],
-		baseStats: {hp: 60, atk: 81, def: 75, spa: 118, spd: 105, spe: 111},
+		baseStats: {hp: 60, atk: 81, def: 75, spa: 125, spd: 105, spe: 111},
 		abilities: {0: "Cunning Blade"},
 		heightm: 0.9,
 		weightkg: 14.5,
