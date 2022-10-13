@@ -3484,6 +3484,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 215,
 		gen: 3,
 	},
+	magcargoarmor: {
+		name: "Magcargo Armor",
+		spritenum: 0,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Magcargo-Armored') return false;
+			return true;
+		},
+		itemUser: ["Magcargo-Armored"],
+		num: -524,
+		gen: 7,
+	},
 	magmarizer: {
 		name: "Magmarizer",
 		spritenum: 272,

@@ -1925,6 +1925,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	magcargoarmored: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	swinub: {
 		tier: "LC",
 	},
@@ -2383,6 +2387,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	delcatty: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	royalynx: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},

@@ -1016,6 +1016,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	magcargo: {
 		name: "Magcargo",
 	},
+	magcargoarmored: {
+		name: "Magcargo-Armored",
+	},
 	swinub: {
 		name: "Swinub",
 	},
@@ -1309,6 +1312,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	delcatty: {
 		name: "Delcatty",
+	},
+	royalynx: {
+		name: "Royalynx",
 	},
 	sableye: {
 		name: "Sableye",

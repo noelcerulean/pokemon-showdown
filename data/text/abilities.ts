@@ -134,6 +134,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon's highest stat is raised by 1 stage if it attacks and knocks out another Pokemon.",
 		shortDesc: "This Pokemon's highest stat is raised by 1 if it attacks and KOes another Pokemon.",
 	},
+	beautysleep: {
+		name: "Beauty Sleep",
+		desc: "Pokemon attacking this Pokemon while it is asleep will lose 1/4 of their max HP, rounded down.",
+		shortDesc: "Pokemon attacking this Pokemon while it is asleep will lose 1/4 of their max HP.",
+
+		damage: "  [POKEMON] was attacked for interrupting the Beauty Sleep!",
+	},
 	berserk: {
 		name: "Berserk",
 		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage from an attack bringing it to 1/2 or less of its maximum HP, its Special Attack is raised by 1 stage. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect.",
@@ -1798,7 +1805,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	tangledfeet: {
 		name: "Tangled Feet",
-		shortDesc: "This Pokemon's evasiveness is doubled as long as it is confused.",
+		shortDesc: "This Pokemon's evasiveness is increased by 1.25x as long as it is confused.",
 	},
 	tanglinghair: {
 		name: "Tangling Hair",

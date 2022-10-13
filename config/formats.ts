@@ -903,6 +903,30 @@ export const Formats: FormatList = [
 		restricted: ['Acupressure', 'Belly Drum', 'Chatter', 'Extreme Speed', 'Geomancy', 'Lovely Kiss', 'Shell Smash', 'Shift Gear', 'Spore', 'Thousand Arrows'],
 	},
 	{
+		name: "[Gen 7] VGC 2018",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3631800/">VGC 2018 Discussion</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3622041/">VGC 2018 Viability Rankings</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3628885/">VGC 2018 Sample Teams</a>`,
+		],
+
+		mod: 'gen7',
+		gameType: 'doubles',
+		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 7', 'VGC Timer'],
+		banlist: [
+			'Restricted Legendary', 'Mythical',
+			'Braixen-Nonzerda', 'Bulbasaur-Saur', 'Carbink-Floatamo', 'Eelektross-Mr.Lamprey', 'Emboar-Dynamite', 'Entei-Bismuth', 'Espeon-Daybreak', 'Hakamo-o-Jacinto',
+			'Ho-Oh-Rainbow', 'Jirachi-Wishmaker', 'Kecleon-Genocalypse', 'Kingdra-K.Marxdra', 'Milotic-Lothraxia', 'Porygon2-Pory.EXE', 'Raichu-Malachite',
+			'Raikou-Jasper', 'Simisear-Hanuman', 'Soarsparce-Alfred', 'Suicune-Opal', 'Typhlosion-Vesuvius', 'Umbreon-Nocturne', 'Vaporeon-Linguine',
+			'Wooper-Wooperoth', 'Yanmega-Zumbra',
+			'Aegislash-Zato', 'Camerupt-Maxie', 'Chikorita-Minty', 'Decidueye-Apollo', 'Dewott-Pika', 'Eevee-Durum', 'Flareon-Lasagna', 'Fraxure-Frenzy',
+			'Glaceon-Manicotti', 'Golisopod-Musashi', 'Golurk-Titan', 'Gyarados-Alarix', 'Gyarados-Mega-Alarix', 'Honchkrow-Godfather', 'Jolteon-Radiatori',
+			'Kurstraw-Crona', 'Leafeon-Tagliatelle', 'Meganium-Aniseed', 'Sceptile-Moscho', 'Sylveon-Farfalle', 'Zweilous-Terror',
+			'Feebas-Vanessa', 'Granbull-Nobunaga',
+			'Oranguru + Symbiosis', 'Passimian + Defiant', 'Unown', 'Custap Berry', 'Enigma Berry', 'Jaboca Berry', 'Micle Berry', 'Rowap Berry', 'Battle Bond',
+		],
+	},
+	{
 		name: "[Gen 7] FnF VGC 2019",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3641100/">VGC 2019 Discussion</a>`,

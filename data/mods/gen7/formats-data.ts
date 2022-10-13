@@ -95,7 +95,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	beedrillmega: {
 		randomBattleMoves: ["drillrun", "knockoff", "megahorn", "poisonjab", "swordsdance", "uturn", "xscissor"],
 		randomDoubleBattleMoves: ["drillrun", "knockoff", "poisonjab", "protect", "uturn", "xscissor"],
-		tier: "UUBL",
+		tier: "UU",
 		doublesTier: "DUU",
 	},
 	pidgey: {
@@ -1565,9 +1565,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	magcargo: {
-		randomBattleMoves: ["earthpower", "fireblast", "hiddenpowergrass", "lavaplume", "prehistoricpulse", "recover", "shellsmash", "stealthrock", "toxic"],
+		randomBattleMoves: ["earthpower", "fireblast", "hiddenpowergrass", "lavaplume", "prehistoricpulse", "recover", "shellsmash", "stealthrock", "toxic", "vaporize"],
 		randomDoubleBattleMoves: ["earthpower", "fireblast", "heatwave", "incinerate", "protect", "stealthrock", "willowisp"],
 		tier: "UU",
+		doublesTier: "(DUU)",
+	},
+	magcargoarmored: {
+		randomBattleMoves: ["earthpower", "flashcannon", "lavaplume", "prehistoricpulse", "recover", "stealthrock", "toxic", "vaporize"],
+		randomDoubleBattleMoves: ["earthpower", "fireblast", "flashcannon", "heatwave", "incinerate", "protect", "stealthrock", "willowisp", "vaporize"],
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	swinub: {
@@ -1975,6 +1981,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["doubleedge", "fakeout", "healbell", "suckerpunch", "thunderwave", "wildcharge"],
 		randomDoubleBattleMoves: ["doubleedge", "fakeout", "helpinghand", "protect", "suckerpunch", "thunderwave"],
 		tier: "NU",
+		doublesTier: "(DUU)",
+	},
+	royalynx: {
+		randomBattleMoves: ["doubleedge", "fakeout", "healbell", "suckerpunch", "thunderwave", "wildcharge"],
+		randomDoubleBattleMoves: ["doubleedge", "fakeout", "helpinghand", "protect", "suckerpunch", "thunderwave"],
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	sableye: {

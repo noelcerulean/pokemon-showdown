@@ -1047,6 +1047,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Macho Brace",
 		desc: "Holder's Speed is halved. The Klutz Ability does not ignore this effect.",
 	},
+	magcargoarmor: {
+		name: "Magcargo Armor",
+		desc: "Armor developed by DoReMi for Magcargo to enhance its battle capabilities.",
+		shortDesc: "Attach to Magcargo-Armored forme (not base forme!!!) in the teambuilder.",
+	},
 	magmarizer: {
 		name: "Magmarizer",
 		desc: "If held by Magmortar, its Fire-type moves have 1.5x power.",

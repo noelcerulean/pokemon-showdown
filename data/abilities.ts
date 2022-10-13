@@ -391,6 +391,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 224,
 	},
+	beautysleep: {
+		onDamagingHitOrder: 1,
+		onDamagingHit(damage, target, source, move) {
+			if (target.status === 'slp' && move.category !== 'Status') {
+				this.damage(source.baseMaxhp / 4, source, target);
+			}
+		},
+		name: "Beauty Sleep",
+		rating: 2.5,
+		num: -547,
+	},
 	berserk: {
 		onDamage(damage, target, source, effect) {
 			if (
@@ -4851,7 +4862,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			if (typeof accuracy !== 'number') return;
 			if (target?.volatiles['confusion']) {
 				this.debug('Tangled Feet - decreasing accuracy');
-				return this.chainModify(0.5);
+				return this.chainModify([3277, 4096]);
 			}
 		},
 		isBreakable: true,

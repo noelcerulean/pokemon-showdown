@@ -415,6 +415,7 @@ export const Aliases: {[alias: string]: string} = {
 	fraxurefrenzydeity: "Fraxure-Frenzy",
 	raichumalachiteberserker: "Raichu-Malachite",
 	altariaeventide: "Altaria",
+	decidueyeapollotoga: "Decidueye-Apollo",
 
 	alcremierubycream: "Alcremie",
 	alcremiematchacream: "Alcremie",
