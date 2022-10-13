@@ -914,7 +914,6 @@ export const Formats: FormatList = [
 		gameType: 'doubles',
 		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 7', 'VGC Timer'],
 		banlist: [
-			'Restricted Legendary', 'Mythical',
 			'Braixen-Nonzerda', 'Bulbasaur-Saur', 'Carbink-Floatamo', 'Eelektross-Mr.Lamprey', 'Emboar-Dynamite', 'Entei-Bismuth', 'Espeon-Daybreak', 'Hakamo-o-Jacinto',
 			'Ho-Oh-Rainbow', 'Jirachi-Wishmaker', 'Kecleon-Genocalypse', 'Kingdra-K.Marxdra', 'Milotic-Lothraxia', 'Porygon2-Pory.EXE', 'Raichu-Malachite',
 			'Raikou-Jasper', 'Simisear-Hanuman', 'Soarsparce-Alfred', 'Suicune-Opal', 'Typhlosion-Vesuvius', 'Umbreon-Nocturne', 'Vaporeon-Linguine',
