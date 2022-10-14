@@ -43,7 +43,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['Standard'],
-		banlist: ['Uber', 'Arena Trap', 'Shadow Tag', 'Blaziken + Speed Boost', 'Crustle-Delta-Cake + Simple', 'Landorus + Sheer Force', 'Power Construct', 'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z'],
+		banlist: ['Uber', 'Arena Trap', 'Battle Bond', 'Shadow Tag', 'Blaziken + Speed Boost', 'Crustle-Delta-Cake + Simple', 'Landorus + Sheer Force', 'Power Construct', 'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z'],
 	},
 	{
 		name: "[Gen 7] UU",
@@ -65,7 +65,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['[Gen 7] UU'],
-		banlist: ['UU', 'RUBL', 'Mimikyu', 'Aurora Veil'],
+		banlist: ['UU', 'RUBL', 'Mimikyu', 'Drizzle', 'Castform + Damp Rock', 'Aurora Veil'],
 		unbanlist: ['Drought'],
 	},
 	{

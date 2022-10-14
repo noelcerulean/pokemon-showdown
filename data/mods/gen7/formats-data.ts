@@ -4049,7 +4049,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	greninjaash: {
 		randomBattleMoves: ["darkpulse", "hydropump", "icebeam", "uturn", "watershuriken"],
-		tier: "OU",
+		tier: "Uber",
 		doublesTier: "DUU",
 	},
 	bunnelby: {
