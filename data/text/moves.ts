@@ -340,8 +340,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	beakblast: {
 		name: "Beak Blast",
-		desc: "Has a 30% chance to burn the target. The target thaws out if it is frozen.",
-		shortDesc: "30% chance to burn the target. Thaws target.",
+		desc: "Has a 30% chance to burn the target.",
+		shortDesc: "30% chance to burn the target.",
 	},
 	beakcannon: {
 		name: "Beak Cannon",
@@ -1955,7 +1955,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	flamewheel: {
 		name: "Flame Wheel",
 		desc: "Has a 10% chance to burn the target.",
-		shortDesc: "10% chance to burn the target. Thaws user.",
+		shortDesc: "10% chance to burn the target.",
 	},
 	flamethrower: {
 		name: "Flamethrower",
@@ -1965,10 +1965,10 @@ export const MovesText: {[k: string]: MoveText} = {
 	flareblitz: {
 		name: "Flare Blitz",
 		desc: "Has a 10% chance to burn the target. If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
-		shortDesc: "Has 33% recoil. 10% chance to burn. Thaws user.",
+		shortDesc: "Has 33% recoil. 10% chance to burn.",
 		gen4: {
 			desc: "Has a 10% chance to burn the target. If the target lost HP, the user takes recoil damage equal to 1/3 the HP lost by the target, rounded down, but not less than 1 HP.",
-			shortDesc: "Has 1/3 recoil. 10% chance to burn. Thaws user.",
+			shortDesc: "Has 1/3 recoil. 10% chance to burn.",
 		},
 	},
 	flash: {
@@ -4692,7 +4692,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	pyroball: {
 		name: "Pyro Ball",
 		desc: "Has a 10% chance to burn the target.",
-		shortDesc: "10% chance to burn the target. Thaws user.",
+		shortDesc: "10% chance to burn the target.",
 	},
 	quash: {
 		name: "Quash",
@@ -5080,7 +5080,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	sacredfire: {
 		name: "Sacred Fire",
 		desc: "Has a 50% chance to burn the target.",
-		shortDesc: "50% chance to burn the target. Thaws user.",
+		shortDesc: "50% chance to burn the target.",
 	},
 	sacredsword: {
 		name: "Sacred Sword",
@@ -5152,8 +5152,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	scald: {
 		name: "Scald",
-		desc: "Has a 30% chance to burn the target. The target thaws out if it is frozen.",
-		shortDesc: "30% chance to burn the target. Thaws target.",
+		desc: "Has a 30% chance to burn the target.",
+		shortDesc: "30% chance to burn the target.",
 		gen5: {
 			desc: "Has a 30% chance to burn the target.",
 			shortDesc: "30% chance to burn the target.",
@@ -5176,8 +5176,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	scorchingsands: {
 		name: "Scorching Sands",
-		desc: "Has a 30% chance to burn the target. The target thaws out if it is frozen.",
-		shortDesc: "30% chance to burn the target. Thaws target.",
+		desc: "Has a 30% chance to burn the target.",
+		shortDesc: "30% chance to burn the target.",
 	},
 	scratch: {
 		name: "Scratch",
@@ -6230,8 +6230,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	steameruption: {
 		name: "Steam Eruption",
-		desc: "Has a 30% chance to burn the target. The target thaws out if it is frozen.",
-		shortDesc: "30% chance to burn the target. Thaws target.",
+		desc: "Has a 30% chance to burn the target.",
+		shortDesc: "30% chance to burn the target.",
 	},
 	steamroller: {
 		name: "Steamroller",
@@ -6921,7 +6921,7 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 20% chance to either burn, freeze, or paralyze the target.",
 		shortDesc: "20% chance to paralyze or burn or freeze target.",
 		gen2: {
-			desc: "This move selects burn, freeze, or paralysis at random, and has a 20% chance to inflict the target with that status. If the target is frozen and burn was selected, it thaws out.",
+			desc: "This move selects burn, freeze, or paralysis at random, and has a 20% chance to inflict the target with that status.",
 		},
 		gen1: {
 			desc: "No additional effect.",

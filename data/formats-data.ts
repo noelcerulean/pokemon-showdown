@@ -283,14 +283,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "LC",
 	},
 	sandshrewalola: {
-		tier: "LC",
+		tier: "NUBL",
 	},
 	sandslash: {
 		randomBattleMoves: ["earthquake", "knockoff", "rapidspin", "stealthrock", "swordsdance", "toxic", "spikes", "stoneedge"],
 		randomBattleLevel: 86,
 		randomDoubleBattleMoves: ["drillrun", "knockoff", "protect", "stealthrock", "stoneedge", "swordsdance"],
 		randomDoubleBattleLevel: 88,
-		tier: "NUBL",
+		tier: "PU",
 		doublesTier: "(DUU)",
 	},
 	sandslashalola: {
@@ -1139,7 +1139,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 80,
 		randomDoubleBattleMoves: ["brickbreak", "bugbite", "dualwingbeat", "uturn"],
 		randomDoubleBattleLevel: 84,
-		tier: "NUBL",
+		tier: "PUBL",
 		doublesTier: "NFE",
 	},
 	scizor: {
