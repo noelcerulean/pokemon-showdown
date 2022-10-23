@@ -15302,6 +15302,32 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {evasion: 1}},
 		contestType: "Cute",
 	},
+	sandinversion: {
+		num: -536,
+		accuracy: 100,
+		basePower: 120,
+		category: "Special",
+		name: "Sand Inversion",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onHit(target) {
+			let success = false;
+			let i: BoostID;
+			for (i in target.boosts) {
+				if (target.boosts[i] === 0) continue;
+				target.boosts[i] = -target.boosts[i];
+				success = true;
+			}
+			if (success === true) {
+				this.add('-invertboost', target, '[from] move: Sand Inversion');
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Ground",
+		contestType: "Beautiful",
+	},
 	sandstorm: {
 		num: 201,
 		accuracy: true,

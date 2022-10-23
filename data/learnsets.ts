@@ -69581,6 +69581,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			rockslide: ["7M"],
 			rocktomb: ["7M"],
 			round: ["7M"],
+			sandinversion: ["7L70"],
 			safeguard: ["7M"],
 			sandattack: ["7L3"],
 			sandtomb: ["7L7"],
