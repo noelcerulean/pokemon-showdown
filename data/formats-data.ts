@@ -4416,6 +4416,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DUU",
 	},
+	quiksilk: {
+		tier: "LC",
+	},
 	samsarula: {
 		isNonstandard: "Past",
 		tier: "Illegal",

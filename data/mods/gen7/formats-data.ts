@@ -3876,6 +3876,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DOU",
 	},
+	quiksilk: {
+		tier: "LC",
+	},
 	samsarula: {
 		randomBattleMoves: ["earthpower", "gigadrain", "lightscreen", "prehistoricpulse", "psychic", "stealthrock", "toxic"],
 		randomDoubleBattleMoves: ["earthpower", "gigadrain", "lightscreen", "prehistoricpulse", "protect", "psychic", "stealthrock", "toxic"],
