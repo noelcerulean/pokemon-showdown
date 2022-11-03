@@ -924,6 +924,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	cubone: {
 		tier: "LC",
 	},
+	cubonealola: {
+		tier: "LC",
+	},
 	marowak: {
 		randomBattleMoves: ["doubleedge", "earthquake", "knockoff", "stealthrock", "stoneedge", "swordsdance"],
 		randomBattleLevel: 86,

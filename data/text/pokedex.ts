@@ -524,6 +524,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	cubone: {
 		name: "Cubone",
 	},
+	cubonealola: {
+		name: "Cubone-Alola",
+	},
 	marowak: {
 		name: "Marowak",
 	},

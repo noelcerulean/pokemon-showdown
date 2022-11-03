@@ -707,7 +707,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['[Gen 7] Ubers'],
-		banlist: ['Huge Power', 'Mystic Power', 'Pure Power', 'Shadow Tag', 'Blissey', 'Chansey', 'Deoxys-Attack', 'Sableye-Mega', 'Toxapex', 'Uber > 1', 'Uber ++ Power Construct'],
+		banlist: ['Huge Power', 'Mystic Power', 'Pure Power', 'Shadow Tag', 'Blissey', 'Chansey', 'Deoxys-Attack', 'Sableye-Mega', 'Toxapex', 'Uber > 1', 'Mawilite', 'Uber ++ Power Construct'],
 		onValidateTeam(team) {
 			const gods = new Set<string>();
 			for (const set of team) {

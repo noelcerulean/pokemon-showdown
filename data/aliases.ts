@@ -416,6 +416,13 @@ export const Aliases: {[alias: string]: string} = {
 	raichumalachiteberserker: "Raichu-Malachite",
 	altariaeventide: "Altaria",
 	decidueyeapollotoga: "Decidueye-Apollo",
+	misdreavusbanshee: "Misdreavus",
+	ninetalesjibanyan: "Ninetales",
+	infernapewitch: "Infernape",
+	gengarclef: "Gengar",
+	clefablegeng: "Clefable",
+	hydreigonjack: "Hydreigon",
+
 
 	alcremierubycream: "Alcremie",
 	alcremiematchacream: "Alcremie",
