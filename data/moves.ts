@@ -5632,7 +5632,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	flutterstrike: {
 		num: -500,
 		accuracy: 100,
-		basePower: 80,
+		basePower: 90,
 		category: "Physical",
 		name: "Flutter Strike",
 		pp: 15,
