@@ -39,6 +39,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 0.1,
 		num: 0,
 	},
+	acidabsorb: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Poison') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Acid Absorb');
+				}
+				return null;
+			}
+		},
+		isBreakable: true,
+		name: "Acid Absorb",
+		rating: 3.5,
+		num: -548,
+	},
 	adaptability: {
 		onModifyMove(move) {
 			move.stab = 2;

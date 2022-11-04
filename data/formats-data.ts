@@ -977,7 +977,18 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	lickitung: {
 		tier: "LC",
 	},
+	lickitungfnf: {
+		tier: "LC",
+	},
 	lickilicky: {
+		randomBattleMoves: ["bodyslam", "earthquake", "explosion", "healbell", "knockoff", "protect", "swordsdance", "wish"],
+		randomBattleLevel: 86,
+		randomDoubleBattleMoves: ["bodyslam", "explosion", "helpinghand", "icywind", "knockoff", "protect"],
+		randomDoubleBattleLevel: 88,
+		tier: "(PU)",
+		doublesTier: "(DUU)",
+	},
+	lickilickyfnf: {
 		randomBattleMoves: ["bodyslam", "earthquake", "explosion", "healbell", "knockoff", "protect", "swordsdance", "wish"],
 		randomBattleLevel: 86,
 		randomDoubleBattleMoves: ["bodyslam", "explosion", "helpinghand", "icywind", "knockoff", "protect"],

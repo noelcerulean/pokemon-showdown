@@ -2240,6 +2240,11 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		start: "  [POKEMON]'s Ability was suppressed!",
 	},
+	gastroslam: {
+		name: "Gastro Slam",
+		desc: "The target's Ability is rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, or Zen Mode, this effect does not happen, and receiving the effect through Baton Pass ends the effect immediately.",
+		shortDesc: "Nullifies the target's Ability.",
+	},
 	geargrind: {
 		name: "Gear Grind",
 		desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",

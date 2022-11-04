@@ -545,6 +545,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	lickitung: {
 		name: "Lickitung",
 	},
+	lickitungfnf: {
+		name: "Lickitung-FnF",
+	},
 	koffing: {
 		name: "Koffing",
 	},
@@ -1948,6 +1951,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	lickilicky: {
 		name: "Lickilicky",
+	},
+	lickilickyfnf: {
+		name: "Lickilicky-FnF",
 	},
 	rhyperior: {
 		name: "Rhyperior",
