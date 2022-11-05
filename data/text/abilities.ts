@@ -70,6 +70,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		start: "  [POKEMON]'s antlers are radiating an alluring sensation!",
 	},
+	arcana: {
+		name: "Arcana",
+		shortDesc: "On switch-in, this Pokemon summons Mystery Room.",
+	},
 	arenatrap: {
 		name: "Arena Trap",
 		desc: "Prevents adjacent opposing Pokemon from choosing to switch out unless they are immune to trapping or are airborne.",

@@ -223,6 +223,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 5,
 		num: -538,
 	},
+	arcana: {
+		onStart(pokemon) {
+			this.field.addPseudoWeather('mysteryroom');
+		},
+		name: "Arcana",
+		rating: 3.5,
+		num: -549,
+	},
 	arenatrap: {
 		onFoeTrapPokemon(pokemon) {
 			if (!pokemon.isAdjacent(this.effectState.target)) return;

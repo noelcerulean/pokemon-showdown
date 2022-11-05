@@ -6230,7 +6230,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Gastro Slam",
 		pp: 10,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {contact: 1, protect: 1, mirror: 1},
 		onHit(target) {
 			if (target.getAbility().isPermanent) return;
 			target.addVolatile('gastroacid');
@@ -12069,6 +12069,44 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {basePower: 185},
 		maxMove: {basePower: 95},
 		contestType: "Tough",
+	},
+	mysteryroom: {
+		num: -538,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Mystery Room",
+		pp: 10,
+		priority: 0,
+		flags: {mirror: 1},
+		pseudoWeather: 'mysteryroom',
+		condition: {
+			duration: 5,
+			durationCallback(source, effect) {
+				if (source?.hasAbility('persistent')) {
+					this.add('-activate', source, 'ability: Persistent', effect);
+					return 7;
+				}
+				return 5;
+			},
+			onFieldStart(field, source) {
+				this.add('-fieldstart', 'move: Mystery Room', '[of] ' + source);
+			},
+			onFieldRestart(target, source) {
+				this.field.removePseudoWeather('mysteryroom');
+			},
+			// Ability suppression implemented in sim/pokemon.js
+			onFieldResidualOrder: 27,
+			onFieldResidualSubOrder: 6,
+			onFieldEnd() {
+				this.add('-fieldend', 'move: Mystery Room');
+			},
+		},
+		secondary: null,
+		target: "all",
+		type: "Psychic",
+		zMove: {boost: {spd: 1}},
+		contestType: "Clever",
 	},
 	mysticalfire: {
 		num: 595,

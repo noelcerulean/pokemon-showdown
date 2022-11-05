@@ -4059,6 +4059,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "This move's type depends on the user's held Memory.",
 		shortDesc: "Type varies based on the held Memory.",
 	},
+	mysteryroom: {
+		name: "Mystery Room",
+		desc: "For 5 turns, all active Pokemon have their abilities suppressed. Stat stage changes are unaffected. If this move is used during the effect, the effect ends. Unaffected abilities are As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Mimictree, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, or Zen Mode.",
+		shortDesc: "For 5 turns, abilities are suppressed.",
+	},
 	mysticalfire: {
 		name: "Mystical Fire",
 		desc: "Has a 100% chance to lower the target's Special Attack by 1 stage.",

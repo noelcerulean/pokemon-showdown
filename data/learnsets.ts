@@ -63664,6 +63664,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			knockoff: ["7T", "6T", "5T"],
 			magiccoat: ["7T", "6T", "5T"],
 			meanlook: ["8L28", "7L51", "6L51", "5L51"],
+			mysteryroom: ["7T"],
 			nastyplot: ["8M"],
 			nightshade: ["8L1", "7L13", "6L13", "5L13"],
 			ominouswind: ["7L25", "6L25", "5L25"],

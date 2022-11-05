@@ -778,7 +778,7 @@ export class Pokemon {
 
 		return !!(
 			(this.battle.gen >= 5 && !this.isActive) ||
-			((this.volatiles['gastroacid'] || (neutralizinggas && this.ability !== ('neutralizinggas' as ID))) &&
+			((this.volatiles['gastroacid'] || (neutralizinggas && this.ability !== ('neutralizinggas' as ID)) && !this.getAbility().isPermanent || this.battle.field.pseudoWeather['mysteryroom']) &&
 			!this.getAbility().isPermanent
 			)
 		);

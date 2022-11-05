@@ -349,6 +349,10 @@ export const DefaultText: {[k: string]: DefaultText} = {
 		start: "  Electricity's power was weakened!",
 		end: "  The effects of Mud Sport have faded.",
 	},
+	mysteryroom: {
+		start: "  It created a strange room in which abilities became nullified!",
+		end: "  The effects of abilities returned!",
+	},
 	trickroom: {
 		start: "  [POKEMON] twisted the dimensions!",
 		end: "  The twisted dimensions returned to normal!",
