@@ -645,7 +645,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	fragrantherb: {
 		name: "Fragrant Herb",
-		desc: "Allows Meganium to ignore other Pokemon's stat stages when taking or doing damage.",
+		desc: "Allows Meganium to ignore other Pokemon's stat stages when taking/doing damage.",
 	},
 	friendball: {
 		name: "Friend Ball",
