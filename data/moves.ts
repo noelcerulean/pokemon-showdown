@@ -527,6 +527,28 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fighting",
 		contestType: "Tough",
 	},
+	aromabomb: {
+		num: -540,
+		accuracy: 100,
+		basePower: 100,
+		category: "Special",
+		name: "Aroma Bomb",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		onHit(target) {
+			if (target.getAbility().isPermanent) return;
+			target.addVolatile('gastroacid');
+		},
+		onAfterSubDamage(damage, target) {
+			if (target.getAbility().isPermanent) return;
+			target.addVolatile('gastroacid');
+		},
+		secondary: null,
+		target: "normal",
+		type: "Grass",
+		contestType: "Beautiful",
+	},
 	aromatherapy: {
 		num: 312,
 		accuracy: true,
@@ -1150,7 +1172,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	belch: {
 		num: 562,
-		accuracy: 90,
+		accuracy: 100,
 		basePower: 120,
 		category: "Special",
 		name: "Belch",
@@ -2614,12 +2636,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1, mirror: 1},
 		onHit(target) {
 			if (target.getAbility().isPermanent) return;
-			if (target.newlySwitched || this.queue.willMove(target)) return;
 			target.addVolatile('gastroacid');
 		},
 		onAfterSubDamage(damage, target) {
 			if (target.getAbility().isPermanent) return;
-			if (target.newlySwitched || this.queue.willMove(target)) return;
 			target.addVolatile('gastroacid');
 		},
 		secondary: null,
@@ -15616,7 +15636,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	seasonalspirit: {
 		num: -523,
 		accuracy: 100,
-		basePower: 100,
+		basePower: 150,
 		category: "Physical",
 		name: "Seasonal Spirit",
 		pp: 10,
@@ -18629,6 +18649,27 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Grass",
 		contestType: "Cool",
 	},
+	soulsiphon: {
+		num: -541,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "Soul Siphon",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1, mirror: 1, heal: 1},
+		onHit(target, source) {
+			if (target.boosts.spa === -6) return false;
+			const spa = target.getStat('spa', false, true);
+			const success = this.boost({spa: -1}, target, source, null, false, true);
+			return !!(this.heal(spa, source, target) || success);
+		},
+		secondary: null,
+		target: "normal",
+		type: "Ghost",
+		zMove: {boost: {spd: 1}},
+		contestType: "Clever",
+	},
 	sunshinedance: {
 		num: -505,
 		accuracy: 100,
@@ -18726,6 +18767,24 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "allAdjacent",
 		type: "Water",
 		contestType: "Tough",
+	},
+	sparklingwater: {
+		num: -539,
+		accuracy: true,
+		basePower: 85,
+		category: "Special",
+		name: "Sparkling Water",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onHit(target) {
+			target.clearBoosts();
+			this.add('-clearboost', target);
+		},
+		secondary: null,
+		target: "allAdjacent",
+		type: "Water",
+		contestType: "Beautiful",
 	},
 	sparklyswirl: {
 		num: 740,

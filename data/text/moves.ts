@@ -174,6 +174,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits.",
 		},
 	},
+	aromabomb: {
+		name: "Aroma Bomb",
+		desc: "The target's Ability is rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, or Zen Mode, this effect does not happen, and receiving the effect through Baton Pass ends the effect immediately.",
+		shortDesc: "Nullifies the target's Ability.",
+	},
 	aromatherapy: {
 		name: "Aromatherapy",
 		desc: "Every Pokemon in the user's party is cured of its non-volatile status condition. Active Pokemon with the Sap Sipper Ability are not cured, unless they are the user.",
@@ -978,11 +983,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	coreenforcer: {
 		name: "Core Enforcer",
-		desc: "If the user moves after the target, the target's Ability is rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, or Zen Mode, this effect does not happen, and receiving the effect through Baton Pass ends the effect immediately.",
-		shortDesc: "Nullifies the foe(s) Ability if the foe(s) move first.",
-		gen7: {
-			desc: "If the user moves after the target, the target's Ability is rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is Battle Bond, Comatose, Disguise, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, or Zen Mode, this effect does not happen, and receiving the effect through Baton Pass ends the effect immediately.",
-		},
+		desc: "The target's Ability is rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, or Zen Mode, this effect does not happen, and receiving the effect through Baton Pass ends the effect immediately.",
+		shortDesc: "Nullifies the target's Ability.",
 	},
 	corkscrewcrash: {
 		name: "Corkscrew Crash",
@@ -6057,6 +6059,11 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		prepare: "#solarbeam",
 	},
+	soulsiphon: {
+		name: "Soul Siphon",
+		desc: "Lowers the target's Sp. Attack by 1 stage. The user restores its HP equal to the target's Sp. Attack stat calculated with its stat stage before this move was used. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. Fails if the target's Sp. Attack stat stage is -6.",
+		shortDesc: "User heals HP=target's SpA stat. Lowers SpA by 1.",
+	},
 	sunshinedance: {
 		name: "Sunshine Dance",
 		shortDesc: "No additional effect.",
@@ -6087,6 +6094,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Sparkling Aria",
 		desc: "If the user has not fainted, the target is cured of its burn.",
 		shortDesc: "The target is cured of its burn.",
+	},
+	sparklingwater: {
+		name: "Sparkling Water",
+		shortDesc: "Resets all of the target's stat stages to 0.",
 	},
 	sparklyswirl: {
 		name: "Sparkly Swirl",

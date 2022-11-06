@@ -471,6 +471,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 145,
 	},
+	bladeproof: {
+		onTryHit(pokemon, target, move) {
+			if (move.flags['blade']) {
+				this.add('-immune', pokemon, '[from] ability: Bladeproof');
+				return null;
+			}
+		},
+		isBreakable: true,
+		name: "Bladeproof",
+		rating: 3,
+		num: -550,
+	},
 	blaze: {
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
@@ -4974,6 +4986,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onSwitchIn(pokemon) {
 			this.effectState.switchingIn = true;
 			this.field.clearTerrain();
+			let activated = false;
+			for (const sideCondition of ['reflect', 'lightscreen', 'auroraveil']) {
+				for (const side of [pokemon.side, ...pokemon.side.foeSidesWithConditions()]) {
+					if (side.getSideCondition(sideCondition)) {
+						if (!activated) {
+							this.add('-activate', pokemon, 'ability: Territorial');
+							activated = true;
+						}
+						side.removeSideCondition(sideCondition);
+					}
+				}
+			}
 		},
 		name: "Territorial",
 		rating: 2,

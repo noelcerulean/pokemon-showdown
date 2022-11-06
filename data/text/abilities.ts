@@ -159,6 +159,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Big Pecks",
 		shortDesc: "This pokemon ignores boosts to the target's Defense stat when attacking.",
 	},
+	bladeproof: {
+		name: "Bladeproof",
+		desc: "This Pokemon is immune to blade moves.",
+		shortDesc: "Makes user immune to blade moves (Leaf Blade, Sacred Sword, etc).",
+	},
 	blaze: {
 		name: "Blaze",
 		desc: "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its attacking stat is multiplied by 1.5 while using a Fire-type attack.",
@@ -1867,7 +1872,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Territorial",
 		shortDesc: "On switch in, this Pokemon removes any active terrain.",
 
-		activate: "The terrain returned back to normal!",
+		activate: "The territory was reclaimed!",
 	},
 	thickfat: {
 		name: "Thick Fat",

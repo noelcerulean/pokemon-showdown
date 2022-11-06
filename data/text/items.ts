@@ -643,6 +643,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Fossilized Fish",
 		desc: "Can revive into Dracovish with Fossilized Drake or Arctovish with Fossilized Dino.",
 	},
+	fragrantherb: {
+		name: "Fragrant Herb",
+		desc: "Allows Meganium to ignore other Pokemon's stat stages when taking or doing damage.",
+	},
 	friendball: {
 		name: "Friend Ball",
 		desc: "A Poke Ball that makes caught Pokemon more friendly.",

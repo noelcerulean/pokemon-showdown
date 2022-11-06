@@ -2188,6 +2188,39 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 1106,
 		gen: 8,
 	},
+	fragrantherb: {
+		name: "Fragrant Herb",
+		fling: {
+			basePower: 40,
+		},
+		spritenum: 407,
+		onAnyModifyBoost(boosts, pokemon) {
+			if (pokemon.baseSpecies.name === 'Meganium') {
+				const unawareUser = this.effectState.target;
+				if (unawareUser === pokemon) return;
+				if (unawareUser === this.activePokemon && pokemon === this.activeTarget) {
+					boosts['def'] = 0;
+					boosts['spd'] = 0;
+					boosts['evasion'] = 0;
+				}
+				if (pokemon === this.activePokemon && unawareUser === this.activeTarget) {
+					boosts['atk'] = 0;
+					boosts['def'] = 0;
+					boosts['spa'] = 0;
+					boosts['accuracy'] = 0;
+				}
+			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 154) || pokemon.baseSpecies.num === 154) {
+				return false;
+			}
+			return true;
+		},
+		itemUser: ["Meganium"],
+		num: -525,
+		gen: 7,
+	},
 	friendball: {
 		name: "Friend Ball",
 		spritenum: 153,
