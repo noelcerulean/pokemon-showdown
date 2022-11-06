@@ -2195,15 +2195,14 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		spritenum: 407,
 		onAnyModifyBoost(boosts, pokemon) {
-			if (pokemon.baseSpecies.name !== 'Meganium') return;
 			const fragrantherbUser = this.effectState.target;
 			if (fragrantherbUser === pokemon) return;
-			if (fragrantherbUser === this.activePokemon && pokemon === this.activeTarget) {
+			if (fragrantherbUser === this.activePokemon && this.activePokemon?.baseSpecies.name === 'Meganium' && pokemon === this.activeTarget) {
 				boosts['def'] = 0;
 				boosts['spd'] = 0;
 				boosts['evasion'] = 0;
 			}
-			if (pokemon === this.activePokemon && fragrantherbUser === this.activeTarget) {
+			if (pokemon === this.activePokemon && fragrantherbUser === this.activeTarget && this.activeTarget?.baseSpecies.name === 'Meganium') {
 				boosts['atk'] = 0;
 				boosts['def'] = 0;
 				boosts['spa'] = 0;
