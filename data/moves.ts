@@ -16822,7 +16822,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	shadowreset: {
 		num: -828,
 		accuracy: 100,
-		basePower: 65,
+		basePower: 50,
 		category: "Special",
 		name: "Shadow Reset",
 		pp: 15,
@@ -17331,7 +17331,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	shadowtrance: {
 		num: -854,
-		accuracy: 95,
+		accuracy: 80,
 		basePower: 0,
 		category: "Status",
 		name: "Shadow Trance",
