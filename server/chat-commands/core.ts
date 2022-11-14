@@ -215,6 +215,7 @@ const avatarTable = new Set([
 	'lucas-gen4pt', 'lucas',
 	'lucian',
 	'lucy-gen3',
+	'lunch',
 	'lyra-pokeathlon', 'lyra',
 	'madame-gen4dp', 'madame-gen4', 'madame',
 	'maid-gen4', 'maid',
