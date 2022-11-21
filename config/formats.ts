@@ -65,7 +65,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['[Gen 7] UU'],
-		banlist: ['UU', 'RUBL', 'Mimikyu', 'Drizzle', 'Castform + Damp Rock', 'Aurora Veil'],
+		banlist: ['UU', 'RUBL', 'Mimikyu', 'Castform + Damp Rock'],
 		unbanlist: ['Drought'],
 	},
 	{
