@@ -54,7 +54,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['[Gen 7] OU'],
-		banlist: ['OU', 'UUBL', 'Mewnium Z'],
+		banlist: ['OU', 'UUBL', 'Mewnium Z', 'Drizzle', 'Aurora Veil'],
 	},
 	{
 		name: "[Gen 7] RU",

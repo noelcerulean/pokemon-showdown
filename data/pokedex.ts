@@ -8643,7 +8643,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 442,
 		name: "Spiritomb",
 		types: ["Ghost", "Dark"],
-		baseStats: {hp: 60, atk: 118, def: 108, spa: 118, spd: 108, spe: 35},
+		baseStats: {hp: 50, atk: 118, def: 108, spa: 118, spd: 108, spe: 35},
 		abilities: {0: "Pressure", 1: "Dark Aura", H: "Infiltrator"},
 		heightm: 1,
 		weightkg: 108,
