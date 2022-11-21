@@ -2152,7 +2152,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	wailord: {
 		randomBattleMoves: ["bubbleprison", "icebeam", "protect", "toxic"],
 		randomDoubleBattleMoves: ["bubbleprison", "icebeam", "protect", "toxic"],
-		tier: "UUBL",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	numel: {

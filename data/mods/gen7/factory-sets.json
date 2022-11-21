@@ -1217,19 +1217,6 @@
 				"moves": [["Quiver Dance"], ["Hurricane"], ["Bug Buzz"], ["Heat Wave"]]
 			}]
 		},
-		"beedrill": {
-			"flags": {
-				"megaOnly": 1
-			},
-			"sets": [{
-				"species": "Beedrill",
-				"item": ["Beedrillite"],
-				"ability": ["Swarm"],
-				"evs": {"atk": 252, "spd": 4, "spe": 252},
-				"nature": "Jolly",
-				"moves": [["U-turn"], ["Poison Jab"], ["Drill Run"], ["Megahorn", "Knock Off", "Pursuit", "Toxic Spikes"]]
-			}]
-		},
 		"blacephalon": {
 			"flags": {},
 			"sets": [{
@@ -3405,17 +3392,6 @@
 				"moves": [["Bug Buzz"], ["Flamethrower"], ["Quiver Dance"], ["Roost"]]
 			}]
 		},
-		"wailord": {
-			"flags": {},
-			"sets": [{
-				"species": "Wailord",
-				"item": ["Leftovers"],
-				"ability": ["Inflate"],
-				"evs": {"def": 252, "spa": 4, "spd": 252},
-				"nature": "Bold",
-				"moves": [["Bubble Prison"], ["Toxic"], ["Protect"], ["Ice Beam"]]
-			}]
-		},
 		"weavile": {
 			"flags": {},
 			"sets": [{
@@ -3916,6 +3892,13 @@
 		"beedrill": {
 			"flags": {},
 			"sets": [{
+				"species": "Beedrill",
+				"item": ["Beedrillite"],
+				"ability": ["Swarm"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["U-turn"], ["Poison Jab"], ["Drill Run"], ["Megahorn", "Knock Off", "Pursuit", "Toxic Spikes"]]
+			}, {
 				"species": "Beedrill",
 				"item": ["Life Orb"],
 				"ability": ["Merciless"],
@@ -7368,6 +7351,17 @@
 				"evs": {"hp": 248, "spa": 44, "spe": 216},
 				"nature": "Modest",
 				"moves": [["Steam Eruption"], ["Flamethrower"], ["Toxic"], ["Substitute", "Protect"]]
+			}]
+		},
+		"wailord": {
+			"flags": {},
+			"sets": [{
+				"species": "Wailord",
+				"item": ["Leftovers"],
+				"ability": ["Inflate"],
+				"evs": {"def": 252, "spa": 4, "spd": 252},
+				"nature": "Bold",
+				"moves": [["Bubble Prison"], ["Toxic"], ["Protect"], ["Ice Beam"]]
 			}]
 		},
 		"walrein": {
