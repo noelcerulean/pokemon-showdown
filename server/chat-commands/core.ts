@@ -386,7 +386,7 @@ const avatarTableBeliot419 = new Set([
 	'kukui-stand', 'kukui', 'lana', 'lass-gen7', 'lillie-z', 'lillie', 'lusamine-nihilego', 'lusamine',
 	'mallow', 'mina', 'molayne', 'nanu', 'officeworker', 'olivia', 'plumeria', 'pokemonbreeder-gen7',
 	'pokemonbreederf-gen7', 'preschoolers', 'red-gen7', 'risingstar', 'risingstarf', 'ryuki',
-	'samsonoak', 'selene', 'sightseer', 'sina', 'sophocles', 'teacher-gen7', 'theroyal', 'wally',
+	'samsonoak', 'selene', 'sightseerf', 'sina', 'sophocles', 'teacher-gen7', 'theroyal', 'wally',
 	'wicke', 'youngathlete', 'youngathletef', 'youngster-gen7',
 ]);
 
@@ -413,7 +413,8 @@ const avatarTableBrumirage = new Set([
 
 const avatarTableZacWeavile = new Set([
 	'alain', 'charm', 'coin', 'elio-usum', 'emma', 'essentia', 'gloria-dojo', 'marnie-league', 'morgan',
-	'shauna', 'skullgrunt', 'skullgruntf',
+	'shauna', 'skullgrunt', 'skullgruntf', 'courtney', 'dulse', 'magmagrunt', 'magmagruntf', 'phyco', 'selene-usum',
+	'soliera', 'zossie',
 ]);
 
 const avatarTableIceJkai = new Set([
@@ -458,6 +459,14 @@ const avatarTableKyleDove = new Set([
 	'ginter', 'giovanni-lgpe', 'grant', 'ingo-hisui', 'iscan', 'kamado-armor', 'kamado', 'kurt', 'lance-lgpe', 'lanette',
 	'laventon', 'lucas-contest', 'lucy', 'lysandre', 'melli', 'misty-lgpe', 'noland', 'palina', 'plumeria-league', 'rowan',
 	'roxanne-gen6', 'rye', 'sabrina-lgpe', 'scott', 'securitycorps', 'securitycorpsf', 'serena', 'sycamore', 'taohua', 'vessa',
+	'acetrainer-gen7', 'acetrainerf-gen7', 'anthe', 'anvin', 'beauty-masters', 'bellhop', 'bellis', 'blackbelt-gen7',
+	'burglar-lgpe', 'channeler-lgpe', 'choy', 'collector-gen7', 'collector-masters', 'cook-gen7', 'cynthia-anime', 'dagero',
+	'dancer-gen7', 'firefighter', 'fisherman-gen7', 'gentleman-gen7', 'gentleman-lgpe', 'golfer', 'grace', 'hayley',
+	'janitor-gen7', 'jasmine-contest', 'johanna', 'johanna-contest', 'madame-gen7', 'mom-alola', 'mom-hoenn', 'mom-johto',
+	'mom-unova2', 'oak', 'officeworkerf', 'piers-league', 'pokemoncenterlady', 'policeman-gen7', 'preschooler-gen7',
+	'preschoolerf-gen7', 'psychic-lgpe', 'punkgirl-gen7', 'punkgirl-masters', 'punkguy-gen7', 'rosa-pokestar', 'scientist-gen7',
+	'sightseer', 'streetthug-masters', 'surfer', 'swimmer-gen7', 'swimmer-masters', 'swimmerf-gen7', 'swimmerf2-gen7', 'trialguide',
+	'trialguidef', 'tuli', 'ultraforestkartenvoy', 'veteran-gen7', 'veteranf-gen7', 'worker-gen7', 'worker-lgpe', 'youngster-masters', 
 ]);
 
 const avatarTableHyooppa = new Set([
