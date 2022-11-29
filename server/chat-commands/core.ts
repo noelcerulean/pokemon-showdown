@@ -466,7 +466,7 @@ const avatarTableKyleDove = new Set([
 	'mom-unova2', 'oak', 'officeworkerf', 'piers-league', 'pokemoncenterlady', 'policeman-gen7', 'preschooler-gen7',
 	'preschoolerf-gen7', 'psychic-lgpe', 'punkgirl-gen7', 'punkgirl-masters', 'punkguy-gen7', 'rosa-pokestar', 'scientist-gen7',
 	'sightseer', 'streetthug-masters', 'surfer', 'swimmer-gen7', 'swimmer-masters', 'swimmerf-gen7', 'swimmerf2-gen7', 'trialguide',
-	'trialguidef', 'tuli', 'ultraforestkartenvoy', 'veteran-gen7', 'veteranf-gen7', 'worker-gen7', 'worker-lgpe', 'youngster-masters', 
+	'trialguidef', 'tuli', 'ultraforestkartenvoy', 'veteran-gen7', 'veteranf-gen7', 'worker-gen7', 'worker-lgpe', 'youngster-masters',
 ]);
 
 const avatarTableHyooppa = new Set([
