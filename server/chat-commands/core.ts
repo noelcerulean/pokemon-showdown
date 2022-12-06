@@ -95,6 +95,7 @@ const avatarTable = new Set([
 	'candra-event',
 	'candra-and-aarush',
 	'candra-and-aarush-event',
+	'chandler',
 	'channeler-gen1', 'channeler-gen1rb', 'channeler-gen3',
 	'cheren-gen5bw2', 'cheren',
 	'cheryl',
