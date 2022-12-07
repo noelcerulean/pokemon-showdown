@@ -121,7 +121,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['Obtainable', 'Sleep Clause Mod', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod'],
-		banlist: ['Phione-Primal', 'Blaziken + Speed Boost', 'Crustle-Delta-Cake + Simple', 'Greninja + Protean', 'Battle Bond', 'Landorus + Sheer Force', 'Power Construct', 'Baton Pass', 'Kommonium Z'],
+		banlist: ['King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass'],
 	},
 
 	// US/UM Singles
