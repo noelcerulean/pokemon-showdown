@@ -225,6 +225,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	fnflickiumz: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	furretite: {
 		inherit: true,
 		isNonstandard: null,

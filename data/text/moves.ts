@@ -3830,6 +3830,11 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		move: "Waggling a finger let it use [MOVE]!",
 	},
+	miasma: {
+		name: "Miasma",
+		desc: "For 5 turns, the weather becomes Miasma. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are an Poison type or have the Chemical Bath, Magic Guard, or Overcoat Abilities. Lasts for 8 turns if the user is holding Mordant Rock. Fails if the current weather is Miasma.",
+		shortDesc: "For 5 turns, miasma is set.",
+	},
 	milkdrink: {
 		name: "Milk Drink",
 		desc: "The user restores 1/2 of its maximum HP, rounded half up.",
