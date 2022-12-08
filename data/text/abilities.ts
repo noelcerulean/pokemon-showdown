@@ -192,6 +192,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "If this Pokemon eats a Berry, it restores 1/3 of its maximum HP, rounded down, in addition to the Berry's effect.",
 		shortDesc: "If this Pokemon eats a Berry, it restores 1/3 of its max HP after the Berry's effect.",
 	},
+	chemicalbath: {
+		name: "Chemical Bath",
+		desc: "This Pokemon has its non-volatile status condition cured at the end of each turn if Miasma is active. If this Pokemon is holding Utility Umbrella, its non-volatile status condition will not be cured.",
+		shortDesc: "This Pokemon has its status cured at the end of each turn if Miasma is active.",
+	},
 	chillingneigh: {
 		name: "Chilling Neigh",
 		desc: "This Pokemon's Attack is raised by 1 stage if it attacks and knocks out another Pokemon.",
@@ -1054,6 +1059,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			shortDesc: "This Pokemon's moves are changed to be Normal type.",
 		},
 	},
+	noxiousemission: {
+		name: "Noxious Emission",
+		shortDesc: "On switch-in, this Pokemon summons Miasma.",
+	},
 	oblivious: {
 		name: "Oblivious",
 		desc: "This Pokemon cannot be infatuated or taunted. Gaining this Ability while affected cures it. Immune to Intimidate.",
@@ -1069,9 +1078,9 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	overcoat: {
 		name: "Overcoat",
-		shortDesc: "This Pokemon is immune to powder moves and damage from Sandstorm or Hail.",
+		shortDesc: "This Pokemon is immune to powder moves and damage from weather.",
 		gen5: {
-			shortDesc: "This Pokemon is immune to damage from Sandstorm or Hail.",
+			shortDesc: "This Pokemon is immune to damage from weather.",
 		},
 	},
 	overgrow: {
@@ -1899,10 +1908,23 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Tough Claws",
 		shortDesc: "This Pokemon's contact moves have their power multiplied by 1.3.",
 	},
+	toxicate: {
+		name: "Toxicate",
+		desc: "This Pokemon's Normal-type moves become Poison-type moves and have their power multiplied by 1.2. This effect comes after other effects that change a move's type, but before Ion Deluge and Electrify's effects.",
+		shortDesc: "This Pokemon's Normal-type moves become Poison type and have 1.2x power.",
+		gen6: {
+			desc: "This Pokemon's Normal-type moves become Poison-type moves and have their power multiplied by 1.3. This effect comes after other effects that change a move's type, but before Ion Deluge and Electrify's effects.",
+			shortDesc: "This Pokemon's Normal-type moves become Poison type and have 1.3x power.",
+		},
+	},
 	toxicboost: {
 		name: "Toxic Boost",
 		desc: "While this Pokemon is poisoned, it takes no poison damage and the power of its physical attacks is multiplied by 1.5.",
 		shortDesc: "Immunity to poison/toxic damage. When poisoned, its physical attacks have 1.5x power.",
+	},
+	toxcceleration: {
+		name: "Toxcceleration",
+		shortDesc: "If Miasma is active, this Pokemon's Speed is doubled; Immunity to miasma.",
 	},
 	trace: {
 		name: "Trace",

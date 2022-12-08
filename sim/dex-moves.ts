@@ -311,6 +311,7 @@ export interface ActiveMove extends MutableMove {
 	spreadHit?: boolean;
 	stab?: number;
 	statusRoll?: string;
+	toxicateBoosted?: boolean;
 	totalDamage?: number | false;
 	willChangeForme?: boolean;
 	infiltrates?: boolean;

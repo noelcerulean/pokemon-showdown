@@ -2453,6 +2453,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	vanilluxe: {
 		name: "Vanilluxe",
 	},
+	vanilluxefnf: {
+		name: "Vanilluxe-FnF",
+	},
 	deerling: {
 		name: "Deerling",
 	},
@@ -2917,6 +2920,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	goodra: {
 		name: "Goodra",
+	},
+	goodramega: {
+		name: "Goodra-Mega",
 	},
 	klefki: {
 		name: "Klefki",

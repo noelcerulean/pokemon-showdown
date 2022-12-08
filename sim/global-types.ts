@@ -467,6 +467,7 @@ namespace RandomTeamsTypes {
 		megaStone?: number;
 		zMove?: number;
 		hail?: number;
+		miasma?: number;
 		rain?: number;
 		sand?: number;
 		sun?: number;

@@ -2119,6 +2119,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 7,
 		isNonstandard: "Past",
 	},
+	fnflickiumz: {
+		name: "FnFLickium Z",
+		spritenum: 767,
+		onTakeItem: false,
+		zMove: "Merciless Marinade",
+		zMoveFrom: "Gastro Slam",
+		itemUser: ["Lickilicky-FnF"],
+		num: -528,
+		gen: 7,
+		isNonstandard: "Past",
+	},
 	focusband: {
 		name: "Focus Band",
 		spritenum: 150,
@@ -2427,6 +2438,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 796,
 		gen: 7,
+	},
+	goodrite: {
+		name: "Goodrite",
+		spritenum: 766,
+		megaStone: "Goodra-Mega",
+		megaEvolves: "Goodra",
+		itemUser: ["Goodra"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -527,
+		gen: 6,
+		isNonstandard: "Past",
 	},
 	granbullarmor: {
 		name: "Granbull Armor",
@@ -4023,6 +4048,15 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 81,
 		gen: 1,
 	},
+	mordantrock: {
+		name: "Mordant Rock",
+		spritenum: 765,
+		fling: {
+			basePower: 60,
+		},
+		num: -526,
+		gen: 4,
+	},
 	muscleband: {
 		name: "Muscle Band",
 		spritenum: 297,
@@ -5287,7 +5321,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			basePower: 80,
 		},
 		onImmunity(type, pokemon) {
-			if (type === 'sandstorm' || type === 'hail' || type === 'powder') return false;
+			if (type === 'sandstorm' || type === 'hail' || type === 'miasma' || type === 'powder') return false;
 		},
 		onTryHit(pokemon, source, move) {
 			if (move.flags['powder'] && pokemon !== source && this.dex.getImmunity('powder', pokemon)) {

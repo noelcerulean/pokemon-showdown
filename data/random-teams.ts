@@ -662,7 +662,7 @@ export class RandomTeams {
 					}
 				} else if (
 					// Less obvious forms of STAB
-					(moveType === 'Normal' && (['Aerilate', 'Galvanize', 'Pixilate', 'Refrigerate'].some(abil => abilities.has(abil)))) ||
+					(moveType === 'Normal' && (['Aerilate', 'Galvanize', 'Pixilate', 'Toxicate', 'Refrigerate'].some(abil => abilities.has(abil)))) ||
 					(move.priority === 0 && (abilities.has('Libero') || abilities.has('Protean')) && !NoStab.includes(moveid)) ||
 					(moveType === 'Steel' && abilities.has('Steelworker'))
 				) {
@@ -2344,6 +2344,7 @@ export class RandomTeams {
 			drought: 'sunnyday',
 			snowwarning: 'hail',
 			sandstream: 'sandstorm',
+			noxiousemission: 'miasma',
 		};
 		const resistanceAbilities: {[k: string]: string[]} = {
 			waterabsorb: ['Water'],

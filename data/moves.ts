@@ -3520,7 +3520,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		condition: {
 			duration: 2,
 			onImmunity(type, pokemon) {
-				if (type === 'sandstorm' || type === 'hail') return false;
+				if (type === 'sandstorm' || type === 'hail' || type === 'miasma') return false;
 			},
 			onInvulnerability(target, source, move) {
 				if (['earthquake', 'magnitude'].includes(move.id)) {
@@ -3667,7 +3667,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		condition: {
 			duration: 2,
 			onImmunity(type, pokemon) {
-				if (type === 'sandstorm' || type === 'hail') return false;
+				if (type === 'sandstorm' || type === 'hail' || type === 'miasma') return false;
 			},
 			onInvulnerability(target, source, move) {
 				if (['surf', 'whirlpool'].includes(move.id)) {
@@ -4929,6 +4929,30 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Dark",
 		zMove: {boost: {spa: 1}},
 		contestType: "Cute",
+	},
+	fallout: {
+		num: -543,
+		accuracy: 70,
+		basePower: 110,
+		category: "Special",
+		name: "Poison",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onModifyMove(move, pokemon, target) {
+			switch (target?.effectiveWeather()) {
+			case 'miasma':
+				move.accuracy = true;
+				break;
+			}
+		},
+		secondary: {
+			chance: 30,
+			status: 'psn',
+		},
+		target: "allAdjacentFoes",
+		type: "Poison",
+		contestType: "Cool",
 	},
 	falsesurrender: {
 		num: 793,
@@ -11296,6 +11320,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Ghost",
 		contestType: "Cool",
 	},
+	mercilessmarinade: {
+		num: -529,
+		accuracy: true,
+		basePower: 180,
+		category: "Physical",
+		isNonstandard: "Past",
+		name: "Merciless Marinade",
+		pp: 1,
+		priority: 0,
+		flags: {},
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Poison') return 1;
+		},
+		isZ: "fnflickiumz",
+		secondary: null,
+		target: "normal",
+		type: "Poison",
+		contestType: "Clever",
+	},
 	metalburst: {
 		num: 368,
 		accuracy: 100,
@@ -11464,6 +11507,22 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "self",
 		type: "Normal",
 		contestType: "Cute",
+	},
+	miasma: {
+		num: -542,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Miasma",
+		pp: 10,
+		priority: 0,
+		flags: {},
+		weather: 'miasma',
+		secondary: null,
+		target: "all",
+		type: "Poison",
+		zMove: {boost: {spe: 1}},
+		contestType: "Beautiful",
 	},
 	milkdrink: {
 		num: 208,
@@ -11915,6 +11974,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			case 'raindance':
 			case 'primordialsea':
 			case 'sandstorm':
+			case 'miasma':
 			case 'hail':
 				factor = 0.25;
 				break;
@@ -11946,6 +12006,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			case 'raindance':
 			case 'primordialsea':
 			case 'sandstorm':
+			case 'miasma':
 			case 'hail':
 				factor = 0.25;
 				break;
@@ -18603,7 +18664,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			return null;
 		},
 		onBasePower(basePower, pokemon, target) {
-			if (['raindance', 'primordialsea', 'sandstorm', 'hail'].includes(pokemon.effectiveWeather())) {
+			if (['raindance', 'primordialsea', 'sandstorm', 'hail', 'miasma'].includes(pokemon.effectiveWeather())) {
 				this.debug('weakened by weather');
 				return this.chainModify(0.5);
 			}
@@ -18639,7 +18700,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			return null;
 		},
 		onBasePower(basePower, pokemon, target) {
-			if (['raindance', 'primordialsea', 'sandstorm', 'hail'].includes(pokemon.effectiveWeather())) {
+			if (['raindance', 'primordialsea', 'sandstorm', 'hail', 'miasma'].includes(pokemon.effectiveWeather())) {
 				this.debug('weakened by weather');
 				return this.chainModify(0.5);
 			}
@@ -20168,6 +20229,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			case 'primordialsea':
 			case 'sandstorm':
 			case 'hail':
+			case 'miasma':
 				factor = 0.25;
 				break;
 			}
@@ -20961,6 +21023,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		// No Guard-like effect for Poison-type users implemented in Scripts#tryMoveHit
 		status: 'tox',
+		onModifyMove(move) {
+			if (this.field.isWeather('miasma')) {
+				move.accuracy = true;
+				move.infiltrates = true;
+				move.flags.reflectable = 0;
+			}
+		},
 		secondary: null,
 		target: "normal",
 		type: "Poison",
@@ -21885,6 +21954,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			case 'sandstorm':
 				move.type = 'Rock';
 				break;
+			case 'miasma':
+				move.type = 'Poison';
+				break;
 			case 'hail':
 				move.type = 'Ice';
 				break;
@@ -21901,6 +21973,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 				move.basePower *= 2;
 				break;
 			case 'sandstorm':
+				move.basePower *= 2;
+				break;
+			case 'miasma':
 				move.basePower *= 2;
 				break;
 			case 'hail':

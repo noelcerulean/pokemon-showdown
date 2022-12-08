@@ -1785,6 +1785,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Lowers the target's Special Defense by 2 stages.",
 		shortDesc: "Lowers the target's Sp. Def by 2.",
 	},
+	fallout: {
+		name: "Fallout",
+		desc: "Has a 30% chance to poison the target. If the weather is Miasma, this move does not check accuracy.",
+		shortDesc: "30% chance to poison target. Can't miss in miasma.",
+	},
 	falsesurrender: {
 		name: "False Surrender",
 		shortDesc: "This move does not check accuracy.",
@@ -3753,6 +3758,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Menacing Moonraze Maelstrom",
 		desc: "This move and its effects ignore the Abilities of other Pokemon.",
 		shortDesc: "Ignores the Abilities of other Pokemon.",
+	},
+	mercilessmarinade: {
+		name: "Merciless Marinade",
+		desc: "Super Effective vs. Poison types.",
+		shortDesc: "2x vs. Poison.",
 	},
 	metalburst: {
 		name: "Metal Burst",

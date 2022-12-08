@@ -931,6 +931,7 @@ export const commands: Chat.ChatCommands = {
 			brn: "Burn",
 			frz: "Frozen",
 			hail: "Hail damage",
+			miasma: "Miasma damage",
 			par: "Paralysis",
 			powder: "Powder moves",
 			prankster: "Prankster",

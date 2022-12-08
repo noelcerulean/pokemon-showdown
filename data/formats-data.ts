@@ -4107,6 +4107,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PUBL",
 		doublesTier: "DUU",
 	},
+	vanilluxefnf: {
+		randomBattleMoves: ["blizzard", "explosion", "fallout", "flashcannon", "freezedry", "sludgewave"],
+		randomBattleLevel: 82,
+		randomDoubleBattleMoves: ["blizzard", "fallout", "freezedry", "iceshard", "protect", "sludgewave"],
+		randomDoubleBattleLevel: 82,
+		tier: "PUBL",
+		doublesTier: "DUU",
+	},
 	deerling: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -4923,6 +4931,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 85,
 		tier: "NUBL",
 		doublesTier: "(DUU)",
+	},
+	goodramega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	klefki: {
 		randomBattleMoves: ["magnetrise", "playrough", "spikes", "thunderwave", "toxic"],

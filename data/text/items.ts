@@ -643,6 +643,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Fossilized Fish",
 		desc: "Can revive into Dracovish with Fossilized Drake or Arctovish with Fossilized Dino.",
 	},
+	fnflickiumz: {
+		name: "FnFLickium Z",
+		desc: "If held by a Lickilicky-FnF with Gastro Slam, it can use Merciless Marinade.",
+	},
 	fragrantherb: {
 		name: "Fragrant Herb",
 		desc: "Allows Meganium to ignore other Pokemon's stat stages when taking/doing damage.",
@@ -713,6 +717,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	goldbottlecap: {
 		name: "Gold Bottle Cap",
 		desc: "Used for Hyper Training. All of a Pokemon's stats are calculated with an IV of 31.",
+	},
+	goodrite: {
+		name: "Goodrite",
+		desc: "If held by an Goodra, this item allows it to Mega Evolve in battle.",
 	},
 	granbullarmor: {
 		name: "Granbull Armor",
@@ -1194,6 +1202,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Moon Stone",
 		desc: "Evolves Nidorina into Nidoqueen, Nidorino into Nidoking, Clefairy into Clefable, Jigglypuff into Wigglytuff, Skitty into Delcatty, and Munna into Musharna when used.",
 		shortDesc: "Evolves certain species of Pokemon when used.",
+	},
+	mordantrock: {
+		name: "Mordant Rock",
+		desc: "Holder's use of Miasma lasts 8 turns instead of 5.",
 	},
 	muscleband: {
 		name: "Muscle Band",

@@ -1604,8 +1604,9 @@ export class RandomGen7Teams extends RandomTeams {
 			flowergift: 'sunnyday', solarpower: 'sunnyday', chlorophyll: 'sunnyday',
 			sandforce: 'sandstorm', sandrush: 'sandstorm', sandveil: 'sandstorm',
 			slushrush: 'hail', icepacking: 'hail', snowcloak: 'hail',
+			toxcceleration: 'miasma', chemicalbath: 'miasma',
 		};
-		const weatherAbilities = ['drizzle', 'drought', 'snowwarning', 'sandstream'];
+		const weatherAbilities = ['drizzle', 'drought', 'snowwarning', 'sandstream', 'noxiousemission'];
 
 		// Build a pool of eligible sets, given the team partners
 		// Also keep track of sets with moves the team requires
@@ -1718,6 +1719,7 @@ export class RandomGen7Teams extends RandomTeams {
 			drought: 'sunnyday',
 			snowwarning: 'hail',
 			sandstream: 'sandstorm',
+			noxiousemission: 'miasma',
 		};
 		const resistanceAbilities: {[k: string]: string[]} = {
 			dryskin: ['Water'], waterabsorb: ['Water'], stormdrain: ['Water'],
@@ -1892,7 +1894,7 @@ export class RandomGen7Teams extends RandomTeams {
 			swiftswim: 'raindance',
 			sandrush: 'sandstorm', sandveil: 'sandstorm',
 		};
-		const weatherAbilities = ['drizzle', 'drought', 'snowwarning', 'sandstream'];
+		const weatherAbilities = ['drizzle', 'drought', 'snowwarning', 'sandstream', 'noxiousemission'];
 
 		// Build a pool of eligible sets, given the team partners
 		// Also keep track of sets with moves the team requires
@@ -1980,6 +1982,7 @@ export class RandomGen7Teams extends RandomTeams {
 			drought: 'sunnyday',
 			snowwarning: 'hail',
 			sandstream: 'sandstorm',
+			noxiousemission: 'miasma',
 		};
 		const resistanceAbilities: {[k: string]: string[]} = {
 			waterabsorb: ['Water'], stormdrain: ['Water'],

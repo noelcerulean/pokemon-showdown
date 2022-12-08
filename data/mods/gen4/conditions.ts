@@ -135,6 +135,10 @@ export const Conditions: {[k: string]: ModdedConditionData} = {
 		inherit: true,
 		onFieldResidualOrder: 8,
 	},
+	miasma: {
+		inherit: true,
+		onFieldResidualOrder: 8,
+	},
 	hail: {
 		inherit: true,
 		onFieldResidualOrder: 8,

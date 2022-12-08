@@ -402,6 +402,7 @@ export const Scripts: ModdedBattleScriptsData = {
 			// Weather modifiers
 			if (
 				(type === 'Water' && this.battle.field.isWeather('raindance')) ||
+				(type === 'Poison' && this.battle.field.isWeather('miasma')) ||
 				(type === 'Fire' && this.battle.field.isWeather('sunnyday'))
 			) {
 				damage = Math.floor(damage * 1.5);

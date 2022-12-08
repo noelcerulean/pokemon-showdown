@@ -551,6 +551,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 167,
 	},
+	chemicalbath: {
+		onResidualOrder: 5,
+		onResidualSubOrder: 3,
+		onResidual(pokemon) {
+			if (pokemon.status && ['miasma'].includes(pokemon.effectiveWeather())) {
+				this.debug('chemicalbath');
+				this.add('-activate', pokemon, 'ability: Chemical Bath');
+				pokemon.cureStatus();
+			}
+		},
+		name: "Chemical Bath",
+		rating: 1.5,
+		num: -552,
+	},
 	chillingneigh: {
 		onSourceAfterFaint(length, target, source, effect) {
 			if (effect && effect.effectType === 'Move') {
@@ -1462,6 +1476,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				this.field.setWeather('sunnyday');
 			} else if (pokemon.hasItem('smoothrock')) {
 				this.field.setWeather('sandstorm');
+			} else if (pokemon.hasItem('mordantrock')) {
+				this.field.setWeather('miasma');
 			} else if (pokemon.hasItem('icyrock')) {
 				this.field.setWeather('hail');
 			}
@@ -2390,6 +2406,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	magicguard: {
 		onDamage(damage, target, source, effect) {
+			if ((effect.id === 'psn' || effect.id === 'tox') && this.field.isWeather('miasma')) {
+				return;
+			}
 			if (effect.effectType !== 'Move') {
 				if (effect.effectType === 'Ability') this.add('-activate', source, 'ability: ' + effect.name);
 				return false;
@@ -2955,6 +2974,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 96,
 	},
+	noxiousemission: {
+		onStart(source) {
+			this.field.setWeather('miasma');
+		},
+		name: "Noxious Emission",
+		rating: 4,
+		num: -551,
+	},
 	oblivious: {
 		onUpdate(pokemon) {
 			if (pokemon.volatiles['attract']) {
@@ -2990,7 +3017,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	overcoat: {
 		onImmunity(type, pokemon) {
-			if (type === 'sandstorm' || type === 'hail' || type === 'powder') return false;
+			if (type === 'sandstorm' || type === 'hail' || type === 'miasma' || type === 'powder') return false;
 		},
 		onTryHitPriority: 1,
 		onTryHit(target, source, move) {
@@ -3221,6 +3248,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	poisonheal: {
 		onDamagePriority: 1,
 		onDamage(damage, target, source, effect) {
+			if ((effect.id === 'psn' || effect.id === 'tox') && this.field.isWeather('miasma')) {
+				return;
+			}
 			if (effect.id === 'psn' || effect.id === 'tox') {
 				this.heal(target.baseMaxhp / 8);
 				return false;
@@ -5064,9 +5094,31 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 181,
 	},
+	toxicate: {
+		onModifyTypePriority: -1,
+		onModifyType(move, pokemon) {
+			const noModifyType = [
+				'judgment', 'multiattack', 'naturalgift', 'revelationdance', 'technoblast', 'terrainpulse', 'weatherball',
+			];
+			if (move.type === 'Normal' && !noModifyType.includes(move.id) && !(move.isZ && move.category !== 'Status')) {
+				move.type = 'Poison';
+				move.toxicateBoosted = true;
+			}
+		},
+		onBasePowerPriority: 23,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.toxicateBoosted) return this.chainModify([4915, 4096]);
+		},
+		name: "Toxicate",
+		rating: 4,
+		num: -554,
+	},
 	toxicboost: {
 		onDamagePriority: 1,
 		onDamage(damage, target, source, effect) {
+			if ((effect.id === 'psn' || effect.id === 'tox') && this.field.isWeather('miasma')) {
+				return;
+			}
 			if (effect.id === 'psn' || effect.id === 'tox') {
 				return false;
 			}
@@ -5080,6 +5132,19 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Toxic Boost",
 		rating: 4,
 		num: 137,
+	},
+	toxcceleration: {
+		onModifySpe(spe, pokemon) {
+			if (this.field.isWeather('miasma')) {
+				return this.chainModify(2);
+			}
+		},
+		onImmunity(type, pokemon) {
+			if (type === 'miasma') return false;
+		},
+		name: "Toxcceleration",
+		rating: 3,
+		num: -553,
 	},
 	trace: {
 		onStart(pokemon) {

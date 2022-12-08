@@ -290,6 +290,13 @@ export const DefaultText: {[k: string]: DefaultText} = {
 		upkeep: "  (The hail is crashing down.)",
 		damage: "  [POKEMON] is buffeted by the hail!",
 	},
+	miasma: {
+		weatherName: "Miasma",
+		start: "  A miasma fills the area!",
+		end: "  The miasma cleared up.",
+		upkeep: "  (The miasma is thick.)",
+		damage: "  [POKEMON] is buffeted by the miasma!",
+	},
 	desolateland: {
 		weatherName: "Intense Sun",
 		start: "  The sunlight turned extremely harsh!",

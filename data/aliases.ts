@@ -1017,6 +1017,7 @@ export const Aliases: {[alias: string]: string} = {
 	zpsychic: "Shattered Psyche",
 	zraichu: "Stoked Sparksurfer",
 	zelectrode: "Boisterous Blackout",
+	zlickilickyfnf: "Merciless Marinade",
 	zsnorlax: "Pulverizing Pancake",
 	zsolgaleo: "Searing Sunraze Smash",
 	zsparklingaria: "Oceanic Operetta",

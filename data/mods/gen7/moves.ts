@@ -590,6 +590,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	mercilessmarinade: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	metronome: {
 		inherit: true,
 		noMetronome: [

@@ -670,6 +670,9 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 				move.type = 'Ice';
 				move.category = 'Special';
 				break;
+			case 'miasma':
+				move.type = 'Poison';
+				break;
 			}
 			if (this.field.effectiveWeather()) move.basePower *= 2;
 		},

@@ -110,6 +110,13 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 			this.add('-activate', source, 'ability: Symbiosis', myItem, '[of] ' + pokemon);
 		},
 	},
+	toxicate: {
+		inherit: true,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.toxicateBoosted) return this.chainModify([5325, 4096]);
+		},
+		rating: 4.5,
+	},
 	weakarmor: {
 		inherit: true,
 		onDamagingHit(damage, target, source, move) {
