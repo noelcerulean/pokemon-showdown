@@ -4935,7 +4935,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 70,
 		basePower: 110,
 		category: "Special",
-		name: "Poison",
+		name: "Fallout",
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
