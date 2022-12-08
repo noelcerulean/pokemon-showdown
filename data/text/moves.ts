@@ -6914,7 +6914,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	toxic: {
 		name: "Toxic",
-		desc: "Badly poisons the target. If a Poison-type Pokemon uses this move, the target cannot avoid the attack, even if the target is in the middle of a two-turn move.",
+		desc: "Badly poisons the target. If a Poison-type Pokemon uses this move, the target cannot avoid the attack, even if the target is in the middle of a two-turn move. If the weather is Miasma, this move cannot miss, cannot be reflected and it infiltrates.",
 		shortDesc: "Badly poisons the target. Poison types can't miss.",
 		gen5: {
 			desc: "Badly poisons the target.",
