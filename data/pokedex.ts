@@ -13539,7 +13539,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseSpecies: "Goodra",
 		forme: "Mega",
 		types: ["Dragon", "Poison"],
-		baseStats: {hp: 90, atk: 130, def: 110, spa: 130, spd: 160, spe: 80},
+		baseStats: {hp: 90, atk: 135, def: 110, spa: 135, spd: 150, spe: 80},
 		abilities: {0: "Toxicate"},
 		heightm: 2.2,
 		weightkg: 200,

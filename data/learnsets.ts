@@ -76491,6 +76491,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			doubleteam: ["7M", "6M"],
 			dracometeor: ["8T", "7T", "6T"],
 			dragonbreath: ["8L1", "7L18", "6L18"],
+			dragonhammer: ["7L1"],
 			dragonpulse: ["8M", "8L35", "7T", "7L47", "6T", "6L47"],
 			dragontail: ["7M", "6M"],
 			earthquake: ["8M", "7M", "6M"],
@@ -76553,6 +76554,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			watergun: ["8L1"],
 			waterpulse: ["8L25", "7T", "6T"],
 			weatherball: ["8M"],
+			workup: ["7M"],
 		},
 	},
 	klefki: {
