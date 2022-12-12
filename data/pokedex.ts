@@ -13532,6 +13532,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Sliggoo",
 		evoLevel: 50,
 		eggGroups: ["Dragon"],
+		otherFormes: ["Goodra-Mega"],
+		formeOrder: ["Goodra", "Goodra-Mega"],
 	},
 	goodramega: {
 		num: 706,
