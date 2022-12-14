@@ -194,8 +194,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	chemicalbath: {
 		name: "Chemical Bath",
-		desc: "This Pokemon has its non-volatile status condition cured at the end of each turn if Miasma is active. If this Pokemon is holding Utility Umbrella, its non-volatile status condition will not be cured.",
-		shortDesc: "This Pokemon has its status cured at the end of each turn if Miasma is active.",
+		desc: "If Miasma is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn. This Pokemon takes no damage from Miasma.",
+		shortDesc: "If Miasma is active, this Pokemon heals 1/16 max HP each turn; Miasma immunity.",
 	},
 	chillingneigh: {
 		name: "Chilling Neigh",
@@ -913,6 +913,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	merciless: {
 		name: "Merciless",
 		shortDesc: "This Pokemon's attacks are critical hits if the target is poisoned.",
+	},
+	miasmedicine: {
+		name: "Miasmedicine",
+		desc: "This Pokemon has its non-volatile status condition cured at the end of each turn if Miasma is active. If this Pokemon is holding Utility Umbrella, its non-volatile status condition will not be cured.",
+		shortDesc: "This Pokemon has its status cured at the end of each turn if Miasma is active.",
 	},
 	mimicry: {
 		name: "Mimicry",

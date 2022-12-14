@@ -1604,7 +1604,7 @@ export class RandomGen7Teams extends RandomTeams {
 			flowergift: 'sunnyday', solarpower: 'sunnyday', chlorophyll: 'sunnyday',
 			sandforce: 'sandstorm', sandrush: 'sandstorm', sandveil: 'sandstorm',
 			slushrush: 'hail', icepacking: 'hail', snowcloak: 'hail',
-			toxcceleration: 'miasma', chemicalbath: 'miasma',
+			toxcceleration: 'miasma', miasmedicine: 'miasma',
 		};
 		const weatherAbilities = ['drizzle', 'drought', 'snowwarning', 'sandstream', 'noxiousemission'];
 

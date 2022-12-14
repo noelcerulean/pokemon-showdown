@@ -552,18 +552,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 167,
 	},
 	chemicalbath: {
-		onResidualOrder: 5,
-		onResidualSubOrder: 3,
-		onResidual(pokemon) {
-			if (pokemon.status && ['miasma'].includes(pokemon.effectiveWeather())) {
-				this.debug('chemicalbath');
-				this.add('-activate', pokemon, 'ability: Chemical Bath');
-				pokemon.cureStatus();
+		onWeather(target, source, effect) {
+			if (effect.id === 'miasma') {
+				this.heal(target.baseMaxhp / 16);
 			}
 		},
+		onImmunity(type, pokemon) {
+			if (type === 'miasma') return false;
+		},
 		name: "Chemical Bath",
-		rating: 1.5,
-		num: -552,
+		rating: 1,
+		num: -555,
 	},
 	chillingneigh: {
 		onSourceAfterFaint(length, target, source, effect) {
@@ -2506,6 +2505,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Merciless",
 		rating: 1.5,
 		num: 196,
+	},
+	miasmedicine: {
+		onResidualOrder: 5,
+		onResidualSubOrder: 3,
+		onResidual(pokemon) {
+			if (pokemon.status && ['miasma'].includes(pokemon.effectiveWeather())) {
+				this.debug('miasmedicine');
+				this.add('-activate', pokemon, 'ability: Miasmedicine');
+				pokemon.cureStatus();
+			}
+		},
+		name: "Miasmedicine",
+		rating: 1.5,
+		num: -552,
 	},
 	mimicry: {
 		onStart(pokemon) {
