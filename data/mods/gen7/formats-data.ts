@@ -3617,7 +3617,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	vanilluxefnf: {
 		randomBattleMoves: ["autotomize", "explosion", "fallout", "flashcannon", "freezedry", "hiddenpowerground", "icebeam"],
 		randomDoubleBattleMoves: ["autotomize", "fallout", "flashcannon", "freezedry", "hiddenpowerground", "icebeam", "protect", "taunt"],
-		tier: "RU",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	deerling: {
@@ -4339,7 +4339,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	goodramega: {
 		randomBattleMoves: ["dracometeor", "dragonpulse", "dragontail", "earthquake", "fireblast", "hypervoice", "return", "thunderbolt"],
 		randomDoubleBattleMoves: ["dracometeor", "dragonpulse", "fireblast", "hypervoice", "muddywater", "powerwhip", "protect", "return", "thunderbolt"],
-		tier: "RU",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	klefki: {
