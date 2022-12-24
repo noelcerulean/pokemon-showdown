@@ -422,6 +422,8 @@ const avatarTableZacWeavile = new Set([
 	'alain', 'charm', 'coin', 'elio-usum', 'emma', 'essentia', 'gloria-dojo', 'marnie-league', 'morgan',
 	'shauna', 'skullgrunt', 'skullgruntf', 'courtney', 'dulse', 'magmagrunt', 'magmagruntf', 'phyco', 'selene-usum',
 	'soliera', 'zossie',
+	'arven-v', 'dexio-gen6', 'flannery-gen6', 'green', 'grusha', 'mela', 'norman-gen6', 'penny',
+	'sina-gen6', 'steven-gen6',
 ]);
 
 const avatarTableIceJkai = new Set([
@@ -474,6 +476,10 @@ const avatarTableKyleDove = new Set([
 	'preschoolerf-gen7', 'psychic-lgpe', 'punkgirl-gen7', 'punkgirl-masters', 'punkguy-gen7', 'rosa-pokestar', 'scientist-gen7',
 	'sightseer', 'streetthug-masters', 'surfer', 'swimmer-gen7', 'swimmer-masters', 'swimmerf-gen7', 'swimmerf2-gen7', 'trialguide',
 	'trialguidef', 'tuli', 'ultraforestkartenvoy', 'veteran-gen7', 'veteranf-gen7', 'worker-gen7', 'worker-lgpe', 'youngster-masters',
+	'akari-isekai', 'allister-masters', 'arven-s', 'brassius', 'clavell-s', 'cynthia-anime2', 'cynthia-masters3', 'florian-s',
+	'geeta', 'hassel', 'hilda-masters3', 'iono', 'iris-masters', 'jacq', 'juliana-s', 'katy', 'kofu', 'larry', 'miriam', 'nemona-v',
+	'poppy', 'red-masters2', 'rei-isekai', 'rika', 'rosa-masters2', 'ryme', 'sada', 'stargrunt-s', 'stargrunt-v', 'stargruntf-s',
+	'stargruntf-v', 'steven-masters3', 'tulip', 'turo', 'tyme', 'wally-masters',
 ]);
 
 const avatarTableHyooppa = new Set([
@@ -481,7 +487,7 @@ const avatarTableHyooppa = new Set([
 ]);
 
 const avatarTableGrapo = new Set([
-	'peonia', 'skyla-masters2', 'volo-ginkgo',
+	'peonia', 'skyla-masters2', 'volo-ginkgo', 'glacia',
 ]);
 
 for (const avatar of avatarTableAkumaTsubasa) avatarTable.add(avatar);

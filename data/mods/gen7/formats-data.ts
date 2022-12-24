@@ -671,7 +671,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	drowzee: {
-		tier: "LC",
+		tier: "NFE",
 	},
 	hypno: {
 		randomBattleMoves: ["bakupunch", "bulkup", "hypnosis", "knockoff", "moonlight", "playrough", "superpower", "thunderwave"],

@@ -3542,7 +3542,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	magcargoarmor: {
 		name: "Magcargo Armor",
-		spritenum: 0,
+		spritenum: 768,
 		onTakeItem(item, source) {
 			if (source.baseSpecies.name === 'Magcargo-Armored') return false;
 			return true;
