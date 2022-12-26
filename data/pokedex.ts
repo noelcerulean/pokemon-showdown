@@ -6189,6 +6189,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Shiny Stone",
 		eggGroups: ["Field", "Fairy"],
+		cosmeticFormes: ["Royalynx-Holly", "Royalynx-Jolly"],
+		formeOrder: ["Royalynx", "Royalynx-Holly", "Royalynx-Jolly"],
 	},
 	sableye: {
 		num: 302,
@@ -8252,8 +8254,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Combee",
 		evoLevel: 21,
 		eggGroups: ["Bug"],
-		cosmeticFormes: ["Vespiquen-Yasqueen"],
-		formeOrder: ["Vespiquen", "Vespiquen-Yasqueen"],
+		cosmeticFormes: ["Vespiquen-Yasqueen", "Vespiquen-Starlight"],
+		formeOrder: ["Vespiquen", "Vespiquen-Yasqueen", "Vespiquen-Starlight"],
 	},
 	vespiquenarmored: {
 		num: 416,
