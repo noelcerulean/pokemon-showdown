@@ -14718,7 +14718,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {},
 		stallingMove: true,
 		volatileStatus: 'regroup2',
-		heal: [1, 2],
 		onTry(source) {
 			if (source.baseSpecies.baseSpecies === 'Wishiwashi' && source.level > 19) {
 				return;
@@ -14728,6 +14727,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			return null;
 		},
 		onPrepareHit(pokemon) {
+			this.heal(pokemon.baseMaxhp / 2);
 			return !!this.queue.willAct() && this.runEvent('StallMove', pokemon);
 		},
 		onHit(pokemon) {
