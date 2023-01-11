@@ -841,7 +841,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	kangaskhanmega: {
 		randomBattleMoves: ["bodyslam", "crunch", "fakeout", "poweruppunch", "suckerpunch"],
 		randomDoubleBattleMoves: ["drainpunch", "earthquake", "fakeout", "poweruppunch", "protect", "return", "suckerpunch"],
-		tier: "RUBL",
+		tier: "UUBL",
 		doublesTier: "DOU",
 	},
 	horsea: {

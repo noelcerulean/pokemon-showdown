@@ -8868,6 +8868,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Skorupi",
 		evoLevel: 40,
 		eggGroups: ["Bug", "Water 3"],
+		cosmeticFormes: ["Drapion-Candycane"],
+		formeOrder: ["Drapion", "Drapion-Candycane"],
 	},
 	croagunk: {
 		num: 453,
@@ -10881,6 +10883,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 35,
 		eggGroups: ["Field"],
 		requiredItem: "Calm Candy Bar",
+		changesFrom: "Darmanitan",
 	},
 	darmanitanzen: {
 		num: 555,
