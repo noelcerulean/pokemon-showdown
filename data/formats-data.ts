@@ -4143,6 +4143,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	emolgadelta: {
+		randomBattleMoves: ["airslash", "defog", "dragonpulse", "roost", "sludgebomb", "toxic", "uturn"],
+		randomBattleLevel: 88,
+		randomDoubleBattleMoves: ["airslash", "dragonpulse", "sludgebomb", "tailwind", "taunt"],
+		randomDoubleBattleLevel: 88,
+		tier: "(PU)",
+		doublesTier: "(DUU)",
+	},
 	karrablast: {
 		tier: "LC",
 	},

@@ -1970,6 +1970,19 @@
 				"moves": [["Swords Dance"], ["Flare Blitz"], ["Close Combat"], ["Mach Punch"]]
 			}]
 		},
+		"kangaskhan": {
+			"flags": {
+				"megaOnly": 1
+			},
+			"sets": [{
+				"species": "Kangaskhan",
+				"item": ["Kangaskhanite"],
+				"ability": ["Early Bird"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Sucker Punch"], ["Return"], ["Fake Out"], ["Power-Up Punch"]]
+			}]
+		},
 		"kartana": {
 			"flags": {},
 			"sets": [{
@@ -5029,19 +5042,6 @@
 				"evs": {"hp": 248, "spd": 8, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Light Screen"], ["Strength Sap"], ["U-turn"], ["Reflect"]]
-			}]
-		},
-		"kangaskhan": {
-			"flags": {
-				"megaOnly": 1
-			},
-			"sets": [{
-				"species": "Kangaskhan",
-				"item": ["Kangaskhanite"],
-				"ability": ["Early Bird"],
-				"evs": {"atk": 252, "spd": 4, "spe": 252},
-				"nature": "Adamant",
-				"moves": [["Sucker Punch"], ["Return"], ["Fake Out"], ["Power-Up Punch"]]
 			}]
 		},
 		"kingler": {

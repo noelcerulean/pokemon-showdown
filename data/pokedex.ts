@@ -11487,6 +11487,17 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		cosmeticFormes: ["Emolga-Patches"],
 		formeOrder: ["Emolga", "Emolga-Patches"],
 	},
+	emolgadelta: {
+		num: 587,
+		name: "Emolga-Delta",
+		types: ["Dragon", "Poison"],
+		baseStats: {hp: 55, atk: 95, def: 60, spa: 95, spd: 60, spe: 128},
+		abilities: {0: "Poison Touch", 1: "Escape Artist", H: "Levitate"},
+		heightm: 0.4,
+		weightkg: 5,
+		color: "Green",
+		eggGroups: ["Undiscovered"],
+	},
 	karrablast: {
 		num: 588,
 		name: "Karrablast",

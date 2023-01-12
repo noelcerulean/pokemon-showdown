@@ -3653,6 +3653,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	emolgadelta: {
+		randomBattleMoves: ["acrobatics", "airslash", "dragonclaw", "encore", "knockoff", "roost", "sludgewave", "toxic", "uturn"],
+		randomDoubleBattleMoves: ["acrobatics", "airslash", "dragonclaw", "encore", "helpinghand", "knockoff", "protect", "roost", "sludgewave", "uturn"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	karrablast: {
 		tier: "LC",
 	},
