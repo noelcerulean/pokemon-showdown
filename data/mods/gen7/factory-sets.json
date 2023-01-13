@@ -2262,33 +2262,6 @@
 				"moves": [["Return"], ["High Jump Kick"], ["Ice Punch", "Quick Attack", "Encore"], ["Power-Up Punch"]]
 			}]
 		},
-		"lucariodelta": {
-			"flags": {
-				"megaOnly": 1
-			},
-			"sets": [{
-				"species": "Lucario-Delta",
-				"item": ["Delta Lucarionite"],
-				"ability": ["Justified"],
-				"evs": {"atk": 252, "spd": 4, "spe": 252},
-				"nature": "Jolly",
-				"moves": [["Swords Dance"], ["Earthquake"], ["Extreme Speed"], ["Knock Off", "Sucker Punch"]]
-			}, {
-				"species": "Lucario-Delta",
-				"item": ["Delta Lucarionite"],
-				"ability": ["Justified"],
-				"evs": {"atk": 252, "spd": 4, "spe": 252},
-				"nature": "Jolly",
-				"moves": [["Sucker Punch", "Blaze Kick", "Ice Punch"], ["Earthquake"], ["Extreme Speed"], ["Knock Off"]]
-			}, {
-				"species": "Lucario-Delta",
-				"item": ["Delta Lucarionite"],
-				"ability": ["Mummy"],
-				"evs": {"spa": 252, "spd": 4, "spe": 252},
-				"nature": "Timid",
-				"moves": [["Dark Pulse"], ["Earth Power"], ["Grass Knot"], ["Nasty Plot"]]
-			}]
-		},
 		"lumineon": {
 			"flags": {},
 			"sets": [{
@@ -5323,38 +5296,6 @@
 				"ivs": {"atk": 0},
 				"nature": "Timid",
 				"moves": [["Nasty Plot"], ["Aura Sphere", "Focus Blast"], ["Flash Cannon"], ["Vacuum Wave", "Dark Pulse"]]
-			}]
-		},
-		"lucariodelta": {
-			"flags": {},
-			"sets": [{
-				"species": "Lucario-Delta",
-				"item": ["Life Orb"],
-				"ability": ["Justified"],
-				"evs": {"atk": 252, "spd": 4, "spe": 252},
-				"nature": "Jolly",
-				"moves": [["Swords Dance"], ["Earthquake"], ["Extreme Speed"], ["Knock Off"]]
-			}, {
-				"species": "Lucario-Delta",
-				"item": ["Choice Band", "Choice Scarf"],
-				"ability": ["Justified"],
-				"evs": {"atk": 252, "spd": 4, "spe": 252},
-				"nature": "Jolly",
-				"moves": [["Sucker Punch", "Blaze Kick", "Ice Punch"], ["Earthquake"], ["Extreme Speed"], ["Knock Off"]]
-			}, {
-				"species": "Lucario-Delta",
-				"item": ["Choice Specs", "Choice Scarf"],
-				"ability": ["Mummy"],
-				"evs": {"spa": 252, "spd": 4, "spe": 252},
-				"nature": "Timid",
-				"moves": [["Dark Pulse"], ["Earth Power"], ["Grass Knot"], ["Hidden Power Ice", "Final Gambit"]]
-			}, {
-				"species": "Lucario-Delta",
-				"item": ["Leftovers"],
-				"ability": ["Pressure"],
-				"evs": {"spa": 252, "spd": 4, "spe": 252},
-				"nature": "Timid",
-				"moves": [["Dark Pulse"], ["Earth Power"], ["Calm Mind"], ["Substitute"]]
 			}]
 		},
 		"lumineon": {

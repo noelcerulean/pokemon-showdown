@@ -488,14 +488,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 95, atk: 117, def: 70, spa: 65, spd: 70, spe: 92},
 	},
-	dwebbledeltacake: {
-		inherit: true,
-		types: ["Normal"],
-	},
-	crustledeltacake: {
-		inherit: true,
-		types: ["Normal"],
-	},
 	gothita: {
 		inherit: true,
 		unreleasedHidden: true,

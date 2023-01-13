@@ -1301,19 +1301,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 226,
 		gen: 3,
 	},
-	deltalucarionite: {
-		name: "Delta Lucarionite",
-		spritenum: 747,
-		megaStone: "Lucario-Delta-Mega",
-		megaEvolves: "Lucario-Delta",
-		itemUser: ["Lucario-Delta"],
-		onTakeItem(item, source) {
-			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
-			return true;
-		},
-		num: -507,
-		gen: 6,
-	},
 	destinyknot: {
 		name: "Destiny Knot",
 		spritenum: 95,

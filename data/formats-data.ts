@@ -3273,10 +3273,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	riolu: {
 		tier: "LC",
 	},
-	rioludelta: {
-		isNonstandard: "Past",
-		tier: "Illegal",
-	},
 	lucario: {
 		randomBattleMoves: ["closecombat", "extremespeed", "icepunch", "meteormash", "swordsdance"],
 		randomBattleLevel: 82,
@@ -3285,15 +3281,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
-	lucariodelta: {
-		isNonstandard: "Past",
-		tier: "Illegal",
-	},
 	lucariomega: {
-		isNonstandard: "Past",
-		tier: "Illegal",
-	},
-	lucariodeltamega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -3934,10 +3922,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	dwebble: {
 		tier: "LC",
 	},
-	dwebbledeltacake: {
-		isNonstandard: "Past",
-		tier: "Illegal",
-	},
 	crustle: {
 		randomBattleMoves: ["earthquake", "shellsmash", "spikes", "stealthrock", "stoneedge", "xscissor"],
 		randomBattleLevel: 82,
@@ -3945,10 +3929,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 84,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
-	},
-	crustledeltacake: {
-		isNonstandard: "Past",
-		tier: "Illegal",
 	},
 	scraggy: {
 		tier: "LC",

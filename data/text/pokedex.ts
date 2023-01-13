@@ -1886,20 +1886,11 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	riolu: {
 		name: "Riolu",
 	},
-	rioludelta: {
-		name: "Riolu-Delta",
-	},
 	lucario: {
 		name: "Lucario",
 	},
-	lucariodelta: {
-		name: "Lucario-Delta",
-	},
 	lucariomega: {
 		name: "Lucario-Mega",
-	},
-	lucariodeltamega: {
-		name: "Lucario-Delta-Mega",
 	},
 	hippopotas: {
 		name: "Hippopotas",
@@ -2357,14 +2348,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	dwebble: {
 		name: "Dwebble",
 	},
-	dwebbledeltacake: {
-		name: "Dwebble-Delta-Cake",
-	},
 	crustle: {
 		name: "Crustle",
-	},
-	crustledeltacake: {
-		name: "Crustle-Delta-Cake",
 	},
 	scraggy: {
 		name: "Scraggy",

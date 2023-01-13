@@ -2872,18 +2872,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	riolu: {
 		tier: "LC",
 	},
-	rioludelta: {
-		tier: "LC",
-	},
 	lucario: {
 		randomBattleMoves: ["aurasphere", "closecombat", "crunch", "darkpulse", "extremespeed", "flashcannon", "meteormash", "nastyplot", "swordsdance", "vacuumwave"],
 		randomDoubleBattleMoves: ["closecombat", "darkpulse", "extremespeed", "icepunch", "meteormash", "protect"],
-		tier: "UU",
-		doublesTier: "(DUU)",
-	},
-	lucariodelta: {
-		randomBattleMoves: ["blazekick", "darkpulse", "earthpower", "earthquake", "extremespeed", "hiddenpowerice", "icepunch", "knockoff", "nastyplot", "swordsdance"],
-		randomDoubleBattleMoves: ["blazekick", "darkpulse", "earthpower", "earthquake", "extremespeed", "hiddenpowerice", "icepunch", "knockoff", "nastyplot", "protect", "swordsdance"],
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
@@ -2891,12 +2882,6 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["aurasphere", "closecombat", "extremespeed", "flashcannon", "icepunch", "meteormash", "nastyplot", "swordsdance", "vacuumwave"],
 		randomDoubleBattleMoves: ["closecombat", "darkpulse", "extremespeed", "icepunch", "meteormash", "protect", "swordsdance"],
 		tier: "Uber",
-		doublesTier: "(DUU)",
-	},
-	lucariodeltamega: {
-		randomBattleMoves: ["blazekick", "darkpulse", "earthpower", "earthquake", "extremespeed", "hiddenpowerice", "icepunch", "knockoff", "nastyplot", "swordsdance"],
-		randomDoubleBattleMoves: ["blazekick", "darkpulse", "earthpower", "earthquake", "extremespeed", "hiddenpowerice", "icepunch", "knockoff", "nastyplot", "protect", "swordsdance"],
-		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	hippopotas: {
@@ -3479,19 +3464,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	dwebble: {
 		tier: "LC",
 	},
-	dwebbledeltacake: {
-		tier: "LC",
-	},
 	crustle: {
 		randomBattleMoves: ["crabhammer", "earthquake", "rockblast", "shellsmash", "spikes", "stealthrock", "stoneedge", "xscissor"],
 		randomDoubleBattleMoves: ["earthquake", "protect", "rockslide", "shellsmash", "stoneedge", "xscissor"],
 		tier: "UU",
-		doublesTier: "(DUU)",
-	},
-	crustledeltacake: {
-		randomBattleMoves: ["playrough", "shellsmash", "return", "superpower"],
-		randomDoubleBattleMoves: ["playrough", "shellsmash", "return", "superpower"],
-		tier: "NU",
 		doublesTier: "(DUU)",
 	},
 	scraggy: {
