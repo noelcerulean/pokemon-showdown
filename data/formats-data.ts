@@ -2553,6 +2553,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	numeldelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	camerupt: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -2563,6 +2567,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	cameruptmaxie: {
 		tier: "Uber",
+	},
+	cameruptdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	torkoal: {
 		randomBattleMoves: ["earthquake", "lavaplume", "rapidspin", "solarbeam", "stealthrock"],

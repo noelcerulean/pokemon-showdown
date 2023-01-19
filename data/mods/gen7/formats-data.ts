@@ -2158,6 +2158,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	numel: {
 		tier: "LC",
 	},
+	numeldelta: {
+		tier: "LC",
+	},
 	camerupt: {
 		randomBattleMoves: ["earthpower", "fireblast", "hiddenpowergrass", "roar", "rockpolish", "stealthrock", "stoneedge", "vaporize"],
 		randomDoubleBattleMoves: ["earthpower", "fireblast", "heatwave", "incinerate", "protect", "stealthrock", "vaporize"],
@@ -2172,6 +2175,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	cameruptmaxie: {
 		tier: "Uber",
+	},
+	cameruptdelta: {
+		randomBattleMoves: ["earthpower", "icebeam", "roar", "stealthrock", "surf", "toxic"],
+		randomDoubleBattleMoves: ["earthpower", "icebeam", "protect", "stealthrock", "surf"],
+		tier: "RUBL",
+		doublesTier: "(DUU)",
 	},
 	torkoal: {
 		randomBattleMoves: ["earthpower", "fireblast", "lavaplume", "rapidspin", "solarbeam", "stealthrock", "yawn"],
