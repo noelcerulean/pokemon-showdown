@@ -8925,6 +8925,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Finneon",
 		evoLevel: 31,
 		eggGroups: ["Water 2"],
+		cosmeticFormes: ["Lumineon-Healer"],
+		formeOrder: ["Lumineon", "Lumineon-Healer"],
 	},
 	mantyke: {
 		num: 458,

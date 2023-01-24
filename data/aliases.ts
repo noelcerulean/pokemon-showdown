@@ -426,6 +426,7 @@ export const Aliases: {[alias: string]: string} = {
 	clefablegeng: "Clefable",
 	hydreigonjack: "Hydreigon",
 	drapioncandycane: "Drapion",
+	lumineonhealer: "Lumineon",
 
 
 	alcremierubycream: "Alcremie",
