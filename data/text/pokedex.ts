@@ -2489,6 +2489,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	alomomola: {
 		name: "Alomomola",
 	},
+	alomomolamedella: {
+		name: "Alomomola-Medella",
+	},
 	joltik: {
 		name: "Joltik",
 	},

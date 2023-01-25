@@ -2179,7 +2179,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	cameruptdelta: {
 		randomBattleMoves: ["earthpower", "icebeam", "roar", "stealthrock", "surf", "toxic"],
 		randomDoubleBattleMoves: ["earthpower", "icebeam", "protect", "stealthrock", "surf"],
-		tier: "RUBL",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	torkoal: {
@@ -3676,6 +3676,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["helpinghand", "icywind", "knockoff", "protect", "scald", "wideguard"],
 		tier: "UU",
 		doublesTier: "(DUU)",
+	},
+	alomomolamedella: {
+		tier: "Uber",
 	},
 	joltik: {
 		tier: "LC",

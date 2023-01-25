@@ -921,7 +921,7 @@ export const Formats: FormatList = [
 			'Aegislash-Zato', 'Camerupt-Maxie', 'Chikorita-Minty', 'Decidueye-Apollo', 'Dewott-Pika', 'Eevee-Durum', 'Flareon-Lasagna', 'Fraxure-Frenzy',
 			'Glaceon-Manicotti', 'Golisopod-Musashi', 'Golurk-Titan', 'Gyarados-Alarix', 'Gyarados-Mega-Alarix', 'Honchkrow-Godfather', 'Jolteon-Radiatori',
 			'Kurstraw-Crona', 'Leafeon-Tagliatelle', 'Meganium-Aniseed', 'Sceptile-Moscho', 'Sylveon-Farfalle', 'Zweilous-Terror',
-			'Feebas-Vanessa', 'Granbull-Nobunaga',
+			'Feebas-Vanessa', 'Granbull-Nobunaga', 'Alomomola-Medella',
 			'Oranguru + Symbiosis', 'Passimian + Defiant', 'Unown', 'Custap Berry', 'Enigma Berry', 'Jaboca Berry', 'Micle Berry', 'Rowap Berry', 'Battle Bond',
 		],
 	},

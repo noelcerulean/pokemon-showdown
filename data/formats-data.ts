@@ -4176,6 +4176,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	alomomolamedella: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	joltik: {
 		tier: "LC",
 	},
