@@ -4405,6 +4405,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "If this move is successful, causes Normal-type moves to become Electric type this turn.",
 		shortDesc: "Normal moves become Electric type this turn.",
 	},
+	plasmicspin: {
+		name: "Plasmic Spin",
+		desc: "Has a 30% chance to burn the target.",
+		shortDesc: "30% chance to burn the target.",
+	},
 	playnice: {
 		name: "Play Nice",
 		desc: "Lowers the target's Attack by 1 stage.",

@@ -950,6 +950,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	forretress: {
 		name: "Forretress",
 	},
+	forretressdelta: {
+		name: "Forretress-Delta",
+	},
 	dunsparce: {
 		name: "Dunsparce",
 	},

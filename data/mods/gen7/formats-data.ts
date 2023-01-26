@@ -1474,6 +1474,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	forretressdelta: {
+		randomBattleMoves: ["earthquake", "flareblitz", "plasmicspin", "rapidspin", "toxic", "voltswitch"],
+		randomDoubleBattleMoves: ["earthquake", "flareblitz", "plasmicspin", "toxic", "voltswitch"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	dunsparce: {
 		tier: "NFE",
 	},

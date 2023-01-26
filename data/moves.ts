@@ -13168,6 +13168,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Cool",
 	},
+	plasmicspin: {
+		num: -544,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Plasmic Spin",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			status: 'brn',
+		},
+		target: "normal",
+		type: "Electric",
+		contestType: "Beautiful",
+	},
 	playnice: {
 		num: 589,
 		accuracy: true,

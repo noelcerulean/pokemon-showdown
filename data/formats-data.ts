@@ -1832,6 +1832,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	forretressdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	dunsparce: {
 		tier: "NFE",
 	},
