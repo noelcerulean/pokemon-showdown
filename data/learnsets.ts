@@ -31026,7 +31026,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			heavyslam: ["7L1"],
 			hiddenpower: ["7M"],
 			hyperbeam: ["7M"],
-			incineroar: ["7L17"],
+			incinerate: ["7L17"],
 			irondefense: ["7T", "7L42"],
 			laserfocus: ["7T"],
 			lavaplume: ["7M"],
