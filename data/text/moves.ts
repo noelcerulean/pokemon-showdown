@@ -1206,8 +1206,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	demolition: {
 		name: "Demolition",
-		desc: "Confuses the user. Clears Reflect, Light Screen, Aurora Veil, Safeguard, Mist, Spikes, Toxic Spikes, Stealth Rock, and Sticky Web. Additionally, clears the terrain.",
-		shortDesc: "Clears screens/hazards/terrain. Confuses user.",
+		desc: "User takes 1/4th recoil damage. Clears Reflect, Light Screen, Aurora Veil, Safeguard, Mist, Spikes, Toxic Spikes, Stealth Rock, and Sticky Web. Additionally, clears the terrain.",
+		shortDesc: "Clears screens/hazards/terrain. 1/4 recoil.",
 	},
 	destinybond: {
 		name: "Destiny Bond",
@@ -6086,11 +6086,6 @@ export const MovesText: {[k: string]: MoveText} = {
 		},
 
 		prepare: "#solarbeam",
-	},
-	soulsiphon: {
-		name: "Soul Siphon",
-		desc: "Lowers the target's Sp. Attack by 1 stage. The user restores its HP equal to the target's Sp. Attack stat calculated with its stat stage before this move was used. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. Fails if the target's Sp. Attack stat stage is -6.",
-		shortDesc: "User heals HP=target's SpA stat. Lowers SpA by 1.",
 	},
 	sunshinedance: {
 		name: "Sunshine Dance",

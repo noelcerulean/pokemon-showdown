@@ -2225,7 +2225,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	chillingrime: {
 		num: -520,
-		accuracy: 90,
+		accuracy: 85,
 		basePower: 0,
 		category: "Status",
 		name: "Chilling Rime",
@@ -3362,6 +3362,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
+		recoil: [1, 4],
 		onHit(target, source, move) {
 			const removeTarget = [
 				'lightscreen', 'reflect', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
@@ -3382,12 +3383,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			}
 			this.field.clearTerrain();
 		},
-		secondary: {
-			chance: 100,
-			self: {
-				volatileStatus: 'confusion',
-			},
-		},
+		secondary: null,
 		target: "allAdjacent",
 		type: "Normal",
 		contestType: "Tough",
@@ -13169,7 +13165,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		contestType: "Cool",
 	},
 	plasmicspin: {
-		num: -544,
+		num: -541,
 		accuracy: 100,
 		basePower: 80,
 		category: "Physical",
@@ -18741,27 +18737,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Grass",
 		contestType: "Cool",
-	},
-	soulsiphon: {
-		num: -541,
-		accuracy: 100,
-		basePower: 0,
-		category: "Status",
-		name: "Soul Siphon",
-		pp: 10,
-		priority: 0,
-		flags: {protect: 1, reflectable: 1, mirror: 1, heal: 1},
-		onHit(target, source) {
-			if (target.boosts.spa === -6) return false;
-			const spa = target.getStat('spa', false, true);
-			const success = this.boost({spa: -1}, target, source, null, false, true);
-			return !!(this.heal(spa, source, target) || success);
-		},
-		secondary: null,
-		target: "normal",
-		type: "Ghost",
-		zMove: {boost: {spd: 1}},
-		contestType: "Clever",
 	},
 	sunshinedance: {
 		num: -505,
