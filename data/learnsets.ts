@@ -9727,7 +9727,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			facade: ["8M", "8V", "7M", "6M", "5M", "4M", "3M"],
 			fissure: ["7V"],
 			fling: ["8M", "7M", "6M", "5M", "4M"],
-			focusblast: ["8M", "7M", "6M", "5M", "4M"],
+			focusblast: ["8M", "7M", "7S1", "6M", "5M", "4M"],
 			focuspunch: ["7T", "6T", "4M", "3M"],
 			frustration: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			geyserblast: ["7L33"],
@@ -9741,7 +9741,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			hydropump: ["8M", "8L1", "3S0"],
 			hyperbeam: ["8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			hypnosis: ["8L1", "8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
-			icebeam: ["8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
+			icebeam: ["8M", "8V", "7M", "7V", "7S1", "6M", "5M", "4M", "3M"],
 			icepunch: ["8M", "8V", "7T", "7V", "6T", "5T", "4T", "3T"],
 			icywind: ["8M", "7T", "7V", "6T", "5T", "4T", "3T"],
 			liquidation: ["8M"],
@@ -9782,6 +9782,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			skullbash: ["7V"],
 			sleeptalk: ["8M", "7M", "7V", "6M", "5T", "4M", "3T"],
 			snore: ["8M", "7T", "7V", "6T", "5T", "4T", "3T"],
+			sparklingwater: ["7S1"],
 			strength: ["7V", "6M", "5M", "4M", "3M"],
 			submission: ["8L0", "8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
 			substitute: ["8M", "8V", "7M", "7V", "6M", "5M", "4M", "3T"],
@@ -9792,7 +9793,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			thief: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 			throatchop: ["8M", "7T"],
 			toxic: ["8V", "7M", "7V", "6M", "5M", "4M", "3M"],
-			vacuumwave: ["4T"],
+			vacuumwave: ["7S1", "4T"],
 			waterfall: ["8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			watergun: ["8L1", "8V", "7V", "3L1"],
 			waterpulse: ["7T", "6T", "4M", "3M"],
@@ -9801,20 +9802,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		},
 		eventData: [
 			{generation: 3, level: 42, moves: ["helpinghand", "hydropump", "raindance", "brickbreak"]},
-		],
-	},
-	poliwrathrolipoli: {
-		learnset: {
-			focusblast: ["7S0"],
-			icebeam: ["7S0"],
-			sparklingwater: ["7S0"],
-			vacuumwave: ["7S0"],
-		},
-		eventData: [
 			{generation: 7, level: 50, nature: "Modest", abilities: ["waterabsorb"], moves: ["focusblast", "icebeam", "sparklingwater", "vacuumwave"]},
-		],
-		encounters: [
-			{generation: 3, level: 50},
 		],
 	},
 	politoed: {
