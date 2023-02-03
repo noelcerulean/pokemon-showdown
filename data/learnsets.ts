@@ -54650,6 +54650,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			confide: ["7M", "6M"],
 			confuseray: ["8L1", "7L11", "6L11", "5L11", "4L14"],
 			confusion: ["8L1", "7L1", "6L1", "5L1", "4L1"],
+			defog: ["7T"],
 			destinybond: ["7L50"],
 			doubleteam: ["7M", "6M", "5M", "4M"],
 			dreameater: ["7M", "6M", "5M", "4M"],
