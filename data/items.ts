@@ -4592,7 +4592,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Unified Upsurge",
 		zMoveFrom: "Focus Blast",
-		itemUser: ["Poliwrath"],
+		itemUser: ["Poliwrath", "Poliwrath-Rolipoli"],
 		num: -530,
 		gen: 7,
 		isNonstandard: "Past",
