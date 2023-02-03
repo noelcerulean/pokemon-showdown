@@ -370,6 +370,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
+	magnezite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	magoberry: {
 		inherit: true,
 		onEat(pokemon) {
@@ -472,6 +476,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		isNonstandard: "Unobtainable",
 	},
 	poisoniumz: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	poliwrathiumz: {
 		inherit: true,
 		isNonstandard: null,
 	},

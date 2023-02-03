@@ -573,6 +573,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
+	magnezonemega: {
+		randomBattleMoves: ["flashcannon", "hiddenpowerfire", "substitute", "thunderbolt", "voltswitch"],
+		randomDoubleBattleMoves: ["electroweb", "flashcannon", "hiddenpowerfire", "protect", "thunderbolt", "voltswitch"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
 	farfetchd: {
 		randomBattleMoves: ["drillpeck", "knockoff", "leafblade", "roost", "slash", "swordsdance"],
 		randomDoubleBattleMoves: ["drillpeck", "knockoff", "leafblade", "protect", "slash", "swordsdance"],
@@ -586,6 +592,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["bravebird", "demolition", "jumpkick", "highhorsepower", "knockoff", "quickattack", "return", "swordsdance"],
 		randomDoubleBattleMoves: ["bravebird", "highhorsepower", "knockoff", "protect", "quickattack", "return", "swordsdance"],
 		tier: "RUBL",
+		doublesTier: "(DUU)",
+	},
+	warcass: {
+		randomBattleMoves: ["bravebird", "closecombat", "demolition", "earthquake", "jumpkick", "knockoff", "lightningkick"],
+		randomDoubleBattleMoves: ["bravebird", "closecombat", "highhorsepower", "knockoff", "protect"],
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	seel: {

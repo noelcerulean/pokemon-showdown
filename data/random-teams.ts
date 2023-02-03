@@ -346,7 +346,7 @@ export class RandomTeams {
 					return !(move.isNonstandard || move.isZ || move.isMax || move.realMove);
 				});
 			} else {
-				const formes = ['gastrodoneast', 'pumpkaboosuper', 'zygarde10'];
+				const formes = ['gastrodoneast', 'poliwrathrolipoli', 'pumpkaboosuper', 'zygarde10'];
 				let learnset = this.dex.data.Learnsets[species.id]?.learnset && !formes.includes(species.id) ?
 					this.dex.data.Learnsets[species.id].learnset :
 					this.dex.data.Learnsets[this.dex.species.get(species.baseSpecies).id].learnset;

@@ -742,6 +742,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},
+	magnezonemega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	farfetchd: {
 		randomBattleMoves: ["bravebird", "closecombat", "knockoff", "leafblade", "swordsdance"],
 		randomBattleLevel: 90,
@@ -767,6 +771,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	dodrio: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	warcass: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},

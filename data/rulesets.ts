@@ -793,7 +793,7 @@ export const Rulesets: {[k: string]: FormatData} = {
 			'Malicious Moonsault', 'Menacing Moonraze Maelstrom', 'Merciless Marinade', 'Never-Ending Nightmare', 'Oceanic Operetta',
 			'Pulverizing Pancake', 'Savage Spin-Out', 'Searing Sunraze Smash', 'Shattered Psyche', 'Sinister Arrow Raid',
 			'Soul-Stealing 7-Star Strike', 'Splintered Stormshards', 'Stoked Sparksurfer', 'Subzero Slammer',
-			'Supersonic Skystrike', 'Tectonic Rage', 'Twinkle Tackle',
+			'Supersonic Skystrike', 'Tectonic Rage', 'Twinkle Tackle', 'Unified Upsurge',
 		],
 		onBegin() {
 			this.add('rule', 'CFZ Clause: Crystal-free Z-Moves are banned');

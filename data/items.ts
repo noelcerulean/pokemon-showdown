@@ -1707,7 +1707,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		zMove: "Boisterous Blackout",
 		zMoveFrom: "Power Outage",
 		itemUser: ["Electrode"],
-		num: -512,
+		num: -507,
 		gen: 7,
 		isNonstandard: "Past",
 	},
@@ -3602,6 +3602,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: -522,
 		gen: 7,
 	},
+	magnezite: {
+		name: "Magnezite",
+		spritenum: 758,
+		megaStone: "Magnezone-Mega",
+		megaEvolves: "Magnezone",
+		itemUser: ["Magnezone"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -529,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	magoberry: {
 		name: "Mago Berry",
 		spritenum: 274,
@@ -4571,6 +4585,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: -503,
 		gen: 1,
+	},
+	poliwrathiumz: {
+		name: "Poliwrathium Z",
+		spritenum: 747,
+		onTakeItem: false,
+		zMove: "Unified Upsurge",
+		zMoveFrom: "Focus Blast",
+		itemUser: ["Poliwrath"],
+		num: -530,
+		gen: 7,
+		isNonstandard: "Past",
 	},
 	pomegberry: {
 		name: "Pomeg Berry",
@@ -6257,7 +6282,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			return true;
 		},
 		itemUser: ["Toxicroak-Armored"],
-		num: -511,
+		num: -512,
 		gen: 7,
 	},
 	tr00: {

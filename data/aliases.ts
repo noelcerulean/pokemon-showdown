@@ -428,6 +428,7 @@ export const Aliases: {[alias: string]: string} = {
 	hydreigonjack: "Hydreigon",
 	drapioncandycane: "Drapion",
 	lumineonhealer: "Lumineon",
+	poliwrathrolipoli: "Poliwrath",
 
 
 	alcremierubycream: "Alcremie",
@@ -1023,6 +1024,7 @@ export const Aliases: {[alias: string]: string} = {
 	zpsychic: "Shattered Psyche",
 	zraichu: "Stoked Sparksurfer",
 	zelectrode: "Boisterous Blackout",
+	zpoliwrath: "Unified Upsurge",
 	zlickilickyfnf: "Merciless Marinade",
 	zsnorlax: "Pulverizing Pancake",
 	zsolgaleo: "Searing Sunraze Smash",

@@ -21437,6 +21437,33 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Bug",
 		contestType: "Tough",
 	},
+	unifiedupsurge: {
+		num: -544,
+		accuracy: true,
+		basePower: 190,
+		category: "Special",
+		isNonstandard: "Past",
+		name: "Unified Upsurge",
+		pp: 1,
+		priority: 0,
+		flags: {},
+		selfBoost: {
+			boosts: {
+				atk: 1,
+				def: 1,
+				spa: 1,
+				spd: 1,
+				spe: 1,
+			},
+		},
+		isZ: "poliwrathiumz",
+		secondary: {
+			// Sheer Force negates the selfBoost even though it is not secondary
+		},
+		target: "normal",
+		type: "Fighting",
+		contestType: "Cool",
+	},
 	uturn: {
 		num: 369,
 		accuracy: 100,

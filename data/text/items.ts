@@ -1075,6 +1075,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Magnetic Stone",
 		desc: "Causes Probopass to use Magnet Rise on switch-in.",
 	},
+	magnezite: {
+		name: "Magnezite",
+		desc: "If held by a Magnezone, this item allows it to Mega Evolve in battle.",
+	},
 	magoberry: {
 		name: "Mago Berry",
 		desc: "Restores 33% max HP at 1/4 max HP or less; confuses if -Spe Nature. Single use.",
@@ -1358,6 +1362,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	pokedoll: {
 		name: "Poke Doll",
 		desc: "A doll that attracts attention. No battle effect.",
+	},
+	poliwrathiumz: {
+		name: "Poliwrathium Z",
+		desc: "If held by an Poliwrath with Focus Blast, it can use Unified Upsurge.",
 	},
 	pomegberry: {
 		name: "Pomeg Berry",

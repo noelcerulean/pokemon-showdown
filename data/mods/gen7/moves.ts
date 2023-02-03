@@ -1019,6 +1019,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	unifiedupsurge: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	wakeupslap: {
 		inherit: true,
 		isNonstandard: null,

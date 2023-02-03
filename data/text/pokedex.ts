@@ -437,6 +437,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	dodrio: {
 		name: "Dodrio",
 	},
+	warcass: {
+		name: "Warcass",
+	},
 	seel: {
 		name: "Seel",
 	},
@@ -1948,6 +1951,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	magnezone: {
 		name: "Magnezone",
+	},
+	magnezonemega: {
+		name: "Magnezone-Mega",
 	},
 	lickilicky: {
 		name: "Lickilicky",
