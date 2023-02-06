@@ -53,7 +53,7 @@ const avatarTable = new Set([
 	'barry',
 	'battlegirl-gen3', 'battlegirl-gen4', 'battlegirl',
 	'beauty-gen1', 'beauty-gen1rb', 'beauty-gen2jp', 'beauty-gen2', 'beauty-gen3', 'beauty-gen3rs', 'beauty-gen4dp', 'beauty-gen5bw2', 'beauty',
-	'bellelba',
+	'bellelba', 'bellelba-2',
 	'bellepa',
 	'benedict',
 	'benga',
