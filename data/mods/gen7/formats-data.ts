@@ -576,7 +576,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	magnezonemega: {
 		randomBattleMoves: ["flashcannon", "hiddenpowerfire", "substitute", "thunderbolt", "voltswitch"],
 		randomDoubleBattleMoves: ["electroweb", "flashcannon", "hiddenpowerfire", "protect", "thunderbolt", "voltswitch"],
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	farfetchd: {
@@ -597,7 +597,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	warcass: {
 		randomBattleMoves: ["bravebird", "closecombat", "demolition", "earthquake", "jumpkick", "knockoff", "lightningkick"],
 		randomDoubleBattleMoves: ["bravebird", "closecombat", "highhorsepower", "knockoff", "protect"],
-		tier: "UUBL",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	seel: {
