@@ -4315,6 +4315,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	sylveonfarfalle: {
 		tier: "Uber",
 	},
+	longeon: {
+		randomBattleMoves: ["dragonclaw", "dragondance", "irontail", "knockoff", "outrage"],
+		randomDoubleBattleMoves: ["dragonclaw", "dragondance", "helpinghand", "irontail", "knockoff", "outrage", "protect"],
+		tier: "RU",
+		doublesTier: "DUU",
+	},
 	hawlucha: {
 		randomBattleMoves: ["acrobatics", "highjumpkick", "skyattack", "substitute", "swordsdance"],
 		randomDoubleBattleMoves: ["acrobatics", "encore", "highjumpkick", "protect", "swordsdance"],

@@ -1381,6 +1381,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	sylveonfarfalle: {
 		tier: "Uber",
 	},
+	longeon: {
+		tier: "RU",
+	},
 	porygon: {
 		tier: "LC",
 	},

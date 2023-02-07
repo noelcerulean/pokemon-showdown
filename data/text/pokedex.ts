@@ -2906,6 +2906,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	sylveonfarfalle: {
 		name: "Sylveon-Farfalle",
 	},
+	longeon: {
+		name: "Longeon",
+	},
 	hawlucha: {
 		name: "Hawlucha",
 	},
