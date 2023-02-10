@@ -1252,6 +1252,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Paras",
 		evoLevel: 24,
 		eggGroups: ["Bug", "Grass"],
+		cosmeticFormes: ["Parasect-Sparklespore"],
+		formeOrder: ["Parasect", "Parasect-Sparklespore"],
 	},
 	parasectfnf: {
 		num: 47,
@@ -15543,6 +15545,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		tags: ["Sub-Legendary"],
 		eggGroups: ["Undiscovered"],
+		cosmeticFormes: ["Xurkitree-Spaghetti"],
+		formeOrder: ["Xurkitree", "Xurkitree-Spaghetti"],
 	},
 	celesteela: {
 		num: 797,

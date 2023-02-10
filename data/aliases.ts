@@ -429,6 +429,8 @@ export const Aliases: {[alias: string]: string} = {
 	drapioncandycane: "Drapion",
 	lumineonhealer: "Lumineon",
 	poliwrathrolipoli: "Poliwrath",
+	parasectsparklespore: "Parasect",
+	xurkitreespaghetti: "Xurkitree",
 
 
 	alcremierubycream: "Alcremie",
