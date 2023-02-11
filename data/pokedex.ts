@@ -3554,6 +3554,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 1,
 		weightkg: 22.5,
 		color: "Yellow",
+		tags: ["Mythical"],
 		eggGroups: ["Undiscovered"],
 	},
 	chikorita: {

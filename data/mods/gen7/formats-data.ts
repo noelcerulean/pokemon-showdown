@@ -1588,7 +1588,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	ursaring: {
 		randomBattleMoves: ["closecombat", "crunch", "facade", "protect", "swordsdance"],
 		randomDoubleBattleMoves: ["closecombat", "crunch", "facade", "protect", "swordsdance"],
-		tier: "UU",
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	slugma: {
@@ -4585,7 +4585,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	oricoriopompom: {
 		randomBattleMoves: ["calmmind", "hurricane", "revelationdance", "roost", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["airslash", "hurricane", "protect", "revelationdance", "tailwind"],
-		tier: "UU",
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	oricoriopau: {
