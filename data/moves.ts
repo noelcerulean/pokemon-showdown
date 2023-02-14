@@ -15725,7 +15725,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	seasonalspirit: {
 		num: -523,
 		accuracy: 100,
-		basePower: 150,
+		basePower: 120,
 		category: "Physical",
 		name: "Seasonal Spirit",
 		pp: 10,

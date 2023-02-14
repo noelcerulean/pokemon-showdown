@@ -1057,8 +1057,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	normalize: {
 		name: "Normalize",
-		desc: "This Pokemon's moves are changed to be Normal type and have their power multiplied by 1.5. This effect comes before other effects that change a move's type.",
-		shortDesc: "This Pokemon's moves are changed to be Normal type and have 1.5x power.",
+		desc: "This Pokemon's moves are changed to be Normal type and have their power multiplied by 1.3. This effect comes before other effects that change a move's type.",
+		shortDesc: "This Pokemon's moves are changed to be Normal type and have 1.3x power.",
 		gen6: {
 			desc: "This Pokemon's moves are changed to be Normal type. This effect comes before other effects that change a move's type.",
 			shortDesc: "This Pokemon's moves are changed to be Normal type.",
@@ -1675,7 +1675,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	stall: {
 		name: "Stall",
-		shortDesc: "1.5x Def & Sp Def; 1.3x Accuracy. This Pokemon moves last in its priority bracket.",
+		shortDesc: "1.3x Def, Sp Def, & Accuracy. This Pokemon moves last in its priority bracket.",
 	},
 	stalwart: {
 		name: "Stalwart",

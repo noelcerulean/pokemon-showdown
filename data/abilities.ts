@@ -2981,7 +2981,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onBasePowerPriority: 23,
 		onBasePower(basePower, pokemon, target, move) {
-			if (move.normalizeBoosted) return this.chainModify(1.5);
+			if (move.normalizeBoosted) return this.chainModify(1.3);
 		},
 		name: "Normalize",
 		rating: 1,
@@ -4573,11 +4573,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	stall: {
 		onModifyDefPriority: 6,
 		onModifyDef(def) {
-			return this.chainModify(1.5);
+			return this.chainModify(1.3);
 		},
 		onModifySpDPriority: 6,
 		onModifySpD(spd) {
-			return this.chainModify(1.5);
+			return this.chainModify(1.3);
 		},
 		onModifyAccuracyPriority: 6,
 		onModifyAccuracy(accuracy) {
