@@ -54,7 +54,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['[Gen 7] OU'],
-		banlist: ['OU', 'UUBL', 'Mewnium Z', 'Drizzle', 'Aurora Veil'],
+		banlist: ['OU', 'UUBL', 'Mewnium Z', 'Castform + Heat Rock', 'Drought', 'Castform + Damp Rock', 'Drizzle', 'Aurora Veil', 'Poliwrathium Z'],
 	},
 	{
 		name: "[Gen 7] RU",
@@ -65,8 +65,8 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['[Gen 7] UU'],
-		banlist: ['UU', 'RUBL', 'Mimikyu', 'Noxious Emission', 'Castform + Damp Rock', 'Castform + Mordant Rock'],
-		unbanlist: ['Drought'],
+		banlist: ['UU', 'RUBL', 'Mimikyu', 'Noxious Emission', 'Castform + Mordant Rock'],
+		unbanlist: ['Drought', 'Castform + Heat Rock'],
 	},
 	{
 		name: "[Gen 7] Ubers",
