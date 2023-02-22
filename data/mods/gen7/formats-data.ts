@@ -1323,7 +1323,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	ampharosmega: {
 		randomBattleMoves: ["agility", "dragonpulse", "focusblast", "healbell", "tailglow", "thunderbolt", "voltswitch"],
 		randomDoubleBattleMoves: ["dragonpulse", "focusblast", "hiddenpowergrass", "hiddenpowerice", "protect", "thunderbolt"],
-		tier: "UU",
+		tier: "UUBL",
 		doublesTier: "DUU",
 	},
 	azurill: {
