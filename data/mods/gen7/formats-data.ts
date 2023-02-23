@@ -3503,7 +3503,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	scrafty: {
 		randomBattleMoves: ["bulkup", "dragondance", "drainpunch", "gunkshot", "highjumpkick", "icepunch", "knockoff", "rest"],
 		randomDoubleBattleMoves: ["drainpunch", "fakeout", "icepunch", "knockoff", "protect", "superfang"],
-		tier: "UU",
+		tier: "UUBL",
 		doublesTier: "DOU",
 	},
 	sigilyph: {
@@ -3738,7 +3738,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	eelektross: {
 		randomBattleMoves: ["flamethrower", "gigadrain", "hiddenpowerice", "knockoff", "parasiticdrain", "superpower", "thunderbolt", "uturn"],
 		randomDoubleBattleMoves: ["flamethrower", "gigadrain", "knockoff", "protect", "thunderbolt", "uturn", "voltswitch"],
-		tier: "UU",
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	eelektrossmrlamprey: {
