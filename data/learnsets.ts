@@ -40724,7 +40724,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			crosschop: ["7E", "6E", "5E", "4E", "3E"],
 			detect: ["7E", "6E", "5E", "4E", "3E"],
 			dig: ["6M", "5M", "4M", "3M"],
-			drainpunch: ["7M"],
 			drypass: ["7L13"],
 			doubleedge: ["3T"],
 			doubleteam: ["7M", "6M", "5M", "4M", "3M"],
@@ -40796,6 +40795,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			whirlwind: ["7L16", "6L16", "5L16", "4L16", "3L22"],
 			wideguard: ["7E", "6E", "5E"],
 			workup: ["7M", "5M"],
+			yorikiri: ["7L35"],
 		},
 		eventData: [
 			{generation: 3, level: 18, moves: ["refresh", "brickbreak", "armthrust", "rocktomb"]},
@@ -40820,7 +40820,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			dig: ["6M", "5M", "4M", "3M"],
 			doubleedge: ["3T"],
 			doubleteam: ["7M", "6M", "5M", "4M", "3M"],
-			drainpunch: ["7M"],
 			drypass: ["7L1"],
 			dynamicpunch: ["3T"],
 			earthquake: ["7M", "6M", "5M", "4M", "3M"],
@@ -40891,6 +40890,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			whirlpool: ["4M"],
 			whirlwind: ["7L16", "6L16", "5L16", "4L16", "3L22"],
 			workup: ["7M", "5M"],
+			yorikiri: ["7L1"],
 		},
 		encounters: [
 			{generation: 6, level: 22},

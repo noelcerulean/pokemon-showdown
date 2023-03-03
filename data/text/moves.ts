@@ -7432,6 +7432,11 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		start: "  [POKEMON] grew drowsy!",
 	},
+	yorikiri: {
+		name: "Yorikiri",
+		desc: "If both the user and the target have not fainted, the target is forced to switch out and be replaced with a random unfainted ally. This effect fails if the target is under the effect of Ingrain, has the Suction Cups Ability, or this move hit a substitute.",
+		shortDesc: "Forces the target to switch to a random ally.",
+	},
 	zapcannon: {
 		name: "Zap Cannon",
 		desc: "Has a 100% chance to paralyze the target.",

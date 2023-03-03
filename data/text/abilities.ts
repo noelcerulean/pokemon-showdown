@@ -738,9 +738,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	innerfocus: {
 		name: "Inner Focus",
 		shortDesc: "This Pokemon cannot be made to flinch. Immune to Intimidate.",
-		gen7: {
-			shortDesc: "This Pokemon cannot be made to flinch.",
-		},
 	},
 	insomnia: {
 		name: "Insomnia",
@@ -751,7 +748,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "On switch-in, this Pokemon lowers the Attack of adjacent opposing Pokemon by 1 stage. Inner Focus, Oblivious, Own Tempo, Scrappy, and Pokemon behind a substitute are immune.",
 		shortDesc: "On switch-in, this Pokemon lowers the Attack of adjacent opponents by 1 stage.",
 		gen7: {
-			desc: "On switch-in, this Pokemon lowers the Attack of adjacent opposing Pokemon by 1 stage. Pokemon behind a substitute are immune.",
+			desc: "On switch-in, this Pokemon lowers the Attack of adjacent opposing Pokemon by 1 stage. Pokemon with Inner Focus or behind a substitute are immune.",
 		},
 	},
 	intrepidsword: {

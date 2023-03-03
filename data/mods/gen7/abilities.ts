@@ -17,11 +17,6 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 			}
 		},
 	},
-	innerfocus: {
-		inherit: true,
-		rating: 1,
-		onBoost() {},
-	},
 	intimidate: {
 		inherit: true,
 		rating: 4,
