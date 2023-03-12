@@ -576,7 +576,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	magnezonemega: {
 		randomBattleMoves: ["flashcannon", "hiddenpowerfire", "substitute", "thunderbolt", "voltswitch"],
 		randomDoubleBattleMoves: ["electroweb", "flashcannon", "hiddenpowerfire", "protect", "thunderbolt", "voltswitch"],
-		tier: "OU",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	farfetchd: {
@@ -2073,7 +2073,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	medicham: {
 		randomBattleMoves: ["aurasphere", "bulletpunch", "drainpunch", "highjumpkick", "icepunch", "psychic", "psyshock", "shadowball", "vacuumwave", "zenheadbutt"],
 		randomDoubleBattleMoves: ["aurasphere", "bulletpunch", "drainpunch", "fakeout", "highjumpkick", "icepunch", "protect", "psychic", "psyshock", "shadowball", "vacuumwave", "zenheadbutt"],
-		tier: "UU",
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	medichammega: {
@@ -3659,7 +3659,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	emolgadelta: {
 		randomBattleMoves: ["acrobatics", "airslash", "dragonclaw", "encore", "knockoff", "roost", "sludgewave", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["acrobatics", "airslash", "dragonclaw", "encore", "helpinghand", "knockoff", "protect", "roost", "sludgewave", "uturn"],
-		tier: "UU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	karrablast: {

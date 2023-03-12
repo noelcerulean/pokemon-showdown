@@ -25633,6 +25633,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	meganiumaniseed: {
 		learnset: {
 			ancientpower: ["4T"],
+			aromabomb: ["7L50"],
 			aromatherapy: ["7L60", "6L60", "5L60", "4L60"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			bodyslam: ["7L46", "7V", "6L46", "6S0", "5L46", "4L46", "3T", "3L31"],
