@@ -535,7 +535,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Aroma Bomb",
 		pp: 10,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {bullet: 1, protect: 1, mirror: 1},
 		onHit(target) {
 			if (target.getAbility().isPermanent) return;
 			target.addVolatile('gastroacid');
