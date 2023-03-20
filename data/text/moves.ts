@@ -5686,6 +5686,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Shadow Trance",
 		shortDesc: "Non-reflectable. Infiltrates. Sleeps target.",
 	},
+	shadowvampirism: {
+		name: "Shadow Vampirism",
+		shortDesc: "Crits. User recovers 50% of the damage dealt.",
+	},
 	shadowvelocity: {
 		name: "Shadow Velocity",
 		desc: "Raises the user's Speed by 2 stages.",

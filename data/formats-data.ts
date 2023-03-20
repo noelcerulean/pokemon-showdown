@@ -1839,6 +1839,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	pinecodelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	forretress: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -2433,6 +2437,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	sableyemega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sableyefnf: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},

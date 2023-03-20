@@ -950,6 +950,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	pineco: {
 		name: "Pineco",
 	},
+	pinecodelta: {
+		name: "Pineco-Delta",
+	},
 	forretress: {
 		name: "Forretress",
 	},
@@ -1333,6 +1336,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	sableyemega: {
 		name: "Sableye-Mega",
+	},
+	sableyefnf: {
+		name: "Sableye-FnF",
 	},
 	sablechamp: {
 		name: "Sablechamp",

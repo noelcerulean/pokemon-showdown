@@ -1480,6 +1480,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	pineco: {
 		tier: "LC",
 	},
+	pinecodelta: {
+		tier: "LC",
+	},
 	forretress: {
 		randomBattleMoves: ["gyroball", "rapidspin", "spikes", "stealthrock", "toxic", "voltswitch"],
 		randomDoubleBattleMoves: ["gyroball", "protect", "stealthrock", "toxic", "voltswitch"],
@@ -2029,6 +2032,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["calmmind", "darkpulse", "recover", "shadowball", "willowisp"],
 		randomDoubleBattleMoves: ["fakeout", "knockoff", "protect", "recover", "shadowball", "willowisp"],
 		tier: "UUBL",
+		doublesTier: "DUU",
+	},
+	sableyefnf: {
+		randomBattleMoves: ["earthpower", "prehistoricpulse", "recover", "shadowball", "toxic", "willowisp"],
+		randomDoubleBattleMoves: ["fakeout", "helpinghand", "prehistoricpulse", "protect", "recover", "shadowball", "snarl", "willowisp"],
+		tier: "RU",
 		doublesTier: "DUU",
 	},
 	sablechamp: {
