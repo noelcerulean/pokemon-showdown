@@ -11882,6 +11882,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 48,
 		eggGroups: ["Monster", "Dragon"],
 	},
+	haxorusshredder: {
+		num: 612,
+		name: "Haxorus-Shredder",
+		types: ["Dragon"],
+		gender: "M",
+		baseStats: {hp: 76, atk: 150, def: 105, spa: 75, spd: 89, spe: 105},
+		abilities: {0: "Rampage", 1: "Mold Breaker", H: "Draconic Essence"},
+		heightm: 1.8,
+		weightkg: 105.5,
+		color: "Black",
+		eggGroups: ["Monster", "Dragon"],
+	},
 	cubchoo: {
 		num: 613,
 		name: "Cubchoo",

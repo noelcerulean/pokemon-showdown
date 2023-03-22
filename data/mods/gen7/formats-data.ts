@@ -3789,6 +3789,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
+	haxorusshredder: {
+		tier: "Uber",
+	},
 	cubchoo: {
 		tier: "LC",
 	},

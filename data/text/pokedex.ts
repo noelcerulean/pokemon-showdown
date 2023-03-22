@@ -2567,6 +2567,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	haxorus: {
 		name: "Haxorus",
 	},
+	haxorusshredder: {
+		name: "Haxorus-Shredder",
+	},
 	cubchoo: {
 		name: "Cubchoo",
 	},

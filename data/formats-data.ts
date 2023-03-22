@@ -4296,6 +4296,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
+	haxorusshredder: {
+		tier: "Uber",
+	},
 	cubchoo: {
 		tier: "LC",
 	},
