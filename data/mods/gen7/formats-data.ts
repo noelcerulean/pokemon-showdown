@@ -1457,6 +1457,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
+	bombseal: {
+		randomBattleMoves: ["barrage", "bombsaway", "flamecharge", "knockoff", "liquidation", "rockblast", "uturn"],
+		randomDoubleBattleMoves: ["barrage", "bombsaway", "flamecharge", "knockoff", "liquidation", "protect", "rockblast"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
 	unown: {
 		randomBattleMoves: ["hiddenpowerpsychic"],
 		tier: "(PU)",

@@ -4466,6 +4466,17 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 33,
 		eggGroups: ["Field"],
 	},
+	bombseal: {
+		num: -522,
+		name: "Bombseal",
+		types: ["Water", "Fire"],
+		baseStats: {hp: 86, atk: 117, def: 71, spa: 103, spd: 74, spe: 99},
+		abilities: {0: "Flame Absorb", 1: "Skill Link", H: "Aftermath"},
+		heightm: 1.3,
+		weightkg: 95,
+		color: "Red",
+		eggGroups: ["Water 1", "Field"],
+	},
 	unown: {
 		num: 201,
 		name: "Unown",
@@ -6281,6 +6292,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 72,
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
+		cosmeticFormes: ["Sablechamp-Mrsex"],
+		formeOrder: ["Sablechamp", "Sablechamp-Mrsex"],
 	},
 	mawile: {
 		num: 303,
