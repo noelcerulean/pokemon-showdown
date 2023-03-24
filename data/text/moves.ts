@@ -2837,8 +2837,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	hiddenpower: {
 		name: "Hidden Power",
-		desc: "This move's type depends on the user's individual values (IVs), and can be any type but Fairy and Normal.",
-		shortDesc: "Varies in type based on the user's IVs.",
+		desc: "This move's type depends on the user's individual values (IVs), and can be any type but Fairy and Normal. Its power is boosted by 1.5x when used by Allnown.",
+		shortDesc: "User IVs vary type. Allnown: 1.5x power.",
 		gen5: {
 			desc: "This move's type and power depend on the user's individual values (IVs). Power varies between 30 and 70, and type can be any but Normal.",
 			shortDesc: "Varies in power and type based on the user's IVs.",

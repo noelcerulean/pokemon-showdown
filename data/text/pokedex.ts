@@ -944,6 +944,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	unown: {
 		name: "Unown",
 	},
+	allnown: {
+		name: "Allnown",
+	},
 	wobbuffet: {
 		name: "Wobbuffet",
 	},

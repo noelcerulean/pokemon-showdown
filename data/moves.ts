@@ -8472,6 +8472,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 15,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
+		basePowerCallback(pokemon, target, move) {
+			if (pokemon.species.name === 'Allnown') {
+				return move.basePower * 1.5;
+			}
+			return move.basePower;
+		},
 		onModifyType(move, pokemon) {
 			move.type = pokemon.hpType || 'Dark';
 		},
