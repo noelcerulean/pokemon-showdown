@@ -717,7 +717,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 14,
 	},
-	coconcealment: {
+	concealment: {
 		onStart(pokemon) {
 			let newBaseTypes = pokemon.side.foe.active[0].getTypes(true).filter(type => type !== '???');
 			if (!newBaseTypes.length) {
