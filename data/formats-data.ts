@@ -4273,6 +4273,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	roboheeyem: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	litwick: {
 		tier: "LC",
 	},

@@ -11819,6 +11819,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 42,
 		eggGroups: ["Human-Like"],
 	},
+	roboheeyem: {
+		num: -524,
+		name: "Roboheeyem",
+		types: ["Steel", "Dark"],
+		gender: "N",
+		baseStats: {hp: 70, atk: 65, def: 95, spa: 135, spd: 75, spe: 45},
+		abilities: {0: "High Caliber", 1: "Color Change", H: "Analytic"},
+		heightm: 1,
+		weightkg: 104.5,
+		color: "Gray",
+		eggGroups: ["Undiscovered"],
+	},
 	litwick: {
 		num: 607,
 		name: "Litwick",

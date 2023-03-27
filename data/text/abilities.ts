@@ -250,6 +250,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Compound Eyes",
 		shortDesc: "This Pokemon's moves have their accuracy multiplied by 1.3.",
 	},
+	concealment: {
+		name: "Concealment",
+		desc: "This Pokemon copies the types of the target when sent out. If the target has lost their typing, this will fail.",
+		shortDesc: "When sent out, this Pokemon copies the target's type(s).",
+	},
 	contrary: {
 		name: "Contrary",
 		desc: "If this Pokemon has a stat stage raised it is lowered instead, and vice versa. This Ability does not affect stat stage increases received from Z-Power effects that happen before a Z-Move is used.",

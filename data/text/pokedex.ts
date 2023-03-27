@@ -2552,6 +2552,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	beheeyem: {
 		name: "Beheeyem",
 	},
+	roboheeyem: {
+		name: "Roboheeyem",
+	},
 	litwick: {
 		name: "Litwick",
 	},

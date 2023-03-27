@@ -717,6 +717,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 14,
 	},
+	coconcealment: {
+		onStart(pokemon) {
+			let newBaseTypes = pokemon.side.foe.active[0].getTypes(true).filter(type => type !== '???');
+			if (!newBaseTypes.length) {
+				if (pokemon.side.foe.active[0].addedType) {
+					newBaseTypes = ['Normal'];
+				} else {
+					return false;
+				}
+			}
+			this.add('-start', pokemon, 'typechange', '[from] move: Reflect Type', '[of] ' + pokemon.side.foe.active[0]);
+			pokemon.setType(newBaseTypes);
+			pokemon.addedType = pokemon.side.foe.active[0].addedType;
+			pokemon.knownType = pokemon.side.foe.active[0].isAlly(pokemon) && pokemon.side.foe.active[0].knownType;
+		},
+		name: "Concealment",
+		rating: 3,
+		num: -556,
+	},
 	contrary: {
 		onBoost(boost, target, source, effect) {
 			if (effect && effect.id === 'zpower') return;

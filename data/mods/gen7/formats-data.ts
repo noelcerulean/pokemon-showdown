@@ -3773,6 +3773,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RUBL",
 		doublesTier: "DOU",
 	},
+	roboheeyem: {
+		randomBattleMoves: ["darkpulse", "flamethrower", "nastyplot", "recover", "thunderwave", "trickroom"],
+		randomDoubleBattleMoves: ["darkpulse", "flamethrower", "nastyplot", "protect", "recover", "thunderwave", "trickroom"],
+		tier: "RUBL",
+		doublesTier: "DOU",
+	},
 	litwick: {
 		tier: "LC",
 	},
