@@ -1460,6 +1460,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	flygon: {
 		name: "Flygon",
 	},
+	arthrogon: {
+		name: "Arthrogon",
+	},
 	cacnea: {
 		name: "Cacnea",
 	},

@@ -2637,6 +2637,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	arthrogon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	cacnea: {
 		isNonstandard: "Past",
 		tier: "Illegal",

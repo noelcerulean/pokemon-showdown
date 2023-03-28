@@ -43,7 +43,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['Standard'],
-		banlist: ['Uber', 'Arena Trap', 'Battle Bond', 'Shadow Tag', 'Blaziken + Speed Boost', 'Landorus + Sheer Force', 'Power Construct', 'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z'],
+		banlist: ['Uber', 'Geomancy', 'Arena Trap', 'Battle Bond', 'Shadow Tag', 'Blaziken + Speed Boost', 'Landorus + Sheer Force', 'Power Construct', 'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z'],
 	},
 	{
 		name: "[Gen 7] UU",
@@ -55,6 +55,7 @@ export const Formats: FormatList = [
 		mod: 'gen7',
 		ruleset: ['[Gen 7] OU'],
 		banlist: ['OU', 'UUBL', 'Mewnium Z', 'Noxious Emission', 'Castform + Mordant Rock', 'Castform + Heat Rock', 'Drought', 'Castform + Damp Rock', 'Drizzle', 'Aurora Veil', 'Poliwrathium Z'],
+		unbanlist: ['Geomancy'],
 	},
 	{
 		name: "[Gen 7] RU",

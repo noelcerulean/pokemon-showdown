@@ -2253,6 +2253,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},
+	arthrogon: {
+		randomBattleMoves: ["dragondance", "earthquake", "firstimpression", "gunkshot", "outrage", "twineedle", "ultraslicer", "uturn"],
+		randomDoubleBattleMoves: ["dragondance", "earthquake", "firstimpression", "gunkshot", "outrage", "protect", "twineedle", "ultraslicer", "uturn"],
+		tier: "UUBL",
+		doublesTier: "(DUU)",
+	},
 	cacnea: {
 		tier: "LC",
 	},

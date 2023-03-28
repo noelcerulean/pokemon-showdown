@@ -6800,6 +6800,17 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		cosmeticFormes: ["Flygon-Winter", "Flygon-Jacket"],
 		formeOrder: ["Flygon", "Flygon-Winter", "Flygon-Jacket"],
 	},
+	arthrogon: {
+		num: -525,
+		name: "Arthrogon",
+		types: ["Bug", "Dragon"],
+		baseStats: {hp: 85, atk: 125, def: 85, spa: 70, spd: 85, spe: 90},
+		abilities: {0: "Sand Veil", 1: "Poison Touch", H: "Rivalry"},
+		heightm: 2.2,
+		weightkg: 75,
+		color: "Green",
+		eggGroups: ["Undiscovered"],
+	},
 	cacnea: {
 		num: 331,
 		name: "Cacnea",
