@@ -4503,6 +4503,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 5,
 		weightkg: 130,
 		color: "Black",
+		prevo: "Unown",
 		evoLevel: 10,
 		evoCondition: "with 5 Unown in party",
 		eggGroups: ["Undiscovered"],
