@@ -11839,7 +11839,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseStats: {hp: 70, atk: 65, def: 95, spa: 135, spd: 75, spe: 45},
 		abilities: {0: "Levitate", 1: "Download", H: "Concealment"},
 		heightm: 1,
-		weightkg: 104.5,
+		weightkg: 105,
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 	},
