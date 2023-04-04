@@ -75281,6 +75281,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			flail: ["8L21", "7L38", "6L38"],
 			flash: ["6M"],
 			flashcannon: ["8M", "7M", "6M"],
+			followme: ["7L1"],
 			frustration: ["7M", "6M"],
 			gigaimpact: ["8M", "7M", "6M"],
 			gyroball: ["8M", "7M", "6M"],
