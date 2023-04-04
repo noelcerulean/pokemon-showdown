@@ -3057,6 +3057,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 10% chance to freeze the target and a 10% chance to make it flinch.",
 		shortDesc: "10% chance to freeze. 10% chance to flinch.",
 	},
+	icefall: {
+		name: "Icefall",
+		desc: "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
+		shortDesc: "Less power as user's HP decreases. Hits foe(s).",
+	},
 	icehammer: {
 		name: "Ice Hammer",
 		desc: "Lowers the user's Speed by 1 stage.",

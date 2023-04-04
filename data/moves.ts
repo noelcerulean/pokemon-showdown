@@ -9173,6 +9173,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Ice",
 		contestType: "Beautiful",
 	},
+	icefall: {
+		num: -547,
+		accuracy: 100,
+		basePower: 150,
+		basePowerCallback(pokemon, target, move) {
+			return move.basePower * pokemon.hp / pokemon.maxhp;
+		},
+		category: "Special",
+		name: "Icefall",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: null,
+		target: "allAdjacentFoes",
+		type: "Ice",
+		contestType: "Beautiful",
+	},
 	icefang: {
 		num: 423,
 		accuracy: 95,

@@ -44250,6 +44250,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			hiddenpower: ["7M"],
 			hyperbeam: ["7M"],
 			icebeam: ["7M"],
+			icefall: ["7L1"],
 			iciclecrash: ["7L42"],
 			icywind: ["7T"],
 			lightscreen: ["7M"],

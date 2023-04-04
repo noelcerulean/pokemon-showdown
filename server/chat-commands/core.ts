@@ -104,7 +104,7 @@ const avatarTable = new Set([
 	'chuck-gen2', 'chuck',
 	'cilan',
 	'clair-gen2', 'clair',
-	'clarence-and-gwyneth',
+	'clarence-and-gwyneth', 'clarence', 'gwyneth',
 	'clay',
 	'clemont',
 	'clerkf',
