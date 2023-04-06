@@ -1911,6 +1911,7 @@ export class Pokemon {
 		if (this.hasAbility(['levitate', 'inflate']) && !this.battle.suppressingAbility()) return null;
 		if ('magnetrise' in this.volatiles) return false;
 		if ('telekinesis' in this.volatiles) return false;
+		if (item === 'magneticstone' && this.species.name === 'Probopass') return false;
 		return item !== 'airballoon';
 	}
 
