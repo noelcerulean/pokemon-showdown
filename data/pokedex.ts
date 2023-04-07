@@ -4476,6 +4476,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 95,
 		color: "Red",
 		eggGroups: ["Water 1", "Field"],
+		cosmeticFormes: ["Bombseal-Fiesta"],
+		formeOrder: ["Bombseal", "Bombseal-Fiesta"],
 	},
 	unown: {
 		num: 201,
