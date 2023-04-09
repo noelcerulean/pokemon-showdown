@@ -47154,6 +47154,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	castform: {
 		learnset: {
 			amnesia: ["7E", "6E", "5E", "4E"],
+			ancientpower: ["7L33"],
 			attract: ["7M", "6M", "5M", "4M", "3M"],
 			avalanche: ["4M"],
 			blizzard: ["7M", "7L35", "6M", "6L35", "5M", "5L50", "4M", "3M"],
@@ -47172,6 +47173,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			endure: ["4M", "3T"],
 			energyball: ["7M", "6M", "5M", "4M"],
 			facade: ["7M", "6M", "5M", "4M", "3M"],
+			fallout: ["7T"],
 			fireblast: ["7M", "7L35", "6M", "6L35", "5M", "5L50", "4M", "3M"],
 			flamethrower: ["7M", "6M", "5M", "4M", "3M"],
 			flash: ["6M", "5M", "4M", "3M"],
@@ -47194,6 +47196,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			naturalgift: ["4M"],
 			ominouswind: ["7E", "6E", "5E", "5D", "4T", "4E"],
 			powdersnow: ["7L10", "6L10", "5L10", "4L10", "3L10"],
+			prehistoricpulse: ["7T"],
 			protect: ["7M", "6M", "5M", "4M", "3M"],
 			psychup: ["7M", "6M", "5M", "4M", "4E", "3T", "3E"],
 			raindance: ["7M", "7L20", "6M", "6L20", "5M", "5L30", "4M", "4L20", "3M", "3L20"],
@@ -47208,6 +47211,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowball: ["7M", "6M", "5M", "4M", "3M"],
 			shockwave: ["7T", "6T", "4M", "3M"],
 			sleeptalk: ["7M", "6M", "5T", "4M", "3T"],
+			sludgewave: ["7M"],
 			snore: ["7T", "6T", "5T", "4T", "3T"],
 			solarbeam: ["7M", "6M", "5M", "4M", "3M"],
 			substitute: ["7M", "6M", "5M", "4M", "3T"],

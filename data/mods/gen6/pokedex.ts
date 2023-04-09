@@ -136,6 +136,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		color: "White",
 	},
+	castformsandy: {
+		inherit: true,
+		color: "White",
+	},
+	castformsmoggy: {
+		inherit: true,
+		color: "White",
+	},
 	chimecho: {
 		inherit: true,
 		baseStats: {hp: 65, atk: 50, def: 70, spa: 95, spd: 80, spe: 65},

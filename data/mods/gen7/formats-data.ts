@@ -2380,6 +2380,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	castformsnowy: {
 		randomBattleMoves: ["blizzard", "fireblast", "hail", "thunderbolt"],
 	},
+	castformsandy: {
+		randomBattleMoves: ["fireblast", "icebeam", "sandstorm", "weatherball"],
+	},
+	castformsmoggy: {
+		randomBattleMoves: ["fireblast", "miasma", "thunderbolt", "weatherball"],
+	},
 	kecleon: {
 		randomBattleMoves: ["drainpunch", "fakeout", "irondefense", "knockoff", "recover", "shadowsneak", "stealthrock", "suckerpunch"],
 		randomDoubleBattleMoves: ["drainpunch", "fakeout", "knockoff", "protect", "shadowsneak", "trickroom"],
