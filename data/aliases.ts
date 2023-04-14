@@ -376,6 +376,8 @@ export const Aliases: {[alias: string]: string} = {
 	solrockprism: "Solrock",
 	simisagefiend: "Simisage",
 	bulbasaursylvanos: "Bulbasaur",
+	ivysaursylvanos: "Ivysaur",
+	venusaursylvanos: "Venusaur",
 	garchompshark: "Garchomp",
 	heatmorprint: "Heatmor",
 	parasectfnfsunset: "Parasect-FnF",

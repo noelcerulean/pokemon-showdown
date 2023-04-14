@@ -57,7 +57,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 32,
 		eggGroups: ["Monster", "Grass"],
 		otherFormes: ["Venusaur-Mega"],
-		formeOrder: ["Venusaur", "Venusaur-Mega"],
+		cosmeticFormes: ["Venusaur-Sylvanos"],
+		formeOrder: ["Venusaur", "Venusaur-Mega", "Venusaur-Sylvanos"],
 		canGigantamax: "G-Max Vine Lash",
 	},
 	venusaurmega: {
