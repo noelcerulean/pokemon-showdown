@@ -9838,6 +9838,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			fling: ["8M", "7M", "6M", "5M", "4M"],
 			focusblast: ["8M", "7M", "6M", "5M", "4M"],
 			focuspunch: ["7T", "6T", "4M", "3M"],
+			followme: ["7L1"],
 			frustration: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			geyserblast: ["7L33"],
 			gigaimpact: ["8M", "7M", "6M", "5M", "4M"],
