@@ -38,7 +38,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			bide: ["7V"],
 			bind: ["7T", "6T", "5T"],
 			block: ["5S3"],
-			bodyslam: ["8M", "7V", "3T"],
+			bodyslam: ["8M", "7V", "4L30", "3T"],
 			bulletseed: ["8M", "4M", "3M"],
 			captivate: ["4M"],
 			celebrate: ["6S5"],
