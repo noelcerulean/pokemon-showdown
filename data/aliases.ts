@@ -440,6 +440,7 @@ export const Aliases: {[alias: string]: string} = {
 	sablechampmrsex: "Sablechamp",
 	sableyefnfrattlehead: "Sableye-FnF",
 	bombsealfiesta: "Bombseal",
+	diggersbypride: "Diggersby",
 
 
 	alcremierubycream: "Alcremie",

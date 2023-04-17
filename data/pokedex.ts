@@ -2102,7 +2102,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Warcass",
 		types: ["Fighting", "Ground"],
 		baseStats: {hp: 115, atk: 130, def: 110, spa: 60, spd: 75, spe: 90},
-		abilities: {0: "Striker", 1: "Steadfast", H: "Guts"},
+		abilities: {0: "Striker", 1: "Steadfast", H: "Mold Breaker"},
 		heightm: 1.8,
 		weightkg: 140,
 		color: "Brown",
@@ -12890,6 +12890,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Bunnelby",
 		evoLevel: 20,
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Diggersby-Pride"],
+		formeOrder: ["Diggersby", "Diggersby-Pride"],
 	},
 	fletchling: {
 		num: 661,
