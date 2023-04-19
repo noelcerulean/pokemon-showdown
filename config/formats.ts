@@ -138,7 +138,7 @@ export const Formats: FormatList = [
 		mod: 'gen7',
 		ruleset: ['Not Fully Evolved', 'Standard'],
 		banlist: [
-			'Chansey', 'Doublade', 'Gligar', 'Golbat', 'Gurdurr', 'Magneton', 'Piloswine', 'Porygon2', 'Rhydon', 'Scyther', 'Sneasel', 'Type: Null', 'Vigoroth',
+			'Chansey', 'Delcatty', 'Doublade', 'Gligar', 'Golbat', 'Gurdurr', 'Magneton', 'Piloswine', 'Porygon2', 'Rhydon', 'Scyther', 'Sneasel', 'Type: Null', 'Vigoroth',
 			'Arena Trap', 'Drought', 'Shadow Tag', 'Aurora Veil', 'Baton Pass',
 		],
 	},
