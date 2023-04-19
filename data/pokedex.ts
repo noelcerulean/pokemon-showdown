@@ -7218,7 +7218,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		abilities: {0: "Protean", 1: "Moxie", H: "Pure Heart"},
 		heightm: 1,
 		weightkg: 22,
-		color: "Green",
+		color: "Purple",
 		eggGroups: ["Undiscovered"],
 	},
 	shuppet: {
