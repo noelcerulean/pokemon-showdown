@@ -77081,7 +77081,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			confide: ["7M", "6M"],
 			covet: ["8E", "7T", "7E", "6T", "6E"],
 			cut: ["6M"],
-			dazzlinggleam: ["8M"],
+			dazzlinggleam: ["8M", "7M", "6M"],
 			dig: ["8M", "6M"],
 			discharge: ["8L40", "7L50", "6L50"],
 			doubleteam: ["7M", "6M"],
