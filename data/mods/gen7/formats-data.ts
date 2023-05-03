@@ -4013,7 +4013,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	landorus: {
 		randomBattleMoves: ["calmmind", "earthpower", "focusblast", "knockoff", "psychic", "rockpolish", "rockslide", "sludgewave", "stealthrock"],
 		randomDoubleBattleMoves: ["earthpower", "focusblast", "hiddenpowerice", "protect", "psychic", "rockslide", "sludgebomb"],
-		tier: "UU",
+		tier: "Uber",
 		doublesTier: "DUU",
 	},
 	landorustherian: {
