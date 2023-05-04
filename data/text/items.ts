@@ -1073,7 +1073,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	magneticstone: {
 		name: "Magnetic Stone",
-		desc: "Causes Probopass to use Magnet Rise on switch-in.",
+		desc: "Levitates Probopass using electromagnetism.",
 	},
 	magnezite: {
 		name: "Magnezite",
