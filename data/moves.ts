@@ -10640,8 +10640,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		condition: {
 			duration: 5,
-			onStart(target) {
+			onStart(target, source, sourceEffect) {
 				this.add('-start', target, 'Magnet Rise');
+				if (sourceEffect && sourceEffect.id === 'magneticstone') {
+					this.effectState.time = 256;
+				}
 			},
 			onImmunity(type) {
 				if (type === 'Ground') return false;
