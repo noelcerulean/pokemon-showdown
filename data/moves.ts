@@ -10643,7 +10643,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onStart(target, source, sourceEffect) {
 				this.add('-start', target, 'Magnet Rise');
 				if (sourceEffect && sourceEffect.id === 'magneticstone') {
-					this.effectState.time = 256;
+					this.effectState.duration = 256;
 				}
 			},
 			onImmunity(type) {
