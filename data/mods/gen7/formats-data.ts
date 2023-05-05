@@ -2766,7 +2766,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	bastiodondelta: {
 		randomBattleMoves: ["hex", "protect", "shadowball", "sludgewave", "toxic", "toxicspikes", "willowisp"],
 		randomDoubleBattleMoves: ["hex", "protect", "shadowball", "sludgewave", "toxic", "toxicspikes", "willowisp"],
-		tier: "UU",
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	burmy: {
