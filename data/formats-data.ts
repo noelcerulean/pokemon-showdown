@@ -5407,6 +5407,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "DOU",
 	},
+	tsareenadelta: {
+		randomBattleMoves: ["blazekick", "earthquake", "knockoff", "playrough", "rapidspin", "spikes", "synthesis", "uturn"],
+		randomBattleLevel: 84,
+		randomDoubleBattleMoves: ["blazekick", "earthquake", "feint", "knockoff", "playrough", "protect", "rapidspin", "spikes", "synthesis", "uturn"],
+		randomDoubleBattleLevel: 88,
+		tier: "PU",
+		doublesTier: "DOU",
+	},
 	comfey: {
 		randomBattleMoves: ["calmmind", "drainingkiss", "gigadrain", "storedpower", "trick", "uturn"],
 		randomBattleLevel: 86,

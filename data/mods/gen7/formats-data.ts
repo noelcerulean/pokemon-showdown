@@ -4773,6 +4773,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "DUU",
 	},
+	tsareenadelta: {
+		randomBattleMoves: ["blazekick", "earthquake", "knockoff", "playrough", "rapidspin", "spikes", "synthesis", "uturn"],
+		randomDoubleBattleMoves: ["blazekick", "earthquake", "feint", "knockoff", "playrough", "protect", "rapidspin", "spikes", "synthesis", "uturn"],
+		tier: "UU",
+		doublesTier: "DUU",
+	},
 	comfey: {
 		randomBattleMoves: ["aromatherapy", "drainingkiss", "synthesis", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["drainingkiss", "floralhealing", "taunt", "toxic", "uturn"],

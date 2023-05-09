@@ -18990,7 +18990,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		secondary: {
 			chance: 100,
 			boosts: {
-				spe: -2,
+				spe: -1,
 			},
 		},
 		target: "normal",
@@ -21157,7 +21157,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			{
 				chance: 100,
 				boosts: {
-					spe: -2,
+					spe: -1,
 				},
 			}, {
 				chance: 100,

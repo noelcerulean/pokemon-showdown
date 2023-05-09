@@ -3203,6 +3203,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	tsareena: {
 		name: "Tsareena",
 	},
+	tsareenadelta: {
+		name: "Tsareena-Delta",
+	},
 	comfey: {
 		name: "Comfey",
 	},
