@@ -82309,6 +82309,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			gigaimpact: ["8M", "7M"],
 			helpinghand: ["8M", "7T"],
 			hiddenpower: ["7M"],
+			highhorsepower: ["7T"],
 			hyperbeam: ["8M", "7M"],
 			knockoff: ["7T"],
 			laserfocus: ["7T"],
