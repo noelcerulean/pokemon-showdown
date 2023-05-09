@@ -194,8 +194,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	chemicalbath: {
 		name: "Chemical Bath",
-		desc: "If Miasma is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn. This Pokemon takes no damage from Miasma.",
-		shortDesc: "If Miasma is active, this Pokemon heals 1/16 max HP each turn; Miasma immunity.",
+		desc: "If Miasma is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn.",
+		shortDesc: "If Miasma is active, this Pokemon heals 1/16 max HP each turn.",
 	},
 	chillingneigh: {
 		name: "Chilling Neigh",
@@ -1931,7 +1931,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	toxcceleration: {
 		name: "Toxcceleration",
-		shortDesc: "If Miasma is active, this Pokemon's Speed is doubled; Immunity to miasma.",
+		shortDesc: "If Miasma is active, this Pokemon's Speed is doubled.",
 	},
 	trace: {
 		name: "Trace",

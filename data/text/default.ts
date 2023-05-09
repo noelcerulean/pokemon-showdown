@@ -295,7 +295,6 @@ export const DefaultText: {[k: string]: DefaultText} = {
 		start: "  A miasma fills the area!",
 		end: "  The miasma cleared up.",
 		upkeep: "  (The miasma is thick.)",
-		damage: "  [POKEMON] is buffeted by the miasma!",
 	},
 	desolateland: {
 		weatherName: "Intense Sun",

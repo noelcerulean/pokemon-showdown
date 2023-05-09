@@ -82313,8 +82313,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			knockoff: ["7T"],
 			laserfocus: ["7T"],
 			lightscreen: ["8M", "7M"],
-			lowkick: ["8M", "7T"],
-			lowsweep: ["8M", "7M"],
 			megakick: ["8M"],
 			naturepower: ["7M"],
 			payback: ["8M", "7M"],

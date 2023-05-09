@@ -557,9 +557,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				this.heal(target.baseMaxhp / 16);
 			}
 		},
-		onImmunity(type, pokemon) {
-			if (type === 'miasma') return false;
-		},
 		name: "Chemical Bath",
 		rating: 1,
 		num: -555,
@@ -3055,7 +3052,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	overcoat: {
 		onImmunity(type, pokemon) {
-			if (type === 'sandstorm' || type === 'hail' || type === 'miasma' || type === 'powder') return false;
+			if (type === 'sandstorm' || type === 'hail' || type === 'powder') return false;
 		},
 		onTryHitPriority: 1,
 		onTryHit(target, source, move) {
@@ -5176,9 +5173,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			if (this.field.isWeather('miasma')) {
 				return this.chainModify(2);
 			}
-		},
-		onImmunity(type, pokemon) {
-			if (type === 'miasma') return false;
 		},
 		name: "Toxcceleration",
 		rating: 3,
