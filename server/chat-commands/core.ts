@@ -260,6 +260,7 @@ const avatarTable = new Set([
 	'petrel',
 	'phoebe-gen3',
 	'picnicker-gen2', 'picnicker-gen3', 'picnicker-gen3rs', 'picnicker',
+	'pika',
 	'pilot',
 	'piper', 'piper-dress',
 	'plasmagruntf-gen5bw', 'plasmagruntf',
@@ -423,6 +424,7 @@ const avatarTableBrumirage = new Set([
 	'oleana', 'opal', 'peony', 'pesselle', 'phoebe-gen6', 'piers', 'raihan', 'rei', 'rose', 'sabi',
 	'sanqua', 'shielbert', 'sonia', 'sonia-professor', 'sordward', 'sordward-shielbert', 'tateandliza-gen6',
 	'victor', 'victor-dojo', 'volo', 'yellgrunt', 'yellgruntf', 'zisu',
+	'sada-ai', 'turo-ai',
 ]);
 
 const avatarTableZacWeavile = new Set([
@@ -431,6 +433,9 @@ const avatarTableZacWeavile = new Set([
 	'soliera', 'zossie',
 	'arven-v', 'dexio-gen6', 'flannery-gen6', 'green', 'grusha', 'mela', 'norman-gen6', 'penny',
 	'sina-gen6', 'steven-gen6',
+	'atticus', 'eri', 'giacomo', 'ginchiyo-conquest', 'hanbei-conquest', 'hero-conquest', 'hero2-conquest',
+	'heroine-conquest', 'heroine2-conquest', 'kunoichi-conquest', 'kunoichi2-conquest', 'masamune-conquest',
+	'nobunaga-conquest', 'oichi-conquest', 'ortega', 'ranmaru-conquest', 'serena-anime',
 ]);
 
 const avatarTableIceJkai = new Set([
@@ -487,6 +492,10 @@ const avatarTableKyleDove = new Set([
 	'geeta', 'hassel', 'hilda-masters3', 'iono', 'iris-masters', 'jacq', 'juliana-s', 'katy', 'kofu', 'larry', 'miriam', 'nemona-v',
 	'poppy', 'red-masters2', 'rei-isekai', 'rika', 'rosa-masters2', 'ryme', 'sada', 'stargrunt-s', 'stargrunt-v', 'stargruntf-s',
 	'stargruntf-v', 'steven-masters3', 'tulip', 'turo', 'tyme', 'wally-masters',
+	'amelia-shuffle', 'beauty-gen9', 'bede-masters', 'calem-masters', 'clerk-unite', 'dawn-masters3', 'dendra', 'diantha-masters2',
+	'erbie-unite', 'hilbert-masters2', 'hop-masters', 'jasmine-masters2', 'lisia-masters', 'marnie-masters3', 'matt', 'n-masters3',
+	'paulo-masters', 'phorus-unite', 'pokemaniac-gen9', 'serena-masters3', 'tabitha', 'tina-masters', 'trevor', 'whitney-masters',
+	'youngster-gen9', 'zirco-unite',
 ]);
 
 const avatarTableHyooppa = new Set([
