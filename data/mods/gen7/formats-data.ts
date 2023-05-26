@@ -1449,13 +1449,16 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	wolfman: {
-		tier: "NFE",
+		tier: "LC",
 	},
 	warwolf: {
 		randomBattleMoves: ["iciclecrash", "knockoff", "pursuit", "suckerpunch", "superpower", "swordsdance"],
 		randomDoubleBattleMoves: ["iciclecrash", "knockoff", "protect", "suckerpunch", "superpower", "swordsdance"],
 		tier: "UU",
 		doublesTier: "(DUU)",
+	},
+	boomba: {
+		tier: "LC",
 	},
 	bombseal: {
 		randomBattleMoves: ["barrage", "bombsaway", "flamecharge", "knockoff", "liquidation", "rockblast", "uturn"],
