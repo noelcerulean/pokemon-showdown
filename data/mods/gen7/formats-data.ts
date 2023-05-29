@@ -1466,6 +1466,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
+	mindow: {
+		tier: "LC",
+	},
 	unown: {
 		randomBattleMoves: ["hiddenpowerpsychic"],
 		tier: "(PU)",

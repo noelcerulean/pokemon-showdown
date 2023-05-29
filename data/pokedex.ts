@@ -567,8 +567,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Raichu", "Raichu-Alola"],
 		eggGroups: ["Field", "Fairy"],
 		otherFormes: ["Pikachu-Cosplay", "Pikachu-Rock-Star", "Pikachu-Belle", "Pikachu-Pop-Star", "Pikachu-PhD", "Pikachu-Libre", "Pikachu-Original", "Pikachu-Hoenn", "Pikachu-Sinnoh", "Pikachu-Unova", "Pikachu-Kalos", "Pikachu-Alola", "Pikachu-Partner", "Pikachu-Starter", "Pikachu-World"],
+		cosmeticFormes: ["Pikachu-Jooj"],
 		formeOrder: [
-			"Pikachu",
+			"Pikachu", "Pikachu-Jooj",
 			"Pikachu-Original", "Pikachu-Hoenn", "Pikachu-Sinnoh", "Pikachu-Unova", "Pikachu-Kalos", "Pikachu-Alola", "Pikachu-Partner", // Gen 7 formes
 			"Pikachu-Starter", // forme 8 in LGPE
 			"Pikachu-World", // Gen 8 forme (indexed as Pikachu 9 in datamine)
@@ -3891,7 +3892,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		canHatch: true,
 		otherFormes: ["Pichu-Spiky-eared"],
-		formeOrder: ["Pichu", "Pichu-Spiky-eared"],
+		cosmeticFormes: ["Pichu-Jooj"],
+		formeOrder: ["Pichu", "Pichu-Jooj", "Pichu-Spiky-eared"],
 	},
 	pichuspikyeared: {
 		num: 172,
@@ -4493,6 +4495,17 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 1", "Field"],
 		cosmeticFormes: ["Bombseal-Fiesta"],
 		formeOrder: ["Bombseal", "Bombseal-Fiesta"],
+	},
+	mindow: {
+		num: -527,
+		name: "Mindow",
+		types: ["Water"],
+		baseStats: {hp: 30, atk: 36, def: 36, spa: 54, spd: 66, spe: 57},
+		abilities: {0: "Water Bubble", 1: "Water Absorb", H: "Hydration"},
+		heightm: 0.5,
+		weightkg: 18,
+		color: "Blue",
+		eggGroups: ["Water 1", "Amorphous"],
 	},
 	unown: {
 		num: 201,
