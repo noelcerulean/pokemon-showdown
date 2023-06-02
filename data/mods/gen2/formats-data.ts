@@ -764,6 +764,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["curse", "flamethrower", "rest", "return", "screech", "shadowball", "surf", "thief"],
 		tier: "UU",
 	},
+	anchorage: {
+		randomBattleMoves: ["curse", "haze", "irontail", "surf"],
+		tier: "UU",
+	},
 	unown: {
 		randomBattleMoves: ["hiddenpowerpsychic"],
 		tier: "NU",

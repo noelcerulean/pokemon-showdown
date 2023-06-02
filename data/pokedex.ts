@@ -4496,6 +4496,17 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		cosmeticFormes: ["Bombseal-Fiesta"],
 		formeOrder: ["Bombseal", "Bombseal-Fiesta"],
 	},
+	anchorage: {
+		num: -528,
+		name: "Anchorage",
+		types: ["Water", "Steel"],
+		baseStats: {hp: 79, atk: 136, def: 113, spa: 67, spd: 74, spe: 71},
+		abilities: {0: "Water Veil", 1: "Territorial", H: "Mold Breaker"},
+		heightm: 1.7,
+		weightkg: 280,
+		color: "Gray",
+		eggGroups: ["Water 2"],
+	},
 	mindow: {
 		num: -527,
 		name: "Mindow",

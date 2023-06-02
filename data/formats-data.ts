@@ -1823,6 +1823,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	anchorage: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	mindow: {
 		isNonstandard: "Past",
 		tier: "Illegal",
