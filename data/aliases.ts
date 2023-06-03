@@ -424,6 +424,7 @@ export const Aliases: {[alias: string]: string} = {
 	fraxurefrenzydeity: "Fraxure-Frenzy",
 	raichumalachiteberserker: "Raichu-Malachite",
 	raichumalachiterockstar: "Raichu-Malachite",
+	golisopodmusashistache: "Golisopod-Musashi",
 	altariaeventide: "Altaria",
 	decidueyeapollotoga: "Decidueye-Apollo",
 	misdreavusbanshee: "Misdreavus",

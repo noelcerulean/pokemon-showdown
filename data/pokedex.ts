@@ -15013,6 +15013,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 108,
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
+		cosmeticFormes: ["Golisopod-Musashi-Stache"],
+		formeOrder: ["Golisopod-Musashi", "Golisopod-Musashi-Stache"],
 	},
 	sandygast: {
 		num: 769,
