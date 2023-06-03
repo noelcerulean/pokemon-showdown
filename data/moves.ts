@@ -21495,7 +21495,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	typhonicthunderstorm: {
 		num: -548,
 		accuracy: true,
-		basePower: 200,
+		basePower: 210,
 		category: "Physical",
 		isNonstandard: "Past",
 		name: "Typhonic Thunderstorm",
