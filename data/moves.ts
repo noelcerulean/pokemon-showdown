@@ -21507,7 +21507,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			chance: 100,
 			self: {
 				onHit() {
-					this.field.setTerrain('psychicterrain');
+					this.field.setTerrain('electricterrain');
 					this.field.setWeather('raindance');
 				},
 			},
