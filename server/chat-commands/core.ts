@@ -293,6 +293,7 @@ const avatarTable = new Set([
 	'renato',
 	'reporter',
 	'resix', 'greesix', 'blusix', 'yellosix', 'purpsix', 'browsix',
+	'rex',
 	'richboy-gen3', 'richboy-gen4', 'richboy',
 	'riley',
 	'roark',
