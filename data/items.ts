@@ -2442,7 +2442,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	gorochuniumz: {
 		name: "Gorochunium Z",
-		spritenum: 747,
+		spritenum: 769,
 		onTakeItem: false,
 		zMove: "Typhonic Thunderstorm",
 		zMoveFrom: "Volt Tackle",
