@@ -3390,6 +3390,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 10% chance to paralyze the target.",
 		shortDesc: "10% chance to paralyze the target.",
 	},
+	lightninglance: {
+		name: "Lightning Lance",
+		desc: "Ignores the target's stat stage changes.",
+		shortDesc: "Ignores the target's stat stage changes.",
+	},
 	lightofruin: {
 		name: "Light of Ruin",
 		desc: "If the target lost HP, the user takes recoil damage equal to 1/2 the HP lost by the target, rounded half up, but not less than 1 HP.",
@@ -7086,6 +7091,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "Has a 20% chance to make the target flinch. Power doubles if the target is using Fly.",
 			shortDesc: "20% chance to make the target flinch.",
 		},
+	},
+	typhonicthunderstorm: {
+		name: "Typhonic Thunderstorm",
+		desc: "If this move is successful, the terrain becomes Electric Terrain and the weather becomes Rain.",
+		shortDesc: "Summons Electric Terrain and Rain.",
 	},
 	ultraslicer: {
 		name: "Ultra Slicer",

@@ -443,6 +443,7 @@ export const Aliases: {[alias: string]: string} = {
 	diggersbypride: "Diggersby",
 	pikachujooj: "Pikachu",
 	pichujooj: "Pichu",
+	roseradearmoredsummer: "Roserade-Armored",
 
 
 	alcremierubycream: "Alcremie",
@@ -1039,6 +1040,7 @@ export const Aliases: {[alias: string]: string} = {
 	zraichu: "Stoked Sparksurfer",
 	zelectrode: "Boisterous Blackout",
 	zpoliwrath: "Unified Upsurge",
+	zgorochu: "Typhonic Thunderstorm",
 	zlickilickyfnf: "Merciless Marinade",
 	zsnorlax: "Pulverizing Pancake",
 	zsolgaleo: "Searing Sunraze Smash",

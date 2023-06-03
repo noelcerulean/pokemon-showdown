@@ -2440,6 +2440,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	gorochuniumz: {
+		name: "Gorochunium Z",
+		spritenum: 747,
+		onTakeItem: false,
+		zMove: "Typhonic Thunderstorm",
+		zMoveFrom: "Volt Tackle",
+		itemUser: ["Gorochu"],
+		num: -531,
+		gen: 7,
+		isNonstandard: "Past",
+	},
 	granbullarmor: {
 		name: "Granbull Armor",
 		spritenum: 746,

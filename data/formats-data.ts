@@ -279,6 +279,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PUBL",
 		doublesTier: "(DUU)",
 	},
+	gorochu: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	sandshrew: {
 		tier: "LC",
 	},
@@ -1824,6 +1828,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	anchorage: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	minamai: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	marelstorm: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},

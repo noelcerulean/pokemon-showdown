@@ -261,6 +261,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	gorochuniumz: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	grassgem: {
 		inherit: true,
 		isNonstandard: "Unobtainable",

@@ -10099,6 +10099,21 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Cool",
 	},
+	lightninglance: {
+		num: -549,
+		accuracy: 100,
+		basePower: 85,
+		category: "Physical",
+		name: "Lightning Lance",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, blade: 1},
+		ignoreDefensive: true,
+		secondary: null,
+		target: "normal",
+		type: "Electric",
+		contestType: "Cool",
+	},
 	lightofruin: {
 		num: 617,
 		accuracy: 90,
@@ -21475,6 +21490,30 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		target: "allAdjacentFoes",
 		type: "Dragon",
+		contestType: "Cool",
+	},
+	typhonicthunderstorm: {
+		num: -548,
+		accuracy: true,
+		basePower: 200,
+		category: "Physical",
+		isNonstandard: "Past",
+		name: "Typhonic Thunderstorm",
+		pp: 1,
+		priority: 0,
+		flags: {},
+		isZ: "gorochuniumz",
+		secondary: {
+			chance: 100,
+			self: {
+				onHit() {
+					this.field.setTerrain('psychicterrain');
+					this.field.setWeather('raindance');
+				},
+			},
+		},
+		target: "normal",
+		type: "Electric",
 		contestType: "Cool",
 	},
 	ultraslicer: {

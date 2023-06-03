@@ -718,6 +718,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Goodrite",
 		desc: "If held by an Goodra, this item allows it to Mega Evolve in battle.",
 	},
+	gorochuniumz: {
+		name: "Gorochunium Z",
+		desc: "If held by an Gorochu with Volt Tackle, it can use Typhonic Thunderstorm.",
+	},
 	granbullarmor: {
 		name: "Granbull Armor",
 		desc: "Armor developed by DoReMi for Granbull to enhance its battle capabilities.",

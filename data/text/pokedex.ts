@@ -176,6 +176,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	raichualola: {
 		name: "Raichu-Alola",
 	},
+	gorochu: {
+		name: "Gorochu",
+	},
 	sandshrew: {
 		name: "Sandshrew",
 	},
@@ -946,6 +949,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	anchorage: {
 		name: "Anchorage",
+	},
+	minamai: {
+		name: "Minamai",
+	},
+	marelstorm: {
+		name: "Marelstorm",
 	},
 	mindow: {
 		name: "Mindow",

@@ -4601,9 +4601,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onModifySpD(spd) {
 			return this.chainModify(1.3);
 		},
-		onModifyAccuracyPriority: 6,
-		onModifyAccuracy(accuracy) {
-			return this.chainModify(1.3);
+		onSourceModifyAccuracyPriority: -1,
+		onSourceModifyAccuracy(accuracy) {
+			if (typeof accuracy !== 'number') return;
+			this.debug('stall - enhancing accuracy');
+			return this.chainModify([5325, 4096]);
 		},
 		onFractionalPriority: -0.1,
 		isBreakable: true,
