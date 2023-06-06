@@ -210,7 +210,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	gorochu: {
 		randomBattleMoves: ["bulkup", "dragonclaw", "knockoff", "lightningkick", "outrage", "submission"],
 		randomDoubleBattleMoves: ["bulkup", "dragonclaw", "knockoff", "lightningkick", "outrage", "protect", "submission"],
-		tier: "UUBL",
+		tier: "OU",
 		doublesTier: "DUU",
 	},
 	sandshrew: {
@@ -1482,10 +1482,16 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	marelstorm: {
-		tier: "UUBL",
+		tier: "OU",
 	},
 	mindow: {
 		tier: "LC",
+	},
+	slugnami: {
+		randomBattleMoves: ["hydropump", "icebeam", "knockoff", "recover", "sludgewave", "toxic"],
+		randomDoubleBattleMoves: ["hydropump", "icebeam", "knockoff", "protect", "recover", "sludgewave"],
+		tier: "RU",
+		doublesTier: "(DUU)",
 	},
 	unown: {
 		randomBattleMoves: ["hiddenpowerpsychic"],

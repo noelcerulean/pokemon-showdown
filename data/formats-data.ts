@@ -1843,6 +1843,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	slugnami: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	unown: {
 		isNonstandard: "Past",
 		tier: "Illegal",
