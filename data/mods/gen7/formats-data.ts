@@ -3763,9 +3763,18 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	joltik: {
 		tier: "LC",
 	},
+	joltikdelta: {
+		tier: "LC",
+	},
 	galvantula: {
 		randomBattleMoves: ["bugbuzz", "gigadrain", "hiddenpowerice", "stickyweb", "thunder", "voltswitch"],
 		randomDoubleBattleMoves: ["bugbuzz", "energyball", "hiddenpowerice", "protect", "stickyweb", "thunder", "voltswitch"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
+	galvantuladelta: {
+		randomBattleMoves: ["fireblast", "flamethrower", "gigadrain", "hiddenpowerground", "moonblast", "stickyweb", "willowisp"],
+		randomDoubleBattleMoves: ["flamethrower", "gigadrain", "hiddenpowerground", "moonblast", "protect", "stickyweb"],
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},

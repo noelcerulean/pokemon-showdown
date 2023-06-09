@@ -4252,6 +4252,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	joltik: {
 		tier: "LC",
 	},
+	joltikdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	galvantula: {
 		randomBattleMoves: ["bugbuzz", "gigadrain", "stickyweb", "thunder", "voltswitch"],
 		randomBattleLevel: 82,
@@ -4259,6 +4263,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 86,
 		tier: "PU",
 		doublesTier: "(DUU)",
+	},
+	galvantuladelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	ferroseed: {
 		tier: "LC",

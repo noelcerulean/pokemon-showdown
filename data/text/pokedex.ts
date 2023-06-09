@@ -2546,8 +2546,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	joltik: {
 		name: "Joltik",
 	},
+	joltikdelta: {
+		name: "Joltik-Delta",
+	},
 	galvantula: {
 		name: "Galvantula",
+	},
+	galvantuladelta: {
+		name: "Galvantula-Delta",
 	},
 	ferroseed: {
 		name: "Ferroseed",
