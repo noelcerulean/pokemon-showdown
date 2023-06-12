@@ -1254,7 +1254,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	furretmega: {
 		randomBattleMoves: ["aquatail", "coil", "doubleedge", "extremespeed", "firepunch", "knockoff", "playrough", "uturn"],
 		randomDoubleBattleMoves: ["doubleedge", "extremespeed", "followme", "helpinghand", "knockoff", "protect", "superfang", "uturn"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	hoothoot: {
@@ -2144,7 +2144,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	manectricmega: {
 		randomBattleMoves: ["hiddenpowergrass", "hiddenpowerice", "overheat", "thunderbolt", "voltswitch"],
 		randomDoubleBattleMoves: ["flamethrower", "hiddenpowergrass", "hiddenpowerice", "protect", "snarl", "thunderbolt", "voltswitch"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "DOU",
 	},
 	plusle: {
@@ -2790,7 +2790,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	bastiodon: {
 		randomBattleMoves: ["dragontail", "kingsshield", "metalburst", "roar", "rockblast", "spikes", "stealthrock", "toxic"],
 		randomDoubleBattleMoves: ["guardsplit", "metalburst", "protect", "stealthrock", "stoneedge", "wideguard"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	bastiodondelta: {
@@ -4329,7 +4329,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	malamar: {
 		randomBattleMoves: ["happyhour", "knockoff", "psychoboost", "psychocut", "rest", "sleeptalk", "superpower"],
 		randomDoubleBattleMoves: ["knockoff", "protect", "psychoboost", "psychocut", "rockslide", "superpower", "trickroom"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	binacle: {
