@@ -5368,6 +5368,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Chansey",
 		evoType: "levelFriendship",
 		eggGroups: ["Fairy"],
+		cosmeticFormes: ["Blissey-Butcher"],
+		formeOrder: ["Blissey", "Blissey-Butcher"],
 	},
 	raikou: {
 		num: 243,
