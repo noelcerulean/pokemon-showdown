@@ -476,7 +476,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	alakazammega: {
 		randomBattleMoves: ["calmmind", "encore", "focusblast", "psyshock", "shadowball", "substitute"],
 		randomDoubleBattleMoves: ["calmmind", "encore", "focusblast", "protect", "psychic", "shadowball"],
-		tier: "OU",
+		tier: "Uber",
 		doublesTier: "(DUU)",
 	},
 	machop: {

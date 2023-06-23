@@ -530,7 +530,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	aromabomb: {
 		num: -540,
 		accuracy: 100,
-		basePower: 100,
+		basePower: 90,
 		category: "Special",
 		name: "Aroma Bomb",
 		pp: 10,

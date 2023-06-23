@@ -2195,12 +2195,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		onAnyModifyBoost(boosts, pokemon) {
 			const fragrantherbUser = this.effectState.target;
 			if (fragrantherbUser === pokemon) return;
-			if (fragrantherbUser === this.activePokemon && this.activePokemon?.baseSpecies.name === 'Meganium' && pokemon === this.activeTarget) {
+			if (fragrantherbUser === this.activePokemon && this.activePokemon?.baseSpecies.num === 154 && pokemon === this.activeTarget) {
 				boosts['def'] = 0;
 				boosts['spd'] = 0;
 				boosts['evasion'] = 0;
 			}
-			if (pokemon === this.activePokemon && fragrantherbUser === this.activeTarget && this.activeTarget?.baseSpecies.name === 'Meganium') {
+			if (pokemon === this.activePokemon && fragrantherbUser === this.activeTarget && this.activeTarget?.baseSpecies.num === 154) {
 				boosts['atk'] = 0;
 				boosts['def'] = 0;
 				boosts['spa'] = 0;
@@ -2213,7 +2213,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			}
 			return true;
 		},
-		itemUser: ["Meganium"],
+		itemUser: ["Meganium", "Meganium-Aniseed"],
 		num: -525,
 		gen: 7,
 	},
