@@ -9238,7 +9238,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	icedrill: {
 		num: -550,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 70,
 		category: "Physical",
 		name: "Ice Drill",
 		pp: 15,
