@@ -1282,7 +1282,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Old Doll",
 		desc: "When held by Banette, grants immunity to Dark-type attacks.",
 
-		start: "  The Old Doll is sponging dark energy for [POKEMON]!",
+		start: "  [POKEMON]'s Old Doll is absorbing dark energy!",
 	},
 	oranberry: {
 		name: "Oran Berry",
@@ -1591,6 +1591,8 @@ export const ItemsText: {[k: string]: ItemText} = {
 	royaljelly: {
 		name: "Royal Jelly",
 		desc: "Protects Vespiquen from indirect damage and status moves on switch-in.",
+
+		start: "  [POKEMON]'s Royal Jelly offers some protection!",
 	},
 	rustedshield: {
 		name: "Rusted Shield",
