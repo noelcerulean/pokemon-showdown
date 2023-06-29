@@ -13225,6 +13225,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			hiddenpower: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			horndrill: ["7E", "7V", "6E", "5E", "4E", "3E"],
 			icebeam: ["8V", "7M", "7L47", "7V", "6M", "6L47", "5M", "5L47", "4M", "4L47", "3M", "3L41", "3S0"],
+			icedrill: ["7L33"],
 			iceshard: ["8V", "7L17", "6L17", "5L17", "4L17"],
 			iciclecrash: ["7L36"],
 			iciclespear: ["7E", "6E", "5E", "5D", "4E", "3E"],
@@ -13314,6 +13315,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			horndrill: ["8V", "7V"],
 			hyperbeam: ["8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			icebeam: ["8V", "7M", "7L55", "7V", "6M", "6L55", "5M", "5L55", "4M", "4L47", "3M", "3L51"],
+			icedrill: ["7L37"],
 			iceshard: ["8V", "7L17", "6L17", "5L17", "4L17"],
 			iciclecrash: ["7L39"],
 			icywind: ["7T", "7L1", "7V", "6T", "6L1", "5T", "5L1", "4T", "4L1", "3T", "3L1"],
@@ -54531,6 +54533,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	cherrim: {
 		learnset: {
 			attract: ["8M", "7M", "6M", "5M", "4M"],
+			budding: ["7L25"],
 			bulletseed: ["8M", "4M"],
 			captivate: ["4M"],
 			confide: ["7M", "6M"],
@@ -54910,6 +54913,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			secretpower: ["6M", "4M"],
 			selfdestruct: ["8M", "8L31"],
 			shadowball: ["8M", "8L20", "7M", "7L40", "6M", "6L40", "5M", "5L51", "4M", "4L44"],
+			shadowclaw: ["7M"],
 			shockwave: ["7T", "6T", "4M"],
 			silverwind: ["4M"],
 			skillswap: ["8M", "7T", "6T", "5T", "4M"],
@@ -54936,6 +54940,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			weatherball: ["8M"],
 			whirlwind: ["7L1"],
 			willowisp: ["8M", "7M", "6M", "5M", "4M"],
+			workup: ["7M"],
 		},
 		encounters: [
 			{generation: 7, level: 11, pokeball: "pokeball"},

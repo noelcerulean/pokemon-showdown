@@ -687,6 +687,13 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		start: "  [POKEMON] became trapped in primordial bubbles!",
 	},
+	budding: {
+		name: "Budding",
+		desc: "When Cherrim is in Sunshine forme, this move becomes Fire type, 1.5x stronger, and has a 10% chance to burn. In base forme, it sets Leech Seed to non-Grass type opponents.",
+		shortDesc: "Changes based on Cherrim's forme.",
+
+		activate: "  The sunshine allowed for a full bloom!",
+	},
 	bugbite: {
 		name: "Bug Bite",
 		desc: "If this move is successful and the user has not fainted, it steals the target's held Berry if it is holding one and eats it immediately, gaining its effects even if the user's item is being ignored. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
@@ -3051,6 +3058,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Charges turn 1. Hits turn 2. 30% burn.",
 
 		prepare: "  [POKEMON] became cloaked in freezing air!",
+	},
+	icedrill: {
+		name: "Ice Drill",
+		desc: "Has a 10% chance to freeze the target. This move's type effectiveness against Water is changed to be super effective no matter what this move's type is.",
+		shortDesc: "10% chance to freeze. Super effective on Water.",
 	},
 	icefang: {
 		name: "Ice Fang",
@@ -7447,7 +7459,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	xscissor: {
 		name: "X-Scissor",
-		shortDesc: "No additional effect.",
+		desc: "Has a higher chance for a critical hit.",
+		shortDesc: "High critical hit ratio.",
 	},
 	yawn: {
 		name: "Yawn",

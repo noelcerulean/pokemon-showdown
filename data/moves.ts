@@ -321,7 +321,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	airslash: {
 		num: 403,
-		accuracy: 95,
+		accuracy: 100,
 		basePower: 75,
 		category: "Special",
 		name: "Air Slash",
@@ -1863,6 +1863,42 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Water",
 		contestType: "Beautiful",
+	},
+	budding: {
+		num: -551,
+		accuracy: 100,
+		basePower: 60,
+		category: "Physical",
+		name: "Budding",
+		pp: 10,
+		priority: 0,
+		flags: {},
+		onPrepareHit(pokemon) {
+			if (pokemon.species.id === 'cherrimsunshine') {
+				this.attrLastMove('[anim] Sunshine Dance');
+			} else {
+				this.attrLastMove('[anim] Budding');
+			}
+		},
+		onModifyMove(move, pokemon) {
+			move.fullbloom = false;
+			if (pokemon.species.id === 'cherrimsunshine') {
+				move.basePower = 90;
+				move.type = "Fire";
+				move.secondary = {
+					chance: 10,
+					status: 'brn'};
+				move.fullbloom = true;
+				this.add('-activate', pokemon, 'move: Budding');
+			}
+		},
+		onHit(target, source, move) {
+			if ((move.fullbloom === false) && (target.hasType('Grass') === false)) target.addVolatile('leechseed', source);
+		},
+		secondary: null,
+		target: "normal",
+		type: "Grass",
+		contestType: "Cute",
 	},
 	bugbite: {
 		num: 450,
@@ -7081,6 +7117,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				this.add('-sidestart', side, 'move: G-Max Steelsurge');
 			},
 			onSwitchIn(pokemon) {
+				if (pokemon.species.name === 'Vespiquen' && pokemon.hasItem('royaljelly')) return;
 				if (pokemon.hasItem('heavydutyboots')) return;
 				if (pokemon.hasAbility('wonderguard')) return;
 				// Ice Face and Disguise correctly get typed damage from Stealth Rock
@@ -9172,6 +9209,26 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Ice",
 		contestType: "Beautiful",
+	},
+	icedrill: {
+		num: -550,
+		accuracy: 100,
+		basePower: 75,
+		category: "Physical",
+		name: "Ice Drill",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Water') return 1;
+		},
+		secondary: {
+			chance: 10,
+			status: 'frz',
+		},
+		target: "normal",
+		type: "Ice",
+		contestType: "Tough",
 	},
 	icefall: {
 		num: -547,
@@ -19052,6 +19109,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 			onSwitchIn(pokemon) {
 				if (!pokemon.isGrounded()) return;
+				if (pokemon.species.name === 'Vespiquen' && pokemon.hasItem('royaljelly')) return;
 				if (pokemon.hasItem('heavydutyboots')) return;
 				if (pokemon.hasAbility('wonderguard')) return;
 				const damageAmounts = [0, 3, 4, 6]; // 1/8, 1/6, 1/4
@@ -19356,6 +19414,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				this.add('-sidestart', side, 'move: Stealth Rock');
 			},
 			onSwitchIn(pokemon) {
+				if (pokemon.species.name === 'Vespiquen' && pokemon.hasItem('royaljelly')) return;
 				if (pokemon.hasItem('heavydutyboots')) return;
 				if (pokemon.hasAbility('wonderguard')) return;
 				const typeMod = this.clampIntRange(pokemon.runEffectiveness(this.dex.getActiveMove('stealthrock')), -6, 6);
@@ -22465,6 +22524,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 15,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, blade: 1},
+		critRatio: 2,
 		secondary: null,
 		target: "normal",
 		type: "Bug",

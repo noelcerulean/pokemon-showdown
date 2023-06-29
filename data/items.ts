@@ -4141,6 +4141,27 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 246,
 		gen: 2,
 	},
+	nightsedge: {
+		name: "Night's Edge",
+		fling: {
+			basePower: 60,
+		},
+		spritenum: 770,
+		onModifyCritRatio(critRatio, source, target, move: ActiveMove) {
+			if ((source.baseSpecies.name === 'Absol') && move.flags['blade']) {
+				return critRatio + 2;
+			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 359) || pokemon.baseSpecies.num === 359) {
+				return false;
+			}
+			return true;
+		},
+		itemUser: ["Absol"],
+		num: -532,
+		gen: 7,
+	},
 	nobunagaarmor: {
 		name: "Nobunaga Armor",
 		spritenum: 754,
@@ -4237,6 +4258,28 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 103,
 		gen: 3,
 		isNonstandard: "Past",
+	},
+	olddoll: {
+		name: "Old Doll",
+		fling: {
+			basePower: 60,
+		},
+		spritenum: 771,
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Dark') {
+				this.add('-immune', target, '[from] item: Old Doll');
+				return null;
+			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 354) || pokemon.baseSpecies.num === 354) {
+				return false;
+			}
+			return true;
+		},
+		itemUser: ["Banette"],
+		num: -533,
+		gen: 7,
 	},
 	oranberry: {
 		name: "Oran Berry",
@@ -5278,6 +5321,28 @@ export const Items: {[itemid: string]: ItemData} = {
 		onEat() { },
 		num: 212,
 		gen: 4,
+	},
+	royaljelly: {
+		name: "Royal Jelly",
+		fling: {
+			basePower: 60,
+		},
+		spritenum: 772,
+		onTryHit(target, source, move) {
+			if (move.category === 'Status' && !target.activeTurns) {
+				this.add('-immune', target, '[from] item: Royal Jelly');
+				return null;
+			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 416) || pokemon.baseSpecies.num === 416) {
+				return false;
+			}
+			return true;
+		},
+		itemUser: ["Vespiquen"],
+		num: -534,
+		gen: 7,
 	},
 	rustedshield: {
 		name: "Rusted Shield",

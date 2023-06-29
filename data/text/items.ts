@@ -1241,6 +1241,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 			desc: "Holder's Ice-type attacks have 1.1x power.",
 		},
 	},
+	nightsedge: {
+		name: "Night's Edge",
+		desc: "When held by Absol, critical hit ratio of blade moves are raised by 2 stages.",
+		shortDesc: "Absol: +2 crit ratio to blade moves.",
+	},
 	nobunagaarmor: {
 		name: "Nobunaga Armor",
 		desc: "Nobunaga's armor, adjusted by Agnes.",
@@ -1272,6 +1277,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	oldamber: {
 		name: "Old Amber",
 		desc: "Can be revived into Aerodactyl.",
+	},
+	olddoll: {
+		name: "Old Doll",
+		desc: "When held by Banette, grants immunity to Dark-type attacks.",
 	},
 	oranberry: {
 		name: "Oran Berry",
@@ -1576,6 +1585,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	rowapberry: {
 		name: "Rowap Berry",
 		desc: "If holder is hit by a special move, attacker loses 1/8 of its max HP. Single use.",
+	},
+	royaljelly: {
+		name: "Royal Jelly",
+		desc: "Protects Vespiquen from indirect damage and status moves on switch-in.",
 	},
 	rustedshield: {
 		name: "Rusted Shield",
