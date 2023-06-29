@@ -54533,7 +54533,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	cherrim: {
 		learnset: {
 			attract: ["8M", "7M", "6M", "5M", "4M"],
-			budding: ["7L25"],
 			bulletseed: ["8M", "4M"],
 			captivate: ["4M"],
 			confide: ["7M", "6M"],
@@ -54544,6 +54543,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			energyball: ["8M", "7M", "6M", "5M", "4M"],
 			facade: ["8M", "7M", "6M", "5M", "4M"],
 			flash: ["6M", "5M", "4M"],
+			florapower: ["7L30"],
 			flowershield: ["8L1"],
 			frustration: ["7M", "6M", "5M", "4M"],
 			gigadrain: ["8M", "7T", "6T", "5T", "4M"],

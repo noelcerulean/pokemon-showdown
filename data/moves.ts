@@ -605,7 +605,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {},
 		onHit(target) {
 			const noAssist = [
-				'assist', 'banefulbunker', 'beakblast', 'belch', 'bestow', 'bounce', 'celebrate', 'chatter', 'circlethrow', 'copycat', 'counter', 'covet', 'destinybond', 'detect', 'dig', 'dive', 'dragontail', 'endure', 'feint', 'fly', 'focuspunch', 'followme', 'helpinghand', 'holdhands', 'kingsshield', 'matblock', 'mefirst', 'metronome', 'mimic', 'mirrorcoat', 'mirrormove', 'naturepower', 'phantomforce', 'protect', 'ragepowder', 'regroup', 'regroup2', 'roar', 'shadowevoboost', 'shadowbath', 'shadowglow', 'shadowflame', 'shadowglaze', 'shadowmoss', 'shadowsprites', 'shadowdestruction', 'shadowdevastation', 'shadowbandit', 'shadowbolt', 'shadowbreak', 'shadowcascade', 'shadowchant', 'shadowcharge', 'shadowchill', 'shadowcinder', 'shadowcombust', 'shadowdance', 'shadowdevour', 'shadowdissolve', 'shadowdoomsday', 'shadowdown', 'shadowend', 'shadowfire', 'shadowfission', 'shadowfog', 'shadowfrost', 'shadowfumes', 'shadowfusion', 'shadowhatred', 'shadowhaunting', 'shadowhold', 'shadowhubris', 'shadowhurl', 'shadowintensify', 'shadowjolt', 'shadowmeld', 'shadowmist', 'shadowmoon', 'shadowpanic', 'shadowphoenix', 'shadowpivot', 'shadowpunish', 'shadowrage', 'shadowrainbow', 'shadowrave', 'shadowreset', 'shadowroulette', 'shadowrush', 'shadowscheme', 'shadowseed', 'shadowshackle', 'shadowshatter', 'shadowshed', 'shadowshuffle', 'shadowsiren', 'shadowslasher', 'shadowsnipe', 'shadowsorcery', 'shadowspell', 'shadowsprint', 'shadowstare', 'shadowstorm', 'shadowsun', 'shadowthreat', 'shadowtitan', 'shadowtrance', 'shadowvampirism', 'shadowvelocity', 'shadowvengeance', 'shadowwall', 'shadowwave', 'shadowwheel', 'shadowwhip', 'shadowwreckage', 'shadowforce', 'shelltrap', 'sketch', 'skydrop', 'sleeptalk', 'snatch', 'spikyshield', 'spotlight', 'struggle', 'switcheroo', 'thief', 'transform', 'trick', 'whirlwind',
+				'assist', 'banefulbunker', 'beakblast', 'belch', 'bestow', 'bounce', 'celebrate', 'chatter', 'circlethrow', 'copycat', 'counter', 'covet', 'destinybond', 'detect', 'dig', 'dive', 'dragontail', 'endure', 'feint', 'florapower', 'fly', 'focuspunch', 'followme', 'helpinghand', 'holdhands', 'kingsshield', 'matblock', 'mefirst', 'metronome', 'mimic', 'mirrorcoat', 'mirrormove', 'naturepower', 'phantomforce', 'protect', 'ragepowder', 'regroup', 'regroup2', 'roar', 'shadowevoboost', 'shadowbath', 'shadowglow', 'shadowflame', 'shadowglaze', 'shadowmoss', 'shadowsprites', 'shadowdestruction', 'shadowdevastation', 'shadowbandit', 'shadowbolt', 'shadowbreak', 'shadowcascade', 'shadowchant', 'shadowcharge', 'shadowchill', 'shadowcinder', 'shadowcombust', 'shadowdance', 'shadowdevour', 'shadowdissolve', 'shadowdoomsday', 'shadowdown', 'shadowend', 'shadowfire', 'shadowfission', 'shadowfog', 'shadowfrost', 'shadowfumes', 'shadowfusion', 'shadowhatred', 'shadowhaunting', 'shadowhold', 'shadowhubris', 'shadowhurl', 'shadowintensify', 'shadowjolt', 'shadowmeld', 'shadowmist', 'shadowmoon', 'shadowpanic', 'shadowphoenix', 'shadowpivot', 'shadowpunish', 'shadowrage', 'shadowrainbow', 'shadowrave', 'shadowreset', 'shadowroulette', 'shadowrush', 'shadowscheme', 'shadowseed', 'shadowshackle', 'shadowshatter', 'shadowshed', 'shadowshuffle', 'shadowsiren', 'shadowslasher', 'shadowsnipe', 'shadowsorcery', 'shadowspell', 'shadowsprint', 'shadowstare', 'shadowstorm', 'shadowsun', 'shadowthreat', 'shadowtitan', 'shadowtrance', 'shadowvampirism', 'shadowvelocity', 'shadowvengeance', 'shadowwall', 'shadowwave', 'shadowwheel', 'shadowwhip', 'shadowwreckage', 'shadowforce', 'shelltrap', 'sketch', 'skydrop', 'sleeptalk', 'snatch', 'spikyshield', 'spotlight', 'struggle', 'switcheroo', 'thief', 'transform', 'trick', 'whirlwind',
 			];
 
 			const moves = [];
@@ -1309,6 +1309,24 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Normal",
 		contestType: "Tough",
 	},
+	biddybud: {
+		num: -552,
+		accuracy: 100,
+		basePower: 60,
+		category: "Special",
+		name: "Biddy Bud",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1},
+		onHit(target, source) {
+			if (target.hasType('Grass')) return null;
+			target.addVolatile('leechseed', source);
+		},
+		secondary: null,
+		target: "normal",
+		type: "Grass",
+		contestType: "Cute",
+	},
 	bind: {
 		num: 20,
 		accuracy: 85,
@@ -1863,42 +1881,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Water",
 		contestType: "Beautiful",
-	},
-	budding: {
-		num: -551,
-		accuracy: 100,
-		basePower: 60,
-		category: "Physical",
-		name: "Budding",
-		pp: 10,
-		priority: 0,
-		flags: {},
-		onPrepareHit(pokemon) {
-			if (pokemon.species.id === 'cherrimsunshine') {
-				this.attrLastMove('[anim] sunshinedance');
-			} else {
-				this.attrLastMove('[anim] budding');
-			}
-		},
-		onModifyMove(move, pokemon) {
-			move.fullbloom = false;
-			if (pokemon.species.id === 'cherrimsunshine') {
-				move.basePower = 90;
-				move.type = "Fire";
-				move.secondary = {
-					chance: 10,
-					status: 'brn'};
-				move.fullbloom = true;
-				this.add('-activate', pokemon, 'move: Budding');
-			}
-		},
-		onHit(target, source, move) {
-			if ((move.fullbloom === false) && (target.hasType('Grass') === false)) target.addVolatile('leechseed', source);
-		},
-		secondary: null,
-		target: "normal",
-		type: "Grass",
-		contestType: "Cute",
 	},
 	bugbite: {
 		num: 450,
@@ -2662,7 +2644,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {},
 		onHit(pokemon) {
 			const noCopycat = [
-				'assist', 'banefulbunker', 'beakblast', 'behemothbash', 'behemothblade', 'belch', 'bestow', 'celebrate', 'chatter', 'circlethrow', 'copycat', 'counter', 'covet', 'craftyshield', 'destinybond', 'detect', 'dragontail', 'dynamaxcannon', 'endure', 'feint', 'focuspunch', 'followme', 'helpinghand', 'holdhands', 'kingsshield', 'matblock', 'mefirst', 'metronome', 'mimic', 'mirrorcoat', 'mirrormove', 'naturepower', 'obstruct', 'protect', 'ragepowder', 'regroup', 'regroup2', 'roar', 'shelltrap', 'sketch', 'sleeptalk', 'snatch', 'spikyshield', 'spotlight', 'struggle', 'switcheroo', 'thief', 'transform', 'trick', 'whirlwind',
+				'assist', 'banefulbunker', 'beakblast', 'behemothbash', 'behemothblade', 'belch', 'bestow', 'celebrate', 'chatter', 'circlethrow', 'copycat', 'counter', 'covet', 'craftyshield', 'destinybond', 'detect', 'dragontail', 'dynamaxcannon', 'endure', 'feint', 'florapower', 'focuspunch', 'followme', 'helpinghand', 'holdhands', 'kingsshield', 'matblock', 'mefirst', 'metronome', 'mimic', 'mirrorcoat', 'mirrormove', 'naturepower', 'obstruct', 'protect', 'ragepowder', 'regroup', 'regroup2', 'roar', 'shelltrap', 'sketch', 'sleeptalk', 'snatch', 'spikyshield', 'spotlight', 'struggle', 'switcheroo', 'thief', 'transform', 'trick', 'whirlwind',
 			];
 			let move: Move | ActiveMove | null = this.lastMove;
 			if (!move) return;
@@ -5101,6 +5083,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Bug",
 		contestType: "Cool",
 	},
+	fieryblossom: {
+		num: -553,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Fiery Blossom",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, contact: 1},
+		secondary: {
+			chance: 10,
+			status: 'brn',
+		},
+		target: "normal",
+		type: "Fire",
+		contestType: "Beautiful",
+	},
 	fierydance: {
 		num: 552,
 		accuracy: 100,
@@ -5689,6 +5688,32 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fairy",
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Beautiful",
+	},
+	florapower: {
+		num: -551,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Flora Power",
+		pp: 10,
+		priority: 0,
+		flags: {},
+		onTryHit(target, source, move) {
+			if (source.species.id === 'cherrimsunshine') {
+				this.actions.useMove('fieryblossom', source, target);
+			} else if (source.species.id === 'cherrim') {
+				this.actions.useMove('biddybud', source, target);
+			} else if (source.species.id === 'cherubi') {
+				this.actions.useMove('biddybud', source, target);
+			} else {
+				this.actions.useMove('splash', source, target);
+			}
+			return null;
+		},
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+		contestType: "Cute",
 	},
 	flowershield: {
 		num: 579,
@@ -11608,7 +11633,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {},
 		noMetronome: [
-			"After You", "Apple Acid", "Assist", "Astral Barrage", "Aura Wheel", "Baneful Bunker", "Beak Blast", "Behemoth Bash", "Behemoth Blade", "Belch", "Bestow", "Body Press", "Branch Poke", "Breaking Swipe", "Celebrate", "Chatter", "Clangorous Soul", "Copycat", "Counter", "Covet", "Crafty Shield", "Decorate", "Destiny Bond", "Detect", "Diamond Storm", "Double Iron Bash", "Dragon Ascent", "Dragon Energy", "Drum Beating", "Dynamax Cannon", "Endure", "Eternabeam", "False Surrender", "Feint", "Fiery Wrath", "Fleur Cannon", "Focus Punch", "Follow Me", "Freeze Shock", "Freezing Glare", "Glacial Lance", "Grav Apple", "Helping Hand", "Hold Hands", "Hyperspace Fury", "Hyperspace Hole", "Ice Burn", "Instruct", "Jungle Healing", "King's Shield", "Life Dew", "Light of Ruin", "Mat Block", "Me First", "Meteor Assault", "Metronome", "Mimic", "Mind Blown", "Mirror Coat", "Mirror Move", "Moongeist Beam", "Nature Power", "Nature's Madness", "Obstruct", "Origin Pulse", "Overdrive", "Photon Geyser", "Plasma Fists", "Precipice Blades", "Protect", "Pyro Ball", "Quash", "Quick Guard", "Rage Powder", "Regroup", "Regroup2", "Relic Song", "Secret Sword", "Shadow Evoboost", "Shadow Bath", "Shadow Glow", "Shadow Flame", "Shadow Glaze", "Shadow Moss", "Shadow Sprites", "Shadow Destruction", "Shadow Devastation", "Shadow Bandit", "Shadow Bolt", "Shadow Break", "Shadow Cascade", "Shadow Chant", "Shadow Charge", "Shadow Chill", "Shadow Cinder", "Shadow Combust", "Shadow Dance", "Shadow Devour", "Shadow Dissolve", "Shadow Doomsday", "Shadow Down", "Shadow End", "Shadow Fire", "Shadow Fission", "Shadow Fog", "Shadow Frost", "Shadow Fumes", "Shadow Fusion", "Shadow Hatred", "Shadow Haunting", "Shadow Hold", "Shadow Hubris", "Shadow Hurl", "Shadow Intensify", "Shadow Jolt", "Shadow Meld", "Shadow Mist", "Shadow Moon", "Shadow Panic", "Shadow Phoenix", "Shadow Pivot", "Shadow Punish", "Shadow Rage", "Shadow Rainbow", "Shadow Rave", "Shadow Reset", "Shadow Roulette", "Shadow Rush", "Shadow Scheme", "Shadow Seed", "Shadow Shackle", "Shadow Shatter", "Shadow Shed", "Shadow Shuffle", "Shadow Siren", "Shadow Slasher", "Shadow Snipe", "Shadow Sorcery", "Shadow Spell", "Shadow Sprint", "Shadow Stare", "Shadow Storm", "Shadow Sun", "Shadow Threat", "Shadow Titan", "Shadow Trance", "Shadow Vampirism", "Shadow Velocity", "Shadow Vengeance", "Shadow Wall", "Shadow Wave", "Shadow Wheel", "Shadow Whip", "Shadow Wreckage", "Shell Trap", "Sketch", "Sleep Talk", "Snap Trap", "Snarl", "Snatch", "Snore", "Spectral Thief", "Spiky Shield", "Spirit Break", "Spotlight", "Steam Eruption", "Steel Beam", "Strange Steam", "Struggle", "Sunsteel Strike", "Surging Strikes", "Switcheroo", "Techno Blast", "Thief", "Thousand Arrows", "Thousand Waves", "Thunder Cage", "Thunderous Kick", "Transform", "Trick", "V-create", "Wicked Blow", "Wide Guard",
+			"After You", "Apple Acid", "Assist", "Astral Barrage", "Aura Wheel", "Baneful Bunker", "Beak Blast", "Behemoth Bash", "Behemoth Blade", "Belch", "Bestow", "Body Press", "Branch Poke", "Breaking Swipe", "Celebrate", "Chatter", "Clangorous Soul", "Copycat", "Counter", "Covet", "Crafty Shield", "Decorate", "Destiny Bond", "Detect", "Diamond Storm", "Double Iron Bash", "Dragon Ascent", "Dragon Energy", "Drum Beating", "Dynamax Cannon", "Endure", "Eternabeam", "False Surrender", "Feint", "Fiery Wrath", "Fleur Cannon", "Flora Power", "Focus Punch", "Follow Me", "Freeze Shock", "Freezing Glare", "Glacial Lance", "Grav Apple", "Helping Hand", "Hold Hands", "Hyperspace Fury", "Hyperspace Hole", "Ice Burn", "Instruct", "Jungle Healing", "King's Shield", "Life Dew", "Light of Ruin", "Mat Block", "Me First", "Meteor Assault", "Metronome", "Mimic", "Mind Blown", "Mirror Coat", "Mirror Move", "Moongeist Beam", "Nature Power", "Nature's Madness", "Obstruct", "Origin Pulse", "Overdrive", "Photon Geyser", "Plasma Fists", "Precipice Blades", "Protect", "Pyro Ball", "Quash", "Quick Guard", "Rage Powder", "Regroup", "Regroup2", "Relic Song", "Secret Sword", "Shadow Evoboost", "Shadow Bath", "Shadow Glow", "Shadow Flame", "Shadow Glaze", "Shadow Moss", "Shadow Sprites", "Shadow Destruction", "Shadow Devastation", "Shadow Bandit", "Shadow Bolt", "Shadow Break", "Shadow Cascade", "Shadow Chant", "Shadow Charge", "Shadow Chill", "Shadow Cinder", "Shadow Combust", "Shadow Dance", "Shadow Devour", "Shadow Dissolve", "Shadow Doomsday", "Shadow Down", "Shadow End", "Shadow Fire", "Shadow Fission", "Shadow Fog", "Shadow Frost", "Shadow Fumes", "Shadow Fusion", "Shadow Hatred", "Shadow Haunting", "Shadow Hold", "Shadow Hubris", "Shadow Hurl", "Shadow Intensify", "Shadow Jolt", "Shadow Meld", "Shadow Mist", "Shadow Moon", "Shadow Panic", "Shadow Phoenix", "Shadow Pivot", "Shadow Punish", "Shadow Rage", "Shadow Rainbow", "Shadow Rave", "Shadow Reset", "Shadow Roulette", "Shadow Rush", "Shadow Scheme", "Shadow Seed", "Shadow Shackle", "Shadow Shatter", "Shadow Shed", "Shadow Shuffle", "Shadow Siren", "Shadow Slasher", "Shadow Snipe", "Shadow Sorcery", "Shadow Spell", "Shadow Sprint", "Shadow Stare", "Shadow Storm", "Shadow Sun", "Shadow Threat", "Shadow Titan", "Shadow Trance", "Shadow Vampirism", "Shadow Velocity", "Shadow Vengeance", "Shadow Wall", "Shadow Wave", "Shadow Wheel", "Shadow Whip", "Shadow Wreckage", "Shell Trap", "Sketch", "Sleep Talk", "Snap Trap", "Snarl", "Snatch", "Snore", "Spectral Thief", "Spiky Shield", "Spirit Break", "Spotlight", "Steam Eruption", "Steel Beam", "Strange Steam", "Struggle", "Sunsteel Strike", "Surging Strikes", "Switcheroo", "Techno Blast", "Thief", "Thousand Arrows", "Thousand Waves", "Thunder Cage", "Thunderous Kick", "Transform", "Trick", "V-create", "Wicked Blow", "Wide Guard",
 		],
 		onHit(target, source, effect) {
 			const moves: MoveData[] = [];

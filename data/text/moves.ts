@@ -424,6 +424,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		end: "  [POKEMON] unleashed its energy!",
 		activate: "  [POKEMON] is storing energy!",
 	},
+	biddybud: {
+		name: "Biddy Bud",
+		desc: "This move summons Leech Seed on the foe.",
+		shortDesc: "Summons Leech Seed.",
+	},
 	bind: {
 		name: "Bind",
 		desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Rapid Spin or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
@@ -686,13 +691,6 @@ export const MovesText: {[k: string]: MoveText} = {
 		},
 
 		start: "  [POKEMON] became trapped in primordial bubbles!",
-	},
-	budding: {
-		name: "Budding",
-		desc: "When Cherrim is in Sunshine forme, this move becomes Fire type, 1.5x stronger, and has a 10% chance to burn. In base forme, it sets Leech Seed to non-Grass type opponents.",
-		shortDesc: "Changes based on Cherrim's forme.",
-
-		activate: "  The sunshine allowed for a full bloom!",
 	},
 	bugbite: {
 		name: "Bug Bite",
@@ -1846,6 +1844,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "Raises user's Attack by 2 if this KOes the target.",
 		},
 	},
+	fieryblossom: {
+		name: "Fiery Blossom",
+		desc: "Has a 10% chance to burn the target.",
+		shortDesc: "10% chance to burn the target.",
+	},
 	fierydance: {
 		name: "Fiery Dance",
 		desc: "Has a 50% chance to raise the user's Special Attack by 1 stage.",
@@ -2034,6 +2037,13 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Floral Healing",
 		desc: "The target restores 1/2 of its maximum HP, rounded half up. If the terrain is Grassy Terrain, the target instead restores 2/3 of its maximum HP, rounded half down.",
 		shortDesc: "Heals the target by 50% of its max HP.",
+	},
+	florapower: {
+		name: "Flora Power",
+		desc: "This move calls another move for use based on the pokemon's forme. Cherrim-Sunshine will use Fiery Blossom, Cherrim and Cherubi will use Biddy Bud, and all other pokemon will use Splash.",
+		shortDesc: "Attack depends on Cherrim's forme.",
+
+		move: "Flora Power turned into [MOVE]!",
 	},
 	flowershield: {
 		name: "Flower Shield",
