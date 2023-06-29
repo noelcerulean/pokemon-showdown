@@ -1875,9 +1875,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {},
 		onPrepareHit(pokemon) {
 			if (pokemon.species.id === 'cherrimsunshine') {
-				this.attrLastMove('[anim] Sunshine Dance');
+				this.attrLastMove('[anim] sunshinedance');
 			} else {
-				this.attrLastMove('[anim] Budding');
+				this.attrLastMove('[anim] budding');
 			}
 		},
 		onModifyMove(move, pokemon) {
