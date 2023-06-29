@@ -4265,6 +4265,9 @@ export const Items: {[itemid: string]: ItemData} = {
 			basePower: 60,
 		},
 		spritenum: 771,
+		onStart(pokemon) {
+			this.add('-item', pokemon, 'Old Doll');
+		},
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Dark') {
 				this.add('-immune', target, '[from] item: Old Doll');
@@ -5328,6 +5331,9 @@ export const Items: {[itemid: string]: ItemData} = {
 			basePower: 60,
 		},
 		spritenum: 772,
+		onStart(pokemon) {
+			this.add('-item', pokemon, 'Royal Jelly');
+		},
 		onTryHit(target, source, move) {
 			if (move.category === 'Status' && !target.activeTurns) {
 				this.add('-immune', target, '[from] item: Royal Jelly');

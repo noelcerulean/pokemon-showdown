@@ -1281,6 +1281,8 @@ export const ItemsText: {[k: string]: ItemText} = {
 	olddoll: {
 		name: "Old Doll",
 		desc: "When held by Banette, grants immunity to Dark-type attacks.",
+
+		start: "  The Old Doll is sponging dark energy for [POKEMON]!",
 	},
 	oranberry: {
 		name: "Oran Berry",
