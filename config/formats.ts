@@ -195,7 +195,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['[Gen 7] RU'],
-		banlist: ['RU', 'NUBL', 'Drought'],
+		banlist: ['RU', 'NUBL'],
 	},
 	{
 		name: "[Gen 7] PU",
