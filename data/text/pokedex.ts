@@ -4004,6 +4004,165 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	astrolotl: {
 		name: "Astrolotl",
 	},
+	butterno: {
+		name: "Butterno",
+	},
+	hyptuff: {
+		name: "Hyptuff",
+	},
+	wiggno: {
+		name: "Wiggno",
+	},
+	slugno: {
+		name: "Slugno",
+	},
+	vileno: {
+		name: "Vileno",
+	},
+	baneno: {
+		name: "Baneno",
+	},
+	shupno: {
+		name: "Shupno",
+	},
+	stantno: {
+		name: "Stantno",
+	},
+	hypsicott: {
+		name: "Hypsicott",
+	},
+	lantno: {
+		name: "Lantno",
+	},
+	hypdian: {
+		name: "Hypdian",
+	},
+	misdreano: {
+		name: "Misdreano",
+	},
+	meganino: {
+		name: "Meganino",
+	},
+	slowkno: {
+		name: "Slowkno",
+	},
+	sandno: {
+		name: "Sandno",
+	},
+	hypgong: {
+		name: "Hypgong",
+	},
+	dewno: {
+		name: "Dewno",
+	},
+	hypganium: {
+		name: "Hypganium",
+	},
+	woopno: {
+		name: "Woopno",
+	},
+	gliscno: {
+		name: "Gliscno",
+	},
+	bulbano: {
+		name: "Bulbano",
+	},
+	ivyno: {
+		name: "Ivyno",
+	},
+	venuno: {
+		name: "Venuno",
+	},
+	sandsno: {
+		name: "Sandsno",
+	},
+	venono: {
+		name: "Venono",
+	},
+	rapidno: {
+		name: "Rapidno",
+	},
+	hypnodash: {
+		name: "Hypnodash",
+	},
+	pidgeono: {
+		name: "Pidgeono",
+	},
+	gravno: {
+		name: "Gravno",
+	},
+	phanpno: {
+		name: "Phanpno",
+	},
+	starno: {
+		name: "Starno",
+	},
+	hypmie: {
+		name: "Hypmie",
+	},
+	ledyno: {
+		name: "Ledyno",
+	},
+	sunflono: {
+		name: "Sunflono",
+	},
+	charino: {
+		name: "Charino",
+	},
+	scizno: {
+		name: "Scizno",
+	},
+	zoruno: {
+		name: "Zoruno",
+	},
+	pilosno: {
+		name: "Pilosno",
+	},
+	mudno: {
+		name: "Mudno",
+	},
+	tyno: {
+		name: "Tyno",
+	},
+	hypgar: {
+		name: "Hypgar",
+	},
+	mimeno: {
+		name: "Mimeno",
+	},
+	hyplotic: {
+		name: "Hyplotic",
+	},
+	flyno: {
+		name: "Flyno",
+	},
+	ano: {
+		name: "Ano",
+	},
+	bagno: {
+		name: "Bagno",
+	},
+	bunno: {
+		name: "Bunno",
+	},
+	molno: {
+		name: "Molno",
+	},
+	luxino: {
+		name: "Luxino",
+	},
+	krokono: {
+		name: "Krokono",
+	},
+	machno: {
+		name: "Machno",
+	},
+	bonsno: {
+		name: "Bonsno",
+	},
+	mantno: {
+		name: "Mantno",
+	},
 	pokestarsmeargle: {
 		name: "Pokestar Smeargle",
 	},

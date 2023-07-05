@@ -67,7 +67,6 @@ export const Formats: FormatList = [
 		mod: 'gen7',
 		ruleset: ['[Gen 7] UU'],
 		banlist: ['UU', 'RUBL', 'Mimikyu'],
-		unbanlist: ['Drought', 'Castform + Heat Rock'],
 	},
 	{
 		name: "[Gen 7] Ubers",
@@ -769,10 +768,25 @@ export const Formats: FormatList = [
 		},
 	},
 	{
-		name: "[Gen 7] Limitless",
+		name: "[Gen 7] Hypnomons",
 
-		mod: 'gen7limitless',
-		ruleset: ['Obtainable', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod'],
+		mod: 'gen7hypnomons',
+		ruleset: [
+			'Obtainable Moves', 'Obtainable Abilities', 'Obtainable Formes',
+			'EV Limit = Auto', 'Obtainable Misc', 'Team Preview', 'HP Percentage Mod',
+			'Species Clause', 'Sleep Clause Mod', 'Cancel Mod', 'Endless Battle Clause',
+			'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause',
+		],
+		banlist: ['All Pokemon'],
+		unbanlist: [
+			'Ano', 'Bagno', 'Baneno', 'Bonsno', 'Bulbano', 'Bunno', 'Butterno', 'Charino',
+			'Dewno', 'Flyno', 'Gliscno', 'Gravno', 'Hypdian', 'Hypganium', 'Hypgar',
+			'Hypgong', 'Hyplotic', 'Hypmie', 'Hypnodash', 'Hypsicott', 'Hyptuff', 'Ivyno',
+			'Krokono', 'Lantno', 'Ledyno', 'Luxino', 'Machno', 'Mantno', 'Meganino', 'Mimeno',
+			'Misdreano', 'Molno', 'Mudno', 'Phanpno', 'Pidgeono', 'Pilosno', 'Rapidno',
+			'Sandno', 'Sandsno', 'Scizno', 'Shupno', 'Slowkno', 'Slugno', 'Stantno', 'Starno',
+			'Sunflono', 'Tyno', 'Venono', 'Venuno', 'Vileno', 'Wiggno', 'Woopno', 'Zoruno',
+		],
 	},
 	{
 		name: "[Gen 7] Mix and Mega",
