@@ -2148,6 +2148,22 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Cool",
 	},
+	catburglary: {
+		num: -554,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Cat Burglary",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, authentic: 1},
+		stealsBoosts: true,
+		// Boost stealing implemented in scripts.js
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+		contestType: "Cool",
+	},
 	celebrate: {
 		num: 606,
 		accuracy: true,
@@ -3003,6 +3019,37 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "allySide",
 		type: "Fairy",
 		zMove: {boost: {spd: 1}},
+		contestType: "Clever",
+	},
+	creepingdespair: {
+		num: -555,
+		accuracy: 100,
+		basePower: 80,
+		basePowerCallback(pokemon, target, move) {
+			let negativeBoost = false;
+			let stat: BoostID;
+			for (stat in target.boosts) {
+				if (target.boosts[stat] < 0) {
+					negativeBoost = true;
+					break;
+				}
+			}
+			if (negativeBoost === true) return move.basePower * 1.5;
+			return move.basePower;
+		},
+		category: "Special",
+		name: "Creeping Despair",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 100,
+			boosts: {
+				evasion: -1,
+			},
+		},
+		target: "normal",
+		type: "Dark",
 		contestType: "Clever",
 	},
 	crosschop: {

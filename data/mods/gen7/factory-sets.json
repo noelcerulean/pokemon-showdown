@@ -4118,7 +4118,7 @@
 			"sets": [{
 				"species": "Charizard",
 				"item": ["Normalium Z"],
-				"ability": ["Draconic Essence"],
+				"ability": ["Rivalry"],
 				"evs": {"hp": 32, "spa": 228, "spd": 32, "spe": 216},
 				"ivs": {"atk": 0},
 				"nature": "Timid",

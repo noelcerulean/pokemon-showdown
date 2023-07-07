@@ -783,6 +783,13 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Catastropika",
 		shortDesc: "No additional effect.",
 	},
+	catburglary: {
+		name: "Cat Burglary",
+		desc: "The target's stat stages greater than 0 are stolen from it and applied to the user before dealing damage.",
+		shortDesc: "Steals target's boosts before dealing damage.",
+
+		clearBoost: "  [SOURCE] stole the target's boosted stats!",
+	},
 	celebrate: {
 		name: "Celebrate",
 		shortDesc: "No competitive use.",
@@ -1085,6 +1092,11 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		start: "  Crafty Shield protected [TEAM]!",
 		block: "  Crafty Shield protected [POKEMON]!",
+	},
+	creepingdespair: {
+		name: "Creeping Despair",
+		desc: "Deals 1.5x damage to foes who have any negative stat boosts. Decreases evasion by 1 stage after attacking.",
+		shortDesc: "1.5x to foes with any stat drops. Evasion -1",
 	},
 	crosschop: {
 		name: "Cross Chop",

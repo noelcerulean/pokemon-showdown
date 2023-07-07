@@ -446,6 +446,8 @@ export const Aliases: {[alias: string]: string} = {
 	pichujooj: "Pichu",
 	roseradearmoredsummer: "Roserade-Armored",
 	blisseybutcher: "Blissey",
+	espeondusk: "Espeon",
+	umbreondawn: "Umbreon",
 
 
 	alcremierubycream: "Alcremie",
