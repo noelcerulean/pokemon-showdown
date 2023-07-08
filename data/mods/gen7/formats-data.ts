@@ -5209,4 +5209,224 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		isNonstandard: "LGPE",
 		tier: "Illegal",
 	},
+	butterno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	hyptuff: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	wiggno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	slugno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	vileno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	baneno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	shupno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	stantno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	hypsicott: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	lantno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	hypdian: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	misdreano: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	meganino: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	slowkno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	sandno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	hypgong: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	dewno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	hypganium: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	woopno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	gliscno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	bulbano: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	ivyno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	venuno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	sandsno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	venono: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	rapidno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	hypnodash: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	pidgeono: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	gravno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	phanpno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	starno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	hypmie: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	ledyno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	sunflono: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	charino: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	scizno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	zoruno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	pilosno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	mudno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	tyno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	hypgar: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	mimeno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	hyplotic: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	flyno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	ano: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	bagno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	bunno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	molno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	luxino: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	krokono: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	machno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	bonsno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	mantno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	pichno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	fearno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 };
