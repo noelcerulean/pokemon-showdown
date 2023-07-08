@@ -4166,6 +4166,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	pichno: {
 		name: "Pichno",
 	},
+	fearno: {
+		name: "Fearno",
+	},
 	pokestarsmeargle: {
 		name: "Pokestar Smeargle",
 	},
