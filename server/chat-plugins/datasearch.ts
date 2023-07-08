@@ -1154,13 +1154,6 @@ function runDexsearch(target: string, cmd: string, canAll: boolean, message: str
 		});
 	}
 
-	if (usedMod === 'gen7hypnomons') {
-		results = results.filter(name => {
-			const species = mod.species.get(name);
-			return (species.num <= -999 && species.num >= -1999);
-		});
-	}
-
 	if (randomOutput && randomOutput < results.length) {
 		results = Utils.shuffle(results).slice(0, randomOutput);
 	}

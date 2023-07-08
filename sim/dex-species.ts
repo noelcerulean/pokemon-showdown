@@ -472,12 +472,6 @@ export class DexSpecies {
 				);
 				if (!isLetsGo) species.isNonstandard = 'Past';
 			}
-			if (this.dex.currentMod === 'gen7hypnomons' && species.isNonstandard) {
-				const isHypnomons = (
-					(species.num <= -999 && species.num >= -1999)
-				);
-				if (!isHypnomons) species.isNonstandard = 'Past';
-			}
 			species.nfe = !!(species.evos.length && this.get(species.evos[0]).gen <= this.dex.gen);
 			species.canHatch = species.canHatch ||
 				(!['Ditto', 'Undiscovered'].includes(species.eggGroups[0]) && !species.prevo && species.name !== 'Manaphy');
