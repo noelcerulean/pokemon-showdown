@@ -5240,7 +5240,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onBeforeMovePriority: 9,
 		onBeforeMove(pokemon) {
-			if (pokemon.removeVolatile('truant') && pokemon.hp > pokemon.maxhp / 2) {
+			if (pokemon.removeVolatile('truant') && pokemon.hp > pokemon.maxhp / 1.5) {
 				this.add('cant', pokemon, 'ability: Truant');
 				return false;
 			}

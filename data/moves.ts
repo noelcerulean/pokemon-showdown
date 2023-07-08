@@ -7998,6 +7998,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		maxMove: {basePower: 130},
 		contestType: "Cool",
 	},
+	gulchkick: {
+		num: -556,
+		accuracy: 100,
+		basePower: 70,
+		category: "Physical",
+		name: "Gulch Kick",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, kick: 1},
+		secondary: {
+			chance: 100,
+			boosts: {
+				spa: -1,
+			},
+		},
+		target: "normal",
+		type: "Ground",
+		contestType: "Tough",
+	},
 	gunkshot: {
 		num: 441,
 		accuracy: 80,

@@ -2661,6 +2661,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "Deals 65535 damage. Fails if target is faster.",
 		},
 	},
+	gulchkick: {
+		name: "Gulch Kick",
+		desc: "Has a 100% chance to lower the target's Sp. Attack by 1 stage.",
+		shortDesc: "100% chance to lower target's Sp. Attackk by 1.",
+	},
 	gunkshot: {
 		name: "Gunk Shot",
 		desc: "Has a 30% chance to poison the target.",

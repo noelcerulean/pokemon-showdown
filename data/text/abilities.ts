@@ -1954,9 +1954,9 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	truant: {
 		name: "Truant",
-		shortDesc: "When above half HP, skips every other turn instead of using a move.",
+		shortDesc: "When above 2/3rds HP, skips every other turn instead of using a move.",
 
-		cant: "[POKEMON] is loafing around!",
+		cant: "[POKEMON] is loafing around! (Above 2/3rds HP)",
 	},
 	turboblaze: {
 		name: "Turboblaze",
