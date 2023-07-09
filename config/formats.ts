@@ -242,6 +242,7 @@ export const Formats: FormatList = [
 			'PU', 'Carracosta', 'Crabominable', 'Gorebyss', 'Jynx', 'Raticate-Alola',
 			'Shiftry', 'Throh', 'Turtonator', 'Type: Null', 'Ursaring', 'Victreebel',
 		],
+		unbanlist: ['Ano'],
 	},
 	{
 		name: "[Gen 7] CAP",
