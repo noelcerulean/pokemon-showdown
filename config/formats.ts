@@ -121,7 +121,17 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['Obtainable', 'Sleep Clause Mod', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod'],
-		banlist: ['King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass'],
+		banlist: [
+			'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass',
+			'Ano', 'Bagno', 'Baneno', 'Bonsno', 'Bulbano', 'Bunno', 'Butterno', 'Charino',
+			'Dewno', 'Flyno', 'Gliscno', 'Gravno', 'Hypdian', 'Hypganium', 'Hypgar',
+			'Hypgong', 'Hyplotic', 'Hypmie', 'Hypnodash', 'Hypsicott', 'Hyptuff', 'Ivyno',
+			'Krokono', 'Lantno', 'Ledyno', 'Luxino', 'Machno', 'Mantno', 'Meganino', 'Mimeno',
+			'Misdreano', 'Molno', 'Mudno', 'Phanpno', 'Pidgeono', 'Pilosno', 'Rapidno',
+			'Sandno', 'Sandsno', 'Scizno', 'Shupno', 'Slowkno', 'Slugno', 'Stantno', 'Starno',
+			'Sunflono', 'Tyno', 'Venono', 'Venuno', 'Vileno', 'Wiggno', 'Woopno', 'Zoruno',
+			'Pichno', 'Fearno',
+		],
 	},
 
 	// US/UM Singles
@@ -242,7 +252,6 @@ export const Formats: FormatList = [
 			'PU', 'Carracosta', 'Crabominable', 'Gorebyss', 'Jynx', 'Raticate-Alola',
 			'Shiftry', 'Throh', 'Turtonator', 'Type: Null', 'Ursaring', 'Victreebel',
 		],
-		unbanlist: ['Ano'],
 	},
 	{
 		name: "[Gen 7] CAP",

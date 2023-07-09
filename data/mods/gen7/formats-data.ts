@@ -5211,222 +5211,222 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	butterno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	hyptuff: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	wiggno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	slugno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	vileno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	baneno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	shupno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	stantno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	hypsicott: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	lantno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	hypdian: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	misdreano: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	meganino: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	slowkno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	sandno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	hypgong: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	dewno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	hypganium: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	woopno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	gliscno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	bulbano: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	ivyno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	venuno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	sandsno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	venono: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	rapidno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	hypnodash: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	pidgeono: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	gravno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	phanpno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	starno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	hypmie: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	ledyno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	sunflono: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	charino: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	scizno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	zoruno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	pilosno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	mudno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	tyno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	hypgar: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	mimeno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	hyplotic: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	flyno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	ano: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	bagno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	bunno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	molno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	luxino: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	krokono: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	machno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	bonsno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	mantno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	pichno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	fearno: {
 		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "AG",
 	},
 };

@@ -96178,6 +96178,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			psychic: ["7L1"],
 			seismictoss: ["7L1"],
 			snatch: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	machno: {
@@ -96203,6 +96204,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			psyshock: ["7L1"],
 			taunt: ["7L1"],
 			zenheadbutt: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	venono: {
@@ -96228,6 +96230,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			reflect: ["7L1"],
 			trick: ["7L1"],
 			wish: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	tyno: {
@@ -96253,6 +96256,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			roleplay: ["7L1"],
 			superpower: ["7L1"],
 			thunderpunch: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	vileno: {
@@ -96278,6 +96282,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			psywave: ["7L1"],
 			rest: ["7L1"],
 			substitute: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	shupno: {
@@ -96303,6 +96308,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			substitute: ["7L1"],
 			switcheroo: ["7L1"],
 			taunt: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	misdreano: {
@@ -96328,6 +96334,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			thunderwave: ["7L1"],
 			trick: ["7L1"],
 			trickroom: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	baneno: {
@@ -96353,6 +96360,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			return: ["7L1"],
 			thunderbolt: ["7L1"],
 			trick: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	bunno: {
@@ -96378,6 +96386,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			psybeam: ["7L1"],
 			roleplay: ["7L1"],
 			wish: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	hyptuff: {
@@ -96403,6 +96412,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			thunderbolt: ["7L1"],
 			thunderwave: ["7L1"],
 			workup: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	stantno: {
@@ -96428,6 +96438,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			substitute: ["7L1"],
 			thunderbolt: ["7L1"],
 			trick: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	wiggno: {
@@ -96453,6 +96464,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			psywave: ["7L1"],
 			rest: ["7L1"],
 			thunderwave: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	mimeno: {
@@ -96478,6 +96490,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			substitute: ["7L1"],
 			taunt: ["7L1"],
 			trick: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	dewno: {
@@ -96503,6 +96516,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			skillswap: ["7L1"],
 			substitute: ["7L1"],
 			zenheadbutt: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	hypgong: {
@@ -96528,6 +96542,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			liquidation: ["7L1"],
 			stockpile: ["7L1"],
 			uturn: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	bulbano: {
@@ -96553,6 +96568,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			psychic: ["7L1"],
 			psywave: ["7L1"],
 			wish: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	ivyno: {
@@ -96578,6 +96594,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			sunnyday: ["7L1"],
 			taunt: ["7L1"],
 			wakeupslap: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	venuno: {
@@ -96603,6 +96620,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			recycle: ["7L1"],
 			reflect: ["7L1"],
 			substitute: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	sunflono: {
@@ -96628,6 +96646,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			sunnyday: ["7L1"],
 			swordsdance: ["7L1"],
 			wish: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	hypganium: {
@@ -96653,6 +96672,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			magiccoat: ["7L1"],
 			protect: ["7L1"],
 			reflect: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	meganino: {
@@ -96678,6 +96698,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			seismictoss: ["7L1"],
 			submission: ["7L1"],
 			swordsdance: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	hypdian: {
@@ -96703,6 +96724,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			silverwind: ["7L1"],
 			substitute: ["7L1"],
 			uturn: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	ledyno: {
@@ -96728,6 +96750,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			swordsdance: ["7L1"],
 			trick: ["7L1"],
 			wish: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	rapidno: {
@@ -96753,6 +96776,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			snatch: ["7L1"],
 			thief: ["7L1"],
 			torment: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	hypnodash: {
@@ -96778,6 +96802,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			morningsun: ["7L1"],
 			overheat: ["7L1"],
 			wildcharge: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	slugno: {
@@ -96803,6 +96828,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			substitute: ["7L1"],
 			sunnyday: ["7L1"],
 			toxic: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	charino: {
@@ -96828,6 +96854,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			snatch: ["7L1"],
 			superpower: ["7L1"],
 			zenheadbutt: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	molno: {
@@ -96853,6 +96880,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			sunnyday: ["7L1"],
 			superpower: ["7L1"],
 			zenheadbutt: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	scizno: {
@@ -96878,6 +96906,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			signalbeam: ["7L1"],
 			substitute: ["7L1"],
 			zenheadbutt: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	gliscno: {
@@ -96903,6 +96932,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			taunt: ["7L1"],
 			torment: ["7L1"],
 			zenheadbutt: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	sandno: {
@@ -96928,6 +96958,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			recycle: ["7L1"],
 			rest: ["7L1"],
 			seismictoss: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	sandsno: {
@@ -96953,6 +96984,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			superpower: ["7L1"],
 			trickroom: ["7L1"],
 			zenheadbutt: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	pilosno: {
@@ -96978,6 +97010,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			protect: ["7L1"],
 			psychic: ["7L1"],
 			wish: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	phanpno: {
@@ -97003,6 +97036,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			psychic: ["7L1"],
 			superpower: ["7L1"],
 			zenheadbutt: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	woopno: {
@@ -97028,6 +97062,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			reflect: ["7L1"],
 			toxic: ["7L1"],
 			zenheadbutt: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	bonsno: {
@@ -97053,6 +97088,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			trickroom: ["7L1"],
 			wish: ["7L1"],
 			zenheadbutt: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	gravno: {
@@ -97078,6 +97114,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			thunderwave: ["7L1"],
 			trickroom: ["7L1"],
 			zenheadbutt: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	bagno: {
@@ -97103,6 +97140,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			swordsdance: ["7L1"],
 			taunt: ["7L1"],
 			thunderpunch: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	flyno: {
@@ -97128,6 +97166,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			thunderwave: ["7L1"],
 			wish: ["7L1"],
 			zenheadbutt: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	starno: {
@@ -97153,6 +97192,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			protect: ["7L1"],
 			reflect: ["7L1"],
 			zenheadbutt: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	hypmie: {
@@ -97178,6 +97218,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			reflecttype: ["7L1"],
 			surf: ["7L1"],
 			thunder: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	slowkno: {
@@ -97203,6 +97244,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			taunt: ["7L1"],
 			thunderwave: ["7L1"],
 			trickroom: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	hyplotic: {
@@ -97228,6 +97270,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			scald: ["7L1"],
 			surf: ["7L1"],
 			whirlpool: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	mudno: {
@@ -97253,6 +97296,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			playrough: ["7L1"],
 			protect: ["7L1"],
 			swordsdance: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	pidgeono: {
@@ -97278,6 +97322,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			psychup: ["7L1"],
 			swordsdance: ["7L1"],
 			taunt: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	butterno: {
@@ -97303,6 +97348,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			recycle: ["7L1"],
 			torment: ["7L1"],
 			wish: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	hypsicott: {
@@ -97328,6 +97374,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			stunspore: ["7L1"],
 			tailwind: ["7L1"],
 			worryseed: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	lantno: {
@@ -97353,6 +97400,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			psychic: ["7L1"],
 			synchronoise: ["7L1"],
 			thunderbolt: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	luxino: {
@@ -97378,6 +97426,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			taunt: ["7L1"],
 			thunderwave: ["7L1"],
 			toxic: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	zoruno: {
@@ -97403,6 +97452,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			psyshock: ["7L1"],
 			thunderpunch: ["7L1"],
 			zenheadbutt: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	hypgar: {
@@ -97428,6 +97478,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			psywave: ["7L1"],
 			torment: ["7L1"],
 			trick: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	krokono: {
@@ -97453,6 +97504,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowball: ["7L1"],
 			snatch: ["7L1"],
 			taunt: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	mantno: {
@@ -97478,6 +97530,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			substitute: ["7L1"],
 			trickroom: ["7L1"],
 			wish: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	pichno: {
@@ -97503,6 +97556,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			taunt: ["7L1"],
 			thunderpunch: ["7L1"],
 			thunderwave: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	fearno: {
@@ -97528,6 +97582,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			splash: ["7L1"],
 			switcheroo: ["7L1"],
 			taunt: ["7L1"],
+			hypnofamilyreunion: ["7L1"],
 		},
 	},
 	pokestarsmeargle: {

@@ -3062,6 +3062,13 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "No additional effect.",
 		shortDesc: "No additional effect. Hits adjacent foes.",
 	},
+	hypnofamilyreunion: {
+		name: "Hypno Family Reunion",
+		desc: "All the Hypno fusions are friends and are happy to hang out together! Just like them, I'm happy that you're playing Hypnomons! Thanks for enjoying FnF Showdown! Feel free to use this move to filter for Hypmons in the Teambuilder!",
+		shortDesc: "Filter with this move to find Hypnomons!",
+
+		activate: "  [POKEMON] is happy to be with friends!",
+	},
 	hypnosis: {
 		name: "Hypnosis",
 		shortDesc: "Causes the target to fall asleep.",

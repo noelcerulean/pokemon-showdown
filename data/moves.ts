@@ -9194,6 +9194,24 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Normal",
 		contestType: "Cool",
 	},
+	hypnofamilyreunion: {
+		num: -557,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Hypno Family Reunion",
+		pp: 30,
+		priority: 0,
+		flags: {},
+		onUseMoveMessage(pokemon, move) {
+			this.add('-activate', pokemon, 'move: Hypno Family Reunion');
+		},
+		secondary: null,
+		target: "allySide",
+		type: "Normal",
+		zMove: {effect: 'clearnegativeboost'},
+		contestType: "Cute",
+	},
 	hypnosis: {
 		num: 95,
 		accuracy: 60,
