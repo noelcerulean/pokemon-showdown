@@ -6472,6 +6472,13 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "Lowers the target's Speed by 1.",
 		},
 	},
+	stripestyle: {
+		name: "Stripe Style",
+		desc: "This move calls another move for use based on the pokemon's forme. Basculin-Red Striped will use Red Rush, Basculin-Blue Striped will use Blue Bites, and all other pokemon will use Splash.",
+		shortDesc: "Attack depends on Basculin's forme.",
+
+		move: "Stripe Style turned into [MOVE]!",
+	},
 	struggle: {
 		name: "Struggle",
 		desc: "Deals typeless damage to a random opposing Pokemon. If this move was successful, the user loses 1/4 of its maximum HP, rounded half up, and the Rock Head Ability does not prevent this. This move is automatically used if none of the user's known moves can be selected.",
