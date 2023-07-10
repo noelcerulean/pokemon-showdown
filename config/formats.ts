@@ -130,7 +130,7 @@ export const Formats: FormatList = [
 			'Misdreano', 'Molno', 'Mudno', 'Phanpno', 'Pidgeono', 'Pilosno', 'Rapidno',
 			'Sandno', 'Sandsno', 'Scizno', 'Shupno', 'Slowkno', 'Slugno', 'Stantno', 'Starno',
 			'Sunflono', 'Tyno', 'Venono', 'Venuno', 'Vileno', 'Wiggno', 'Woopno', 'Zoruno',
-			'Pichno', 'Fearno', 'Togetno',
+			'Pichno', 'Fearno', 'Togetno', 'Drifno',
 		],
 	},
 
@@ -796,7 +796,7 @@ export const Formats: FormatList = [
 			'Misdreano', 'Molno', 'Mudno', 'Phanpno', 'Pidgeono', 'Pilosno', 'Rapidno',
 			'Sandno', 'Sandsno', 'Scizno', 'Shupno', 'Slowkno', 'Slugno', 'Stantno', 'Starno',
 			'Sunflono', 'Tyno', 'Venono', 'Venuno', 'Vileno', 'Wiggno', 'Woopno', 'Zoruno',
-			'Pichno', 'Fearno', 'Togetno',
+			'Pichno', 'Fearno', 'Togetno', 'Drifno',
 		],
 	},
 	{

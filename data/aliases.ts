@@ -455,6 +455,7 @@ export const Aliases: {[alias: string]: string} = {
 	vaporeonlight: "Vaporeon",
 	flareonsteam: "Flareon",
 	jolteonplasma: "Jolteon",
+	eeveeinfinity: "Eevee",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",

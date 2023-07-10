@@ -5433,4 +5433,8 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "AG",
 	},
+	drifno: {
+		isNonstandard: "Custom",
+		tier: "AG",
+	},
 };
