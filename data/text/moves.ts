@@ -510,6 +510,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Bloom Doom",
 		shortDesc: "Power is equal to the base move's Z-Power.",
 	},
+	bluebites: {
+		name: "Blue Bites",
+		desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
+		shortDesc: "Hits 2 times in one turn.",
+	},
 	blueflare: {
 		name: "Blue Flare",
 		desc: "Has a 20% chance to burn the target.",
@@ -4940,6 +4945,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		},
 
 		addItem: "  [POKEMON] found one [ITEM]!",
+	},
+	redrush: {
+		name: "Red Rush",
+		desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
+		shortDesc: "Has 1/4 recoil.",
 	},
 	reflect: {
 		name: "Reflect",

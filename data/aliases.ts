@@ -450,6 +450,11 @@ export const Aliases: {[alias: string]: string} = {
 	umbreondawn: "Umbreon",
 	leafeonsnow: "Leafeon",
 	glaceongarden: "Glaceon",
+	sylveonsmaug: "Sylveon",
+	longeonpixie: "Longeon",
+	vaporeonlight: "Vaporeon",
+	flareonsteam: "Flareon",
+	jolteonplasma: "Jolteon",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",

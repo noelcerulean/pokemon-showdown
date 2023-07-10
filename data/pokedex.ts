@@ -3179,6 +3179,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Water Stone",
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Vaporeon-Light"],
+		formeOrder: ["Vaporeon", "Vaporeon-Light"],
 	},
 	vaporeonlinguine: {
 		num: 134,
@@ -3206,6 +3208,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Thunder Stone",
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Jolteon-Plasma"],
+		formeOrder: ["Jolteon", "Jolteon-Plasma"],
 	},
 	jolteonradiatori: {
 		num: 135,
@@ -3233,6 +3237,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Fire Stone",
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Flareon-Steam"],
+		formeOrder: ["Flareon", "Flareon-Steam"],
 	},
 	flareonlasagna: {
 		num: 136,
@@ -10989,7 +10995,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Basculin",
 		baseForme: "Red-Striped",
 		types: ["Water"],
-		baseStats: {hp: 75, atk: 107, def: 70, spa: 90, spd: 60, spe: 98},
+		baseStats: {hp: 75, atk: 112, def: 70, spa: 90, spd: 60, spe: 98},
 		abilities: {0: "Reckless", 1: "Adaptability", H: "Mold Breaker"},
 		heightm: 1,
 		weightkg: 18,
@@ -11004,7 +11010,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseSpecies: "Basculin",
 		forme: "Blue-Striped",
 		types: ["Water"],
-		baseStats: {hp: 70, atk: 112, def: 65, spa: 80, spd: 55, spe: 118},
+		baseStats: {hp: 70, atk: 112, def: 65, spa: 85, spd: 55, spe: 118},
 		abilities: {0: "Rock Head", 1: "Strong Jaw", H: "Mold Breaker"},
 		heightm: 1,
 		weightkg: 18,
@@ -13718,6 +13724,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "levelExtra",
 		evoCondition: "with a Fairy-type move and two levels of Affection",
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Sylveon-Smaug"],
+		formeOrder: ["Sylveon", "Sylveon-Smaug"],
 	},
 	sylveonfarfalle: {
 		num: 700,
@@ -13745,6 +13753,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "levelExtra",
 		evoCondition: "with a Dragon-type move and two levels of Affection",
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Longeon-Pixie"],
+		formeOrder: ["Longeon", "Longeon-Pixie"],
 	},
 	hawlucha: {
 		num: 701,
