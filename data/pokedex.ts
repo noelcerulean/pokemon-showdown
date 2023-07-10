@@ -19334,6 +19334,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Fearno", "Fearno-Wings", "Fearno-Beak", "Fearno-Beakwings"],
 		gen: 7,
 	},
+	togetno: {
+		num: -1055,
+		name: "Togetno",
+		types: ["Fairy", "Psychic"],
+		baseStats: {hp: 68, atk: 82, def: 92, spa: 87, spd: 114, spe: 53},
+		abilities: {0: "Serene Grace", 1: "Dream Feast", H: "Super Luck"},
+		heightm: 1.6,
+		weightkg: 75.6,
+		color: "Yellow",
+		eggGroups: ["Undiscovered"],
+		gen: 7,
+	},
 	// NOTE: PokeStar "formes" are not actually formes and thus do not have a formeOrder
 	pokestarsmeargle: {
 		num: -5000,

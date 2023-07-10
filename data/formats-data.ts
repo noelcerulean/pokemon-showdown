@@ -7109,6 +7109,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	togetno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	pokestarsmeargle: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
