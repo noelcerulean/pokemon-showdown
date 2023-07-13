@@ -5437,4 +5437,8 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "AG",
 	},
+	onno: {
+		isNonstandard: "Custom",
+		tier: "AG",
+	},
 };

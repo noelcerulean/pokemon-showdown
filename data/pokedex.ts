@@ -19369,6 +19369,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		gen: 7,
 	},
+	onno: {
+		num: -1057,
+		name: "Onno",
+		types: ["Rock", "Psychic"],
+		baseStats: {hp: 68, atk: 111, def: 128, spa: 77, spd: 80, spe: 89},
+		abilities: {0: "Weak Armor", 1: "Inner Focus", H: "Sedimentary"},
+		heightm: 1.6,
+		weightkg: 75.6,
+		color: "Yellow",
+		eggGroups: ["Undiscovered"],
+		gen: 7,
+	},
 	// NOTE: PokeStar "formes" are not actually formes and thus do not have a formeOrder
 	pokestarsmeargle: {
 		num: -5000,
