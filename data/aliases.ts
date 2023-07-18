@@ -448,7 +448,7 @@ export const Aliases: {[alias: string]: string} = {
 	blisseybutcher: "Blissey",
 	espeondusk: "Espeon",
 	umbreondawn: "Umbreon",
-	leafeonsnow: "Leafeon",
+	leafeonaurora: "Leafeon",
 	glaceongarden: "Glaceon",
 	sylveonsmaug: "Sylveon",
 	longeonpixie: "Longeon",
@@ -465,6 +465,8 @@ export const Aliases: {[alias: string]: string} = {
 	venonomothman: "Venono",
 	anonose: "Ano",
 	krokonoswag: "Krokono",
+	fraxnohappy: "Fraxno",
+	pinsnohappy: "Pinsno",
 
 	alcremierubycream: "Alcremie",
 	alcremiematchacream: "Alcremie",

@@ -7121,6 +7121,34 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	skarmno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	axno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	fraxno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	marno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	azumano: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	pinsno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	herano: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	pokestarsmeargle: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
