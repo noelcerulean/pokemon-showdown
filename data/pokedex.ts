@@ -9399,8 +9399,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Leaf Stone",
 		eggGroups: ["Field"],
-		cosmeticFormes: ["Leafeon-Ipe", "Leafeon-Aurora"],
-		formeOrder: ["Leafeon", "Leafeon-Ipe", "Leafeon-Aurora"],
+		cosmeticFormes: ["Leafeon-Ipe", "Leafeon-Snow"],
+		formeOrder: ["Leafeon", "Leafeon-Ipe", "Leafeon-Snow"],
 	},
 	leafeontagliatelle: {
 		num: 470,

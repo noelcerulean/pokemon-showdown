@@ -448,7 +448,7 @@ export const Aliases: {[alias: string]: string} = {
 	blisseybutcher: "Blissey",
 	espeondusk: "Espeon",
 	umbreondawn: "Umbreon",
-	leafeonaurora: "Leafeon",
+	leafeonsnow: "Leafeon",
 	glaceongarden: "Glaceon",
 	sylveonsmaug: "Sylveon",
 	longeonpixie: "Longeon",

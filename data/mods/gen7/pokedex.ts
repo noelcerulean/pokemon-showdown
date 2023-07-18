@@ -66,8 +66,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		evoType: "levelExtra",
 		evoCondition: "near a Moss Rock",
-		cosmeticFormes: ["Leafeon-Ipe"],
-		formeOrder: ["Leafeon", "Leafeon-Ipe"],
 	},
 	glaceon: {
 		inherit: true,
