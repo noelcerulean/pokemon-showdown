@@ -7149,6 +7149,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	senno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	smoono: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	pokestarsmeargle: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

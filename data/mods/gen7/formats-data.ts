@@ -386,7 +386,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	dugtrioalola: {
 		randomBattleMoves: ["earthquake", "ironhead", "stealthrock", "stoneedge", "substitute", "suckerpunch", "toxic"],
 		randomDoubleBattleMoves: ["earthquake", "ironhead", "protect", "rockslide", "stoneedge", "suckerpunch"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	meowth: {
@@ -5466,6 +5466,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "AG",
 	},
 	herano: {
+		isNonstandard: "Custom",
+		tier: "AG",
+	},
+	senno: {
+		isNonstandard: "Custom",
+		tier: "AG",
+	},
+	smoono: {
 		isNonstandard: "Custom",
 		tier: "AG",
 	},
