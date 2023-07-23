@@ -5477,4 +5477,20 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "AG",
 	},
+	houndno: {
+		isNonstandard: "Custom",
+		tier: "AG",
+	},
+	zuno: {
+		isNonstandard: "Custom",
+		tier: "AG",
+	},
+	kangasno: {
+		isNonstandard: "Custom",
+		tier: "AG",
+	},
+	kyuno: {
+		isNonstandard: "Custom",
+		tier: "AG",
+	},
 };

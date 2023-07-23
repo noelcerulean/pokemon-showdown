@@ -4205,6 +4205,18 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	smoono: {
 		name: "Smoono",
 	},
+	houndno: {
+		name: "Houndno",
+	},
+	zuno: {
+		name: "Zuno",
+	},
+	kangasno: {
+		name: "Kangasno",
+	},
+	kyuno: {
+		name: "Kyuno",
+	},
 	pokestarsmeargle: {
 		name: "Pokestar Smeargle",
 	},
