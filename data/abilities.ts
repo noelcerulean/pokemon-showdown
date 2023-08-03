@@ -4812,7 +4812,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onDamagingHit(damage, target, source, move) {
 			if (move.type === 'Electric') {
 				target.addVolatile('charge');
-				this.add('-start', target, 'ability: Supercharged');
 			}
 		},
 		name: "Supercharged",

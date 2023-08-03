@@ -2212,9 +2212,19 @@ export const Moves: {[moveid: string]: MoveData} = {
 			this.add('-activate', pokemon, 'move: Charge');
 		},
 		condition: {
-			duration: 2,
-			onRestart(pokemon) {
-				this.effectState.duration = 2;
+			onStart(pokemon, source, effect) {
+				if (effect && ['Supercharged'].includes(effect.name)) {
+					this.add('-start', pokemon, 'Charge', this.activeMove!.name, '[from] ability: ' + effect.name);
+				} else {
+					this.add('-start', pokemon, 'Charge');
+				}
+			},
+			onRestart(pokemon, source, effect) {
+				if (effect && ['Supercharged'].includes(effect.name)) {
+					this.add('-start', pokemon, 'Charge', this.activeMove!.name, '[from] ability: ' + effect.name);
+				} else {
+					this.add('-start', pokemon, 'Charge');
+				}
 			},
 			onBasePowerPriority: 9,
 			onBasePower(basePower, attacker, defender, move) {
@@ -2222,6 +2232,19 @@ export const Moves: {[moveid: string]: MoveData} = {
 					this.debug('charge boost');
 					return this.chainModify(2);
 				}
+			},
+			onMoveAborted(pokemon, target, move) {
+				if (move.type === 'Electric' && move.id !== 'charge') {
+					pokemon.removeVolatile('charge');
+				}
+			},
+			onAfterMove(pokemon, target, move) {
+				if (move.type === 'Electric' && move.id !== 'charge') {
+					pokemon.removeVolatile('charge');
+				}
+			},
+			onEnd(pokemon) {
+				this.add('-end', pokemon, 'Charge', '[silent]');
 			},
 		},
 		boosts: {
