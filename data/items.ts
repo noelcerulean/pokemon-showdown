@@ -2950,6 +2950,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 4,
 		isNonstandard: "Unobtainable",
 	},
+	ivysaurarmor: {
+		name: "Ivysaur Armor",
+		spritenum: 773,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Ivysaur-Armored') return false;
+			return true;
+		},
+		itemUser: ["Ivysaur-Armored"],
+		num: -535,
+		gen: 7,
+	},
 	jabocaberry: {
 		name: "Jaboca Berry",
 		spritenum: 230,

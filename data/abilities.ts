@@ -4808,6 +4808,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1.5,
 		num: -522,
 	},
+	supercharged: {
+		onDamagingHitOrder: 1,
+		onDamagingHit(damage, target, source, move) {
+			if (move.type === 'Electric') {
+				target.addVolatile('charge');
+			}
+		},
+		name: "Supercharged",
+		rating: 2.5,
+		num: -557,
+	},
 	superluck: {
 		onModifyCritRatio(critRatio) {
 			return critRatio + 1;

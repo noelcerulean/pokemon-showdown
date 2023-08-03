@@ -887,6 +887,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Iron Plate",
 		desc: "Holder's Steel-type attacks have 1.2x power. Judgment is Steel type.",
 	},
+	ivysaurarmor: {
+		name: "Ivysaur Armor",
+		desc: "Armor developed by DoReMi for Ivysaur to enhance its battle capabilities.",
+		shortDesc: "Attach to Ivysaur-Armored forme (not base forme!!!) in the teambuilder.",
+	},
 	jabocaberry: {
 		name: "Jaboca Berry",
 		desc: "If holder is hit by a physical move, attacker loses 1/8 of its max HP. Single use.",

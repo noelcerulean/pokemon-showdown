@@ -8,6 +8,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	ivysaur: {
 		tier: "NFE",
 	},
+	ivysaurarmored: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	venusaur: {
 		randomBattleMoves: ["gigadrain", "leechseed", "sleeppowder", "sludgebomb", "substitute"],
 		randomBattleLevel: 82,

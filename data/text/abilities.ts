@@ -1775,6 +1775,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "If Sunny Day is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn. If this Pokemon is holding Utility Umbrella, its HP does not get restored.",
 		shortDesc: "If Sunny Day is active, this Pokemon heals 1/16 of its max HP each turn.",
 	},
+	supercharged: {
+		name: "Supercharged",
+		shortDesc: "This Pokemon gains the Charge effect when hit by an Electric attack.",
+
+		start: "  Being hit by [MOVE] charged [POKEMON] with power!",
+	},
 	superluck: {
 		name: "Super Luck",
 		shortDesc: "This Pokemon's critical hit ratio is raised by 1 stage.",

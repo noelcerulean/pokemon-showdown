@@ -8,6 +8,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	ivysaur: {
 		tier: "NFE",
 	},
+	ivysaurarmored: {
+		randomBattleMoves: ["gigadrain", "overheat", "sleeppowder", "sludgebomb", "synthesis", "thunderbolt"],
+		randomDoubleBattleMoves: ["gigadrain", "overheat", "protect", "sleeppowder", "sludgebomb", "synthesis", "thunderbolt"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
 	venusaur: {
 		randomBattleMoves: ["earthpower", "leafstorm", "leechseed", "sleeppowder", "sludgebomb", "substitute"],
 		randomDoubleBattleMoves: ["gigadrain", "hiddenpowerfire", "hiddenpowerice", "powerwhip", "protect", "sleeppowder", "sludgebomb"],
