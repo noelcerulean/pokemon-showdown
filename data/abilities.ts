@@ -4809,10 +4809,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: -522,
 	},
 	supercharged: {
-		onDamagingHitOrder: 1,
 		onDamagingHit(damage, target, source, move) {
 			if (move.type === 'Electric') {
 				target.addVolatile('charge');
+				this.add('-start', target, 'ability: Supercharged');
 			}
 		},
 		name: "Supercharged",
