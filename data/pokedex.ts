@@ -48,7 +48,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Ivysaur-Armored",
 		types: ["Grass", "Electric"],
 		genderRatio: {M: 0.875, F: 0.125},
-		baseStats: {hp: 60, atk: 72, def: 103, spa: 145, spd: 110, spe: 40},
+		baseStats: {hp: 60, atk: 72, def: 123, spa: 145, spd: 115, spe: 40},
 		abilities: {0: "Supercharged"},
 		heightm: 1.1,
 		weightkg: 23,

@@ -11,7 +11,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	ivysaurarmored: {
 		randomBattleMoves: ["gigadrain", "overheat", "sleeppowder", "sludgebomb", "synthesis", "thunderbolt"],
 		randomDoubleBattleMoves: ["gigadrain", "overheat", "protect", "sleeppowder", "sludgebomb", "synthesis", "thunderbolt"],
-		tier: "UU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	venusaur: {
