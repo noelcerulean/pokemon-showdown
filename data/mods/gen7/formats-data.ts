@@ -630,7 +630,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	muk: {
 		randomBattleMoves: ["curse", "drainpunch", "firepunch", "gunkshot", "icepunch", "memento", "poisonjab", "shadowpunch", "shadowsneak", "toxic"],
 		randomDoubleBattleMoves: ["drainpunch", "firepunch", "gunkshot", "icepunch", "poisonjab", "protect", "shadowpunch", "shadowsneak", "toxic"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	mukalola: {
@@ -1269,7 +1269,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	noctowl: {
 		randomBattleMoves: ["airslash", "defog", "heatwave", "hurricane", "hypervoice", "roost", "whirlwind"],
 		randomDoubleBattleMoves: ["airslash", "heatwave", "hypervoice", "hypnosis", "protect", "roost", "tailwind"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	ledyba: {
@@ -4665,7 +4665,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	oricorio: {
 		randomBattleMoves: ["calmmind", "hurricane", "revelationdance", "roost", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["airslash", "hurricane", "protect", "revelationdance", "tailwind"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	oricoriopompom: {
@@ -4677,7 +4677,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	oricoriopau: {
 		randomBattleMoves: ["calmmind", "hurricane", "revelationdance", "roost", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["airslash", "hurricane", "protect", "revelationdance", "tailwind"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	oricoriosensu: {
