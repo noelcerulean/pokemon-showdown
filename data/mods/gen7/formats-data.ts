@@ -1613,7 +1613,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	heracross: {
 		randomBattleMoves: ["closecombat", "facade", "knockoff", "megahorn", "stoneedge", "swordsdance"],
 		randomDoubleBattleMoves: ["closecombat", "facade", "knockoff", "megahorn", "protect", "swordsdance"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	heracrossmega: {
@@ -2202,7 +2202,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	swalot: {
 		randomBattleMoves: ["clearsmog", "earthquake", "encore", "icebeam", "knockoff", "painsplit", "protect", "recover", "sludgebomb", "toxic", "yawn"],
 		randomDoubleBattleMoves: ["clearsmog", "encore", "icebeam", "knockoff", "poisongas", "protect", "recover", "sludgebomb", "yawn"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	carvanha: {
@@ -2328,7 +2328,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	seviper: {
 		randomBattleMoves: ["darkpulse", "earthquake", "flamethrower", "gigadrain", "nastyplot", "poisonjab", "sludgewave", "suckerpunch", "switcheroo", "swordsdance"],
 		randomDoubleBattleMoves: ["aquatail", "earthquake", "flamethrower", "gigadrain", "glare", "poisonjab", "protect", "sludgebomb", "suckerpunch"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	lunatone: {
@@ -2482,7 +2482,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	absolmega: {
 		randomBattleMoves: ["icebeam", "knockoff", "playrough", "pursuit", "suckerpunch", "superpower", "swordsdance"],
 		randomDoubleBattleMoves: ["fireblast", "knockoff", "playrough", "protect", "suckerpunch", "superpower", "swordsdance"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	snorunt: {
