@@ -4146,6 +4146,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	viropath: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	ducklett: {
 		isNonstandard: "Past",
 		tier: "Illegal",

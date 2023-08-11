@@ -3664,6 +3664,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
+	viropath: {
+		randomBattleMoves: ["dazzlinggleam", "focusblast", "nastyplot", "psychic", "psyshock"],
+		randomDoubleBattleMoves: ["dazzlinggleam", "focusblast", "nastyplot", "protect", "psychic", "psyshock"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	ducklett: {
 		tier: "LC",
 	},

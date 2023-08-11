@@ -11538,6 +11538,17 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 41,
 		eggGroups: ["Amorphous"],
 	},
+	viropath: {
+		num: -533,
+		name: "Viropath",
+		types: ["Poison", "Psychic"],
+		baseStats: {hp: 47, atk: 59, def: 88, spa: 103, spd: 84, spe: 109},
+		abilities: {0: "Miasmedicine", 1: "Telepathy", H: "Levitate"},
+		heightm: 1,
+		weightkg: 10,
+		color: "Purple",
+		eggGroups: ["Amorphous"],
+	},
 	ducklett: {
 		num: 580,
 		name: "Ducklett",

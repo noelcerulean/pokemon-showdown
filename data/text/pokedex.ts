@@ -2483,6 +2483,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	reuniclus: {
 		name: "Reuniclus",
 	},
+	viropath: {
+		name: "Viropath",
+	},
 	ducklett: {
 		name: "Ducklett",
 	},
