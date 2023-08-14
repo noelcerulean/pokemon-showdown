@@ -461,6 +461,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon's pivot moves have their power multiplied by 1.5.",
 		shortDesc: "This Pokemon's pivot moves have 1.5x power.",
 	},
+	evergreentouch: {
+		name: "Evergreen Touch",
+		desc: "When this pokemon uses a damaging grass move, it summons Grassy Terrain.",
+		shortDesc: "Summons Grassy Terrain when using a Grass attack.",
+	},
 	fairyaura: {
 		name: "Fairy Aura",
 		desc: "While this Pokemon is active, the power of Fairy-type moves used by active Pokemon is multiplied by 1.33.",

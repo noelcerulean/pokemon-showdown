@@ -1284,6 +1284,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: -526,
 	},
+	evergreentouch: {
+		onModifyMovePriority: -1,
+		onModifyMove(move) {
+			if (move.type === 'Grass' && move.category !== "Status") {
+				this.field.setTerrain('grassyterrain');
+			}
+		},
+		name: "Evergreen Touch",
+		rating: 3,
+		num: -559,
+	},
 	fairyaura: {
 		onStart(pokemon) {
 			if (this.suppressingAbility(pokemon)) return;
