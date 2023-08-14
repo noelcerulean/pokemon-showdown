@@ -127,14 +127,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	ambrosia: {
 		onTryHit(target, source, move) {
-			if (target !== source && source.species.id === 'unown') {
+			if (target !== source && target.species.id === 'unown') {
 				if (target.ignoringItem()) return;
 				const item = target.getItem();
 				if (!item.naturalGift) return;
 				if (move.type === item.naturalGift.type) {
 					this.add('-immune', target, '[from] ability: Ambrosia');
+					return null;
 				}
-				return null;
 			}
 		},
 		onTakeItem(item, pokemon, source) {
