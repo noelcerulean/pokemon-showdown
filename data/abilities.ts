@@ -1285,9 +1285,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: -526,
 	},
 	evergreentouch: {
-		onModifyMovePriority: -1,
-		onModifyMove(move) {
-			if (move.type === 'Grass' && move.category !== "Status") {
+		onAfterMoveSecondarySelf(source, target, move) {
+			if (!move || !target) return;
+			if (target !== source && move.category !== 'Status' && move.type === 'Grass') {
 				this.field.setTerrain('grassyterrain');
 			}
 		},
