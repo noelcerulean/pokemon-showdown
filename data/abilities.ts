@@ -125,6 +125,31 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 76,
 	},
+	ambrosia: {
+		onTryHit(target, source, move) {
+			if (target !== source && source.species.id === 'unown') {
+				if (target.ignoringItem()) return;
+				const item = source.getItem();
+				if (!item.naturalGift) return;
+				if (move.type === item.naturalGift.type) {
+					this.add('-immune', target, '[from] ability: Ambrosia');
+				}
+				return null;
+			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if (!this.activeMove) throw new Error("Battle.activeMove is null");
+			if (!item.isBerry || (pokemon.species.id !== 'unown')) return;
+			if ((source && source !== pokemon) || this.activeMove.id === 'knockoff') {
+				return false;
+			}
+		},
+		isPermanent: true,
+		isBreakable: true,
+		name: "Ambrosia",
+		rating: 4.5,
+		num: -558,
+	},
 	analytic: {
 		onBasePowerPriority: 21,
 		onBasePower(basePower, pokemon) {
