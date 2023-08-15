@@ -1912,6 +1912,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		desc: "Armor developed by DoReMi for Toxicroak to enhance its battle capabilities.",
 		shortDesc: "Attach to Toxicroak-Armored forme (not base forme!!!) in the teambuilder.",
 	},
+	trevenantite: {
+		name: "Trevenantite",
+		desc: "If held by an Trevenant, this item allows it to Mega Evolve in battle.",
+	},
 	tr00: {
 		name: "TR00",
 		desc: "Teaches certain Pokemon the move Swords Dance. One use.",

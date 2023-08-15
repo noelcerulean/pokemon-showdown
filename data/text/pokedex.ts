@@ -2408,8 +2408,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	dwebble: {
 		name: "Dwebble",
 	},
+	dwebblefnf: {
+		name: "Dwebble-FnF",
+	},
 	crustle: {
 		name: "Crustle",
+	},
+	crustlefnf: {
+		name: "Crustle-FnF",
 	},
 	scraggy: {
 		name: "Scraggy",
@@ -3001,6 +3007,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	trevenant: {
 		name: "Trevenant",
+	},
+	trevenantmega: {
+		name: "Trevenant-Mega",
 	},
 	pumpkaboo: {
 		name: "Pumpkaboo",

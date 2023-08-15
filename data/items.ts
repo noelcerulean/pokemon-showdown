@@ -6378,6 +6378,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: -512,
 		gen: 7,
 	},
+	trevenantite: {
+		name: "Trevenantite",
+		spritenum: 774,
+		megaStone: "Trevenant-Mega",
+		megaEvolves: "Trevenant",
+		itemUser: ["Trevenant"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -536,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	tr00: {
 		name: "TR00",
 		fling: {

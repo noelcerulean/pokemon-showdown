@@ -3559,9 +3559,18 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	dwebble: {
 		tier: "LC",
 	},
+	dwebblefnf: {
+		tier: "LC",
+	},
 	crustle: {
 		randomBattleMoves: ["crabhammer", "earthquake", "rockblast", "shellsmash", "spikes", "stealthrock", "stoneedge", "xscissor"],
 		randomDoubleBattleMoves: ["earthquake", "protect", "rockslide", "shellsmash", "stoneedge", "xscissor"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
+	crustlefnf: {
+		randomBattleMoves: ["crabhammer", "iciclecrash", "shellsmash", "spikes", "rockclimb", "xscissor"],
+		randomDoubleBattleMoves: ["crabhammer", "iciclecrash", "protect", "shellsmash", "spikes", "rockclimb", "xscissor"],
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
@@ -4465,6 +4474,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["cursedroots", "earthquake", "hornleech", "leechseed", "poisonjab", "rockslide", "shadowsneak", "strengthsap", "trickroom", "willowisp", "woodhammer"],
 		randomDoubleBattleMoves: ["cursedroots", "hornleech", "leechseed", "protect", "rockslide", "shadowsneak", "strengthsap", "trickroom", "willowisp", "woodhammer"],
 		tier: "RU",
+		doublesTier: "(DUU)",
+	},
+	trevenantmega: {
+		randomBattleMoves: ["cursedroots", "earthquake", "hornleech", "leechseed", "poisonjab", "rockslide", "shadowsneak", "strengthsap", "trickroom", "willowisp", "woodhammer"],
+		randomDoubleBattleMoves: ["cursedroots", "hornleech", "leechseed", "protect", "rockslide", "shadowsneak", "strengthsap", "trickroom", "willowisp", "woodhammer"],
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	pumpkaboo: {

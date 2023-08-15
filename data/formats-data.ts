@@ -4003,10 +4003,21 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	dwebble: {
 		tier: "LC",
 	},
+	dwebblefnf: {
+		tier: "LC",
+	},
 	crustle: {
 		randomBattleMoves: ["earthquake", "shellsmash", "spikes", "stealthrock", "stoneedge", "xscissor"],
 		randomBattleLevel: 82,
 		randomDoubleBattleMoves: ["knockoff", "protect", "rockslide", "shellsmash", "stompingtantrum", "xscissor"],
+		randomDoubleBattleLevel: 84,
+		tier: "(PU)",
+		doublesTier: "(DUU)",
+	},
+	crustlefnf: {
+		randomBattleMoves: ["iciclecrash", "shellsmash", "spikes", "rockclimb", "xscissor"],
+		randomBattleLevel: 82,
+		randomDoubleBattleMoves: ["iciclecrash", "shellsmash", "spikes", "protect", "rockclimb", "xscissor"],
 		randomDoubleBattleLevel: 84,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
@@ -5046,6 +5057,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	trevenantmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	pumpkaboo: {
 		tier: "LC",

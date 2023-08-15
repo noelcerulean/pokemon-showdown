@@ -627,6 +627,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	trevenantite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	tyranitarite: {
 		inherit: true,
 		isNonstandard: null,
