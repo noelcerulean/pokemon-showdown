@@ -2484,6 +2484,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	sableyefnfmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	sablechamp: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -3580,6 +3584,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	shayminsky: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	kiwuit: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -5455,7 +5463,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	bounsweet: {
 		tier: "LC",
 	},
+	bounsweetdelta: {
+		tier: "LC",
+	},
 	steenee: {
+		tier: "NFE",
+	},
+	steeneedelta: {
 		tier: "NFE",
 	},
 	tsareena: {

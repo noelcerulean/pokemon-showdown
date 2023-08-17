@@ -4431,6 +4431,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "Lasts 3-4 turns. Confuses the user afterwards.",
 		},
 	},
+	petrifypulse: {
+		name: "Petrify Pulse",
+		desc: "Has a 20% chance to lower the target's Special Attack by 1 stage.",
+		shortDesc: "20% chance to lower target's Sp. Atk by 1.",
+	},
 	phantomforce: {
 		name: "Phantom Force",
 		desc: "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally. This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks. If the user is holding a Power Herb, the move completes in one turn.",

@@ -12522,7 +12522,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			const item = pokemon.getItem();
 			if (!item.naturalGift) return false;
 			move.basePower = item.naturalGift.basePower;
-			if (pokemon.species.id === 'unown' && pokemon.hasAbility('ambrosia')) return;
+			if (pokemon.species.id === 'kiwuit' && pokemon.hasAbility('ambrosia')) return;
 			pokemon.setItem('');
 			pokemon.lastItem = item.id;
 			pokemon.usedItemThisTurn = true;
@@ -13330,6 +13330,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "randomNormal",
 		type: "Grass",
 		contestType: "Beautiful",
+	},
+	petrifypulse: {
+		num: -561,
+		accuracy: 100,
+		basePower: 85,
+		category: "Special",
+		name: "Petrify Pulse",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, pulse: 1, mirror: 1, distance: 1},
+		secondary: {
+			chance: 20,
+			boosts: {
+				spa: -1,
+			},
+		},
+		target: "any",
+		type: "Ghost",
+		contestType: "Cool",
 	},
 	phantomforce: {
 		num: 566,

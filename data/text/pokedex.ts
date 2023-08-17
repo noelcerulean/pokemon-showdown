@@ -1370,6 +1370,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	sableyefnf: {
 		name: "Sableye-FnF",
 	},
+	sableyefnfmega: {
+		name: "Sableye-FnF-Mega",
+	},
 	sablechamp: {
 		name: "Sablechamp",
 	},
@@ -2128,6 +2131,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	shayminsky: {
 		name: "Shaymin-Sky",
+	},
+	kiwuit: {
+		name: "Kiwuit",
 	},
 	arceus: {
 		name: "Arceus",
@@ -3239,8 +3245,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	bounsweet: {
 		name: "Bounsweet",
 	},
+	bounsweetdelta: {
+		name: "Bounsweet-Delta",
+	},
 	steenee: {
 		name: "Steenee",
+	},
+	steeneedelta: {
+		name: "Steenee-Delta",
 	},
 	tsareena: {
 		name: "Tsareena",

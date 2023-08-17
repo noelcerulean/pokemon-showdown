@@ -2082,9 +2082,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "DUU",
 	},
 	sableyefnf: {
-		randomBattleMoves: ["earthpower", "prehistoricpulse", "recover", "shadowball", "toxic", "willowisp"],
-		randomDoubleBattleMoves: ["fakeout", "helpinghand", "prehistoricpulse", "protect", "recover", "shadowball", "snarl", "willowisp"],
+		randomBattleMoves: ["earthpower", "petrifypulse", "prehistoricpulse", "recover", "toxic", "willowisp"],
+		randomDoubleBattleMoves: ["fakeout", "helpinghand", "petrifypulse", "prehistoricpulse", "protect", "recover", "snarl", "willowisp"],
 		tier: "RU",
+		doublesTier: "DUU",
+	},
+	sableyefnfmega: {
+		randomBattleMoves: ["earthpower", "petrifypulse", "prehistoricpulse", "recover", "toxic", "willowisp"],
+		randomDoubleBattleMoves: ["fakeout", "helpinghand", "petrifypulse", "prehistoricpulse", "protect", "recover", "snarl", "willowisp"],
+		tier: "UUBL",
 		doublesTier: "DUU",
 	},
 	sablechamp: {
@@ -3171,6 +3177,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["airslash", "earthpower", "hiddenpowerice", "protect", "rest", "seedflare", "tailwind"],
 		tier: "Uber",
 		doublesTier: "DUU",
+	},
+	kiwuit: {
+		randomBattleMoves: ["bravebird", "highhorsepower", "leafblade", "roost", "toxic", "uturn"],
+		randomDoubleBattleMoves: ["bravebird", "highhorsepower", "leafblade", "protect", "roost", "toxic", "uturn"],
+		tier: "UUBL",
+		doublesTier: "(DUU)",
 	},
 	arceus: {
 		randomBattleMoves: ["earthquake", "extremespeed", "recover", "shadowclaw", "swordsdance"],
@@ -4830,7 +4842,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	bounsweet: {
 		tier: "LC",
 	},
+	bounsweetdelta: {
+		tier: "LC",
+	},
 	steenee: {
+		tier: "NFE",
+	},
+	steeneedelta: {
 		tier: "NFE",
 	},
 	tsareena: {

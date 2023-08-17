@@ -2117,6 +2117,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 7,
 		isNonstandard: "Past",
 	},
+	fnfsablenite: {
+		name: "FnFSablenite",
+		spritenum: 775,
+		megaStone: "Sableye-FnF-Mega",
+		megaEvolves: "Sableye-FnF",
+		itemUser: ["Sableye-FnF"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -537,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	focusband: {
 		name: "Focus Band",
 		spritenum: 150,

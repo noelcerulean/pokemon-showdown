@@ -42,8 +42,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	ambrosia: {
 		name: "Ambrosia",
-		desc: "This is a test ability.",
-		shortDesc: "This is a test ability.",
+		desc: "If this pokemon is Kiwuit, grants type immunity equal to the Natural Gift type of its held berry. This ability also prevents berries from being knocked off, thiefed, or consumed when using Natural Gift. However, berries may still be eaten when their conditions are met.",
+		shortDesc: "Grants Kiwuit immunity to the Natural Gift type of its held berry.",
 	},
 	analytic: {
 		name: "Analytic",
