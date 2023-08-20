@@ -2090,7 +2090,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	sableyefnfmega: {
 		randomBattleMoves: ["earthpower", "petrifypulse", "prehistoricpulse", "recover", "toxic", "willowisp"],
 		randomDoubleBattleMoves: ["fakeout", "helpinghand", "petrifypulse", "prehistoricpulse", "protect", "recover", "snarl", "willowisp"],
-		tier: "UUBL",
+		tier: "OU",
 		doublesTier: "DUU",
 	},
 	sablechamp: {
@@ -2667,7 +2667,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	jirachi: {
 		randomBattleMoves: ["bodyslam", "firepunch", "ironhead", "stealthrock", "substitute", "toxic", "uturn", "wish"],
 		randomDoubleBattleMoves: ["bodyslam", "followme", "helpinghand", "icywind", "ironhead", "protect", "thunderwave", "uturn"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "DUber",
 	},
 	jirachiwishmaker: {
@@ -3181,7 +3181,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	kiwuit: {
 		randomBattleMoves: ["bravebird", "highhorsepower", "leafblade", "roost", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["bravebird", "highhorsepower", "leafblade", "protect", "roost", "toxic", "uturn"],
-		tier: "UUBL",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	arceus: {
@@ -3905,7 +3905,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	cryogonal: {
 		randomBattleMoves: ["chillingrime", "freezedry", "haze", "hiddenpowerground", "icebeam", "prehistoricpulse", "rapidspin", "recover", "toxic"],
 		randomDoubleBattleMoves: ["chillingrime", "freezedry", "hiddenpowerground", "icebeam", "icywind", "prehistoricpulse", "protect", "recover"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	shelmet: {
@@ -4491,7 +4491,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	trevenantmega: {
 		randomBattleMoves: ["cursedroots", "earthquake", "hornleech", "leechseed", "poisonjab", "rockslide", "shadowsneak", "strengthsap", "trickroom", "willowisp", "woodhammer"],
 		randomDoubleBattleMoves: ["cursedroots", "hornleech", "leechseed", "protect", "rockslide", "shadowsneak", "strengthsap", "trickroom", "willowisp", "woodhammer"],
-		tier: "UUBL",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	pumpkaboo: {

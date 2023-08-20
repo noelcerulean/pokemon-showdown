@@ -31497,6 +31497,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			zapcannon: ["7L65"],
 		},
 		eventData: [
+			{generation: 7, level: 10, isHidden: true, moves: ["sketch"]},
 			{generation: 7, level: 10, moves: ["sketch"]},
 		],
 	},
