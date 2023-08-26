@@ -3871,6 +3871,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Spinarak",
 		evoLevel: 22,
 		eggGroups: ["Bug"],
+		cosmeticFormes: ["Ariados-Vriska"],
+		formeOrder: ["Ariados", "Ariados-Vriska"],
 	},
 	crobat: {
 		num: 169,
@@ -4291,7 +4293,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 194,
 		name: "Wooper",
 		types: ["Water", "Ground"],
-		baseStats: {hp: 85, atk: 65, def: 65, spa: 55, spd: 55, spe: 15},
+		baseStats: {hp: 85, atk: 65, def: 55, spa: 45, spd: 45, spe: 15},
 		abilities: {0: "Damp", 1: "Water Absorb", H: "Unaware"},
 		heightm: 0.4,
 		weightkg: 8.5,
@@ -6390,8 +6392,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Purple",
 		eggGroups: ["Human-Like"],
 		otherFormes: ["Sableye-Mega"],
-		cosmeticFormes: ["Sableye-Freeza"],
-		formeOrder: ["Sableye", "Sableye-Freeza", "Sableye-Mega"],
+		cosmeticFormes: ["Sableye-Freeza", "Sableye-Freezatail"],
+		formeOrder: ["Sableye", "Sableye-Freeza", "Sableye-Freezatail", "Sableye-Mega"],
 	},
 	sableyemega: {
 		num: 302,
@@ -14293,7 +14295,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		tags: ["Mythical"],
 		otherFormes: ["Hoopa-Unbound"],
-		formeOrder: ["Hoopa", "Hoopa-Unbound"],
+		cosmeticFormes: ["Hoopa-Ballin"],
+		formeOrder: ["Hoopa", "Hoopa-Ballin", "Hoopa-Unbound"],
 	},
 	hoopaunbound: {
 		num: 720,

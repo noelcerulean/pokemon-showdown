@@ -372,6 +372,7 @@ export const Aliases: {[alias: string]: string} = {
 	samurottknight: "Samurott",
 	mamoswinemelon: "Mamoswine",
 	sableyefreeza: "Sableye",
+	sableyefreezatail: "Sableye",
 	breloompastel: "Breloom",
 	solrockprism: "Solrock",
 	simisagefiend: "Simisage",
@@ -456,6 +457,8 @@ export const Aliases: {[alias: string]: string} = {
 	flareonsteam: "Flareon",
 	jolteonplasma: "Jolteon",
 	eeveeinfinity: "Eevee",
+	ariadosvriska: "Ariados",
+	hoopaballin: "Hoopa",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",
