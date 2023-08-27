@@ -5,6 +5,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	bulbasaursaur: {
 		tier: "Uber",
 	},
+	saurbot: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	ivysaur: {
 		tier: "NFE",
 	},

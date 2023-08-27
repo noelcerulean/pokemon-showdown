@@ -5,6 +5,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	bulbasaursaur: {
 		tier: "Uber",
 	},
+	saurbot: {
+		randomBattleMoves: ["biddybud", "protect", "sleeppowder", "substitute", "synthesis", "toxic", "whirlwind"],
+		randomDoubleBattleMoves: ["biddybud", "protect", "sleeppowder", "substitute", "synthesis", "toxic", "whirlwind"],
+		tier: "OU",
+		doublesTier: "(DUU)",
+	},
 	ivysaur: {
 		tier: "NFE",
 	},

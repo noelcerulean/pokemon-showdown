@@ -26,6 +26,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		eggGroups: ["Undiscovered"],
 	},
+	saurbot: {
+		num: -535,
+		name: "Saurbot",
+		types: ["Grass", "Steel"],
+		gender: "N",
+		baseStats: {hp: 77, atk: 5, def: 107, spa: 5, spd: 104, spe: 20},
+		abilities: {0: "Search Engine", 1: "Download", H: "Analytic"},
+		heightm: 0.7,
+		weightkg: 20,
+		color: "Gray",
+		eggGroups: ["Undiscovered"],
+	},
 	ivysaur: {
 		num: 2,
 		name: "Ivysaur",

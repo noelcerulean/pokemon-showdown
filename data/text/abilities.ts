@@ -1445,6 +1445,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Screen Cleaner",
 		shortDesc: "On switch-in, the effects of Aurora Veil, Light Screen, and Reflect end for both sides.",
 	},
+	searchengine: {
+		name: "Search Engine",
+		desc: "On switch-in, this Pokemon's Defense or Special Defense is raised by 1 stage based on the stronger combined offensive stat of all opposing Pokemon. Defense is raised if their Attack is higher, and Special Defense is raised if their Special Attack is the same or lower.",
+		shortDesc: "On switch-in, Def or Sp. Def is raised 1 stage based on the foes' stronger Attack.",
+	},
 	sedimentary: {
 		name: "Sedimentary",
 		desc: "This Pokemon has its non-volatile status condition cured at the end of each turn if Sandstorm is active. If this Pokemon is holding Utility Umbrella, its non-volatile status condition will not be cured.",
