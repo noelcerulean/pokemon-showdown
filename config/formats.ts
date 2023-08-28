@@ -132,6 +132,7 @@ export const Formats: FormatList = [
 			'Sunflono', 'Tyno', 'Venono', 'Venuno', 'Vileno', 'Wiggno', 'Woopno', 'Zoruno',
 			'Pichno', 'Fearno', 'Togetno', 'Drifno', 'Onno', 'Skarmno', 'Axno', 'Fraxno', 'Marno',
 			'Azumano', 'Pinsno', 'Herano', 'Senno', 'Smoono', 'Houndno', 'Zuno', 'Kangasno', 'Kyuno',
+			'Ekno', 'Hitmonno', 'Jirachno', 'Machono',
 		],
 	},
 
@@ -800,6 +801,7 @@ export const Formats: FormatList = [
 			'Sunflono', 'Tyno', 'Venono', 'Venuno', 'Vileno', 'Wiggno', 'Woopno', 'Zoruno',
 			'Pichno', 'Fearno', 'Togetno', 'Drifno', 'Onno', 'Skarmno', 'Axno', 'Fraxno', 'Marno',
 			'Azumano', 'Pinsno', 'Herano', 'Senno', 'Smoono', 'Houndno', 'Zuno', 'Kangasno', 'Kyuno',
+			'Ekno', 'Hitmonno', 'Jirachno', 'Machono',
 		],
 	},
 	{

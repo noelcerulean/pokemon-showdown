@@ -5544,4 +5544,20 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "AG",
 	},
+	ekno: {
+		isNonstandard: "Custom",
+		tier: "AG",
+	},
+	hitmonno: {
+		isNonstandard: "Custom",
+		tier: "AG",
+	},
+	jirachno: {
+		isNonstandard: "Custom",
+		tier: "AG",
+	},
+	machono: {
+		isNonstandard: "Custom",
+		tier: "AG",
+	},
 };

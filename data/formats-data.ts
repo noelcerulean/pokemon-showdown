@@ -7214,6 +7214,22 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	ekno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	hitmonno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	jirachno: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	machono: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	pokestarsmeargle: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
