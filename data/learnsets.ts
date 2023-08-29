@@ -31561,7 +31561,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			quickguard: ["7L40"],
 			rapidspin: ["7L45"],
 			secretpower: ["7L45"],
-			sketch: ["7S0"],
+			sketch: ["7S0", "7S1"],
 			toxic: ["7L50"],
 			uturn: ["7L50"],
 			voltswitch: ["7L55"],
@@ -31572,7 +31572,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		},
 		eventData: [
 			{generation: 7, level: 10, isHidden: true, moves: ["sketch"]},
-			{generation: 7, level: 10, moves: ["sketch"]},
+			{generation: 7, level: 10, isHidden: false, moves: ["sketch"]},
 		],
 	},
 	wynaut: {
