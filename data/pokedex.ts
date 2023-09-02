@@ -13911,7 +13911,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 704,
 		name: "Goomy-Armored",
 		types: ["Dragon", "Water"],
-		baseStats: {hp: 50, atk: 50, def: 75, spa: 65, spd: 195, spe: 40},
+		baseStats: {hp: 50, atk: 50, def: 75, spa: 75, spd: 195, spe: 40},
 		abilities: {0: "Water Bubble"},
 		heightm: 0.3,
 		weightkg: 2.8,

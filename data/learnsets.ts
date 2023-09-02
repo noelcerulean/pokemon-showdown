@@ -78507,7 +78507,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			frustration: ["7M", "6M"],
 			haze: ["7L1"],
 			healblock: ["7L40"],
-			healpusle: ["7L35"],
+			healpulse: ["7L35"],
 			hex: ["7L40"],
 			hiddenpower: ["7M", "6M"],
 			hypnosis: ["7L10"],
