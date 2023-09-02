@@ -5036,6 +5036,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	goomy: {
 		tier: "LC",
 	},
+	goomyarmored: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	sliggoo: {
 		tier: "NFE",
 	},

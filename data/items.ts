@@ -2454,6 +2454,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	goomyarmor: {
+		name: "Goomy Armor",
+		spritenum: 776,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Goomy-Armored') return false;
+			return true;
+		},
+		itemUser: ["Goomy-Armored"],
+		num: -538,
+		gen: 7,
+	},
 	gorochuniumz: {
 		name: "Gorochunium Z",
 		spritenum: 769,

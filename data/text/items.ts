@@ -722,6 +722,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Goodrite",
 		desc: "If held by an Goodra, this item allows it to Mega Evolve in battle.",
 	},
+	goomyarmor: {
+		name: "Goomy Armor",
+		desc: "Armor developed by DoReMi for Goomy to enhance its battle capabilities.",
+		shortDesc: "Attach to Goomy-Armored forme (not base forme!!!) in the teambuilder.",
+	},
 	gorochuniumz: {
 		name: "Gorochunium Z",
 		desc: "If held by an Gorochu with Volt Tackle, it can use Typhonic Thunderstorm.",

@@ -4464,6 +4464,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	goomy: {
 		tier: "LC",
 	},
+	goomyarmored: {
+		randomBattleMoves: ["bubbleprison", "dracometeor", "dragonpulse", "protect", "sludgebomb", "toxic"],
+		randomDoubleBattleMoves: ["bubbleprison", "dracometeor", "dragonpulse", "protect", "sludgebomb"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	sliggoo: {
 		tier: "NFE",
 	},

@@ -2999,6 +2999,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	goomy: {
 		name: "Goomy",
 	},
+	goomyarmored: {
+		name: "Goomy-Armored",
+	},
 	sliggoo: {
 		name: "Sliggoo",
 	},
