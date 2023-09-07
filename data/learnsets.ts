@@ -31561,7 +31561,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			quickguard: ["7L40"],
 			rapidspin: ["7L45"],
 			secretpower: ["7L45"],
-			sketch: ["7S0", "7S1"],
+			sketch: ["7S0", "7S1", "7S2", "7S3"],
 			toxic: ["7L50"],
 			uturn: ["7L50"],
 			voltswitch: ["7L55"],
@@ -31573,6 +31573,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		eventData: [
 			{generation: 7, level: 10, isHidden: true, moves: ["sketch"]},
 			{generation: 7, level: 10, isHidden: false, moves: ["sketch"]},
+			{generation: 7, level: 10, shiny: true, isHidden: true, moves: ["sketch"]},
+			{generation: 7, level: 10, shiny: true, isHidden: false, moves: ["sketch"]},
 		],
 	},
 	wynaut: {
@@ -78492,6 +78494,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			bubblebeam: ["7L20"],
 			bubbleprison: ["7L50"],
 			calmmind: ["7M"],
+			charm: ["7L1"],
 			chillingrime: ["7L35"],
 			clearsmog: ["7L1"],
 			confide: ["7M", "6M"],

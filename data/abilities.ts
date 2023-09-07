@@ -2044,7 +2044,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	illusion: {
 		onBeforeSwitchIn(pokemon) {
-			this.add('-start', pokemon, 'Illusion', '[silent]');
 			pokemon.illusion = null;
 			// yes, you can Illusion an active pokemon but only if it's to your right
 			for (let i = pokemon.side.pokemon.length - 1; i > pokemon.position; i--) {
