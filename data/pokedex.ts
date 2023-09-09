@@ -4863,6 +4863,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Snubbull",
 		evoLevel: 23,
 		eggGroups: ["Field", "Fairy"],
+		cosmeticFormes: ["Granbull-Revenant"],
+		formeOrder: ["Granbull", "Granbull-Revenant"],
 	},
 	granbullarmored: {
 		num: 210,
