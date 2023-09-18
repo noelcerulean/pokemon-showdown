@@ -23,7 +23,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	venusaur: {
 		randomBattleMoves: ["earthpower", "leafstorm", "leechseed", "sleeppowder", "sludgebomb", "substitute"],
 		randomDoubleBattleMoves: ["gigadrain", "hiddenpowerfire", "hiddenpowerice", "powerwhip", "protect", "sleeppowder", "sludgebomb"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	venusaurmega: {
@@ -156,7 +156,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	fearow: {
 		randomBattleMoves: ["bravebird", "doubleedge", "drillrun", "pursuit", "return", "swordsdance", "taunt", "uturn"],
 		randomDoubleBattleMoves: ["bravebird", "doubleedge", "drillrun", "protect", "quickattack", "return", "taunt", "uturn"],
-		tier: "OU",
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	ekans: {
@@ -1635,7 +1635,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	weavile: {
 		randomBattleMoves: ["iceshard", "iciclecrash", "knockoff", "lowkick", "pursuit", "swordsdance"],
 		randomDoubleBattleMoves: ["fakeout", "iceshard", "iciclecrash", "knockoff", "lowkick", "protect", "swordsdance"],
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "DUU",
 	},
 	teddiursa: {
@@ -2620,7 +2620,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	latiasmega: {
 		randomBattleMoves: ["calmmind", "defog", "dracometeor", "psyshock", "roost", "surf"],
 		randomDoubleBattleMoves: ["dragonpulse", "healpulse", "helpinghand", "protect", "psychic", "tailwind"],
-		tier: "UUBL",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	latios: {
@@ -2632,7 +2632,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	latiosmega: {
 		randomBattleMoves: ["calmmind", "dracometeor", "hiddenpowerfire", "psyshock", "roost"],
 		randomDoubleBattleMoves: ["dracometeor", "dragonpulse", "hiddenpowerfire", "protect", "psyshock", "tailwind"],
-		tier: "UUBL",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	kyogre: {
@@ -3526,7 +3526,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	lilligant: {
 		randomBattleMoves: ["gigadrain", "hiddenpowerfire", "hiddenpowerrock", "petaldance", "quiverdance", "sleeppowder"],
 		randomDoubleBattleMoves: ["gigadrain", "helpinghand", "hiddenpowerfire", "hiddenpowerice", "hiddenpowerrock", "petaldance", "protect", "quiverdance", "sleeppowder"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	basculin: {
@@ -3986,7 +3986,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	mandibuzz: {
 		randomBattleMoves: ["bravebird", "defog", "foulplay", "roost", "taunt", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["bravebird", "knockoff", "protect", "roost", "snarl", "tailwind", "taunt", "uturn"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	heatmor: {
@@ -4437,7 +4437,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	longeon: {
 		randomBattleMoves: ["dragonclaw", "dragondance", "irontail", "knockoff", "outrage"],
 		randomDoubleBattleMoves: ["dragonclaw", "dragondance", "helpinghand", "irontail", "knockoff", "outrage", "protect"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "DUU",
 	},
 	hawlucha: {

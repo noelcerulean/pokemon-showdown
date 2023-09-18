@@ -31,7 +31,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['Standard'],
-		banlist: ['Uber', 'Latias-Mega', 'Latios-Mega', 'Blaziken + Speed Boost', 'Greninja + Protean', 'Battle Bond', 'Power Construct', 'King\'s Rock', 'Bright Powder', 'Lax Incense', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z'],
+		banlist: ['Uber', 'Latias-Mega', 'Latios-Mega', 'Blaziken + Speed Boost', 'Greninja + Protean', 'Battle Bond', 'Power Construct', 'King\'s Rock', 'Bright Powder', 'Lax Incense', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Poliwrathium Z,', 'Mewnium Z', 'Sand Veil', 'Snow Cloak'],
 	},
 	{
 		name: "[Gen 7] OU",
@@ -66,7 +66,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['[Gen 7] UU'],
-		banlist: ['UU', 'RUBL', 'Mimikyu'],
+		banlist: ['UU', 'RUBL', 'Snow Warning', 'Sand Stream', 'Castform + Smooth Rock', 'Castform + Icy Rock'],
 	},
 	{
 		name: "[Gen 7] Ubers",
