@@ -733,7 +733,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	electrodefnf: {
 		randomBattleMoves: ["fireblast", "flamethrower", "hiddenpowergrass", "icebeam", "triattack"],
 		randomDoubleBattleMoves: ["flamethrower", "hiddenpowergrass", "icebeam", "protect", "triattack"],
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	exeggcute: {
