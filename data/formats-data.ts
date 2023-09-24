@@ -2410,6 +2410,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	gravking: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	nincada: {
 		tier: "LC",
 	},

@@ -821,7 +821,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 		onModifyMove(move, pokemon) {
-			if (move.flags['blade']) move.category = 'Special';
+			if (move.flags['blade']) {
+				move.category = 'Special';
+				delete move.flags['contact'];
+			}
 		},
 		name: "Cunning Blade",
 		rating: 3.5,

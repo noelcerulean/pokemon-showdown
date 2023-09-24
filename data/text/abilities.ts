@@ -283,8 +283,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	cunningblade: {
 		name: "Cunning Blade",
-		desc: "This Pokemon's blade-based attacks become special moves and have their power multiplied by 1.2.",
-		shortDesc: "This Pokemon's Blade-based attacks have 1.2x power & are Special Attacks.",
+		desc: "This Pokemon's blade-based attacks become non-contact special moves and have their power multiplied by 1.2.",
+		shortDesc: "This Pokemon's Blade attacks have 1.2x power; become non-contact Special Attacks.",
 	},
 	curiousmedicine: {
 		name: "Curious Medicine",

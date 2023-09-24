@@ -2015,6 +2015,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	gravking: {
+		randomBattleMoves: ["doubleedge", "earthquake", "firepunch", "headsmash", "pursuit", "slackoff", "stealthrock"],
+		randomDoubleBattleMoves: ["doubleedge", "earthquake", "hammerarm", "headsmash", "nightslash", "rockslide"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	nincada: {
 		tier: "LC",
 	},

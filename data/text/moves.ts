@@ -4389,7 +4389,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	payday: {
 		name: "Pay Day",
 		desc: "No additional effect.",
-		shortDesc: "Hits twice. Deals damage based on defense.",
+		shortDesc: "Hits twice. Damages based on target's defense.",
 
 		activate: "  Coins were scattered everywhere!",
 	},

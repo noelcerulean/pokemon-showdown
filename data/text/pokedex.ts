@@ -1325,6 +1325,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	slaking: {
 		name: "Slaking",
 	},
+	gravking: {
+		name: "Gravking",
+	},
 	nincada: {
 		name: "Nincada",
 	},
