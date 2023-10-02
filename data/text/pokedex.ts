@@ -1055,6 +1055,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	teddiursa: {
 		name: "Teddiursa",
 	},
+	teddiursaarmored: {
+		name: "Teddiursa-Armored",
+	},
 	ursaring: {
 		name: "Ursaring",
 	},

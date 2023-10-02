@@ -909,6 +909,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Raises the user's Attack, Defense, and accuracy by 1 stage.",
 		shortDesc: "Raises user's Attack, Defense, accuracy by 1.",
 	},
+	combardment: {
+		name: "Combardment",
+		desc: "Deals damage to the target based on target's Defense or Sp. Defense, whichever stat is lower.",
+		shortDesc: "Damages based on target's lower defense stat.",
+	},
 	cometpunch: {
 		name: "Comet Punch",
 		desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",

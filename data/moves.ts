@@ -2528,6 +2528,24 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Tough",
 	},
+	combardment: {
+		num: -562,
+		accuracy: 100,
+		basePower: 120,
+		category: "Physical",
+		name: "Combardment",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1},
+		onModifyMove(move, pokemon, target) {
+			if (!target) return;
+			if (target.getStat('def', false, true) > target.getStat('spd', false, true)) move.defensiveCategory = 'Special';
+		},
+		secondary: null,
+		target: "normal",
+		type: "Bug",
+		contestType: "Cute",
+	},
 	cometpunch: {
 		num: 4,
 		accuracy: 85,

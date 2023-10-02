@@ -1990,6 +1990,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	teddiursaarmored: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	ursaring: {
 		isNonstandard: "Past",
 		tier: "Illegal",

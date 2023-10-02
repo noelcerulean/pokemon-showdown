@@ -6289,6 +6289,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 7,
 		isNonstandard: "Past",
 	},
+	teddiursaarmor: {
+		name: "Teddiursa Armor",
+		spritenum: 777,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Teddiursa-Armored') return false;
+			return true;
+		},
+		itemUser: ["Teddiursa-Armored"],
+		num: -539,
+		gen: 7,
+	},
 	terrainextender: {
 		name: "Terrain Extender",
 		spritenum: 662,

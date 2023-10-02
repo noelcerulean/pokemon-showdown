@@ -1641,6 +1641,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	teddiursa: {
 		tier: "LC",
 	},
+	teddiursaarmored: {
+		randomBattleMoves: ["closecombat", "combardment", "earthquake", "healorder", "protect", "return", "swordsdance", "toxic"],
+		randomDoubleBattleMoves: ["closecombat", "combardment", "protect", "return"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	ursaring: {
 		randomBattleMoves: ["closecombat", "crunch", "facade", "protect", "swordsdance"],
 		randomDoubleBattleMoves: ["closecombat", "crunch", "facade", "protect", "swordsdance"],
