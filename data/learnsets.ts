@@ -11440,7 +11440,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			gyroball: ["7M", "6M", "5M", "4M"],
 			harden: ["7V"],
 			headbutt: ["8V", "7V", "4T"],
-			headsmash: ["7L50", "6L50"],
+			headsmash: ["7L50"],
 			hiddenpower: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			incinerate: ["6M", "5M"],
 			irondefense: ["7T", "6T", "5T"],
