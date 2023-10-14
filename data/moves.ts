@@ -7247,6 +7247,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 			onSwitchIn(pokemon) {
 				if (pokemon.species.name === 'Vespiquen' && pokemon.hasItem('royaljelly')) return;
+				if (pokemon.species.name === 'Vespiquen-Starlight' && pokemon.hasItem('royaljelly')) return;
+				if (pokemon.species.name === 'Vespiquen-Yasqueen' && pokemon.hasItem('royaljelly')) return;
 				if (pokemon.hasItem('heavydutyboots')) return;
 				if (pokemon.hasAbility('wonderguard')) return;
 				// Ice Face and Disguise correctly get typed damage from Stealth Rock
@@ -19311,6 +19313,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onSwitchIn(pokemon) {
 				if (!pokemon.isGrounded()) return;
 				if (pokemon.species.name === 'Vespiquen' && pokemon.hasItem('royaljelly')) return;
+				if (pokemon.species.name === 'Vespiquen-Starlight' && pokemon.hasItem('royaljelly')) return;
+				if (pokemon.species.name === 'Vespiquen-Yasqueen' && pokemon.hasItem('royaljelly')) return;
 				if (pokemon.hasItem('heavydutyboots')) return;
 				if (pokemon.hasAbility('wonderguard')) return;
 				const damageAmounts = [0, 3, 4, 6]; // 1/8, 1/6, 1/4
@@ -19616,6 +19620,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 			onSwitchIn(pokemon) {
 				if (pokemon.species.name === 'Vespiquen' && pokemon.hasItem('royaljelly')) return;
+				if (pokemon.species.name === 'Vespiquen-Starlight' && pokemon.hasItem('royaljelly')) return;
+				if (pokemon.species.name === 'Vespiquen-Yasqueen' && pokemon.hasItem('royaljelly')) return;
 				if (pokemon.hasItem('heavydutyboots')) return;
 				if (pokemon.hasAbility('wonderguard')) return;
 				const typeMod = this.clampIntRange(pokemon.runEffectiveness(this.dex.getActiveMove('stealthrock')), -6, 6);
