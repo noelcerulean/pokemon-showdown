@@ -268,7 +268,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			counter: ["7L30"],
 			disable: ["7L17"],
 			doubleteam: ["7M"],
-			drypass: ["7L1"],
 			eerieimpulse: ["7L33"],
 			encore: ["7L44"],
 			endure: ["7L39"],

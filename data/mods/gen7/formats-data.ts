@@ -380,7 +380,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	manomoth: {
 		randomBattleMoves: ["bugbuzz", "darkpulse", "quiverdance", "sleeppowder", "sludgebomb", "substitute"],
 		randomDoubleBattleMoves: ["bugbuzz", "darkpulse", "protect", "quiverdance", "ragepowder", "sleeppowder", "sludgebomb"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	diglett: {
@@ -4325,7 +4325,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	meowsticf: {
 		randomBattleMoves: ["calmmind", "dazzlinggleam", "energyball", "psychic", "psyshock", "shadowball", "thunderbolt"],
 		randomDoubleBattleMoves: ["darkpulse", "energyball", "fakeout", "helpinghand", "nastyplot", "protect", "psychic", "thunderbolt"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	honedge: {
