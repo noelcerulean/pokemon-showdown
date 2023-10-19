@@ -11455,6 +11455,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 37,
 		eggGroups: ["Flying", "Water 3"],
 	},
+	archebot: {
+		num: -536,
+		name: "Archebot",
+		types: ["Electric", "Flying"],
+		gender: "N",
+		baseStats: {hp: 70, atk: 125, def: 94, spa: 96, spd: 54, spe: 128},
+		abilities: {0: "Infiltrator", 1: "Supercharged", H: "Defeatist"},
+		heightm: 1.4,
+		weightkg: 32,
+		color: "Yellow",
+		eggGroups: ["Undiscovered"],
+	},
 	trubbish: {
 		num: 568,
 		name: "Trubbish",

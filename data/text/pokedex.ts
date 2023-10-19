@@ -2465,6 +2465,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	archeops: {
 		name: "Archeops",
 	},
+	archebot: {
+		name: "Archebot",
+	},
 	trubbish: {
 		name: "Trubbish",
 	},

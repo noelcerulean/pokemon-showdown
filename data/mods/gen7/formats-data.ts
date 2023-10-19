@@ -2120,7 +2120,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	mawile: {
 		randomBattleMoves: ["ironhead", "knockoff", "playrough", "stealthrock", "suckerpunch", "swordsdance"],
 		randomDoubleBattleMoves: ["ironhead", "knockoff", "playrough", "protect", "suckerpunch", "swordsdance"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	mawilemega: {
@@ -3649,6 +3649,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	archeops: {
 		randomBattleMoves: ["acrobatics", "aquatail", "earthquake", "endeavor", "headsmash", "stoneedge", "uturn"],
 		randomDoubleBattleMoves: ["acrobatics", "earthpower", "protect", "rockslide", "stoneedge", "tailwind", "taunt", "uturn"],
+		tier: "UUBL",
+		doublesTier: "(DUU)",
+	},
+	archebot: {
+		randomBattleMoves: ["bravebird", "icebeam", "overheat", "thundercrash"],
+		randomDoubleBattleMoves: ["bravebird", "icebeam", "overheat", "protect", "thundercrash"],
 		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},

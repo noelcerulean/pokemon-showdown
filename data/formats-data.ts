@@ -4113,6 +4113,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
+	archebot: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	trubbish: {
 		tier: "LC",
 	},

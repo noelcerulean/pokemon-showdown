@@ -6969,6 +6969,14 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		start: "  [SOURCE] trapped [POKEMON]!",
 	},
+	thundercrash: {
+		name: "Thunder Crash",
+		desc: "If the target lost HP, the user takes recoil damage equal to 1/2 the HP lost by the target, rounded half up, but not less than 1 HP.",
+		shortDesc: "Has 1/2 recoil.",
+		gen4: {
+			desc: "If the target lost HP, the user takes recoil damage equal to 1/2 the HP lost by the target, rounded down, but not less than 1 HP.",
+		},
+	},
 	thunderfang: {
 		name: "Thunder Fang",
 		desc: "Has a 10% chance to paralyze the target and a 10% chance to make it flinch.",
