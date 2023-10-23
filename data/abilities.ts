@@ -1259,23 +1259,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2.5,
 		num: -540,
 	},
-	erraticflight: {
-		// upokecenter says this is implemented as an added secondary effect
-		onModifyMove(move) {
-			if (!move?.flags['contact'] || move.target === 'self') return;
-			if (!move.secondaries) {
-				move.secondaries = [];
-			}
-			move.secondaries.push({
-				chance: 100,
-				volatileStatus: 'confusion',
-				ability: this.dex.abilities.get('erraticflight'),
-			});
-		},
-		name: "Erratic Flight",
-		rating: 2,
-		num: -513,
-	},
 	escapeartist: {
 		onBasePowerPriority: 19,
 		onBasePower(basePower, attacker, defender, move) {
@@ -3307,7 +3290,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				return;
 			}
 			if (effect.id === 'psn' || effect.id === 'tox') {
-				this.heal(target.baseMaxhp / 8);
+				this.heal(target.baseMaxhp / 16);
 				return false;
 			}
 		},
@@ -3469,7 +3452,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 239,
 	},
 	protean: {
-		onPrepareHit(source, target, move) {
+		onAfterMoveSecondarySelf(source, target, move) {
 			if (move.hasBounced || move.sourceEffect === 'snatch') return;
 			const type = move.type;
 			if (type && type !== '???' && source.getTypes().join() !== type) {
@@ -4697,6 +4680,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	steadfast: {
 		onFlinch(pokemon) {
 			this.boost({spe: 1});
+		},
+		onBoost(boost, target, source, effect) {
+			if (effect.id === 'intimidate') {
+				delete boost.atk;
+				this.add('-fail', target, 'unboost', 'Attack', '[from] ability: Inner Focus', '[of] ' + target);
+			}
 		},
 		name: "Steadfast",
 		rating: 1,

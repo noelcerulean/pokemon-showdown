@@ -3135,7 +3135,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	heatran: {
 		randomBattleMoves: ["earthpower", "flashcannon", "lavaplume", "magmastorm", "protect", "roar", "stealthrock", "toxic"],
 		randomDoubleBattleMoves: ["earthpower", "flashcannon", "heatwave", "protect", "willowisp"],
-		tier: "OU",
+		tier: "Uber",
 		doublesTier: "DOU",
 	},
 	regigigas: {
@@ -3649,13 +3649,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	archeops: {
 		randomBattleMoves: ["acrobatics", "aquatail", "earthquake", "endeavor", "headsmash", "stoneedge", "uturn"],
 		randomDoubleBattleMoves: ["acrobatics", "earthpower", "protect", "rockslide", "stoneedge", "tailwind", "taunt", "uturn"],
-		tier: "UUBL",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	archebot: {
 		randomBattleMoves: ["bravebird", "icebeam", "overheat", "thundercrash"],
 		randomDoubleBattleMoves: ["bravebird", "icebeam", "overheat", "protect", "thundercrash"],
-		tier: "UUBL",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	trubbish: {

@@ -7550,8 +7550,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	zenheadbutt: {
 		name: "Zen Headbutt",
-		desc: "Has a 20% chance to lower the target's Attack by 1 stage.",
-		shortDesc: "20% chance to lower the target's Attack by 1.",
+		shortDesc: "This move does not check accuracy.",
 	},
 	zingzap: {
 		name: "Zing Zap",

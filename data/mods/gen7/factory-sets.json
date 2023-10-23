@@ -7827,7 +7827,7 @@
 			"sets": [{
 				"species": "Chatot",
 				"item": ["Choice Scarf", "Choice Specs"],
-				"ability": ["Erratic Flight"],
+				"ability": ["Tangled Feet"],
 				"evs": {"spa": 252, "spd": 4, "spe": 252},
 				"nature": "Timid",
 				"moves": [["Boomburst"], ["Hurricane"], ["Heat Wave"], ["U-Turn"]]

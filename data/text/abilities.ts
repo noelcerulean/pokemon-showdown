@@ -452,10 +452,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Enigmatify",
 		shortDesc: "On switch-in, this Pokemon summons Wonder Room.",
 	},
-	erraticflight: {
-		name: "Erratic Flight",
-		shortDesc: "This Pokemon's contact moves have a 100% chance of confusing.",
-	},
 	escapeartist: {
 		name: "Escape Artist",
 		desc: "This Pokemon's pivot moves have their power multiplied by 1.5.",
@@ -1173,8 +1169,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	poisonheal: {
 		name: "Poison Heal",
-		desc: "If this Pokemon is poisoned, it restores 1/8 of its maximum HP, rounded down, at the end of each turn instead of losing HP.",
-		shortDesc: "This Pokemon is healed by 1/8 of its max HP each turn when poisoned; no HP loss.",
+		desc: "If this Pokemon is poisoned, it restores 1/16 of its maximum HP, rounded down, at the end of each turn instead of losing HP.",
+		shortDesc: "This Pokemon is healed by 1/16 of its max HP each turn when poisoned; no HP loss.",
 	},
 	poisonpoint: {
 		name: "Poison Point",
@@ -1251,8 +1247,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	protean: {
 		name: "Protean",
-		desc: "This Pokemon's type changes to match the type of the move it is about to use. This effect comes after all effects that change a move's type.",
-		shortDesc: "This Pokemon's type changes to match the type of the move it is about to use.",
+		desc: "This Pokemon's type changes to match the type of the move it just used. This effect comes after all effects that change a move's type.",
+		shortDesc: "This Pokemon's type changes to match the type of the move it just used.",
 	},
 	psychecontrol: {
 		name: "Psyche Control",
