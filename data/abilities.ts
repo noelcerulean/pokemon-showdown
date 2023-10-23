@@ -4684,7 +4684,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onBoost(boost, target, source, effect) {
 			if (effect.id === 'intimidate') {
 				delete boost.atk;
-				this.add('-fail', target, 'unboost', 'Attack', '[from] ability: Inner Focus', '[of] ' + target);
+				this.add('-fail', target, 'unboost', 'Attack', '[from] ability: Steadfast', '[of] ' + target);
 			}
 		},
 		name: "Steadfast",
