@@ -75,6 +75,14 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		start: "  [POKEMON]'s antlers are radiating an alluring sensation!",
 	},
+	arachnidsgrace: {
+		name: "Arachnid's Grace",
+		desc: "If this Pokemon is a Kirlia-Armored, it changes to Weaver Forme or Stalker forme (whichever forme it is not currently in) when using Silk Snare.",
+		shortDesc: "If Kirlia-Armored, changes forme when using Silk Snare.",
+
+		transform: "Changed to Stalker Forme!",
+		transformEnd: "Changed to Weaver Forme!",
+	},
 	arcana: {
 		name: "Arcana",
 		shortDesc: "On switch-in, this Pokemon summons Mystery Room.",

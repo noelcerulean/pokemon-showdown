@@ -3132,6 +3132,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 221,
 		gen: 2,
 	},
+	kirliaarmor: {
+		name: "Kirlia Armor",
+		spritenum: 778,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Kirlia-Armored') return false;
+			if (source.baseSpecies.name === 'Kirlia-Armored-Weaver') return false;
+			return true;
+		},
+		itemUser: ["Kirlia-Armored", "Kirlia-Armored-Weaver"],
+		num: -540,
+		gen: 7,
+	},
 	knightsedge: {
 		name: "Knight's Edge",
 		fling: {

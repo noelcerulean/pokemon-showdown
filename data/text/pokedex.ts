@@ -1301,6 +1301,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	kirlia: {
 		name: "Kirlia",
 	},
+	kirliaarmored: {
+		name: "Kirlia-Armored",
+	},
+	kirliaarmoredweaver: {
+		name: "Kirlia-Armored-Weaver",
+	},
 	gardevoir: {
 		name: "Gardevoir",
 	},

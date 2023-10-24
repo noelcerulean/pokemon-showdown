@@ -1967,6 +1967,16 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	kirlia: {
 		tier: "NFE",
 	},
+	kirliaarmored: {
+		randomBattleMoves: ["firepunch", "icepunch", "moonlight", "perishsong", "playrough", "silksnare", "stickyweb", "swordsdance"],
+		randomDoubleBattleMoves: ["firepunch", "icepunch", "moonlight", "perishsong", "playrough", "silksnare", "swordsdance"],
+		tier: "OU",
+		doublesTier: "DUU",
+	},
+	kirliaarmoredweaver: {
+		randomBattleMoves: ["firepunch", "icepunch", "moonlight", "perishsong", "playrough", "silksnare", "stickyweb", "swordsdance"],
+		randomDoubleBattleMoves: ["firepunch", "icepunch", "moonlight", "perishsong", "playrough", "silksnare", "swordsdance"],
+	},
 	gardevoir: {
 		randomBattleMoves: ["calmmind", "focusblast", "moonblast", "psychic", "shadowball", "substitute", "thunderbolt", "willowisp"],
 		randomDoubleBattleMoves: ["dazzlinggleam", "focusblast", "helpinghand", "moonblast", "protect", "psyshock"],

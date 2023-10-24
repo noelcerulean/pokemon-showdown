@@ -2362,6 +2362,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	kirlia: {
 		tier: "NFE",
 	},
+	kirliaarmored: {
+		tier: "NFE",
+	},
+	kirliaarmoredweaver: {
+		tier: "NFE",
+	},
 	gardevoir: {
 		randomBattleMoves: ["calmmind", "moonblast", "mysticalfire", "psyshock", "substitute", "trick", "willowisp"],
 		randomBattleLevel: 82,

@@ -18203,6 +18203,130 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Bug",
 		contestType: "Beautiful",
 	},
+	silksnare: {
+		num: -564,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Silk Snare",
+		pp: 10,
+		priority: 0,
+		flags: {},
+		volatileStatus: 'partiallytrapped',
+		onTry(source) {
+			let move = 'silksnare';
+			if (source.species.id === 'kirliaarmoredweaver') {
+				move = 'silkshield';
+			} else if (source.species.id === 'kirliaarmored') {
+				return;
+			} else {
+				move = 'spiderweb';
+			}
+			this.actions.useMove(move, source);
+			return null;
+		},
+		onModifyMove(move, source) {
+			if (source.species.id === 'kirliaarmoredweaver') {
+				move.accuracy = true;
+				move.target = 'self';
+			}
+		},
+		onModifyPriority(priority, source, target, move) {
+			if (source.species.id === 'kirliaarmoredweaver') {
+				return priority + 4;
+			}
+		},
+		onHit(target, pokemon, move) {
+			if (pokemon.baseSpecies.baseSpecies === 'Kirlia-Armored' && !pokemon.transformed) {
+				move.willChangeForme = true;
+			}
+		},
+		onAfterMoveSecondarySelf(pokemon, target, move) {
+			if (move.willChangeForme) {
+				const kirliaarmoredForme = pokemon.species.id === 'kirliaarmoredweaver' ? '' : '-Weaver';
+				pokemon.formeChange('Kirlia-Armored' + kirliaarmoredForme, this.effect, false, '[msg]');
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Bug",
+		contestType: "Clever",
+	},
+	silkshield: {
+		num: -565,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Silk Shield",
+		pp: 10,
+		priority: 4,
+		flags: {},
+		stallingMove: true,
+		volatileStatus: 'silkshield',
+		onTry(source) {
+			if (source.baseSpecies.baseSpecies === 'Kirlia-Armored-Weaver') {
+				return;
+			}
+			this.add('-fail', source, 'move: Silk Shield');
+			this.hint("Only Kirlia-Armored-Weaver can use this move.");
+			return null;
+		},
+		onPrepareHit(pokemon) {
+			return !!this.queue.willAct() && this.runEvent('StallMove', pokemon);
+		},
+		onHit(target, pokemon, move) {
+			pokemon.addVolatile('stall');
+			if (pokemon.baseSpecies.baseSpecies === 'Kirlia-Armored' && !pokemon.transformed) {
+				move.willChangeForme = true;
+			}
+		},
+		condition: {
+			duration: 1,
+			onStart(target) {
+				this.add('-singleturn', target, 'Protect');
+			},
+			onTryHitPriority: 3,
+			onTryHit(target, source, move) {
+				if (!move.flags['protect'] || move.category === 'Status') {
+					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
+					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
+					return;
+				}
+				if (move.smartTarget) {
+					move.smartTarget = false;
+				} else {
+					this.add('-activate', target, 'move: Protect');
+				}
+				const lockedmove = source.getVolatile('lockedmove');
+				if (lockedmove) {
+					// Outrage counter is reset
+					if (source.volatiles['lockedmove'].duration === 2) {
+						delete source.volatiles['lockedmove'];
+					}
+				}
+				if (this.checkMoveMakesContact(move, source, target)) {
+					this.boost({spe: -2}, source, target, this.dex.getActiveMove("Silk Shield"));
+				}
+				return this.NOT_FAIL;
+			},
+			onHit(target, source, move) {
+				if (move.isZOrMaxPowered && this.checkMoveMakesContact(move, source, target)) {
+					this.boost({spe: -2}, source, target, this.dex.getActiveMove("Silk Shield"));
+				}
+			},
+		},
+		onAfterMoveSecondarySelf(pokemon, target, move) {
+			if (move.willChangeForme) {
+				const kirliaarmoredForme = pokemon.species.id === 'kirliaarmoredweaver' ? '' : '-Weaver';
+				pokemon.formeChange('Kirlia-Armored' + kirliaarmoredForme, this.effect, false, '[msg]');
+			}
+		},
+		secondary: null,
+		target: "self",
+		type: "Bug",
+		zMove: {effect: 'clearnegativeboost'},
+		contestType: "Clever",
+	},
 	silverwind: {
 		num: 318,
 		accuracy: 100,
