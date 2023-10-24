@@ -249,16 +249,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: -538,
 	},
 	arachnidsgrace: {
-		onModifyMovePriority: 1,
-		onModifyMove(move, attacker, defender) {
-			if (attacker.species.baseSpecies !== 'Kirlia-Armored' || attacker.transformed) return;
-			if (move.category === 'Status' && move.id !== 'silksnare') return;
-			const targetForme = (move.id === 'silksnare' ? 'Kirlia-Armored' : 'Kirlia-Armored-Weaver');
-			if (attacker.species.name !== targetForme) attacker.formeChange(targetForme);
-		},
 		isPermanent: true,
 		name: "Arachnid's Grace",
-		rating: 4,
+		rating: 0,
 		num: -561,
 	},
 	arcana: {

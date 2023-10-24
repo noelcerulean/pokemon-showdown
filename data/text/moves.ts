@@ -5862,6 +5862,16 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 10% chance to confuse the target.",
 		shortDesc: "10% chance to confuse the target.",
 	},
+	silkshield: {
+		name: "Silk Shield",
+		desc: "If Kirlia-Armored is in Stalker forme: traps the foe and damages for 4-5 turns. If Kirlia-Armored is in Weaver forme: protects from non-status moves and lowers foe's speed by 2 if they try to make contact. If this move is successful on at least one target and the user is a Kirlia-Armored, it changes to Stalker Forme if it is currently in Weaver Forme, or changes to Weaver Forme if it is currently in Stalker Forme. Forme change fails if the ability is changed to Sheer Force.",
+		shortDesc: "Transforms Kirlia. Forme: damages or protects.",
+	},
+	silksnare: {
+		name: "Silk Snare",
+		desc: "If Kirlia-Armored is in Stalker forme: traps the foe and damages for 4-5 turns. If Kirlia-Armored is in Weaver forme: protects from non-status moves and lowers foe's speed by 2 if they try to make contact. If this move is successful on at least one target and the user is a Kirlia-Armored, it changes to Stalker Forme if it is currently in Weaver Forme, or changes to Weaver Forme if it is currently in Stalker Forme. Forme change fails if the ability is changed to Sheer Force.",
+		shortDesc: "Damages/traps or protects based on forme.",
+	},
 	silverwind: {
 		name: "Silver Wind",
 		desc: "Has a 10% chance to raise the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",

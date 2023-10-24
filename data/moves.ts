@@ -18211,7 +18211,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Silk Snare",
 		pp: 10,
 		priority: 0,
-		flags: {},
+		flags: {protect: 1},
 		volatileStatus: 'partiallytrapped',
 		onTry(source) {
 			let move = 'silksnare';
