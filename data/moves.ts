@@ -18264,7 +18264,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		stallingMove: true,
 		volatileStatus: 'silkshield',
 		onTry(source) {
-			if (source.baseSpecies.baseSpecies === 'Kirlia-Armored-Weaver') {
+			if (source.species.id === 'kirliaarmoredweaver') {
 				return;
 			}
 			this.add('-fail', source, 'move: Silk Shield');
