@@ -6124,7 +6124,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		otherFormes: ["Kirlia-Armored-Weaver"],
 		formeOrder: ["Kirlia-Armored", "Kirlia-Armored-Weaver"],
 		requiredItem: "Kirlia Armor",
-		requiredAbility: "Arachnid's Grace",
 	},
 	kirliaarmoredweaver: {
 		num: 281,
@@ -6140,6 +6139,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Human-Like", "Amorphous"],
 		requiredMove: "Silk Snare",
 		requiredItem: "Kirlia Armor",
+		requiredAbility: "Arachnid's Grace",
 		battleOnly: "Kirlia-Armored",
 	},
 	gardevoir: {
