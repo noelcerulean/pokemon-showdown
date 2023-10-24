@@ -80,8 +80,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "If this Pokemon is a Kirlia-Armored, it changes to Weaver Forme or Stalker forme (whichever forme it is not currently in) when using Silk Snare.",
 		shortDesc: "If Kirlia-Armored, changes forme when using Silk Snare.",
 
-		transform: "Changed to Stalker Forme!",
-		transformEnd: "Changed to Weaver Forme!",
+		transform: "Kirlia changed formes!",
+		transformEnd: "Kirlia changed formes!",
 	},
 	arcana: {
 		name: "Arcana",
