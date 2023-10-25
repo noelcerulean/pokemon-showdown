@@ -1506,9 +1506,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	unown: {
-		randomBattleMoves: ["hiddenpowerpsychic"],
-		tier: "(PU)",
-		doublesTier: "(DUU)",
+		tier: "LC",
 	},
 	allnown: {
 		randomBattleMoves: ["earthpower", "hiddenpowerfighting", "psychic", "shellsmash"],

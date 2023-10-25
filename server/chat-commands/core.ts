@@ -138,6 +138,7 @@ const avatarTable = new Set([
 	'dragontamer-gen3', 'dragontamer',
 	'drake-gen3',
 	'drayden',
+	'elder',
 	'elesa-gen5bw2', 'elesa',
 	'emmet',
 	'engineer-gen1', 'engineer-gen1rb', 'engineer-gen3',
@@ -160,6 +161,7 @@ const avatarTable = new Set([
 	'fisherman-gen1', 'fisherman-gen1rb', 'fisherman-gen2jp', 'fisherman-gen3', 'fisherman-gen3rs', 'fisherman-gen4', 'fisherman',
 	'flannery-gen3', 'flannery',
 	'flint',
+	'furisodegirl-pink-2',
 	'galacticgruntf',
 	'galacticgrunt',
 	'gambler-gen1', 'gambler-gen1rb', 'gambler',
@@ -377,7 +379,7 @@ const avatarTable = new Set([
 	'valentina',
 	'venusgrunt', 'venusgruntf',
 	'veteranf',
-	'veteran-gen4', 'veteran',
+	'veteran-gen4', 'veteran-gen4-2', 'veteran',
 	'volkner',
 	'waiter-gen4dp', 'waiter-gen4', 'waiter',
 	'waitress-gen4', 'waitress',
@@ -417,6 +419,10 @@ const avatarTableBeliot419 = new Set([
 
 const avatarTableFiftyShadesofRez = new Set([
 	'rose-zerosuit',
+]);
+
+const avatarTableAutumnSpire = new Set([
+	'florist',
 ]);
 
 const avatarTableGnomowladny = new Set([
@@ -519,6 +525,7 @@ const avatarTableGrapo = new Set([
 for (const avatar of avatarTableAkumaTsubasa) avatarTable.add(avatar);
 for (const avatar of avatarTableBeliot419) avatarTable.add(avatar);
 for (const avatar of avatarTableFiftyShadesofRez) avatarTable.add(avatar);
+for (const avatar of avatarTableAutumnSpire) avatarTable.add(avatar);
 for (const avatar of avatarTableGnomowladny) avatarTable.add(avatar);
 for (const avatar of avatarTableBrumirage) avatarTable.add(avatar);
 for (const avatar of avatarTableZacWeavile) avatarTable.add(avatar);
@@ -797,6 +804,9 @@ export const commands: Chat.ChatCommands = {
 			}
 			if (avatarTableFiftyShadesofRez.has(avatar)) {
 				this.sendReply(`|raw|(${this.tr`Artist: `}Fifty Shades of Rez)`);
+			}
+			if (avatarTableAutumnSpire.has(avatar)) {
+				this.sendReply(`|raw|(${this.tr`Artist: `}AutumnSpire)`);
 			}
 		}
 	},
