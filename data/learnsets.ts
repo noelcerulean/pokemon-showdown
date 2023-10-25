@@ -60375,7 +60375,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			xscissor: ["7M", "6M", "5M"],
 		},
 	},
-	dewottpika: {
+	dewottlutryla: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M"],
 			airslash: ["7L1", "6L1", "5L1"],

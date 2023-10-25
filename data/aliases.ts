@@ -420,7 +420,7 @@ export const Aliases: {[alias: string]: string} = {
 	medichamparappa: "Medicham",
 	turbannswag: "Turbann",
 	swirlixvanilla: "Swirlix",
-	dewottpikadress: "Dewott-Pika",
+	dewottlutryladress: "Dewott-Lutryla",
 	marshadowmug: "Marshadow",
 	fraxurefrenzydeity: "Fraxure-Frenzy",
 	raichumalachiteberserker: "Raichu-Malachite",

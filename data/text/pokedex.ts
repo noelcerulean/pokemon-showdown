@@ -2234,8 +2234,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	dewott: {
 		name: "Dewott",
 	},
-	dewottpika: {
-		name: "Dewott-Pika",
+	dewottlutryla: {
+		name: "Dewott-Lutryla",
 	},
 	samurott: {
 		name: "Samurott",

@@ -10428,9 +10428,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		cosmeticFormes: ["Dewott-Scalchops"],
 		formeOrder: ["Dewott", "Dewott-Scalchops"],
 	},
-	dewottpika: {
+	dewottlutryla: {
 		num: 502,
-		name: "Dewott-Pika",
+		name: "Dewott-Lutryla",
 		types: ["Water", "Fighting"],
 		gender: "M",
 		baseStats: {hp: 95, atk: 95, def: 100, spa: 120, spd: 100, spe: 110},
@@ -10439,8 +10439,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 24.5,
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
-		cosmeticFormes: ["Dewott-Pika-Dress"],
-		formeOrder: ["Dewott-Pika", "Dewott-Pika-Dress"],
+		cosmeticFormes: ["Dewott-Lutryla-Dress"],
+		formeOrder: ["Dewott-Lutryla", "Dewott-Lutryla-Dress"],
 	},
 	samurott: {
 		num: 503,

@@ -3325,7 +3325,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	dewott: {
 		tier: "NFE",
 	},
-	dewottpika: {
+	dewottlutryla: {
 		tier: "Uber",
 	},
 	samurott: {
