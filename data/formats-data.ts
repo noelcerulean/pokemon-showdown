@@ -4543,8 +4543,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
-	deino: {
-		tier: "LC",
+	phasmatch: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	phasphorus: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	zweilous: {
 		tier: "NFE",

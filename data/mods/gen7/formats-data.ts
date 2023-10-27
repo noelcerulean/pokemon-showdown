@@ -4027,6 +4027,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	phasmatch: {
+		tier: "NFE",
+	},
+	phasphorus: {
+		randomBattleMoves: ["firstimpression", "flareblitz", "swordsdance", "wildcharge", "uturn"],
+		randomDoubleBattleMoves: ["firstimpression", "flareblitz", "protect", "swordsdance", "wildcharge", "uturn"],
+		tier: "UUBL",
+		doublesTier: "(DUU)",
+	},
 	deino: {
 		tier: "LC",
 	},

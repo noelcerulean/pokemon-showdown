@@ -702,6 +702,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Ice Scales",
 		shortDesc: "This Pokemon receives 1/2 damage from special attacks.",
 	},
+	ignition: {
+		name: "Ignition",
+		desc: "After using a fire move, this pokemon gains +1 in Attack, Sp. Attack, and Speed. Also grants immunity to fire moves.",
+		shortDesc: "This pokemon gains +1 Attack, Sp Attack, & Speed after using a Fire move; Fire immunity.",
+	},
 	illuminate: {
 		name: "Illuminate",
 		shortDesc: "This Pokemon's moves have their accuracy multiplied by 1.3.",

@@ -2717,6 +2717,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	durant: {
 		name: "Durant",
 	},
+	phasmatch: {
+		name: "Phasmatch",
+	},
+	phasphorus: {
+		name: "Phasphorus",
+	},
 	deino: {
 		name: "Deino",
 	},

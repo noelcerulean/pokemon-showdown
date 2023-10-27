@@ -2023,6 +2023,37 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 246,
 	},
+	ignition: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Fire') {
+				this.add('-immune', target, '[from] ability: Ignition');
+				return null;
+			}
+		},
+		onModifyMovePriority: -1,
+		onModifyMove(move) {
+			if (move.type === 'Fire') {
+				if (!move.secondaries) {
+					move.secondaries = [];
+				}
+				move.secondaries.push({
+					chance: 100,
+					self: {
+						boosts: {
+							atk: 1,
+							spa: 1,
+							spe: 1,
+						},
+					},
+					ability: this.dex.abilities.get('ignition'),
+				});
+			}
+		},
+		isBreakable: true,
+		name: "Ignition",
+		rating: 4,
+		num: -562,
+	},
 	illuminate: {
 		onSourceModifyAccuracyPriority: -1,
 		onSourceModifyAccuracy(accuracy) {
