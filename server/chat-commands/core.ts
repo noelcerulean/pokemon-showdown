@@ -248,7 +248,7 @@ const avatarTable = new Set([
 	'musician',
 	'nate-wonderlauncher', 'nate',
 	'ninjaboy-gen3', 'ninjaboy',
-	'nikita',
+	'nikita', 'nikita-furisode',
 	'noland-gen3',
 	'noobscrub',
 	'norman-gen3', 'norman',
