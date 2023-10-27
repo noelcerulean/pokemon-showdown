@@ -705,7 +705,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	ignition: {
 		name: "Ignition",
 		desc: "After using a fire move, this pokemon gains +1 in Attack, Sp. Attack, and Speed. Also grants immunity to fire moves.",
-		shortDesc: "This pokemon gains +1 Attack, Sp Attack, & Speed after using a Fire move; Fire immunity.",
+		shortDesc: "User gains +1 Atk, Sp. Atk, & Speed after using a Fire move; Fire immunity.",
 	},
 	illuminate: {
 		name: "Illuminate",
