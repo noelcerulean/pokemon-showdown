@@ -11895,6 +11895,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			charm: ["8M"],
 			confide: ["7M", "6M"],
 			curse: ["7V"],
+			demolition: ["7L41"],
 			doubleedge: ["7V", "3T"],
 			doublekick: ["8V"],
 			doubleteam: ["7M", "7V", "6M", "5M", "4M", "3M"],
