@@ -763,6 +763,26 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 546,
 		gen: 5,
 	},
+	ceriseorb: {
+		name: "Cerise Orb",
+		spritenum: 779,
+		onSwitchIn(pokemon) {
+			if (pokemon.isActive && pokemon.baseSpecies.name === 'Cherrim') {
+				this.queue.insertChoice({choice: 'runPrimal', pokemon: pokemon});
+			}
+		},
+		onPrimal(pokemon) {
+			pokemon.formeChange('Cherrim-Primal', this.effect, true);
+		},
+		onTakeItem(item, source) {
+			if (source.baseSpecies.baseSpecies === 'Cherrim') return false;
+			return true;
+		},
+		itemUser: ["Cherrim"],
+		num: -541,
+		gen: 7,
+		isNonstandard: "Past",
+	},
 	charcoal: {
 		name: "Charcoal",
 		spritenum: 61,
@@ -5018,6 +5038,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		onEat: false,
 		num: 177,
 		gen: 3,
+		isNonstandard: "Past",
+	},
+	rapidashite: {
+		name: "Rapidashite",
+		spritenum: 780,
+		megaStone: "Rapidash-Mega",
+		megaEvolves: "Rapidash",
+		itemUser: ["Rapidash"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -542,
+		gen: 6,
 		isNonstandard: "Past",
 	},
 	rarebone: {

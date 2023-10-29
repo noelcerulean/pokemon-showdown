@@ -96,7 +96,7 @@ export const commands: Chat.ChatCommands = {
 		}
 		const stone = getMegaStone(stoneName[0], mod);
 		const species = dex.species.get(sep[0]);
-		if (!stone || (dex.gen >= 8 && ['redorb', 'blueorb', 'tealorb'].includes(stone.id))) {
+		if (!stone || (dex.gen >= 8 && ['redorb', 'blueorb', 'tealorb', 'ceriseorb'].includes(stone.id))) {
 			throw new Chat.ErrorMessage(`Error: Mega Stone not found.`);
 		}
 		if (!species.exists) throw new Chat.ErrorMessage(`Error: Pok\u00e9mon not found.`);
@@ -111,6 +111,9 @@ export const commands: Chat.ChatCommands = {
 		} else if (stone.id === 'tealorb') {
 			megaSpecies = dex.species.get("Phione-Primal");
 			baseSpecies = dex.species.get("Phione");
+		} else if (stone.id === 'ceriseorb') {
+			megaSpecies = dex.species.get("Cherrim-Primal");
+			baseSpecies = dex.species.get("Cherrim");
 		}
 		const deltas: StoneDeltas = {
 			baseStats: Object.create(null),
@@ -196,7 +199,7 @@ export const commands: Chat.ChatCommands = {
 		if (!targetid) return this.parse('/help stone');
 		this.runBroadcast();
 		const stone = getMegaStone(targetid, sep[1]);
-		if (stone && dex.gen >= 8 && ['redorb', 'blueorb', 'tealorb'].includes(stone.id)) {
+		if (stone && dex.gen >= 8 && ['redorb', 'blueorb', 'tealorb', 'ceriseorb'].includes(stone.id)) {
 			throw new Chat.ErrorMessage("The Orbs do not exist in Gen 8 and later.");
 		}
 		const stones = [];
@@ -219,7 +222,7 @@ export const commands: Chat.ChatCommands = {
 			if (!aStone) return;
 			let baseSpecies = dex.species.get(aStone.megaEvolves);
 			let megaSpecies = dex.species.get(aStone.megaStone);
-			if (dex.gen >= 8 && ['redorb', 'blueorb', 'tealorb'].includes(aStone.id)) {
+			if (dex.gen >= 8 && ['redorb', 'blueorb', 'tealorb', 'ceriseorb'].includes(aStone.id)) {
 				throw new Chat.ErrorMessage("The Orbs do not exist in Gen 8 and later.");
 			}
 			if (aStone.id === 'redorb') { // Orbs do not have 'Item.megaStone' or 'Item.megaEvolves' properties.
@@ -231,6 +234,9 @@ export const commands: Chat.ChatCommands = {
 			} else if (aStone.id === 'tealorb') {
 				megaSpecies = dex.species.get("Phione-Primal");
 				baseSpecies = dex.species.get("Phione");
+			} else if (aStone.id === 'ceriseorb') {
+				megaSpecies = dex.species.get("Cherrim-Primal");
+				baseSpecies = dex.species.get("Cherrim");
 			}
 			const deltas: StoneDeltas = {
 				baseStats: Object.create(null),
@@ -253,7 +259,7 @@ export const commands: Chat.ChatCommands = {
 				Weight: (deltas.weighthg < 0 ? "" : "+") + deltas.weighthg / 10 + " kg",
 			};
 			let tier;
-			if (['redorb', 'blueorb', 'tealorb'].includes(aStone.id)) {
+			if (['redorb', 'blueorb', 'tealorb', 'ceriseorb'].includes(aStone.id)) {
 				tier = "Orb";
 			} else if (aStone.name === "Dragon Ascent") {
 				tier = "Move";

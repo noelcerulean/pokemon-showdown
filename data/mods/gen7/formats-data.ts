@@ -557,6 +557,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	rapidashmega: {
+		randomBattleMoves: ["flareblitz", "highhorsepower", "lightningkick", "morningsun", "return", "willowisp"],
+		randomDoubleBattleMoves: ["flareblitz", "highhorsepower", "hypnosis", "lightningkick", "protect", "return", "willowisp"],
+		tier: "UUBL",
+		doublesTier: "(DUU)",
+	},
 	slowpoke: {
 		tier: "LC",
 	},
@@ -2906,6 +2912,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["growth", "hiddenpowerice", "playrough", "solarblade", "sunnyday", "weatherball"],
 		randomDoubleBattleMoves: ["gigadrain", "helpinghand", "solarbeam", "sunnyday", "weatherball"],
 	},
+	cherrimprimal: {
+		randomBattleMoves: ["florapower", "petalblizzard", "playrough", "primalburst", "swordsdance"],
+		randomDoubleBattleMoves: ["florapower", "petalblizzard", "playrough", "primalburst", "protect"],
+		tier: "UUBL",
+		doublesTier: "DOU",
+	},
 	shellos: {
 		tier: "LC",
 	},
@@ -3178,7 +3190,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["bubbleprison", "calmmind", "icebeam", "originpulse", "rest", "scald", "sleeptalk", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["calmmind", "icebeam", "icywind", "originpulse", "protect"],
 		tier: "UU",
-		doublesTier: "DUber",
+		doublesTier: "DOU",
 	},
 	manaphy: {
 		randomBattleMoves: ["energyball", "icebeam", "psychic", "surf", "tailglow"],
@@ -3571,6 +3583,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["earthquake", "knockoff", "pursuit", "stealthrock", "stoneedge", "superpower"],
 		randomDoubleBattleMoves: ["earthquake", "knockoff", "protect", "stoneedge", "superpower"],
 		tier: "UU",
+		doublesTier: "DUU",
+	},
+	blockodile: {
+		tier: "NFE",
+	},
+	crocodobe: {
+		randomBattleMoves: ["demolition", "earthquake", "flamewheel", "stealthrock", "rockjaw", "slackoff", "toxic"],
+		randomDoubleBattleMoves: ["demolition", "earthquake", "flamewheel", "protect", "stealthrock", "rockjaw", "slackoff"],
+		tier: "RUBL",
 		doublesTier: "DUU",
 	},
 	darumaka: {
@@ -4033,7 +4054,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	phasphorus: {
 		randomBattleMoves: ["firstimpression", "flareblitz", "swordsdance", "wildcharge", "uturn"],
 		randomDoubleBattleMoves: ["firstimpression", "flareblitz", "protect", "swordsdance", "wildcharge", "uturn"],
-		tier: "UUBL",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	deino: {

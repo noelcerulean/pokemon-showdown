@@ -2062,7 +2062,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	florapower: {
 		name: "Flora Power",
-		desc: "This move calls another move for use based on the pokemon's forme. Cherrim-Sunshine will use Fiery Blossom, Cherrim and Cherubi will use Biddy Bud, and all other pokemon will use Splash.",
+		desc: "This move calls another move for use based on the pokemon's forme. Cherrim-Primal will use Precipice Blades, Cherrim-Sunshine will use Fiery Blossom, Cherrim and Cherubi will use Biddy Bud, and all other pokemon will use Splash.",
 		shortDesc: "Attack depends on Cherrim's forme.",
 
 		move: "Flora Power turned into [MOVE]!",
@@ -4642,6 +4642,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "If this move is successful, it deals damage or heals the target. 102/256 chance for 40 power, 76/256 chance for 80 power, 26/256 chance for 120 power, or 52/256 chance to heal the target by 1/4 of its maximum HP, rounded down. If this move deals damage, it uses an abnormal version of the damage formula by substituting certain values. The user's Attack stat is replaced with 10 times the effectiveness of this move against the target, the target's Defense stat is replaced with the index number of the user's secondary type, and the user's level is replaced with the index number of the target's secondary type. If a Pokemon does not have a secondary type, its primary type is used. The index numbers for each type are Normal: 0, Fighting: 1, Flying: 2, Poison: 3, Ground: 4, Rock: 5, Bug: 7, Ghost: 8, Steel: 9, Fire: 20, Water: 21, Grass: 22, Electric: 23, Psychic: 24, Ice: 25, Dragon: 26, Dark: 27. If at any point a division by 0 would happen in the damage formula, it divides by 1 instead.",
 		},
 	},
+	primalburst: {
+		name: "Primal Burst",
+		desc: "This move's type depends on the user's held orb. If the user is holding Red Orb or Cerise Orb, it is Fire-type. If the user is holding Blue Orb or Teal Orb, it is Water-type. Otherwise, it is Normal-Type.",
+		shortDesc: "Type varies based on the user's held orb.",
+	},
 	prismaticlaser: {
 		name: "Prismatic Laser",
 		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
@@ -5109,6 +5114,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Rock Climb",
 		desc: "No additional effect.",
 		shortDesc: "No additional effect.",
+	},
+	rockjaw: {
+		name: "Rockjaw",
+		desc: "This move's type effectiveness against Ground is changed to be super effective no matter what this move's type is.",
+		shortDesc: "Super effective on Ground.",
 	},
 	rockpolish: {
 		name: "Rock Polish",

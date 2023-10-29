@@ -5803,7 +5803,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {},
 		onTryHit(target, source, move) {
-			if (source.species.id === 'cherrimsunshine') {
+			if (source.species.id === 'cherrimprimal') {
+				this.actions.useMove('precipiceblades', source, target);
+			} else if (source.species.id === 'cherrimsunshine') {
 				this.actions.useMove('fieryblossom', source, target);
 			} else if (source.species.id === 'cherrim') {
 				this.actions.useMove('biddybud', source, target);
@@ -14018,6 +14020,33 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Normal",
 		contestType: "Cute",
 	},
+	primalburst: {
+		num: -567,
+		accuracy: 100,
+		basePower: 100,
+		category: "Physical",
+		name: "Primal Burst",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onModifyType(move, pokemon) {
+			if (pokemon.hasItem('redorb')) {
+				move.type = 'Fire';
+			} else if (pokemon.hasItem('ceriseorb')) {
+				move.type = 'Fire';
+			} else if (pokemon.hasItem('blueorb')) {
+				move.type = 'Water';
+			} else if (pokemon.hasItem('tealorb')) {
+				move.type = 'Water';
+			} else {
+				move.type = 'Normal';
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+		contestType: "Beautiful",
+	},
 	prismaticlaser: {
 		num: 711,
 		accuracy: 100,
@@ -15380,6 +15409,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 20,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: null,
+		target: "normal",
+		type: "Rock",
+		contestType: "Tough",
+	},
+	rockjaw: {
+		num: -566,
+		accuracy: 95,
+		basePower: 80,
+		category: "Physical",
+		name: "Rockjaw",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, bite: 1, contact: 1},
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Ground') return 1;
+		},
 		secondary: null,
 		target: "normal",
 		type: "Rock",

@@ -335,6 +335,7 @@ const avatarTable = new Set([
 	'skyla',
 	'skytrainerf-2',
 	'smasher',
+	'sol',
 	'spenser-gen3',
 	'srandjr-gen3',
 	'steven-gen3', 'steven',

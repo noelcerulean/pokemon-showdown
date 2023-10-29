@@ -497,6 +497,8 @@ export class TeamValidator {
 				tierSpecies = dex.species.get('Kyogre-Primal');
 			} else if (item.id === 'tealorb' && species.id === 'phione') {
 				tierSpecies = dex.species.get('Phione-Primal');
+			} else if (item.id === 'ceriseorb' && species.id === 'cherrim') {
+				tierSpecies = dex.species.get('Cherrim-Primal');
 			} else if (canMegaEvo && species.id === 'rayquaza' && set.moves.map(toID).includes('dragonascent' as ID)) {
 				tierSpecies = dex.species.get('Rayquaza-Mega');
 			}

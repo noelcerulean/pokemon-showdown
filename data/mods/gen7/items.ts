@@ -88,6 +88,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	ceriseorb: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	charizarditex: {
 		inherit: true,
 		isNonstandard: null,
@@ -506,6 +510,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 	rabutaberry: {
 		inherit: true,
 		isNonstandard: "Unobtainable",
+	},
+	rapidashite: {
+		inherit: true,
+		isNonstandard: null,
 	},
 	razorfang: {
 		inherit: true,

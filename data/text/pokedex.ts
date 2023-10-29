@@ -410,6 +410,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	rapidash: {
 		name: "Rapidash",
 	},
+	rapidashmega: {
+		name: "Rapidash-Mega",
+	},
 	rapidashgalar: {
 		name: "Rapidash-Galar",
 	},
@@ -1874,6 +1877,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	cherrimsunshine: {
 		name: "Cherrim-Sunshine",
 	},
+	cherrimprimal: {
+		name: "Cherrim-Primal",
+	},
 	shellos: {
 		name: "Shellos",
 	},
@@ -2401,6 +2407,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	krookodile: {
 		name: "Krookodile",
+	},
+	blockodile: {
+		name: "Blockodile",
+	},
+	crocodobe: {
+		name: "Crocodobe",
 	},
 	darumaka: {
 		name: "Darumaka",

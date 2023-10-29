@@ -300,6 +300,7 @@ function skip(dex: ModdedDex, format: Format, pokemon: string, set: DeepPartial<
 
 	if (pokemon === 'Groudon-Primal' && set.item !== 'Red Orb') return true;
 	if (pokemon === 'Phione-Primal' && set.item !== 'Teal Orb') return true;
+	if (pokemon === 'Cherrim-Primal' && set.item !== 'Cerise Orb') return true;
 	if (pokemon === 'Kyogre-Primal' && set.item !== 'Blue Orb' && !(bh && gen === 7)) return true;
 	if (bh) return false; // Everying else is legal or will get stripped by the team validator anyway
 

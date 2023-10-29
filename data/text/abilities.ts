@@ -223,6 +223,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			desc: "If Sunny Day is active, this Pokemon's Speed is doubled.",
 		},
 	},
+	clayconstruction: {
+		name: "Clay Construction",
+		shortDesc: "Foe's ground moves raise Defense by 2; Ground immunity.",
+	},
 	clearbody: {
 		name: "Clear Body",
 		shortDesc: "Prevents other Pokemon from lowering this Pokemon's stat stages.",
@@ -1243,6 +1247,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	primaltide: {
 		name: "Primal Tide",
 		shortDesc: "This Pokemon's water moves will always hit.",
+	},
+	primalwarmth: {
+		name: "Primal Warmth",
+		desc: "If a Pokemon uses a Fire- or Water-type attack against this Pokemon, that Pokemon's attacking stat is halved when calculating the damage to this Pokemon.",
+		shortDesc: "Fire/Water-type moves against this Pokemon damage with a halved attacking stat.",
 	},
 	primordialsea: {
 		name: "Primordial Sea",

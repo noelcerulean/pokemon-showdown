@@ -215,6 +215,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Cell Battery",
 		desc: "Raises holder's Attack by 1 if hit by an Electric-type attack. Single use.",
 	},
+	ceriseorb: {
+		name: "Cerise Orb",
+		desc: "If held by a Cherrim, this item triggers its Primal Reversion in battle.",
+	},
 	charcoal: {
 		name: "Charcoal",
 		desc: "Holder's Fire-type attacks have 1.2x power.",
@@ -1504,6 +1508,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	rabutaberry: {
 		name: "Rabuta Berry",
 		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+	},
+	rapidashite: {
+		name: "Rapidashite",
+		desc: "If held by a Rapidash, this item allows it to Mega Evolve in battle.",
 	},
 	rarebone: {
 		name: "Rare Bone",

@@ -612,6 +612,19 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 34,
 	},
+	clayconstruction: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Ground') {
+				if (!this.boost({def: 2})) {
+					this.add('-immune', target, '[from] ability: Clay Construction');
+				}
+				return null;
+			}
+		},
+		name: "Clay Construction",
+		rating: 3.5,
+		num: -564,
+	},
 	clearbody: {
 		onBoost(boost, target, source, effect) {
 			if (source && target === source) return;
@@ -1401,6 +1414,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onUpdate(pokemon) {
 			if (!pokemon.isActive || pokemon.baseSpecies.baseSpecies !== 'Cherrim' || pokemon.transformed) return;
 			if (!pokemon.hp) return;
+			if (pokemon.hasItem('ceriseorb')) return;
 			if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
 				if (pokemon.species.id !== 'cherrimsunshine') {
 					pokemon.formeChange('Cherrim-Sunshine', this.effect, false, '[msg]');
@@ -3443,6 +3457,26 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Primal Tide",
 		rating: 4,
 		num: -524,
+	},
+	primalwarmth: {
+		onSourceModifyAtkPriority: 6,
+		onSourceModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Water' || move.type === 'Fire') {
+				this.debug('Primal Warmth weaken');
+				return this.chainModify(0.5);
+			}
+		},
+		onSourceModifySpAPriority: 5,
+		onSourceModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Water' || move.type === 'Fire') {
+				this.debug('Primal Warmth weaken');
+				return this.chainModify(0.5);
+			}
+		},
+		isBreakable: true,
+		name: "Primal Warmth",
+		rating: 3.5,
+		num: -563,
 	},
 	primordialsea: {
 		onStart(source) {

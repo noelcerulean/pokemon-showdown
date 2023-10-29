@@ -690,6 +690,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	rapidashmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	rapidashgalar: {
 		randomBattleMoves: ["highhorsepower", "morningsun", "playrough", "swordsdance", "zenheadbutt"],
 		randomBattleLevel: 84,
@@ -3276,6 +3280,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["playrough", "solarblade", "sunnyday", "weatherball"],
 		randomDoubleBattleLevel: 90,
 	},
+	cherrimprimal: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	shellos: {
 		tier: "LC",
 	},
@@ -3987,6 +3995,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 81,
 		tier: "UU",
 		doublesTier: "DUU",
+	},
+	blockodile: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	crocodobe: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	darumaka: {
 		tier: "LC",
