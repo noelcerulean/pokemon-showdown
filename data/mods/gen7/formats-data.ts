@@ -560,7 +560,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	rapidashmega: {
 		randomBattleMoves: ["flareblitz", "highhorsepower", "lightningkick", "morningsun", "return", "willowisp"],
 		randomDoubleBattleMoves: ["flareblitz", "highhorsepower", "hypnosis", "lightningkick", "protect", "return", "willowisp"],
-		tier: "UUBL",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	slowpoke: {
@@ -2915,7 +2915,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	cherrimprimal: {
 		randomBattleMoves: ["florapower", "petalblizzard", "playrough", "primalburst", "swordsdance"],
 		randomDoubleBattleMoves: ["florapower", "petalblizzard", "playrough", "primalburst", "protect"],
-		tier: "UUBL",
+		tier: "OU",
 		doublesTier: "DOU",
 	},
 	shellos: {
@@ -3591,7 +3591,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	crocodobe: {
 		randomBattleMoves: ["demolition", "earthquake", "flamewheel", "stealthrock", "rockjaw", "slackoff", "toxic"],
 		randomDoubleBattleMoves: ["demolition", "earthquake", "flamewheel", "protect", "stealthrock", "rockjaw", "slackoff"],
-		tier: "RUBL",
+		tier: "OU",
 		doublesTier: "DUU",
 	},
 	darumaka: {

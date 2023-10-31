@@ -621,6 +621,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				return null;
 			}
 		},
+		isBreakable: true,
 		name: "Clay Construction",
 		rating: 3.5,
 		num: -564,
