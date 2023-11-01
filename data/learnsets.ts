@@ -84291,7 +84291,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			sleeptalk: ["8M", "7M"],
 			snore: ["8M", "7T"],
 			spikes: ["7L37"],
-			spikyshield: ["735"],
+			spikyshield: ["7L35"],
 			splash: ["8L1", "7L1"],
 			stomp: ["8L28", "7L29"],
 			stompingtantrum: ["7T"],
