@@ -11682,6 +11682,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			harden: ["2L10"],
 			headbutt: ["2M"],
 			hiddenpower: ["2M"],
+			hyperbeam: ["2M"],
 			icebeam: ["2T"],
 			icywind: ["2M"],
 			minimize: ["2L10"],
