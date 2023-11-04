@@ -1963,6 +1963,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	numpuff: {
+		randomBattleMoves: ["destinybond", "poisonjab", "spikes", "taunt", "thunderwave", "toxicspikes", "zingzap"],
+		randomBattleLevel: 84,
+		randomDoubleBattleMoves: ["destinybond", "poisonjab", "protect", "spikes", "taunt", "thunderwave", "toxicspikes", "zingzap"],
+		randomDoubleBattleLevel: 88,
+		tier: "(PU)",
+		doublesTier: "(DUU)",
+	},
 	shuckle: {
 		randomBattleMoves: ["encore", "knockoff", "stealthrock", "stickyweb", "toxic"],
 		randomBattleLevel: 86,

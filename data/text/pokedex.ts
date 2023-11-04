@@ -1040,6 +1040,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	qwilfish: {
 		name: "Qwilfish",
 	},
+	numpuff: {
+		name: "Numpuff",
+	},
 	scizor: {
 		name: "Scizor",
 	},

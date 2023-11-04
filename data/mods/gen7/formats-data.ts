@@ -1620,6 +1620,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	numpuff: {
+		randomBattleMoves: ["poisonjab", "protect", "scald", "spikes", "taunt", "thunderwave", "toxicspikes", "zingzap"],
+		randomDoubleBattleMoves: ["poisonjab", "protect", "scald", "spikes", "taunt", "thunderwave", "toxicspikes", "zingzap"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	shuckle: {
 		randomBattleMoves: ["encore", "infestation", "knockoff", "stealthrock", "stickyweb", "toxic"],
 		randomDoubleBattleMoves: ["encore", "guardsplit", "helpinghand", "knockoff", "stealthrock", "stickyweb", "toxic"],

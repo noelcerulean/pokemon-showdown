@@ -810,6 +810,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["curse", "haze", "hydropump", "sludgebomb", "spikes"],
 		tier: "UU",
 	},
+	numpuff: {
+		randomBattleMoves: ["curse", "haze", "sludgebomb", "spikes", "thunderbolt"],
+		tier: "UU",
+	},
 	shuckle: {
 		randomBattleMoves: ["curse", "rest", "rollout", "toxic"],
 		tier: "NU",
