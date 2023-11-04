@@ -97,6 +97,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
+	crocky: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	caterpie: {
 		tier: "LC",
 	},

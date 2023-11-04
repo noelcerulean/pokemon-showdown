@@ -50,6 +50,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		exclusiveMoves: ["earthquake", "rest"],
 		tier: "NU",
 	},
+	crocky: {
+		randomBattleMoves: ["bubblebeam", "fireblast", "hyperbeam", "swordsdance"],
+		tier: "UU",
+	},
 	caterpie: {
 		randomBattleMoves: ["stringshot", "tackle"],
 		tier: "LC",

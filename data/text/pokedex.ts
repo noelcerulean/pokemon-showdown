@@ -59,6 +59,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	venustoise: {
 		name: "Venustoise",
 	},
+	crocky: {
+		name: "Crocky",
+	},
 	caterpie: {
 		name: "Caterpie",
 	},

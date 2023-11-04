@@ -39,6 +39,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 79, atk: 83, def: 100, spa: 85, spd: 85, spe: 78},
 	},
+	crocky: {
+		inherit: true,
+		baseStats: {hp: 52, atk: 97, def: 64, spa: 53, spd: 53, spe: 131},
+	},
 	caterpie: {
 		inherit: true,
 		baseStats: {hp: 45, atk: 30, def: 35, spa: 20, spd: 20, spe: 45},

@@ -29,6 +29,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["icebeam", "rapidspin", "rest", "sleeptalk", "surf", "toxic", "zapcannon"],
 		tier: "UU",
 	},
+	crocky: {
+		randomBattleMoves: ["doubleedge", "fireblast", "outrage", "shadowball", "swordsdance"],
+		tier: "UU",
+	},
 	caterpie: {
 		tier: "LC",
 	},

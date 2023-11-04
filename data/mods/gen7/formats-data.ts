@@ -32,6 +32,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UUBL",
 		doublesTier: "DUU",
 	},
+	crocky: {
+		randomBattleMoves: ["fireblast", "gigaimpact", "outrage", "swordsdance", "uturn"],
+		randomDoubleBattleMoves: ["fakeout", "fireblast", "gigaimpact", "outrage", "protect"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	charmander: {
 		tier: "LC",
 	},

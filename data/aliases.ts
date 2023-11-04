@@ -360,7 +360,7 @@ export const Aliases: {[alias: string]: string} = {
 	kommoot: "Kommo-o-Totem",
 	totemkommoo: "Kommo-o-Totem",
 
-	// cosmetic formes
+	// cosmetic formes aka custom skins
 	trapinchhat: "Trapinch",
 	hypnohappy: "Hypno",
 	hypnohappyf: "Hypno",
@@ -460,6 +460,8 @@ export const Aliases: {[alias: string]: string} = {
 	ariadosvriska: "Ariados",
 	hoopaballin: "Hoopa",
 	granbullrevenant: "Granbull",
+	ursaringfreddy: "Ursaring",
+	haunterlavender: "Haunter",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",

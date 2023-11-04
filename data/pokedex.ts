@@ -295,6 +295,17 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
 	},
+	crocky: {
+		num: -541,
+		name: "Crocky",
+		types: ["Normal", "Dragon"],
+		baseStats: {hp: 52, atk: 97, def: 64, spa: 89, spd: 53, spe: 131},
+		abilities: {0: "Tangled Feet", 1: "Unnerve", H: "Rampage"},
+		heightm: 0.4,
+		weightkg: 8,
+		color: "Green",
+		eggGroups: ["Dragon", "Field"],
+	},
 	caterpie: {
 		num: 10,
 		name: "Caterpie",
@@ -2310,6 +2321,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 25,
 		evos: ["Gengar"],
 		eggGroups: ["Amorphous"],
+		cosmeticFormes: ["Haunter-Lavender"],
+		formeOrder: ["Haunter", "Haunter-Lavender"],
 	},
 	gengar: {
 		num: 94,
@@ -5040,6 +5053,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Teddiursa",
 		evoLevel: 30,
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Ursaring-Freddy"],
+		formeOrder: ["Ursaring", "Ursaring-Freddy"],
 	},
 	slugma: {
 		num: 218,
