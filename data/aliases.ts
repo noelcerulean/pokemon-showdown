@@ -462,6 +462,7 @@ export const Aliases: {[alias: string]: string} = {
 	granbullrevenant: "Granbull",
 	ursaringfreddy: "Ursaring",
 	haunterlavender: "Haunter",
+	probopassmoyai: "Probopass",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",

@@ -156,6 +156,7 @@ const avatarTable = new Set([
 	'falkner',
 	'fantina',
 	'federico',
+	'fennel2',
 	'firebreather-gen2',
 	'firebreather',
 	'fisherman-gen1', 'fisherman-gen1rb', 'fisherman-gen2jp', 'fisherman-gen3', 'fisherman-gen3rs', 'fisherman-gen4', 'fisherman',

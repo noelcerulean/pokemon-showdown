@@ -9699,6 +9699,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "levelExtra",
 		evoCondition: "near a special magnetic field",
 		eggGroups: ["Mineral"],
+		cosmeticFormes: ["Probopass-Moyai"],
+		formeOrder: ["Probopass", "Probopass-Moyai"],
 	},
 	dusknoir: {
 		num: 477,
