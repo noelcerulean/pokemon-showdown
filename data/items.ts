@@ -3664,7 +3664,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			basePower: 60,
 		},
 		onStart(pokemon) {
-			if (pokemon.baseSpecies.name !== 'Probopass') return;
+			if (!pokemon.baseSpecies.num === 476) return;
 			if (!pokemon.ignoringItem() && !this.field.getPseudoWeather('gravity')) {
 				this.add('-item', pokemon, 'Magnetic Stone');
 				pokemon.addVolatile('magnetrise');
