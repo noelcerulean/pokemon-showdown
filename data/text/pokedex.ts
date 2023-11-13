@@ -2357,11 +2357,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	tympole: {
 		name: "Tympole",
 	},
+	tympoledelta: {
+		name: "Tympole-Delta",
+	},
 	palpitoad: {
 		name: "Palpitoad",
 	},
+	palpitoaddelta: {
+		name: "Palpitoad-Delta",
+	},
 	seismitoad: {
 		name: "Seismitoad",
+	},
+	seismitoaddelta: {
+		name: "Seismitoad-Delta",
 	},
 	throh: {
 		name: "Throh",

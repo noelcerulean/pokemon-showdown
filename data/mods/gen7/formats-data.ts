@@ -3510,12 +3510,24 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	tympole: {
 		tier: "LC",
 	},
+	tympoledelta: {
+		tier: "LC",
+	},
 	palpitoad: {
+		tier: "NFE",
+	},
+	palpitoaddelta: {
 		tier: "NFE",
 	},
 	seismitoad: {
 		randomBattleMoves: ["earthquake", "hydropump", "knockoff", "powerwhip", "raindance", "scald", "sludgewave", "stealthrock", "toxic"],
 		randomDoubleBattleMoves: ["earthquake", "hydropump", "muddywater", "protect", "raindance", "sludgebomb"],
+		tier: "NU",
+		doublesTier: "(DUU)",
+	},
+	seismitoaddelta: {
+		randomBattleMoves: ["defog", "hurricane", "psycleaner", "sparklingwater", "toxic"],
+		randomDoubleBattleMoves: ["healpulse", "helpinghand", "hurricane", "psycleaner", "protect", "sparklingwater"],
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},

@@ -3902,8 +3902,16 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	tympole: {
 		tier: "LC",
 	},
+	tympoledelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	palpitoad: {
 		tier: "NFE",
+	},
+	palpitoaddelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	seismitoad: {
 		randomBattleMoves: ["earthquake", "liquidation", "raindance", "sludgebomb", "stealthrock"],
@@ -3912,6 +3920,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 86,
 		tier: "RU",
 		doublesTier: "(DUU)",
+	},
+	seismitoaddelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	throh: {
 		randomBattleMoves: ["bulkup", "circlethrow", "icepunch", "knockoff", "rest", "sleeptalk", "stormthrow"],
