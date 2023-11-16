@@ -464,7 +464,7 @@ export const Aliases: {[alias: string]: string} = {
 	haunterlavender: "Haunter",
 	probopassmoyai: "Probopass",
 	charjabugmastermind: "Charjabug",
-	teddiursaarmoredsniper: "Teddiursa-Armored",
+	teddiursaarmoredhoneyed: "Teddiursa-Armored",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",
