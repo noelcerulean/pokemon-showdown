@@ -99746,7 +99746,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			irondefense: ["7L1"],
 			sleeptalk: ["7L1"],
 			substitute: ["7L1"],
-			vicegrip: ["7L1"],
+			visegrip: ["7L1"],
 			xscissor: ["7L1"],
 			bakupunch: ["7L1"],
 			brickbreak: ["7L1"],

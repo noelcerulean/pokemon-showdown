@@ -5380,8 +5380,10 @@ export const Items: {[itemid: string]: ItemData} = {
 	roseradearmor: {
 		name: "Roserade Armor",
 		spritenum: 756,
-		onTakeItem(item, source) {
-			if (source.baseSpecies.name === 'Roserade-Armored') return false;
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 407) || pokemon.baseSpecies.num === 407) {
+				return false;
+			}
 			return true;
 		},
 		itemUser: ["Roserade-Armored"],
@@ -6338,8 +6340,10 @@ export const Items: {[itemid: string]: ItemData} = {
 	teddiursaarmor: {
 		name: "Teddiursa Armor",
 		spritenum: 777,
-		onTakeItem(item, source) {
-			if (source.baseSpecies.name === 'Teddiursa-Armored') return false;
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 216) || pokemon.baseSpecies.num === 216) {
+				return false;
+			}
 			return true;
 		},
 		itemUser: ["Teddiursa-Armored"],
