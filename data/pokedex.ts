@@ -5054,9 +5054,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 20,
 		color: "Brown",
 		eggGroups: ["Field"],
-		requiredItem: "Teddiursa Armor",
 		cosmeticFormes: ["Teddiursa-Armored-Sniper"],
 		formeOrder: ["Teddiursa-Armored", "Teddiursa-Armored-Sniper"],
+		requiredItem: "Teddiursa Armor",
 	},
 	ursaring: {
 		num: 217,
