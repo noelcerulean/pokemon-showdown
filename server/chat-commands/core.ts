@@ -223,6 +223,7 @@ const avatarTable = new Set([
 	'li',
 	'liza',
 	'lorelei-gen1', 'lorelei-gen1rb', 'lorelei-gen3',
+	'louise',
 	'ltsurge-gen1', 'ltsurge-gen1rb', 'ltsurge-gen2', 'ltsurge-gen3', 'ltsurge',
 	'lucas-gen4pt', 'lucas',
 	'lucian',
