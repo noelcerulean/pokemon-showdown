@@ -721,6 +721,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	hypnomega: {
+		randomBattleMoves: ["bakupunch", "bulkup", "hypnosis", "knockoff", "moonlight", "playrough", "superpower", "thunderwave"],
+		randomDoubleBattleMoves: ["bakupunch", "hypnosis", "knockoff", "playrough", "protect", "superpower", "thunderwave"],
+		tier: "RUBL",
+		doublesTier: "(DUU)",
+	},
 	krabby: {
 		tier: "LC",
 	},
@@ -2391,6 +2397,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["cosmicspin", "earthquake", "flareblitz", "morningsun", "propheticasteroid", "rapidspin", "rockslide", "stealthrock", "stoneedge", "willowisp", "zenheadbutt"],
 		randomDoubleBattleMoves: ["cosmicspin", "helpinghand", "protect", "rockslide", "stealthrock", "stoneedge", "willowisp", "zenheadbutt"],
 		tier: "RU",
+		doublesTier: "(DUU)",
+	},
+	eclipsol: {
+		randomBattleMoves: ["aggregate", "calmmind", "earthpower", "icebeam", "lunaticeyes", "prehistoricpulse", "recover", "stealthrock", "trickroom"],
+		randomDoubleBattleMoves: ["calmmind", "earthpower", "icebeam", "lunaticeyes", "prehistoricpulse", "recover", "trickroom"],
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	barboach: {
@@ -4942,6 +4954,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	steeneedelta: {
 		tier: "NU",
+		doublesTier: "DUU",
 	},
 	tsareena: {
 		randomBattleMoves: ["highjumpkick", "knockoff", "powerwhip", "rapidspin", "synthesis", "uturn"],

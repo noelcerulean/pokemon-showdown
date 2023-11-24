@@ -4316,6 +4316,13 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
 		shortDesc: "Hits 2 times in one turn.",
 	},
+	orbitalshift: {
+		name: "Orbital Shift",
+		desc: "Switches the Mist, Light Screen, Reflect, Spikes, Safeguard, Tailwind, Toxic Spikes, Stealth Rock, Water Pledge, Fire Pledge, Grass Pledge, Sticky Web, Aurora Veil, G-Max Steelsurge, G-Max Cannonade, G-Max Vine Lash, and G-Max Wildfire effects from the user's side to the opposing side and vice versa.",
+		shortDesc: "Swaps user's field effects with the opposing side.",
+
+		activate: "  [POKEMON] swapped the battle effects affecting each side of the field!",
+	},
 	originpulse: {
 		name: "Origin Pulse",
 		desc: "No additional effect.",
@@ -6133,6 +6140,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Snore",
 		desc: "Has a 30% chance to make the target flinch. Fails if the user is not asleep.",
 		shortDesc: "User must be asleep. 30% chance to flinch target.",
+	},
+	snugglebug: {
+		name: "Snuggle Bug",
+		desc: "Power is equal to 20+(X*20), where X is the user's total stat stage changes that are greater than 0.",
+		shortDesc: " + 20 power for each of the user's stat boosts.",
 	},
 	soak: {
 		name: "Soak",

@@ -509,6 +509,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	hypno: {
 		name: "Hypno",
 	},
+	hypnomega: {
+		name: "Hypno-Mega",
+	},
 	krabby: {
 		name: "Krabby",
 	},
@@ -1540,6 +1543,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	solrock: {
 		name: "Solrock",
+	},
+	eclipsol: {
+		name: "Eclipsol",
 	},
 	barboach: {
 		name: "Barboach",

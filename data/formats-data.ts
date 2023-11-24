@@ -896,6 +896,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	hypnomega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	krabby: {
 		tier: "LC",
 	},
@@ -2757,6 +2761,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	eclipsol: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	barboach: {
 		tier: "LC",

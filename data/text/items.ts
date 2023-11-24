@@ -840,6 +840,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Houndoominite",
 		desc: "If held by a Houndoom, this item allows it to Mega Evolve in battle.",
 	},
+	hypnite: {
+		name: "Hypnite",
+		desc: "If held by a Hypno, this item allows it to Mega Evolve in battle.",
+	},
 	iapapaberry: {
 		name: "Iapapa Berry",
 		desc: "Restores 33% max HP at 1/4 max HP or less; confuses if -Def Nature. Single use.",

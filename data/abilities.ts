@@ -380,6 +380,21 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 5,
 		num: -510,
 	},
+	bakushield: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Dark') {
+				this.add('-immune', target, '[from] ability: Baku Shield');
+				return null;
+			} else if (target !== source && move.type === 'Ghost') {
+				this.add('-immune', target, '[from] ability: Baku Shield');
+				return null;
+			}
+		},
+		isBreakable: true,
+		name: "Baku Shield",
+		rating: 4,
+		num: -566,
+	},
 	ballfetch: {
 		name: "Ball Fetch",
 		rating: 0,
@@ -1642,6 +1657,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Gale Wings",
 		rating: 4,
 		num: 177,
+	},
+	galaxian: {
+		onModifySpAPriority: 5,
+		onModifySpA(spa, pokemon) {
+			if (this.field.getPseudoWeather('gravity')) {
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Galaxian",
+		rating: 2,
+		num: -565,
 	},
 	galvanize: {
 		onModifyTypePriority: -1,

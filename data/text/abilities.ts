@@ -131,6 +131,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Bagwormicade",
 		shortDesc: "This Pokemon receives 1/2 damage from supereffective attacks.",
 	},
+	bakushield: {
+		name: "Baku Shield",
+		shortDesc: "This Pokemon is immune to Dark-type and Ghost-type moves.",
+	},
 	ballfetch: {
 		name: "Ball Fetch",
 		shortDesc: "No competitive use.",
@@ -578,6 +582,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	furcoat: {
 		name: "Fur Coat",
 		shortDesc: "This Pokemon's Defense is doubled.",
+	},
+	galaxian: {
+		name: "Galaxian",
+		shortDesc: "If Gravity is active, this Pokemon's Sp. Atk is 1.5x.",
 	},
 	galewings: {
 		name: "Gale Wings",

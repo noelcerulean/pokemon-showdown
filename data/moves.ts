@@ -13041,6 +13041,94 @@ export const Moves: {[moveid: string]: MoveData} = {
 		maxMove: {basePower: 120},
 		contestType: "Cool",
 	},
+	orbitalshift: {
+		num: -568,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "Orbital Shift",
+		pp: 10,
+		priority: 0,
+		flags: {mirror: 1},
+		onHitField(target, source) {
+			const sideConditions = [
+				'mist', 'lightscreen', 'reflect', 'spikes', 'safeguard', 'tailwind', 'toxicspikes', 'stealthrock', 'waterpledge', 'firepledge', 'grasspledge', 'stickyweb', 'auroraveil', 'gmaxsteelsurge', 'gmaxcannonade', 'gmaxvinelash', 'gmaxwildfire',
+			];
+			let success = false;
+			if (this.gameType === "freeforall") {
+				// random integer from 1-3 inclusive
+				const offset = this.random(3) + 1;
+				// the list of all sides in counterclockwise order
+				const sides = [this.sides[0], this.sides[2]!, this.sides[1], this.sides[3]!];
+				for (const id of sideConditions) {
+					const effectName = this.dex.conditions.get(id).name;
+					const rotatedSides = [];
+					let someCondition = false;
+					for (let i = 0; i < 4; i++) {
+						const sourceSide = sides[i];
+						const targetSide = sides[(i + offset) % 4]; // the next side in rotation
+						rotatedSides.push(targetSide.sideConditions[id]);
+						if (sourceSide.sideConditions[id]) {
+							this.add('-sideend', sourceSide, effectName, '[silent]');
+							someCondition = true;
+						}
+					}
+					if (!someCondition) continue;
+					[
+						sides[0].sideConditions[id], sides[1].sideConditions[id],
+						sides[2]!.sideConditions[id], sides[3]!.sideConditions[id],
+					] = [...rotatedSides];
+					for (const side of sides) {
+						if (side.sideConditions[id]) {
+							let layers = side.sideConditions[id].layers || 1;
+							for (; layers > 0; layers--) this.add('-sidestart', side, effectName, '[silent]');
+						} else {
+							delete side.sideConditions[id];
+						}
+					}
+					success = true;
+				}
+			} else {
+				const sourceSide = source.side;
+				const targetSide = source.side.foe;
+				for (const id of sideConditions) {
+					const effectName = this.dex.conditions.get(id).name;
+					if (sourceSide.sideConditions[id] && targetSide.sideConditions[id]) {
+						[sourceSide.sideConditions[id], targetSide.sideConditions[id]] = [
+							targetSide.sideConditions[id], sourceSide.sideConditions[id],
+						];
+						this.add('-sideend', sourceSide, effectName, '[silent]');
+						this.add('-sideend', targetSide, effectName, '[silent]');
+					} else if (sourceSide.sideConditions[id] && !targetSide.sideConditions[id]) {
+						targetSide.sideConditions[id] = sourceSide.sideConditions[id];
+						delete sourceSide.sideConditions[id];
+						this.add('-sideend', sourceSide, effectName, '[silent]');
+					} else if (targetSide.sideConditions[id] && !sourceSide.sideConditions[id]) {
+						sourceSide.sideConditions[id] = targetSide.sideConditions[id];
+						delete targetSide.sideConditions[id];
+						this.add('-sideend', targetSide, effectName, '[silent]');
+					} else {
+						continue;
+					}
+					let sourceLayers = sourceSide.sideConditions[id] ? (sourceSide.sideConditions[id].layers || 1) : 0;
+					let targetLayers = targetSide.sideConditions[id] ? (targetSide.sideConditions[id].layers || 1) : 0;
+					for (; sourceLayers > 0; sourceLayers--) {
+						this.add('-sidestart', sourceSide, effectName, '[silent]');
+					}
+					for (; targetLayers > 0; targetLayers--) {
+						this.add('-sidestart', targetSide, effectName, '[silent]');
+					}
+					success = true;
+				}
+			}
+			if (!success) return false;
+			this.add('-activate', source, 'move: Orbital Shift');
+		},
+		secondary: null,
+		target: "all",
+		type: "Rock",
+		contestType: "Beautiful",
+	},
 	originpulse: {
 		num: 618,
 		accuracy: 85,
@@ -19129,6 +19217,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		target: "normal",
 		type: "Normal",
+		contestType: "Cute",
+	},
+	snugglebug: {
+		num: -569,
+		accuracy: 100,
+		basePower: 20,
+		basePowerCallback(pokemon, target, move) {
+			return move.basePower + 20 * pokemon.positiveBoosts();
+		},
+		category: "Physical",
+		name: "Snuggle Bug",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, contact: 1},
+		secondary: null,
+		target: "normal",
+		type: "Bug",
+		zMove: {basePower: 160},
+		maxMove: {basePower: 130},
 		contestType: "Cute",
 	},
 	soak: {

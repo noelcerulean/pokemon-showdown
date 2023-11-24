@@ -2813,6 +2813,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	hypnite: {
+		name: "Hypnite",
+		spritenum: 781,
+		megaStone: "Hypno-Mega",
+		megaEvolves: "Hypno",
+		itemUser: ["Hypno"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -543,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	iapapaberry: {
 		name: "Iapapa Berry",
 		spritenum: 217,

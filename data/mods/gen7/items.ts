@@ -305,6 +305,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	hypnite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	iapapaberry: {
 		inherit: true,
 		onEat(pokemon) {
