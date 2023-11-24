@@ -2420,7 +2420,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Drowzee",
 		evoLevel: 26,
 		eggGroups: ["Human-Like"],
-		cosmeticFormes: ["Hypno-Happy", "Hypno-Happyf", "Hypno-Mega"],
+		otherFormes: ["Hypno-Mega"],
+		cosmeticFormes: ["Hypno-Happy", "Hypno-Happyf"],
 		formeOrder: ["Hypno", "Hypno-Happy", "Hypno-Happyf", "Hypno-Mega"],
 	},
 	hypnomega: {
