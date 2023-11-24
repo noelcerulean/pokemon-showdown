@@ -383,10 +383,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	bakushield: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Dark') {
-				this.add('-immune', target, '[from] ability: Baku Shield');
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Baku Shield');
+				}
 				return null;
 			} else if (target !== source && move.type === 'Ghost') {
-				this.add('-immune', target, '[from] ability: Baku Shield');
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Baku Shield');
+				}
 				return null;
 			}
 		},

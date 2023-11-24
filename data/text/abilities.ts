@@ -133,7 +133,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	bakushield: {
 		name: "Baku Shield",
-		shortDesc: "This Pokemon is immune to Dark-type and Ghost-type moves.",
+		desc: "This Pokemon is immune to Dark-type and Ghost-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Dark-type or Ghost-type move.",
+		shortDesc: "Heals 1/4 of max HP when hit by Dark or Ghost moves; Immunity to both.",
 	},
 	ballfetch: {
 		name: "Ball Fetch",
