@@ -13127,6 +13127,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		secondary: null,
 		target: "all",
 		type: "Rock",
+		zMove: {boost: {accuracy: 1}},
 		contestType: "Beautiful",
 	},
 	originpulse: {
