@@ -2421,8 +2421,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 26,
 		eggGroups: ["Human-Like"],
 		otherFormes: ["Hypno-Mega"],
-		cosmeticFormes: ["Hypno-Happy", "Hypno-Happyf"],
-		formeOrder: ["Hypno", "Hypno-Happy", "Hypno-Happyf", "Hypno-Mega"],
+		cosmeticFormes: ["Hypno-Happyjamas", "Hypno-Happy", "Hypno-Happyf"],
+		formeOrder: ["Hypno", "Hypno-Happyjamas", "Hypno-Happy", "Hypno-Happyf", "Hypno-Mega"],
 	},
 	hypnomega: {
 		num: 97,
@@ -7209,7 +7209,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 9.2,
 		weightkg: 999.9,
 		color: "Brown",
-		eggGroups: ["Mineral"],
+		eggGroups: ["Undiscovered"],
 	},
 	barboach: {
 		num: 339,

@@ -464,6 +464,7 @@ export const Aliases: {[alias: string]: string} = {
 	probopassmoyai: "Probopass",
 	charjabugmastermind: "Charjabug",
 	teddiursaarmoredhoneyed: "Teddiursa-Armored",
+	hypnohappyjamas: "Hypno",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",
