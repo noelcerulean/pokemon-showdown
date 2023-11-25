@@ -63996,6 +63996,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			signalbeam: ["7T", "6T", "5T"],
 			sleeptalk: ["7M", "6M", "5T"],
 			snore: ["7T", "6T", "5T"],
+			snugglebug: ["7L25"],
 			solarbeam: ["7M", "6M", "5M"],
 			stringshot: ["7L1", "6L1", "5L1"],
 			strugglebug: ["6M", "5M"],

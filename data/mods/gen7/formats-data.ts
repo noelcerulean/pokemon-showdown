@@ -566,7 +566,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	rapidashmega: {
 		randomBattleMoves: ["flareblitz", "highhorsepower", "lightningkick", "morningsun", "return", "willowisp"],
 		randomDoubleBattleMoves: ["flareblitz", "highhorsepower", "hypnosis", "lightningkick", "protect", "return", "willowisp"],
-		tier: "OU",
+		tier: "Uber",
 		doublesTier: "(DUU)",
 	},
 	slowpoke: {
@@ -724,7 +724,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	hypnomega: {
 		randomBattleMoves: ["bakupunch", "bulkup", "hypnosis", "knockoff", "moonlight", "playrough", "superpower", "thunderwave"],
 		randomDoubleBattleMoves: ["bakupunch", "hypnosis", "knockoff", "playrough", "protect", "superpower", "thunderwave"],
-		tier: "RUBL",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	krabby: {
@@ -2402,7 +2402,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	eclipsol: {
 		randomBattleMoves: ["aggregate", "calmmind", "earthpower", "icebeam", "lunaticeyes", "prehistoricpulse", "recover", "stealthrock", "trickroom"],
 		randomDoubleBattleMoves: ["calmmind", "earthpower", "icebeam", "lunaticeyes", "prehistoricpulse", "recover", "trickroom"],
-		tier: "RUBL",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	barboach: {
