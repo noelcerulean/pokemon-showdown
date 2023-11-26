@@ -1567,7 +1567,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Extreme Evoboost",
 		zMoveFrom: "Last Resort",
-		itemUser: ["Eevee", "Eevee-Durum"],
+		itemUser: ["Eevee", "Eevee-Durum", "Eevee-Infinity"],
 		num: 805,
 		gen: 7,
 		isNonstandard: "Past",

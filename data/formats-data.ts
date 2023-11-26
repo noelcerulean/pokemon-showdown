@@ -3813,6 +3813,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	musharnanightmare: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	pidove: {
 		tier: "LC",
 	},

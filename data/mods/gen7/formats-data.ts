@@ -3437,6 +3437,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
+	musharnanightmare: {
+		randomBattleMoves: ["darkpulse", "fallout", "moonblast", "nastyplot", "toxic"],
+		randomDoubleBattleMoves: ["helpinghand", "darkpulse", "fallout", "moonblast", "nastyplot", "protect", "trickroom"],
+		tier: "UUBL",
+		doublesTier: "(DUU)",
+	},
 	pidove: {
 		tier: "LC",
 	},

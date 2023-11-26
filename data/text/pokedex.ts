@@ -2306,6 +2306,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	musharna: {
 		name: "Musharna",
 	},
+	musharnanightmare: {
+		name: "Musharna-Nightmare",
+	},
 	pidove: {
 		name: "Pidove",
 	},
