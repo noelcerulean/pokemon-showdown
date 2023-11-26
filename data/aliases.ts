@@ -1061,6 +1061,10 @@ export const Aliases: {[alias: string]: string} = {
 	glubby: "Numpuff",
 	medella: "Alomomola-Medella",
 	vanessa: "Feebas-Vanessa",
+	nightmush: "Musharna-Nightmare",
+	musharnan: "Musharna-Nightmare",
+	nmusharna: "Musharna-Nightmare",
+	nmush: "Musharna-Nightmare",
 
 	// armored
 	vespa: "Vespiquen-Armored",
