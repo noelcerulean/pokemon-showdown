@@ -2588,7 +2588,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evos: ["Marowak", "Osteoskhan"],
 		eggGroups: ["Monster"],
 		otherFormes: ["Cubone-Alola"],
-		formeOrder: ["Cubone", "Cubone-Alola"],
+		cosmeticFormes: ["Cubone-Happy"],
+		formeOrder: ["Cubone", "Cubone-Happy", "Cubone-Alola"],
 	},
 	cubonealola: {
 		num: 104,
@@ -7503,6 +7504,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 22,
 		color: "Green",
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Kecleon-Shopkeeper"],
+		formeOrder: ["Kecleon", "Kecleon-Shopkeeper"],
 	},
 	kecleongenocalypse: {
 		num: 352,

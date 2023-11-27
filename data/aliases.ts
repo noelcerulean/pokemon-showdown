@@ -483,6 +483,8 @@ export const Aliases: {[alias: string]: string} = {
 	charjabugmastermind: "Charjabug",
 	teddiursaarmoredhoneyed: "Teddiursa-Armored",
 	hypnohappyjamas: "Hypno",
+	cubonehappy: "Cubone",
+	kecleonshopkeeper: "Kecleon",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",
@@ -1022,6 +1024,7 @@ export const Aliases: {[alias: string]: string} = {
 	duggya: "Dugtrio-Alola",
 	probo: "Probopass",
 	goth: "Gothitelle",
+	kec: "Kecleon",
 
 	snug: "Snugsparce",
 	soar: "Soarsparce",
@@ -1065,6 +1068,8 @@ export const Aliases: {[alias: string]: string} = {
 	musharnan: "Musharna-Nightmare",
 	nmusharna: "Musharna-Nightmare",
 	nmush: "Musharna-Nightmare",
+	okhan: "Osteoskhan",
+	osteo: "Osteoskhan",
 
 	// armored
 	vespa: "Vespiquen-Armored",
