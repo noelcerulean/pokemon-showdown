@@ -2649,7 +2649,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	osteoskhan: {
 		num: -544,
-		name: "Osteoskkan",
+		name: "Osteoskhan",
 		types: ["Ground", "Normal"],
 		baseStats: {hp: 91, atk: 94, def: 97, spa: 44, spd: 80, spe: 89},
 		abilities: {0: "Friend Guard", 1: "Lightning Rod", H: "Bone Master"},
