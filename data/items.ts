@@ -621,6 +621,34 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 1121,
 		gen: 8,
 	},
+	bonebaton: {
+		name: "Bone Baton",
+		spritenum: 782,
+		fling: {
+			basePower: 90,
+		},
+		onModifyAtkPriority: 1,
+		onModifyAtk(atk, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Osteoskhan') {
+				return this.chainModify(1.5);
+			}
+		},
+		onSourceModifyAccuracyPriority: -2,
+		onSourceModifyAccuracy(accuracy) {
+			if (typeof accuracy === 'number') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === -544) || pokemon.baseSpecies.num === -544) {
+				return false;
+			}
+			return true;
+		},
+		itemUser: ["Osteoskhan"],
+		num: -544,
+		gen: 3,
+	},
 	bottlecap: {
 		name: "Bottle Cap",
 		spritenum: 696,

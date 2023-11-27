@@ -1657,6 +1657,28 @@ export const Moves: {[moveid: string]: MoveData} = {
 		maxMove: {basePower: 130},
 		contestType: "Tough",
 	},
+	bonetwirl: {
+		num: -570,
+		accuracy: 90,
+		basePower: 25,
+		category: "Physical",
+		name: "Bone Twirl",
+		pp: 10,
+		priority: 0,
+		flags: {bone: 1, protect: 1, mirror: 1},
+		onModifyMove(move, pokemon) {
+			if (pokemon.happiness > 254) {
+				move.multihit = 5;
+			}
+		},
+		multihit: [2, 5],
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+		zMove: {basePower: 140},
+		maxMove: {basePower: 130},
+		contestType: "Cute",
+	},
 	boomburst: {
 		num: 586,
 		accuracy: 100,
@@ -20693,7 +20715,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	sweepup: {
 		num: -531,
-		accuracy: 90,
+		accuracy: 100,
 		basePower: 40,
 		category: "Physical",
 		name: "Sweep Up",

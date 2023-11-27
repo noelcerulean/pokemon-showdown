@@ -791,6 +791,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "DUU",
 	},
+	osteoskhan: {
+		randomBattleMoves: ["bonemerang", "bonetwirl", "knockoff", "onetwopunch", "swordsdance"],
+		randomDoubleBattleMoves: ["bonemerang", "bonetwirl", "followme", "helpinghand", "knockoff", "onetwopunch", "protect", "swordsdance"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	tyrogue: {
 		tier: "LC",
 	},

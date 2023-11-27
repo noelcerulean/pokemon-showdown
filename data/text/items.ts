@@ -173,6 +173,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Blunder Policy",
 		desc: "If the holder misses due to accuracy, its Speed is raised by 2 stages. Single use.",
 	},
+	bonebaton: {
+		name: "Bone Baton",
+		desc: "If held by Osteoskhan, Bone moves gain 1.5x base power and 1.2x accuracy.",
+	},
 	bottlecap: {
 		name: "Bottle Cap",
 		desc: "Used for Hyper Training. One of a Pokemon's stats is calculated with an IV of 31.",

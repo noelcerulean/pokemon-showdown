@@ -979,6 +979,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	osteoskhan: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	tyrogue: {
 		tier: "LC",
 	},

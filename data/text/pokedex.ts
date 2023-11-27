@@ -557,6 +557,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	marowakalolatotem: {
 		name: "Marowak-Alola-Totem",
 	},
+	osteoskhan: {
+		name: "Osteoskhan",
+	},
 	hitmonlee: {
 		name: "Hitmonlee",
 	},

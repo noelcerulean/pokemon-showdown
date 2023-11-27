@@ -321,6 +321,7 @@ const avatarTable = new Set([
 	'sabrina-gen1', 'sabrina-gen1rb', 'sabrina-gen2', 'sabrina-gen3', 'sabrina',
 	'sage-gen2', 'sage-gen2jp', 'sage',
 	'sailor-gen1', 'sailor-gen1rb', 'sailor-gen2', 'sailor-gen3jp', 'sailor-gen3', 'sailor-gen3rs', 'sailor',
+	'saurbot-pokedex',
 	'saturn',
 	'schoolboy-gen2',
 	'schoolkidf-gen3', 'schoolkidf-gen4', 'schoolkidf',

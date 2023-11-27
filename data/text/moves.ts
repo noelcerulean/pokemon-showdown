@@ -583,6 +583,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits.",
 		},
 	},
+	bonetwirl: {
+		name: "Bone Twirl",
+		desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has maximum Happiness or the Skill Link Ability, this move will always hit five times.",
+		shortDesc: "Hits 2-5 times. Hits 5 times at max Happiness.",
+	},
 	boomburst: {
 		name: "Boomburst",
 		desc: "No additional effect.",
