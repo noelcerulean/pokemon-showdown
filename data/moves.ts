@@ -20541,8 +20541,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	sugarslam: {
 		num: -571,
-		accuracy: 95,
-		basePower: 100,
+		accuracy: 100,
+		basePower: 95,
 		category: "Physical",
 		name: "Sugar Slam",
 		pp: 10,
