@@ -1737,6 +1737,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	utsuki: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	bonsly: {
 		tier: "LC",
 	},

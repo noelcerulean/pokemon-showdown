@@ -1072,6 +1072,8 @@ export const Aliases: {[alias: string]: string} = {
 	osteo: "Osteoskhan",
 	bun: "Bunmochi",
 	mochi: "Bunmochi",
+	utsu: "Utsuki",
+	usu: "Utsuki",
 
 	// armored
 	vespa: "Vespiquen-Armored",
@@ -1289,6 +1291,7 @@ export const Aliases: {[alias: string]: string} = {
 	ubburst: "Blacephalon",
 	ubassembly: "Stakataka",
 	ubadhesive: "Poipole",
+	ubhammer: "Utsuki",
 
 	// moves
 	bb: "Brave Bird",

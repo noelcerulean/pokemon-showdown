@@ -1386,6 +1386,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UUBL",
 		doublesTier: "DUU",
 	},
+	utsuki: {
+		randomBattleMoves: ["agility", "earthquake", "icehammer", "sugarslam", "woodhammer"],
+		randomDoubleBattleMoves: ["agility", "earthquake", "icehammer", "protect", "sugarslam", "woodhammer"],
+		tier: "UUBL",
+		doublesTier: "DUU",
+	},
 	bonsly: {
 		tier: "LC",
 	},

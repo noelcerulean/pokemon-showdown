@@ -881,6 +881,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	bunmochi: {
 		name: "Bunmochi",
 	},
+	utsuki: {
+		name: "Utsuki",
+	},
 	sudowoodo: {
 		name: "Sudowoodo",
 	},
