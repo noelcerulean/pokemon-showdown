@@ -485,6 +485,7 @@ export const Aliases: {[alias: string]: string} = {
 	hypnohappyjamas: "Hypno",
 	cubonehappy: "Cubone",
 	kecleonshopkeeper: "Kecleon",
+	kabutopsfossil: "Kabutops",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",

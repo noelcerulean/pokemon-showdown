@@ -3403,6 +3403,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Kabuto",
 		evoLevel: 40,
 		eggGroups: ["Water 1", "Water 3"],
+		cosmeticFormes: ["Kabutops-Fossil"],
+		formeOrder: ["Kabutops", "Kabutops-Fossil"],
 	},
 	aerodactyl: {
 		num: 142,

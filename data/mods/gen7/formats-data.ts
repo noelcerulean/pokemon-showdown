@@ -1383,13 +1383,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	bunmochi: {
 		randomBattleMoves: ["iceshard", "iciclecrash", "leafblade", "sugarslam", "superpower"],
 		randomDoubleBattleMoves: ["iceshard", "iciclecrash", "leafblade", "protect", "sugarslam", "superpower"],
-		tier: "UUBL",
+		tier: "OU",
 		doublesTier: "DUU",
 	},
 	utsuki: {
 		randomBattleMoves: ["agility", "earthquake", "icehammer", "sugarslam", "woodhammer"],
 		randomDoubleBattleMoves: ["agility", "earthquake", "icehammer", "protect", "sugarslam", "woodhammer"],
-		tier: "UUBL",
+		tier: "OU",
 		doublesTier: "DUU",
 	},
 	bonsly: {
