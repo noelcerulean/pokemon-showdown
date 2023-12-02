@@ -1380,6 +1380,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DUU",
 	},
+	bunmochi: {
+		randomBattleMoves: ["iceshard", "iciclecrash", "leafblade", "sugarslam", "superpower"],
+		randomDoubleBattleMoves: ["iceshard", "iciclecrash", "leafblade", "protect", "sugarslam", "superpower"],
+		tier: "UUBL",
+		doublesTier: "DUU",
+	},
 	bonsly: {
 		tier: "LC",
 	},

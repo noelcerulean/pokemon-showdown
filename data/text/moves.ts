@@ -6613,6 +6613,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "Fails if the target did not select a physical or special attack for use this turn, or if the target moves before the user.",
 		},
 	},
+	sugarslam: {
+		name: "Sugar Slam",
+		desc: "Has a 10% chance to lower the target's Speed by 1 stage.",
+		shortDesc: "10% chance to lower the target's Speed by 1.",
+	},
 	sunnyday: {
 		name: "Sunny Day",
 		desc: "For 5 turns, the weather becomes Sunny Day. The damage of Fire-type attacks is multiplied by 1.5 and the damage of Water-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Heat Rock. Fails if the current weather is Sunny Day.",

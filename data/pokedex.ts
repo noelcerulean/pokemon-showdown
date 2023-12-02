@@ -4192,6 +4192,17 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 18,
 		eggGroups: ["Water 1", "Fairy"],
 	},
+	bunmochi: {
+		num: -545,
+		name: "Bunmochi",
+		types: ["Ice", "Fairy"],
+		baseStats: {hp: 97, atk: 47, def: 77, spa: 97, spd: 117, spe: 87},
+		abilities: {0: "Huge Power", 1: "Snow Cloak", H: "Serene Grace"},
+		heightm: 1,
+		weightkg: 3.3,
+		color: "White",
+		eggGroups: ["Fairy", "Field"],
+	},
 	sudowoodo: {
 		num: 185,
 		name: "Sudowoodo",

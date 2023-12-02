@@ -1733,6 +1733,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
+	bunmochi: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	bonsly: {
 		tier: "LC",
 	},

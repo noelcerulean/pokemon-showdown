@@ -1070,6 +1070,8 @@ export const Aliases: {[alias: string]: string} = {
 	nmush: "Musharna-Nightmare",
 	okhan: "Osteoskhan",
 	osteo: "Osteoskhan",
+	bun: "Bunmochi",
+	mochi: "Bunmochi",
 
 	// armored
 	vespa: "Vespiquen-Armored",

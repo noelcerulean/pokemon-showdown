@@ -878,6 +878,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	azumarill: {
 		name: "Azumarill",
 	},
+	bunmochi: {
+		name: "Bunmochi",
+	},
 	sudowoodo: {
 		name: "Sudowoodo",
 	},
