@@ -1151,8 +1151,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoItem: "Fire Stone",
 		eggGroups: ["Field"],
 		otherFormes: ["Ninetales-Alola"],
-		cosmeticFormes: ["Ninetales-Jibanyan"],
-		formeOrder: ["Ninetales", "Ninetales-Alola", "Ninetales-Jibanyan"],
+		cosmeticFormes: ["Ninetales-Jibanyan", "Ninetales-Yukata"],
+		formeOrder: ["Ninetales", "Ninetales-Alola", "Ninetales-Jibanyan", "Ninetales-Yukata"],
 	},
 	ninetalesalola: {
 		num: 38,
