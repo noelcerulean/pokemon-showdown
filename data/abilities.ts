@@ -5204,6 +5204,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	territorial: {
 		onSwitchIn(pokemon) {
+			this.add('-ability', pokemon, 'Territorial');
 			this.effectState.switchingIn = true;
 			this.field.clearTerrain();
 			let activated = false;

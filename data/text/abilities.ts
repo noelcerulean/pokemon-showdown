@@ -1938,7 +1938,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Territorial",
 		shortDesc: "On switch in, this Pokemon removes any active terrain.",
 
-		activate: "The territory was reclaimed!",
+		start: "  [POKEMON] is claiming its territory!",
 	},
 	thickfat: {
 		name: "Thick Fat",

@@ -2953,6 +2953,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	cherrimsunshine: {
 		randomBattleMoves: ["growth", "hiddenpowerice", "playrough", "solarblade", "sunnyday", "weatherball"],
 		randomDoubleBattleMoves: ["gigadrain", "helpinghand", "solarbeam", "sunnyday", "weatherball"],
+		tier: "Illegal",
 	},
 	cherrimprimal: {
 		randomBattleMoves: ["florapower", "petalblizzard", "playrough", "primalburst", "swordsdance"],
