@@ -9,7 +9,7 @@ export class RandomGen7Teams extends RandomTeams {
 
 		this.moveEnforcementCheckers = {
 			Bug: movePool => movePool.includes('megahorn') || movePool.includes('pinmissile'),
-			Dark: (movePool, moves, abilities, types, counter) => !counter.get('Dark') && !abilities.has('Protean'),
+			Dark: (movePool, moves, abilities, types, counter) => !counter.get('Dark') && !abilities.has('Amphibious'),
 			Dragon: (movePool, moves, abilities, types, counter) => (
 				!counter.get('Dragon') &&
 				!abilities.has('Aerilate') && !abilities.has('Pixilate') &&
@@ -70,7 +70,7 @@ export class RandomGen7Teams extends RandomTeams {
 				!counter.get('Steel') && (species.baseStats.atk >= 100 || abilities.has('Steelworker'))
 			),
 			Water: (movePool, moves, abilities, types, counter, species) => (
-				(!counter.get('Water') && !abilities.has('Protean')) ||
+				(!counter.get('Water') && !abilities.has('Amphibious')) ||
 				!counter.get('stab') ||
 				movePool.includes('crabhammer')
 			),
@@ -262,7 +262,7 @@ export class RandomGen7Teams extends RandomTeams {
 		case 'uturn':
 			return {cull: (
 				(abilities.has('Speed Boost') && moves.has('protect')) ||
-				(abilities.has('Protean') && counter.get('Status') > 2) ||
+				(abilities.has('Amphibious') && counter.get('Status') > 2) ||
 				!!counter.setupType ||
 				!!counter.get('speedsetup') || (
 					types.has('Bug') &&
@@ -1336,7 +1336,7 @@ export class RandomGen7Teams extends RandomTeams {
 				bst += baseStats.atk;
 			} else if (speciesAbility === 'Parental Bond') {
 				bst += 0.25 * (counter.get('Physical') > counter.get('Special') ? baseStats.atk : baseStats.spa);
-			} else if (speciesAbility === 'Protean') {
+			} else if (speciesAbility === 'Amphibious') {
 				bst += 0.3 * (counter.get('Physical') > counter.get('Special') ? baseStats.atk : baseStats.spa);
 			} else if (speciesAbility === 'Fur Coat') {
 				bst += baseStats.def;

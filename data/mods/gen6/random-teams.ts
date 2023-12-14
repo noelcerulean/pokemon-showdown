@@ -11,7 +11,7 @@ export class RandomGen6Teams extends RandomGen7Teams {
 		this.moveEnforcementCheckers = {
 			Bug: movePool => movePool.includes('megahorn') || movePool.includes('pinmissile'),
 			Dark: (movePool, moves, abilities, types, counter, species) => (
-				(!counter.get('Dark') && !abilities.has('Protean'))
+				(!counter.get('Dark') && !abilities.has('Amphibious'))
 			),
 			Dragon: (movePool, moves, abilities, types, counter) => (
 				!counter.get('Dragon') &&
@@ -64,7 +64,7 @@ export class RandomGen6Teams extends RandomGen7Teams {
 			),
 			Water: (movePool, moves, abilities, types, counter) => (
 				(!counter.get('Water') || !counter.get('stab')) &&
-				!abilities.has('Protean')
+				!abilities.has('Amphibious')
 			),
 			Adaptability: (movePool, moves, abilities, types, counter, species) => (
 				!counter.setupType &&
@@ -230,7 +230,7 @@ export class RandomGen6Teams extends RandomGen7Teams {
 			return {cull: (
 				!!counter.setupType || !!counter.get('speedsetup') ||
 				(abilities.has('Speed Boost') && moves.has('protect')) ||
-				(abilities.has('Protean') && counter.get('Status') > 2) || (
+				(abilities.has('Amphibious') && counter.get('Status') > 2) || (
 					types.has('Bug') &&
 					counter.get('stab') < 2 &&
 					counter.damagingMoves.size > 2 &&

@@ -1773,7 +1773,7 @@
 				"species": "Greninja",
 				"gender": "M",
 				"item": ["Waterium Z"],
-				"ability": ["Protean"],
+				"ability": ["Amphibious"],
 				"evs": {"spa": 252, "spd": 4, "spe": 252},
 				"nature": "Hasty",
 				"moves": [["Spikes"], ["Hydro Pump"], ["Gunk Shot"], ["Hidden Power Fire"]]
@@ -1781,7 +1781,7 @@
 				"species": "Greninja",
 				"gender": "M",
 				"item": ["Fightinium Z"],
-				"ability": ["Protean"],
+				"ability": ["Amphibious"],
 				"evs": {"spa": 252, "spd": 4, "spe": 252},
 				"nature": "Hasty",
 				"moves": [["Spikes"], ["Ice Beam"], ["Gunk Shot"], ["Low Kick"]]
@@ -1789,7 +1789,7 @@
 				"species": "Greninja",
 				"gender": "M",
 				"item": ["Choice Scarf"],
-				"ability": ["Protean"],
+				"ability": ["Amphibious"],
 				"evs": {"atk": 176, "spa": 80, "spe": 252},
 				"nature": ["Naive", "Hasty"],
 				"moves": [["Rock Slide", "Gunk Shot"], ["U-turn"], ["Ice Beam"], ["Low Kick", "Spikes"]]
@@ -1797,7 +1797,7 @@
 				"species": "Greninja",
 				"gender": "M",
 				"item": ["Focus Sash"],
-				"ability": ["Protean"],
+				"ability": ["Amphibious"],
 				"evs": {"spa": 252, "spd": 4, "spe": 252},
 				"nature": "Timid",
 				"moves": [["Spikes"], ["Toxic Spikes"], ["Taunt"], ["Ice Beam"]]

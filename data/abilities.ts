@@ -150,6 +150,19 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4.5,
 		num: -558,
 	},
+	amphibious: {
+		onAfterMoveSecondarySelf(source, target, move) {
+			if (move.hasBounced || move.sourceEffect === 'snatch') return;
+			const type = move.type;
+			if (type && type !== '???' && source.getTypes().join() !== type) {
+				if (!source.setType(type)) return;
+				this.add('-start', source, 'typechange', type, '[from] ability: Amphibious');
+			}
+		},
+		name: "Amphibious",
+		rating: 4.5,
+		num: -567,
+	},
 	analytic: {
 		onBasePowerPriority: 21,
 		onBasePower(basePower, pokemon) {
@@ -560,6 +573,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				if (move.ignoreImmunity !== true) {
 					move.ignoreImmunity['Ground'] = true;
 					move.ignoreImmunity['Ghost'] = true;
+					move.ignoreImmunity['Normal'] = true;
 				}
 			}
 		},
@@ -2383,7 +2397,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 26,
 	},
 	libero: {
-		onPrepareHit(source, target, move) {
+		onAfterMoveSecondarySelf(source, target, move) {
 			if (move.hasBounced || move.sourceEffect === 'snatch') return;
 			const type = move.type;
 			if (type && type !== '???' && source.getTypes().join() !== type) {
@@ -3554,7 +3568,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 239,
 	},
 	protean: {
-		onAfterMoveSecondarySelf(source, target, move) {
+		onPrepareHit(source, target, move) {
 			if (move.hasBounced || move.sourceEffect === 'snatch') return;
 			const type = move.type;
 			if (type && type !== '???' && source.getTypes().join() !== type) {

@@ -45,6 +45,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "If this pokemon is Kiwuit, grants type immunity equal to the Natural Gift type of its held berry. This ability also prevents berries from being knocked off, thiefed, or consumed when using Natural Gift. However, berries may still be eaten when their conditions are met.",
 		shortDesc: "Grants Kiwuit immunity to the Natural Gift type of its held berry.",
 	},
+	amphibious: {
+		name: "Amphibious",
+		desc: "This Pokemon's type changes to match the type of the move it just used. This effect comes after all effects that change a move's type.",
+		shortDesc: "This Pokemon's type changes to match the type of the move it just used.",
+	},
 	analytic: {
 		name: "Analytic",
 		desc: "The power of this Pokemon's move is multiplied by 1.3 if it is the last to move in a turn. Does not affect Doom Desire and Future Sight.",
@@ -193,7 +198,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	bonemaster: {
 		name: "Bone Master",
-		shortDesc: "This Pokemon's bone moves bypass immunities when dealing damage.",
+		desc: "This pokemon's bone moves bypass type-based immunities & Levitate when dealing damage. Other ability granted immunities, such as Clay Construction, are not ignored.",
+		shortDesc: "User's bone moves bypass type-based immunities & Levitate when dealing damage.",
 	},
 	bugcatcher: {
 		name: "Bugcatcher",
@@ -855,8 +861,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	libero: {
 		name: "Libero",
-		desc: "This Pokemon's type changes to match the type of the move it is about to use. This effect comes after all effects that change a move's type.",
-		shortDesc: "This Pokemon's type changes to match the type of the move it is about to use.",
+		desc: "This Pokemon's type changes to match the type of the move it just used. This effect comes after all effects that change a move's type.",
+		shortDesc: "This Pokemon's type changes to match the type of the move it just used.",
 	},
 	lightmetal: {
 		name: "Light Metal",
@@ -1278,8 +1284,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	protean: {
 		name: "Protean",
-		desc: "This Pokemon's type changes to match the type of the move it just used. This effect comes after all effects that change a move's type.",
-		shortDesc: "This Pokemon's type changes to match the type of the move it just used.",
+		desc: "This Pokemon's type changes to match the type of the move it is about to use. This effect comes after all effects that change a move's type.",
+		shortDesc: "This Pokemon's type changes to match the type of the move it is about to use.",
 	},
 	psychecontrol: {
 		name: "Psyche Control",

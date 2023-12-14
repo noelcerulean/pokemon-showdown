@@ -324,7 +324,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	greninja: {
 		inherit: true,
-		abilities: {0: "Torrent", H: "Protean"},
+		abilities: {0: "Torrent", H: "Amphibious"},
 	},
 	vivillon: {
 		inherit: true,

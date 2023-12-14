@@ -646,7 +646,7 @@
         {
           "species": "Greninja",
           "item": "Focus Sash",
-          "ability": "Protean",
+          "ability": "Amphibious",
           "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252},
           "nature": "Jolly",
           "moves": [["Toxic Spikes"], ["Spikes"], ["Taunt"], ["Shadow Sneak"]]
@@ -654,7 +654,7 @@
         {
           "species": "Greninja",
           "item": "Focus Sash",
-          "ability": "Protean",
+          "ability": "Amphibious",
           "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252},
           "nature": "Jolly",
           "moves": [["Toxic Spikes"], ["Scald"], ["Taunt"], ["Shadow Sneak"]]

@@ -31,7 +31,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['Standard'],
-		banlist: ['Uber', 'Latias-Mega', 'Latios-Mega', 'Blaziken + Speed Boost', 'Greninja + Protean', 'Battle Bond', 'Power Construct', 'King\'s Rock', 'Bright Powder', 'Lax Incense', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Poliwrathium Z,', 'Mewnium Z', 'Sand Veil', 'Snow Cloak'],
+		banlist: ['Uber', 'Latias-Mega', 'Latios-Mega', 'Blaziken + Speed Boost', 'Greninja + Amphibious', 'Battle Bond', 'Power Construct', 'King\'s Rock', 'Bright Powder', 'Lax Incense', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Poliwrathium Z,', 'Mewnium Z', 'Sand Veil', 'Snow Cloak'],
 	},
 	{
 		name: "[Gen 7] OU",
@@ -543,7 +543,7 @@ export const Formats: FormatList = [
 			'Archeops', 'Buzzwole', 'Dragonite', 'Hoopa-Unbound', 'Kartana', 'Keldeo', 'Kyurem-Black', 'Regigigas', 'Shedinja', 'Slaking', 'Terrakion', 'Weavile', 'Victini',
 			'Antlure', 'Bagwormicade', 'Comatose', 'Contrary', 'Fluffy', 'Fur Coat', 'Huge Power', 'Illusion', 'Imposter', 'Inflate', 'Innards Out',
 			'Magnet Pull', 'Melody Allegretto', 'Mystic Power', 'Parental Bond', 'Protean', 'Pure Power', 'Simple', 'Speed Boost', 'Stakeout', 'Water Bubble', 'Wonder Guard',
-			'Neutralizing Gas', 'Arcana', 'Ignition',
+			'Neutralizing Gas', 'Arcana', 'Ignition', 'Amphibious',
 			'Shadow Armor', 'Shadow Conduction', 'Shadow Convection', 'Shadow Dust', 'Shadow Hydraulics', 'Shadow Rebirth',
 		],
 		unbanlist: ['Aegislash', 'Blaziken', 'Genesect', 'Landorus-Base', 'Metagross-Mega', 'Naganadel', 'Pheromosa'],
@@ -560,7 +560,7 @@ export const Formats: FormatList = [
 		banlist: [
 			'Groudon-Primal', 'Rayquaza-Mega', 'Gengarite', 'Comatose + Sleep Talk', 'Chatter',
 			'Antlure', 'Arena Trap', 'Contrary', 'Huge Power', 'Illusion', 'Innards Out', 'Magnet Pull', 'Moody', 'Mystic Power',
-			'Parental Bond', 'Protean', 'Psychic Surge', 'Pure Power', 'Shadow Tag', 'Stakeout', 'Water Bubble', 'Wonder Guard',
+			'Parental Bond', 'Protean', 'Psychic Surge', 'Pure Power', 'Shadow Tag', 'Stakeout', 'Water Bubble', 'Wonder Guard', 'Amphibious',
 		],
 	},
 	{

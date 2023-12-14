@@ -1101,14 +1101,14 @@
 		"sets": [{
 			"species": "Greninja",
 			"item": "Life Orb",
-			"ability": "Protean",
+			"ability": "Amphibious",
 			"evs": {"atk": 20, "spa": 236, "spe": 252},
 			"nature": "Naive",
 			"moves": [["Ice Beam"], ["Water Shuriken", "Hydro Pump", "Grass Knot"], ["Gunk Shot", "Low Kick"], ["Dark Pulse"]]
 		}, {
 			"species": "Greninja",
 			"item": "Normalium Z",
-			"ability": "Protean",
+			"ability": "Amphibious",
 			"evs": {"hp": 4, "spa": 252, "spe": 252},
 			"nature": "Naive",
 			"moves": [["Happy Hour"], ["Ice Beam"], ["Water Shuriken", "Hydro Pump", "Dark Pulse"], ["Low Kick", "Gunk Shot"]]
@@ -1122,21 +1122,21 @@
 		}, {
 			"species": "Greninja",
 			"item": "Focus Sash",
-			"ability": "Protean",
+			"ability": "Amphibious",
 			"evs": {"atk": 4, "spa": 252, "spe": 252},
 			"nature": "Naive",
 			"moves": [["Ice Beam"], ["Water Shuriken", "Hydro Pump"], ["Gunk Shot", "Low Kick"], ["Dark Pulse"]]
 		}, {
 			"species": "Greninja",
 			"item": "Choice Scarf",
-			"ability": "Protean",
+			"ability": "Amphibious",
 			"evs": {"atk": 252, "spa": 4, "spe": 252},
 			"nature": "Naive",
 			"moves": [["Grass Knot", "U-turn", "Low Kick"], ["Ice Beam"], ["Gunk Shot"], ["Dark Pulse", "Rock Slide", "Waterfall", "Rock Tomb"]]
 		}, {
 			"species": "Greninja",
 			"item": "Rocky Helmet",
-			"ability": "Protean",
+			"ability": "Amphibious",
 			"evs": {"hp": 76, "atk": 68, "def": 252, "spd": 4, "spe": 108},
 			"nature": "Jolly",
 			"moves": [["Toxic"], ["Low Kick"], ["Ice Beam"], ["Rock Tomb"]]
