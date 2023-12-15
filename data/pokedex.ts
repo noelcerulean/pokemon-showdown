@@ -2338,7 +2338,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 		otherFormes: ["Gengar-Mega"],
 		cosmeticFormes: ["Gengar-Hallows", "Gengar-Eve", "Gengar-Clef"],
-		formeOrder: ["Gengar", "Gengar-Hallows", "Gengar-Eve", "Gengar-Clef", "Gengar-Mega", "Gengar-Mega-Test"],
+		formeOrder: ["Gengar", "Gengar-Hallows", "Gengar-Eve", "Gengar-Clef", "Gengar-Mega"],
 		canGigantamax: "G-Max Terror",
 	},
 	gengarmega: {
@@ -2353,8 +2353,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 40.5,
 		color: "Purple",
 		eggGroups: ["Amorphous"],
-		cosmeticFormes: ["Gengar-Mega-Test"],
-		formeOrder: ["Gengar-Mega", "Gengar-Mega-Test"],
 		requiredItem: "Gengarite",
 	},
 	gengargmax: {
