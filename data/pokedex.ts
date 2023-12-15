@@ -9445,6 +9445,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 185,
 		color: "White",
 		eggGroups: ["Monster", "Grass"],
+		cosmeticFormes: ["Abomasnow-Mega-Test"],
+		formeOrder: ["Abomasnow-Mega", "Abomasnow-Mega-Test"],
 		requiredItem: "Abomasite",
 	},
 	weavile: {
