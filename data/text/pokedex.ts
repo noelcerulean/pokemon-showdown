@@ -785,6 +785,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	typhlosion: {
 		name: "Typhlosion",
 	},
+	typhlosionarmored: {
+		name: "Typhlosion-Armored",
+	},
 	typhlosionvesuvius: {
 		name: "Typhlosion-Vesuvius",
 	},

@@ -2358,6 +2358,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 			desc: "Holder's Psychic-type attacks have 1.1x power.",
 		},
 	},
+	typhlosionarmor: {
+		name: "Typhlosion Armor",
+		desc: "Armor developed by DoReMi for Typhlosion to enhance its battle capabilities.",
+		shortDesc: "Attach to Typhlosion-Armored forme (not base forme!!!) in the teambuilder.",
+	},
 	tyranitarite: {
 		name: "Tyranitarite",
 		desc: "If held by a Tyranitar, this item allows it to Mega Evolve in battle.",

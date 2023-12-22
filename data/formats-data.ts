@@ -1612,6 +1612,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	typhlosionarmored: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	typhlosionvesuvius: {
 		tier: "Uber",
 	},

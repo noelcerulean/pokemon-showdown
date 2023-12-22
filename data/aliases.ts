@@ -488,6 +488,7 @@ export const Aliases: {[alias: string]: string} = {
 	kecleonshopkeeper: "Kecleon",
 	kabutopsfossil: "Kabutops",
 	claydolodyssey: "Claydol",
+	azumarillpunk: "Azumarill",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",
@@ -1093,6 +1094,9 @@ export const Aliases: {[alias: string]: string} = {
 	teddia: "Teddiursa-Armored",
 	teddya: "Teddiursa-Armored",
 	kirliaa: "Kirlia-Armored",
+	typhloa: "Typhlosion-Armored",
+	typha: "Typhlosion-Armored",
+	typhlosiona: "Typhlosion-Armored",
 
 	// shortened deltas
 	cranidosd: "Cranidos-Delta",

@@ -7435,6 +7435,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 248,
 		gen: 2,
 	},
+	typhlosionarmor: {
+		name: "Typhlosion Armor",
+		spritenum: 783,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Typhlosion-Armored') return false;
+			return true;
+		},
+		itemUser: ["Typhlosion-Armored"],
+		num: -545,
+		gen: 7,
+	},
 	tyranitarite: {
 		name: "Tyranitarite",
 		spritenum: 607,

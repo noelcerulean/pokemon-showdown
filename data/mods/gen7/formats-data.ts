@@ -1263,6 +1263,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	typhlosionarmored: {
+		randomBattleMoves: ["earthpower", "earthquake", "extrasensory", "gunkshot", "fireblast", "flareblitz", "focusblast", "hiddenpowergrass", "knockoff", "sludgebomb"],
+		randomDoubleBattleMoves: ["earthpower", "earthquake", "extrasensory", "gunkshot", "fireblast", "flareblitz", "focusblast", "heatwave", "knockoff", "protect", "sludgebomb"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	typhlosionvesuvius: {
 		tier: "Uber",
 	},
