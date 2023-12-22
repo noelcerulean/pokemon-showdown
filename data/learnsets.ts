@@ -28992,6 +28992,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			magicalleaf: ["7L11"],
 			magiccoat: ["7T"],
 			moonblast: ["7L55"],
+			moonlight: ["7L35"],
 			playrough: ["7L49"],
 			protect: ["7M"],
 			psychic: ["7M"],

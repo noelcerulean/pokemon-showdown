@@ -7328,6 +7328,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Baltoy",
 		evoLevel: 36,
 		eggGroups: ["Mineral"],
+		cosmeticFormes: ["Claydol-Odyssey"],
+		formeOrder: ["Claydol", "Claydol-Odyssey"],
 	},
 	lileep: {
 		num: 345,
