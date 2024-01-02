@@ -386,6 +386,7 @@ const avatarTable = new Set([
 	'venusgrunt', 'venusgruntf',
 	'veteranf',
 	'veteran-gen4', 'veteran-gen4-2', 'veteran',
+	'vivii',
 	'virtuagruntm', 'virtuagruntf',
 	'volkner',
 	'waiter-gen4dp', 'waiter-gen4', 'waiter',

@@ -1315,7 +1315,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	escapeartist: {
 		onBasePowerPriority: 19,
 		onBasePower(basePower, attacker, defender, move) {
-			if (move.id === 'flipturn' || move.id === 'shadowpivot' || move.id === 'uturn' || move.id === 'voltswitch') {
+			if (move.id === 'flipturn' || move.id === 'shadowpivot' || move.id === 'uturn' || move.id === 'voltswitch' || move.id === 'propulsionshot') {
 				return this.chainModify(1.5);
 			}
 		},
