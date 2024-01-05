@@ -2095,7 +2095,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	shedinja: {
 		randomBattleMoves: ["earth power", "energy ball", "nastyplot", "painsplit", "shadow ball", "shadowclaw", "shadowsneak", "swordsdance", "taunt", "willowisp", "xscissor"],
 		randomDoubleBattleMoves: ["allyswitch", "protect", "shadowsneak", "swordsdance", "willowisp", "xscissor"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	whismur: {
