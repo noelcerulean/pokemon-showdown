@@ -11142,6 +11142,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Palpitoad",
 		evoLevel: 36,
 		eggGroups: ["Water 1"],
+		cosmeticFormes: ["Seismitoad-Rapper"],
+		formeOrder: ["Seismitoad", "Seismitoad-Rapper"],
 	},
 	seismitoaddelta: {
 		num: 537,
