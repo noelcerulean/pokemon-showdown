@@ -5016,8 +5016,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	refresh: {
 		name: "Refresh",
-		desc: "The user cures its burn, poison, or paralysis. Fails if the user is not burned, poisoned, or paralyzed.",
-		shortDesc: "User cures its burn, poison, or paralysis.",
+		desc: "The user cures its burn, poison, freeze, or paralysis. Fails if the user is not burned, poisoned, or paralyzed.",
+		shortDesc: "User cures its burn, poison, freeze, or paralysis.",
 	},
 	regroup: {
 		name: "Regroup",

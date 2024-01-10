@@ -69,6 +69,17 @@ export const Formats: FormatList = [
 		banlist: ['UU', 'RUBL', 'Snow Warning', 'Sand Stream', 'Castform + Smooth Rock', 'Castform + Icy Rock'],
 	},
 	{
+		name: "[Gen 7] NU",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3632667/">USM NU Sample Teams</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3645166/">USM NU Viability Rankings</a>`,
+		],
+
+		mod: 'gen7',
+		ruleset: ['[Gen 7] RU'],
+		banlist: ['RU', 'NUBL', 'Damp Rock'],
+	},
+	{
 		name: "[Gen 7] Ubers",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/posts/8286276/">USM Ubers</a>`,
@@ -197,17 +208,6 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['Obtainable', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause'],
-	},
-	{
-		name: "[Gen 7] NU",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3632667/">USM NU Sample Teams</a>`,
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3645166/">USM NU Viability Rankings</a>`,
-		],
-
-		mod: 'gen7',
-		ruleset: ['[Gen 7] RU'],
-		banlist: ['RU', 'NUBL'],
 	},
 	{
 		name: "[Gen 7] PU",
