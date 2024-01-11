@@ -4471,6 +4471,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			hiddenpower: ["7M"],
 			hornattack: ["7L8"],
 			hyperbeam: ["7M"],
+			icepunch: ["7T"],
 			irontail: ["7T"],
 			knockoff: ["7T"],
 			laserfocus: ["7T"],
