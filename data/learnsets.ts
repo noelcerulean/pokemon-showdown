@@ -18850,7 +18850,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			mimic: ["7V", "3T"],
 			muddywater: ["8M", "7E", "6E", "5E", "4E"],
 			naturalgift: ["4M"],
-			octazooka: ["8E", "7E", "7V", "6E", "5E", "5D", "4E", "3E"],
+			octazooka: ["8E", "7S1", "7E", "7V", "6E", "5E", "5D", "4E", "3E"],
 			outrage: ["8M", "8V", "7T", "7E", "6T", "6E", "5T", "5E", "4T"],
 			propulsionshot: ["7S1"],
 			protect: ["8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -18883,7 +18883,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		},
 		eventData: [
 			{generation: 5, level: 1, shiny: true, moves: ["bubble"], pokeball: "pokeball"},
-			{generation: 7, level: 5, isHidden: true, moves: ["bubble", "propulsionshot"], pokeball: "cherishball"},
+			{generation: 7, level: 5, isHidden: true, moves: ["bubble", "propulsionshot", "octazooka"], pokeball: "cherishball"},
 		],
 		encounters: [
 			{generation: 1, level: 5},
