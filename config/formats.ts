@@ -146,6 +146,31 @@ export const Formats: FormatList = [
 			'Ekno', 'Hitmonno', 'Jirachno', 'Machono',
 		],
 	},
+	{
+		name: "[Gen 7] Story Doubles",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3661293/">USUM Doubles OU Metagame Discussion</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/posts/8394179/">USUM Doubles OU Viability Rankings</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/posts/8394190/">USUM Doubles OU Sample Teams</a>`,
+		],
+
+		mod: 'gen7',
+		gameType: 'doubles',
+		ruleset: ['Story Doubles', 'Swagger Clause'],
+		banlist: [
+			'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass',
+			'Ano', 'Bagno', 'Baneno', 'Bonsno', 'Bulbano', 'Bunno', 'Butterno', 'Charino',
+			'Dewno', 'Flyno', 'Gliscno', 'Gravno', 'Hypdian', 'Hypganium', 'Hypgar',
+			'Hypgong', 'Hyplotic', 'Hypmie', 'Hypnodash', 'Hypsicott', 'Hyptuff', 'Ivyno',
+			'Krokono', 'Lantno', 'Ledyno', 'Luxino', 'Machno', 'Mantno', 'Meganino', 'Mimeno',
+			'Misdreano', 'Molno', 'Mudno', 'Phanpno', 'Pidgeono', 'Pilosno', 'Rapidno',
+			'Sandno', 'Sandsno', 'Scizno', 'Shupno', 'Slowkno', 'Slugno', 'Stantno', 'Starno',
+			'Sunflono', 'Tyno', 'Venono', 'Venuno', 'Vileno', 'Wiggno', 'Woopno', 'Zoruno',
+			'Pichno', 'Fearno', 'Togetno', 'Drifno', 'Onno', 'Skarmno', 'Axno', 'Fraxno', 'Marno',
+			'Azumano', 'Pinsno', 'Herano', 'Senno', 'Smoono', 'Houndno', 'Zuno', 'Kangasno', 'Kyuno',
+			'Ekno', 'Hitmonno', 'Jirachno', 'Machono',
+		],
+	},
 
 	// US/UM Singles
 	///////////////////////////////////////////////////////////////////
