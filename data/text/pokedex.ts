@@ -2867,11 +2867,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	chespin: {
 		name: "Chespin",
 	},
+	chespindelta: {
+		name: "Chespin-Delta",
+	},
 	quilladin: {
 		name: "Quilladin",
 	},
+	quilladindelta: {
+		name: "Quilladin-Delta",
+	},
 	chesnaught: {
 		name: "Chesnaught",
+	},
+	chesnaughtdelta: {
+		name: "Chesnaught-Delta",
 	},
 	fennekin: {
 		name: "Fennekin",

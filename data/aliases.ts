@@ -490,6 +490,7 @@ export const Aliases: {[alias: string]: string} = {
 	claydolodyssey: "Claydol",
 	azumarillpunk: "Azumarill",
 	seismitoadrapper: "Seismitoad",
+	chesnaughtdeltauranium: "Chesnaught-Delta",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",

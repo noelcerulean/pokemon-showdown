@@ -4812,11 +4812,23 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	chespindelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	quilladin: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	quilladindelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	chesnaught: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	chesnaughtdelta: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},

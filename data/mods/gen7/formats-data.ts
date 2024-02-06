@@ -4287,12 +4287,24 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	chespin: {
 		tier: "LC",
 	},
+	chespindelta: {
+		tier: "LC",
+	},
 	quilladin: {
+		tier: "NFE",
+	},
+	quilladindelta: {
 		tier: "NFE",
 	},
 	chesnaught: {
 		randomBattleMoves: ["drainpunch", "leechseed", "spikes", "spikyshield", "synthesis", "woodhammer"],
 		randomDoubleBattleMoves: ["hammerarm", "leechseed", "rockslide", "spikyshield", "stoneedge", "woodhammer"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
+	chesnaughtdelta: {
+		randomBattleMoves: ["banefulbunker", "earthquake", "gunkshot", "ironhead", "spikes", "superpower"],
+		randomDoubleBattleMoves: ["banefulbunker", "gunkshot", "ironhead", "rockslide", "superpower"],
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
