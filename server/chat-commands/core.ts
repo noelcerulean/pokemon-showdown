@@ -43,7 +43,7 @@ const avatarTable = new Set([
 	'aromalady-gen3', 'aromalady-gen3rs', 'aromalady',
 	'artist-gen4', 'artist',
 	'ash-alola', 'ash-hoenn', 'ash-kalos', 'ash-unova', 'ash-capbackward', 'ash-johto', 'ash-sinnoh', 'ash',
-	'aya',
+	'aya', 'aya-and-prim',
 	'backersf',
 	'backers',
 	'backpackerf',
