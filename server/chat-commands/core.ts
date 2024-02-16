@@ -265,7 +265,7 @@ const avatarTable = new Set([
 	'officer-gen2',
 	'oldcouple-gen3',
 	'olenka',
-	'oustinia', 'oleg', 'onisim', 'onoufri',
+	'oustinia', 'oleg', 'onisim', 'onoufri', 'onisim-and-oleg',
 	'owen',
 	'painter-gen3',
 	'palmer',
