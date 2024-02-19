@@ -36,17 +36,12 @@ export const Conditions: {[k: string]: ModdedConditionData} = {
 			return false;
 		},
 	},
-	frz: {
-		inherit: true,
-		onHit(target, source, move) {
-			// don't count Hidden Power or Weather Ball as Fire-type
-			if (move.thawsTarget || this.dex.moves.get(move.id).type === 'Fire' && move.category !== 'Status') {
-				target.cureStatus();
-			}
-		},
-	},
 	sandstorm: {
 		inherit: true,
 		onModifySpD() {},
+	},
+	hail: {
+		inherit: true,
+		onModifyDef() {},
 	},
 };

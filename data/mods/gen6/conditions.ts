@@ -13,6 +13,12 @@ export const Conditions: {[k: string]: ModdedConditionData} = {
 			}
 		},
 	},
+	frz: {
+		inherit: true,
+		onResidual(pokemon) {
+			this.damage(pokemon.baseMaxhp / 8);
+		},
+	},
 	confusion: {
 		inherit: true,
 		onBeforeMove(pokemon) {

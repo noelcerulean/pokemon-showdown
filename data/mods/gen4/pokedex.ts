@@ -7,6 +7,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Cute Charm", 1: "Levitate"},
 	},
+	weezing: {
+		inherit: true,
+		abilities: {0: "Levitate", H: "Noxious Emission"},
+	},
+	sunflora: {
+		inherit: true,
+		abilities: {0: "Chlorophyll", H: "Drought"},
+	},
 	misdreavus: {
 		inherit: true,
 		abilities: {0: "Levitate"},
@@ -19,6 +27,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		evoType: 'levelExtra',
 		evoCondition: 'with high Beauty',
+	},
+	glalie: {
+		inherit: true,
+		abilities: {0: "Ice Body", H: "Snow Warning"},
 	},
 	luvdisc: {
 		inherit: true,

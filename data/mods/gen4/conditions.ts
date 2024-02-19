@@ -4,6 +4,11 @@ export const Conditions: {[k: string]: ModdedConditionData} = {
 		onResidualOrder: 10,
 		onResidualSubOrder: 6,
 	},
+	frz: {
+		inherit: true,
+		onResidualOrder: 10,
+		onResidualSubOrder: 6,
+	},
 	par: {
 		inherit: true,
 		onBeforeMove(pokemon) {
@@ -71,18 +76,6 @@ export const Conditions: {[k: string]: ModdedConditionData} = {
 				effectType: 'Move',
 				type: '???',
 			} as ActiveMove);
-			return false;
-		},
-	},
-	frz: {
-		inherit: true,
-		onBeforeMove(pokemon, target, move) {
-			if (this.randomChance(1, 5)) {
-				pokemon.cureStatus();
-				return;
-			}
-			if (move.flags['defrost']) return;
-			this.add('cant', pokemon, 'frz');
 			return false;
 		},
 	},
