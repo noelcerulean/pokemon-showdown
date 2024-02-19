@@ -12961,7 +12961,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Oceanic Operetta",
 		pp: 1,
 		priority: 0,
-		flags: {},
+		flags: {sound: 1},
 		isZ: "primariumz",
 		secondary: null,
 		target: "normal",
