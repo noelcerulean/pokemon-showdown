@@ -4622,7 +4622,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Snow Warning",
 		rating: 4,
-		num: 117,
+		num: -568,
 	},
 	solarboost: {
 		onModifyAtkPriority: 5,

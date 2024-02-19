@@ -9,11 +9,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	weezing: {
 		inherit: true,
-		abilities: {0: "Levitate", H: "Noxious Emission"},
+		abilities: {0: "Levitate", 1: "Noxious Emission"},
 	},
 	sunflora: {
 		inherit: true,
-		abilities: {0: "Chlorophyll", H: "Drought"},
+		abilities: {0: "Chlorophyll", 1: "Drought"},
 	},
 	misdreavus: {
 		inherit: true,
@@ -30,7 +30,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	glalie: {
 		inherit: true,
-		abilities: {0: "Ice Body", H: "Snow Warning"},
+		abilities: {0: "Ice Body", 1: "Snow Warning"},
 	},
 	luvdisc: {
 		inherit: true,
