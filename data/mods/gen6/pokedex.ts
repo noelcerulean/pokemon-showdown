@@ -88,7 +88,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	wingull: {
 		inherit: true,
-		abilities: {0: "Keen Eye", H: "Rain Dish"},
+		abilities: {0: "Keen Eye", 1: "Drizzle", H: "Rain Dish"},
 	},
 	pelipper: {
 		inherit: true,
