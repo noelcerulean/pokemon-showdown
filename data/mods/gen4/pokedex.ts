@@ -1,23 +1,11 @@
 export const Pokedex: {[k: string]: ModdedSpeciesData} = {
-	clefable: {
-		inherit: true,
-		abilities: {0: "Cute Charm"},
-	},
 	clefgar: {
 		inherit: true,
-		abilities: {0: "Cute Charm", 1: "Levitate"},
+		abilities: {0: "Magic Guard", 1: "Levitate"},
 	},
-	weezing: {
+	sunkern: {
 		inherit: true,
-		abilities: {0: "Levitate", 1: "Noxious Emission"},
-	},
-	sunflora: {
-		inherit: true,
-		abilities: {0: "Chlorophyll", 1: "Drought"},
-	},
-	misdreavus: {
-		inherit: true,
-		abilities: {0: "Levitate"},
+		abilities: {0: "Chlorophyll", 1: "Early Bird"},
 	},
 	miltank: {
 		inherit: true,
@@ -28,9 +16,17 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		evoType: 'levelExtra',
 		evoCondition: 'with high Beauty',
 	},
+	snorunt: {
+		inherit: true,
+		abilities: {0: "Ice Body", 1: "Inner Focus"},
+	},
 	glalie: {
 		inherit: true,
-		abilities: {0: "Ice Body", 1: "Snow Warning"},
+		abilities: {0: "Ice Body", 1: "Inner Focus"},
+	},
+	froslass: {
+		inherit: true,
+		abilities: {0: "Snow Cloak"},
 	},
 	luvdisc: {
 		inherit: true,

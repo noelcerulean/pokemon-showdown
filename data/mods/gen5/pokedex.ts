@@ -206,10 +206,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	misdreavus: {
 		inherit: true,
 		types: ["Ghost"],
+		abilities: {0: "Levitate", H: "Forewarn"},
 	},
 	mismagius: {
 		inherit: true,
 		types: ["Ghost"],
+		abilities: {0: "Levitate", H: "Forewarn"},
 	},
 	granbull: {
 		inherit: true,

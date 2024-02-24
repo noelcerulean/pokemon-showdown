@@ -33148,6 +33148,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			hypervoice: ["7T"],
 			icebeam: ["8M", "7M"],
 			icefang: ["7L1"],
+			icehammer: ["7L1"],
 			irontail: ["8M", "7T"],
 			lastresort: ["7T"],
 			magiccoat: ["7T"],
