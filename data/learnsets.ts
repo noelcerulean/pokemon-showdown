@@ -33117,7 +33117,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			crunch: ["7L33"],
 			defensecurl: ["8L1", "7L1"],
 			demolition: ["7L1", "6L1", "5L1", "4L1"],
-			dig: ["8M", "7L35"],
+			dig: ["8M", "7L35", "6L35"],
 			doubleedge: ["8L52", "7L42"],
 			doubleteam: ["7M"],
 			dragonbreath: ["7L26"],
