@@ -195,9 +195,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		types: ["Water"],
 		baseStats: {hp: 100, atk: 50, def: 80, spa: 50, spd: 80, spe: 50},
 	},
-	jumpluff: {
+	bunmochi: {
 		inherit: true,
-		baseStats: {hp: 75, atk: 55, def: 70, spa: 55, spd: 85, spe: 110},
+		types: ["Ice"],
 	},
 	snubbull: {
 		inherit: true,
@@ -310,6 +310,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	kecleon: {
 		inherit: true,
 		abilities: {0: "Color Change"},
+	},
+	lileep: {
+		inherit: true,
+		abilities: {0: "Suction Cups", H: "Storm Drain"},
+	},
+	cradily: {
+		inherit: true,
+		abilities: {0: "Suction Cups", H: "Storm Drain"},
 	},
 	feebas: {
 		inherit: true,

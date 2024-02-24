@@ -176,8 +176,14 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	aromabomb: {
 		name: "Aroma Bomb",
-		desc: "The target's Ability is rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, or Zen Mode, this effect does not happen, and receiving the effect through Baton Pass ends the effect immediately.",
+		desc: "The target's Ability is rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is Ambrosia, Battle Bond, Comatose, Disguise, Mimictree, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, or Zen Mode, this effect does not happen, and receiving the effect through Baton Pass ends the effect immediately.",
 		shortDesc: "Nullifies the target's Ability.",
+		gen7: {
+			desc: "Causes the target's Ability to be rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is Ambrosia, Battle Bond, Comatose, Disguise, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, or Zen Mode, this move fails, and receiving the effect through Baton Pass ends the effect immediately.",
+		},
+		gen6: {
+			desc: "Causes the target's Ability to be rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is Ambrosia, Multitype or Stance Change, this move fails, and receiving the effect through Baton Pass ends the effect immediately.",
+		},
 	},
 	aromatherapy: {
 		name: "Aromatherapy",
@@ -352,6 +358,12 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Beak Cannon",
 		desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
 		shortDesc: "Hits 2-5 times in one turn.",
+		gen4: {
+			desc: "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the target has a Focus Sash and had full HP when this move started, it will not be knocked out regardless of the number of hits.",
+		},
+		gen3: {
+			desc: "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits.",
+		},
 	},
 	beatup: {
 		name: "Beat Up",
@@ -481,10 +493,6 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Blizzard",
 		desc: "Has a 10% chance to freeze the target. If the weather is Hail, this move does not check accuracy.",
 		shortDesc: "10% chance to freeze foe(s). Can't miss in hail.",
-		gen3: {
-			desc: "Has a 10% chance to freeze the target.",
-			shortDesc: "10% chance to freeze foe(s).",
-		},
 		gen2: {
 			shortDesc: "10% chance to freeze the target.",
 		},
@@ -551,7 +559,13 @@ export const MovesText: {[k: string]: MoveText} = {
 	bombsaway: {
 		name: "Bombs Away",
 		desc: "Hits two to five times. Has a 10% chance to burn per hit. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
-		shortDesc: "Hits 2-5 times; 10% chance burn per hit..",
+		shortDesc: "Hits 2-5 times; 10% chance burn per hit.",
+		gen4: {
+			desc: "Hits two to five times. Has a 10% chance to burn per hit. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the target has a Focus Sash and had full HP when this move started, it will not be knocked out regardless of the number of hits.",
+		},
+		gen3: {
+			desc: "Hits two to five times. Has a 10% chance to burn per hit. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits.",
+		},
 	},
 	boneclub: {
 		name: "Bone Club",
@@ -587,6 +601,12 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Bone Twirl",
 		desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has maximum Happiness or the Skill Link Ability, this move will always hit five times.",
 		shortDesc: "Hits 2-5 times. Hits 5 times at max Happiness.",
+		gen4: {
+			desc: "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has maximum Happiness or the Skill Link Ability, this move will always hit five times. If the target has a Focus Sash and had full HP when this move started, it will not be knocked out regardless of the number of hits.",
+		},
+		gen3: {
+			desc: "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has maximum Happiness, this move will always hit five times.",
+		},
 	},
 	boomburst: {
 		name: "Boomburst",
@@ -808,11 +828,11 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	charge: {
 		name: "Charge",
-		desc: "Raises the user's Special Defense by 1 stage. If the user uses an Electric-type attack on the next turn, its power will be doubled.",
-		shortDesc: "+1 SpD, user's Electric move next turn 2x power.",
+		desc: "Raises the user's Special Defense by 1 stage. The user's next Electric-type attack will have its power doubled.",
+		shortDesc: "+1 SpD, user's next Electric move 2x power.",
 		gen3: {
-			desc: "If the user uses an Electric-type attack on the next turn, its power will be doubled.",
-			shortDesc: "The user's Electric attack next turn has 2x power.",
+			desc: "The user's next Electric-type attack will have its power doubled.",
+			shortDesc: "The user's next Electric attack has 2x power.",
 		},
 
 		start: "  [POKEMON] began charging power!",
@@ -1245,6 +1265,12 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Demolition",
 		desc: "User takes 1/4th recoil damage. Clears Reflect, Light Screen, Aurora Veil, Safeguard, Mist, Spikes, Toxic Spikes, Stealth Rock, and Sticky Web. Additionally, clears the terrain.",
 		shortDesc: "Clears screens/hazards/terrain. 1/4 recoil.",
+		gen5: {
+			desc: "User takes 1/4th recoil damage. Clears Reflect, Light Screen, Aurora Veil, Safeguard, Mist, Spikes, Toxic Spikes, and Stealth Rock",
+		},
+		gen4: {
+			desc: "User takes 1/4th recoil damage. Clears Reflect, Light Screen, Aurora Veil, Safeguard, Mist, Spikes, Toxic Spikes, and Stealth Rock",
+		},
 	},
 	destinybond: {
 		name: "Destiny Bond",
@@ -2298,8 +2324,14 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	gastroslam: {
 		name: "Gastro Slam",
-		desc: "The target's Ability is rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, or Zen Mode, this effect does not happen, and receiving the effect through Baton Pass ends the effect immediately.",
+		desc: "The target's Ability is rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is Ambrosia, Battle Bond, Comatose, Disguise, Mimictree, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, or Zen Mode, this effect does not happen, and receiving the effect through Baton Pass ends the effect immediately.",
 		shortDesc: "Nullifies the target's Ability.",
+		gen7: {
+			desc: "Causes the target's Ability to be rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is Ambrosia, Battle Bond, Comatose, Disguise, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, or Zen Mode, this move fails, and receiving the effect through Baton Pass ends the effect immediately.",
+		},
+		gen6: {
+			desc: "Causes the target's Ability to be rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is Ambrosia, Multitype or Stance Change, this move fails, and receiving the effect through Baton Pass ends the effect immediately.",
+		},
 	},
 	geargrind: {
 		name: "Gear Grind",
@@ -4320,6 +4352,12 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "One-Two Punch",
 		desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
 		shortDesc: "Hits 2 times in one turn.",
+		gen4: {
+			desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit. If the target has a Focus Sash and had full HP when this move started, it will not be knocked out regardless of the number of hits.",
+		},
+		gen3: {
+			desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
+		},
 	},
 	orbitalshift: {
 		name: "Orbital Shift",
@@ -4407,6 +4445,14 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Pay Day",
 		desc: "No additional effect.",
 		shortDesc: "Hits twice. Damages based on target's defense.",
+		gen4: {
+			desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit. If the target has a Focus Sash and had full HP when this move started, it will not be knocked out regardless of the number of hits.",
+			shortDesc: "Hits 2 times in one turn.",
+		},
+		gen3: {
+			desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
+			shortDesc: "Hits 2 times in one turn.",
+		},
 
 		activate: "  Coins were scattered everywhere!",
 	},
@@ -4668,6 +4714,14 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Prophetic Asteroid",
 		desc: "Deals damage two turns after this move is used. At the end of that turn, the damage is calculated at that time and dealt to the Pokemon at the position the target had when the move was used. If the user is no longer active at the time, damage is calculated based on the user's natural Attack stat, types, and level, with no boosts from its held item or Ability. Fails if this move or Doom Desire/Future Sight is already in effect for the target's position. This move becomes a special attack if the user's Sp. Attack is greater than its Attack, including stat stage changes.",
 		shortDesc: "Special if user's Sp. Atk > Atk. Hits in 2 turns.",
+		gen4: {
+			desc: "Deals typeless damage that cannot be a critical hit two turns after this move is used. Damage is calculated against the target on use, and at the end of the final turn that damage is dealt to the Pokemon at the position the original target had at the time. Fails if this move or Future Sight is already in effect for the target's position.",
+			shortDesc: "Hits two turns after being used.",
+		},
+		gen3: {
+			desc: "Deals typeless damage that cannot be a critical hit two turns after this move is used. Damage is calculated against the target on use, and at the end of the final turn that damage is dealt to the Pokemon at the position the original target had at the time. Fails if this move or Future Sight is already in effect for the target's position.",
+			shortDesc: "Hits two turns after being used.",
+		},
 
 		start: "  [POKEMON] prophesized a spaceborne destruction!",
 		activate: "  [TARGET] was blasted with a shower of asteroids!",
@@ -4676,6 +4730,9 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Propulsion Shot",
 		desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.",
 		shortDesc: "User switches out after damaging the target.",
+		gen6: {
+			desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button.",
+		},
 
 		switchOut: "[POKEMON] went back to [TRAINER]!",
 	},
@@ -4759,6 +4816,9 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Psycleaner",
 		desc: "If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated.",
 		shortDesc: "Destroys screens on hit. 20% to drop evasion.",
+		gen6: {
+			desc: "If this attack does not miss, the effects of Reflect and Light Screen end for the target's side of the field before damage is calculated.",
+		},
 
 		activate: "  [POKEMON] wiped [TEAM]'s protections!",
 	},
@@ -6378,6 +6438,13 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Spore Slash",
 		desc: "Causes the target to become a Grass type. Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Rapid Spin or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
 		shortDesc: "Target now Grass. Trapped + damage 4-5 turns.",
+		gen5: {
+			desc: "Causes the target to become a Grass type. Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/16 of its maximum HP (1/8 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Rapid Spin or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
+		},
+		gen4: {
+			desc: "Causes the target to become a Grass type. Prevents the target from switching for two to five turns (always five turns if the user is holding Grip Claw). Causes damage to the target equal to 1/16 of its maximum HP, rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass or U-turn. The effect ends if either the user or the target leaves the field, or if the target uses Rapid Spin or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
+			shortDesc: "Target now Grass. Trapped + damage 2-5 turns.",
+		},
 	},
 	spotlight: {
 		name: "Spotlight",
@@ -6700,6 +6767,9 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Sweep Up",
 		desc: "Hits twice. Clears Spikes, Toxic Spikes, Stealth Rock, and Sticky Web. Additionally, clears the terrain.",
 		shortDesc: "Clears hazards/terrain. Hits twice.",
+		gen5: {
+			desc: "Hits twice. Clears Spikes, Toxic Spikes, and Stealth Rock.",
+		},
 	},
 	sweetkiss: {
 		name: "Sweet Kiss",
@@ -7067,7 +7137,7 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Badly poisons the target. If a Poison-type Pokemon uses this move, the target cannot avoid the attack, even if the target is in the middle of a two-turn move. If the weather is Miasma, this move cannot miss, cannot be reflected and it infiltrates.",
 		shortDesc: "Badly poisons the target. Poison types can't miss.",
 		gen5: {
-			desc: "Badly poisons the target.",
+			desc: "Badly poisons the target. If the weather is Miasma, this move cannot miss, cannot be reflected and it infiltrates.",
 			shortDesc: "Badly poisons the target.",
 		},
 	},

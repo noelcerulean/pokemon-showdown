@@ -89,10 +89,6 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 			},
 		},
 	},
-	blizzard: {
-		inherit: true,
-		onModifyMove() { },
-	},
 	block: {
 		inherit: true,
 		accuracy: 100,
@@ -500,9 +496,47 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		ignoreAccuracy: true,
 	},
+	payday: {
+		inherit: true,
+		category: "Physical",
+	},
 	petaldance: {
 		inherit: true,
 		basePower: 70,
+	},
+	propheticasteroid: {
+		inherit: true,
+		onTry(source, target) {
+			if (!target.side.addSlotCondition(target, 'futuremove')) return false;
+			const moveData = {
+				name: "Prophetic Asteroid",
+				basePower: 120,
+				category: "Physical",
+				flags: {},
+				willCrit: false,
+				type: '???',
+			} as unknown as ActiveMove;
+			const damage = this.actions.getDamage(source, target, moveData, true);
+			Object.assign(target.side.slotConditions[target.position]['futuremove'], {
+				duration: 3,
+				move: 'propheticasteroid',
+				source: source,
+				moveData: {
+					id: 'propheticasteroid',
+					name: "Prophetic Asteroid",
+					accuracy: 85,
+					basePower: 0,
+					damage: damage,
+					category: "Physical",
+					flags: {},
+					effectType: 'Move',
+					isFutureMove: true,
+					type: '???',
+				},
+			});
+			this.add('-start', source, 'Prophetic Asteroid');
+			return null;
+		},
 	},
 	recover: {
 		inherit: true,
@@ -552,11 +586,6 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 			this.actions.useMove(randomMove.move, pokemon);
 		},
 	},
-	spiderweb: {
-		inherit: true,
-		accuracy: 100,
-		ignoreAccuracy: true,
-	},
 	spite: {
 		inherit: true,
 		onHit(target) {
@@ -593,6 +622,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		recoil: [1, 4],
 		struggleRecoil: false,
+	},
+	sunshinedance: {
+		inherit: true,
+		basePower: 70,
 	},
 	surf: {
 		inherit: true,

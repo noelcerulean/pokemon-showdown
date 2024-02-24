@@ -3521,7 +3521,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 90,
 		category: "Physical",
 		name: "Demolition",
-		pp: 5,
+		pp: 15,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		recoil: [1, 4],

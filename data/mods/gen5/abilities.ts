@@ -69,6 +69,20 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 			}
 		},
 	},
+	slowdigestion: {
+		inherit: true,
+		onResidual(pokemon) {
+			if (pokemon.activeTurns) {
+				if (!pokemon.hp) return;
+				for (const target of pokemon.side.foe.active) {
+					if (!target || !target.hp) continue;
+					if (!target.hasType('Poison')) {
+						this.damage(target.baseMaxhp / 16, target, pokemon);
+					}
+				}
+			}
+		},
+	},
 	soundproof: {
 		inherit: true,
 		onAllyTryHitSide() {},

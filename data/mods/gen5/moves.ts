@@ -15,6 +15,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		pp: 20,
 	},
+	aromabomb: {
+		inherit: true,
+		basePower: 65,
+	},
 	aromatherapy: {
 		inherit: true,
 		onHit(target, source) {
@@ -132,6 +136,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		},
 		flags: {protect: 1, sound: 1, distance: 1},
 	},
+	chillingrime: {
+		inherit: true,
+		accuracy: 75,
+	},
 	conversion: {
 		inherit: true,
 		onHit(target) {
@@ -225,6 +233,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		pp: 30,
 	},
+	fallout: {
+		inherit: true,
+		basePower: 120,
+	},
 	feint: {
 		inherit: true,
 		flags: {},
@@ -302,6 +314,14 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 			this.add('-start', source, 'move: Future Sight');
 			return null;
 		},
+	},
+	gastroslam: {
+		inherit: true,
+		basePower: 75,
+	},
+	geyserblast: {
+		inherit: true,
+		basePower: 140,
 	},
 	gigadrain: {
 		inherit: true,
@@ -935,11 +955,6 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	swordsdance: {
 		inherit: true,
 		pp: 30,
-	},
-	synchronoise: {
-		inherit: true,
-		basePower: 70,
-		pp: 15,
 	},
 	tailwind: {
 		inherit: true,

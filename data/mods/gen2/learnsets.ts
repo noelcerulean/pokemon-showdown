@@ -9755,6 +9755,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			hyperbeam: ["2M"],
 			icepunch: ["2M"],
 			lightscreen: ["2L24"],
+			onetwopunch: ["2L30"],
 			protect: ["2M"],
 			reflect: ["2L24"],
 			rest: ["2M"],

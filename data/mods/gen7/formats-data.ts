@@ -3251,7 +3251,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	darkrai: {
 		randomBattleMoves: ["darkpulse", "focusblast", "hypnosis", "nastyplot", "sludgebomb", "trick"],
 		randomDoubleBattleMoves: ["darkpulse", "focusblast", "nastyplot", "protect", "sludgebomb", "snarl"],
-		tier: "Uber",
+		tier: "AG",
 		doublesTier: "DUber",
 	},
 	shaymin: {

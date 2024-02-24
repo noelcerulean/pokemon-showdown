@@ -69,6 +69,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 			this.actions.useMove(randomMove, target);
 		},
 	},
+	beakcannon: {
+		inherit: true,
+		basePower: 20,
+	},
 	beatup: {
 		inherit: true,
 		basePower: 10,
@@ -1190,6 +1194,43 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	powertrick: {
 		inherit: true,
 		flags: {},
+	},
+	propheticasteroid: {
+		inherit: true,
+		accuracy: 85,
+		basePower: 120,
+		onTry(source, target) {
+			if (!target.side.addSlotCondition(target, 'futuremove')) return false;
+			const moveData = {
+				name: "Prophetic Asteroid",
+				basePower: 120,
+				category: "Physical",
+				flags: {},
+				willCrit: false,
+				type: '???',
+				isFutureMove: true,
+			} as unknown as ActiveMove;
+			const damage = this.actions.getDamage(source, target, moveData, true);
+			Object.assign(target.side.slotConditions[target.position]['futuremove'], {
+				duration: 3,
+				move: 'propheticasteroid',
+				source: source,
+				moveData: {
+					id: 'propheticasteroid',
+					name: "Prophetic Asteroid",
+					accuracy: 85,
+					basePower: 0,
+					damage: damage,
+					category: "Physical",
+					flags: {},
+					effectType: 'Move',
+					isFutureMove: true,
+					type: '???',
+				},
+			});
+			this.add('-start', source, 'Prophetic Asteroid');
+			return null;
+		},
 	},
 	protect: {
 		inherit: true,
