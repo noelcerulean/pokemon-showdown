@@ -8,7 +8,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	saurbot: {
 		randomBattleMoves: ["biddybud", "protect", "sleeppowder", "substitute", "synthesis", "toxic", "whirlwind"],
 		randomDoubleBattleMoves: ["biddybud", "protect", "sleeppowder", "substitute", "synthesis", "toxic", "whirlwind"],
-		tier: "OU",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	ivysaur: {
@@ -162,7 +162,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	fearow: {
 		randomBattleMoves: ["bravebird", "doubleedge", "drillrun", "pursuit", "return", "swordsdance", "taunt", "uturn"],
 		randomDoubleBattleMoves: ["bravebird", "doubleedge", "drillrun", "protect", "quickattack", "return", "taunt", "uturn"],
-		tier: "UUBL",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	ekans: {
@@ -3466,7 +3466,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	musharnanightmare: {
 		randomBattleMoves: ["darkpulse", "fallout", "moonblast", "nastyplot", "toxic"],
 		randomDoubleBattleMoves: ["helpinghand", "darkpulse", "fallout", "moonblast", "nastyplot", "protect", "trickroom"],
-		tier: "UUBL",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	pidove: {

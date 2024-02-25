@@ -51,6 +51,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 70, atk: 90, def: 70, spa: 60, spd: 60, spe: 40},
 	},
+	jumpluff: {
+		inherit: true,
+		abilities: {0: "Chlorophyll", 1: "Leaf Guard", H: "Infiltrator"},
+	},
 	qwilfish: {
 		inherit: true,
 		baseStats: {hp: 65, atk: 95, def: 75, spa: 55, spd: 55, spe: 85},
@@ -115,14 +119,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	torkoal: {
 		inherit: true,
 		abilities: {0: "White Smoke", H: "Shell Armor"},
-	},
-	lunatone: {
-		inherit: true,
-		baseStats: {hp: 70, atk: 55, def: 65, spa: 95, spd: 85, spe: 70},
-	},
-	solrock: {
-		inherit: true,
-		baseStats: {hp: 70, atk: 95, def: 85, spa: 55, spd: 65, spe: 70},
 	},
 	castform: {
 		inherit: true,

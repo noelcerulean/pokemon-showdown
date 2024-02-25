@@ -1,8 +1,4 @@
 export const Pokedex: {[k: string]: ModdedSpeciesData} = {
-	clefgar: {
-		inherit: true,
-		abilities: {0: "Magic Guard", 1: "Levitate"},
-	},
 	sunkern: {
 		inherit: true,
 		abilities: {0: "Chlorophyll", 1: "Early Bird"},

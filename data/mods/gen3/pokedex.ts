@@ -307,6 +307,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Own Tempo"},
 	},
+	lunatone: {
+		inherit: true,
+		abilities: {0: "Levitate"},
+	},
+	solrock: {
+		inherit: true,
+		abilities: {0: "Levitate"},
+	},
 	barboach: {
 		inherit: true,
 		abilities: {0: "Oblivious"},
