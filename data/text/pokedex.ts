@@ -3092,6 +3092,15 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	klefki: {
 		name: "Klefki",
 	},
+	dicee: {
+		name: "Dicee",
+	},
+	rollette: {
+		name: "Rollette",
+	},
+	cashino: {
+		name: "Cashino",
+	},
 	phantump: {
 		name: "Phantump",
 	},

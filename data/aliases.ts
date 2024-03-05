@@ -991,6 +991,7 @@ export const Aliases: {[alias: string]: string} = {
 	evire: "Electivire",
 	drud: "Druddigon",
 	beaut: "Beautifly",
+	masq: "Masquerain",
 	masque: "Masquerain",
 	mamph: "Ampharos-Mega",
 	oripom: "Oricorio-Pom",
@@ -1080,6 +1081,7 @@ export const Aliases: {[alias: string]: string} = {
 	mochi: "Bunmochi",
 	utsu: "Utsuki",
 	usu: "Utsuki",
+	cash: "Cashino",
 
 	// armored
 	vespa: "Vespiquen-Armored",

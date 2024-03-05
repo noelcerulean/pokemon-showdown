@@ -4627,6 +4627,18 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
+	dicee: {
+		tier: "LC",
+	},
+	rollette: {
+		tier: "NFE",
+	},
+	cashino: {
+		randomBattleMoves: ["earthquake", "heavyslam", "playrough", "rapidspin", "spikes", "thunderwave", "toxic"],
+		randomDoubleBattleMoves: ["dazzlinggleam", "flashcannon", "lightscreen", "thunderbolt", "thunderwave", "wideguard"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
 	phantump: {
 		tier: "LC",
 	},

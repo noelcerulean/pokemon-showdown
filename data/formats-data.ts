@@ -5166,6 +5166,18 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	dicee: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	rollette: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	cashino: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	phantump: {
 		tier: "LC",
 	},
