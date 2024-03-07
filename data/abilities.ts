@@ -2089,23 +2089,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				return null;
 			}
 		},
-		onModifyMovePriority: -1,
-		onModifyMove(move) {
+		onAfterMoveSecondarySelf(source, target, move) {
 			if (move.type === 'Fire') {
-				if (!move.secondaries) {
-					move.secondaries = [];
-				}
-				move.secondaries.push({
-					chance: 100,
-					self: {
-						boosts: {
-							atk: 1,
-							spa: 1,
-							spe: 1,
-						},
-					},
-					ability: this.dex.abilities.get('ignition'),
-				});
+			  this.boost({atk: 1, spa: 1, spe: 1});
 			}
 		},
 		isBreakable: true,
