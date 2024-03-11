@@ -6142,7 +6142,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 274,
 		name: "Nuzleaf-Armored",
 		types: ["Grass", "Flying"],
-		baseStats: {hp: 70, atk: 115, def: 60, spa: 110, spd: 60, spe: 149},
+		baseStats: {hp: 70, atk: 120, def: 60, spa: 110, spd: 60, spe: 149},
 		abilities: {0: "Jetstream", 1: "Justified"},
 		heightm: 1,
 		weightkg: 28,
