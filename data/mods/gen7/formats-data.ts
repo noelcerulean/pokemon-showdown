@@ -1984,6 +1984,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	nuzleaf: {
 		tier: "NFE",
 	},
+	nuzleafarmored: {
+		randomBattleMoves: ["bravebird", "defog", "knockoff", "leafstorm", "highjumpkick", "swordsdance", "uturn", "woodhammer"],
+		randomDoubleBattleMoves: ["fakeout", "knockoff", "leafblade", "leafstorm", "onetwopunch", "protect", "swordsdance"],
+		tier: "OU",
+		doublesTier: "(DUU)",
+	},
 	shiftry: {
 		randomBattleMoves: ["defog", "knockoff", "leafstorm", "jumpkick", "suckerpunch", "swordsdance", "woodhammer"],
 		randomDoubleBattleMoves: ["fakeout", "knockoff", "leafblade", "leafstorm", "protect", "suckerpunch", "swordsdance"],
@@ -2177,14 +2183,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	mawile: {
 		randomBattleMoves: ["ironhead", "knockoff", "playrough", "stealthrock", "suckerpunch", "swordsdance"],
 		randomDoubleBattleMoves: ["ironhead", "knockoff", "playrough", "protect", "suckerpunch", "swordsdance"],
-		tier: "RUBL",
+		tier: "NU",
 		doublesTier: "(DUU)",
 	},
 	mawilemega: {
 		randomBattleMoves: ["firefang", "focuspunch", "ironhead", "knockoff", "playrough", "substitute", "suckerpunch", "swordsdance"],
 		randomDoubleBattleMoves: ["ironhead", "knockoff", "playrough", "protect", "suckerpunch", "swordsdance"],
-		tier: "OU",
-		doublesTier: "DUU",
+		tier: "Uber",
+		doublesTier: "DUber",
 	},
 	aron: {
 		tier: "LC",

@@ -273,10 +273,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		maleOnlyHidden: true,
 	},
-	beautifly: {
-		inherit: true,
-		baseStats: {hp: 60, atk: 70, def: 50, spa: 90, spd: 50, spe: 65},
-	},
 	ralts: {
 		inherit: true,
 		types: ["Psychic"],
@@ -308,6 +304,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	minun: {
 		inherit: true,
 		abilities: {0: "Minus"},
+	},
+	volbeat: {
+		inherit: true,
+		abilities: {0: "Illuminate", 1: "Swarm", H: "Prankster"},
+	},
+	illumise: {
+		inherit: true,
+		abilities: {0: "Oblivious", 1: "Tinted Lens", H: "Prankster"},
 	},
 	kecleon: {
 		inherit: true,

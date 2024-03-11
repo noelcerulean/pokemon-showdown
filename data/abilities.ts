@@ -2299,6 +2299,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 89,
 	},
+	jetstream: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.flags['wind']) {
+				if (!this.boost({spe: 1})) {
+					this.add('-immune', target, '[from] ability: Jetstream');
+				}
+				return null;
+			}
+		},
+		isBreakable: true,
+		name: "Jetstream",
+		rating: 4,
+		num: -569,
+	},
 	justified: {
 		onDamagingHit(damage, target, source, move) {
 			if (move.type === 'Dark') {

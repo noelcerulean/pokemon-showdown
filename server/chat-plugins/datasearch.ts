@@ -314,7 +314,7 @@ export const commands: Chat.ChatCommands = {
 			`Inequality ranges use the characters <code>></code> and <code><</code>.<br/>` +
 			`Parameters can be excluded through the use of <code>!</code>; e.g., <code>!water type</code> excludes all Water-type moves.<br/>` +
 			`<code>asc</code> or <code>desc</code> following a move property will arrange the names in ascending or descending order of that property, respectively; e.g., <code>basepower asc</code> will arrange moves in ascending order of their base powers.<br/>` +
-			`Valid flags are: authentic (bypasses substitute), bite, blade, bullet, charge, contact, dance, defrost, gravity, kick, mirror (reflected by mirror move), ohko, powder, priority, protect, pulse, punch, recharge, recovery, reflectable, secondary, snatch, sound, zmove, pivot, and multi-hit.<br/>` +
+			`Valid flags are: authentic (bypasses substitute), bite, blade, bullet, charge, contact, dance, defrost, gravity, kick, mirror (reflected by mirror move), ohko, powder, priority, protect, pulse, punch, recharge, recovery, reflectable, secondary, snatch, sound, wind, zmove, pivot, and multi-hit.<br/>` +
 			`A search that includes <code>!protect</code> will show all moves that bypass protection.<br/>` +
 			`<code>protection</code> as a parameter will search protection moves like Protect, Detect, etc.<br/>` +
 			`<code>max</code> or <code>gmax</code> as parameters will search for Max Moves and G-Max moves respectively.<br/>` +
@@ -1215,7 +1215,7 @@ function runMovesearch(target: string, cmd: string, canAll: boolean, message: st
 	const allFlags = [
 		'authentic', 'bite', 'blade', 'bullet', 'charge', 'contact', 'dance', 'defrost', 'gravity', 'highcrit', 'kick',
 		'mirror', 'multihit', 'ohko', 'powder', 'protect', 'pulse', 'punch', 'recharge', 'reflectable', 'secondary',
-		'snatch', 'sound', 'zmove', 'maxmove', 'gmaxmove', 'protection',
+		'snatch', 'sound', 'wind', 'zmove', 'maxmove', 'gmaxmove', 'protection',
 	];
 	const allStatus = ['psn', 'tox', 'brn', 'par', 'frz', 'slp'];
 	const allVolatileStatus = ['flinch', 'confusion', 'partiallytrapped'];

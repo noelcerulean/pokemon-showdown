@@ -102,6 +102,11 @@ export const Tags: {[id: string]: TagData} = {
 		desc: "Doesn't affect Bulletproof Pokémon.",
 		moveFilter: move => 'bullet' in move.flags,
 	},
+	wind: {
+		name: "Wind",
+		desc: "Doesn't affect Jetstream Pokémon.",
+		moveFilter: move => 'wind' in move.flags,
+	},
 	bypassprotect: {
 		name: "Bypass Protect",
 		desc: "Bypasses Protect, Detect, King's Shield, and Spiky Shield.",

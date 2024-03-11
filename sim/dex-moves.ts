@@ -49,6 +49,7 @@ interface MoveFlags {
 	reflectable?: 1; // Bounced back to the original user by Magic Coat or the Ability Magic Bounce.
 	snatch?: 1; // Can be stolen from the original user and instead used by another Pokemon using Snatch.
 	sound?: 1; // Has no effect on Pokemon with the Ability Soundproof.
+	wind?: 1; // Has no effect on Pokemon with the Ability Jetstream.
 }
 
 export interface HitEffect {

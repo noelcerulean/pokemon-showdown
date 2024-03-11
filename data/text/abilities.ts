@@ -806,6 +806,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon's punch-based attacks have their power multiplied by 1.2.",
 		shortDesc: "This Pokemon's punch-based attacks have 1.2x power. Sucker Punch is not boosted.",
 	},
+	jetstream: {
+		name: "Jetstream",
+		desc: "This Pokemon is immune to wind-based moves and raises its Speed by 1 stage when hit by a wind-based move.",
+		shortDesc: "This Pokemon's Speed is raised 1 stage if hit by a wind move; Wind immunity.",
+	},
 	justified: {
 		name: "Justified",
 		shortDesc: "This Pokemon's Attack is raised by 1 stage after it is damaged by a Dark-type move.",

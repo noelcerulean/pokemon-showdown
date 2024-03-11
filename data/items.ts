@@ -4320,6 +4320,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 7,
 		isNonstandard: "Past",
 	},
+	nuzleafarmor: {
+		name: "Nuzleaf Armor",
+		spritenum: 784,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Nuzleaf-Armored') return false;
+			return true;
+		},
+		itemUser: ["Nuzleaf-Armored"],
+		num: -546,
+		gen: 7,
+	},
 	occaberry: {
 		name: "Occa Berry",
 		spritenum: 311,

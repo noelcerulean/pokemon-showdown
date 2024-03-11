@@ -2364,6 +2364,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	nuzleaf: {
 		tier: "NFE",
 	},
+	nuzleafarmored: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	shiftry: {
 		randomBattleMoves: ["darkpulse", "defog", "heatwave", "leafstorm", "nastyplot", "suckerpunch"],
 		randomBattleLevel: 86,

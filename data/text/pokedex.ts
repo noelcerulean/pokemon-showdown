@@ -1304,6 +1304,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	nuzleaf: {
 		name: "Nuzleaf",
 	},
+	nuzleafarmored: {
+		name: "Nuzleaf-Armored",
+	},
 	shiftry: {
 		name: "Shiftry",
 	},

@@ -107,18 +107,17 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 70, atk: 65, def: 65, spa: 55, spd: 55, spe: 70},
 	},
-	volbeat: {
-		inherit: true,
-		baseStats: {hp: 65, atk: 73, def: 55, spa: 47, spd: 75, spe: 85},
-		abilities: {0: "Illuminate", 1: "Swarm", H: "Prankster"},
-	},
-	illumise: {
-		inherit: true,
-		baseStats: {hp: 65, atk: 47, def: 55, spa: 73, spd: 75, spe: 85},
-	},
 	torkoal: {
 		inherit: true,
 		abilities: {0: "White Smoke", H: "Shell Armor"},
+	},
+	cacnea: {
+		inherit: true,
+		abilities: {0: "Rough Skin", H: "Water Absorb"},
+	},
+	cacturne: {
+		inherit: true,
+		abilities: {0: "Rough Skin", H: "Water Absorb"},
 	},
 	castform: {
 		inherit: true,

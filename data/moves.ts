@@ -26,6 +26,7 @@ recharge: If this move is successful, the user must recharge on the following tu
 reflectable: Bounced back to the original user by Magic Coat or the Magic Bounce Ability.
 snatch: Can be stolen from the original user and instead used by another Pokemon using Snatch.
 sound: Has no effect on Pokemon with the Soundproof Ability.
+wind: Has no effect on Pokemon with the Jetstream Ability.
 
 */
 
@@ -223,7 +224,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Aeroblast",
 		pp: 5,
 		priority: 0,
-		flags: {protect: 1, mirror: 1, distance: 1},
+		flags: {protect: 1, mirror: 1, wind: 1, distance: 1},
 		critRatio: 2,
 		secondary: null,
 		target: "any",
@@ -261,7 +262,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Aggregate",
-		pp: 10,
+		pp: 5,
 		priority: 0,
 		flags: {heal: 1, snatch: 1},
 		onTryHit(source, move) {
@@ -312,7 +313,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Air Cutter",
 		pp: 25,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, wind: 1, mirror: 1},
 		critRatio: 2,
 		secondary: null,
 		target: "allAdjacentFoes",
@@ -327,7 +328,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Air Slash",
 		pp: 15,
 		priority: 0,
-		flags: {protect: 1, mirror: 1, distance: 1, blade: 1},
+		flags: {protect: 1, mirror: 1, wind: 1, distance: 1, blade: 1},
 		secondary: {
 			chance: 20,
 			boosts: {
@@ -1418,7 +1419,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Blizzard",
 		pp: 5,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, wind: 1, mirror: 1},
 		onModifyMove(move) {
 			if (this.field.isWeather('hail')) move.accuracy = true;
 		},
@@ -3103,7 +3104,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	creepingdespair: {
 		num: -555,
 		accuracy: 100,
-		basePower: 80,
+		basePower: 85,
 		basePowerCallback(pokemon, target, move) {
 			let negativeBoost = false;
 			let stat: BoostID;
@@ -3121,12 +3122,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
-		secondary: {
-			chance: 100,
-			boosts: {
-				evasion: -1,
-			},
-		},
+		secondary: null,
 		target: "normal",
 		type: "Dark",
 		contestType: "Clever",
@@ -3464,7 +3460,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Defog",
 		pp: 15,
 		priority: 0,
-		flags: {protect: 1, reflectable: 1, mirror: 1, authentic: 1},
+		flags: {protect: 1, reflectable: 1, wind: 1, mirror: 1, authentic: 1},
 		onHit(target, source, move) {
 			let success = false;
 			if (!target.volatiles['substitute'] || move.infiltrates) success = !!this.boost({evasion: -1});
@@ -5061,7 +5057,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Fairy Wind",
 		pp: 30,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, wind: 1, mirror: 1},
 		secondary: null,
 		target: "normal",
 		type: "Fairy",
@@ -6697,7 +6693,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Glaciate",
 		pp: 10,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, wind: 1, mirror: 1},
 		secondary: {
 			chance: 100,
 			boosts: {
@@ -8145,7 +8141,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Gust",
 		pp: 35,
 		priority: 0,
-		flags: {protect: 1, mirror: 1, distance: 1},
+		flags: {protect: 1, mirror: 1, wind: 1, distance: 1},
 		secondary: null,
 		target: "any",
 		type: "Flying",
@@ -8590,7 +8586,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Heat Wave",
 		pp: 10,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, wind: 1, mirror: 1},
 		secondary: {
 			chance: 10,
 			status: 'brn',
@@ -9129,7 +9125,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Hurricane",
 		pp: 10,
 		priority: 0,
-		flags: {protect: 1, mirror: 1, distance: 1},
+		flags: {protect: 1, mirror: 1, wind: 1, distance: 1},
 		onModifyMove(move, pokemon, target) {
 			switch (target?.effectiveWeather()) {
 			case 'raindance':
@@ -9574,7 +9570,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Icy Wind",
 		pp: 15,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, wind: 1, mirror: 1},
 		secondary: {
 			chance: 100,
 			boosts: {
@@ -10224,7 +10220,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Leaf Tornado",
 		pp: 10,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, wind: 1, mirror: 1},
 		secondary: {
 			chance: 50,
 			boosts: {
@@ -13049,7 +13045,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Ominous Wind",
 		pp: 5,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, wind: 1, mirror: 1},
 		secondary: {
 			chance: 10,
 			self: {
@@ -13456,7 +13452,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Petal Blizzard",
 		pp: 15,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, wind: 1, mirror: 1},
 		secondary: null,
 		target: "allAdjacent",
 		type: "Grass",
@@ -15016,7 +15012,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Razor Wind",
 		pp: 10,
 		priority: 0,
-		flags: {charge: 1, protect: 1, mirror: 1},
+		flags: {charge: 1, protect: 1, wind: 1, mirror: 1},
 		onTryMove(attacker, defender, move) {
 			if (attacker.removeVolatile(move.id)) {
 				return;
@@ -16001,7 +15997,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Sandstorm",
 		pp: 10,
 		priority: 0,
-		flags: {},
+		flags: {wind: 1},
 		weather: 'Sandstorm',
 		secondary: null,
 		target: "all",
@@ -17613,7 +17609,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Shadow Shuffle",
 		pp: 20,
 		priority: -6,
-		flags: {authentic: 1, mystery: 1},
+		flags: {authentic: 1, wind: 1, mystery: 1},
 		forceSwitch: true,
 		noSketch: true,
 		secondary: null,
@@ -17818,7 +17814,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Shadow Storm",
 		pp: 5,
 		priority: 0,
-		flags: {protect: 1},
+		flags: {protect: 1, wind: 1},
 		recoil: [1, 2],
 		willCrit: true,
 		noSketch: true,
@@ -18513,7 +18509,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Silver Wind",
 		pp: 5,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, wind: 1, mirror: 1},
 		secondary: {
 			chance: 10,
 			self: {
@@ -21048,7 +21044,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Tailwind",
 		pp: 15,
 		priority: 0,
-		flags: {snatch: 1},
+		flags: {wind: 1, snatch: 1},
 		sideCondition: 'tailwind',
 		condition: {
 			duration: 4,
@@ -22147,7 +22143,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Twister",
 		pp: 20,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, wind: 1, mirror: 1},
 		secondary: {
 			chance: 20,
 			volatileStatus: 'flinch',
@@ -22309,7 +22305,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Vacuum Wave",
 		pp: 30,
 		priority: 1,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, wind: 1, mirror: 1},
 		secondary: null,
 		target: "normal",
 		type: "Fighting",
@@ -22810,7 +22806,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Whirlwind",
 		pp: 20,
 		priority: -6,
-		flags: {reflectable: 1, mirror: 1, authentic: 1, mystery: 1},
+		flags: {reflectable: 1, mirror: 1, wind: 1, authentic: 1, mystery: 1},
 		forceSwitch: true,
 		secondary: null,
 		target: "normal",

@@ -1297,6 +1297,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Normalium Z",
 		desc: "If holder has a Normal move, this item allows it to use a Normal Z-Move.",
 	},
+	nuzleafarmor: {
+		name: "Nuzleaf Armor",
+		desc: "Armor developed by DoReMi for Nuzleaf to enhance its battle capabilities.",
+		shortDesc: "Attach to Nuzleaf-Armored forme (not base forme!!!) in the teambuilder.",
+	},
 	occaberry: {
 		name: "Occa Berry",
 		desc: "Halves damage taken from a supereffective Fire-type attack. Single use.",
