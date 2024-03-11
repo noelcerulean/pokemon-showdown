@@ -1101,6 +1101,10 @@ export const Aliases: {[alias: string]: string} = {
 	typhloa: "Typhlosion-Armored",
 	typha: "Typhlosion-Armored",
 	typhlosiona: "Typhlosion-Armored",
+	nuza: "Nuzleaf-Armored",
+	nuzleafa: "Typhlosion-Armored",
+	granger: "Typhlosion-Armored",
+	greenranger: "Typhlosion-Armored",
 
 	// shortened deltas
 	cranidosd: "Cranidos-Delta",
