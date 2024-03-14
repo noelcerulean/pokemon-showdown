@@ -2289,7 +2289,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	swalot: {
 		randomBattleMoves: ["clearsmog", "earthquake", "encore", "icebeam", "knockoff", "painsplit", "protect", "recover", "sludgebomb", "toxic", "yawn"],
 		randomDoubleBattleMoves: ["clearsmog", "encore", "icebeam", "knockoff", "poisongas", "protect", "recover", "sludgebomb", "yawn"],
-		tier: "RUBL",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	carvanha: {

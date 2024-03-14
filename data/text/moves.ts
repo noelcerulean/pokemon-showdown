@@ -1130,8 +1130,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	creepingdespair: {
 		name: "Creeping Despair",
-		desc: "Deals 1.5x damage to foes who have any negative stat boosts. Decreases evasion by 1 stage after attacking.",
-		shortDesc: "1.5x to foes with any stat drops. Evasion -1",
+		desc: "Deals 1.5x damage to foes who have any negative stat boosts.",
+		shortDesc: "1.5x to foes with any stat drops.",
 	},
 	crosschop: {
 		name: "Cross Chop",

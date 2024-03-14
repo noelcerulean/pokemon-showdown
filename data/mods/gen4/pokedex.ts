@@ -7,6 +7,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Thick Fat"},
 	},
+	poochyena: {
+		inherit: true,
+		abilities: {0: "Intimidate", 1: "Quick Feet"},
+	},
+	mightyena: {
+		inherit: true,
+		abilities: {0: "Intimidate", 1: "Quick Feet"},
+	},
 	milotic: {
 		inherit: true,
 		evoType: 'levelExtra',
@@ -23,10 +31,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	froslass: {
 		inherit: true,
 		abilities: {0: "Snow Cloak"},
-	},
-	luvdisc: {
-		inherit: true,
-		abilities: {0: "Swift Swim"},
 	},
 	rotomheat: {
 		inherit: true,

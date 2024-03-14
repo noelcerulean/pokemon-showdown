@@ -1,4 +1,16 @@
 export const Pokedex: {[k: string]: ModdedSpeciesData} = {
+	bulbasaur: {
+		inherit: true,
+		abilities: {0: "Chlorophyll"},
+	},
+	ivysaur: {
+		inherit: true,
+		abilities: {0: "Chlorophyll"},
+	},
+	venusaur: {
+		inherit: true,
+		abilities: {0: "Chlorophyll"},
+	},
 	pidgey: {
 		inherit: true,
 		abilities: {0: "Keen Eye"},

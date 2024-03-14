@@ -221,6 +221,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		types: ["Normal", "Fighting"],
 	},
+	remoraid: {
+		inherit: true,
+		abilities: {0: "Hustle", 1: "Sniper"},
+	},
+	octillery: {
+		inherit: true,
+		abilities: {0: "Suction Cups", 1: "Sniper"},
+	},
 	tyrogue: {
 		inherit: true,
 		maleOnlyHidden: true,
@@ -273,6 +281,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		maleOnlyHidden: true,
 	},
+	poochyena: {
+		inherit: true,
+		abilities: {0: "Intimidate", 1: "Moxie"},
+	},
+	mightyena: {
+		inherit: true,
+		abilities: {0: "Intimidate", 1: "Moxie"},
+	},
 	ralts: {
 		inherit: true,
 		types: ["Psychic"],
@@ -296,6 +312,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	mawile: {
 		inherit: true,
 		types: ["Steel"],
+		abilities: {0: "Intimidate", 1: "Hyper Cutter", H: "Sheer Force"},
 	},
 	plusle: {
 		inherit: true,

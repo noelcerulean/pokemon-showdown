@@ -43,10 +43,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 95, atk: 95, def: 85, spa: 125, spd: 65, spe: 55},
 	},
-	noctowl: {
-		inherit: true,
-		baseStats: {hp: 100, atk: 50, def: 50, spa: 76, spd: 96, spe: 70},
-	},
 	ariados: {
 		inherit: true,
 		baseStats: {hp: 70, atk: 90, def: 70, spa: 60, spd: 60, spe: 40},
@@ -142,6 +138,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	chimecho: {
 		inherit: true,
 		baseStats: {hp: 65, atk: 50, def: 70, spa: 95, spd: 80, spe: 65},
+	},
+	luvdisc: {
+		inherit: true,
+		abilities: {0: "Swift Swim", H: "Hydration"},
 	},
 	latiasmega: {
 		inherit: true,
