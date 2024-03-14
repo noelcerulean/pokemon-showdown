@@ -12507,6 +12507,15 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 			onFieldStart(field, source) {
 				this.add('-fieldstart', 'move: Mystery Room', '[of] ' + source);
+				for (const target of this.getAllActive()) {
+					if (target.illusion) {
+						this.singleEvent('End', this.dex.abilities.get('Illusion'), target.abilityState, target, source, 'mysteryroom');
+					}
+					if (target.volatiles['slowstart']) {
+						delete target.volatiles['slowstart'];
+						this.add('-end', target, 'Slow Start', '[silent]');
+					}
+				}
 			},
 			onFieldRestart(target, source) {
 				this.field.removePseudoWeather('mysteryroom');
