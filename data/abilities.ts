@@ -2122,9 +2122,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				}
 			}
 		},
-		onStart(pokemon) {
-			this.add('-ability', pokemon, 'Illusion', '[silent]');
-		},
 		onDamagingHit(damage, target, source, move) {
 			if (target.illusion) {
 				this.singleEvent('End', this.dex.abilities.get('Illusion'), target.abilityState, target, source, move);
