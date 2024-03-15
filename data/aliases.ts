@@ -24,6 +24,7 @@ export const Aliases: {[alias: string]: string} = {
 	aaa: "[Gen 7] Almost Any Ability",
 	stab: "[Gen 7] STABmons",
 	camo: "[Gen 7] Camomons",
+	reevo: "[Gen 7] Re-Evolution",
 	ffa: "[Gen 7] Free-For-All",
 	ts: "[Gen 7] Tier Shift",
 	ph: "[Gen 7] Pure Hackmons",

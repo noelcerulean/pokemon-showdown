@@ -966,6 +966,30 @@ export const Formats: FormatList = [
 		},
 	},
 	{
+		name: "[Gen 7] Re-Evolution",
+		desc: "Pok&eacute;mon gain stats equal to the difference with their previous stage.",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3703643/">Re-Evolution</a>`,
+		],
+
+		mod: 'gen7',
+		ruleset: ['[Gen 7] Ubers', 'Evasion Abilities Clause', 'Overflow Stat Mod'],
+		banlist: ['Gyarados', 'Lunala', 'Milotic', 'Naganadel', 'Solgaleo', 'Volcarona', "King's Rock"],
+		onModifySpecies(template, target, format, effect) {
+			if (effect && ['imposter', 'transform'].includes(effect.id)) return;
+			const baseSpecies = this.dex.species.get(template.baseSpecies);
+			if (!baseSpecies.prevo) return;
+			const prevo = this.dex.species.get(baseSpecies.prevo);
+			const newTemplate = this.dex.deepClone(template);
+			let stat: StatID;
+			for (stat in prevo.baseStats) {
+				newTemplate.baseStats[stat] = this.clampIntRange(newTemplate.baseStats[stat] + baseSpecies.baseStats[stat] - prevo.baseStats[stat], 1, 255);
+			}
+			newTemplate.bst = newTemplate.baseStats.hp + newTemplate.baseStats.atk + newTemplate.baseStats.def + newTemplate.baseStats.spa + newTemplate.baseStats.spd + newTemplate.baseStats.spe;
+			return newTemplate;
+		},
+	},
+	{
 		name: "[Gen 7] STABmons",
 		desc: `Pok&eacute;mon can use any move of their typing, in addition to the moves they can normally learn.`,
 		threads: [
