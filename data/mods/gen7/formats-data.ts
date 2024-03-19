@@ -4852,6 +4852,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "DUU",
 	},
+	vikavoltfnf: {
+		randomBattleMoves: ["earthquake", "lightninglance", "rockslide", "stealthrock", "stickyweb", "submission", "voltswitch"],
+		randomDoubleBattleMoves: ["earthquake", "lightninglance", "protect", "rockslide", "stickyweb", "submission"],
+		tier: "UU",
+		doublesTier: "DUU",
+	},
 	crabrawler: {
 		tier: "LC",
 	},

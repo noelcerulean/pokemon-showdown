@@ -3242,6 +3242,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	vikavolttotem: {
 		name: "Vikavolt-Totem",
 	},
+	vikavoltfnf: {
+		name: "Vikavolt-FnF",
+	},
 	crabrawler: {
 		name: "Crabrawler",
 	},

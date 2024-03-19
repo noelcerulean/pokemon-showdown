@@ -1083,6 +1083,7 @@ export const Aliases: {[alias: string]: string} = {
 	utsu: "Utsuki",
 	usu: "Utsuki",
 	cash: "Cashino",
+	vikafnf: "Vikavolt-FnF",
 
 	// armored
 	vespa: "Vespiquen-Armored",
@@ -1412,6 +1413,7 @@ export const Aliases: {[alias: string]: string} = {
 	sundance: "Sunshine Dance",
 	demo: "Demolition",
 	pasteroid: "Prophetic Asteroid",
+	cd: "Creeping Despair",
 
 
 	// z-moves

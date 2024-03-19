@@ -5415,6 +5415,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	vikavoltfnf: {
+		randomBattleMoves: ["earthquake", "lightninglance", "rockslide", "stealthrock", "stickyweb", "submission", "voltswitch"],
+		randomBattleLevel: 82,
+		randomDoubleBattleMoves: ["earthquake", "lightninglance", "protect", "rockslide", "stickyweb", "submission", "voltswitch"],
+		randomDoubleBattleLevel: 86,
+		tier: "(PU)",
+		doublesTier: "(DUU)",
+	},
 	vikavolttotem: {
 		isNonstandard: "Past",
 		tier: "Illegal",
