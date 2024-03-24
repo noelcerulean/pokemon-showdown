@@ -1457,6 +1457,22 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	rudoodle: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	rutherium: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	huojara: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	ignajara: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	aerodactyl: {
 		randomBattleMoves: ["aquatail", "dualwingbeat", "earthquake", "honeclaws", "stoneedge"],
 		randomBattleLevel: 82,

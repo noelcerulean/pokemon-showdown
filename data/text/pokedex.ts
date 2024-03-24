@@ -716,6 +716,18 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	kabutops: {
 		name: "Kabutops",
 	},
+	rudoodle: {
+		name: "Rudoodle",
+	},
+	rutherium: {
+		name: "Rutherium",
+	},
+	huojara: {
+		name: "Huojara",
+	},
+	ignajara: {
+		name: "Ignajara",
+	},
 	aerodactyl: {
 		name: "Aerodactyl",
 	},

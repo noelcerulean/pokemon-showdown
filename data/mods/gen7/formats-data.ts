@@ -1153,6 +1153,24 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	rudoodle: {
+		tier: "LC",
+	},
+	rutherium: {
+		randomBattleMoves: ["calmmind", "earthpower", "energyball", "flamethrower", "moonblast", "moonlight", "prehistoricpulse", "stealthrock"],
+		randomDoubleBattleMoves: ["dazzlinggleam", "followme", "earthpower", "energyball", "flamethrower", "helpinghand", "prehistoricpulse", "protect"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
+	huojara: {
+		tier: "LC",
+	},
+	ignajara: {
+		randomBattleMoves: ["accelerock", "dragondance", "flareblitz", "lightningkick", "rockclimb"],
+		randomDoubleBattleMoves: ["accelerock", "dragondance", "flareblitz", "lightningkick", "protect", "rockclimb"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
 	aerodactyl: {
 		randomBattleMoves: ["defog", "doubleedge", "earthquake", "pursuit", "roost", "stealthrock", "stoneedge", "taunt"],
 		randomDoubleBattleMoves: ["earthquake", "protect", "rockslide", "skydrop", "stoneedge", "tailwind", "wideguard"],

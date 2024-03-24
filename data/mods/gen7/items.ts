@@ -76,6 +76,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	brushfossil: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	buggem: {
 		inherit: true,
 		isNonstandard: "Unobtainable",
@@ -584,6 +588,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		isNonstandard: null,
 	},
 	solganiumz: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	sparkfossil: {
 		inherit: true,
 		isNonstandard: null,
 	},

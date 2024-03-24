@@ -188,6 +188,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 			desc: "An attack against the holder has its accuracy out of 255 lowered by 20.",
 		},
 	},
+	brushfossil: {
+		name: "Brush Fossil",
+		desc: "Can be revived into Rudoodle.",
+	},
 	buggem: {
 		name: "Bug Gem",
 		desc: "Holder's first successful Bug-type attack will have 1.3x power. Single use.",
@@ -1793,6 +1797,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		gen6: {
 			desc: "If held by a Latias or a Latios, its Sp. Atk and Sp. Def are 1.5x.",
 		},
+	},
+	sparkfossil: {
+		name: "Spark Fossil",
+		desc: "Can be revived into Huojara.",
 	},
 	spelltag: {
 		name: "Spell Tag",

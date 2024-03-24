@@ -673,6 +673,16 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 213,
 		gen: 2,
 	},
+	brushfossil: {
+		name: "Brush Fossil",
+		spritenum: 785,
+		fling: {
+			basePower: 100,
+		},
+		num: -547,
+		gen: 7,
+		isNonstandard: "Past",
+	},
 	buggem: {
 		name: "Bug Gem",
 		spritenum: 53,
@@ -5978,6 +5988,16 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Latios", "Latias"],
 		num: 225,
 		gen: 3,
+	},
+	sparkfossil: {
+		name: "Spark Fossil",
+		spritenum: 786,
+		fling: {
+			basePower: 100,
+		},
+		num: -548,
+		gen: 7,
+		isNonstandard: "Past",
 	},
 	spelltag: {
 		name: "Spell Tag",
