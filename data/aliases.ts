@@ -492,6 +492,7 @@ export const Aliases: {[alias: string]: string} = {
 	azumarillpunk: "Azumarill",
 	seismitoadrapper: "Seismitoad",
 	chesnaughtdeltauranium: "Chesnaught-Delta",
+	cranidosdeltavoid: "Cranidos-Delta",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",
@@ -1084,6 +1085,8 @@ export const Aliases: {[alias: string]: string} = {
 	usu: "Utsuki",
 	cash: "Cashino",
 	vikafnf: "Vikavolt-FnF",
+	ruth: "Rutherium",
+	igna: "Ignajara",
 
 	// armored
 	vespa: "Vespiquen-Armored",

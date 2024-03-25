@@ -1154,7 +1154,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	parentalbond: {
 		name: "Parental Bond",
-		desc: "This Pokemon's damaging moves become multi-hit moves that hit twice. The second hit has its damage quartered. Does not affect multi-hit moves or moves that have multiple targets. Does not affect Seismic Toss",
+		desc: "This Pokemon's damaging moves become multi-hit moves that hit twice. The second hit has its damage quartered. Does not affect multi-hit moves or moves that have multiple targets. Does not affect moves with fixed damage such as Seismic Toss",
 		shortDesc: "The Pokemon's damaging moves hit twice. 2nd hit is 1/4 dmg. No Seismic Toss.",
 		gen6: {
 			desc: "This Pokemon's damaging moves become multi-hit moves that hit twice. The second hit has its damage halved. Does not affect multi-hit moves or moves that have multiple targets.",

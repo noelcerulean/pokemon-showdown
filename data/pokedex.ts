@@ -8623,6 +8623,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		evos: ["Rampardos-Delta"],
 		eggGroups: ["Undiscovered"],
+		cosmeticFormes: ["Cranidos-Delta-Void"],
+		formeOrder: ["Cranidos-Delta", "Cranidos-Delta-Void"],
 	},
 	rampardos: {
 		num: 409,
