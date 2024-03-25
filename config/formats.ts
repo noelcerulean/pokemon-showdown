@@ -117,11 +117,6 @@ export const Formats: FormatList = [
 			'Max Team Size = 3',
 			'Obtainable', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Swagger Clause',
 		],
-		onBegin() {
-			this.add('-weather', 'Sandstorm');
-			this.field.weather = 'sandstorm' as ID;
-			this.field.weatherState = {id: 'sandstorm'};
-		},
 	},
 	{
 		name: "[Gen 7] Free-For-All Battle",
@@ -150,11 +145,6 @@ export const Formats: FormatList = [
 			'Azumano', 'Pinsno', 'Herano', 'Senno', 'Smoono', 'Houndno', 'Zuno', 'Kangasno', 'Kyuno',
 			'Ekno', 'Hitmonno', 'Jirachno', 'Machono',
 		],
-		onBegin() {
-			this.add('-weather', 'Sandstorm');
-			this.field.weather = 'sandstorm' as ID;
-			this.field.weatherState = {id: 'sandstorm'};
-		},
 	},
 	{
 		name: "[Gen 7] Story Doubles",
@@ -180,11 +170,6 @@ export const Formats: FormatList = [
 			'Azumano', 'Pinsno', 'Herano', 'Senno', 'Smoono', 'Houndno', 'Zuno', 'Kangasno', 'Kyuno',
 			'Ekno', 'Hitmonno', 'Jirachno', 'Machono',
 		],
-		onBegin() {
-			this.add('-weather', 'Sandstorm');
-			this.field.weather = 'sandstorm' as ID;
-			this.field.weatherState = {id: 'sandstorm'};
-		},
 	},
 
 	// US/UM Singles
