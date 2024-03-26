@@ -1318,12 +1318,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Old Amber",
 		desc: "Can be revived into Aerodactyl.",
 	},
-	olddoll: {
-		name: "Old Doll",
-		desc: "When held by Banette, grants immunity to Dark-type attacks.",
-
-		start: "  [POKEMON]'s Old Doll is absorbing dark energy!",
-	},
 	oranberry: {
 		name: "Oran Berry",
 		desc: "Restores 10 HP when at 1/2 max HP or less. Single use.",

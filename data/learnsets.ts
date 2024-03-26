@@ -24084,7 +24084,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			ancientpower: ["7L15"],
 			doublekick: ["7L17"],
 			bodyslam: ["7L20"],
-			followme: ["7L22"],
 			rockclimb: ["7L25"],
 			playrough: ["7L28"],
 			refresh: ["7L30"],

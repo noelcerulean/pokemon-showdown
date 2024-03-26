@@ -907,6 +907,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 130,
 	},
+	cursedenergy: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Ghost') {
+				this.debug('Cursed Energy boost');
+				return this.chainModify(1.3);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Ghost') {
+				this.debug('Cursed Energy boost');
+				return this.chainModify(1.3);
+			}
+		},
+		name: "Cursed Energy",
+		rating: 3.5,
+		num: -571,
+	},
 	cutecharm: {
 		onDamagingHit(damage, target, source, move) {
 			if (this.checkMoveMakesContact(move, source, target)) {

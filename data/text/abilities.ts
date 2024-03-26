@@ -318,6 +318,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "If this Pokemon is hit by an attack, there is a 30% chance that move gets disabled unless one of the attacker's moves is already disabled.",
 		shortDesc: "If this Pokemon is hit by an attack, there is a 30% chance that move gets disabled.",
 	},
+	cursedenergy: {
+		name: "Cursed Energy",
+		shortDesc: "This Pokemon's attacking stat is multiplied by 1.3 while using a Ghost-type attack.",
+	},
 	cutecharm: {
 		name: "Cute Charm",
 		desc: "There is a 30% chance a Pokemon making contact with this Pokemon will become infatuated if it is of the opposite gender.",

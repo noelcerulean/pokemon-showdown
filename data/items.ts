@@ -4390,31 +4390,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 3,
 		isNonstandard: "Past",
 	},
-	olddoll: {
-		name: "Old Doll",
-		fling: {
-			basePower: 60,
-		},
-		spritenum: 771,
-		onStart(pokemon) {
-			this.add('-item', pokemon, 'Old Doll');
-		},
-		onTryHit(target, source, move) {
-			if (target !== source && move.type === 'Dark') {
-				this.add('-immune', target, '[from] item: Old Doll');
-				return null;
-			}
-		},
-		onTakeItem(item, pokemon, source) {
-			if ((source && source.baseSpecies.num === 354) || pokemon.baseSpecies.num === 354) {
-				return false;
-			}
-			return true;
-		},
-		itemUser: ["Banette"],
-		num: -533,
-		gen: 7,
-	},
 	oranberry: {
 		name: "Oran Berry",
 		spritenum: 319,
