@@ -490,7 +490,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseSpecies: "Rattata",
 		forme: "Alola",
 		types: ["Dark", "Normal"],
-		baseStats: {hp: 50, atk: 66, def: 40, spa: 5, spd: 45, spe: 72},
+		baseStats: {hp: 50, atk: 66, def: 40, spa: 5, spd: 45, spe: 78},
 		abilities: {0: "Gluttony", 1: "Cheek Pouch", H: "Thick Fat"},
 		heightm: 0.3,
 		weightkg: 3.8,
