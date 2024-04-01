@@ -2721,6 +2721,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "DOU",
 	},
+	torkoalfnf: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	spoink: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -5622,6 +5626,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	steeneedelta: {
 		tier: "NFE",
+	},
+	steeneedeltaarmored: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	tsareena: {
 		randomBattleMoves: ["highjumpkick", "knockoff", "powerwhip", "rapidspin", "synthesis", "tripleaxel", "uturn"],

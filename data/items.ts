@@ -6166,6 +6166,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 7,
 		isNonstandard: "Past",
 	},
+	steeneedeltaarmor: {
+		name: "Steenee-Delta Armor",
+		spritenum: 787,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Steenee-Delta-Armored') return false;
+			return true;
+		},
+		itemUser: ["Steenee-Delta-Armored"],
+		num: -549,
+		gen: 7,
+	},
 	stick: {
 		name: "Stick",
 		fling: {

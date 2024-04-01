@@ -2367,6 +2367,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "DUU",
 	},
+	torkoalfnf: {
+		randomBattleMoves: ["focusblast", "psychic", "rapidspin", "shadowball", "stealthrock", "vacuumwave", "yawn"],
+		randomDoubleBattleMoves: ["focusblast", "protect", "psychic", "shadowball", "vacuumwave"],
+		tier: "RU",
+		doublesTier: "DUU",
+	},
 	spoink: {
 		tier: "LC",
 	},
@@ -5040,6 +5046,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	steeneedelta: {
 		tier: "NU",
+		doublesTier: "DUU",
+	},
+	steeneedeltaarmored: {
+		randomBattleMoves: ["earthpower", "rapidspin", "shadowball", "spikes", "synthesis", "willowisp"],
+		randomDoubleBattleMoves: ["dazzlinggleam", "earthpower", "healpulse", "helpinghand", "protect", "shadowball"],
+		tier: "RU",
 		doublesTier: "DUU",
 	},
 	tsareena: {

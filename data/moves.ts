@@ -6090,7 +6090,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		num: 395,
 		accuracy: 100,
 		basePower: 60,
-		category: "Physical",
+		category: "Special",
 		name: "Force Palm",
 		pp: 10,
 		priority: 0,

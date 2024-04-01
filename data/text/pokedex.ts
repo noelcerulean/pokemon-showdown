@@ -1523,6 +1523,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	torkoal: {
 		name: "Torkoal",
 	},
+	torkoalfnf: {
+		name: "Torkoal-FnF",
+	},
 	spoink: {
 		name: "Spoink",
 	},
@@ -3364,6 +3367,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	steeneedelta: {
 		name: "Steenee-Delta",
+	},
+	steeneedeltaarmored: {
+		name: "Steenee-Delta-Armored",
 	},
 	tsareena: {
 		name: "Tsareena",

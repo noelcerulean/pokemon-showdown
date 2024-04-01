@@ -1850,6 +1850,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Steelium Z",
 		desc: "If holder has a Steel move, this item allows it to use a Steel Z-Move.",
 	},
+	steeneedeltaarmor: {
+		name: "Steenee-Delta Armor",
+		desc: "Armor developed by DoReMi for Steenee-Delta to enhance its battle capabilities.",
+		shortDesc: "Attach to Steenee-Delta-Armored forme (not base forme!!!) in the teambuilder.",
+	},
 	stick: {
 		name: "Stick",
 		desc: "If held by a Farfetch’d, its critical hit ratio is raised by 2 stages.",

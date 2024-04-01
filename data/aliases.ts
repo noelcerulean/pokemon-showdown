@@ -1087,6 +1087,9 @@ export const Aliases: {[alias: string]: string} = {
 	vikafnf: "Vikavolt-FnF",
 	ruth: "Rutherium",
 	igna: "Ignajara",
+	koal: "Torkoal",
+	koalfnf: "Torkoal-FnF",
+	chikoal: "Torkoal-FnF",
 
 	// armored
 	vespa: "Vespiquen-Armored",
@@ -1110,6 +1113,10 @@ export const Aliases: {[alias: string]: string} = {
 	nuzleafa: "Nuzleaf-Armored",
 	granger: "Nuzleaf-Armored",
 	greenranger: "Nuzleaf-Armored",
+	steeneedarmored: "Steenee-Delta-Armored",
+	steeneeda: "Steenee-Delta-Armored",
+	dsteeneea: "Steenee-Delta-Armored",
+	reimu: "Steenee-Delta-Armored",
 
 	// shortened deltas
 	cranidosd: "Cranidos-Delta",
