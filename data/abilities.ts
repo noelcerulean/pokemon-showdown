@@ -2150,8 +2150,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			for (let i = pokemon.side.pokemon.length - 1; i > pokemon.position; i--) {
 				const possibleTarget = pokemon.side.pokemon[i];
 				if (!possibleTarget.fainted) {
-					pokemon.illusion = possibleTarget;
 					this.add('saurbotFlag01', pokemon);
+					pokemon.illusion = possibleTarget;
 					break;
 				}
 			}
