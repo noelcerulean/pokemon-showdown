@@ -1359,6 +1359,32 @@ export const commands: Chat.ChatCommands = {
 		`!showteam hidestats - show the team you're using in the current battle, without displaying any stat-related information.`,
 		`!showset [number] - shows the set of the pokemon corresponding to that number (in original Team Preview order, not necessarily current order)`,
 	],
+	async showbothteams(target, room, user, connection, cmd) {
+		this.checkCan('revealhiddeninfo');
+		const hideStats = false;
+		room = this.requireRoom();
+		const battle = room.battle;
+		if (!battle) return this.errorReply(this.tr`This command can only be used in a battle.`);
+		let resultsString = '';
+		let teamsFound = 0;
+		for (let player of battle.players) {
+			const playerName = player.getUser();
+			if (playerName) {
+				const team = await battle.getTeam(playerName);
+				if (team) {
+					const teamString = Utils.escapeHTML(Teams.export(team, {hideStats}));
+					resultsString = resultsString.concat(
+						`<details><summary>${this.tr`${playerName}'s team:`}</summary>${teamString}</details>`
+					);
+					teamsFound += 1;
+				}
+			}
+		}
+		if (teamsFound !== battle.players.length) return this.errorReply(this.tr`Could not find a team for each player.`);
+		this.runBroadcast(true);
+		return this.sendReplyBox(resultsString);
+	},
+	showbothteamshelp: [`/showbothteams - Shows each player's team. Requires: = &`],
 
 	acceptdraw: 'offertie',
 	accepttie: 'offertie',

@@ -48175,7 +48175,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			zenheadbutt: ["7T"],
 			aggregate: ["7L32"],
 			ancientpower: ["7L22"],
-			aurasphere: ["7L35"],
 			barrage: ["7L24"],
 			barrier: ["7L27"],
 			confusion: ["7L6"],

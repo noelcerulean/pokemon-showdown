@@ -573,6 +573,15 @@ exports.grouplist = [
 		gamemanagement: true,
 		exportinputlog: true,
 		tournaments: true,
+		revealhiddeninfo: true,
+	},
+	{
+		symbol: '=',
+		id: "saurbot",
+		name: "Saurbot",
+		inherit: '*',
+		jurisdiction: 'u',
+		revealhiddeninfo: true,
 	},
 	{
 		symbol: '#',

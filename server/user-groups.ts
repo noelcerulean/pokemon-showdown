@@ -1,7 +1,7 @@
 import {FS} from '../lib/fs';
 import type {RoomSection} from './chat-commands/room-settings';
 
-export type GroupSymbol = '~' | '&' | '#' | '★' | '*' | '@' | '%' | '☆' | '▸' | '+' | '^' | ' ' | '‽' | '!';
+export type GroupSymbol = '~' | '&' | '#' | '★' | '=' | '*' | '@' | '%' | '☆' | '▸' | '+' | '^' | ' ' | '‽' | '!';
 export type EffectiveGroupSymbol = GroupSymbol | 'whitelist';
 export type AuthLevel = EffectiveGroupSymbol | 'unlocked' | 'trusted' | 'autoconfirmed';
 
@@ -17,7 +17,7 @@ export const GLOBAL_PERMISSIONS = [
 	// administrative
 	'bypassall', 'console', 'disableladder', 'lockdown', 'potd',
 	// other
-	'addhtml', 'alts', 'altsself', 'autotimer', 'globalban', 'bypassblocks', 'bypassafktimer', 'forcepromote', 'forcerename', 'forcewin', 'gdeclare', 'hiderank', 'ignorelimits', 'importinputlog', 'ip', 'ipself', 'lock', 'makeroom', 'modlog', 'rangeban', 'promote',
+	'addhtml', 'alts', 'altsself', 'autotimer', 'globalban', 'bypassblocks', 'bypassafktimer', 'forcepromote', 'forcerename', 'forcewin', 'gdeclare', 'hiderank', 'ignorelimits', 'importinputlog', 'ip', 'ipself', 'lock', 'makeroom', 'modlog', 'rangeban', 'revealhiddeninfo', 'promote',
 ] as const;
 
 export type RoomPermission = typeof ROOM_PERMISSIONS[number];
