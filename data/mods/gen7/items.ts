@@ -233,7 +233,11 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
-	fnfsablenite: {
+	fnfsablenitex: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	fnfsablenitey: {
 		inherit: true,
 		isNonstandard: null,
 	},

@@ -2558,7 +2558,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	sableyefnfmega: {
+	sableyefnfmegax: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sableyefnfmegay: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},

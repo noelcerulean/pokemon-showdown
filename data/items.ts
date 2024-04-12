@@ -2175,10 +2175,24 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 7,
 		isNonstandard: "Past",
 	},
-	fnfsablenite: {
-		name: "FnFSablenite",
+	fnfsablenitex: {
+		name: "FnFSablenite X",
+		spritenum: 788,
+		megaStone: "Sableye-FnF-Mega-X",
+		megaEvolves: "Sableye-FnF",
+		itemUser: ["Sableye-FnF"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -550,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	fnfsablenitey: {
+		name: "FnFSablenite Y",
 		spritenum: 775,
-		megaStone: "Sableye-FnF-Mega",
+		megaStone: "Sableye-FnF-Mega-Y",
 		megaEvolves: "Sableye-FnF",
 		itemUser: ["Sableye-FnF"],
 		onTakeItem(item, source) {

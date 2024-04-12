@@ -655,8 +655,12 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "FnFLickium Z",
 		desc: "If held by a Lickilicky-FnF with Gastro Slam, it can use Merciless Marinade.",
 	},
-	fnfsablenite: {
-		name: "FnFSablenite",
+	fnfsablenitex: {
+		name: "FnFSablenite X",
+		desc: "If held by a Sableye-FnF, this item allows it to Mega Evolve in battle.",
+	},
+	fnfsablenitey: {
+		name: "FnFSablenite Y",
 		desc: "If held by a Sableye-FnF, this item allows it to Mega Evolve in battle.",
 	},
 	fragrantherb: {

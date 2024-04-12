@@ -2186,7 +2186,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "DUU",
 	},
-	sableyefnfmega: {
+	sableyefnfmegax: {
+		randomBattleMoves: ["bonemerang", "dragondance", "dragonhammer", "shadowbone"],
+		randomDoubleBattleMoves: ["bonemerang", "dragonhammer", "fakeout", "helpinghand", "protect", "shadowbone"],
+		tier: "UU",
+		doublesTier: "DUU",
+	},
+	sableyefnfmegay: {
 		randomBattleMoves: ["earthpower", "petrifypulse", "prehistoricpulse", "recover", "toxic", "willowisp"],
 		randomDoubleBattleMoves: ["fakeout", "helpinghand", "petrifypulse", "prehistoricpulse", "protect", "recover", "snarl", "willowisp"],
 		tier: "OU",
