@@ -818,6 +818,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "DUU",
 	},
+	hitmonwu: {
+		randomBattleMoves: ["calmmind", "energyball", "extrasensory", "focusblast", "powergem", "uturn", "vacuumwave"],
+		randomDoubleBattleMoves: ["fakeout", "energyball", "extrasensory", "focusblast", "helpinghand", "matblock", "powergem", "uturn", "vacuumwave"],
+		tier: "NU",
+		doublesTier: "DUU",
+	},
 	lickitung: {
 		tier: "LC",
 	},

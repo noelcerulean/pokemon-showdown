@@ -1100,6 +1100,10 @@ export const Aliases: {[alias: string]: string} = {
 	koal: "Torkoal",
 	koalfnf: "Torkoal-FnF",
 	chikoal: "Torkoal-FnF",
+	lee: "Hitmonlee",
+	chan: "Hitmonchan",
+	top: "Hitmontop",
+	wu: "Hitmonwu",
 
 	// armored
 	vespa: "Vespiquen-Armored",

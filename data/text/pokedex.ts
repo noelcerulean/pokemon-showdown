@@ -1172,6 +1172,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	hitmontop: {
 		name: "Hitmontop",
 	},
+	hitmonwu: {
+		name: "Hitmonwu",
+	},
 	smoochum: {
 		name: "Smoochum",
 	},

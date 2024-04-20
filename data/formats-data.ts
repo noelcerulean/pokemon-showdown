@@ -1010,6 +1010,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "DUU",
 	},
+	hitmonwu: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	lickitung: {
 		tier: "LC",
 	},
