@@ -4275,7 +4275,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	kyuremblack: {
 		randomBattleMoves: ["dragonclaw", "earthpower", "fusionbolt", "icebeam", "outrage", "roost", "substitute"],
 		randomDoubleBattleMoves: ["dragonclaw", "earthpower", "fusionbolt", "icebeam", "protect", "roost"],
-		tier: "UUBL",
+		tier: "Uber",
 		doublesTier: "DOU",
 	},
 	kyuremwhite: {
