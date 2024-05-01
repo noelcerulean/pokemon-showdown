@@ -2351,7 +2351,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	galaricacuff: {
 		name: "Galarica Cuff",
-		spritenum: 739,
+		spritenum: 740,
 		fling: {
 			basePower: 30,
 		},
@@ -6278,6 +6278,13 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Pyukumuku"],
 		num: -519,
 		gen: 7,
+	},
+	strangesouvenir: {
+		name: "Strange Souvenir",
+		spritenum: 739,
+		onTakeItem: false,
+		num: -551,
+		gen: 6,
 	},
 	strawberrysweet: {
 		name: "Strawberry Sweet",

@@ -400,11 +400,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 					this.add('-immune', target, '[from] ability: Baku Shield');
 				}
 				return null;
-			} else if (target !== source && move.type === 'Ghost') {
-				if (!this.heal(target.baseMaxhp / 4)) {
-					this.add('-immune', target, '[from] ability: Baku Shield');
-				}
-				return null;
 			}
 		},
 		isBreakable: true,
@@ -4766,11 +4761,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	stall: {
 		onModifyDefPriority: 6,
 		onModifyDef(def) {
-			return this.chainModify(1.3);
+			return this.chainModify([5325, 4096]);
 		},
 		onModifySpDPriority: 6,
 		onModifySpD(spd) {
-			return this.chainModify(1.3);
+			return this.chainModify([5325, 4096]);
 		},
 		onSourceModifyAccuracyPriority: -1,
 		onSourceModifyAccuracy(accuracy) {
@@ -5351,7 +5346,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onBasePowerPriority: 19,
 		onBasePower(basePower, attacker, defender, move) {
 			if ((attacker.status === 'psn' || attacker.status === 'tox') && move.category === 'Physical') {
-				return this.chainModify(1.5);
+				return this.chainModify([5325, 4096]);
 			}
 		},
 		name: "Toxic Boost",

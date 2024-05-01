@@ -138,8 +138,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	bakushield: {
 		name: "Baku Shield",
-		desc: "This Pokemon is immune to Dark-type and Ghost-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Dark-type or Ghost-type move.",
-		shortDesc: "Heals 1/4 of max HP when hit by Dark or Ghost moves; Immunity to both.",
+		desc: "This Pokemon is immune to Dark-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Dark-type move.",
+		shortDesc: "This Pokemon heals 1/4 of its max HP when hit by Dark moves; Dark immunity.",
 	},
 	ballfetch: {
 		name: "Ball Fetch",
@@ -1994,8 +1994,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	toxicboost: {
 		name: "Toxic Boost",
-		desc: "While this Pokemon is poisoned, it takes no poison damage and the power of its physical attacks is multiplied by 1.5.",
-		shortDesc: "Immunity to poison/toxic damage. When poisoned, its physical attacks have 1.5x power.",
+		desc: "While this Pokemon is poisoned, it takes no poison damage and the power of its physical attacks is multiplied by 1.3.",
+		shortDesc: "Immunity to poison/toxic damage. When poisoned, its physical attacks have 1.3x power.",
 	},
 	toxcceleration: {
 		name: "Toxcceleration",

@@ -1880,6 +1880,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 
 		activate: "  [POKEMON] is not affected thanks to its Strange Mucus!",
 	},
+	strangesouvenir: {
+		name: "Strange Souvenir",
+		desc: "Cannot be removed from the holder, even by moves such as Trick or Knock Off.",
+	},
 	strawberrysweet: {
 		name: "Strawberry Sweet",
 		desc: "Evolves Milcery into Alcremie when held and spun around.",
