@@ -2366,11 +2366,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	roggenrola: {
 		name: "Roggenrola",
 	},
+	roggenrolafnf: {
+		name: "Roggenrola-FnF",
+	},
 	boldore: {
 		name: "Boldore",
 	},
+	boldorefnf: {
+		name: "Boldore-FnF",
+	},
 	gigalith: {
 		name: "Gigalith",
+	},
+	gigalithfnf: {
+		name: "Gigalith-FnF",
 	},
 	woobat: {
 		name: "Woobat",

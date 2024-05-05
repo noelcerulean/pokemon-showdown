@@ -3898,8 +3898,16 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	roggenrola: {
 		tier: "LC",
 	},
+	roggenrolafnf: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	boldore: {
 		tier: "NFE",
+	},
+	boldorefnf: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	gigalith: {
 		randomBattleMoves: ["earthquake", "explosion", "stealthrock", "stoneedge", "superpower"],
@@ -3908,6 +3916,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "PU",
 		doublesTier: "DUU",
+	},
+	gigalithfnf: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	woobat: {
 		tier: "NFE",

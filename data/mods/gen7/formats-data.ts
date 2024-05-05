@@ -3541,13 +3541,25 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	roggenrola: {
 		tier: "LC",
 	},
+	roggenrolafnf: {
+		tier: "LC",
+	},
 	boldore: {
+		tier: "NFE",
+	},
+	boldorefnf: {
 		tier: "NFE",
 	},
 	gigalith: {
 		randomBattleMoves: ["earthquake", "explosion", "rockblast", "stealthrock", "stoneedge", "superpower"],
 		randomDoubleBattleMoves: ["protect", "rockslide", "stealthrock", "stompingtantrum", "stoneedge", "superpower", "wideguard"],
 		tier: "NU",
+		doublesTier: "(DUU)",
+	},
+	gigalithfnf: {
+		randomBattleMoves: ["dazzlinggleam", "earthpower", "lightscreen", "lusterpurge", "prehistoricpulse", "psyshock", "trickroom"],
+		randomDoubleBattleMoves: ["dazzlinggleam", "earthpower", "lightscreen", "lusterpurge", "prehistoricpulse", "protect", "psyshock", "trickroom", "wideguard"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	woobat: {

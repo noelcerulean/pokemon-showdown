@@ -1104,6 +1104,8 @@ export const Aliases: {[alias: string]: string} = {
 	chan: "Hitmonchan",
 	top: "Hitmontop",
 	wu: "Hitmonwu",
+	lithfnf: "Gigalith-FnF",
+	lith: "Gigalith",
 
 	// armored
 	vespa: "Vespiquen-Armored",

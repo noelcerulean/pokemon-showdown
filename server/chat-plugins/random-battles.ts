@@ -317,6 +317,7 @@ function generateSSBMoveInfo(sigMove: Move, dex: ModdedDex) {
 		if (sigMove.flags['gravity']) details["&#10007; Suppressed by Gravity"] = "";
 		if (sigMove.flags['dance']) details["&#10003; Dance move"] = "";
 		if (sigMove.flags['wind']) details["&#10003; Wind move"] = "";
+		if (sigMove.flags['light']) details["&#10003; Light move"] = "";
 
 		if (sigMove.zMove?.basePower) {
 			details["Z-Power"] = String(sigMove.zMove.basePower);

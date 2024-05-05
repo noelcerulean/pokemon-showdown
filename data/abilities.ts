@@ -2523,6 +2523,36 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 203,
 	},
+	luminesce: {
+		onAfterMoveSecondarySelf(pokemon, target, move) {
+			if (move.flags['light']) {
+				pokemon.addVolatile('luminesce');
+			}
+		},
+		onEnd(pokemon) {
+			pokemon.removeVolatile('luminesce');
+		},
+		condition: {
+			noCopy: true, // doesn't get copied by Baton Pass
+			onStart(target) {
+				this.add('-start', target, 'ability: Luminesce');
+			},
+			onModifySpAPriority: 5,
+			onModifySpA(spa) {
+				return this.chainModify(1.5);
+			},
+			onModifySpDPriority: 5,
+			onModifySpD(spd) {
+				return this.chainModify(1.5);
+			},
+			onEnd(target) {
+				this.add('-end', target, 'ability: Luminesce', '[silent]');
+			},
+		},
+		name: "Luminesce",
+		rating: 3.5,
+		num: -572,
+	},
 	magicbounce: {
 		name: "Magic Bounce",
 		onTryHitPriority: 1,

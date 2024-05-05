@@ -107,6 +107,11 @@ export const Tags: {[id: string]: TagData} = {
 		desc: "Doesn't affect Jetstream Pokémon.",
 		moveFilter: move => 'wind' in move.flags,
 	},
+	light: {
+		name: "Light",
+		desc: "Activates the Luminesce ability.",
+		moveFilter: move => 'light' in move.flags,
+	},
 	bypassprotect: {
 		name: "Bypass Protect",
 		desc: "Bypasses Protect, Detect, King's Shield, and Spiky Shield.",

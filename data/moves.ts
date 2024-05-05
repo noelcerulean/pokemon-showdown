@@ -15,6 +15,7 @@ distance: Can target a Pokemon positioned anywhere in a Triple Battle.
 gravity: Prevented from being executed or selected during Gravity's effect.
 heal: Prevented from being executed or selected during Heal Block's effect.
 kick: Power is multiplied by 1.2 when used by a Pokemon with the Striker Ability.
+light: Activates the Luminesce ability.
 mirror: Can be copied by Mirror Move.
 mystery: Unknown effect.
 nonsky: Prevented from being executed or selected in a Sky Battle.
@@ -812,7 +813,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Aurora Beam",
 		pp: 20,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, light: 1, mirror: 1},
 		secondary: {
 			chance: 10,
 			boosts: {
@@ -3388,7 +3389,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Dazzling Gleam",
 		pp: 10,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, light: 1, mirror: 1},
 		secondary: null,
 		target: "allAdjacentFoes",
 		type: "Fairy",
@@ -3886,7 +3887,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Doom Desire",
 		pp: 5,
 		priority: 0,
-		flags: {},
+		flags: {light: 1},
 		isFutureMove: true,
 		onTry(source, target) {
 			if (!target.side.addSlotCondition(target, 'futuremove')) return false;
@@ -3900,7 +3901,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 					basePower: 140,
 					category: "Special",
 					priority: 0,
-					flags: {},
+					flags: {light: 1},
 					effectType: 'Move',
 					isFutureMove: true,
 					type: 'Steel',
@@ -5654,7 +5655,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Flash",
 		pp: 20,
 		priority: 0,
-		flags: {protect: 1, reflectable: 1, mirror: 1},
+		flags: {protect: 1, light: 1, reflectable: 1, mirror: 1},
 		boosts: {
 			accuracy: -1,
 		},
@@ -5672,7 +5673,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Flash Cannon",
 		pp: 10,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, light: 1, mirror: 1},
 		secondary: {
 			chance: 10,
 			boosts: {
@@ -9865,7 +9866,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Judgment",
 		pp: 10,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, light: 1, mirror: 1},
 		onModifyType(move, pokemon) {
 			if (pokemon.ignoringItem()) return;
 			const item = pokemon.getItem();
@@ -10388,7 +10389,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Light of Ruin",
 		pp: 5,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, light: 1, mirror: 1},
 		recoil: [1, 2],
 		secondary: null,
 		target: "normal",
@@ -10403,7 +10404,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Light Screen",
 		pp: 30,
 		priority: 0,
-		flags: {snatch: 1},
+		flags: {snatch: 1, light: 1},
 		sideCondition: 'lightscreen',
 		condition: {
 			duration: 5,
@@ -10446,7 +10447,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Light That Burns the Sky",
 		pp: 1,
 		priority: 0,
-		flags: {},
+		flags: {light: 1},
 		onModifyMove(move, pokemon) {
 			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) move.category = 'Physical';
 		},
@@ -10701,7 +10702,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Luster Purge",
 		pp: 5,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, light: 1, mirror: 1},
 		secondary: {
 			chance: 50,
 			boosts: {
@@ -12105,7 +12106,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Mirror Shot",
 		pp: 10,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, light: 1, mirror: 1},
 		secondary: {
 			chance: 30,
 			boosts: {
@@ -12298,7 +12299,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Moonlight",
 		pp: 5,
 		priority: 0,
-		flags: {snatch: 1, heal: 1},
+		flags: {snatch: 1, light: 1, heal: 1},
 		onHit(pokemon) {
 			let factor = 0.5;
 			switch (pokemon.effectiveWeather()) {
@@ -13185,7 +13186,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Origin Pulse",
 		pp: 10,
 		priority: 0,
-		flags: {protect: 1, pulse: 1, mirror: 1},
+		flags: {protect: 1, light: 1, pulse: 1, mirror: 1},
 		target: "allAdjacentFoes",
 		type: "Water",
 		contestType: "Beautiful",
@@ -13546,7 +13547,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Photon Geyser",
 		pp: 5,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, light: 1, mirror: 1},
 		onModifyMove(move, pokemon) {
 			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) move.category = 'Physical';
 		},
@@ -13902,7 +13903,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Power Gem",
 		pp: 20,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, light: 1, mirror: 1},
 		secondary: null,
 		target: "normal",
 		type: "Rock",
@@ -14328,7 +14329,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Psybeam",
 		pp: 20,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, light: 1, mirror: 1},
 		secondary: {
 			chance: 10,
 			volatileStatus: 'confusion',
@@ -17034,7 +17035,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Shadow Glow",
 		pp: 5,
 		priority: 0,
-		flags: {heal: 1},
+		flags: {heal: 1, light: 1},
 		boosts: {
 			spe: 1,
 		},
@@ -18376,7 +18377,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Signal Beam",
 		pp: 15,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, light: 1, mirror: 1},
 		secondary: {
 			chance: 10,
 			volatileStatus: 'confusion',
@@ -19334,7 +19335,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Solar Beam",
 		pp: 10,
 		priority: 0,
-		flags: {charge: 1, protect: 1, mirror: 1},
+		flags: {charge: 1, light: 1, protect: 1, mirror: 1},
 		onTryMove(attacker, defender, move) {
 			if (attacker.removeVolatile(move.id)) {
 				return;
@@ -19370,7 +19371,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Solar Blade",
 		pp: 10,
 		priority: 0,
-		flags: {contact: 1, charge: 1, protect: 1, mirror: 1, blade: 1},
+		flags: {contact: 1, light: 1, charge: 1, protect: 1, mirror: 1, blade: 1},
 		onTryMove(attacker, defender, move) {
 			if (attacker.removeVolatile(move.id)) {
 				return;
@@ -19904,7 +19905,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Spotlight",
 		pp: 15,
 		priority: 3,
-		flags: {protect: 1, reflectable: 1, mystery: 1},
+		flags: {protect: 1, light: 1, reflectable: 1, mystery: 1},
 		volatileStatus: 'spotlight',
 		onTryHit(target) {
 			if (this.activePerHalf === 1) return false;
@@ -21000,7 +21001,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Tail Glow",
 		pp: 20,
 		priority: 0,
-		flags: {snatch: 1},
+		flags: {light: 1, snatch: 1},
 		boosts: {
 			spa: 3,
 		},
@@ -21227,7 +21228,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Techno Blast",
 		pp: 5,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, light: 1, mirror: 1},
 		onModifyType(move, pokemon) {
 			if (pokemon.ignoringItem()) return;
 			move.type = this.runEvent('Drive', pokemon, null, move, 'Normal');

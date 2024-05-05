@@ -916,6 +916,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Long Reach",
 		shortDesc: "This Pokemon's attacks do not make contact with the target.",
 	},
+	luminesce: {
+		name: "Luminesce",
+		desc: "The first time a Light move is used, this Pokemon has its Sp. Attack and Sp. Defense multiplied by 1.5 as long as it remains active and has this Ability.",
+		shortDesc: "This Pokemon's SpA & SpD increase the first time a Light move is used.",
+
+		start: "  [POKEMON]'s special stats rose!",
+	},
 	magicbounce: {
 		name: "Magic Bounce",
 		desc: "This Pokemon blocks certain status moves and instead uses the move against the original user.",
