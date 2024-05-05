@@ -2524,7 +2524,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 203,
 	},
 	luminesce: {
-		onAfterMoveSecondarySelf(pokemon, target, move) {
+		onAnyAfterMoveSecondarySelf(pokemon, target, move) {
 			if (move.flags['light']) {
 				pokemon.addVolatile('luminesce');
 			}
