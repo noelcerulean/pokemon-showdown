@@ -287,6 +287,13 @@ export class BattleActions {
 		this.battle.singleEvent('AfterMove', move, null, pokemon, target, move);
 		this.battle.runEvent('AfterMove', pokemon, target, move);
 
+		// luminesce
+		if (move.flags['light'] && moveDidSomething) {
+			for (const currentPoke of this.battle.getAllActive()) {
+				if (currentPoke.hasAbility('luminesce')) currentPoke.addVolatile('luminesce');
+			}
+		}
+
 		// Dancer's activation order is completely different from any other event, so it's handled separately
 		if (move.flags['dance'] && moveDidSomething && !move.isExternal) {
 			const dancers = [];

@@ -2524,11 +2524,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 203,
 	},
 	luminesce: {
-		onAnyHit(pokemon, target, move) {
-			if (move.flags['light']) {
-				pokemon.addVolatile('luminesce');
-			}
-		},
+	// implemented in sim/battle-actions.ts
 		onEnd(pokemon) {
 			pokemon.removeVolatile('luminesce');
 		},
