@@ -2596,6 +2596,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	chingling: {
 		tier: "LC",
 	},
+	chinglingarmored: {
+		randomBattleMoves: ["calmmind", "dazzlinggleam", "dracometeor", "fireblast", "healbell", "psyshock", "recover"],
+		randomDoubleBattleMoves: ["dazzlinggleam", "dracometeor", "fireblast", "healbell", "helpinghand", "psyshock", "protect", "recover", "trickroom"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	chimecho: {
 		randomBattleMoves: ["calmmind", "defog", "disarmingvoice", "healbell", "healingwish", "hypervoice", "lightscreen", "psychic", "recover", "reflect", "shadowball", "synchronoise", "taunt", "wish", "yawn"],
 		randomDoubleBattleMoves: ["followme", "helpinghand", "protect", "psychic", "recover", "synchronoise", "taunt", "thunderwave", "trickroom"],
@@ -4540,6 +4546,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	aromatissefnf: {
 		randomBattleMoves: ["darkpulse", "moonblast", "nastyplot", "psychic", "trickroom"],
 		randomDoubleBattleMoves: ["darkpulse", "healpulse", "moonblast", "protect", "psychic", "thunderbolt", "trickroom"],
+		tier: "NU",
+		doublesTier: "(DUU)",
+	},
+	aromacosta: {
+		randomBattleMoves: ["creepingdespair", "earthpower", "moonblast", "nastyplot", "prehistoricpulse", "stealthrock", "trickroom"],
+		randomDoubleBattleMoves: ["creepingdespair", "earthpower", "moonblast", "nastyplot", "prehistoricpulse", "protect", "trickroom"],
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},

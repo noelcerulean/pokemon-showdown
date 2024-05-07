@@ -1970,6 +1970,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	chingling: {
 		name: "Chingling",
 	},
+	chinglingarmored: {
+		name: "Chingling-Armored",
+	},
 	stunky: {
 		name: "Stunky",
 	},
@@ -3037,6 +3040,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	aromatissefnf: {
 		name: "Aromatisse-FnF",
+	},
+	aromacosta: {
+		name: "Aromacosta",
 	},
 	swirlix: {
 		name: "Swirlix",

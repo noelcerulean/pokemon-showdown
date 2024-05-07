@@ -2950,6 +2950,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	chinglingarmored: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	chimecho: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -5064,6 +5068,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 86,
 		tier: "PU",
 		doublesTier: "(DUU)",
+	},
+	aromacosta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	swirlix: {
 		tier: "NFE",

@@ -976,6 +976,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 119,
 		gen: 5,
 	},
+	chinglingarmor: {
+		name: "Chingling Armor",
+		spritenum: 789,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Chingling-Armored') return false;
+			return true;
+		},
+		itemUser: ["Chingling-Armored"],
+		num: -552,
+		gen: 7,
+	},
 	chippedpot: {
 		name: "Chipped Pot",
 		spritenum: 720,

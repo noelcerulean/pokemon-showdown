@@ -266,6 +266,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Chill Drive",
 		desc: "Holder's Techno Blast is Ice type.",
 	},
+	chinglingarmor: {
+		name: "Chingling Armor",
+		desc: "Armor developed by DoReMi for Chingling to enhance its battle capabilities.",
+		shortDesc: "Attach to Chingling-Armored forme (not base forme!!!) in the teambuilder.",
+	},
 	chippedpot: {
 		name: "Chipped Pot",
 		desc: "Evolves Sinistea-Antique into Polteageist-Antique when used.",
