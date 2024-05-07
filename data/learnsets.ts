@@ -50564,7 +50564,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			endure: ["4M"],
 			entrainment: ["7L19", "6L19", "5L25"],
 			facade: ["7M", "6M", "5M", "4M"],
-			fireblast: ["7M"],
 			flash: ["6M", "5M", "4M"],
 			frustration: ["7M", "6M", "5M", "4M"],
 			futuresight: ["7E", "6E", "5E", "4E"],
