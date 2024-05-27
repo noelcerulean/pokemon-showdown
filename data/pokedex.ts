@@ -903,6 +903,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Thunder Stone",
 		eggGroups: ["Field", "Fairy"],
+		cosmeticFormes: ["Raichu-Alola-Suntan"],
+		formeOrder: ["Raichu-Alola", "Raichu-Alola-Suntan"],
 	},
 	gorochu: {
 		num: -529,
@@ -7248,6 +7250,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 75,
 		color: "Green",
 		eggGroups: ["Undiscovered"],
+		cosmeticFormes: ["Arthrogon-Beach"],
+		formeOrder: ["Arthrogon", "Arthrogon-Beach"],
 	},
 	cacnea: {
 		num: 331,
@@ -12311,6 +12315,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Foongus",
 		evoLevel: 39,
 		eggGroups: ["Grass"],
+		cosmeticFormes: ["Amoonguss-Pride"],
+		formeOrder: ["Amoonguss", "Amoonguss-Pride"],
 	},
 	frillish: {
 		num: 592,

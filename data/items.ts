@@ -3741,7 +3741,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			basePower: 60,
 		},
 		onStart(pokemon) {
-			if (!pokemon.baseSpecies.num === 476) return;
+			if (pokemon.baseSpecies.num !== 476) return;
 			if (!pokemon.ignoringItem() && !this.field.getPseudoWeather('gravity')) {
 				this.add('-item', pokemon, 'Magnetic Stone');
 				pokemon.addVolatile('magnetrise');
@@ -5482,6 +5482,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			this.add('-item', pokemon, 'Royal Jelly');
 		},
 		onTryHit(target, source, move) {
+			if (target.baseSpecies.num !== 416) return;
 			if (move.category === 'Status' && !target.activeTurns) {
 				this.add('-immune', target, '[from] item: Royal Jelly');
 				return null;

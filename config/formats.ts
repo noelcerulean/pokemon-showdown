@@ -31,7 +31,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['Standard'],
-		banlist: ['Uber', 'Latias-Mega', 'Latios-Mega', 'Ignajara + Ignition', 'Blaziken + Speed Boost', 'Greninja + Amphibious', 'Battle Bond', 'Power Construct', 'King\'s Rock', 'Bright Powder', 'Lax Incense', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Poliwrathium Z,', 'Mewnium Z', 'Sand Veil', 'Snow Cloak'],
+		banlist: ['Uber', 'Latias-Mega', 'Latios-Mega', 'Ignajara + Ignition', 'Gothitelle + Shadow Tag', 'Blaziken + Speed Boost', 'Greninja + Amphibious', 'Battle Bond', 'Power Construct', 'King\'s Rock', 'Bright Powder', 'Lax Incense', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Poliwrathium Z,', 'Mewnium Z', 'Sand Veil', 'Snow Cloak'],
 	},
 	{
 		name: "[Gen 7] OU",

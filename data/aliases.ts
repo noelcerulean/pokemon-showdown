@@ -503,6 +503,9 @@ export const Aliases: {[alias: string]: string} = {
 	seismitoadrapper: "Seismitoad",
 	chesnaughtdeltauranium: "Chesnaught-Delta",
 	cranidosdeltavoid: "Cranidos-Delta",
+	raichualolasuntan: "Raichu-Alola",
+	amoongusspride: "Amoonguss",
+	arthrogonbeach: "Arthrogon",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",
@@ -1133,6 +1136,7 @@ export const Aliases: {[alias: string]: string} = {
 	steeneeda: "Steenee-Delta-Armored",
 	dsteeneea: "Steenee-Delta-Armored",
 	reimu: "Steenee-Delta-Armored",
+	chinglinga: "Chingling-Armored",
 
 	// shortened deltas
 	cranidosd: "Cranidos-Delta",
