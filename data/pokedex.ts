@@ -7977,6 +7977,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 30,
 		evos: ["Salamence"],
 		eggGroups: ["Dragon"],
+		cosmeticFormes: ["Shelgon-Ball"],
+		formeOrder: ["Shelgon", "Shelgon-Ball"],
 	},
 	salamence: {
 		num: 373,
