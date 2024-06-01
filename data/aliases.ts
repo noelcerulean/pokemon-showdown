@@ -507,6 +507,7 @@ export const Aliases: {[alias: string]: string} = {
 	amoongusspride: "Amoonguss",
 	arthrogonbeach: "Arthrogon",
 	shelgonball: "Shelgon",
+	hypnobeach: "Hypno",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",

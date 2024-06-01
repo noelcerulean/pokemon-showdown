@@ -2424,8 +2424,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 26,
 		eggGroups: ["Human-Like"],
 		otherFormes: ["Hypno-Mega"],
-		cosmeticFormes: ["Hypno-Happyjamas", "Hypno-Happy", "Hypno-Happyf"],
-		formeOrder: ["Hypno", "Hypno-Happyjamas", "Hypno-Happy", "Hypno-Happyf", "Hypno-Mega"],
+		cosmeticFormes: ["Hypno-Happyjamas", "Hypno-Beach", "Hypno-Happy", "Hypno-Happyf"],
+		formeOrder: ["Hypno", "Hypno-Happyjamas", "Hypno-Beach", "Hypno-Happy", "Hypno-Happyf", "Hypno-Mega"],
 	},
 	hypnomega: {
 		num: 97,
