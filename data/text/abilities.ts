@@ -236,7 +236,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	clayconstruction: {
 		name: "Clay Construction",
-		shortDesc: "Foe's ground moves raise Defense by 2; Ground immunity.",
+		shortDesc: "Raises Defense by 2 when hit by a Ground move; Ground immunity.",
 	},
 	clearbody: {
 		name: "Clear Body",
@@ -2116,7 +2116,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	watercompaction: {
 		name: "Water Compaction",
-		shortDesc: "Foe's water moves raise Defense by 2; Water immunity.",
+		shortDesc: "Raises Defense by 2 when hit by a Water move; Water immunity.",
 	},
 	waterveil: {
 		name: "Water Veil",

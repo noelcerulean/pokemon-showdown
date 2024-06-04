@@ -2395,6 +2395,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		evos: ["Drowzee"],
 		eggGroups: ["Undiscovered"],
+		cosmeticFormes: ["Baki-Beach", "Baki-Donuts"],
+		formeOrder: ["Baki", "Baki-Beach", "Baki-Donuts"],
 		canHatch: true,
 	},
 	drowzee: {
@@ -2534,6 +2536,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Voltorb-FnF",
 		evoLevel: 30,
 		eggGroups: ["Mineral"],
+		cosmeticFormes: ["Electrode-FnF-Beach"],
+		formeOrder: ["Electrode-FnF", "Electrode-FnF-Beach"],
 	},
 	exeggcute: {
 		num: 102,
@@ -4206,7 +4210,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 30,
 		eggGroups: ["Monster", "Field"],
 		otherFormes: ["Ampharos-Mega"],
-		formeOrder: ["Ampharos", "Ampharos-Mega"],
+		cosmeticFormes: ["Ampharos-Beach"],
+		formeOrder: ["Ampharos", "Ampharos-Mega", "Ampharos-Beach"],
 	},
 	ampharosmega: {
 		num: 181,
@@ -11099,6 +11104,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 25,
 		evos: ["Gigalith-FnF"],
 		eggGroups: ["Mineral"],
+		cosmeticFormes: ["Boldore-FnF-Prism"],
+		formeOrder: ["Boldore-FnF", "Boldore-FnF-Prism"],
 	},
 	gigalith: {
 		num: 526,
@@ -11125,6 +11132,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Boldore-FnF",
 		evoType: "trade",
 		eggGroups: ["Mineral"],
+		cosmeticFormes: ["Gigalith-FnF-Prism"],
+		formeOrder: ["Gigalith-FnF", "Gigalith-FnF-Prism"],
 	},
 	woobat: {
 		num: 527,
@@ -15636,7 +15645,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 33,
 		eggGroups: ["Monster", "Dragon"],
 		otherFormes: ["Salazzle-Totem"],
-		formeOrder: ["Salazzle", "Salazzle-Totem"],
+		cosmeticFormes: ["Salazzle-Beach", "Salazzle-Beachtongue"],
+		formeOrder: ["Salazzle", "Salazzle-Totem", "Salazzle-Beach", "Salazzle-Beachtongue"],
 	},
 	salazzletotem: {
 		num: 758,
