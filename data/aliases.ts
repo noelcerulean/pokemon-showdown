@@ -516,6 +516,7 @@ export const Aliases: {[alias: string]: string} = {
 	bakidonuts: "Baki",
 	boldorefnfprism: "Boldore-FnF",
 	gigalithfnfprism: "Gigalith-FnF",
+	drowzeebeach: "Drowzee",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",

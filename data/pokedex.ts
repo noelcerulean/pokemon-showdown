@@ -2412,6 +2412,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "levelFriendship",
 		evos: ["Hypno"],
 		eggGroups: ["Human-Like"],
+		cosmeticFormes: ["Drowzee-Beach"],
+		formeOrder: ["Drowzee", "Drowzee-Beach"],
 	},
 	hypno: {
 		num: 97,
