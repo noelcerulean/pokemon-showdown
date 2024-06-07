@@ -37,6 +37,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 20,
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
+		cosmeticFormes: ["Saurbot-Beach"],
+		formeOrder: ["Saurbot", "Saurbot-Beach"],
 	},
 	ivysaur: {
 		num: 2,
@@ -2524,6 +2526,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Voltorb",
 		evoLevel: 30,
 		eggGroups: ["Mineral"],
+		cosmeticFormes: ["Electrode-Beach"],
+		formeOrder: ["Electrode", "Electrode-Beach"],
 	},
 	electrodefnf: {
 		num: 101,
@@ -4256,6 +4260,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "levelFriendship",
 		evos: ["Azumarill"],
 		eggGroups: ["Water 1", "Fairy"],
+		cosmeticFormes: ["Marill-Beach"],
+		formeOrder: ["Marill", "Marill-Beach"],
 		canHatch: true,
 	},
 	azumarill: {
@@ -6483,6 +6489,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 160,
 		color: "Brown",
 		eggGroups: ["Undiscovered"],
+		cosmeticFormes: ["Gravking-Beachgrill", "Gravking-Beach"],
+		formeOrder: ["Gravking", "Gravking-Beachgrill", "Gravking-Beach"],
 	},
 	nincada: {
 		num: 290,
@@ -6745,8 +6753,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 72,
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
-		cosmeticFormes: ["Sablechamp-Mrsex"],
-		formeOrder: ["Sablechamp", "Sablechamp-Mrsex"],
+		cosmeticFormes: ["Sablechamp-Mrsex", "Sablechamp-Beach", "Sablechamp-Beachtan"],
+		formeOrder: ["Sablechamp", "Sablechamp-Mrsex", "Sablechamp-Beach", "Sablechamp-Beachtan"],
 	},
 	mawile: {
 		num: 303,
@@ -10282,6 +10290,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		eggGroups: ["Undiscovered"],
 		tags: ["Mythical"],
+		cosmeticFormes: ["Kiwuit-Beach"],
+		formeOrder: ["Kiwuit", "Kiwuit-Beach"],
 	},
 	arceus: {
 		num: 493,
