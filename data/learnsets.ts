@@ -59356,9 +59356,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rotomheat: {
 		learnset: {
-			firespin: ["7R"],
+			firespin: ["7L1"],
 			overheat: ["8L1", "7R", "6R", "5R", "4R"],
-			sunnyday: ["7R"],
+			sunnyday: ["7L1"],
 		},
 	},
 	rotomwash: {
