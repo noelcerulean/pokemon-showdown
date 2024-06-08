@@ -59364,28 +59364,28 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	rotomwash: {
 		learnset: {
 			hydropump: ["8L1", "7R", "6R", "5R", "4R"],
-			watersport: ["7R"],
-			whirlpool: ["7R"],
+			watersport: ["7L1"],
+			whirlpool: ["7L1"],
 		},
 	},
 	rotomfrost: {
 		learnset: {
 			blizzard: ["8L1", "7R", "6R", "5R", "4R"],
-			glaciate: ["7R"],
-			hail: ["7R"],
+			glaciate: ["7L1"],
+			hail: ["7L1"],
 		},
 	},
 	rotomfan: {
 		learnset: {
 			airslash: ["8L1", "7R", "6R", "5R", "4R"],
-			hurricane: ["7R"],
-			tailwind: ["7R"],
+			hurricane: ["7L1"],
+			tailwind: ["7L1"],
 		},
 	},
 	rotommow: {
 		learnset: {
-			energyball: ["7R"],
-			grassyterrain: ["7R"],
+			energyball: ["7L1"],
+			grassyterrain: ["7L1"],
 			leafstorm: ["8L1", "7R", "6R", "5R", "4R"],
 		},
 	},
