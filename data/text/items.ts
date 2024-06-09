@@ -680,6 +680,13 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Frost Orb",
 		desc: "At the end of every turn, this item attempts to freeze the holder.",
 	},
+	fruitincense: {
+		name: "Fruit Incense",
+		desc: "Holder gains 1.3x HP from draining/Aqua Ring/Ingrain/Leech Seed/Strength Sap.",
+		gen6: {
+			desc: "Holder gains 1.3x HP from draining moves, Aqua Ring, Ingrain, and Leech Seed.",
+		},
+	},
 	fullincense: {
 		name: "Full Incense",
 		desc: "Holder moves last in its priority bracket.",

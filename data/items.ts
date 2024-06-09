@@ -209,7 +209,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Stoked Sparksurfer",
 		zMoveFrom: "Thunderbolt",
-		itemUser: ["Raichu-Alola"],
+		itemUser: ["Raichu-Alola", "Raichu-Alola-Suntan"],
 		num: 803,
 		gen: 7,
 		isNonstandard: "Past",
@@ -1775,7 +1775,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Boisterous Blackout",
 		zMoveFrom: "Power Outage",
-		itemUser: ["Electrode"],
+		itemUser: ["Electrode", "Electrode-Beach"],
 		num: -507,
 		gen: 7,
 		isNonstandard: "Past",
@@ -2335,6 +2335,22 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: -515,
 		gen: 7,
+	},
+	fruitincense: {
+		name: "Fruit Incense",
+		spritenum: 790,
+		fling: {
+			basePower: 10,
+		},
+		onTryHealPriority: 1,
+		onTryHeal(damage, target, source, effect) {
+			const heals = ['drain', 'leechseed', 'ingrain', 'aquaring', 'strengthsap'];
+			if (heals.includes(effect.id)) {
+				return this.chainModify([5324, 4096]);
+			}
+		},
+		num: -553,
+		gen: 3,
 	},
 	fullincense: {
 		name: "Full Incense",
@@ -5494,7 +5510,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			}
 			return true;
 		},
-		itemUser: ["Vespiquen"],
+		itemUser: ["Vespiquen", "Vespiquen-Starlight", "Vespiquen-Yasqueen"],
 		num: -534,
 		gen: 7,
 	},
@@ -5800,7 +5816,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		spritenum: 764,
 		onStart(pokemon) {
-			if (pokemon.baseSpecies.name !== 'Spinda') return;
+			if (pokemon.baseSpecies.num !== 327) return;
 			pokemon.addVolatile('confusion');
 			if (pokemon.volatiles['confusion']) {
 				this.boost({atk: 2});
@@ -5813,7 +5829,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			}
 			return true;
 		},
-		itemUser: ["Spinda"],
+		itemUser: ["Spinda", "Spinda-Margaritaville"],
 		num: -521,
 		gen: 7,
 	},
@@ -6472,7 +6488,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			}
 			return true;
 		},
-		itemUser: ["Marowak", "Cubone"],
+		itemUser: ["Marowak", "Marowak-Alola", "Cubone", "Cubone-Alola", "Cubone-Happy"],
 		num: 258,
 		gen: 2,
 	},

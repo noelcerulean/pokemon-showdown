@@ -2942,6 +2942,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	tropetite: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	tropius: {
 		isNonstandard: "Past",
 		tier: "Illegal",

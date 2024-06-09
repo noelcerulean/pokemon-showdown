@@ -2587,6 +2587,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	tropetite: {
+		tier: "LC",
+	},
 	tropius: {
 		randomBattleMoves: ["acrobatics", "dragontail", "leechseed", "protect", "substitute", "roost", "toxic", "woodhammer"],
 		randomDoubleBattleMoves: ["acrobatics", "gigadrain", "leechseed", "protect", "roost", "tailwind"],

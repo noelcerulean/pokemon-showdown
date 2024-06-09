@@ -1664,6 +1664,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	dusclops: {
 		name: "Dusclops",
 	},
+	tropetite: {
+		name: "Tropetite",
+	},
 	tropius: {
 		name: "Tropius",
 	},

@@ -198,8 +198,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	bonemaster: {
 		name: "Bone Master",
-		desc: "This pokemon's bone moves bypass type-based immunities & Levitate when dealing damage. Other ability granted immunities, such as Clay Construction, are not ignored.",
-		shortDesc: "User's bone moves bypass type-based immunities & Levitate when dealing damage.",
+		desc: "This pokemon's bone moves bypass type-based immunities & levitation-based immunities when dealing damage. Other ability granted immunities, such as Clay Construction, are not ignored.",
+		shortDesc: "User's bone moves bypass type and levitation based immunities when dealing damage.",
 	},
 	bugcatcher: {
 		name: "Bugcatcher",
