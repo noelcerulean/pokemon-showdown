@@ -16844,8 +16844,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		tags: ["Sub-Legendary"],
 		eggGroups: ["Undiscovered"],
-		cosmeticFormes: ["Blacephalon-Disco"],
-		formeOrder: ["Blacephalon", "Blacephalon-Disco"],
+		cosmeticFormes: ["Blacephalon-Disco", "Blacephalon-Beach"],
+		formeOrder: ["Blacephalon", "Blacephalon-Disco", "Blacephalon-Beach"],
 	},
 	zeraora: {
 		num: 807,

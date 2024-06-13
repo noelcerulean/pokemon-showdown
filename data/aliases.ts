@@ -527,6 +527,7 @@ export const Aliases: {[alias: string]: string} = {
 	gravkingbeachgrill: "Gravking",
 	spindamargaritaville: "Spinda",
 	reuniclusbeach: "Reuniclus",
+	blacephalonbeach: "Blacephalon",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",
