@@ -127,7 +127,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	ambrosia: {
 		onTryHit(target, source, move) {
-			if (target !== source && target.species.id === 'kiwuit') {
+			if (target !== source && target.baseSpecies.num === -534) {
 				if (target.ignoringItem()) return;
 				const item = target.getItem();
 				if (!item.naturalGift) return;
@@ -139,7 +139,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onTakeItem(item, pokemon, source) {
 			if (!this.activeMove) throw new Error("Battle.activeMove is null");
-			if (!item.isBerry || (pokemon.species.id !== 'kiwuit')) return;
+			if (!item.isBerry || (pokemon.baseSpecies.num !== -534)) return;
 			if ((source && source !== pokemon) || this.activeMove.id === 'knockoff') {
 				return false;
 			}
