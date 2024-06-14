@@ -1,4 +1,4 @@
 [
-{"title":"Lobby","auth":{},"creationTime":1625777229524,"autojoin":true,"section":"official"},
+{"title":"Lobby","auth":{},"creationTime":1625777229524,"autojoin":true,"section":"official","defaultFormat": "gen7"},
 {"title":"Staff","auth":{},"creationTime":1625777229524,"isPrivate":"hidden","modjoin":"%","autojoin":true}
 ]
