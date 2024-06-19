@@ -250,6 +250,7 @@ const avatarTable = new Set([
 	'mira',
 	'misty-gen1', 'misty-gen2', 'misty-gen1rb', 'misty-gen3', 'misty',
 	'mitch',
+	'moby',
 	'morty-gen2', 'morty',
 	'mrfuji-gen3',
 	'musician',
