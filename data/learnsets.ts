@@ -45902,6 +45902,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			avalanche: ["8M", "4M"],
 			bite: ["8L16", "7L1", "6L1", "5L1", "4L1", "3L1"],
 			blizzard: ["8M", "7M", "6M", "5M", "4M", "3M"],
+			bluebites: ["7S2"],
 			bounce: ["8M", "7T", "6T", "5T", "4T"],
 			brine: ["8M", "4M"],
 			bulldoze: ["8M", "7M", "6M", "5M"],
@@ -45982,6 +45983,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		eventData: [
 			{generation: 6, level: 50, nature: "Adamant", isHidden: true, moves: ["aquajet", "crunch", "icefang", "destinybond"], pokeball: "cherishball"},
 			{generation: 6, level: 43, gender: "M", perfectIVs: 2, moves: ["scaryface", "slash", "poisonfang", "crunch"], pokeball: "cherishball"},
+			{generation: 7, level: 50, moves: ["bluebites"], pokeball: "pokeball"},
 		],
 		encounters: [
 			{generation: 7, level: 10},
