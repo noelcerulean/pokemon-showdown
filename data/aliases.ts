@@ -528,6 +528,7 @@ export const Aliases: {[alias: string]: string} = {
 	spindamargaritaville: "Spinda",
 	reuniclusbeach: "Reuniclus",
 	blacephalonbeach: "Blacephalon",
+	dwebblefnficecream: "Dwebble-FnF",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",

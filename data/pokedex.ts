@@ -11753,6 +11753,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		evos: ["Crustle-FnF"],
 		eggGroups: ["Bug", "Mineral"],
+		cosmeticFormes: ["Dwebble-FnF-Icecream"],
+		formeOrder: ["Dwebble-FnF", "Dwebble-FnF-Icecream"],
 	},
 	crustle: {
 		num: 558,
