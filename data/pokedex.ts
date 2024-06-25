@@ -8027,7 +8027,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 50,
 		eggGroups: ["Dragon"],
 		otherFormes: ["Salamence-Mega"],
-		formeOrder: ["Salamence", "Salamence-Mega"],
+		cosmeticFormes: ["Salamence-Beach"],
+		formeOrder: ["Salamence", "Salamence-Beach", "Salamence-Mega"],
 	},
 	salamencemega: {
 		num: 373,
@@ -14638,7 +14639,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "trade",
 		eggGroups: ["Grass", "Amorphous"],
 		otherFormes: ["Trevenant-Mega"],
-		formeOrder: ["Trevenant", "Trevenant-Mega"],
+		cosmeticFormes: ["Trevenant-Beach"],
+		formeOrder: ["Trevenant", "Trevenant-Beach", "Trevenant-Mega"],
 	},
 	trevenantmega: {
 		num: 709,
