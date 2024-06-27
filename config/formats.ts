@@ -35,6 +35,13 @@ export const Formats: FormatList = [
 		unbanlist: ['Scizor-Mega'],
 	},
 	{
+		name: "[Gen 7] Safari",
+
+		mod: 'gen7',
+		ruleset: ['Standard Draft'],
+		banlist: ['Ignajara + Ignition', 'Gothitelle + Shadow Tag', 'Blaziken + Speed Boost', 'Greninja + Amphibious', 'Battle Bond', 'Power Construct', 'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Poliwrathium Z,', 'Mewnium Z'],
+	},
+	{
 		name: "[Gen 7] OU",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/dex/sm/tags/ou/">USM OU Banlist</a>`,
