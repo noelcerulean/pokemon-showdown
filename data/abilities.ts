@@ -4722,6 +4722,31 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 220,
 	},
+	soullantern: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Ghost') {
+				if (!this.boost({spa: 1})) {
+					this.add('-immune', target, '[from] ability: Soul Lantern');
+				}
+				return null;
+			}
+		},
+		onAnyRedirectTarget(target, source, source2, move) {
+			if (move.type !== 'Ghost' || ['firepledge', 'grasspledge', 'waterpledge'].includes(move.id)) return;
+			const redirectTarget = ['randomNormal', 'adjacentFoe'].includes(move.target) ? 'normal' : move.target;
+			if (this.validTarget(this.effectState.target, source, redirectTarget)) {
+				if (move.smartTarget) move.smartTarget = false;
+				if (this.effectState.target !== target) {
+					this.add('-activate', this.effectState.target, 'ability: Soul Lantern');
+				}
+				return this.effectState.target;
+			}
+		},
+		isBreakable: true,
+		name: "Soul Lantern",
+		rating: 3,
+		num: -573,
+	},
 	soundproof: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.flags['sound']) {

@@ -1360,6 +1360,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},
+	chinchoufnf: {
+		tier: "LC",
+	},
+	lureturn: {
+		randomBattleMoves: ["petrifypulse", "strengthsap", "thunderbolt", "toxic", "voltswitch", "willowisp"],
+		randomDoubleBattleMoves: ["petrifypulse", "protect", "strengthsap", "thunderbolt", "thunderwave", "toxic", "voltswitch", "willowisp"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
 	togepi: {
 		tier: "LC",
 	},

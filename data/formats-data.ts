@@ -1694,6 +1694,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	chinchou: {
 		tier: "LC",
 	},
+	chinchoufnf: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	lanturn: {
 		randomBattleMoves: ["healbell", "icebeam", "scald", "thunderbolt", "toxic", "voltswitch"],
 		randomBattleLevel: 86,
@@ -1701,6 +1705,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 90,
 		tier: "PU",
 		doublesTier: "(DUU)",
+	},
+	lureturn: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	togepi: {
 		tier: "LC",

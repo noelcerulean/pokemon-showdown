@@ -845,8 +845,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	chinchou: {
 		name: "Chinchou",
 	},
+	chinchoufnf: {
+		name: "Chinchou-FnF",
+	},
 	lanturn: {
 		name: "Lanturn",
+	},
+	lureturn: {
+		name: "Lureturn",
 	},
 	pichu: {
 		name: "Pichu",

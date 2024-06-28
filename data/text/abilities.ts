@@ -1720,6 +1720,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon's Special Attack is raised by 1 stage when another Pokemon faints.",
 		shortDesc: "This Pokemon's Sp. Atk is raised by 1 stage when another Pokemon faints.",
 	},
+	soullantern: {
+		name: "Soul Lantern",
+		desc: "This Pokemon is immune to Ghost-type moves and raises its Special Attack by 1 stage when hit by an Ghost-type move. If this Pokemon is not the target of a single-target Ghost-type move used by another Pokemon, this Pokemon redirects that move to itself if it is within the range of that move.",
+		shortDesc: "This Pokemon draws Ghost moves to itself to raise Sp. Atk by 1; Ghost immunity.",
+
+		activate: "  [POKEMON] took the attack!",
+	},
 	soundproof: {
 		name: "Soundproof",
 		shortDesc: "This Pokemon is immune to sound-based moves, including Heal Bell.",

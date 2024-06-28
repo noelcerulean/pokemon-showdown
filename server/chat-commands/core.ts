@@ -235,6 +235,7 @@ const avatarTable = new Set([
 	'lyra-pokeathlon', 'lyra',
 	'madame-gen4dp', 'madame-gen4', 'madame',
 	'maid-gen4', 'maid',
+	'marian',
 	'marley',
 	'marli',
 	'marlon',
