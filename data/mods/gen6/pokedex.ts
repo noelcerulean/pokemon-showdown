@@ -35,9 +35,13 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Levitate"},
 	},
+	voltorb: {
+		inherit: true,
+		abilities: {0: "Soundproof", 1: "Static"},
+	},
 	electrode: {
 		inherit: true,
-		baseStats: {hp: 60, atk: 50, def: 70, spa: 80, spd: 80, spe: 140},
+		abilities: {0: "Soundproof", 1: "Static"},
 	},
 	exeggutor: {
 		inherit: true,
@@ -81,6 +85,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Pressure", H: "Water Absorb"},
 		unreleasedHidden: true,
+	},
+	beautifly: {
+		inherit: true,
+		abilities: {0: "Swarm", 1: "Early Bird", H: "Rivalry"},
 	},
 	swellow: {
 		inherit: true,

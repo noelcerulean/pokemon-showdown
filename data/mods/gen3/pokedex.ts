@@ -89,11 +89,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	mankey: {
 		inherit: true,
-		abilities: {0: "Vital Spirit"},
+		abilities: {0: "Adrenalize"},
 	},
 	primeape: {
 		inherit: true,
-		abilities: {0: "Anger Point"},
+		abilities: {0: "Adrenalize"},
 	},
 	machop: {
 		inherit: true,
@@ -266,6 +266,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	miltank: {
 		inherit: true,
 		abilities: {0: "Thick Fat"},
+	},
+	wurmple: {
+		inherit: true,
+		abilities: {0: "Shield Dust"},
 	},
 	poochyena: {
 		inherit: true,
