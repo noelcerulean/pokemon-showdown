@@ -992,6 +992,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	bombseal: {
 		name: "Bombseal",
 	},
+	seward: {
+		name: "Seward",
+	},
 	anchorage: {
 		name: "Anchorage",
 	},

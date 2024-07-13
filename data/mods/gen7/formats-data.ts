@@ -1560,6 +1560,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
+	seward: {
+		tier: "LC",
+	},
 	anchorage: {
 		randomBattleMoves: ["anchorshot", "knockoff", "liquidation", "protect", "swordsdance", "toxic"],
 		randomDoubleBattleMoves: ["anchorshot", "knockoff", "liquidation", "protect", "swordsdance"],

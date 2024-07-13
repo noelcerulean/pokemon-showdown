@@ -1891,6 +1891,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	seward: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	anchorage: {
 		isNonstandard: "Past",
 		tier: "Illegal",
