@@ -1594,6 +1594,8 @@ export class RandomGen7Teams extends RandomTeams {
 			batonpass: 1,
 			stealthrock: 1,
 			defog: 1,
+			demolition: 1,
+			aggregate: 1,
 			spikes: 1,
 			toxicspikes: 1,
 		};
@@ -1601,6 +1603,8 @@ export class RandomGen7Teams extends RandomTeams {
 			stealthrock: 'hazardSet',
 			rapidspin: 'hazardClear',
 			defog: 'hazardClear',
+			demolition: 'hazardClear',
+			aggregate: 'hazardClear',
 		};
 		const weatherAbilitiesRequire: {[k: string]: string} = {
 			hydration: 'raindance', swiftswim: 'raindance',
@@ -1716,6 +1720,8 @@ export class RandomGen7Teams extends RandomTeams {
 			stealthrock: 'hazardSet',
 			rapidspin: 'hazardClear',
 			defog: 'hazardClear',
+			demolition: 'hazardClear',
+			aggregate: 'hazardClear',
 		};
 		const weatherAbilitiesSet: {[k: string]: string} = {
 			drizzle: 'raindance',
@@ -1730,7 +1736,7 @@ export class RandomGen7Teams extends RandomTeams {
 			lightningrod: ['Electric'], motordrive: ['Electric'], voltabsorb: ['Electric'],
 			sapsipper: ['Grass'],
 			thickfat: ['Ice', 'Fire'],
-			levitate: ['Ground'],
+			levitate: ['Ground'], clayconstruction: ['Ground'], eartheater: ['Ground'],
 		};
 
 		while (pokemonPool.length && pokemon.length < this.maxTeamSize) {
@@ -1994,7 +2000,7 @@ export class RandomGen7Teams extends RandomTeams {
 			thickfat: ['Ice', 'Fire'],
 			tropicalcurrent: ['Ice'],
 			bugcatcher: ['Bug'],
-			levitate: ['Ground'],
+			levitate: ['Ground'], clayconstruction: ['Ground'], eartheater: ['Ground'],
 		};
 
 		while (pokemonPool.length && pokemon.length < this.maxTeamSize) {
