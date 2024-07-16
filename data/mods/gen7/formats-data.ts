@@ -2952,7 +2952,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	bastiodondelta: {
 		randomBattleMoves: ["hex", "protect", "shadowball", "sludgewave", "toxic", "toxicspikes", "willowisp"],
 		randomDoubleBattleMoves: ["hex", "protect", "shadowball", "sludgewave", "toxic", "toxicspikes", "willowisp"],
-		tier: "UUBL",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	burmy: {
@@ -3743,7 +3743,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	darmanitan: {
 		randomBattleMoves: ["earthquake", "flareblitz", "rockslide", "superpower", "uturn"],
 		randomDoubleBattleMoves: ["earthquake", "flareblitz", "protect", "rockslide", "superpower", "uturn"],
-		tier: "RUBL",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	darmanizen: {
