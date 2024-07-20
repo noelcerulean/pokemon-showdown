@@ -1917,7 +1917,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	tangledfeet: {
 		name: "Tangled Feet",
-		shortDesc: "This Pokemon's evasiveness is increased by 1.25x as long as it is confused.",
+		shortDesc: "This Pokemon's evasiveness is increased by 1.2x as long as it is confused.",
 	},
 	tanglinghair: {
 		name: "Tangling Hair",
