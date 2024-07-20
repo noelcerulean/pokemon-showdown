@@ -4995,8 +4995,8 @@
 				"item": ["Leftovers"],
 				"ability": ["Prankster"],
 				"evs": {"hp": 252, "def": 252, "spd": 4},
-				"nature": "Impish",
-				"moves": [["Recover"], ["Will-O-Wisp"], ["Shadow Punch"], ["One-Two Punch"]]
+				"nature": "Bold",
+				"moves": [["Recover"], ["Will-O-Wisp"], ["Encore"], ["Seismic Toss"]]
 			}]
 		},
 		"sableyefnf": {
