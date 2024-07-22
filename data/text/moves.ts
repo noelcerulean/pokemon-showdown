@@ -4647,6 +4647,8 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Power Outage",
 		desc: "Supper Effective vs. Electric types. Has a 100% chance to paralyze the target.",
 		shortDesc: "Charges then attacks. Paralyzes. 2x vs Electric.",
+
+		prepare: "  [POKEMON] gathered electricity!",
 	},
 	powersplit: {
 		name: "Power Split",
