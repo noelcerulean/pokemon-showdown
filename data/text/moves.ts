@@ -1567,8 +1567,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	drillpeck: {
 		name: "Drill Peck",
-		desc: "Has a higher chance for a critical hit.",
-		shortDesc: "High critical hit ratio.",
+		shortDesc: "No additional effect.",
 	},
 	drillrun: {
 		name: "Drill Run",
@@ -4418,7 +4417,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	parasiticdrain: {
 		name: "Parasitic Drain",
 		desc: "Lowers the target's Attack and Sp. Attack by 1 stage. The user restores its HP equal to the target's averaged Attack and Sp. Attack stat. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. Fails if the target's Attack and Sp. Attack stat stage is -6.",
-		shortDesc: "-1 Atk&Sp. Atk. User heals target's Atk&SpA averaged.",
+		shortDesc: "-1 Atk&Sp. Atk. User heals target's avg Atk&SpA.",
 	},
 	partingshot: {
 		name: "Parting Shot",
