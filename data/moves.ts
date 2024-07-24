@@ -13319,9 +13319,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 			const success = this.boost({atk: -1, spa: -1}, target, source, null, false, true);
 			return !!(this.heal((Math.floor((atk + spa) / 2)), source, target) || success);
 		},
-		basePowerCallback(pokemon, target) {
-			return Math.floor(Math.floor((120 * (100 * Math.floor(target.hp * 4096 / target.maxhp)) + 2048 - 1) / 4096) / 100) || 1;
-		},
 		secondary: null,
 		target: "normal",
 		type: "Grass",
