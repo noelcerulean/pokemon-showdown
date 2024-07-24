@@ -35953,6 +35953,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowball: ["8M", "7M", "6M", "5M", "4M", "3M"],
 			sleeptalk: ["8M", "7M", "7V", "6M", "5T", "4M", "3T"],
 			snore: ["8M", "7T", "7V", "6T", "5T", "4T", "3T"],
+			sparklingwater: ["7L44", "6L44"],
 			spikecannon: ["7L20", "7V", "6L20", "5L40", "4L40", "3L28"],
 			stealthrock: ["8M", "7T", "6T", "5T", "5D", "4M"],
 			stompingtantrum: ["8M", "7T"],
