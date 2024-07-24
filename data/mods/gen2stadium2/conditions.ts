@@ -30,15 +30,15 @@ export const Conditions: {[k: string]: ModdedConditionData} = {
 			this.add('-status', target, 'par');
 			target.addVolatile('parspeeddrop');
 		},
-		onBeforeMovePriority: 2,
-		onBeforeMove(pokemon) {
-			if (this.randomChance(1, 4)) {
-				this.add('cant', pokemon, 'par');
-				return false;
-			}
-		},
 		onSwitchIn(pokemon) {
 			pokemon.addVolatile('parspeeddrop');
+		},
+		onModifyAccuracyPriority: -1,
+		onModifyAccuracy(accuracy, target) {
+			if (typeof accuracy === 'number') {
+				this.debug('Paralysis - increasing foe accuracy');
+				return this.chainModify([4916, 4096]);
+			}
 		},
 	},
 	slp: {

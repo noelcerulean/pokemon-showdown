@@ -38,18 +38,11 @@ export const Conditions: {[id: string]: ModdedConditionData} = {
 			this.add('-status', target, 'par');
 			target.addVolatile('parspeeddrop');
 		},
-		onBeforeMovePriority: 2,
-		onBeforeMove(pokemon) {
-			if (this.randomChance(63, 256)) {
-				this.add('cant', pokemon, 'par');
-				pokemon.removeVolatile('bide');
-				pokemon.removeVolatile('twoturnmove');
-				pokemon.removeVolatile('fly');
-				pokemon.removeVolatile('dig');
-				pokemon.removeVolatile('solarbeam');
-				pokemon.removeVolatile('skullbash');
-				pokemon.removeVolatile('partialtrappinglock');
-				return false;
+		onModifyAccuracyPriority: -1,
+		onModifyAccuracy(accuracy, target) {
+			if (typeof accuracy === 'number') {
+				this.debug('Paralysis - increasing foe accuracy');
+				return this.chainModify([4916, 4096]);
 			}
 		},
 		onSwitchIn(pokemon) {

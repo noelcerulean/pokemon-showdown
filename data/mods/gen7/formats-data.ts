@@ -2331,7 +2331,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	swalot: {
 		randomBattleMoves: ["clearsmog", "earthquake", "encore", "icebeam", "knockoff", "painsplit", "protect", "recover", "sludgebomb", "toxic", "yawn"],
 		randomDoubleBattleMoves: ["clearsmog", "encore", "icebeam", "knockoff", "poisongas", "protect", "recover", "sludgebomb", "yawn"],
-		tier: "UU",
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	carvanha: {
@@ -2578,13 +2578,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	banette: {
 		randomBattleMoves: ["destinybond", "knockoff", "shadowpunch", "shadowsneak", "suckerpunch", "taunt", "willowisp"],
 		randomDoubleBattleMoves: ["knockoff", "protect", "shadowpunch", "shadowsneak", "willowisp"],
-		tier: "NU",
+		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
 	banettemega: {
 		randomBattleMoves: ["destinybond", "haze", "knockoff", "shadowpunch", "suckerpunch", "taunt", "willowisp"],
 		randomDoubleBattleMoves: ["destinybond", "knockoff", "protect", "shadowpunch", "suckerpunch", "taunt", "willowisp"],
-		tier: "NU",
+		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
 	duskull: {

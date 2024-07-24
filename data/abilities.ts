@@ -3827,7 +3827,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	regenerator: {
 		onSwitchOut(pokemon) {
-			pokemon.heal(pokemon.baseMaxhp / 3);
+			pokemon.heal(pokemon.baseMaxhp / 4);
 		},
 		name: "Regenerator",
 		rating: 4.5,

@@ -185,11 +185,10 @@ export const DefaultText: {[k: string]: DefaultText} = {
 		damage: "[POKEMON] is hurt by frostbite!",
 	},
 	par: {
-		start: "  [POKEMON] is paralyzed! It may be unable to move!",
+		start: "  [POKEMON] is paralyzed!",
 		alreadyStarted: "  [POKEMON] is already paralyzed!",
 		end: "  [POKEMON] was cured of paralysis!",
 		endFromItem: "  [POKEMON]'s [ITEM] cured its paralysis!",
-		cant: "[POKEMON] is paralyzed! It can't move!",
 	},
 	psn: {
 		start: "  [POKEMON] was poisoned!",

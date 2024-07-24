@@ -36,13 +36,11 @@ export const Conditions: {[k: string]: ModdedConditionData} = {
 				return this.chainModify(0.5);
 			}
 		},
-		onBeforeMovePriority: 1,
-		onBeforeMove(pokemon) {
-			if (!pokemon.hasAbility('therapeutic')) {
-				if (this.randomChance(1, 4)) {
-					this.add('cant', pokemon, 'par');
-					return false;
-				}
+		onModifyAccuracyPriority: -1,
+		onModifyAccuracy(accuracy, target) {
+			if (typeof accuracy === 'number') {
+				this.debug('Paralysis - increasing foe accuracy');
+				return this.chainModify([4916, 4096]);
 			}
 		},
 	},

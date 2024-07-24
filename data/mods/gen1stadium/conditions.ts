@@ -19,21 +19,6 @@ export const Conditions: {[k: string]: ModdedConditionData} = {
 		onStart(target) {
 			this.add('-status', target, 'par');
 		},
-		onBeforeMovePriority: 2,
-		onBeforeMove(pokemon) {
-			if (this.randomChance(63, 256)) {
-				this.add('cant', pokemon, 'par');
-				pokemon.removeVolatile('bide');
-				pokemon.removeVolatile('lockedmovee');
-				pokemon.removeVolatile('twoturnmove');
-				pokemon.removeVolatile('fly');
-				pokemon.removeVolatile('dig');
-				pokemon.removeVolatile('solarbeam');
-				pokemon.removeVolatile('skullbash');
-				pokemon.removeVolatile('partialtrappinglock');
-				return false;
-			}
-		},
 	},
 	slp: {
 		name: 'slp',

@@ -9,15 +9,6 @@ export const Conditions: {[k: string]: ModdedConditionData} = {
 		onResidualOrder: 10,
 		onResidualSubOrder: 6,
 	},
-	par: {
-		inherit: true,
-		onBeforeMove(pokemon) {
-			if (!pokemon.hasAbility('magicguard') && this.randomChance(1, 4)) {
-				this.add('cant', pokemon, 'par');
-				return false;
-			}
-		},
-	},
 	slp: {
 		name: 'slp',
 		effectType: 'Status',

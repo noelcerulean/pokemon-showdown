@@ -13,17 +13,6 @@ export const Conditions: {[k: string]: ModdedConditionData} = {
 			residualdmg(this, pokemon);
 		},
 	},
-	par: {
-		name: 'par',
-		inherit: true,
-		onBeforeMovePriority: 2,
-		onBeforeMove(pokemon) {
-			if (this.randomChance(1, 4)) {
-				this.add('cant', pokemon, 'par');
-				return false;
-			}
-		},
-	},
 	slp: {
 		name: 'slp',
 		effectType: 'Status',

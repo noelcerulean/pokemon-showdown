@@ -4112,8 +4112,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	moonblast: {
 		name: "Moonblast",
-		desc: "Has a 30% chance to lower the target's Special Attack by 1 stage.",
-		shortDesc: "30% chance to lower the target's Sp. Atk by 1.",
+		desc: "Has a 10% chance to lower the target's Special Attack by 1 stage.",
+		shortDesc: "10% chance to lower the target's Sp. Atk by 1.",
 	},
 	moongeistbeam: {
 		name: "Moongeist Beam",
@@ -4417,8 +4417,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	parasiticdrain: {
 		name: "Parasitic Drain",
-		desc: "Lowers the target's Attack and Sp. Attack by 1 stage. The user restores its HP equal to the target's higher attacking stat calculated with its stat stage before this move was used. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. Fails if the target's Attack and Sp. Attack stat stage is -6.",
-		shortDesc: "-1 Atk & Sp. Atk. User heals HP = target >stat.",
+		desc: "Lowers the target's Attack and Sp. Attack by 1 stage. The user restores its HP equal to the target's averaged Attack and Sp. Attack stat. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. Fails if the target's Attack and Sp. Attack stat stage is -6.",
+		shortDesc: "-1 Atk&Sp. Atk. User heals target's Atk&SpA averaged.",
 	},
 	partingshot: {
 		name: "Parting Shot",

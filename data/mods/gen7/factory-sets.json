@@ -1984,7 +1984,7 @@
 				"species": "Greninja",
 				"gender": "M",
 				"item": ["Choice Scarf"],
-				"ability": ["Torrent"],
+				"ability": ["Amphibious"],
 				"evs": {"atk": 176, "spa": 80, "spe": 252},
 				"nature": ["Naive", "Hasty"],
 				"moves": [["Rock Slide", "Gunk Shot"], ["U-turn"], ["Ice Beam"], ["Low Kick", "Spikes"]]
@@ -3017,6 +3017,17 @@
 				"evs": {"hp": 252, "def": 4, "spa": 252},
 				"nature": "Modest",
 				"moves": [["Parabolic Charge"], ["Volt Switch", "Toxic"], ["Stealth"], ["Earth Power"]]
+			}]
+		},
+		"swalot": {
+			"flags": {},
+			"sets": [{
+				"species": "Swalot",
+				"item": ["Black Sludge"],
+				"ability": ["Slow Digestion"],
+				"evs": {"hp": 252, "def": 4, "spd": 252},
+				"nature": "Sassy",
+				"moves": [["Recover"], ["Curse"], ["Protect", "Night Shade"], ["Knock Off"]]
 			}]
 		},
 		"tangrowth": {
@@ -5281,17 +5292,6 @@
 				"evs": {"hp": 252, "spa": 252, "spd": 4},
 				"nature": "Modest",
 				"moves": [["Giga Drain"], ["Sunshine Dance"], ["Earth Power"], ["Synthesis"]]
-			}]
-		},
-		"swalot": {
-			"flags": {},
-			"sets": [{
-				"species": "Swalot",
-				"item": ["Black Sludge"],
-				"ability": ["Slow Digestion"],
-				"evs": {"hp": 252, "def": 4, "spd": 252},
-				"nature": "Sassy",
-				"moves": [["Recover"], ["Curse"], ["Protect", "Night Shade"], ["Knock Off"]]
 			}]
 		},
 		"swampert": {

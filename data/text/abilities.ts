@@ -1391,7 +1391,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	regenerator: {
 		name: "Regenerator",
-		shortDesc: "This Pokemon restores 1/3 of its maximum HP, rounded down, when it switches out.",
+		shortDesc: "This Pokemon restores 1/4 of its maximum HP, rounded down, when it switches out.",
 	},
 	retribution: {
 		name: "Retribution",

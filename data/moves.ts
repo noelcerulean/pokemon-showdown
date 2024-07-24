@@ -4274,7 +4274,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 20,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, distance: 1},
-		critRatio: 2,
 		secondary: null,
 		target: "any",
 		type: "Flying",
@@ -12260,14 +12259,14 @@ export const Moves: {[moveid: string]: MoveData} = {
 	moonblast: {
 		num: 585,
 		accuracy: 100,
-		basePower: 95,
+		basePower: 90,
 		category: "Special",
 		name: "Moonblast",
 		pp: 15,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
-			chance: 30,
+			chance: 10,
 			boosts: {
 				spa: -1,
 			},
@@ -13315,15 +13314,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1, reflectable: 1, mirror: 1, heal: 1},
 		onHit(target, source) {
 			if (target.boosts.atk === -6 && target.boosts.spa === -6) return false;
-			if (target.getStat('atk', false, true) >= target.getStat('spa', false, true)) {
-				const atk = target.getStat('atk', false, true);
-				const success = this.boost({atk: -1, spa: -1}, target, source, null, false, true);
-				return !!(this.heal(atk, source, target) || success);
-			} else if (target.getStat('spa', false, true) > target.getStat('atk', false, true)) {
-				const spa = target.getStat('spa', false, true);
-				const success = this.boost({atk: -1, spa: -1}, target, source, null, false, true);
-				return !!(this.heal(spa, source, target) || success);
-			}
+			const atk = target.getStat('atk', false, true);
+			const spa = target.getStat('spa', false, true);
+			const success = this.boost({atk: -1, spa: -1}, target, source, null, false, true);
+			return !!(this.heal((Math.floor((atk + spa) / 2)), source, target) || success);
+		},
+		basePowerCallback(pokemon, target) {
+			return Math.floor(Math.floor((120 * (100 * Math.floor(target.hp * 4096 / target.maxhp)) + 2048 - 1) / 4096) / 100) || 1;
 		},
 		secondary: null,
 		target: "normal",
