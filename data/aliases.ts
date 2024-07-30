@@ -531,6 +531,10 @@ export const Aliases: {[alias: string]: string} = {
 	dwebblefnficecream: "Dwebble-FnF",
 	trevenantbeach: "Trevenant",
 	salamencebeach: "Salamence",
+	dustoxpoodle: "Dustox",
+	darmanitanascended: "Darmanitan",
+	primarinapride: "Primarina",
+	ariadoscritter: "Ariados",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",

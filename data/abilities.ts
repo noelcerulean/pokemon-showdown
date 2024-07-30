@@ -4723,6 +4723,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 220,
 	},
 	soullantern: {
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Soul Lantern');
+		},
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Ghost') {
 				if (!this.boost({spa: 1})) {
