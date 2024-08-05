@@ -5913,6 +5913,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	turtottle: {
+		tier: "LC",
+	},
 	turtonator: {
 		randomBattleMoves: ["bodypress", "dracometeor", "earthquake", "fireblast", "rapidspin", "shellsmash", "willowisp"],
 		randomBattleLevel: 84,
@@ -5952,6 +5955,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	bruxish: {
 		isNonstandard: "Past",
 		tier: "Illegal",
+	},
+	drild: {
+		tier: "LC",
 	},
 	drampa: {
 		randomBattleMoves: ["dracometeor", "fireblast", "glare", "hypervoice", "roost", "thunderbolt"],

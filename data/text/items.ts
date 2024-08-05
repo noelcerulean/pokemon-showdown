@@ -1273,6 +1273,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 			desc: "Holder's Water-type attacks have 1.1x power.",
 		},
 	},
+	mythincense: {
+		name: "Myth Incense",
+		desc: "Holder's Dragon-type attacks have 1.2x power.",
+	},
 	nanabberry: {
 		name: "Nanab Berry",
 		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",

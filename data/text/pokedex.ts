@@ -3506,6 +3506,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	komala: {
 		name: "Komala",
 	},
+	turtottle: {
+		name: "Turtottle",
+	},
 	turtonator: {
 		name: "Turtonator",
 	},
@@ -3529,6 +3532,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	bruxish: {
 		name: "Bruxish",
+	},
+	drild: {
+		name: "Drild",
 	},
 	drampa: {
 		name: "Drampa",

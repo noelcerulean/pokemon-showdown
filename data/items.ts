@@ -4260,6 +4260,21 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 243,
 		gen: 2,
 	},
+	mythincense: {
+		name: "Myth Incense",
+		spritenum: 791,
+		fling: {
+			basePower: 10,
+		},
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move.type === 'Dragon') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
+		num: -554,
+		gen: 7,
+	},
 	nanabberry: {
 		name: "Nanab Berry",
 		spritenum: 302,

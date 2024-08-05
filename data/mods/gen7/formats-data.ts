@@ -5291,8 +5291,11 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	turtottle: {
+		tier: "LC",
+	},
 	turtonator: {
-		randomBattleMoves: ["dracometeor", "dragonpulse", "dragontail", "earthquake", "explosion", "fireblast", "morningsun", "shellsmash"],
+		randomBattleMoves: ["dracometeor", "dragonpulse", "dragontail", "earthquake", "explosion", "fireblast", "morningsun", "shellsmash", "spikes"],
 		randomDoubleBattleMoves: ["dracometeor", "dragonpulse", "fireblast", "protect", "shellsmash"],
 		tier: "NU",
 		doublesTier: "(DUU)",
@@ -5323,6 +5326,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["aquajet", "crunch", "liquidation", "protect", "psychicfangs", "swordsdance"],
 		tier: "NU",
 		doublesTier: "DUU",
+	},
+	drild: {
+		tier: "LC",
 	},
 	drampa: {
 		randomBattleMoves: ["dracometeor", "dragonpulse", "fireblast", "glare", "hypervoice", "roost", "thunderbolt"],
