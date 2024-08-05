@@ -2889,6 +2889,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
+	billbie: {
+		tier: "LC",
+	},
 	bidoof: {
 		tier: "LC",
 	},

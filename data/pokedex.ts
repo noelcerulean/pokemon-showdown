@@ -8589,6 +8589,17 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 34,
 		eggGroups: ["Flying"],
 	},
+	billbie: {
+		num: -559,
+		name: "Billbie",
+		types: ["Normal", "Flying"],
+		baseStats: {hp: 37, atk: 71, def: 51, spa: 25, spd: 34, spe: 63},
+		abilities: {0: "Big Pecks", 1: "Keen Eye", H: "Pickup"},
+		heightm: 0.3,
+		weightkg: 2,
+		color: "Brown",
+		eggGroups: ["Flying"],
+	},
 	bidoof: {
 		num: 399,
 		name: "Bidoof",

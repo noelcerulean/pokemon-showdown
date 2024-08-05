@@ -3940,7 +3940,7 @@
 			"sets": [{
 				"species": "Farfetch\u2019d",
 				"item": ["Stick"],
-				"ability": ["Sniper"],
+				"ability": ["Super Luck"],
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Swords Dance"], ["Drill Peck"], ["Leaf Blade"], ["Knock Off", "Slash", "Quick Attack"]]

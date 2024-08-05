@@ -213,6 +213,7 @@ export const Formats: FormatList = [
 			'Scyther', 'Sneasel', 'Swirlix', 'Tangela', 'Trapinch', 'Vulpix-Base', 'Wingull', 'Yanma',
 			'Eevium Z', 'Baton Pass', 'Dragon Rage', 'Sonic Boom', 'Sticky Web',
 		],
+		unbanlist: ['Chinchou', 'Mantyke', "Billbie"],
 	},
 	{
 		name: "[Gen 7] Monotype",

@@ -3244,6 +3244,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	billbie: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	bidoof: {
 		isNonstandard: "Past",
 		tier: "Illegal",

@@ -1841,6 +1841,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	staraptor: {
 		name: "Staraptor",
 	},
+	billbie: {
+		name: "Billbie",
+	},
 	bidoof: {
 		name: "Bidoof",
 	},
