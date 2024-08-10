@@ -3864,6 +3864,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 79.5,
 		color: "Yellow",
 		eggGroups: ["Undiscovered"],
+		cosmeticFormes: ["Typhlosion-Vesuvius-Elden"],
+		formeOrder: ["Typhlosion-Vesuvius", "Typhlosion-Vesuvius-Elden"],
 	},
 	totodile: {
 		num: 158,
@@ -9370,6 +9372,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 1.9,
 		color: "Black",
 		eggGroups: ["Flying"],
+		cosmeticFormes: ["Chatot-Ringneck"],
+		formeOrder: ["Chatot", "Chatot-Ringneck"],
 	},
 	spiritomb: {
 		num: 442,
@@ -14665,6 +14669,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Rollette",
 		evoLevel: 42,
 		eggGroups: ["Mineral"],
+		cosmeticFormes: ["Cashino-Vintage"],
+		formeOrder: ["Cashino", "Cashino-Vintage"],
 	},
 	phantump: {
 		num: 708,

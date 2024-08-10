@@ -887,7 +887,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	tangrowth: {
 		randomBattleMoves: ["earthquake", "gigadrain", "hiddenpowerfire", "knockoff", "leafstorm", "rockslide", "sleeppowder", "synthesis"],
 		randomDoubleBattleMoves: ["earthquake", "focusblast", "gigadrain", "hiddenpowerice", "knockoff", "leechseed", "powerwhip", "protect", "ragepowder", "sleeppowder"],
-		tier: "UUBL",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	rooskhan: {
@@ -1255,7 +1255,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	robodachi: {
 		randomBattleMoves: ["holdhands", "overheat", "psychic", "recover", "technoblast"],
 		randomDoubleBattleMoves: ["holdhands", "overheat", "protect", "psychic", "recover", "technoblast"],
-		tier: "UUBL",
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	chikorita: {
@@ -1990,7 +1990,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	beautifly: {
 		randomBattleMoves: ["bugbuzz", "energyball", "hiddenpowerfighting", "psychic", "quiverdance"],
 		randomDoubleBattleMoves: ["aircutter", "bugbuzz", "protect", "quiverdance", "stringshot", "tailwind"],
-		tier: "UUBL",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	cascoon: {
@@ -2132,7 +2132,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	ninjask: {
 		randomBattleMoves: ["brickbreak", "dig", "flutterstrike", "leechlife", "nightslash", "swordsdance", "uturn"],
 		randomDoubleBattleMoves: ["brickbreak", "dig", "flutterstrike", "leechlife", "protect", "swordsdance"],
-		tier: "UUBL",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	shedinja: {

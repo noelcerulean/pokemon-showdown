@@ -535,6 +535,9 @@ export const Aliases: {[alias: string]: string} = {
 	darmanitanascended: "Darmanitan",
 	primarinapride: "Primarina",
 	ariadoscritter: "Ariados",
+	chatotringneck: "Chatot",
+	cashinovintage: "Cashino",
+	typhlosionvesuviuselden: "Typhlosion-Vesuvius",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",

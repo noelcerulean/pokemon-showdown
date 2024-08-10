@@ -1297,18 +1297,6 @@
 				"moves": [["Toxic"], ["Stealth Rock"], ["Baneful Bunker"], ["Night Shade"]]
 			}]
 		},
-		"beautifly": {
-			"flags": {},
-			"sets": [{
-				"species": "Beautifly",
-				"item": ["Focus Sash", "Expert Belt"],
-				"ability": ["Dazzling"],
-				"evs": {"spa": 252, "def": 4, "spe": 252},
-				"ivs": {"atk": 0},
-				"nature": ["Timid"],
-				"moves": [["Quiver Dance"], ["Hurricane"], ["Bug Buzz"], ["Heat Wave"]]
-			}]
-		},
 		"blacephalon": {
 			"flags": {},
 			"sets": [{
@@ -2540,31 +2528,6 @@
 				"moves": [["Aurora Veil"], ["Freeze-Dry"], ["Moonblast"], ["Hypnosis", "Hail"]]
 			}]
 		},
-		"ninjask": {
-			"flags": {},
-			"sets": [{
-				"species": "Ninjask",
-				"item": ["Life Orb"],
-				"ability": ["Speed Boost"],
-				"evs": {"atk": 252, "def": 4, "spe": 252},
-				"nature": "Adamant",
-				"moves": [["Flutter Strike"], ["U-Turn"], ["Brick Break"], ["Leech Life"]]
-			}, {
-				"species": "Ninjask",
-				"item": ["Focus Sash"],
-				"ability": ["Speed Boost"],
-				"evs": {"atk": 252, "def": 4, "spe": 252},
-				"nature": "Adamant",
-				"moves": [["Flutter Strike"], ["U-Turn"], ["Brick Break"], ["Spikes"]]
-			}, {
-				"species": "Ninjask",
-				"item": ["Focus Sash"],
-				"ability": ["Speed Boost"],
-				"evs": {"atk": 252, "def": 4, "spe": 252},
-				"nature": "Adamant",
-				"moves": [["Flutter Strike"], ["Leech Life"], ["Brick Break"], ["Swords Dance"]]
-			}]
-		},
 		"nuzleafarmored": {
 			"flags": {},
 			"sets": [{
@@ -2696,31 +2659,6 @@
 				"evs": {"hp": 252, "def": 252, "spd": 4},
 				"nature": "Relaxed",
 				"moves": [["Scald"], ["Earthquake"], ["Recover"], ["Toxic"]]
-			}]
-		},
-		"robodachi": {
-			"flags": {},
-			"sets": [{
-				"species": "Robodachi",
-				"item": ["Choice Specs"],
-				"ability": ["Volt Absorb"],
-				"evs": {"spa": 252, "spd": 4, "spe": 252},
-				"nature": "Modest",
-				"moves": [["Techno Blast"], ["Overheat"], ["Flash Cannon"], ["Dry Pass"]]
-			}, {
-				"species": "Robodachi",
-				"item": ["Life Orb", "Leftovers"],
-				"ability": ["Volt Absorb"],
-				"evs": {"atk": 252, "spd": 4, "spe": 252},
-				"nature": "Jolly",
-				"moves": [["Return"], ["Earthquake"], ["Meteor Mash"], ["Recover"]]
-			}, {
-				"species": "Robodachi",
-				"item": ["Life Orb", "Leftovers"],
-				"ability": ["Volt Absorb"],
-				"evs": {"hp": 252, "atk": 4, "spd": 252},
-				"nature": "Careful",
-				"moves": [["Toxic"], ["Earthquake"], ["Meteor Mash"], ["Recover"]]
 			}]
 		},
 		"rotomwash": {
@@ -3583,6 +3521,18 @@
 				"evs": {"hp": 252, "def": 252, "spd": 4},
 				"nature": ["Bold"],
 				"moves": [["Spikes", "Stealth Rock"], ["King's Shield"], ["Toxic"], ["Dragon Tail"]]
+			}]
+		},
+		"beautifly": {
+			"flags": {},
+			"sets": [{
+				"species": "Beautifly",
+				"item": ["Focus Sash", "Expert Belt"],
+				"ability": ["Dazzling"],
+				"evs": {"spa": 252, "def": 4, "spe": 252},
+				"ivs": {"atk": 0},
+				"nature": ["Timid"],
+				"moves": [["Quiver Dance"], ["Hurricane"], ["Bug Buzz"], ["Heat Wave"]]
 			}]
 		},
 		"beedrill": {
@@ -4707,6 +4657,31 @@
 				"moves": [["Sludge Wave"], ["Power Gem", "Grass Knot"], ["Protect"], ["Thunderbolt"]]
 			}]
 		},
+		"ninjask": {
+			"flags": {},
+			"sets": [{
+				"species": "Ninjask",
+				"item": ["Life Orb"],
+				"ability": ["Speed Boost"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Flutter Strike"], ["U-Turn"], ["Brick Break"], ["Leech Life"]]
+			}, {
+				"species": "Ninjask",
+				"item": ["Focus Sash"],
+				"ability": ["Speed Boost"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Flutter Strike"], ["U-Turn"], ["Brick Break"], ["Spikes"]]
+			}, {
+				"species": "Ninjask",
+				"item": ["Focus Sash"],
+				"ability": ["Speed Boost"],
+				"evs": {"atk": 252, "def": 4, "spe": 252},
+				"nature": "Adamant",
+				"moves": [["Flutter Strike"], ["Leech Life"], ["Brick Break"], ["Swords Dance"]]
+			}]
+		},
 		"noctowl": {
 			"flags": {},
 			"sets": [{
@@ -4951,6 +4926,31 @@
 				"evs": {"hp": 252, "def": 4, "spa": 252},
 				"nature": "Quiet",
 				"moves": [["Psychic", "Psyshock"], ["Shadow Ball"], ["Focus Blast"], ["Trick Room"]]
+			}]
+		},
+		"robodachi": {
+			"flags": {},
+			"sets": [{
+				"species": "Robodachi",
+				"item": ["Choice Specs"],
+				"ability": ["Volt Absorb"],
+				"evs": {"spa": 252, "spd": 4, "spe": 252},
+				"nature": "Modest",
+				"moves": [["Techno Blast"], ["Overheat"], ["Flash Cannon"], ["Dry Pass"]]
+			}, {
+				"species": "Robodachi",
+				"item": ["Life Orb", "Leftovers"],
+				"ability": ["Volt Absorb"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": "Jolly",
+				"moves": [["Return"], ["Earthquake"], ["Meteor Mash"], ["Recover"]]
+			}, {
+				"species": "Robodachi",
+				"item": ["Life Orb", "Leftovers"],
+				"ability": ["Volt Absorb"],
+				"evs": {"hp": 252, "atk": 4, "spd": 252},
+				"nature": "Careful",
+				"moves": [["Toxic"], ["Earthquake"], ["Meteor Mash"], ["Recover"]]
 			}]
 		},
 		"rotomheat": {
