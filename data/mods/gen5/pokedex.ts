@@ -342,6 +342,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Suction Cups", H: "Storm Drain"},
 	},
+	anorith: {
+		inherit: true,
+		abilities: {0: "Battle Armor", H: "Swift Swim"},
+	},
+	armaldo: {
+		inherit: true,
+		abilities: {0: "Battle Armor", H: "Swift Swim"},
+	},
 	feebas: {
 		inherit: true,
 		abilities: {0: "Swift Swim", H: "Adaptability"},

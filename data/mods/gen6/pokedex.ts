@@ -23,10 +23,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 52, atk: 65, def: 55, spa: 58, spd: 62, spe: 60},
 	},
-	dodrio: {
-		inherit: true,
-		baseStats: {hp: 60, atk: 110, def: 70, spa: 60, spd: 60, spe: 100},
-	},
 	clefgar: {
 		inherit: true,
 		abilities: {0: "Magic Guard", 1: "Levitate"},

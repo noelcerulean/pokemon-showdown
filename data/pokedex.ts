@@ -1278,7 +1278,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseStats: {hp: 35, atk: 75, def: 85, spa: 45, spd: 85, spe: 10},
 		abilities: {0: "Effect Spore", 1: "Dry Skin", H: "Damp"},
 		heightm: 0.3,
-		weightkg: 9.9,
+		weightkg: 5.4,
 		color: "Red",
 		evos: ["Parasect"],
 		eggGroups: ["Bug", "Grass"],
@@ -4864,6 +4864,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 15,
 		eggGroups: ["Amorphous"],
 		canHatch: true,
+		cosmeticFormes: ["Wobbuffet-Champ"],
+		formeOrder: ["Wobbuffet", "Wobbuffet-Champ"],
 	},
 	girafarig: {
 		num: 203,

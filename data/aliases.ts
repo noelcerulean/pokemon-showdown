@@ -538,6 +538,7 @@ export const Aliases: {[alias: string]: string} = {
 	chatotringneck: "Chatot",
 	cashinovintage: "Cashino",
 	typhlosionvesuviuselden: "Typhlosion-Vesuvius",
+	wobbuffetchamp: "Wobbuffet",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",
