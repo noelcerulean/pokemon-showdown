@@ -918,6 +918,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 60,
 		color: "Yellow",
 		eggGroups: ["Undiscovered"],
+		cosmeticFormes: ["Gorochu-Jooj"],
+		formeOrder: ["Gorochu", "Gorochu-Jooj"],
 	},
 	sandshrew: {
 		num: 27,
