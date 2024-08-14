@@ -437,6 +437,14 @@ const avatarTableFiftyShadesofRez = new Set([
 	'rose-zerosuit',
 ]);
 
+const avatarTableSelena = new Set([
+	'red-lgpe',
+]);
+
+const avatarTableHoro = new Set([
+	'kris',
+]);
+
 const avatarTableAutumnSpire = new Set([
 	'florist',
 ]);
@@ -456,7 +464,7 @@ const avatarTableBrumirage = new Set([
 	'oleana', 'opal', 'peony', 'pesselle', 'phoebe-gen6', 'piers', 'raihan', 'rei', 'rose', 'sabi',
 	'sanqua', 'shielbert', 'sonia', 'sonia-professor', 'sordward', 'sordward-shielbert', 'tateandliza-gen6',
 	'victor', 'victor-dojo', 'volo', 'yellgrunt', 'yellgruntf', 'zisu',
-	'sada-ai', 'turo-ai',
+	'sada-ai', 'turo-ai', 'miku-flying', 'miku-ground',
 ]);
 
 const avatarTableZacWeavile = new Set([
@@ -528,19 +536,30 @@ const avatarTableKyleDove = new Set([
 	'erbie-unite', 'hilbert-masters2', 'hop-masters', 'jasmine-masters2', 'lisia-masters', 'marnie-masters3', 'matt', 'n-masters3',
 	'paulo-masters', 'phorus-unite', 'pokemaniac-gen9', 'serena-masters3', 'tabitha', 'tina-masters', 'trevor', 'whitney-masters',
 	'youngster-gen9', 'zirco-unite',
+	'acerola-masters2', 'aetherfoundation2', 'amarys', 'artist-gen9', 'backpacker-gen9', 'blackbelt-gen9', 'blue-masters2', 'brassius',
+	'brendan-rs', 'briar-sv', 'cabbie-gen9', 'caretaker', 'clair-masters', 'clive-v', 'cook-gen9', 'courier', 'crispin', 'cyrano',
+	'delinquent-gen9', 'delinquentf-gen9', 'delinquentf2-gen9', 'drayton', 'flaregrunt', 'flaregruntf', 'florian-festival', 'gloria-league',
+	'gloria-tundra', 'hau-masters', 'hiker-gen9', 'hyde', 'iono', 'janitor-gen9', 'juliana-festival', 'kieran-champion', 'lacey', 'lana-masters',
+	'leaf-masters2', 'liza-gen6', 'lysandre-masters', 'may-e', 'may-rs', 'miku-fire', 'miku-grass', 'miku-psychic', 'miku-water', 'mina-masters',
+	'mustard-champion', 'nate-masters', 'nate-pokestar', 'ogreclan', 'perrin', 'piers-masters', 'red-masters3', 'rosa-pokestar2',
+	'roxanne-masters', 'roxie-masters', 'ruffian', 'sycamore-masters', 'tate-gen6', 'tucker', 'victor-league', 'victor-tundra', 'viola-masters',
+	'wallace-masters', 'worker-gen9', 'yukito-hideko',
+	'acerola-masters3', 'bianca-masters', 'cheren-masters', 'gardenia-masters',
 ]);
 
 const avatarTableHyooppa = new Set([
-	'brendan', 'maxie-gen6', 'may',
+	'brendan', 'maxie-gen6', 'may', 'brendan-e',
 ]);
 
 const avatarTableGrapo = new Set([
-	'peonia', 'skyla-masters2', 'volo-ginkgo', 'glacia',
+	'peonia', 'skyla-masters2', 'volo-ginkgo', 'glacia', 'rosa-masters3', 'phoebe-masters', 'scottie-masters',
 ]);
 
 for (const avatar of avatarTableAkumaTsubasa) avatarTable.add(avatar);
 for (const avatar of avatarTableBeliot419) avatarTable.add(avatar);
 for (const avatar of avatarTableFiftyShadesofRez) avatarTable.add(avatar);
+for (const avatar of avatarTableSelena) avatarTable.add(avatar);
+for (const avatar of avatarTableHoro) avatarTable.add(avatar);
 for (const avatar of avatarTableAutumnSpire) avatarTable.add(avatar);
 for (const avatar of avatarTableGnomowladny) avatarTable.add(avatar);
 for (const avatar of avatarTableBrumirage) avatarTable.add(avatar);
@@ -820,6 +839,12 @@ export const commands: Chat.ChatCommands = {
 			}
 			if (avatarTableFiftyShadesofRez.has(avatar)) {
 				this.sendReply(`|raw|(${this.tr`Artist: `}Fifty Shades of Rez)`);
+			}
+			if (avatarTableSelena.has(avatar)) {
+				this.sendReply(`|raw|(${this.tr`Artist: `}Selena)`);
+			}
+			if (avatarTableHoro.has(avatar)) {
+				this.sendReply(`|raw|(${this.tr`Artist: `}Horo)`);
 			}
 			if (avatarTableAutumnSpire.has(avatar)) {
 				this.sendReply(`|raw|(${this.tr`Artist: `}AutumnSpire)`);
