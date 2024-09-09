@@ -1635,7 +1635,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["dracometeor", "fireblast", "glare", "hurricane", "roost"],
 		randomDoubleBattleMoves: ["airslash", "dracometeor", "fireblast", "followme", "helpinghand", "icywind", "protect", "roost", "wideguard"],
 		tier: "NU",
-		doublesTier: "DUber",
+		doublesTier: "DOU",
 	},
 	soarsparcealfred: {
 		tier: "Uber",
