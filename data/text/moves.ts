@@ -4109,6 +4109,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "For 5 turns, the terrain becomes Misty Terrain. During the effect, the power of Dragon-type attacks used against grounded Pokemon is multiplied by 0.5 and grounded Pokemon cannot be inflicted with a non-volatile status condition. Grounded Pokemon can become affected by Yawn but cannot fall asleep from its effect. Camouflage transforms the user into a Fairy type, Nature Power becomes Moonblast, and Secret Power has a 30% chance to lower Special Attack by 1 stage. Fails if the current terrain is Misty Terrain.",
 		},
 	},
+	moltenmagmawhip: {
+		name: "Molten Magmawhip",
+		desc: "Has a 100% chance to lower the target's Defense and Sp. Defense by 2 stages.",
+		shortDesc: "100% chance to lower target's Def&SpDef by 2.",
+	},
 	moonblast: {
 		name: "Moonblast",
 		desc: "Has a 10% chance to lower the target's Special Attack by 1 stage.",

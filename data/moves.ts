@@ -12256,6 +12256,28 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {spd: 1}},
 		contestType: "Beautiful",
 	},
+	moltenmagmawhip: {
+		num: -572,
+		accuracy: true,
+		basePower: 190,
+		category: "Physical",
+		isNonstandard: "Past",
+		name: "Molten Magmawhip",
+		pp: 1,
+		priority: 0,
+		flags: {},
+		isZ: "heatmoriumz",
+		secondary: {
+			chance: 100,
+			boosts: {
+				def: -2,
+				spd: -2,
+			},
+		},
+		target: "normal",
+		type: "Fire",
+		contestType: "Cool",
+	},
 	moonblast: {
 		num: 585,
 		accuracy: 100,

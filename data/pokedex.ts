@@ -13041,7 +13041,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 631,
 		name: "Heatmor",
 		types: ["Fire"],
-		baseStats: {hp: 85, atk: 107, def: 86, spa: 115, spd: 76, spe: 76},
+		baseStats: {hp: 95, atk: 107, def: 86, spa: 115, spd: 76, spe: 76},
 		abilities: {0: "Bugcatcher", 1: "Flash Fire", H: "Mountaineer"},
 		heightm: 1.4,
 		weightkg: 58,

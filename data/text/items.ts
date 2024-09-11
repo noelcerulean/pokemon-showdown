@@ -836,6 +836,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Heal Ball",
 		desc: "A remedial Poke Ball that restores the caught Pokemon's HP and status problem.",
 	},
+	heatmoriumz: {
+		name: "Heatmorium Z",
+		desc: "If held by a Heatmor with Fire Lash, it can use Molten Magmawhip.",
+	},
 	heatrock: {
 		name: "Heat Rock",
 		desc: "Holder's use of Sunny Day lasts 8 turns instead of 5.",
