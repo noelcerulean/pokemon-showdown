@@ -4973,7 +4973,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Oceanic Operetta",
 		zMoveFrom: "Sparkling Aria",
-		itemUser: ["Primarina", "Primarina-Pride"],
+		itemUser: ["Primarina", "Primarina-Pride", "Primarina-Safiya"],
 		num: 800,
 		gen: 7,
 		isNonstandard: "Past",
