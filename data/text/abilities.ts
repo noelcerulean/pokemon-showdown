@@ -3,6 +3,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "No Ability",
 		shortDesc: "Does nothing.",
 	},
+	aaatest: {
+		name: "Aaatest",
+		desc: "This Pokemon is immune to Poison-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Poison-type move.",
+		shortDesc: "This Pokemon heals 1/4 of its max HP when hit by Poison moves; Poison immunity.",
+	},
 	acidabsorb: {
 		name: "Acid Absorb",
 		desc: "This Pokemon is immune to Poison-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Poison-type move.",
