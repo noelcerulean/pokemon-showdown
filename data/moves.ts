@@ -4191,7 +4191,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 100,
 		basePower: 0,
 		basePowerCallback(pokemon, target) {
-			let power = 85 + 20 * pokemon.volatiles['stockpile'].layers;
+			let power = 85 + Math.floor(40 * pokemon.volatiles['stockpile'].layers);
 			return power;
 		},
 		category: "Physical",
