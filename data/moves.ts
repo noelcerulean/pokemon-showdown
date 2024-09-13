@@ -20139,7 +20139,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				this.effectState.spd = 0;
 				this.add('-start', target, 'stockpile' + this.effectState.layers);
 				const [curDef, curSpD] = [target.boosts.def, target.boosts.spd];
-				if (effect.id !== 'abilityname') this.boost({def: 1, spd: 1}, target, target);
+				if (effect.id !== 'aaatest') this.boost({def: 1, spd: 1}, target, target);
 				if (curDef !== target.boosts.def) this.effectState.def--;
 				if (curSpD !== target.boosts.spd) this.effectState.spd--;
 			},
@@ -20149,7 +20149,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				this.add('-start', target, 'stockpile' + this.effectState.layers);
 				const curDef = target.boosts.def;
 				const curSpD = target.boosts.spd;
-				if (effect.id !== 'abilityname') this.boost({def: 1, spd: 1}, target, target);
+				if (effect.id !== 'aaatest') this.boost({def: 1, spd: 1}, target, target);
 				if (curDef !== target.boosts.def) this.effectState.def--;
 				if (curSpD !== target.boosts.spd) this.effectState.spd--;
 			},
