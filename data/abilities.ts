@@ -39,15 +39,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 0.1,
 		num: 0,
 	},
-	aaatest: {
-		onAfterMoveSecondarySelf(source, target, move) {
-			if (!move || !target) return;
-			if (target !== source && move.category !== 'Status') source.addVolatile('stockpile');
-		},
-		name: "Aaatest",
-		rating: 3.5,
-		num: -574,
-	},
 	acidabsorb: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Poison') {
@@ -5079,6 +5070,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Super Luck",
 		rating: 1.5,
 		num: 105,
+	},
+	supplychain: {
+		onAfterMoveSecondarySelf(source, target, move) {
+			if (!move || !target) return;
+			if (target !== source && move.category !== 'Status') source.addVolatile('stockpile');
+		},
+		name: "Supply Chain",
+		rating: 3.5,
+		num: -574,
 	},
 	surgesurfer: {
 		onModifySpe(spe) {

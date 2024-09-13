@@ -534,6 +534,7 @@ export const Aliases: {[alias: string]: string} = {
 	dustoxpoodle: "Dustox",
 	darmanitanascended: "Darmanitan",
 	primarinapride: "Primarina",
+	primarinasafiya: "Primarina",
 	ariadoscritter: "Ariados",
 	chatotringneck: "Chatot",
 	cashinovintage: "Cashino",

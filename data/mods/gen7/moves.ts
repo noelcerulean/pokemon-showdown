@@ -613,6 +613,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	moltenmagmawhip: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	mudbomb: {
 		inherit: true,
 		isNonstandard: null,

@@ -4137,6 +4137,18 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
+	drashimi: {
+		tier: "LC",
+	},
+	tsushimi: {
+		tier: "NFE",
+	},
+	tobishimi: {
+		randomBattleMoves: ["dragonroll", "earthquake", "stockpile", "stealthrock"],
+		randomDoubleBattleMoves: ["dragonroll", "earthquake", "protect", "stockpile"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	golett: {
 		tier: "LC",
 	},

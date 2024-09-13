@@ -4196,7 +4196,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		category: "Physical",
 		name: "Dragon Roll",
-		pp: 15,
+		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1, contact: 1},
 		secondary: null,

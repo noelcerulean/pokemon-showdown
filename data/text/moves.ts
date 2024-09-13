@@ -1525,6 +1525,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Dragon Rage",
 		shortDesc: "Deals 40 HP of damage to the target.",
 	},
+	dragonroll: {
+		name: "Dragon Roll",
+		desc: "Power is equal to 85 plus 40 multiplied by the user's Stockpile count.",
+		shortDesc: "More power with more uses of Stockpile.",
+	},
 	dragonrush: {
 		name: "Dragon Rush",
 		desc: "Has a 20% chance to make the target flinch. Damage doubles and no accuracy check is done if the target has used Minimize while active.",

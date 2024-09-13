@@ -3,11 +3,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "No Ability",
 		shortDesc: "Does nothing.",
 	},
-	aaatest: {
-		name: "Aaatest",
-		desc: "This Pokemon is immune to Poison-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Poison-type move.",
-		shortDesc: "This Pokemon heals 1/4 of its max HP when hit by Poison moves; Poison immunity.",
-	},
 	acidabsorb: {
 		name: "Acid Absorb",
 		desc: "This Pokemon is immune to Poison-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Poison-type move.",
@@ -1870,6 +1865,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	superluck: {
 		name: "Super Luck",
 		shortDesc: "This Pokemon's critical hit ratio is raised by 1 stage.",
+	},
+	supplychain: {
+		name: "Supply Chain",
+		desc: "After using a damaging move, this Pokemon increases its Stockpile count by 1. It does not increase Defense and Sp. Defense when increasing its Stockpile account in this manner, nor will it lose Defense or Sp. Defense for every Stockpile stage accumulated from this ability's effect when using Stockpile or Spit Up.",
+		shortDesc: "This Pokemon increases its Stockpile count by 1 after damaging a foe.",
 	},
 	surgesurfer: {
 		name: "Surge Surfer",

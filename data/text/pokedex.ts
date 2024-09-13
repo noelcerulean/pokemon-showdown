@@ -2780,6 +2780,15 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	druddigon: {
 		name: "Druddigon",
 	},
+	drashimi: {
+		name: "Drashimi",
+	},
+	tsushimi: {
+		name: "Tsushimi",
+	},
+	tobishimi: {
+		name: "Tobishimi",
+	},
 	golett: {
 		name: "Golett",
 	},

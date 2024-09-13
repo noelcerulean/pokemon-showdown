@@ -4608,6 +4608,18 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
+	drashimi: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	tsushimi: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	tobishimi: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	golett: {
 		tier: "LC",
 	},
