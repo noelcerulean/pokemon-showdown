@@ -4192,7 +4192,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 85,
 		basePowerCallback(pokemon, target, move) {
 			if (!pokemon.volatiles['stockpile']?.layers) return false;
-			return move.basePower + 40 * pokemon.volatiles['stockpile'].layers;
+			return 85 + 40 * pokemon.volatiles['stockpile'].layers;
 		},
 		category: "Physical",
 		name: "Dragon Roll",
