@@ -4189,9 +4189,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 	dragonroll: {
 		num: -573,
 		accuracy: 100,
-		basePower: 85,
-		basePowerCallback(pokemon, target, move) {
-			return move.basePower + 40 * pokemon.volatiles['stockpile'].layers;
+		basePower: 0,
+		basePowerCallback(pokemon, target) {
+			let power = 85 + 20 * pokemon.volatiles['stockpile'].layers;
+			return power;
 		},
 		category: "Physical",
 		name: "Dragon Roll",
