@@ -4186,6 +4186,24 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Dragon",
 		contestType: "Cool",
 	},
+	dragonroll: {
+		num: -573,
+		accuracy: 100,
+		basePower: 85,
+		basePowerCallback(pokemon, target, move) {
+			if (!pokemon.volatiles['stockpile']?.layers) return false;
+			return move.basePower + 40 * pokemon.volatiles['stockpile'].layers;
+		},
+		category: "Physical",
+		name: "Dragon Roll",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, contact: 1},
+		secondary: null,
+		target: "normal",
+		type: "Dragon",
+		contestType: "Cute",
+	},
 	dragonrush: {
 		num: 407,
 		accuracy: 75,
@@ -19770,11 +19788,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 0,
 		basePowerCallback(pokemon) {
 			if (!pokemon.volatiles['stockpile']?.layers) return false;
-			return pokemon.volatiles['stockpile'].layers * 100;
+			return pokemon.volatiles['stockpile'].layers * 120;
 		},
 		category: "Special",
 		name: "Spit Up",
-		pp: 10,
+		pp: 5,
 		priority: 0,
 		flags: {protect: 1},
 		onTry(source) {
@@ -20115,23 +20133,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		volatileStatus: 'stockpile',
 		condition: {
 			noCopy: true,
-			onStart(target) {
+			onStart(target, source, effect) {
 				this.effectState.layers = 1;
 				this.effectState.def = 0;
 				this.effectState.spd = 0;
 				this.add('-start', target, 'stockpile' + this.effectState.layers);
 				const [curDef, curSpD] = [target.boosts.def, target.boosts.spd];
-				this.boost({def: 1, spd: 1}, target, target);
+				if (effect.id !== 'abilityname') this.boost({def: 1, spd: 1}, target, target);
 				if (curDef !== target.boosts.def) this.effectState.def--;
 				if (curSpD !== target.boosts.spd) this.effectState.spd--;
 			},
-			onRestart(target) {
+			onRestart(target, source, effect) {
 				if (this.effectState.layers >= 3) return false;
 				this.effectState.layers++;
 				this.add('-start', target, 'stockpile' + this.effectState.layers);
 				const curDef = target.boosts.def;
 				const curSpD = target.boosts.spd;
-				this.boost({def: 1, spd: 1}, target, target);
+				if (effect.id !== 'abilityname') this.boost({def: 1, spd: 1}, target, target);
 				if (curDef !== target.boosts.def) this.effectState.def--;
 				if (curSpD !== target.boosts.spd) this.effectState.spd--;
 			},
@@ -20736,14 +20754,14 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Swallow",
-		pp: 10,
+		pp: 5,
 		priority: 0,
 		flags: {snatch: 1, heal: 1},
 		onTry(source) {
 			return !!source.volatiles['stockpile'];
 		},
 		onHit(pokemon) {
-			const healAmount = [0.25, 0.5, 1];
+			const healAmount = [0.5, 0.75, 1];
 			const healedBy = this.heal(this.modify(pokemon.maxhp, healAmount[(pokemon.volatiles['stockpile'].layers - 1)]));
 			pokemon.removeVolatile('stockpile');
 			return !!healedBy;
