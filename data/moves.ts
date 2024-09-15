@@ -453,10 +453,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 1,
 		priority: 0,
 		flags: {dance: 1},
-		onTry(target, pokemon, move) {
-			if (pokemon.baseSpecies.baseSpecies === 'Meloetta' && !pokemon.transformed) {
-				const meloettaForme = pokemon.species.id === 'meloettapirouette' ? '' : '-Pirouette';
-				pokemon.formeChange('Meloetta' + meloettaForme, this.effect, false, '[msg]');
+		onTry(target, source, move) {
+			if (source.baseSpecies.baseSpecies === 'Meloetta' && !source.transformed) {
+				const meloettaForme = source.species.id === 'meloettapirouette' ? '' : '-Pirouette';
+				source.formeChange('Meloetta' + meloettaForme, this.effect, false, '[msg]');
 			}
 		},
 		selfBoost: {
