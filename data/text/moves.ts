@@ -143,7 +143,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	antiquearabesque: {
 		name: "Antique Arabesque",
-		desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage. If the user is a Meloetta, it changes to Pirouette Forme if it is currently in Aria Forme, or changes to Aria Forme if it is currently in Pirouette Forme. This forme change does not happen if the Meloetta has the Sheer Force Ability. The Pirouette Forme reverts to Aria Forme when Meloetta is not active.",
+		desc: "If the user is a Meloetta, it changes to Pirouette Forme if it is currently in Aria Forme, or changes to Aria Forme if it is currently in Pirouette Forme. This forme change does not happen if the Meloetta has the Sheer Force Ability. The Pirouette Forme reverts to Aria Forme when Meloetta is not active. Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
 		shortDesc: "Meloetta transforms. +1 to all stats.",
 	},
 	appleacid: {
@@ -5112,8 +5112,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	reliquaryrecital: {
 		name: "Reliquary Recital",
-		desc: "Causes the target to fall asleep. Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
-		shortDesc: "Causes target to fall asleep. +1 to all stats.",
+		desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage. Causes the target to fall asleep.",
+		shortDesc: "+1 to all stats. Causes target to fall asleep.",
 	},
 	rest: {
 		name: "Rest",
