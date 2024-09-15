@@ -141,6 +141,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 10% chance to raise the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
 		shortDesc: "10% chance to raise all stats by 1 (not acc/eva).",
 	},
+	antiquearabesque: {
+		name: "Antique Arabesque",
+		desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage. If the user is a Meloetta, it changes to Pirouette Forme if it is currently in Aria Forme, or changes to Aria Forme if it is currently in Pirouette Forme. This forme change does not happen if the Meloetta has the Sheer Force Ability. The Pirouette Forme reverts to Aria Forme when Meloetta is not active.",
+		shortDesc: "Meloetta transforms. +1 to all stats.",
+	},
 	appleacid: {
 		name: "Apple Acid",
 		desc: "Has a 100% chance to lower the target's Special Defense by 1 stage.",
@@ -1528,7 +1533,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	dragonroll: {
 		name: "Dragon Roll",
 		desc: "Power is equal to 85 plus 40 multiplied by the user's Stockpile count.",
-		shortDesc: "More power with more uses of Stockpile.",
+		shortDesc: "85 power + 40 per user's Stockpile layer.",
 	},
 	dragonrush: {
 		name: "Dragon Rush",
@@ -5104,6 +5109,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Relic Song",
 		desc: "Has a 10% chance to cause the target to fall asleep. If this move is successful on at least one target and the user is a Meloetta, it changes to Pirouette Forme if it is currently in Aria Forme, or changes to Aria Forme if it is currently in Pirouette Forme. This forme change does not happen if the Meloetta has the Sheer Force Ability. The Pirouette Forme reverts to Aria Forme when Meloetta is not active.",
 		shortDesc: "10% chance to sleep foe(s). Meloetta transforms.",
+	},
+	reliquaryrecital: {
+		name: "Reliquary Recital",
+		desc: "Causes the target to fall asleep. Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
+		shortDesc: "Causes target to fall asleep. +1 to all stats.",
 	},
 	rest: {
 		name: "Rest",

@@ -443,6 +443,39 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Rock",
 		contestType: "Tough",
 	},
+	antiquearabesque: {
+		num: -575,
+		accuracy: true,
+		basePower: 190,
+		category: "Physical",
+		isNonstandard: "Past",
+		name: "Antique Arabesque",
+		pp: 1,
+		priority: 0,
+		flags: {dance: 1},
+		onTry(target, pokemon, move) {
+			if (pokemon.baseSpecies.baseSpecies === 'Meloetta' && !pokemon.transformed) {
+				const meloettaForme = pokemon.species.id === 'meloettapirouette' ? '' : '-Pirouette';
+				pokemon.formeChange('Meloetta' + meloettaForme, this.effect, false, '[msg]');
+			}
+		},
+		selfBoost: {
+			boosts: {
+				atk: 1,
+				def: 1,
+				spa: 1,
+				spd: 1,
+				spe: 1,
+			},
+		},
+		isZ: "meloettiumz",
+		secondary: {
+			// Sheer Force negates the selfBoost even though it is not secondary
+		},
+		target: "normal",
+		type: "Fighting",
+		contestType: "Beautiful",
+	},
 	appleacid: {
 		num: 787,
 		accuracy: 100,
@@ -4205,6 +4238,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		secondary: null,
 		target: "normal",
 		type: "Dragon",
+		zMove: {basePower: 160},
 		contestType: "Cute",
 	},
 	dragonrush: {
@@ -15342,6 +15376,34 @@ export const Moves: {[moveid: string]: MoveData} = {
 			}
 		},
 		target: "allAdjacentFoes",
+		type: "Normal",
+		contestType: "Beautiful",
+	},
+	reliquaryrecital: {
+		num: -574,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		isNonstandard: "Past",
+		name: "Reliquary Recital",
+		pp: 1,
+		priority: 0,
+		flags: {sound: 1, authentic: 1},
+		status: 'slp',
+		selfBoost: {
+			boosts: {
+				atk: 1,
+				def: 1,
+				spa: 1,
+				spd: 1,
+				spe: 1,
+			},
+		},
+		isZ: "melodiumz",
+		secondary: {
+			// Sheer Force negates the selfBoost even though it is not secondary
+		},
+		target: "normal",
 		type: "Normal",
 		contestType: "Beautiful",
 	},

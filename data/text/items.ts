@@ -1184,6 +1184,14 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Medichamite",
 		desc: "If held by a Medicham, this item allows it to Mega Evolve in battle.",
 	},
+	melodiumz: {
+		name: "Melodium Z",
+		desc: "If held by a Meloetta with Sing, it can use Reliquary Recital.",
+	},
+	meloettiumz: {
+		name: "Melodium Z",
+		desc: "If held by a Meloetta with Close Combat, it can use Antique Arabesque.",
+	},
 	mentalherb: {
 		name: "Mental Herb",
 		desc: "Cures holder of Attract, Disable, Encore, Heal Block, Taunt, Torment. Single use.",

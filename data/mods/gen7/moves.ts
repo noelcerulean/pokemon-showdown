@@ -11,6 +11,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	antiquearabesque: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	assist: {
 		inherit: true,
 		isNonstandard: null,
@@ -767,6 +771,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		isNonstandard: null,
 	},
 	relicsong: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	reliquaryrecital: {
 		inherit: true,
 		isNonstandard: null,
 	},

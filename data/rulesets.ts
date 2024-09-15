@@ -810,6 +810,7 @@ export const Rulesets: {[k: string]: FormatData} = {
 			'Pulverizing Pancake', 'Savage Spin-Out', 'Searing Sunraze Smash', 'Shattered Psyche', 'Sinister Arrow Raid',
 			'Soul-Stealing 7-Star Strike', 'Splintered Stormshards', 'Stoked Sparksurfer', 'Subzero Slammer',
 			'Supersonic Skystrike', 'Tectonic Rage', 'Twinkle Tackle', 'Typhonic Thunderstorm', 'Unified Upsurge', 'Molten Magmawhip',
+			'Reliquary Recital', 'Antique Arabesque',
 		],
 		onBegin() {
 			this.add('rule', 'CFZ Clause: Crystal-free Z-Moves are banned');

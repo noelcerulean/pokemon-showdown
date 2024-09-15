@@ -439,6 +439,14 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	melodiumz: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	meloettiumz: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	metagrossite: {
 		inherit: true,
 		isNonstandard: null,
