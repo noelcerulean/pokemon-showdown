@@ -15389,16 +15389,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 1,
 		priority: 0,
 		flags: {sound: 1, authentic: 1},
-		status: 'slp',
-		selfBoost: {
-			boosts: {
-				atk: 1,
-				def: 1,
-				spa: 1,
-				spd: 1,
-				spe: 1,
-			},
+		onPrepareHit(target, source, move) {
+			move.self = {boosts: {atk: 1, def: 1, spa: 1, spd: 1, spe: 1}};
 		},
+		status: 'slp',
 		isZ: "melodiumz",
 		secondary: {
 			// Sheer Force negates the selfBoost even though it is not secondary
