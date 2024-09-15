@@ -15393,12 +15393,14 @@ export const Moves: {[moveid: string]: MoveData} = {
 		onMoveFail(target, source, move) {
 			move.self = {boosts: {spe: -1, atk: 1, def: 1}};
 		},
-		boosts: {
-			atk: 1,
-			def: 1,
-			spa: 1,
-			spd: 1,
-			spe: 1,
+		selfBoost: {
+			boosts: {
+				atk: 1,
+				def: 1,
+				spa: 1,
+				spd: 1,
+				spe: 1,
+			},
 		},
 		isZ: "melodiumz",
 		secondary: {
