@@ -15390,6 +15390,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {sound: 1, authentic: 1},
 		status: 'slp',
+		onMoveFail(target, source, move) {
+			move.self = {boosts: {spe: -1, atk: 1, def: 1}};
+		},
 		boosts: {
 			atk: 1,
 			def: 1,
