@@ -737,15 +737,15 @@ exports.grouplist = [
 		importinputlog: true,
 	},
 	{
-		symbol: '\u2713',
-		id: "verified",
-		name: "Verified",
-		inherit: ' ',
-	},
-	{
 		symbol: '\u2042',
 		id: "story",
 		name: "Story",
+		inherit: ' ',
+	},
+	{
+		symbol: '\u2713',
+		id: "verified",
+		name: "Verified",
 		inherit: ' ',
 	},
 	{

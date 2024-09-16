@@ -541,6 +541,7 @@ export const Aliases: {[alias: string]: string} = {
 	typhlosionvesuviuselden: "Typhlosion-Vesuvius",
 	wobbuffetchamp: "Wobbuffet",
 	gorochujooj: "Gorochu",
+	emolgadeltaastalos: "Emolga-Delta",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",

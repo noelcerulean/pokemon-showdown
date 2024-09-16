@@ -1,7 +1,7 @@
 import {FS} from '../lib/fs';
 import type {RoomSection} from './chat-commands/room-settings';
 
-export type GroupSymbol = '~' | '&' | '#' | '★' | '=' | '*' | '@' | '%' | '☆' | '▸' | '+' | '^' | '✓' | '⁂' | ' ' | '‽' | '!';
+export type GroupSymbol = '~' | '&' | '#' | '★' | '=' | '*' | '@' | '%' | '☆' | '▸' | '+' | '^' | '⁂' | '✓' | ' ' | '‽' | '!';
 export type EffectiveGroupSymbol = GroupSymbol | 'whitelist';
 export type AuthLevel = EffectiveGroupSymbol | 'unlocked' | 'trusted' | 'autoconfirmed';
 

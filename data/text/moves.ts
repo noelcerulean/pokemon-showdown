@@ -5112,7 +5112,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	reliquaryrecital: {
 		name: "Reliquary Recital",
-		desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage. Causes the target to fall asleep.",
+		desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage. Causes the target to fall asleep. This effect bypasses Magic Bounce and Magic Coat.",
 		shortDesc: "+1 to all stats. Causes target to fall asleep.",
 	},
 	rest: {
