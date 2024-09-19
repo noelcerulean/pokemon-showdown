@@ -304,6 +304,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "When this Pokemon is hit by an attack, the Speed of all other Pokemon on the field is lowered by 1 stage.",
 		shortDesc: "If this Pokemon is hit, it lowers the Speed of all other Pokemon on the field 1 stage.",
 	},
+	craftsman: {
+		name: "Craftsman",
+		shortDesc: "This Pokemon's attacking stat is 1.5x when using Ice, Rock, or Steel attacks.",
+	},
 	cunningblade: {
 		name: "Cunning Blade",
 		desc: "This Pokemon's blade-based attacks become non-contact special moves and have their power multiplied by 1.2.",
@@ -2075,6 +2079,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Unburden",
 		desc: "If this Pokemon loses its held item for any reason, its Speed is doubled. This boost is lost if it switches out or gains a new item or Ability.",
 		shortDesc: "Speed is doubled on held item loss; boost is lost if it switches, gets new item/Ability.",
+	},
+	ultimatecraftsman: {
+		name: "Ultimate Craftsman",
+		shortDesc: "This Pokemon's attacking stat is doubled when using Ice, Rock, or Steel attacks.",
 	},
 	unnerve: {
 		name: "Unnerve",

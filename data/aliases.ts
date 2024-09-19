@@ -1146,6 +1146,8 @@ export const Aliases: {[alias: string]: string} = {
 	lithfnf: "Gigalith-FnF",
 	lith: "Gigalith",
 	tobi: "Tobishimi",
+	pregi: "Regigigas-Primal",
+	pregigigas: "Regigigas-Primal",
 
 	// armored
 	vespa: "Vespiquen-Armored",

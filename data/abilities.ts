@@ -860,6 +860,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 238,
 	},
+	craftsman: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Ice' || move.type === 'Rock' || move.type === 'Steel') {
+				this.debug('Craftsman boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Ice' || move.type === 'Rock' || move.type === 'Steel') {
+				this.debug('Craftsman boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Craftsman",
+		rating: 4,
+		num: -575,
+	},
 	cunningblade: {
 		onBasePowerPriority: 23,
 		onBasePower(basePower, attacker, defender, move) {
@@ -5569,6 +5588,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Unburden",
 		rating: 3.5,
 		num: 84,
+	},
+	ultimatecraftsman: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Ice' || move.type === 'Rock' || move.type === 'Steel') {
+				this.debug('Ultimate Craftsman boost');
+				return this.chainModify(2);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Ice' || move.type === 'Rock' || move.type === 'Steel') {
+				this.debug('Ultimate Craftsman boost');
+				return this.chainModify(2);
+			}
+		},
+		name: "Ultimate Craftsman",
+		rating: 5,
+		num: -576,
 	},
 	unnerve: {
 		onPreStart(pokemon) {

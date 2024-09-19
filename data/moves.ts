@@ -3237,7 +3237,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 100,
 		basePower: 0,
 		basePowerCallback(pokemon, target) {
-			return Math.floor(Math.floor((120 * (100 * Math.floor(target.hp * 4096 / target.maxhp)) + 2048 - 1) / 4096) / 100) || 1;
+			return Math.floor(Math.floor((180 * (100 * Math.floor(target.hp * 4096 / target.maxhp)) + 2048 - 1) / 4096) / 100) || 1;
 		},
 		category: "Physical",
 		name: "Crush Grip",
@@ -3247,7 +3247,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		secondary: null,
 		target: "normal",
 		type: "Normal",
-		zMove: {basePower: 190},
+		zMove: {basePower: 200},
 		maxMove: {basePower: 140},
 		contestType: "Tough",
 	},
@@ -14246,6 +14246,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 				move.type = 'Water';
 			} else if (pokemon.hasItem('tealorb')) {
 				move.type = 'Water';
+			} else if (pokemon.hasItem('craftsmanorb')) {
+				move.type = 'Normal';
 			} else {
 				move.type = 'Normal';
 			}

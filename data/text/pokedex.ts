@@ -2192,6 +2192,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	regigigas: {
 		name: "Regigigas",
 	},
+	regigigasprimal: {
+		name: "Regigigas-Primal",
+	},
 	giratina: {
 		name: "Giratina",
 	},

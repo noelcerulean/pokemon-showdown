@@ -1164,7 +1164,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	crushgrip: {
 		name: "Crush Grip",
-		desc: "Power is equal to 120 * (target's current HP / target's maximum HP), rounded half down, but not less than 1.",
+		desc: "Power is equal to 180 * (target's current HP / target's maximum HP), rounded half down, but not less than 1.",
 		shortDesc: "More power the more HP the target has left.",
 		gen4: {
 			desc: "Power is equal to 120 * (target's current HP / target's maximum HP) + 1, rounded down.",
@@ -4718,7 +4718,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	primalburst: {
 		name: "Primal Burst",
-		desc: "This move's type depends on the user's held orb. If the user is holding Red Orb or Cerise Orb, it is Fire-type. If the user is holding Blue Orb or Teal Orb, it is Water-type. Otherwise, it is Normal-Type.",
+		desc: "This move's type depends on the user's held orb. If the user is holding Red Orb or Cerise Orb, it is Fire-type. If the user is holding Blue Orb or Teal Orb, it is Water-type. If the user is holding a Craftsman Orb, it is Normal-type. Otherwise, it is Normal-Type.",
 		shortDesc: "Type varies based on the user's held orb.",
 	},
 	prismaticlaser: {

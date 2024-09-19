@@ -120,6 +120,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	craftsmanorb: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	darkgem: {
 		inherit: true,
 		isNonstandard: "Unobtainable",

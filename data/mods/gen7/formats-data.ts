@@ -3277,7 +3277,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	regigigas: {
 		randomBattleMoves: ["confuseray", "drainpunch", "knockoff", "return", "substitute", "thunderwave"],
 		randomDoubleBattleMoves: ["icywind", "knockoff", "return", "substitute", "thunderwave", "wideguard"],
-		tier: "(PU)",
+		tier: "Uber",
+		doublesTier: "(DUU)",
+	},
+	regigigasprimal: {
+		randomBattleMoves: ["confuseray", "drainpunch", "knockoff", "return", "substitute", "thunderwave"],
+		randomDoubleBattleMoves: ["icywind", "knockoff", "return", "substitute", "thunderwave", "wideguard"],
+		tier: "Uber",
 		doublesTier: "(DUU)",
 	},
 	giratina: {

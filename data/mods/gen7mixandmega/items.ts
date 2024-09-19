@@ -69,6 +69,26 @@ export const Items: {[k: string]: ModdedItemData} = {
 		},
 		onTakeItem: false,
 	},
+	craftsmanorb: {
+		inherit: true,
+		onSwitchIn(pokemon) {
+			if (pokemon.isActive && !pokemon.species.isPrimal) {
+				this.queue.insertChoice({pokemon, choice: 'runPrimal'});
+			}
+		},
+		onPrimal(pokemon) {
+			// @ts-ignore
+			const species: Species = this.actions.getMixedSpecies(pokemon.m.originalSpecies, 'Regigigas-Primal');
+			if (pokemon.m.originalSpecies === 'Regigigas') {
+				pokemon.formeChange(species, this.effect, true);
+			} else {
+				pokemon.formeChange(species, this.effect, true);
+				pokemon.baseSpecies = species;
+				this.add('-start', pokemon, 'Craftsman Orb', '[silent]');
+			}
+		},
+		onTakeItem: false,
+	},
 	redorb: {
 		inherit: true,
 		onSwitchIn(pokemon) {

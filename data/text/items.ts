@@ -323,6 +323,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Cracked Pot",
 		desc: "Evolves Sinistea into Polteageist when used.",
 	},
+	craftsmanorb: {
+		name: "Craftsman Orb",
+		desc: "If held by a Regigigas, this item triggers its Primal Reversion in battle.",
+	},
 	cursedcrown: {
 		name: "Cursed Crown",
 		shortDesc: "When held by Shedinja, its Status moves go first in their priority bracket.",
