@@ -60449,6 +60449,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			sleeptalk: ["8M", "7M", "6M", "5T", "4M"],
 			smackdown: ["7M", "6M", "5M"],
 			snore: ["8M", "7T", "6T", "5T", "4T"],
+			stealthrock: ["8M", "8V", "7T", "6T", "5T", "4M"],
 			stomp: ["8L18", "4L1", "4S0"],
 			stompingtantrum: ["8M", "7T"],
 			stoneedge: ["8M", "7M", "6M", "5M", "4M"],
