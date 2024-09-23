@@ -22025,6 +22025,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			skullbash: ["7L5"],
 			sleeptalk: ["8M", "7M", "7L5", "6M", "5T", "4M", "3T"],
 			snore: ["8M", "7T", "7L5", "6T", "5T", "4T", "3T"],
+			sparklingwater: ["7L1"],
 			spiritshackle: ["7L1"],
 			storedpower: ["8M", "7L1"],
 			strength: ["6M", "5M", "4M"],
