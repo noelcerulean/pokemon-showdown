@@ -3345,7 +3345,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Flareon-Lasagna",
 		types: ["Fire"],
 		gender: "M",
-		baseStats: {hp: 95, atk: 140, def: 65, spa: 95, spd: 110, spe: 65},
+		baseStats: {hp: 95, atk: 140, def: 75, spa: 105, spd: 110, spe: 75},
 		abilities: {0: "Fur Coat", 1: "Solar Boost", H: "Pure Heart"},
 		heightm: 0.9,
 		weightkg: 25,

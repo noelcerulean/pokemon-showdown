@@ -124,7 +124,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['Standard', 'Mega Rayquaza Clause'],
-		banlist: ['Baton Pass', 'Ho-Oh-Rainbow'],
+		banlist: ['Baton Pass', 'Ho-Oh-Rainbow', 'Magic Guard', 'Rock Head'],
 	},
 	{
 		name: "[Gen 7] Multi Battle FnF",
