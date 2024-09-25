@@ -7,6 +7,7 @@ bite: Power is multiplied by 1.5 when used by a Pokemon with the Strong Jaw Abil
 blade: Power is multiplied by 1.2 when used by a Pokemon with the Unsheathed Ability.
 bone: Immunity is ignored when used by a Pokemon with the Bone Master Ability.
 bullet: Has no effect on Pokemon with the Bulletproof Ability.
+cantusetwice: The user cannot select this move after a previous successful use.
 charge: The user is unable to make a move between turns.
 contact: Makes contact.
 dance: When used by a Pokemon, other Pokemon with the Dancer Ability can attempt to execute the same move.
@@ -1214,7 +1215,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1},
-		// Move disabling implemented in Battle#nextTurn in sim/battle.js
+		onDisableMove(pokemon) {
+			if (!pokemon.ateBerry) pokemon.disableMove('belch');
+		},
 		secondary: null,
 		target: "normal",
 		type: "Poison",
@@ -16934,7 +16937,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Shadow Evoboost",
 		pp: 5,
 		priority: 0,
-		flags: {},
+		flags: {cantusetwice: 1},
 		boosts: {
 			atk: 2,
 			def: 2,
@@ -18250,7 +18253,45 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 0,
 		flags: {protect: 1},
-		onHit() {
+		recoil: [1, 4],
+		onHit(target, source, move) {
+			const removeTarget = [
+				'lightscreen', 'reflect', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+			];
+			const removeAll = [
+				'lightscreen', 'reflect', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+			];
+			for (const targetCondition of removeTarget) {
+				if (target.side.removeSideCondition(targetCondition)) {
+					if (!removeAll.includes(targetCondition)) continue;
+					this.add('-sideend', target.side, this.dex.conditions.get(targetCondition).name, '[from] move: Shadow Wreckage', '[of] ' + source);
+				}
+			}
+			for (const sideCondition of removeAll) {
+				if (source.side.removeSideCondition(sideCondition)) {
+					this.add('-sideend', source.side, this.dex.conditions.get(sideCondition).name, '[from] move: Shadow Wreckage', '[of] ' + source);
+				}
+			}
+			this.field.clearTerrain();
+		},
+		onAfterSubDamage(damage, target, source) {
+			const removeTarget = [
+				'lightscreen', 'reflect', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+			];
+			const removeAll = [
+				'lightscreen', 'reflect', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+			];
+			for (const targetCondition of removeTarget) {
+				if (target.side.removeSideCondition(targetCondition)) {
+					if (!removeAll.includes(targetCondition)) continue;
+					this.add('-sideend', target.side, this.dex.conditions.get(targetCondition).name, '[from] move: Shadow Wreckage', '[of] ' + source);
+				}
+			}
+			for (const sideCondition of removeAll) {
+				if (source.side.removeSideCondition(sideCondition)) {
+					this.add('-sideend', source.side, this.dex.conditions.get(sideCondition).name, '[from] move: Shadow Wreckage', '[of] ' + source);
+				}
+			}
 			this.field.clearTerrain();
 		},
 		willCrit: true,
@@ -20881,12 +20922,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 			for (const targetCondition of removeTarget) {
 				if (target.side.removeSideCondition(targetCondition)) {
 					if (!removeAll.includes(targetCondition)) continue;
-					this.add('-sideend', target.side, this.dex.conditions.get(targetCondition).name, '[from] move: Demolition', '[of] ' + source);
+					this.add('-sideend', target.side, this.dex.conditions.get(targetCondition).name, '[from] move: Sweep Up', '[of] ' + source);
 				}
 			}
 			for (const sideCondition of removeAll) {
 				if (source.side.removeSideCondition(sideCondition)) {
-					this.add('-sideend', source.side, this.dex.conditions.get(sideCondition).name, '[from] move: Demolition', '[of] ' + source);
+					this.add('-sideend', source.side, this.dex.conditions.get(sideCondition).name, '[from] move: Sweep Up', '[of] ' + source);
 				}
 			}
 			this.field.clearTerrain();

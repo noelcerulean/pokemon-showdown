@@ -245,6 +245,12 @@ export class BattleActions {
 			pokemon.moveThisTurnResult = willTryMove;
 			return;
 		}
+
+		// Used exclusively for a hint later
+		if (move.flags['cantusetwice'] && pokemon.lastMove?.id === move.id) {
+			pokemon.addVolatile(move.id);
+		}
+		
 		if (move.beforeMoveCallback) {
 			if (move.beforeMoveCallback.call(this.battle, pokemon, target, move)) {
 				this.battle.clearActiveMove(true);
@@ -286,6 +292,9 @@ export class BattleActions {
 		if (this.battle.activeMove) move = this.battle.activeMove;
 		this.battle.singleEvent('AfterMove', move, null, pokemon, target, move);
 		this.battle.runEvent('AfterMove', pokemon, target, move);
+		if (move.flags['cantusetwice'] && pokemon.removeVolatile(move.id)) {
+			this.battle.add('-hint', `Some effects can force a Pokemon to use ${move.name} again in a row.`);
+		}
 
 		// luminesce
 		if (move.flags['light'] && moveDidSomething) {
