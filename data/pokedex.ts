@@ -12485,6 +12485,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 594,
 		name: "Alomomola-Medella",
 		types: ["Water"],
+		gender: "F",
 		baseStats: {hp: 175, atk: 105, def: 110, spa: 45, spd: 95, spe: 70},
 		abilities: {0: "Healer", 1: "Huge Power", H: "Regenerator"},
 		heightm: 1.2,
