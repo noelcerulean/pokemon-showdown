@@ -542,6 +542,7 @@ export const Aliases: {[alias: string]: string} = {
 	wobbuffetchamp: "Wobbuffet",
 	gorochujooj: "Gorochu",
 	emolgadeltaastalos: "Emolga-Delta",
+	archebotskirmisher: "Archebot",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",

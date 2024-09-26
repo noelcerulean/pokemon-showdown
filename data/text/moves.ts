@@ -5596,8 +5596,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	shadowevoboost: {
 		name: "Shadow Evoboost",
-		desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 2 stages.",
-		shortDesc: "Raises user's Atk, Def, SpA, SpD, and Spe by 2.",
+		desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 2 stages. This move cannot be selected twice in a row.",
+		shortDesc: "User +1 to main stats. Unusable twice in a row.",
 	},
 	shadowfission: {
 		name: "Shadow Fission",

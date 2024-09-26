@@ -1276,6 +1276,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		fling: {
 			basePower: 60,
 		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 351) || pokemon.baseSpecies.num === 351) {
+				return false;
+			}
+			return true;
+		},
 		num: 285,
 		gen: 4,
 	},
@@ -2853,6 +2859,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		fling: {
 			basePower: 60,
 		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 351) || pokemon.baseSpecies.num === 351) {
+				return false;
+			}
+			return true;
+		},
 		num: 284,
 		gen: 4,
 	},
@@ -3044,6 +3056,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		spritenum: 221,
 		fling: {
 			basePower: 40,
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 351) || pokemon.baseSpecies.num === 351) {
+				return false;
+			}
+			return true;
 		},
 		num: 282,
 		gen: 4,
@@ -4279,6 +4297,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		spritenum: 765,
 		fling: {
 			basePower: 60,
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 351) || pokemon.baseSpecies.num === 351) {
+				return false;
+			}
+			return true;
 		},
 		num: -526,
 		gen: 4,
@@ -5988,6 +6012,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		spritenum: 453,
 		fling: {
 			basePower: 10,
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 351) || pokemon.baseSpecies.num === 351) {
+				return false;
+			}
+			return true;
 		},
 		num: 283,
 		gen: 4,

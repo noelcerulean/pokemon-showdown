@@ -12019,6 +12019,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 32,
 		color: "Yellow",
 		eggGroups: ["Undiscovered"],
+		cosmeticFormes: ["Archebot-Skirmisher"],
+		formeOrder: ["Archebot", "Archebot-Skirmisher"],
 	},
 	trubbish: {
 		num: 568,

@@ -339,7 +339,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	damprock: {
 		name: "Damp Rock",
-		desc: "Holder's use of Rain Dance lasts 8 turns instead of 5.",
+		desc: "Holder's Rain Dance lasts 8 turns instead of 5. Non-removable from Castform.",
 	},
 	darkgem: {
 		name: "Dark Gem",
@@ -846,7 +846,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	heatrock: {
 		name: "Heat Rock",
-		desc: "Holder's use of Sunny Day lasts 8 turns instead of 5.",
+		desc: "Holder's Sunny Day lasts 8 turns instead of 5. Non-removable from Castform.",
 	},
 	heavyball: {
 		name: "Heavy Ball",
@@ -915,7 +915,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	icyrock: {
 		name: "Icy Rock",
-		desc: "Holder's use of Hail lasts 8 turns instead of 5.",
+		desc: "Holder's Hail lasts 8 turns instead of 5. Non-removable from Castform.",
 	},
 	inciniumz: {
 		name: "Incinium Z",
@@ -1276,7 +1276,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	mordantrock: {
 		name: "Mordant Rock",
-		desc: "Holder's use of Miasma lasts 8 turns instead of 5.",
+		desc: "Holder's Miasma lasts 8 turns instead of 5. Non-removable from Castform.",
 	},
 	muscleband: {
 		name: "Muscle Band",
@@ -1800,7 +1800,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	smoothrock: {
 		name: "Smooth Rock",
-		desc: "Holder's use of Sandstorm lasts 8 turns instead of 5.",
+		desc: "Holder's Sandstorm lasts 8 turns instead of 5. Non-removable from Castform.",
 	},
 	snorliumz: {
 		name: "Snorlium Z",
