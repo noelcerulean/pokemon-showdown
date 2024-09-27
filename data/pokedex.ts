@@ -7318,6 +7318,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		cosmeticFormes: ["Arthrogon-Beach"],
 		formeOrder: ["Arthrogon", "Arthrogon-Beach"],
+		gen: 7,
 	},
 	cacnea: {
 		num: 331,
@@ -11689,6 +11690,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Blockodile",
 		evoLevel: 40,
 		eggGroups: ["Monster", "Mineral"],
+		gen: 3,
 	},
 	darumaka: {
 		num: 554,
