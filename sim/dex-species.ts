@@ -282,7 +282,7 @@ export class Species extends BasicEffect implements Readonly<BasicEffect & Speci
 			(this.battleOnly !== this.baseSpecies ? this.battleOnly : this.baseSpecies);
 		if (Array.isArray(data.changesFrom)) this.changesFrom = data.changesFrom[0];
 
-		if (!this.gen && this.num > -899 && this.num < -400) {
+		if (!this.gen && this.num >= -899 && this.num <= -400) {
 			this.gen = 7;
 			}
 
