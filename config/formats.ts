@@ -1024,12 +1024,12 @@ export const Formats: FormatList = [
 		mod: 'sharedpower',
 		ruleset: ['[Gen 7] OU', 'Evasion Abilities Clause', 'Sleep Moves Clause'],
 		banlist: [
-			'Uber', 'AG', 'Arena Trap', 'Moody', 'Neutralizing Gas', 'Arcana', 'Shadow Tag',
-			'King\'s Rock', 'Leppa Berry', 'Razor Fang', 'Starf Berry', 'Baton Pass',
+			'Moody', 'Neutralizing Gas', 'Arcana',
+			'Leppa Berry', 'Starf Berry',
 			'Lax Incense', 'Bright Powder', 'Mystic Power', 'Ignition', 'Regigigas-Primal', 'Ultimate Craftsman',
 			'Gyaradosite', 'Gyarados-Mega', 'Banette-Mega', 'Banettite', 'Shedinja', 'Wonder Guard',
 		],
-		unbanlist: [],
+		unbanlist: ['Blaziken + Speed Boost', 'Blaziken-Mega', 'Aegislash', 'Deoxys-Defense'],
 		restricted: [
 			'Comatose', 'Fluffy', 'Fur Coat', 'Huge Power', 'Illusion', 'Imposter', 'Innards Out', 'Magic Guard',
 			'Mold Breaker', 'Multiscale', 'Protean', 'Pure Power', 'Regenerator', 'Simple', 'Skill Link', 'Sturdy',
