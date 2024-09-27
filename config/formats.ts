@@ -1022,7 +1022,7 @@ export const Formats: FormatList = [
 		name: "[Gen 7] Shared Power",
 		desc: `Once a Pok&eacute;mon switches in, its ability is shared with the rest of the team.`,
 		mod: 'sharedpower',
-		ruleset: ['Standard', 'Evasion Abilities Clause', 'Sleep Moves Clause'],
+		ruleset: ['[Gen 7] OU', 'Evasion Abilities Clause', 'Sleep Moves Clause'],
 		banlist: [
 			'Uber', 'AG', 'Arena Trap', 'Moody', 'Neutralizing Gas', 'Arcana', 'Shadow Tag',
 			'King\'s Rock', 'Leppa Berry', 'Razor Fang', 'Starf Berry', 'Baton Pass',
