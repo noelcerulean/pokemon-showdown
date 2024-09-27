@@ -20,15 +20,6 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 			}
 		},
 	},
-	innerfocus: {
-		inherit: true,
-		onBoost(boost, target, source, effect) {
-			if (effect.id === 'intimidate' || effect.id === 'ability:intimidate') {
-				delete boost.atk;
-				this.add('-fail', target, 'unboost', 'Attack', '[from] ability: Inner Focus', '[of] ' + target);
-			}
-		},
-	},
 	mirrorarmor: {
 		inherit: true,
 		onBoost(boost, target, source, effect) {
@@ -95,41 +86,6 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 						pokemon.addVolatile(innate, pokemon);
 					}
 				}
-			}
-		},
-	},
-	oblivious: {
-		inherit: true,
-		onBoost(boost, target, source, effect) {
-			if (effect.id === 'intimidate' || effect.id === 'ability:intimidate') {
-				delete boost.atk;
-				this.add('-fail', target, 'unboost', 'Attack', '[from] ability: Oblivious', '[of] ' + target);
-			}
-		},
-	},
-	owntempo: {
-		inherit: true,
-		onBoost(boost, target, source, effect) {
-			if (effect.id === 'intimidate' || effect.id === 'ability:intimidate') {
-				delete boost.atk;
-				this.add('-fail', target, 'unboost', 'Attack', '[from] ability: Own Tempo', '[of] ' + target);
-			}
-		},
-	},
-	rattled: {
-		inherit: true,
-		onAfterBoost(boost, target, source, effect) {
-			if (effect && (effect.id === 'intimidate' || effect.id === 'ability:intimidate')) {
-				this.boost({spe: 1});
-			}
-		},
-	},
-	scrappy: {
-		inherit: true,
-		onBoost(boost, target, source, effect) {
-			if (effect.id === 'intimidate' || effect.id === 'ability:intimidate') {
-				delete boost.atk;
-				this.add('-fail', target, 'unboost', 'Attack', '[from] ability: Scrappy', '[of] ' + target);
 			}
 		},
 	},
