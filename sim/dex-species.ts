@@ -282,6 +282,10 @@ export class Species extends BasicEffect implements Readonly<BasicEffect & Speci
 			(this.battleOnly !== this.baseSpecies ? this.battleOnly : this.baseSpecies);
 		if (Array.isArray(data.changesFrom)) this.changesFrom = data.changesFrom[0];
 
+		if (!this.gen && this.num > -899 && this.num < -400) {
+			this.gen = 7;
+			}
+
 		if (!this.gen && this.num >= 1) {
 			if (this.num >= 810 || ['Gmax', 'Galar', 'Galar-Zen'].includes(this.forme)) {
 				this.gen = 8;
@@ -304,8 +308,6 @@ export class Species extends BasicEffect implements Readonly<BasicEffect & Speci
 			} else {
 				this.gen = 1;
 			}
-		} else if (!this.gen && this.num > -899 && this.num < -400) {
-			this.gen = 7;
 		}
 	}
 }
