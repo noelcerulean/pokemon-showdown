@@ -304,6 +304,8 @@ export class Species extends BasicEffect implements Readonly<BasicEffect & Speci
 			} else {
 				this.gen = 1;
 			}
+		} else if (!this.gen && this.num > -899 && this.num < -400) {
+			this.gen = 7;
 		}
 	}
 }
