@@ -12,12 +12,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	shadowanvil: {
 		name: "Shadow Anvil",
 		desc: "Always crits. The power of this move depends on (user's weight / target's weight), rounded down. Power is equal to 120 if the result is 5 or more, 100 if 4, 80 if 3, 60 if 2, and 40 if 1 or less. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
-		shortDesc: "More power the heavier the user than target. Crits.",
+		shortDesc: "More power the heavier user is than target. Crits.",
 	},
 	shadowbeam: {
 		name: "Shadow Beam",
 		desc: "Always crits. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb or the weather is Shadow Sky, the move completes in one turn. If the user is holding Utility Umbrella and the weather is Shadow Sky, the move still requires a turn to charge.",
-		shortDesc: "Charges turn 1. Hits turn 2. No charge in shadow sky. Crits.",
+		shortDesc: "Charges then hits. No charge in shadow sky. Crits.",
 
 		prepare: "  [POKEMON] absorbed shadow energy!",
 	},
@@ -29,12 +29,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	shadowbluff: {
 		name: "Shadow Bluff",
 		desc: "Always crits. Has a 100% chance to make the target flinch. Fails unless it is the user's first turn on the field.",
-		shortDesc: "Hits first. First turn out only. 100% flinch chance. Crits.",
+		shortDesc: "Hits first; Only turn 1. Flinches and crits.",
 	},
 	shadowcentrifuge: {
 		name: "Shadow Centrifuge",
 		desc: "Always crits. Power is equal to (25 * target's current Speed / user's current Speed) + 1, rounded down, but not more than 150. If the user's current Speed is 0, this move's power is 1.",
-		shortDesc: "More power the slower the user than target. Crits.",
+		shortDesc: "More power slower user is than target. Crits.",
 	},
 	shadowchew: {
 		name: "Shadow Chew",
@@ -58,7 +58,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	shadowdart: {
 		name: "Shadow Dart",
 		desc: "Always crits. The power of this move depends on (user's current Speed / target's current Speed), rounded down. Power is equal to 150 if the result is 4 or more, 120 if 3, 80 if 2, 60 if 1, 40 if less than 1. If the target's current Speed is 0, this move's power is 40.",
-		shortDesc: "More power the faster the user is than target. Crits.",
+		shortDesc: "More power faster the user is than target. Crits.",
 	},
 	shadowdesolation: {
 		name: "Shadow Desolation",
@@ -143,14 +143,14 @@ export const MovesText: {[k: string]: MoveText} = {
 	shadowrobbery: {
 		name: "Shadow Robbery",
 		desc: "Always crits. The target's stat stages greater than 0 are stolen from it and applied to the user before dealing damage.",
-		shortDesc: "Steals target's boosts before dealing damage. Crits.",
+		shortDesc: "Steals target's boosts before damaging. Crits.",
 
 		clearBoost: "  [SOURCE] stole the target's boosted stats!",
 	},
 	shadowsignal: {
 		name: "Shadow Signal",
 		desc: "Raises the Attack, Special Attack, and Speed of all Shadow-type Pokemon on the field by 1 stage, or by two stages in Shadow Sky.",
-		shortDesc: "+1 Atk/SpA/Spe to Shadow types; +2 in Shadow Sky.",
+		shortDesc: "+1 Atk/SpA/Spe to Shadow; +2 in Shadow Sky.",
 	},
 	shadowsky: {
 		name: "Shadow Sky",
@@ -176,7 +176,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	shadowsqueeze: {
 		name: "Shadow Squeeze",
 		desc: "Always crits. Power is equal to 100 * (target's current HP / target's maximum HP), rounded half down, but not less than 1.",
-		shortDesc: "More power the more HP the target has left. Crits.",
+		shortDesc: "More power the more HP target has left. Crits.",
 	},
 	shadowstratoslam: {
 		name: "Shadow Stratoslam",
@@ -192,7 +192,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	shadowtransform: {
 		name: "Shadow Transform",
 		desc: "The user transforms into the target. The target's current stats, stat stages, moves, Ability, weight, gender, and sprite are copied. The user's level and HP remain the same and each copied move receives only 5 PP, with a maximum of 5 PP each. The user can no longer change formes if it would have the ability to do so. This move fails if either the user or the target is already transformed, or if either is behind an Illusion. Grants the user an omniboost and turns into Shadow-type.",
-		shortDesc: "Omniboosts and transforms into Shadow type of foe.",
+		shortDesc: "Omniboosts and transforms into Shadow target.",
 
 		transform: "[POKEMON] transformed into a Shadow version of [SPECIES]!",
 	},
@@ -204,7 +204,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	shadowvenom: {
 		name: "Shadow Venom",
 		desc: "Infiltrates, non-reflectable. Badly poisons the target.",
-		shortDesc: "Badly poisons the target. Infiltrates, non-reflectable.",
+		shortDesc: "Badly poisons target. Infiltrates, non-reflectable.",
 	},
 	shadowvolley: {
 		name: "Shadow Volley",
