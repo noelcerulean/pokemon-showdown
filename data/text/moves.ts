@@ -4,6 +4,223 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a very high chance for a critical hit.",
 		shortDesc: "Very high critical hit ratio.",
 	},
+	shadowambush: {
+		name: "Shadow Ambush",
+		desc: "Always crits. Fails unless it is the user's first turn on the field.",
+		shortDesc: "Hits first. Crits. First turn out only.",
+	},
+	shadowanvil: {
+		name: "Shadow Anvil",
+		desc: "Always crits. The power of this move depends on (user's weight / target's weight), rounded down. Power is equal to 120 if the result is 5 or more, 100 if 4, 80 if 3, 60 if 2, and 40 if 1 or less. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
+		shortDesc: "More power the heavier the user than target. Crits.",
+	},
+	shadowbeam: {
+		name: "Shadow Beam",
+		desc: "Always crits. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb or the weather is Shadow Sky, the move completes in one turn. If the user is holding Utility Umbrella and the weather is Shadow Sky, the move still requires a turn to charge.",
+		shortDesc: "Charges turn 1. Hits turn 2. No charge in shadow sky. Crits.",
+
+		prepare: "  [POKEMON] absorbed shadow energy!",
+	},
+	shadowblast: {
+		name: "Shadow Blast",
+		desc: "Always crits. 100% chance to raise stats of user by 1 stage.",
+		shortDesc: "Crits. 100% chance to raise all user stats by 1.",
+	},
+	shadowbluff: {
+		name: "Shadow Bluff",
+		desc: "Always crits. Has a 100% chance to make the target flinch. Fails unless it is the user's first turn on the field.",
+		shortDesc: "Hits first. First turn out only. 100% flinch chance. Crits.",
+	},
+	shadowcentrifuge: {
+		name: "Shadow Centrifuge",
+		desc: "Always crits. Power is equal to (25 * target's current Speed / user's current Speed) + 1, rounded down, but not more than 150. If the user's current Speed is 0, this move's power is 1.",
+		shortDesc: "More power the slower the user than target. Crits.",
+	},
+	shadowchew: {
+		name: "Shadow Chew",
+		desc: "Always crits. If this move is successful and the user has not fainted, it steals the target's held Berry if it is holding one and eats it immediately, gaining its effects even if the user's item is being ignored. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
+		shortDesc: "User steals and eats the target's Berry. Crits.",
+
+		removeItem: "  [SOURCE] stole and ate its target's [ITEM]!",
+	},
+	shadowchop: {
+		name: "Shadow Chop",
+		desc: "For 2 turns, the target cannot use sound-based moves.",
+		shortDesc: "Crits. For 2 turns, target cannot use sound moves.",
+
+		cant: "The effects of Shadow Chop prevent [POKEMON] from using certain moves!",
+	},
+	shadowcomeuppance: {
+		name: "Shadow Comeuppance",
+		desc: "Deals damage to the last opposing Pokemon to hit the user with a physical or special attack this turn equal to 1.5 times the HP lost by the user from that attack, rounded down. If the user did not lose HP from that attack, this move deals 1 HP of damage instead. If that opposing Pokemon's position is no longer in use and there is another opposing Pokemon on the field, the damage is done to it instead. Only the last hit of a multi-hit attack is counted. Fails if the user was not hit by an opposing Pokemon's physical or special attack this turn.",
+		shortDesc: "If hit by an attack, returns 1.5x damage.",
+	},
+	shadowdart: {
+		name: "Shadow Dart",
+		desc: "Always crits. The power of this move depends on (user's current Speed / target's current Speed), rounded down. Power is equal to 150 if the result is 4 or more, 120 if 3, 80 if 2, 60 if 1, 40 if less than 1. If the target's current Speed is 0, this move's power is 40.",
+		shortDesc: "More power the faster the user is than target. Crits.",
+	},
+	shadowdesolation: {
+		name: "Shadow Desolation",
+		desc: "Always crits. Deals 1.5x damage to foes who have any negative stat boosts.",
+		shortDesc: "Crits. 1.5x to foes with any stat drops.",
+	},
+	shadowdetonation: {
+		name: "Shadow Detonation",
+		desc: "Always crits. The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.",
+		shortDesc: "Crits. Hits adjacent Pokemon. The user faints.",
+	},
+	shadowduplicity: {
+		name: "Shadow Duplicity",
+		desc: "Damage is calculated using the target's Sp. Attack Attack stat, including stat stage changes. The user's Ability, item, and freeze are used as normal.",
+		shortDesc: "Crits. Uses target Sp Atk stat in damage calc.",
+	},
+	shadowfirestorm: {
+		name: "Shadow Firestorm",
+		desc: "Always crits. For 5 turns, the weather becomes Sunny Day. The damage of Fire-type attacks is multiplied by 1.5 and the damage of Water-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Heat Rock.",
+		shortDesc: "Crits. For 5 turns, weather becomes Sunny Day.",
+	},
+	shadowfountain: {
+		name: "Shadow Fountain",
+		desc: "The user has 1/16 of its maximum HP, rounded down, restored at the end of each turn while it remains active. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. If the user uses Baton Pass, the replacement will receive the healing effect.",
+		shortDesc: "User recovers 1/16 max HP per turn.",
+
+		start: "  [POKEMON] surrounded itself with a fountain of shadows!",
+		heal: "  A fountain of shadows restored [POKEMON]'s HP!",
+	},
+	shadowfrenzy: {
+		name: "Shadow Frenzy",
+		desc: "Always crits. The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
+		shortDesc: "Crits. Lasts 2-3 turns. Confuses user afterwards.",
+	},
+	shadowgale: {
+		name: "Shadow Gale",
+		desc: "Always Crits. For 5 turns, the weather becomes Shadow Sky. The damage of Shadow-type attacks is multiplied by 1.5 and at the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are an Shadow type or have the Pure Heart, Magic Guard, or Overcoat Abilities. Lasts for 8 turns if the user is holding Shadow Rock.",
+		shortDesc: "Crits. For 5 turns, weather becomes Shadow Sky.",
+	},
+	shadowgluttony: {
+		name: "Shadow Gluttony",
+		desc: "This move cannot be selected unless the user is holding a Berry. The user eats its Berry and raises its Defense by 2 stages. This effect is not prevented by the Klutz or Unnerve Abilities, or the effects of Embargo or Magic Room. Fails if the user is not holding a Berry.",
+		shortDesc: "Must hold Berry to use. User eats Berry, Def +2.",
+	},
+	shadowhalf: {
+		name: "Shadow Half",
+		desc: "Deals damage to the target equal to half of its current HP, rounded down, but not less than 1 HP.",
+		shortDesc: "Does damage equal to 1/2 target's current HP.",
+	},
+	shadowinversion: {
+		name: "Shadow Inversion",
+		desc: "Always crits. The target's positive stat stages become negative and vice versa. Fails if all of the target's stat stages are 0.",
+		shortDesc: "Inverts the target's stat stages. Crits.",
+	},
+	shadowlaser: {
+		name: "Shadow Laser",
+		desc: "Always crits. This attack charges on the first turn and executes on the second. Raises the user's Special Attack by 1 stage on the first turn. If the user is holding a Power Herb, the move completes in one turn.",
+		shortDesc: "+1 Sp. Atk on turn 1. Hits turn 2. Crits.",
+
+		prepare: "[POKEMON] is overflowing with shadow energy!",
+	},
+	shadowmirage: {
+		name: "Shadow Mirage",
+		desc: "Deals damage to the target equal to the user's level.",
+		shortDesc: "Does damage equal to the user's level.",
+	},
+	shadowmonsoon: {
+		name: "Shadow Monsoon",
+		desc: "Always crits. For 5 turns, the weather becomes Rain Dance. The damage of Water-type attacks is multiplied by 1.5 and the damage of Fire-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Damp Rock. Fails if the current weather is Rain Dance.",
+		shortDesc: "Crits. For 5 turns, weather becomes Rain Dance.",
+	},
+	shadowpress: {
+		name: "Shadow Press",
+		desc: "Always crits. Damage is calculated using the user's Defense stat as its Attack, including stat stage changes. Other effects that modify the Attack stat are used as normal.",
+		shortDesc: "Uses user's Def stat as Atk in damage calc. Crits.",
+	},
+	shadowrecruit: {
+		name: "Shadow Recruit",
+		desc: "Causes the Shadow type to be added to the target, effectively making it have two or three types. Fails if the target is already a Shadow type. If Forest's Curse or Trick-or-Treat adds a type to the target, it replaces the type added by this move and vice versa.",
+		shortDesc: "Adds Shadow to the target's type(s).",
+	},
+	shadowrobbery: {
+		name: "Shadow Robbery",
+		desc: "Always crits. The target's stat stages greater than 0 are stolen from it and applied to the user before dealing damage.",
+		shortDesc: "Steals target's boosts before dealing damage. Crits.",
+
+		clearBoost: "  [SOURCE] stole the target's boosted stats!",
+	},
+	shadowsignal: {
+		name: "Shadow Signal",
+		desc: "Raises the Attack, Special Attack, and Speed of all Shadow-type Pokemon on the field by 1 stage, or by two stages in Shadow Sky.",
+		shortDesc: "+1 Atk/SpA/Spe to Shadow types; +2 in Shadow Sky.",
+	},
+	shadowsky: {
+		name: "Shadow Sky",
+		desc: "For 5 turns, the weather becomes Shadow Sky. The damage of Shadow-type attacks is multiplied by 1.5 and at the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are an Shadow type or have the Pure Heart, Magic Guard, or Overcoat Abilities. Lasts for 8 turns if the user is holding Shadow Rock.",
+		shortDesc: "For 5 turns, weather becomes Shadow Sky.",
+	},
+	shadowslander: {
+		name: "Shadow Slander",
+		desc: "Lowers the target's Attack and Special Attack by 1 stage. If this move is successful, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if the target's Attack and Special Attack stat stages were both unchanged, or if there are no unfainted party members.",
+		shortDesc: "Lowers target's Atk, Sp. Atk by 1. User switches.",
+
+		heal: "#memento",
+	},
+	shadowspikes: {
+		name: "Shadow Spikes",
+		desc: "Sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. Can be used up to three times before failing. Opponents lose 1/8 of their maximum HP with one layer, 1/6 of their maximum HP with two layers, and 1/4 of their maximum HP with three layers, all rounded down. Can be removed from the opposing side if any opposing Pokemon uses Rapid Spin or Defog successfully, or is hit by Defog.",
+		shortDesc: "Hurts grounded foes on switch-in. Max 3 layers.",
+
+		start: "  Spikes were scattered on the ground all around [TEAM]!",
+		end: "  The spikes disappeared from the ground around [TEAM]!",
+		damage: "  [POKEMON] was hurt by the spikes!",
+	},
+	shadowsqueeze: {
+		name: "Shadow Squeeze",
+		desc: "Always crits. Power is equal to 120 * (target's current HP / target's maximum HP), rounded half down, but not less than 1.",
+		shortDesc: "More power the more HP the target has left. Crits.",
+	},
+	shadowstratoslam: {
+		name: "Shadow Stratoslam",
+		shortDesc: "Clears weather. Crits.",
+	},
+	shadowswap: {
+		name: "Shadow Swap",
+		desc: "The user swaps its held item with the target's held item. Fails if either the user or the target is holding a Mail or Z-Crystal, if neither is holding an item, if the user is trying to give or take a Mega Stone to or from the species that can Mega Evolve with it, or if the user is trying to give or take a Blue Orb, a Red Orb, a Griseous Orb, a Plate, a Drive, or a Memory to or from a Kyogre, a Groudon, a Giratina, an Arceus, a Genesect, or a Silvally, respectively. The target is immune to this move if it has the Sticky Hold Ability.",
+		shortDesc: "User switches its held item with the target's.",
+
+		activate: "  [POKEMON] switched items with its target!",
+	},
+	shadowtransform: {
+		name: "Shadow Transform",
+		desc: "The user transforms into the target. The target's current stats, stat stages, moves, Ability, weight, gender, and sprite are copied. The user's level and HP remain the same and each copied move receives only 5 PP, with a maximum of 5 PP each. The user can no longer change formes if it would have the ability to do so. This move fails if either the user or the target is already transformed, or if either is behind an Illusion. Grants the user an omniboost and turns into Shadow-type.",
+		shortDesc: "Omniboosts and transforms into Shadow type of foe.",
+
+		transform: "[POKEMON] transformed into a Shadow version of [SPECIES]!",
+	},
+	shadowvenom: {
+		name: "Shadow Venom",
+		desc: "Infiltrates, non-reflectable. Badly poisons the target.",
+		shortDesc: "Badly poisons the target. Infiltrates, non-reflectable.",
+	},
+	shadowvolley: {
+		name: "Shadow Volley",
+		desc: "Always crits. Deals damage to the target based on its Defense instead of Special Defense.",
+		shortDesc: "Damages target based on Def, not Sp. Def. Crits.",
+	},
+	shadowwhiteout: {
+		name: "Shadow Whiteout",
+		desc: "Always crits. For 5 turns, the weather becomes Hail. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are an Ice type or have the Ice Body, Magic Guard, Overcoat, or Snow Cloak Abilities. Lasts for 8 turns if the user is holding Icy Rock. Fails if the current weather is Hail.",
+		shortDesc: "Crits. For 5 turns, weather becomes Hail.",
+	},
+	shadowyrm: {
+		name: "Shadow Wyrm",
+		desc: "The user restores 3/4 of its maximum HP, rounded half up.",
+		shortDesc: "Heals the user by 75% of its max HP.",
+	},
+	shadowtrip: {
+		name: "Shadow Trip",
+		desc: "This move's power is 20 if the target weighs less than 10 kg, 40 if less than 25 kg, 60 if less than 50 kg, 80 if less than 100 kg, 100 if less than 200 kg, and 120 if greater than or equal to 200 kg.",
+		shortDesc: "Crits. More power the heavier the target.",
+	},
 	absorb: {
 		name: "Absorb",
 		desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",

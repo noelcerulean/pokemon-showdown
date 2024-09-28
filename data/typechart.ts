@@ -407,6 +407,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 	},
 	shadow: {
 		damageTaken: {
+			shadowsky: 0,
 			Bug: 0,
 			Dark: 0,
 			Dragon: 0,

@@ -258,6 +258,7 @@ const avatarTable = new Set([
 	'moby',
 	'morty-gen2', 'morty',
 	'mrfuji-gen3',
+	'mudd',
 	'musician',
 	'nate-wonderlauncher', 'nate',
 	'ninjaboy-gen3', 'ninjaboy',
