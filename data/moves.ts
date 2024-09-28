@@ -287,7 +287,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Shadow",
 	},
-	shadowcomeuppance: {
+	shadowrequital: {
 		num: -884,
 		accuracy: 100,
 		basePower: 0,
@@ -299,7 +299,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			return 0;
 		},
 		category: "Physical",
-		name: "Shadow Comeuppance",
+		name: "Shadow Requital",
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1},
@@ -461,7 +461,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		willCrit: true,
 		noSketch: true,
 		secondary: null,
-		target: "self",
+		target: "normal",
 		type: "Shadow",
 	},
 	shadowgale: {
@@ -781,7 +781,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			return Math.floor(Math.floor((120 * (100 * Math.floor(target.hp * 4096 / target.maxhp)) + 2048 - 1) / 4096) / 100) || 1;
 		},
 		category: "Special",
-		name: "Shaow Squeeze",
+		name: "Shadow Squeeze",
 		pp: 5,
 		priority: 0,
 		flags: {contact: 1, protect: 1},
@@ -814,7 +814,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
-		name: "Trick",
+		name: "Shadow Swap",
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mystery: 1},
@@ -861,7 +861,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
-		name: "Transform",
+		name: "Shadow Transform",
 		pp: 10,
 		priority: 0,
 		flags: {mystery: 1},
