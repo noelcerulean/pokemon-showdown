@@ -211,7 +211,7 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Always crits. For 5 turns, the weather becomes Hail. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are an Ice type or have the Ice Body, Magic Guard, Overcoat, or Snow Cloak Abilities. Lasts for 8 turns if the user is holding Icy Rock. Fails if the current weather is Hail.",
 		shortDesc: "Crits. For 5 turns, weather becomes Hail.",
 	},
-	shadowyrm: {
+	shadowwyrm: {
 		name: "Shadow Wyrm",
 		desc: "The user restores 3/4 of its maximum HP, rounded half up.",
 		shortDesc: "Heals the user by 75% of its max HP.",

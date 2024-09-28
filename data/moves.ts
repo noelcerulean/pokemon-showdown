@@ -249,7 +249,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		condition: {
 			duration: 2,
 			onStart(target) {
-				this.add('-start', target, 'Shadow Chop', '[silent]');
+				this.add('-start', target, 'Throat Chop', '[silent]');
 			},
 			onDisableMove(pokemon) {
 				for (const moveSlot of pokemon.moveSlots) {
@@ -273,7 +273,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 			onResidualOrder: 22,
 			onEnd(target) {
-				this.add('-end', target, 'Shadow Chop', '[silent]');
+				this.add('-end', target, 'Throat Chop', '[silent]');
 			},
 		},
 		willCrit: true,
@@ -281,7 +281,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		secondary: {
 			chance: 100,
 			onHit(target) {
-				target.addVolatile('shadowchop');
+				target.addVolatile('throatchop');
 			},
 		},
 		target: "normal",
@@ -982,9 +982,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1},
 		weather: 'hail',
-		onTryMove() {
-			this.attrLastMove('[still]');
-		},
 		willCrit: true,
 		noSketch: true,
 		secondary: null,
