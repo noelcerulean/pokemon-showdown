@@ -125,7 +125,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['Standard', 'Mega Rayquaza Clause'],
-		banlist: ['Uber', 'Baton Pass', 'Ho-Oh-Rainbow', 'Gyarados-Alarix', 'Alarixite', 'Magic Guard', 'Rock Head'],
+		banlist: ['Uber', 'Baton Pass', 'Ho-Oh-Rainbow', 'Gyarados-Alarix', 'Alarixite', 'Magic Guard', 'Rock Head', 'Fraxure-Frenzy + Sheer Force'],
 		unbanlist: [
 			'Braixen-Nonzerda', 'Bulbasaur-Saur', 'Carbink-Floatamo', 'Eelektross-Mr.Lamprey', 'Emboar-Dynamite', 'Entei-Bismuth', 'Espeon-Daybreak', 'Hakamo-o-Jacinto',
 			'Jirachi-Wishmaker', 'Kecleon-Genocalypse', 'Kingdra-K.Marxdra', 'Milotic-Lothraxia', 'Porygon2-Pory.EXE', 'Raichu-Malachite',
