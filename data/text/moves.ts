@@ -46,7 +46,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	shadowchop: {
 		name: "Shadow Chop",
 		desc: "For 2 turns, the target cannot use sound-based moves.",
-		shortDesc: "Crits. For 2 turns, target cannot use sound moves.",
+		shortDesc: "Crits. For 2 turns, target can't use sound moves.",
 
 		cant: "The effects of Shadow Chop prevent [POKEMON] from using certain moves!",
 	},
@@ -196,6 +196,11 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		transform: "[POKEMON] transformed into a Shadow version of [SPECIES]!",
 	},
+	shadowtrip: {
+		name: "Shadow Trip",
+		desc: "This move's power is 20 if the target weighs less than 10 kg, 40 if less than 25 kg, 60 if less than 50 kg, 80 if less than 100 kg, 100 if less than 200 kg, and 120 if greater than or equal to 200 kg.",
+		shortDesc: "Crits. More power the heavier the target.",
+	},
 	shadowvenom: {
 		name: "Shadow Venom",
 		desc: "Infiltrates, non-reflectable. Badly poisons the target.",
@@ -215,11 +220,6 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Shadow Wyrm",
 		desc: "The user restores 3/4 of its maximum HP, rounded half up.",
 		shortDesc: "Heals the user by 75% of its max HP.",
-	},
-	shadowtrip: {
-		name: "Shadow Trip",
-		desc: "This move's power is 20 if the target weighs less than 10 kg, 40 if less than 25 kg, 60 if less than 50 kg, 80 if less than 100 kg, 100 if less than 200 kg, and 120 if greater than or equal to 200 kg.",
-		shortDesc: "Crits. More power the heavier the target.",
 	},
 	absorb: {
 		name: "Absorb",
