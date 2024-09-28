@@ -683,43 +683,6 @@ export const Conditions: {[k: string]: ConditionData} = {
 			this.add('-weather', 'none');
 		},
 	},
-	shadowsky: {
-		name: 'Shadow Sky',
-		effectType: 'Weather',
-		duration: 5,
-		durationCallback(source, effect) {
-			if (source?.hasItem('shadowrock')) {
-				return 8;
-			}
-			return 5;
-		},
-		onWeatherModifyDamage(damage, attacker, defender, move) {
-			if (defender.hasItem('utilityumbrella')) return;
-			if (move.type === 'Shadow') {
-				this.debug('shadow sky boost');
-				return this.chainModify(1.5);
-			}
-		},
-		onFieldStart(field, source, effect) {
-			if (effect?.effectType === 'Ability') {
-				if (this.gen <= 5) this.effectState.duration = 0;
-				this.add('-weather', 'Shadow Sky', '[from] ability: ' + effect, '[of] ' + source);
-			} else {
-				this.add('-weather', 'Shadow Sky');
-			}
-		},
-		onFieldResidualOrder: 1,
-		onFieldResidual() {
-			this.add('-weather', 'Shadow Sky', '[upkeep]');
-			if (this.field.isWeather('shadowsky')) this.eachEvent('Weather');
-		},
-		onWeather(target) {
-			this.damage(target.baseMaxhp / 16);
-		},
-		onFieldEnd() {
-			this.add('-weather', 'none');
-		},
-	},
 	deltastream: {
 		name: 'DeltaStream',
 		effectType: 'Weather',
