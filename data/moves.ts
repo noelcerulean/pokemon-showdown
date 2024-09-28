@@ -410,9 +410,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1},
 		weather: 'sunnyday',
-		onTryMove() {
-			this.attrLastMove('[still]');
-		},
 		willCrit: true,
 		noSketch: true,
 		secondary: null,
@@ -477,9 +474,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1},
 		weather: 'shadowsky',
-		onTryMove() {
-			this.attrLastMove('[still]');
-		},
 		willCrit: true,
 		noSketch: true,
 		secondary: null,
@@ -608,9 +602,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1},
 		weather: 'raindance',
-		onTryMove() {
-			this.attrLastMove('[still]');
-		},
 		willCrit: true,
 		noSketch: true,
 		secondary: null,
