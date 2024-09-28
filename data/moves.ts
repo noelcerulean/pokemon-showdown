@@ -875,12 +875,14 @@ export const Moves: {[moveid: string]: MoveData} = {
 			this.add('-start', target, 'typechange', 'Shadow');
 		},
 		noSketch: true,
-		boosts: {
-			atk: 1,
-			def: 1,
-			spa: 1,
-			spd: 1,
-			spe: 1,
+		selfBoost: {
+			boosts: {
+				atk: 1,
+				def: 1,
+				spa: 1,
+				spd: 1,
+				spe: 1,
+			},
 		},
 		target: "normal",
 		type: "Shadow",
