@@ -1137,6 +1137,7 @@ export const Aliases: {[alias: string]: string} = {
 	vikafnf: "Vikavolt-FnF",
 	ruth: "Rutherium",
 	igna: "Ignajara",
+	iggy: "Ignajara",
 	koal: "Torkoal",
 	koalfnf: "Torkoal-FnF",
 	chikoal: "Torkoal-FnF",
@@ -1177,6 +1178,9 @@ export const Aliases: {[alias: string]: string} = {
 	dsteeneea: "Steenee-Delta-Armored",
 	reimu: "Steenee-Delta-Armored",
 	chinglinga: "Chingling-Armored",
+	ignajaraa: "Ignajara-Armored",
+	ignaa: "Ignajara-Armored",
+	iggya: "Ignajara-Armored",
 
 	// shortened deltas
 	cranidosd: "Cranidos-Delta",

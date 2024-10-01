@@ -1177,6 +1177,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
+	ignajaraarmored: {
+		randomBattleMoves: ["accelerock", "dragondance", "flareblitz", "iciclecrash", "lightningkick", "rockclimb"],
+		randomDoubleBattleMoves: ["accelerock", "dragondance", "flareblitz", "iciclecrash", "lightningkick", "protect", "rockclimb"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
 	aerodactyl: {
 		randomBattleMoves: ["defog", "doubleedge", "earthquake", "pursuit", "roost", "stealthrock", "stoneedge", "taunt"],
 		randomDoubleBattleMoves: ["earthquake", "protect", "rockslide", "skydrop", "stoneedge", "tailwind", "wideguard"],

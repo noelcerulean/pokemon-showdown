@@ -917,6 +917,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Icy Rock",
 		desc: "Holder's Hail lasts 8 turns instead of 5. Non-removable from Castform.",
 	},
+	ignajaraarmor: {
+		name: "Ignajara Armor",
+		desc: "Armor developed by DoReMi for Ignajara to enhance its battle capabilities.",
+		shortDesc: "Attach to Ignajara-Armored forme (not base forme!!!) in the teambuilder.",
+	},
 	inciniumz: {
 		name: "Incinium Z",
 		desc: "If held by an Incineroar with Darkest Lariat, it can use Malicious Moonsault.",

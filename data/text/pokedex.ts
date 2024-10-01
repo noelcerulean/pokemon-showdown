@@ -728,6 +728,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	ignajara: {
 		name: "Ignajara",
 	},
+	ignajaraarmored: {
+		name: "Ignajara-Armored",
+	},
 	aerodactyl: {
 		name: "Aerodactyl",
 	},

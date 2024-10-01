@@ -485,7 +485,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		onTryHealPriority: 1,
 		onTryHeal(damage, target, source, effect) {
-			const heals = ['drain', 'leechseed', 'ingrain', 'aquaring', 'strengthsap'];
+			const heals = ['drain', 'leechseed', 'ingrain', 'aquaring', 'strengthsap', 'parasiticdrain'];
 			if (heals.includes(effect.id)) {
 				return this.chainModify([5324, 4096]);
 			}
@@ -2370,7 +2370,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		onTryHealPriority: 1,
 		onTryHeal(damage, target, source, effect) {
-			const heals = ['drain', 'leechseed', 'ingrain', 'aquaring', 'strengthsap'];
+			const heals = ['drain', 'leechseed', 'ingrain', 'aquaring', 'strengthsap', 'parasiticdrain'];
 			if (heals.includes(effect.id)) {
 				return this.chainModify([5324, 4096]);
 			}
@@ -3065,6 +3065,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 282,
 		gen: 4,
+	},
+	ignajaraarmor: {
+		name: "Ignajara Armor",
+		spritenum: 796,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Ignajara-Armored') return false;
+			return true;
+		},
+		itemUser: ["Ignajara-Armored"],
+		num: -559,
+		gen: 7,
 	},
 	inciniumz: {
 		name: "Incinium Z",
