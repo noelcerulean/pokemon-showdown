@@ -6655,7 +6655,6 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (target.eatItem()) {
 				let boostAmount = target.hasAbility('ripen') ? -2 : -1
 				this.boost({atk: boostAmount, spa: boostAmount}, source, target, null, true);
-				this.heal(source.baseMaxhp / (target.hasAbility('ripen') ? 2 : 4));
 			}
 		},
 		onTryEatItem(item, pokemon) {
