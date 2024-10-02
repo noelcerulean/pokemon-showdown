@@ -1673,12 +1673,13 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		onTryHealPriority: 1,
 		onTryHeal(damage, target, source, effect) {
+			if (target.hp === target.maxhp) return;
 			// keep this the same as heals list in bigroot
 			const heals = ['drain', 'strengthsap', 'parasiticdrain'];
 			if (effect.effectType !== 'Move' && !heals.includes(effect.id)) return;
 			if (target.eatItem()) {
 				this.add('-activate', target, 'item: Eggant Berry', '[consumed]');
-				return this.chainModify(2);
+				return this.chainModify(target.hasAbility('ripen') ? 4 : 2);
 			}
 		},
 		onEat() { },
@@ -3434,10 +3435,11 @@ export const Items: {[itemid: string]: ItemData} = {
 				this.debug('tripling secondary chance');
 				if (pokemon.eatItem()) {
 					this.add('-activate', pokemon, 'item: Kuo Berry', '[consumed]');
+					let chanceModifier = pokemon.hasAbility('ripen') ? 6 : 3;
 					for (const secondary of move.secondaries) {
-						if (secondary.chance) secondary.chance *= 3;
+						if (secondary.chance) secondary.chance *= chanceModifier;
 					}
-					if (move.self?.chance) move.self.chance *= 3;
+					if (move.self?.chance) move.self.chance *= chanceModifier;
 				}
 			}
 		},
@@ -6651,8 +6653,9 @@ export const Items: {[itemid: string]: ItemData} = {
 		onDamagingHit(damage, target, source, move) {
 			if (!this.checkMoveMakesContact(move, source, target)) return;
 			if (target.eatItem()) {
-				this.boost({atk: -1, spa: -1}, source, target, null, true);
-				this.heal(source.baseMaxhp / 4);
+				let boostAmount = target.hasAbility('ripen') ? -2 : -1
+				this.boost({atk: boostAmount, spa: boostAmount}, source, target, null, true);
+				this.heal(source.baseMaxhp / (target.hasAbility('ripen') ? 2 : 4));
 			}
 		},
 		onTryEatItem(item, pokemon) {
