@@ -1580,7 +1580,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	pumkinberry: {
 		name: "Pumkin Berry",
-		desc: "Heals 1/3 max HP & grants Slow Start at the end of an active turn. Single use.",
+		desc: "At the end of an active turn, heals 1/3 max HP & grants Slow Start. Single use.",
 
 		activate: "  [POKEMON] engorged itself on its Pumkin Berry!",
 	},
