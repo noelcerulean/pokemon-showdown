@@ -1673,11 +1673,11 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		onTryHealPriority: 1,
 		onTryHeal(damage, target, source, effect) {
+			// keep this the same as heals list in bigroot
+			const heals = ['drain', 'strengthsap', 'parasiticdrain'];
+			if (effect.effectType !== 'Move' || !heals.includes(effect.id)) return;
 			if (target.eatItem()) {
 				this.add('-activate', target, 'item: Eggant Berry', '[consumed]');
-			}
-			const heals = ['drain', 'heal'];
-			if (heals.includes(effect.id)) {
 				return this.chainModify(2);
 			}
 		},
