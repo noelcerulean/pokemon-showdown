@@ -3476,7 +3476,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			}
 			if (!statsRaised) return;
 			const pokemon: Pokemon = this.effectState.target;
-			if (target.eatItem()) {
+			if (pokemon.eatItem()) {
 				this.add('-activate', pokemon, 'item: Lanchi Berry', '[consumed]')
 				this.boost(boostPlus, pokemon);
 			}
