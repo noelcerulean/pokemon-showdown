@@ -431,12 +431,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Dragonium Z",
 		desc: "If holder has a Dragon move, this item allows it to use a Dragon Z-Move.",
 	},
-	drashberry: {
-		name: "Drash Berry",
-		desc: "If the holder misses due to accuracy, +1 Speed & Accuracy. Single use.",
-
-		activate: "  [POKEMON] increased its focus thanks to its Drash Berry!",
-	},
 	dreadplate: {
 		name: "Dread Plate",
 		desc: "Holder's Dark-type attacks have 1.2x power. Judgment is Dark type.",
@@ -472,12 +466,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 	eeviumz: {
 		name: "Eevium Z",
 		desc: "If held by an Eevee with Last Resort, it can use Extreme Evoboost.",
-	},
-	eggantberry: {
-		name: "Eggant Berry",
-		desc: "Holder gains 2x HP from healing and draining moves. Single use.",
-		
-		activate: "  [POKEMON]'s Eggant berry increased its recovery!",
 	},
 	ejectbutton: {
 		name: "Eject Button",
@@ -754,12 +742,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Ghostium Z",
 		desc: "If holder has a Ghost move, this item allows it to use a Ghost Z-Move.",
 	},
-	ginemaberry: {
-		name: "White Herb",
-		desc: "Reverses negative stat changes caused by an opponent. Single use.",
-
-		activate: "  [POKEMON] reversed its stat decreases using its Ginema Berry!",
-	},
 	glalitite: {
 		name: "Glalitite",
 		desc: "If held by a Glalie, this item allows it to Mega Evolve in battle.",
@@ -1011,21 +993,9 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Kommonium Z",
 		desc: "If held by a Kommo-o with Clanging Scales, it can use Clangorous Soulblaze.",
 	},
-	kuoberry: {
-		name: "Kuo Berry",
-		desc: "3x chance of a secondary effect happening from holder's move. Single use.",
-
-		activate: "  [POKEMON]'s Kuo berry increased the likelihood of a secondary effect!",
-	},
 	laggingtail: {
 		name: "Lagging Tail",
 		desc: "Holder moves last in its priority bracket.",
-	},
-	lanchiberry: {
-		name: "Lanchi Berry",
-		shortDesc: "When an opposing Pokemon raises a stat stage, the holder copies it. Single use.",
-
-		activate: "  [POKEMON] ate its Lanchi Berry to copy its opponent's stat changes!",
 	},
 	lansatberry: {
 		name: "Lansat Berry",
@@ -1352,12 +1322,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 		desc: "When held by Absol, critical hit ratio of blade moves are raised by 2 stages.",
 		shortDesc: "Absol: +2 crit ratio to blade moves.",
 	},
-	ninikuberry: {
-		name: "Niniku Berry",
-		desc: "When hit, clears stats of all active Pokemon. Single use.",
-
-		activate: "  [POKEMON]'s Niniku Berry exuded a pleasant scent across the field!",
-	},
 	nobunagaarmor: {
 		name: "Nobunaga Armor",
 		desc: "Nobunaga's armor, adjusted by Agnes.",
@@ -1377,12 +1341,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 	normaliumz: {
 		name: "Normalium Z",
 		desc: "If holder has a Normal move, this item allows it to use a Normal Z-Move.",
-	},
-	nutpeaberry: {
-		name: "Nutpea Berry",
-		desc: "Holder hit by contact move: heals 1/3 HP, Attacker loses 1/3 HP. Single use.",
-
-		activate: "  [POKEMON] ate the fruit inside the Nutpea Berry's shell!",
 	},
 	nuzleafarmor: {
 		name: "Nuzleaf Armor",
@@ -1577,12 +1535,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 	psychiumz: {
 		name: "Psychium Z",
 		desc: "If holder has a Psychic move, this item allows it to use a Psychic Z-Move.",
-	},
-	pumkinberry: {
-		name: "Pumkin Berry",
-		desc: "At the end of an active turn, heals 1/3 max HP & grants Slow Start. Single use.",
-
-		activate: "  [POKEMON] engorged itself on its Pumkin Berry!",
 	},
 	qualotberry: {
 		name: "Qualot Berry",
@@ -1973,12 +1925,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Strawberry Sweet",
 		desc: "Evolves Milcery into Alcremie when held and spun around.",
 	},
-	stribberry: {
-		name: "Strib Berry",
-		desc: "Holder hit by contact move: heals 1/4 HP, Holder & foe -1 Atk/SpA. Single use.",
-
-		activate: "  [POKEMON]'s Strib Berry emitted a soothing sound!",
-	},
 	sunflorite: {
 		name: "Sunflorite",
 		desc: "If held by an Sunflora, this item allows it to Mega Evolve in battle.",
@@ -2044,18 +1990,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 	timerball: {
 		name: "Timer Ball",
 		desc: "A Poke Ball that becomes better the more turns there are in a battle.",
-	},
-	topoberry: {
-		name: "Topo Berry",
-		desc: "If user has a non-volatile status or is confused, raises Speed. Single use.",
-
-		activate: "  [POKEMON] became energetic thanks to its Topo Berry!",
-	},
-	tougaberry: {
-		name: "Touga Berry",
-		desc: "Holder hit by contact move: Holder & foe +1 Atk/SpA & lose 1/4 HP. Single use.",
-
-		activate: "  [POKEMON]'s Touga Berry was spicy hot! Adrenaline is high!",
 	},
 	toxicorb: {
 		name: "Toxic Orb",
@@ -2590,12 +2524,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 	yacheberry: {
 		name: "Yache Berry",
 		desc: "Halves damage taken from a supereffective Ice-type attack. Single use.",
-	},
-	yagoberry: {
-		name: "Yago Berry",
-		desc: "Raises a random stat by 1 at the end of an active turn (not acc/eva). Single use.",
-
-		activate: "  [POKEMON]'s Yago Berry enhanced its capabilities!",
 	},
 	zapplate: {
 		name: "Zap Plate",
