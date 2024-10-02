@@ -17888,7 +17888,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			const stats: BoostID[] = [];
 			let stat: BoostID;
 			for (stat in target.boosts) {
-				if (target.boosts[stat] < 6) {
+				if (stat !== 'evasion' && target.boosts[stat] < 6) {
 					stats.push(stat);
 				}
 			}
