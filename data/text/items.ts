@@ -1013,7 +1013,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	kuoberry: {
 		name: "Kuo Berry",
-		desc: "Triples the chance of a secondary effect happening from holder's move. Single use.",
+		desc: "3x chance of a secondary effect happening from holder's move. Single use.",
 
 		activate: "  [POKEMON]'s Kuo berry increased the likelihood of a secondary effect!",
 	},
@@ -1380,7 +1380,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	nutpeaberry: {
 		name: "Nutpea Berry",
-		desc: "Holder hit by contact move: Holder heals 1/3 HP, Attacker loses 1/3 HP. Single use.",
+		desc: "Holder hit by contact move: heals 1/3 HP, Attacker loses 1/3 HP. Single use.",
 
 		activate: "  [POKEMON] ate the fruit inside the Nutpea Berry's shell!",
 	},
@@ -1580,7 +1580,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	pumkinberry: {
 		name: "Pumkin Berry",
-		desc: "Restores 1/3 max HP & grants Slow Start at the end of an active turn. Single use.",
+		desc: "Heals 1/3 max HP & grants Slow Start at the end of an active turn. Single use.",
 
 		activate: "  [POKEMON] engorged itself on its Pumkin Berry!",
 	},
@@ -1975,7 +1975,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	stribberry: {
 		name: "Strib Berry",
-		desc: "Holder hit by contact move: Holder heals 1/4 HP, Holder & target -1 Atk/SpA. Single use.",
+		desc: "Holder hit by contact move: heals 1/4 HP, Holder & foe -1 Atk/SpA. Single use.",
 
 		activate: "  [POKEMON]'s Strib Berry emitted a soothing sound!",
 	},
@@ -2053,7 +2053,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	tougaberry: {
 		name: "Touga Berry",
-		desc: "Holder hit by contact move: Holder & target +1 Atk/SpA & lose 1/4 HP. Single use.",
+		desc: "Holder hit by contact move: Holder & foe +1 Atk/SpA & lose 1/4 HP. Single use.",
 
 		activate: "  [POKEMON]'s Touga Berry was spicy hot! Adrenaline is high!",
 	},
