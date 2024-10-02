@@ -758,7 +758,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "White Herb",
 		desc: "Reverses negative stat changes caused by an opponent. Single use.",
 
-		end: "  [POKEMON] reversed its stat decreases using its Ginema Berry!",
+		activate: "  [POKEMON] reversed its stat decreases using its Ginema Berry!",
 	},
 	glalitite: {
 		name: "Glalitite",
@@ -1354,7 +1354,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	ninikuberry: {
 		name: "Niniku Berry",
-		desc: "When hit, clears stats of user and all other active Pokemon. Single use.",
+		desc: "When hit, clears stats of all active Pokemon. Single use.",
 
 		activate: "  [POKEMON]'s Niniku Berry exuded a pleasant scent across the field!",
 	},

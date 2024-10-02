@@ -704,7 +704,7 @@ export class BattleActions {
 					this.battle.boost({spe: 2}, pokemon);
 				}
 				if (!move.ohko && pokemon.hasItem('drashberry')) {
-					pokemon.useItem()
+					pokemon.eatItem()
 				}
 				hitResults[i] = false;
 				continue;

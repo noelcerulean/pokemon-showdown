@@ -3463,8 +3463,8 @@ export const Items: {[itemid: string]: ItemData} = {
 			basePower: 110,
 			type: "Steel",
 		},
-		onFoeAfterBoost(boost, target, source, effect) {
-			if (effect?.name === 'Receiver' || effect?.name === 'Lanchi Berry') return;
+  		onFoeAfterBoost(boost, target, source, effect) {
+			if (effect?.name === 'Receiver' || effect?.name === 'Lanchi Berry' || target !== source) return;
 			const boostPlus: SparseBoostsTable = {};
 			let statsRaised = false;
 			let i: BoostID;
