@@ -543,6 +543,10 @@ export const Aliases: {[alias: string]: string} = {
 	gorochujooj: "Gorochu",
 	emolgadeltaastalos: "Emolga-Delta",
 	archebotskirmisher: "Archebot",
+	sledgesparcegoldmine: "Sledgesparce",
+	zangooseviper: "Zangoose",
+	sevipermongoose: "Seviper",
+	flareontoasty: "Flareon",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",

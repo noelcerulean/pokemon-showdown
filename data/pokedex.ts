@@ -3337,8 +3337,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Fire Stone",
 		eggGroups: ["Field"],
-		cosmeticFormes: ["Flareon-Steam"],
-		formeOrder: ["Flareon", "Flareon-Steam"],
+		cosmeticFormes: ["Flareon-Steam", "Flareon-Toasty"],
+		formeOrder: ["Flareon", "Flareon-Steam", "Flareon-Toasty"],
 	},
 	flareonlasagna: {
 		num: 136,
@@ -5025,6 +5025,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Stucksparce",
 		evoLevel: 50,
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Sledgesparce-Goldmine"],
+		formeOrder: ["Sledgesparce", "Sledgesparce-Goldmine"],
 	},
 	gligar: {
 		num: 207,
@@ -7411,6 +7413,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 40.3,
 		color: "White",
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Seviper-Mongoose"],
+		formeOrder: ["Seviper", "Seviper-Mongoose"],
 	},
 	seviper: {
 		num: 336,
@@ -7422,6 +7426,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 52.5,
 		color: "Black",
 		eggGroups: ["Field", "Dragon"],
+		cosmeticFormes: ["Zangoose-Viper"],
+		formeOrder: ["Zangoose", "Zangoose-Viper"],
 	},
 	lunatone: {
 		num: 337,

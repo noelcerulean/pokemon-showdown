@@ -1716,13 +1716,6 @@
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Flare Blitz"], ["Submission"], ["Wild Charge"], ["Earthquake"]]
-			}, {
-				"species": "Emboar",
-				"item": ["Leftovers"],
-				"ability": ["Reckless"],
-				"evs": {"hp": 252, "atk": 252, "spe": 4},
-				"nature": "Adamant",
-				"moves": [["Flare Blitz"], ["Submission"], ["Head Smash", "Wild Charge"], ["Slack Off"]]
 			}]
 		},
 		"excadrill": {
@@ -3398,7 +3391,7 @@
 			"flags": {},
 			"sets": [{
 				"species": "Accelgor",
-				"item": ["Choice Specs"],
+				"item": ["Focus Sash"],
 				"ability": ["Sticky Hold"],
 				"evs": {"spa": 252, "spd": 4, "spe": 252},
 				"ivs": {"atk": 0},
