@@ -1,4 +1,49 @@
 export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
+	aronshadow: {
+		tier: "Uber",
+	},
+	furfroushadow: {
+		tier: "Uber",
+	},
+	garchompshadow: {
+		tier: "Uber",
+	},
+	marillshadow: {
+		tier: "Uber",
+	},
+	snoruntshadow: {
+		tier: "Uber",
+	},
+	heatmorshadow: {
+		tier: "Uber",
+	},
+	lileepshadow: {
+		tier: "Uber",
+	},
+	gourgeistshadow: {
+		tier: "Uber",
+	},
+	meowsticshadow: {
+		tier: "Uber",
+	},
+	longeonshadow: {
+		tier: "Uber",
+	},
+	mukshadow: {
+		tier: "Uber",
+	},
+	shroomishshadow: {
+		tier: "Uber",
+	},
+	noivernshadow: {
+		tier: "Uber",
+	},
+	spinarakshadow: {
+		tier: "Uber",
+	},
+	ribombeeshadow: {
+		tier: "Uber",
+	},
 	bulbasaur: {
 		tier: "LC",
 	},

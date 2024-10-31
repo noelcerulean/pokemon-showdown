@@ -50,6 +50,756 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Cool",
 	},
+	shadowambush: {
+		num: -876,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Shadow Ambush",
+		pp: 10,
+		priority: 2,
+		flags: {contact: 1, protect: 1},
+		onTry(source) {
+			if (source.activeMoveActions > 1) {
+				this.hint("Shadow Ambush only works on your first turn out.");
+				return false;
+			}
+		},
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowanvil: {
+		num: -877,
+		accuracy: 100,
+		basePower: 0,
+		basePowerCallback(pokemon, target) {
+			const targetWeight = target.getWeight();
+			const pokemonWeight = pokemon.getWeight();
+			if (pokemonWeight >= targetWeight * 5) {
+				return 120;
+			}
+			if (pokemonWeight >= targetWeight * 4) {
+				return 100;
+			}
+			if (pokemonWeight >= targetWeight * 3) {
+				return 80;
+			}
+			if (pokemonWeight >= targetWeight * 2) {
+				return 60;
+			}
+			return 40;
+		},
+		category: "Physical",
+		name: "Shadow Anvil",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, nonsky: 1},
+		onTryHit(target, pokemon, move) {
+			if (target.volatiles['dynamax']) {
+				this.add('-fail', pokemon, 'Dynamax');
+				this.attrLastMove('[still]');
+				return null;
+			}
+		},
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowbluff: {
+		num: -880,
+		accuracy: 100,
+		basePower: 40,
+		category: "Physical",
+		name: "Shadow Bluff",
+		pp: 10,
+		priority: 3,
+		flags: {contact: 1, protect: 1},
+		onTry(source) {
+			if (source.activeMoveActions > 1) {
+				this.hint("Shadow Bluff only works on your first turn out.");
+				return false;
+			}
+		},
+		willCrit: true,
+		noSketch: true,
+		secondary: {
+			chance: 100,
+			volatileStatus: 'flinch',
+		},
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowcentrifuge: {
+		num: -881,
+		accuracy: 100,
+		basePower: 0,
+		basePowerCallback(pokemon, target) {
+			let power = Math.floor(25 * target.getStat('spe') / pokemon.getStat('spe')) + 1;
+			if (!isFinite(power)) power = 1;
+			if (power > 150) power = 150;
+			this.debug(`${power} bp`);
+			return power;
+		},
+		category: "Physical",
+		name: "Shadow Centrifuge",
+		pp: 5,
+		priority: 0,
+		flags: {bullet: 1, contact: 1, protect: 1},
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowchew: {
+		num: -882,
+		accuracy: 100,
+		basePower: 60,
+		category: "Physical",
+		name: "Shadow Chew",
+		pp: 20,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		onHit(target, source) {
+			const item = target.getItem();
+			if (source.hp && item.isBerry && target.takeItem(source)) {
+				this.add('-enditem', target, item.name, '[from] stealeat', '[move] Shadow Chew', '[of] ' + source);
+				if (this.singleEvent('Eat', item, null, source, null, null)) {
+					this.runEvent('EatItem', source, null, null, item);
+					if (item.id === 'leppaberry') target.staleness = 'external';
+				}
+				if (item.onEat) source.ateBerry = true;
+			}
+		},
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowchop: {
+		num: -883,
+		accuracy: 100,
+		basePower: 75,
+		category: "Physical",
+		name: "Shadow Chop",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		condition: {
+			duration: 2,
+			onStart(target) {
+				this.add('-start', target, 'Throat Chop', '[silent]');
+			},
+			onDisableMove(pokemon) {
+				for (const moveSlot of pokemon.moveSlots) {
+					if (this.dex.moves.get(moveSlot.id).flags['sound']) {
+						pokemon.disableMove(moveSlot.id);
+					}
+				}
+			},
+			onBeforeMovePriority: 6,
+			onBeforeMove(pokemon, target, move) {
+				if (!move.isZ && !move.isMax && move.flags['sound']) {
+					this.add('cant', pokemon, 'move: Shadow Chop');
+					return false;
+				}
+			},
+			onModifyMove(move, pokemon, target) {
+				if (!move.isZ && !move.isMax && move.flags['sound']) {
+					this.add('cant', pokemon, 'move: Shadow Chop');
+					return false;
+				}
+			},
+			onResidualOrder: 22,
+			onEnd(target) {
+				this.add('-end', target, 'Throat Chop', '[silent]');
+			},
+		},
+		willCrit: true,
+		noSketch: true,
+		secondary: {
+			chance: 100,
+			onHit(target) {
+				target.addVolatile('throatchop');
+			},
+		},
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowrequital: {
+		num: -884,
+		accuracy: 100,
+		basePower: 0,
+		damageCallback(pokemon) {
+			const lastDamagedBy = pokemon.getLastDamagedBy(true);
+			if (lastDamagedBy !== undefined) {
+				return (lastDamagedBy.damage * 1.5) || 1;
+			}
+			return 0;
+		},
+		category: "Physical",
+		name: "Shadow Requital",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1},
+		onTryHit(target, source, move) {
+			const lastDamagedBy = source.getLastDamagedBy(true);
+			if (lastDamagedBy === undefined || !lastDamagedBy.thisTurn) return false;
+		},
+		onModifyTarget(targetRelayVar, source, target, move) {
+			const lastDamagedBy = source.getLastDamagedBy(true);
+			if (lastDamagedBy) {
+				targetRelayVar.target = this.getAtSlot(lastDamagedBy.slot);
+			}
+		},
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "scripted",
+		type: "Shadow",
+	},
+	shadowdart: {
+		num: -885,
+		accuracy: 100,
+		basePower: 0,
+		basePowerCallback(pokemon, target) {
+			let ratio = Math.floor(pokemon.getStat('spe') / target.getStat('spe'));
+			if (!isFinite(ratio)) ratio = 0;
+			const bp = [40, 60, 80, 120, 150][Math.min(ratio, 4)];
+			this.debug(`${bp} bp`);
+			return bp;
+		},
+		category: "Special",
+		name: "Shadow Dart",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1},
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowdesolation: {
+		num: -886,
+		accuracy: 100,
+		basePower: 70,
+		basePowerCallback(pokemon, target, move) {
+			let negativeBoost = false;
+			let stat: BoostID;
+			for (stat in target.boosts) {
+				if (target.boosts[stat] < 0) {
+					negativeBoost = true;
+					break;
+				}
+			}
+			if (negativeBoost === true) return move.basePower * 1.5;
+			return move.basePower;
+		},
+		category: "Special",
+		name: "Shadow Desolation",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1},
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowdetonation: {
+		num: -887,
+		accuracy: 100,
+		basePower: 200,
+		category: "Physical",
+		name: "Shadow Detonation",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1},
+		selfdestruct: "always",
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "allAdjacent",
+		type: "Shadow",
+	},
+	shadowduplicity: {
+		num: -888,
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		name: "Shadow Duplicity",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		useTargetOffensive: true,
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowfountain: {
+		num: -890,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Fountain",
+		pp: 20,
+		priority: 0,
+		flags: {},
+		volatileStatus: 'shadowfountain',
+		condition: {
+			onStart(pokemon) {
+				this.add('-start', pokemon, 'Shadow Fountain');
+			},
+			onResidualOrder: 6,
+			onResidual(pokemon) {
+				this.heal(pokemon.baseMaxhp / 16);
+			},
+		},
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "self",
+		type: "Shadow",
+	},
+	shadowfrenzy: {
+		num: -891,
+		accuracy: 100,
+		basePower: 95,
+		category: "Physical",
+		name: "Shadow Frenzy",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		self: {
+			volatileStatus: 'lockedmove',
+		},
+		onAfterMove(pokemon) {
+			if (pokemon.volatiles['lockedmove'] && pokemon.volatiles['lockedmove'].duration === 1) {
+				pokemon.removeVolatile('lockedmove');
+			}
+		},
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowgluttony: {
+		num: -893,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Gluttony",
+		pp: 10,
+		priority: 0,
+		flags: {},
+		// Move disabling implemented in Battle#nextTurn in sim/battle.ts
+		onDisableMove(pokemon) {
+			if (!pokemon.getItem().isBerry) pokemon.disableMove('shadowgluttony');
+		},
+		onTry(source) {
+			return source.getItem().isBerry;
+		},
+		onHit(pokemon) {
+			if (!this.boost({def: 2})) return null;
+			pokemon.eatItem(true);
+		},
+		noSketch: true,
+		secondary: null,
+		target: "self",
+		type: "Shadow",
+	},
+	shadowhalf: {
+		num: -914,
+		accuracy: 100,
+		basePower: 0,
+		damageCallback(pokemon, target) {
+			return this.clampIntRange(Math.floor(target.getUndynamaxedHP() / 2), 1);
+		},
+		category: "Special",
+		name: "Shadow Half",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1},
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowinversion: {
+		num: -894,
+		accuracy: 100,
+		basePower: 60,
+		category: "Special",
+		name: "Shadow Inversion",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mystery: 1},
+		onHit(target) {
+			let success = false;
+			let i: BoostID;
+			for (i in target.boosts) {
+				if (target.boosts[i] === 0) continue;
+				target.boosts[i] = -target.boosts[i];
+				success = true;
+			}
+			if (success === true) {
+				this.add('-invertboost', target, '[from] move: Shadow Inversion');
+			}
+		},
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowlaser: {
+		num: -895,
+		accuracy: 95,
+		basePower: 90,
+		category: "Special",
+		name: "Shadow Laser",
+		pp: 10,
+		priority: 0,
+		flags: {charge: 1, protect: 1},
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			this.add('-prepare', attacker, move.name);
+			this.boost({spa: 1}, attacker, attacker, move);
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		},
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowmirage: {
+		num: -896,
+		accuracy: 100,
+		basePower: 0,
+		damage: 'level',
+		category: "Special",
+		name: "Shadow Mirage",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1},
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowpress: {
+		num: -898,
+		accuracy: 100,
+		basePower: 65,
+		category: "Physical",
+		name: "Shadow Press",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		useSourceDefensiveAsOffensive: true,
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowrecruit: {
+		num: -899,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Recruit",
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1, mystery: 1},
+		onHit(target) {
+			if (target.hasType('Shadow')) return false;
+			if (!target.addType('Shadow')) return false;
+			this.add('-start', target, 'typeadd', 'Shadow', '[from] move: Shadow Recruit');
+
+			if (target.side.active.length === 2 && target.position === 1) {
+				// Curse Glitch
+				const action = this.queue.willMove(target);
+				if (action && action.move.id === 'curse') {
+					action.targetLoc = -1;
+				}
+			}
+		},
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowrobbery: {
+		num: -900,
+		accuracy: 100,
+		basePower: 70,
+		category: "Physical",
+		name: "Shadow Robbery",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, authentic: 1},
+		stealsBoosts: true,
+		// Boost stealing implemented in scripts.js
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowslander: {
+		num: -902,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Slander",
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1, sound: 1, authentic: 1},
+		onHit(target, source, move) {
+			const success = this.boost({atk: -1, spa: -1}, target, source);
+			if (!success && !target.hasAbility('mirrorarmor')) {
+				delete move.selfSwitch;
+			}
+		},
+		selfSwitch: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowspikes: {
+		num: -903,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Spikes",
+		pp: 20,
+		priority: 0,
+		flags: {nonsky: 1},
+		sideCondition: 'spikes',
+		condition: {
+			// this is a side condition
+			onSideStart(side) {
+				this.add('-sidestart', side, 'Spikes');
+				this.effectState.layers = 1;
+			},
+			onSideRestart(side) {
+				if (this.effectState.layers >= 3) return false;
+				this.add('-sidestart', side, 'Spikes');
+				this.effectState.layers++;
+			},
+			onSwitchIn(pokemon) {
+				if (!pokemon.isGrounded()) return;
+				if (pokemon.species.name === 'Vespiquen' && pokemon.hasItem('royaljelly')) return;
+				if (pokemon.species.name === 'Vespiquen-Starlight' && pokemon.hasItem('royaljelly')) return;
+				if (pokemon.species.name === 'Vespiquen-Yasqueen' && pokemon.hasItem('royaljelly')) return;
+				if (pokemon.hasItem('heavydutyboots')) return;
+				if (pokemon.hasAbility('wonderguard')) return;
+				const damageAmounts = [0, 3, 4, 6]; // 1/8, 1/6, 1/4
+				this.damage(damageAmounts[this.effectState.layers] * pokemon.maxhp / 24);
+			},
+		},
+		noSketch: true,
+		secondary: null,
+		target: "foeSide",
+		type: "Shadow",
+	},
+	shadowsqueeze: {
+		num: -904,
+		accuracy: 100,
+		basePower: 0,
+		basePowerCallback(pokemon, target) {
+			return Math.floor(Math.floor((100 * (100 * Math.floor(target.hp * 4096 / target.maxhp)) + 2048 - 1) / 4096) / 100) || 1;
+		},
+		category: "Special",
+		name: "Shadow Squeeze",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowstratoslam: {
+		num: -913,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Shadow Stratoslam",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1},
+		onHit() {
+			this.field.clearWeather();
+		},
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowswap: {
+		num: -905,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Swap",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mystery: 1},
+		onTryImmunity(target) {
+			return !target.hasAbility('stickyhold');
+		},
+		onHit(target, source, move) {
+			const yourItem = target.takeItem(source);
+			const myItem = source.takeItem();
+			if (target.item || source.item || (!yourItem && !myItem)) {
+				if (yourItem) target.item = yourItem.id;
+				if (myItem) source.item = myItem.id;
+				return false;
+			}
+			if (
+				(myItem && !this.singleEvent('TakeItem', myItem, source.itemState, target, source, move, myItem)) ||
+				(yourItem && !this.singleEvent('TakeItem', yourItem, target.itemState, source, target, move, yourItem))
+			) {
+				if (yourItem) target.item = yourItem.id;
+				if (myItem) source.item = myItem.id;
+				return false;
+			}
+			this.add('-activate', source, 'move: Shadow Swap', '[of] ' + target);
+			if (myItem) {
+				target.setItem(myItem);
+				this.add('-item', target, myItem, '[from] move: Shadow Swap');
+			} else {
+				this.add('-enditem', target, yourItem, '[silent]', '[from] move: Shadow Swap');
+			}
+			if (yourItem) {
+				source.setItem(yourItem);
+				this.add('-item', source, yourItem, '[from] move: Shadow Swap');
+			} else {
+				this.add('-enditem', source, myItem, '[silent]', '[from] move: Shadow Swap');
+			}
+		},
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowtrip: {
+		num: -907,
+		accuracy: 100,
+		basePower: 0,
+		basePowerCallback(pokemon, target) {
+			const targetWeight = target.getWeight();
+			if (targetWeight >= 2000) {
+				this.debug('120 bp');
+				return 120;
+			}
+			if (targetWeight >= 1000) {
+				this.debug('100 bp');
+				return 100;
+			}
+			if (targetWeight >= 500) {
+				this.debug('80 bp');
+				return 80;
+			}
+			if (targetWeight >= 250) {
+				this.debug('60 bp');
+				return 60;
+			}
+			if (targetWeight >= 100) {
+				this.debug('40 bp');
+				return 40;
+			}
+			this.debug('20 bp');
+			return 20;
+		},
+		category: "Special",
+		name: "Shadow Trip",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, nonsky: 1},
+		onTryHit(target, source, move) {
+			if (target.volatiles['dynamax']) {
+				this.add('-fail', source, 'move: Grass Knot', '[from] Dynamax');
+				this.attrLastMove('[still]');
+				return null;
+			}
+		},
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowvenom: {
+		num: -908,
+		accuracy: 95,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Venom",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1},
+		status: 'tox',
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowvolley: {
+		num: -909,
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		defensiveCategory: "Physical",
+		name: "Shadow Volley",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1},
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
+	shadowwyrm: {
+		num: -911,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Wyrm",
+		pp: 5,
+		priority: 0,
+		flags: {heal: 1},
+		heal: [3, 4],
+		noSketch: true,
+		secondary: null,
+		target: "self",
+		type: "Shadow",
+	},
 	absorb: {
 		num: 71,
 		accuracy: 100,
@@ -642,6 +1392,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		onHit(target) {
 			const noAssist = [
 				'assist', 'banefulbunker', 'beakblast', 'belch', 'bestow', 'bounce', 'celebrate', 'chatter', 'circlethrow', 'copycat', 'counter', 'covet', 'destinybond', 'detect', 'dig', 'dive', 'dragontail', 'endure', 'feint', 'florapower', 'fly', 'focuspunch', 'followme', 'helpinghand', 'holdhands', 'kingsshield', 'matblock', 'mefirst', 'metronome', 'mimic', 'mirrorcoat', 'mirrormove', 'naturepower', 'phantomforce', 'protect', 'ragepowder', 'regroup', 'regroup2', 'roar', 'shadowevoboost', 'shadowbath', 'shadowglow', 'shadowflame', 'shadowglaze', 'shadowmoss', 'shadowsprites', 'shadowdestruction', 'shadowdevastation', 'shadowbandit', 'shadowbolt', 'shadowbreak', 'shadowcascade', 'shadowchant', 'shadowcharge', 'shadowchill', 'shadowcinder', 'shadowcombust', 'shadowdance', 'shadowdevour', 'shadowdissolve', 'shadowdoomsday', 'shadowdown', 'shadowend', 'shadowfire', 'shadowfission', 'shadowfog', 'shadowfrost', 'shadowfumes', 'shadowfusion', 'shadowhatred', 'shadowhaunting', 'shadowhold', 'shadowhubris', 'shadowhurl', 'shadowintensify', 'shadowjolt', 'shadowmeld', 'shadowmist', 'shadowmoon', 'shadowpanic', 'shadowphoenix', 'shadowpivot', 'shadowpunish', 'shadowrage', 'shadowrainbow', 'shadowrave', 'shadowreset', 'shadowroulette', 'shadowrush', 'shadowscheme', 'shadowseed', 'shadowshackle', 'shadowshatter', 'shadowshed', 'shadowshuffle', 'shadowsiren', 'shadowslasher', 'shadowsnipe', 'shadowsorcery', 'shadowspell', 'shadowsprint', 'shadowstare', 'shadowstorm', 'shadowsun', 'shadowthreat', 'shadowtitan', 'shadowtrance', 'shadowvampirism', 'shadowvelocity', 'shadowvengeance', 'shadowwall', 'shadowwave', 'shadowwheel', 'shadowwhip', 'shadowwreckage', 'shadowforce', 'shelltrap', 'sketch', 'skydrop', 'sleeptalk', 'snatch', 'spikyshield', 'spotlight', 'stripestyle', 'struggle', 'switcheroo', 'thief', 'transform', 'trick', 'whirlwind',
+				'shadowambush', 'shadowanvil', 'shadowbeam', 'shadowblast', 'shadowbluff', 'shadowcentrifuge', 'shadowchew', 'shadowchop', 'shadowdart', 'shadowdesolation', 'shadowdetonation', 'shadowduplicity', 'shadowfirestorm', 'shadowfountain', 'shadowfrenzy', 'shadowgale', 'shadowgluttony', 'shadowhalf', 'shadowinversion', 'shadowlaser', 'shadowmirage', 'shadowmonsoon', 'shadowpress', 'shadowrecruit', 'shadowrequital', 'shadowrobbery', 'shadowsignal', 'shadowsky', 'shadowslander', 'shadowspikes', 'shadowsqueeze', 'shadowstratoslam', 'shadowswap', 'shadowtransform', 'shadowtrip', 'shadowvenom', 'shadowvolley', 'shadowwhiteout', 'shadowwyrm',
 			];
 
 			const moves = [];
@@ -2721,6 +3472,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {snatch: 1},
 		onHit(target) {
 			const type = this.dex.moves.get(target.moveSlots[0].id).type;
+			if (type === "Shadow") return false;
 			if (target.hasType(type) || !target.setType(type)) return false;
 			this.add('-start', target, 'typechange', type);
 		},
@@ -11595,6 +12347,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 
 			const noMeFirst = [
 				'chatter', 'counter', 'covet', 'focuspunch', 'mefirst', 'metalburst', 'mirrorcoat', 'shadowevoboost', 'shadowbath', 'shadowglow', 'shadowflame', 'shadowglaze', 'shadowmoss', 'shadowsprites', 'shadowdestruction', 'shadowdevastation', 'shadowbandit', 'shadowbolt', 'shadowbreak', 'shadowcascade', 'shadowchant', 'shadowcharge', 'shadowchill', 'shadowcinder', 'shadowcombust', 'shadowdance', 'shadowdevour', 'shadowdissolve', 'shadowdoomsday', 'shadowdown', 'shadowend', 'shadowfire', 'shadowfission', 'shadowfog', 'shadowfrost', 'shadowfumes', 'shadowfusion', 'shadowhatred', 'shadowhaunting', 'shadowhold', 'shadowhubris', 'shadowhurl', 'shadowintensify', 'shadowjolt', 'shadowmeld', 'shadowmist', 'shadowmoon', 'shadowpanic', 'shadowphoenix', 'shadowpivot', 'shadowpunish', 'shadowrage', 'shadowrainbow', 'shadowrave', 'shadowreset', 'shadowroulette', 'shadowrush', 'shadowscheme', 'shadowseed', 'shadowshackle', 'shadowshatter', 'shadowshed', 'shadowshuffle', 'shadowsiren', 'shadowslasher', 'shadowsnipe', 'shadowsorcery', 'shadowspell', 'shadowsprint', 'shadowstare', 'shadowstorm', 'shadowsun', 'shadowthreat', 'shadowtitan', 'shadowtrance', 'shadowvampirism', 'shadowvelocity', 'shadowvengeance', 'shadowwall', 'shadowwave', 'shadowwheel', 'shadowwhip', 'shadowwreckage', 'shelltrap', 'struggle', 'thief',
+				'shadowambush', 'shadowanvil', 'shadowbeam', 'shadowblast', 'shadowbluff', 'shadowcentrifuge', 'shadowchew', 'shadowchop', 'shadowdart', 'shadowdesolation', 'shadowdetonation', 'shadowduplicity', 'shadowfirestorm', 'shadowfountain', 'shadowfrenzy', 'shadowgale', 'shadowgluttony', 'shadowhalf', 'shadowinversion', 'shadowlaser', 'shadowmirage', 'shadowmonsoon', 'shadowpress', 'shadowrecruit', 'shadowrequital', 'shadowrobbery', 'shadowsignal', 'shadowsky', 'shadowslander', 'shadowspikes', 'shadowsqueeze', 'shadowstratoslam', 'shadowswap', 'shadowtransform', 'shadowtrip', 'shadowvenom', 'shadowvolley', 'shadowwhiteout', 'shadowwyrm',
 			];
 			const move = this.dex.getActiveMove(action.move.id);
 			if (action.zmove || move.isZ || move.isMax) return false;
@@ -11875,6 +12628,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {},
 		noMetronome: [
 			"After You", "Apple Acid", "Assist", "Astral Barrage", "Aura Wheel", "Baneful Bunker", "Beak Blast", "Behemoth Bash", "Behemoth Blade", "Belch", "Bestow", "Body Press", "Branch Poke", "Breaking Swipe", "Celebrate", "Chatter", "Clangorous Soul", "Copycat", "Counter", "Covet", "Crafty Shield", "Decorate", "Destiny Bond", "Detect", "Diamond Storm", "Double Iron Bash", "Dragon Ascent", "Dragon Energy", "Drum Beating", "Dynamax Cannon", "Endure", "Eternabeam", "False Surrender", "Feint", "Fiery Wrath", "Fleur Cannon", "Flora Power", "Focus Punch", "Follow Me", "Freeze Shock", "Freezing Glare", "Glacial Lance", "Grav Apple", "Helping Hand", "Hold Hands", "Hyperspace Fury", "Hyperspace Hole", "Ice Burn", "Instruct", "Jungle Healing", "King's Shield", "Life Dew", "Light of Ruin", "Mat Block", "Me First", "Meteor Assault", "Metronome", "Mimic", "Mind Blown", "Mirror Coat", "Mirror Move", "Moongeist Beam", "Nature Power", "Nature's Madness", "Obstruct", "Origin Pulse", "Overdrive", "Photon Geyser", "Plasma Fists", "Precipice Blades", "Protect", "Pyro Ball", "Quash", "Quick Guard", "Rage Powder", "Regroup", "Regroup2", "Relic Song", "Secret Sword", "Shadow Evoboost", "Shadow Bath", "Shadow Glow", "Shadow Flame", "Shadow Glaze", "Shadow Moss", "Shadow Sprites", "Shadow Destruction", "Shadow Devastation", "Shadow Bandit", "Shadow Bolt", "Shadow Break", "Shadow Cascade", "Shadow Chant", "Shadow Charge", "Shadow Chill", "Shadow Cinder", "Shadow Combust", "Shadow Dance", "Shadow Devour", "Shadow Dissolve", "Shadow Doomsday", "Shadow Down", "Shadow End", "Shadow Fire", "Shadow Fission", "Shadow Fog", "Shadow Frost", "Shadow Fumes", "Shadow Fusion", "Shadow Hatred", "Shadow Haunting", "Shadow Hold", "Shadow Hubris", "Shadow Hurl", "Shadow Intensify", "Shadow Jolt", "Shadow Meld", "Shadow Mist", "Shadow Moon", "Shadow Panic", "Shadow Phoenix", "Shadow Pivot", "Shadow Punish", "Shadow Rage", "Shadow Rainbow", "Shadow Rave", "Shadow Reset", "Shadow Roulette", "Shadow Rush", "Shadow Scheme", "Shadow Seed", "Shadow Shackle", "Shadow Shatter", "Shadow Shed", "Shadow Shuffle", "Shadow Siren", "Shadow Slasher", "Shadow Snipe", "Shadow Sorcery", "Shadow Spell", "Shadow Sprint", "Shadow Stare", "Shadow Storm", "Shadow Sun", "Shadow Threat", "Shadow Titan", "Shadow Trance", "Shadow Vampirism", "Shadow Velocity", "Shadow Vengeance", "Shadow Wall", "Shadow Wave", "Shadow Wheel", "Shadow Whip", "Shadow Wreckage", "Shell Trap", "Sketch", "Sleep Talk", "Snap Trap", "Snarl", "Snatch", "Snore", "Spectral Thief", "Spiky Shield", "Spirit Break", "Spotlight", "Steam Eruption", "Steel Beam", "Strange Steam", "Stripe Style", "Struggle", "Sunsteel Strike", "Surging Strikes", "Switcheroo", "Techno Blast", "Thief", "Thousand Arrows", "Thousand Waves", "Thunder Cage", "Thunderous Kick", "Transform", "Trick", "V-create", "Wicked Blow", "Wide Guard",
+			"Shadow Ambush", "Shadow Anvil", "Shadow Beam", "Shadow Blast", "Shadow Bluff", "Shadow Centrifuge", "Shadow Chew", "Shadow Chop", "Shadow Dart", "Shadow Desolation", "Shadow Detonation", "Shadow Duplicity", "Shadow Firestorm", "Shadow Fountain", "Shadow Frenzy", "Shadow Gale", "Shadow Gluttony", "Shadow Half", "Shadow Inversion", "Shadow Laser", "Shadow Mirage", "Shadow Monsoon", "Shadow Press", "Shadow Recruit", "Shadow Requital", "Shadow Robbery", "Shadow Signal", "Shadow Sky", "Shadow Slander", "Shadow Spikes", "Shadow Squeeze", "Shadow Stratoslam", "Shadow Swap", "Shadow Transform", "Shadow Trip", "Shadow Venom", "Shadow Volley", "Shadow Whiteout", "Shadow Wyrm",
 		],
 		onHit(target, source, effect) {
 			const moves: MoveData[] = [];
@@ -14698,7 +15452,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 0,
 		basePowerCallback(pokemon, target) {
 			let power = 60 + 20 * target.positiveBoosts();
-			if (power > 200) power = 200;
 			return power;
 		},
 		category: "Physical",
@@ -17080,7 +17833,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 30,
 		category: "Special",
 		name: "Shadow Fumes",
-		pp: 15,
+		pp: 10,
 		priority: 0,
 		flags: {protect: 1},
 		willCrit: true,
@@ -17442,7 +18195,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 0,
 		basePowerCallback(pokemon, target) {
 			let power = 55 + 30 * target.positiveBoosts();
-			if (power > 200) power = 200;
 			return power;
 		},
 		category: "Physical",
@@ -18187,7 +18939,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 60,
 		category: "Physical",
 		name: "Shadow Wheel",
-		pp: 25,
+		pp: 10,
 		priority: 0,
 		flags: {contact: 1, protect: 1},
 		onAfterHit(target, pokemon) {

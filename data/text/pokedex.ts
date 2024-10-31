@@ -1,4 +1,49 @@
 export const PokedexText: {[k: string]: PokedexText} = {
+	aronshadow: {
+		name: "Aron-Shadow",
+	},
+	furfroushadow: {
+		name: "Furfrou-Shadow",
+	},
+	garchompshadow: {
+		name: "Garchomp-Shadow",
+	},
+	marillshadow: {
+		name: "Marill-Shadow",
+	},
+	snoruntshadow: {
+		name: "Snorunt-Shadow",
+	},
+	heatmorshadow: {
+		name: "Heatmor-Shadow",
+	},
+	lileepshadow: {
+		name: "Lileep-Shadow",
+	},
+	gourgeistshadow: {
+		name: "Gourgeist-Shadow",
+	},
+	meowsticshadow: {
+		name: "Meowstic-Shadow",
+	},
+	longeonshadow: {
+		name: "Longeon-Shadow",
+	},
+	mukshadow: {
+		name: "Muk-Shadow",
+	},
+	shroomishshadow: {
+		name: "Shroomish-Shadow",
+	},
+	noivernshadow: {
+		name: "Noivern-Shadow",
+	},
+	spinarakshadow: {
+		name: "Spinarak-Shadow",
+	},
+	ribombeeshadow: {
+		name: "Ribombee-Shadow",
+	},
 	bulbasaur: {
 		name: "Bulbasaur",
 	},
