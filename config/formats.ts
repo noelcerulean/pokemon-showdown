@@ -134,6 +134,8 @@ export const Formats: FormatList = [
 			'Aegislash-Zato', 'Camerupt-Maxie', 'Chikorita-Minty', 'Decidueye-Apollo', 'Dewott-Lutryla', 'Eevee-Durum', 'Flareon-Lasagna', 'Fraxure-Frenzy',
 			'Glaceon-Manicotti', 'Golisopod-Musashi', 'Golurk-Titan', 'Gyarados-Mega-Alarix', 'Honchkrow-Godfather', 'Jolteon-Radiatori',
 			'Kurstraw-Crona', 'Leafeon-Tagliatelle', 'Meganium-Aniseed', 'Sceptile-Moscho', 'Sylveon-Farfalle', 'Zweilous-Terror',
+			'Aron-Shadow', 'Furfrou-Shadow', 'Garchomp-Shadow', 'Gourgeist-Shadow', 'Heatmor-Shadow', 'Lileep-Shadow', 'Marill-Shadow', 'Meowstic-Shadow',
+			'Muk-Shadow', 'Noivern-Shadow', 'Ribombee-Shadow', 'Shroomish-Shadow', 'Spinarak-Shadow', 'Longeon-Shadow', 'Snorunt-Shadow',
 		],
 	},
 	{
