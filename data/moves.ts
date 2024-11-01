@@ -19005,13 +19005,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 0,
 		flags: {protect: 1},
-		recoil: [1, 4],
 		onTryHit(target, source, move) {
 			const removeTarget = [
-				'lightscreen', 'reflect', 'auroraveil', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+				'lightscreen', 'reflect', 'auroraveil', 'safeguard', 'mist',
 			];
 			const removeAll = [
-				'lightscreen', 'reflect', 'auroraveil', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+				'lightscreen', 'reflect', 'auroraveil', 'safeguard', 'mist',
 			];
 			for (const targetCondition of removeTarget) {
 				if (target.side.removeSideCondition(targetCondition)) {
@@ -19028,10 +19027,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		onAfterSubDamage(damage, target, source) {
 			const removeTarget = [
-				'lightscreen', 'reflect', 'auroraveil', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+				'lightscreen', 'reflect', 'auroraveil', 'safeguard', 'mist',
 			];
 			const removeAll = [
-				'lightscreen', 'reflect', 'auroraveil', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+				'lightscreen', 'reflect', 'auroraveil', 'safeguard', 'mist',
 			];
 			for (const targetCondition of removeTarget) {
 				if (target.side.removeSideCondition(targetCondition)) {

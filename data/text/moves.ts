@@ -6074,8 +6074,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	shadowwreckage: {
 		name: "Shadow Wreckage",
-		desc: "Always crits. User takes 1/4th recoil damage. Clears Reflect, Light Screen, Aurora Veil, Safeguard, Mist, Spikes, Toxic Spikes, Stealth Rock, and Sticky Web. Additionally, clears the terrain.",
-		shortDesc: "Clears screens/hazards/terrain. 1/4 recoil. Crits.",
+		desc: "Always crits. Clears Reflect, Light Screen, Aurora Veil, Safeguard, Mist. Additionally, clears the terrain.",
+		shortDesc: "Clears screens/terrain. Crits.",
 	},
 	sharpen: {
 		name: "Sharpen",
