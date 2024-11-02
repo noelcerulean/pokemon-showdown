@@ -427,6 +427,7 @@ const avatarTableAkumaTsubasa = new Set([
 	'chaser', 'chaserf', 'cipher-peon', 'cipher-peonf', 'cipher-peon-event', 'cipher-peonf-event',
 	'dakim', 'dakim-event', 'ein', 'ein-event', 'gonzap', 'gonzap-event', 'hunter', 'hunterf',
 	'mirorb', 'mirorb-event', 'nascour', 'nascour-event', 'stperformer', 'venus', 'venus-event',
+	'exol',
 ]);
 
 const avatarTableBeliot419 = new Set([
