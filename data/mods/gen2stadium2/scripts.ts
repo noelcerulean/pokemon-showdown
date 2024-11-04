@@ -402,6 +402,7 @@ export const Scripts: ModdedBattleScriptsData = {
 			// Weather modifiers
 			if (
 				(type === 'Water' && this.battle.field.isWeather('raindance')) ||
+				(type === 'Shadow' && this.battle.field.isWeather('shadowsky')) ||
 				(type === 'Poison' && this.battle.field.isWeather('miasma')) ||
 				(type === 'Fire' && this.battle.field.isWeather('sunnyday'))
 			) {

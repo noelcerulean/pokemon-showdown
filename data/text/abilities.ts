@@ -1569,6 +1569,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		start: "  [POKEMON] is surrounded by a shadowy aura!",
 	},
+	shadowforecast: {
+		name: "Shadow Forecast",
+		shortDesc: "Sets weather based on held rock. Changes forme with weather.",
+
+		start: "  [POKEMON] is surrounded by a shadowy aura!",
+	},
 	shadowhydraulics: {
 		name: "Shadow Hydraulics",
 		desc: "This Pokemon is immune to Water-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Water-type move.",

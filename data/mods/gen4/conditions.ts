@@ -123,6 +123,10 @@ export const Conditions: {[k: string]: ModdedConditionData} = {
 		inherit: true,
 		onFieldResidualOrder: 8,
 	},
+	shadowsky: {
+		inherit: true,
+		onFieldResidualOrder: 8,
+	},
 	hail: {
 		inherit: true,
 		onFieldResidualOrder: 8,

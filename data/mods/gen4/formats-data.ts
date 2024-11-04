@@ -1338,6 +1338,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	castformsnowy: {},
 	castformsandy: {},
 	castformsmoggy: {},
+	castformshady: {},
 	kecleon: {
 		randomBattleMoves: ["aquatail", "recover", "return", "stealthrock", "thunderwave", "toxic"],
 		tier: "NU",

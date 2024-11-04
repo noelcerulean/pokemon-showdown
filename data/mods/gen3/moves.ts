@@ -706,6 +706,9 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 			case 'miasma':
 				move.type = 'Poison';
 				break;
+			case 'shadowsky':
+				move.type = 'Shadow';
+				break;
 			}
 			if (this.field.effectiveWeather()) move.basePower *= 2;
 		},

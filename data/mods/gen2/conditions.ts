@@ -200,6 +200,13 @@ export const Conditions: {[k: string]: ModdedConditionData} = {
 			this.damage(target.baseMaxhp / 8);
 		},
 	},
+	shadowsky: {
+		inherit: true,
+		onFieldResidualOrder: 2,
+		onWeather(target) {
+			this.damage(target.baseMaxhp / 8);
+		},
+	},
 	stall: {
 		name: 'stall',
 		duration: 2,

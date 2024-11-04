@@ -937,6 +937,7 @@ export const commands: Chat.ChatCommands = {
 			powder: "Powder moves",
 			prankster: "Prankster",
 			sandstorm: "Sandstorm damage",
+			shadowsky: "Shadow Sky damage",
 			tox: "Toxic",
 			trapped: "Trapping",
 		};

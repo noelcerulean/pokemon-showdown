@@ -14,6 +14,13 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Always crits. The power of this move depends on (user's weight / target's weight), rounded down. Power is equal to 120 if the result is 5 or more, 100 if 4, 80 if 3, 60 if 2, and 40 if 1 or less. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
 		shortDesc: "More power the heavier user is than target. Crits.",
 	},
+	shadowbeam: {
+		name: "Shadow Beam",
+		desc: "Always crits. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb or the weather is Shadow Sky, the move completes in one turn. If the user is holding Utility Umbrella and the weather is Shadow Sky, the move still requires a turn to charge.",
+		shortDesc: "Charges then hits. No charge in shadow sky. Crits.",
+
+		prepare: "  [POKEMON] absorbed shadow energy!",
+	},
 	shadowbluff: {
 		name: "Shadow Bluff",
 		desc: "Always crits. Has a 100% chance to make the target flinch. Fails unless it is the user's first turn on the field.",
@@ -119,6 +126,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Steals target's boosts before damaging. Crits.",
 
 		clearBoost: "  [SOURCE] stole the target's boosted stats!",
+	},
+	shadowsky: {
+		name: "Shadow Sky",
+		desc: "For 5 turns, the weather becomes Shadow Sky. The damage of Shadow-type attacks is multiplied by 1.5 and at the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are an Shadow type or have the Pure Heart, Magic Guard, or Overcoat Abilities. Lasts for 8 turns if the user is holding Corrupted Rock.",
+		shortDesc: "For 5 turns, weather becomes Shadow Sky.",
 	},
 	shadowslander: {
 		name: "Shadow Slander",
@@ -7658,7 +7670,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	weatherball: {
 		name: "Weather Ball",
-		desc: "Power doubles if a weather condition other than Delta Stream is active, and this move's type changes to match. Ice type during Hail, Water type during Primordial Sea or Rain Dance, Rock type during Sandstorm, and Fire type during Desolate Land or Sunny Day. If the user is holding Utility Umbrella and uses Weather Ball during Primordial Sea, Rain Dance, Desolate Land, or Sunny Day, the move is still Normal-type and does not have a base power boost.",
+		desc: "Power doubles if a weather condition other than Delta Stream is active, and this move's type changes to match. Ice type during Hail, Water type during Primordial Sea or Rain Dance, Poison type during Miasma, Rock type during Sandstorm, Shadow types during Shadow Sky, and Fire type during Desolate Land or Sunny Day. If the user is holding Utility Umbrella and uses Weather Ball during Primordial Sea, Rain Dance, Desolate Land, or Sunny Day, the move is still Normal-type and does not have a base power boost.",
 		shortDesc: "Power doubles and type varies in each weather.",
 		gen5: {
 			desc: "Power doubles if a weather condition is active, and this move's type changes to match. Ice type during Hail, Water type during Rain Dance, Rock type during Sandstorm, and Fire type during Sunny Day.",

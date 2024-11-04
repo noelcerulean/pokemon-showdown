@@ -1597,6 +1597,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				this.field.setWeather('sandstorm');
 			} else if (pokemon.hasItem('mordantrock')) {
 				this.field.setWeather('miasma');
+			} else if (pokemon.hasItem('corruptedrock')) {
+				this.field.setWeather('shadowsky');
 			} else if (pokemon.hasItem('icyrock')) {
 				this.field.setWeather('hail');
 			}
@@ -1621,6 +1623,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				break;
 			case 'miasma':
 				if (pokemon.species.id !== 'castformsmoggy') forme = 'Castform-Smoggy';
+				break;
+			case 'shadowsky':
+				if (pokemon.species.id !== 'castformshady') forme = 'Castform-Shady';
 				break;
 			default:
 				if (pokemon.species.id !== 'castform') forme = 'Castform';
@@ -3225,7 +3230,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	overcoat: {
 		onImmunity(type, pokemon) {
-			if (type === 'sandstorm' || type === 'hail' || type === 'powder') return false;
+			if (type === 'sandstorm' || type === 'hail' || type === 'shadowsky' || type === 'powder') return false;
 		},
 		onTryHitPriority: 1,
 		onTryHit(target, source, move) {
@@ -4339,6 +4344,58 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Shadow Embers",
 		rating: 5,
 		num: -808,
+	},
+	shadowforecast: {
+		onStart(pokemon) {
+			if (pokemon.hasItem('damprock')) {
+				this.field.setWeather('raindance');
+			} else if (pokemon.hasItem('heatrock')) {
+				this.field.setWeather('sunnyday');
+			} else if (pokemon.hasItem('smoothrock')) {
+				this.field.setWeather('sandstorm');
+			} else if (pokemon.hasItem('mordantrock')) {
+				this.field.setWeather('miasma');
+			} else if (pokemon.hasItem('corruptedrock')) {
+				this.field.setWeather('shadowsky');
+			} else if (pokemon.hasItem('icyrock')) {
+				this.field.setWeather('hail');
+			}
+		},
+		onUpdate(pokemon) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Castform-Shadow' || pokemon.transformed) return;
+			let forme = null;
+			switch (pokemon.effectiveWeather()) {
+			case 'sunnyday':
+			case 'desolateland':
+				if (pokemon.species.id !== 'castformshadowsunny') forme = 'Castform-Shadow-Sunny';
+				break;
+			case 'raindance':
+			case 'primordialsea':
+				if (pokemon.species.id !== 'castformshadowrainy') forme = 'Castform-Shadow-Rainy';
+				break;
+			case 'hail':
+				if (pokemon.species.id !== 'castformshadowsnowy') forme = 'Castform-Shadow-Snowy';
+				break;
+			case 'sandstorm':
+				if (pokemon.species.id !== 'castformshadowsandy') forme = 'Castform-Shadow-Sandy';
+				break;
+			case 'miasma':
+				if (pokemon.species.id !== 'castformshadowsmoggy') forme = 'Castform-Shadow-Smoggy';
+				break;
+			case 'shadowsky':
+				if (pokemon.species.id !== 'castformshadowshady') forme = 'Castform-Shadow-Shady';
+				break;
+			default:
+				if (pokemon.species.id !== 'castformshadow') forme = 'Castform-Shadow';
+				break;
+			}
+			if (pokemon.isActive && forme) {
+				pokemon.formeChange(forme, this.effect, false, '[msg]');
+			}
+		},
+		name: "Shadow Forecast",
+		rating: 2,
+		num: -814,
 	},
 	shadowhydraulics: {
 		onStart(pokemon) {

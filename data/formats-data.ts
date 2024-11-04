@@ -2967,6 +2967,18 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	castformsmoggy: {
 		isNonstandard: "Past",
 	},
+	castformshady: {
+		isNonstandard: "Past",
+	},
+	castformshadow: {
+		tier: "Uber",
+	},
+	castformshadowsunny: {},
+	castformshadowrainy: {},
+	castformshadowsnowy: {},
+	castformshadowsandy: {},
+	castformshadowsmoggy: {},
+	castformshadowshady: {},
 	kecleon: {
 		isNonstandard: "Past",
 		tier: "Illegal",

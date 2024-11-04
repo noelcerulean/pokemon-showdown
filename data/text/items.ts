@@ -315,6 +315,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Cornn Berry",
 		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
 	},
+	corruptedrock: {
+		name: "Corrupted Rock",
+		desc: "Holder's Shadow Sky lasts 8 turns instead of 5. Non-removable from Castform.",
+	},
 	coverfossil: {
 		name: "Cover Fossil",
 		desc: "Can be revived into Tirtouga.",

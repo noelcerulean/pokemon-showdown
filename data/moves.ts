@@ -110,6 +110,37 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Shadow",
 	},
+	shadowbeam: {
+		num: -878,
+		accuracy: 100,
+		basePower: 95,
+		category: "Special",
+		name: "Shadow Beam",
+		pp: 10,
+		priority: 0,
+		flags: {charge: 1, protect: 1},
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			this.add('-prepare', attacker, move.name);
+			if (['shadowsky'].includes(attacker.effectiveWeather())) {
+				this.attrLastMove('[still]');
+				this.addMove('-anim', attacker, move.name, defender);
+				return;
+			}
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		},
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
 	shadowbluff: {
 		num: -880,
 		accuracy: 100,
@@ -564,6 +595,21 @@ export const Moves: {[moveid: string]: MoveData} = {
 		noSketch: true,
 		secondary: null,
 		target: "normal",
+		type: "Shadow",
+	},
+	shadowsky: {
+		num: -901,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Sky",
+		pp: 10,
+		priority: 0,
+		flags: {},
+		weather: 'shadowsky',
+		noSketch: true,
+		secondary: null,
+		target: "all",
 		type: "Shadow",
 	},
 	shadowslander: {
@@ -23657,6 +23703,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			case 'miasma':
 				move.type = 'Poison';
 				break;
+			case 'shadowsky':
+				move.type = 'Shadow';
+				break;
 			case 'hail':
 				move.type = 'Ice';
 				break;
@@ -23676,6 +23725,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 				move.basePower *= 2;
 				break;
 			case 'miasma':
+				move.basePower *= 2;
+				break;
+			case 'shadowsky':
 				move.basePower *= 2;
 				break;
 			case 'hail':

@@ -468,6 +468,7 @@ namespace RandomTeamsTypes {
 		zMove?: number;
 		hail?: number;
 		miasma?: number;
+		shadowsky?: number;
 		rain?: number;
 		sand?: number;
 		sun?: number;

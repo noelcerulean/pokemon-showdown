@@ -295,6 +295,13 @@ export const DefaultText: {[k: string]: DefaultText} = {
 		end: "  The miasma cleared up.",
 		upkeep: "  (The miasma is thick.)",
 	},
+	shadowsky: {
+		weatherName: "Shadow Sky",
+		start: "  A shadowy aura filled the sky!",
+		end: "  The shadowy aura faded away!",
+		upkeep: "  (Bursts of light showered from the shadowy aura!)",
+		damage: "  The flashing light strikes [POKEMON]!",
+	},
 	desolateland: {
 		weatherName: "Intense Sun",
 		start: "  The sunlight turned extremely harsh!",

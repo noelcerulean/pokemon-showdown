@@ -1185,6 +1185,21 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 3,
 		isNonstandard: "Past",
 	},
+	corruptedrock: {
+		name: "Corrupted Rock",
+		spritenum: 809,
+		fling: {
+			basePower: 60,
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 351) || pokemon.baseSpecies.num === 351) {
+				return false;
+			}
+			return true;
+		},
+		num: -572,
+		gen: 4,
+	},
 	coverfossil: {
 		name: "Cover Fossil",
 		spritenum: 85,

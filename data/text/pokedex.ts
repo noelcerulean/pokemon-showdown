@@ -1700,6 +1700,30 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	castformsmoggy: {
 		name: "Castform-Smoggy",
 	},
+	castformshady: {
+		name: "Castform-Shady",
+	},
+	castformshadow: {
+		name: "Castform-Shadow",
+	},
+	castformshadowsunny: {
+		name: "Castform-Shadow-Sunny",
+	},
+	castformshadowrainy: {
+		name: "Castform-Shadow-Rainy",
+	},
+	castformshadowsnowy: {
+		name: "Castform-Shadow-Snowy",
+	},
+	castformshadowsandy: {
+		name: "Castform-Shadow-Sandy",
+	},
+	castformshadowsmoggy: {
+		name: "Castform-Shadow-Smoggy",
+	},
+	castformshadowshady: {
+		name: "Castform-Shadow-Shady",
+	},
 	kecleon: {
 		name: "Kecleon",
 	},

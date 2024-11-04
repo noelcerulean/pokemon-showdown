@@ -123,6 +123,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowhold: ["7L1"],
 			shadowinversion: ["7L1"],
 			shadowmirage: ["7L1"],
+			shadowmist: ["7L1"],
 			shadowseed: ["7L1"],
 			shadowspikes: ["7L1"],
 			shadowsqueeze: ["7L1"],
@@ -153,6 +154,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			shadowdissolve: ["7L1"],
 			shadowduplicity: ["7L1"],
+			shadowglow: ["7L1"],
 			shadowhalf: ["7L1"],
 			shadowhaunting: ["7L1"],
 			shadowinversion: ["7L1"],
@@ -180,6 +182,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowfumes: ["7L1"],
 			shadowhurl: ["7L1"],
 			shadowmirage: ["7L1"],
+			shadowmist: ["7L1"],
 			shadowrush: ["7L1"],
 			shadowshatter: ["7L1"],
 			shadowspell: ["7L1"],
@@ -206,6 +209,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	shroomishshadow: {
 		learnset: {
 			shadowbluff: ["7L1"],
+			shadowchant: ["7L1"],
 			shadowend: ["7L1"],
 			shadowfog: ["7L1"],
 			shadowfumes: ["7L1"],
@@ -280,6 +284,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowstratoslam: ["7L1"],
 			shadowwall: ["7L1"],
 			shadowwheel: ["7L1"],
+		},
+	},
+	castformshadow: {
+		learnset: {
+			shadowbath: ["7L1"],
+			shadowbeam: ["7L1"],
+			shadowbolt: ["7L1"],
+			shadowbreak: ["7L1"],
+			shadowcentrifuge: ["7L1"],
+			shadowchill: ["7L1"],
+			shadowfire: ["7L1"],
+			shadowfog: ["7L1"],
+			shadowlaser: ["7L1"],
+			shadowsky: ["7L1"],
+			shadowstratoslam: ["7L1"],
+			shadowstorm: ["7L1"],
 		},
 	},
 	bulbasaur: {
@@ -33910,6 +33930,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowchant: ["7L1"],
 			shadowdance: ["7L1"],
 			shadowdown: ["7L1"],
+			shadowfire: ["7L1"],
 			shadowflame: ["7L1"],
 			shadowhold: ["7L1"],
 			shadowmist: ["7L1"],

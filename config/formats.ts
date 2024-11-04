@@ -34,7 +34,7 @@ export const Formats: FormatList = [
 		banlist: [
 			'Uber', 'Latias-Mega', 'Latios-Mega', 'Ignajara + Ignition', 'Gothitelle + Shadow Tag', 'Blaziken + Speed Boost', 'Greninja + Amphibious',
 			'Battle Bond', 'Power Construct', 'King\'s Rock', 'Bright Powder', 'Lax Incense', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z',
-			'Poliwrathium Z,', 'Mewnium Z', 'Sand Veil', 'Snow Cloak', 'Melodium Z', 'Meloettium Z'
+			'Poliwrathium Z,', 'Mewnium Z', 'Sand Veil', 'Snow Cloak', 'Melodium Z', 'Meloettium Z', 'Corrupted Rock'
 		],
 		unbanlist: ['Scizor-Mega'],
 	},
@@ -60,7 +60,7 @@ export const Formats: FormatList = [
 		ruleset: ['Standard', 'Z-Move Clause'],
 		banlist: [
 			'Uber', 'Geomancy', 'Arena Trap', 'Sand Veil', 'Snow Cloak', 'Battle Bond', 'Shadow Tag', 'Ignajara + Ignition', 'Blaziken + Speed Boost',
-			'Power Construct', 'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Melodium Z', 'Meloettium Z'
+			'Power Construct', 'King\'s Rock', 'Corrupted Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Melodium Z', 'Meloettium Z'
 		],
 	},
 	{
@@ -114,7 +114,7 @@ export const Formats: FormatList = [
 			'Aegislash-Zato', 'Camerupt-Maxie', 'Chikorita-Minty', 'Decidueye-Apollo', 'Dewott-Lutryla', 'Eevee-Durum', 'Flareon-Lasagna', 'Fraxure-Frenzy',
 			'Glaceon-Manicotti', 'Golisopod-Musashi', 'Golurk-Titan', 'Gyarados-Alarix', 'Gyarados-Mega-Alarix', 'Honchkrow-Godfather', 'Jolteon-Radiatori',
 			'Kurstraw-Crona', 'Leafeon-Tagliatelle', 'Meganium-Aniseed', 'Sceptile-Moscho', 'Sylveon-Farfalle', 'Zweilous-Terror',
-			'Alarixite',
+			'Alarixite', 'Corrupted Rock'
 		],
 	},
 	{
@@ -136,6 +136,7 @@ export const Formats: FormatList = [
 			'Kurstraw-Crona', 'Leafeon-Tagliatelle', 'Meganium-Aniseed', 'Sceptile-Moscho', 'Sylveon-Farfalle', 'Zweilous-Terror',
 			'Aron-Shadow', 'Furfrou-Shadow', 'Garchomp-Shadow', 'Gourgeist-Shadow', 'Heatmor-Shadow', 'Lileep-Shadow', 'Marill-Shadow', 'Meowstic-Shadow',
 			'Muk-Shadow', 'Noivern-Shadow', 'Ribombee-Shadow', 'Shroomish-Shadow', 'Spinarak-Shadow', 'Longeon-Shadow', 'Snorunt-Shadow',
+			'Castform-Shadow',
 		],
 	},
 	{

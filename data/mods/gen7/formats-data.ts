@@ -2614,6 +2614,16 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	castformsmoggy: {
 		randomBattleMoves: ["fireblast", "miasma", "thunderbolt", "weatherball"],
 	},
+	castformshady: {},
+	castformshadow: {
+		tier: "Uber",
+	},
+	castformshadowsunny: {},
+	castformshadowrainy: {},
+	castformshadowsnowy: {},
+	castformshadowsandy: {},
+	castformshadowsmoggy: {},
+	castformshadowshady: {},
 	kecleon: {
 		randomBattleMoves: ["drainpunch", "fakeout", "irondefense", "knockoff", "recover", "shadowsneak", "stealthrock", "suckerpunch"],
 		randomDoubleBattleMoves: ["drainpunch", "fakeout", "knockoff", "protect", "shadowsneak", "trickroom"],
