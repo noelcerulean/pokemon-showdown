@@ -4244,6 +4244,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Shadow Armor');
 		},
+		onImmunity(type, pokemon) {
+			if (type === 'shadowsky') return false;
+		},
 		onSourceBasePowerPriority: 18,
 		onSourceBasePower(basePower, attacker, defender, move) {
 			if (move.type === 'Shadow') {
