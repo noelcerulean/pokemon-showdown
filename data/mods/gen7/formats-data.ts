@@ -20,6 +20,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	lileepshadow: {
 		tier: "Uber",
 	},
+	mareanieshadow: {
+		tier: "Uber",
+	},
 	gourgeistshadow: {
 		tier: "Uber",
 	},

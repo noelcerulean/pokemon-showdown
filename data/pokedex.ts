@@ -95,6 +95,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
 	},
+	mareanieshadow: {
+		num: 747,
+		name: "Mareanie-Shadow",
+		types: ["Poison", "Water"],
+		gender: "F",
+		baseStats: {hp: 50, atk: 53, def: 62, spa: 43, spd: 52, spe: 45},
+		abilities: {0: "Shadow Armor"},
+		heightm: 0.4,
+		weightkg: 8,
+		color: "Blue",
+		eggGroups: ["Undiscovered"],
+	},
 	marillshadow: {
 		num: 183,
 		name: "Marill-Shadow",

@@ -132,6 +132,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowvenom: ["7L1"],
 		},
 	},
+	mareanieshadow: {
+		learnset: {
+			shadowchew: ["7L1"],
+			shadowdesolation: ["7L1"],
+			shadowdevour: ["7L1"],
+			shadowdissolve: ["7L1"],
+			shadowfountain: ["7L1"],
+			shadowfumes: ["7L1"],
+			shadowscheme: ["7L1"],
+			shadowspikes: ["7L1"],
+			shadowsqueeze: ["7L1"],
+			shadowstorm: ["7L1"],
+			shadowvolley: ["7L1"],
+			shadowwall: ["7L1"],
+		},
+	},
 	marillshadow: {
 		learnset: {
 			shadowanvil: ["7L1"],

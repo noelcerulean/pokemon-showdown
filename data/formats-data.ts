@@ -23,6 +23,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	gourgeistshadow: {
 		tier: "Uber",
 	},
+	mareanieshadow: {
+		tier: "Uber",
+	},
 	meowsticshadow: {
 		tier: "Uber",
 	},

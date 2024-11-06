@@ -1564,6 +1564,22 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 7,
 		isNonstandard: "Past",
 	},
+	drashberry: {
+		name: "Drash Berry",
+		spritenum: 799,
+		isBerry: true,
+		naturalGift: {
+			basePower: 110,
+			type: "Ground",
+		},
+		onEat(pokemon) {
+			this.add('-activate', pokemon, 'item: Drash Berry', '[consumed]');
+			this.boost({accuracy: 1, spe: 1});
+		},
+		// Item activation located in sim/battle-actions.ts
+		num: -562,
+		gen: 7,
+	},
 	dreadplate: {
 		name: "Dread Plate",
 		spritenum: 110,
@@ -1661,6 +1677,29 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 805,
 		gen: 7,
 		isNonstandard: "Past",
+	},
+	eggantberry: {
+		name: "Eggant Berry",
+		spritenum: 802,
+		isBerry: true,
+		naturalGift: {
+			basePower: 110,
+			type: "Electric",
+		},
+		onTryHealPriority: 1,
+		onTryHeal(damage, target, source, effect) {
+			if (target.hp === target.maxhp) return;
+			// keep this the same as heals list in bigroot
+			const heals = ['drain', 'strengthsap', 'parasiticdrain'];
+			if (effect.effectType !== 'Move' && !heals.includes(effect.id)) return;
+			if (target.eatItem()) {
+				this.add('-activate', target, 'item: Eggant Berry', '[consumed]');
+				return this.chainModify(target.hasAbility('ripen') ? 4 : 2);
+			}
+		},
+		onEat() { },
+		num: -565,
+		gen: 7,
 	},
 	ejectbutton: {
 		name: "Eject Button",
@@ -2557,6 +2596,39 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 7,
 		isNonstandard: "Past",
 	},
+	ginemaberry: {
+		name: "Ginema Berry",
+		spritenum: 808,
+		isBerry: true,
+ 		naturalGift: {
+			basePower: 110,
+			type: "Flying",
+		},
+		onBoost(boost, target, source, effect) {
+			if (!source || target.isAlly(source)) {
+				if (effect.id === 'stickyweb') {
+					this.hint("Orbital Shift/Court Change Sticky Web counts as lowering your own Speed, and Ginema Berry only affects stats lowered by foes.", true, source.side);
+				}
+				return;
+			}
+			let statsLowered = false;
+			let i: BoostID;
+			for (i in boost) {
+				if (i === 'evasion') continue;
+				if (boost[i]! < 0) {
+					statsLowered = true;
+					if (target.hasAbility('Ripen')) continue;
+					boost[i]! *= -1;
+				}
+			}
+			if (statsLowered) target.eatItem();
+		},
+		onEat(pokemon) {
+			this.add('-activate', pokemon, 'item: Ginema Berry', '[consumed]');
+		},
+		num: -571,
+		gen: 7,
+	},
 	glalitite: {
 		name: "Glalitite",
 		spritenum: 623,
@@ -3364,6 +3436,32 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 7,
 		isNonstandard: "Past",
 	},
+	kuoberry: {
+		name: "Kuo Berry",
+		spritenum: 800,
+		isBerry: true,
+		naturalGift: {
+			basePower: 110,
+			type: "Fairy",
+		},
+		onModifyMovePriority: -2,
+		onModifyMove(move, pokemon) {
+			if (move.secondaries) {
+				this.debug('tripling secondary chance');
+				if (pokemon.eatItem()) {
+					this.add('-activate', pokemon, 'item: Kuo Berry', '[consumed]');
+					let chanceModifier = pokemon.hasAbility('ripen') ? 6 : 3;
+					for (const secondary of move.secondaries) {
+						if (secondary.chance) secondary.chance *= chanceModifier;
+					}
+					if (move.self?.chance) move.self.chance *= chanceModifier;
+				}
+			}
+		},
+		onEat() { },
+		num: -563,
+		gen: 7,
+	},
 	laggingtail: {
 		name: "Lagging Tail",
 		spritenum: 237,
@@ -3373,6 +3471,36 @@ export const Items: {[itemid: string]: ItemData} = {
 		onFractionalPriority: -0.1,
 		num: 279,
 		gen: 4,
+	},
+	lanchiberry: {
+		name: "Lanchi Berry",
+		spritenum: 797,
+		isBerry: true,
+		naturalGift: {
+			basePower: 110,
+			type: "Steel",
+		},
+  		onFoeAfterBoost(boost, target, source, effect) {
+			if (effect?.name === 'Receiver' || effect?.name === 'Lanchi Berry' || target !== source) return;
+			const boostPlus: SparseBoostsTable = {};
+			let statsRaised = false;
+			let i: BoostID;
+			for (i in boost) {
+				if (boost[i]! > 0) {
+					boostPlus[i] = boost[i];
+					statsRaised = true;
+				}
+			}
+			if (!statsRaised) return;
+			const pokemon: Pokemon = this.effectState.target;
+			if (pokemon.eatItem()) {
+				this.add('-activate', pokemon, 'item: Lanchi Berry', '[consumed]')
+				this.boost(boostPlus, pokemon);
+			}
+		},
+		onEat() { },
+		num: -560,
+		gen: 7,
 	},
 	lansatberry: {
 		name: "Lansat Berry",
@@ -4441,6 +4569,30 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: -532,
 		gen: 7,
 	},
+	ninikuberry: {
+		name: "Niniku Berry",
+		spritenum: 806,
+		isBerry: true,
+		naturalGift: {
+			basePower: 110,
+			type: "Dragon",
+		},
+		onDamagingHitOrder: 2,
+		onDamagingHit(damage, target, source, move) {
+			target.eatItem();
+		},
+		onEat(target) {
+			this.add('-activate', target, 'item: Niniku Berry', '[consumed]');
+			this.add('-clearallboost');
+			target.clearBoosts();
+			for (const pokemon of this.getAllActive()) {
+				if (pokemon === target) continue;
+				pokemon.clearBoosts();
+			}
+		},
+		num: -569,
+		gen: 7,
+	},
 	nobunagaarmor: {
 		name: "Nobunaga Armor",
 		spritenum: 754,
@@ -4488,6 +4640,32 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 776,
 		gen: 7,
 		isNonstandard: "Past",
+	},
+	nutpeaberry: {
+		name: "Nutpea Berry",
+		spritenum: 803,
+		isBerry: true,
+		naturalGift: {
+			basePower: 110,
+			type: "Rock",
+		},
+		onDamagingHitOrder: 2,
+		onDamagingHit(damage, target, source, move) {
+			if (!this.checkMoveMakesContact(move, source, target)) return;
+			if (target.eatItem()) {
+				this.add('-item', target, 'Nutpea Berry');
+				this.damage(source.baseMaxhp / (target.hasAbility('ripen') ? 1.5 : 3), source, target);
+			}
+		},
+		onTryEatItem(item, pokemon) {
+			if (!this.runEvent('TryHeal', pokemon)) return false;
+		},
+		onEat(pokemon) {
+			this.add('-activate', pokemon, 'item: Nutpea Berry', '[consumed]');
+			this.heal(pokemon.baseMaxhp / 3);
+		},
+		num: -566,
+		gen: 7,
 	},
 	nuzleafarmor: {
 		name: "Nuzleaf Armor",
@@ -5167,6 +5345,37 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 786,
 		gen: 7,
 		isNonstandard: "Past",
+	},
+	pumkinberry: {
+		name: "Pumkin Berry",
+		spritenum: 804,
+		isBerry: true,
+		naturalGift: {
+			basePower: 110,
+			type: "Ice",
+		},
+		onResidualOrder: 5,
+		onResidualSubOrder: 4,
+		onResidual(pokemon) {
+			if (pokemon.activeTurns) {
+				if (!pokemon.hp) return;
+				pokemon.eatItem();
+			}
+		},
+		onTryEatItem(item, pokemon) {
+			if (!this.runEvent('TryHeal', pokemon)) return false;
+		},
+		onEat(pokemon) {
+			this.add('-activate', pokemon, 'item: Pumkin Berry', '[consumed]');
+			this.heal(pokemon.baseMaxhp / 3);
+			if (pokemon.getAbility().isPermanent) return;
+			const oldAbility = pokemon.setAbility('slowstart');
+			if (oldAbility) {
+				this.add('-ability', pokemon, 'Slow Start', '[from] item: Pumkin Berry');
+			}
+		},
+		num: -567,
+		gen: 7,
 	},
 	qualotberry: {
 		name: "Qualot Berry",
@@ -6447,6 +6656,33 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 1109,
 		gen: 8,
 	},
+	stribberry: {
+		name: "Strib Berry",
+		spritenum: 798,
+		isBerry: true,
+		naturalGift: {
+			basePower: 110,
+			type: "Grass",
+		},
+		onDamagingHitOrder: 2,
+		onDamagingHit(damage, target, source, move) {
+			if (!this.checkMoveMakesContact(move, source, target)) return;
+			if (target.eatItem()) {
+				let boostAmount = target.hasAbility('ripen') ? -2 : -1
+				this.boost({atk: boostAmount, spa: boostAmount}, source, target, null, true);
+			}
+		},
+		onTryEatItem(item, pokemon) {
+			if (!this.runEvent('TryHeal', pokemon)) return false;
+		},
+		onEat(pokemon) {
+			this.add('-activate', pokemon, 'item: Strib Berry', '[consumed]');
+			this.heal(pokemon.baseMaxhp / 4);
+			this.boost({atk: -1, spa: -1});
+		},
+		num: -561,
+		gen: 7,
+	},
 	sunflorite: {
 		name: "Sunflorite",
 		spritenum: 742,
@@ -6648,6 +6884,56 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 10,
 		gen: 3,
 		isPokeball: true,
+	},
+	topoberry: {
+		name: "Topo Berry",
+		spritenum: 801,
+		isBerry: true,
+		naturalGift: {
+			basePower: 110,
+			type: "Poison",
+		},
+		onAfterSetStatusPriority: -1,
+		onAfterSetStatus(status, pokemon) {
+			pokemon.eatItem();
+		},
+		onUpdate(pokemon) {
+			if (pokemon.status || pokemon.volatiles['confusion']) {
+				pokemon.eatItem();
+			}
+		},
+		onEat(pokemon) {
+			this.add('-activate', pokemon, 'item: Topo Berry', '[consumed]');
+			this.boost({spe: 1});
+		},
+		num: -564,
+		gen: 7,
+	},
+	tougaberry: {
+		name: "Touga Berry",
+		spritenum: 805,
+		isBerry: true,
+		naturalGift: {
+			basePower: 110,
+			type: "Fire",
+		},
+		onDamagingHitOrder: 2,
+		onDamagingHit(damage, target, source, move) {
+			if (!this.checkMoveMakesContact(move, source, target)) return;
+			if (target.eatItem()) {
+				this.add('-item', target, 'Touga Berry');
+				this.damage(source.baseMaxhp / (target.hasAbility('ripen') ? 2 : 4), source, target);
+				let boostAmount = target.hasAbility('ripen') ? 2 : 1
+				this.boost({atk: boostAmount, spa: boostAmount}, source, target, null, true);
+			}
+		},
+		onEat(pokemon) {
+			this.add('-activate', pokemon, 'item: Touga Berry', '[consumed]');
+			this.damage(pokemon.baseMaxhp / 4);
+			this.boost({atk: 1, spa: 1});
+		},
+		num: -568,
+		gen: 7,
 	},
 	toxicorb: {
 		name: "Toxic Orb",
@@ -7977,6 +8263,49 @@ export const Items: {[itemid: string]: ItemData} = {
 		onEat() { },
 		num: 188,
 		gen: 4,
+	},
+	yagoberry: {
+		name: "Yago Berry",
+		spritenum: 807,
+		isBerry: true,
+		naturalGift: {
+			basePower: 110,
+			type: "Water",
+		},
+		onResidualOrder: 5,
+		onResidualSubOrder: 4,
+		onResidual(pokemon) {
+			if (pokemon.activeTurns) {
+				if (!pokemon.hp) return;
+				pokemon.eatItem();
+			}
+		},
+		onTryEatItem(item, pokemon) {
+			let stat: BoostID;
+			for (stat in pokemon.boosts) {
+				if (stat === 'accuracy' || stat === 'evasion') continue;
+				if (pokemon.boosts[stat] < 6) return;
+			}
+			return false;
+		},
+		onEat(pokemon) {
+			this.add('-activate', pokemon, 'item: Yago Berry', '[consumed]');
+			const stats: BoostID[] = [];
+			let stat: BoostID;
+			for (stat in pokemon.boosts) {
+				if (stat !== 'accuracy' && stat !== 'evasion' && pokemon.boosts[stat] < 6) {
+					stats.push(stat);
+				}
+			}
+			if (stats.length) {
+				const randomStat = this.sample(stats);
+				const boost: SparseBoostsTable = {};
+				boost[randomStat] = 1;
+				this.boost(boost);
+			}
+		},
+		num: -570,
+		gen: 7,
 	},
 	zapplate: {
 		name: "Zap Plate",
