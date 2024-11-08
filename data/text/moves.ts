@@ -164,6 +164,13 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		activate: "  [POKEMON] switched items with its target!",
 	},
+	shadowtransform: {
+		name: "Shadow Transform",
+		desc: "The user transforms into the target. The target's current stats, stat stages, moves, Ability, weight, gender, and sprite are copied. The user's level and HP remain the same and each copied move receives only 5 PP, with a maximum of 5 PP each. The user can no longer change formes if it would have the ability to do so. This move fails if either the user or the target is already transformed, or if either is behind an Illusion. Grants the user an omniboost and turns into Shadow-type.",
+		shortDesc: "Omniboosts and transforms into Shadow target.",
+
+		transform: "[POKEMON] transformed into a Shadow version of [SPECIES]!",
+	},
 	shadowtrip: {
 		name: "Shadow Trip",
 		desc: "This move's power is 20 if the target weighs less than 10 kg, 40 if less than 25 kg, 60 if less than 50 kg, 80 if less than 100 kg, 100 if less than 200 kg, and 120 if greater than or equal to 200 kg.",

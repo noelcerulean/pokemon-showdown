@@ -4278,6 +4278,33 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 5,
 		num: -810,
 	},
+	shadowconcentrate: {
+		onUpdate(pokemon) {
+			if (pokemon.volatiles['taunt']) {
+				this.add('-activate', pokemon, 'ability: Shadow Concentrate');
+				pokemon.removeVolatile('taunt');
+				// Taunt's volatile already sends the -end message when removed
+			}
+		},
+		onModifyDefPriority: 6,
+		onModifyDef(def) {
+			return this.chainModify(3);
+		},
+		onModifySpDPriority: 6,
+		onModifySpD(spd) {
+			return this.chainModify(3);
+		},
+		onTryHit(pokemon, target, move) {
+			if (move.id === 'taunt') {
+				this.add('-immune', pokemon, '[from] ability: Shadow Concentrate');
+				return null;
+			}
+		},
+		isBreakable: true,
+		name: "Shadow Concentrate",
+		rating: 5,
+		num: -815,
+	},
 	shadowconduction: {
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Shadow Conduction');

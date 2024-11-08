@@ -1543,6 +1543,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		start: "  [POKEMON] is surrounded by a shadowy aura!",
 	},
+	shadowconcentrate: {
+		name: "Shadow Concentrate",
+		desc: "This Pokemon's Defense and Sp. Defense are tripled. It is also immune to Taunt.",
+		shortDesc: "This Pokemon's Defense and Sp. Defense are tripled; Taunt immunity.",
+
+		start: "  [POKEMON] is surrounded by a shadowy aura!",
+	},
 	shadowconduction: {
 		name: "Shadow Conduction",
 		desc: "This Pokemon is immune to Electric-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Electric-type move.",

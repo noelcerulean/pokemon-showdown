@@ -753,6 +753,37 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Shadow",
 	},
+	shadowtransform: {
+		num: -906,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Transform",
+		pp: 10,
+		priority: 0,
+		flags: {mystery: 1, authentic: 1},
+		onHit(target, pokemon) {
+			if (!pokemon.transformInto(target)) {
+				return false;
+			}
+		},
+		onAfterMove(target) {
+			if (target.getTypes().join() === 'Shadow' || !target.setType('Shadow')) return false;
+			this.add('-start', target, 'typechange', 'Shadow');
+		},
+		noSketch: true,
+		selfBoost: {
+			boosts: {
+				atk: 1,
+				def: 1,
+				spa: 1,
+				spd: 1,
+				spe: 1,
+			},
+		},
+		target: "normal",
+		type: "Shadow",
+	},
 	shadowtrip: {
 		num: -907,
 		accuracy: 100,
