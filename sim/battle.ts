@@ -1969,11 +1969,20 @@ export class Battle {
 			if (!source) source = this.event.source;
 			if (!effect) effect = this.effect;
 		}
+		this.debug(`target: ${target}`);
+		this.debug(`source: ${source}`);
+		this.debug(`effect: ${effect}`);
 		if (effect === 'drain') effect = this.dex.conditions.getByID(effect as ID);
 		if (damage && damage <= 1) damage = 1;
 		damage = this.trunc(damage);
+		this.debug(`pre-onTryHeal damage: ${damage}`);
 		// for things like Liquid Ooze, the Heal event still happens when nothing is healed.
 		damage = this.runEvent('TryHeal', target, source, effect, damage);
+		this.debug(`post onTryHeal damage: ${damage}`);
+		this.debug(`target?.hp: ${target?.hp}`);
+		this.debug(`target.isActive: ${target?.isActive}`);
+		this.debug(`target.hp: ${target?.hp}`);
+		this.debug(`target.maxhp: ${target?.maxhp}`);
 		if (!damage) return damage;
 		if (!target?.hp) return false;
 		if (!target.isActive) return false;
