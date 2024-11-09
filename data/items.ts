@@ -1688,6 +1688,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		onTryHealPriority: 1,
 		onTryHeal(damage, target, source, effect) {
+			this.debug(`${effect}`);
 			if (target.hp === target.maxhp) return;
 			// keep this the same as heals list in bigroot
 			const heals = ['drain', 'strengthsap', 'parasiticdrain'];
