@@ -1162,7 +1162,6 @@ export class BattleActions {
 						didAnything = this.combineResults(didAnything, null);
 						continue;
 					}
-					this.battle.add('-heal', target, target.getHealth);
 					didSomething = true;
 				}
 				if (moveData.status) {
