@@ -110,6 +110,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Deals damage to the target equal to the user's level.",
 		shortDesc: "Does damage equal to the user's level.",
 	},
+	shadowmonsoon: {
+		name: "Shadow Monsoon",
+		desc: "Always crits. For 5 turns, the weather becomes Rain Dance. The damage of Water-type attacks is multiplied by 1.5 and the damage of Fire-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Damp Rock. Fails if the current weather is Rain Dance.",
+		shortDesc: "Crits. For 5 turns, weather becomes Rain Dance.",
+	},
 	shadowpress: {
 		name: "Shadow Press",
 		desc: "Always crits. Damage is calculated using the user's Defense stat as its Attack, including stat stage changes. Other effects that modify the Attack stat are used as normal.",
