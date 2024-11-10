@@ -136,7 +136,7 @@ export const Formats: FormatList = [
 			'Kurstraw-Crona', 'Leafeon-Tagliatelle', 'Meganium-Aniseed', 'Sceptile-Moscho', 'Sylveon-Farfalle', 'Zweilous-Terror',
 			'Aron-Shadow', 'Furfrou-Shadow', 'Garchomp-Shadow', 'Gourgeist-Shadow', 'Heatmor-Shadow', 'Lileep-Shadow', 'Marill-Shadow', 'Meowstic-Shadow',
 			'Muk-Shadow', 'Noivern-Shadow', 'Ribombee-Shadow', 'Shroomish-Shadow', 'Spinarak-Shadow', 'Longeon-Shadow', 'Snorunt-Shadow',
-			'Castform-Shadow', 'Mareanie-Shadow', 'Ditto-Shadow',
+			'Castform-Shadow', 'Mareanie-Shadow', 'Ditto-Shadow', 'Zapdos-Shadow',
 		],
 	},
 	{

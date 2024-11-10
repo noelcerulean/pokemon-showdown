@@ -2,6 +2,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	aronshadow: {
 		tier: "Uber",
 	},
+	zapdosshadow: {
+		tier: "Uber",
+	},
 	dittoshadow: {
 		tier: "Uber",
 	},

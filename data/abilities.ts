@@ -4543,6 +4543,30 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 5,
 		num: 23,
 	},
+	shadowtrueno: {
+		onModifySpAPriority: 5,
+		onModifySpA(spa, pokemon) {
+			if (['raindance', 'primordialsea'].includes(pokemon.effectiveWeather())) {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpDPriority: 5,
+		onModifySpD(spd, pokemon) {
+			if (['raindance', 'primordialsea'].includes(pokemon.effectiveWeather())) {
+				return this.chainModify(1.5);
+			}
+		},
+		onResidual(pokemon) {
+			if (pokemon.status && ['raindance', 'primordialsea'].includes(pokemon.effectiveWeather())) {
+				this.debug('shadowtrueno');
+				this.add('-activate', pokemon, 'ability: Shadow Trueno');
+				pokemon.cureStatus();
+			}
+		},
+		name: "Shadow Trueno",
+		rating: 5,
+		num: -816,
+	},
 	shadowtyrant: {
 		onSourceAfterFaint(length, target, source, effect) {
 			if (effect && effect.effectType === 'Move') {

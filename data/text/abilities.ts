@@ -1627,6 +1627,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			shortDesc: "Prevents opposing Pokemon from choosing to switch out.",
 		},
 	},
+	shadowtrueno: {
+		name: "Shadow Trueno",
+		shortDesc: "During Rain: 2x SpA & SpD, Heals status.",
+
+		start: "  [POKEMON] is surrounded by a shadowy aura!",
+	},
 	shadowtyrant: {
 		name: "Shadow Tyrant",
 		shortDesc: "If this Pokemon KOs a target with a recharge move, it does not need to recharge.",
