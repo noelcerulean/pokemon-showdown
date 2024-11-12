@@ -4427,6 +4427,29 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: -814,
 	},
+	shadowfuego: {
+		onModifySpAPriority: 5,
+		onModifySpA(spa, pokemon) {
+			if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpe(spe, pokemon) {
+			if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
+				return this.chainModify(1.5);
+			}
+		},
+		onResidual(pokemon) {
+			if (pokemon.status && ['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
+				this.debug('shadowfuego');
+				this.add('-activate', pokemon, 'ability: Shadow Fuego');
+				pokemon.cureStatus();
+			}
+		},
+		name: "Shadow Fuego",
+		rating: 5,
+		num: -816,
+	},
 	shadowhydraulics: {
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Shadow Hydraulics');

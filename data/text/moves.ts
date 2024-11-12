@@ -70,6 +70,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Damage is calculated using the target's Sp. Attack Attack stat, including stat stage changes. The user's Ability, item, and freeze are used as normal.",
 		shortDesc: "Crits. Uses target Sp Atk stat in damage calc.",
 	},
+	shadowfirestorm: {
+		name: "Shadow Firestorm",
+		desc: "Always crits. For 5 turns, the weather becomes Sunny Day. The damage of Fire-type attacks is multiplied by 1.5 and the damage of Water-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Heat Rock.",
+		shortDesc: "Crits. For 5 turns, weather becomes Sunny Day.",
+	},
 	shadowfountain: {
 		name: "Shadow Fountain",
 		desc: "The user has 1/16 of its maximum HP, rounded down, restored at the end of each turn while it remains active. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. If the user uses Baton Pass, the replacement will receive the healing effect.",
