@@ -4448,7 +4448,31 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Shadow Fuego",
 		rating: 5,
-		num: -816,
+		num: -817,
+	},
+	shadowhielo: {
+		onModifySpDPriority: 5,
+		onModifySpD(spd, pokemon) {
+			if (this.field.isWeather('hail')) {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifyDefPriority: 5,
+		onModifyDef(def, pokemon) {
+			if (this.field.isWeather('hail')) {
+				return this.chainModify(1.5);
+			}
+		},
+		onResidual(pokemon) {
+			if (pokemon.status && ['hail'].includes(pokemon.effectiveWeather())) {
+				this.debug('shadowhielo');
+				this.add('-activate', pokemon, 'ability: Shadow Hielo');
+				pokemon.cureStatus();
+			}
+		},
+		name: "Shadow Hielo",
+		rating: 5,
+		num: -818,
 	},
 	shadowhydraulics: {
 		onStart(pokemon) {

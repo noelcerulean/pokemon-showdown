@@ -31,6 +31,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			watergun: ["3L1"],
 		},
 	},
+	articunoshadow: {
+		learnset: {
+			shadowchill: ["7L1"],
+			shadowdevour: ["7L1"],
+			shadowfrost: ["7L1"],
+			shadowglaze: ["7L1"],
+			shadowinversion: ["7L1"],
+			shadowpivot: ["7L1"],
+			shadowscheme: ["7L1"],
+			shadowshed: ["7L1"],
+			shadowshuffle: ["7L1"],
+			shadowstorm: ["7L1"],
+			shadowwave: ["7L1"],
+			shadowwhiteout: ["7L1"],
+		},
+	},
 	moltresshadow: {
 		learnset: {
 			shadowcinder: ["7L1"],
@@ -74,6 +90,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowbreak: ["7L1"],
 			shadowdetonation: ["7L1"],
 			shadowend: ["7L1"],
+			shadowfountain: ["7L1"],
 			shadowhurl: ["7L1"],
 			shadowintensify: ["7L1"],
 			shadowmeld: ["7L1"],
@@ -102,6 +119,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowshed: ["7L1"],
 			shadowsnipe: ["7L1"],
 			shadowstratoslam: ["7L1"],
+			shadowthreat: ["7L1"],
 			shadowwave: ["7L1"],
 		},
 	},

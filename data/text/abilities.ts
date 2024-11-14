@@ -1588,6 +1588,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		start: "  [POKEMON] is surrounded by a shadowy aura!",
 	},
+	shadowhielo: {
+		name: "Shadow Hielo",
+		shortDesc: "During Hail: 1.5x Def & SpD, Heals status.",
+
+		start: "  [POKEMON] is surrounded by a shadowy aura!",
+	},
 	shadowhydraulics: {
 		name: "Shadow Hydraulics",
 		desc: "This Pokemon is immune to Water-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Water-type move.",

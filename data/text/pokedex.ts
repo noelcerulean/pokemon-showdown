@@ -2,6 +2,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	aronshadow: {
 		name: "Aron-Shadow",
 	},
+	articunoshadow: {
+		name: "Articuno-Shadow",
+	},
 	moltresshadow: {
 		name: "Moltres-Shadow",
 	},
