@@ -6200,7 +6200,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	skarmorite: {
 		name: "Skarmorite",
-		spritenum: 809,
+		spritenum: 810,
 		megaStone: "Skarmory-Mega",
 		megaEvolves: "Skarmory",
 		itemUser: ["Skarmory"],
