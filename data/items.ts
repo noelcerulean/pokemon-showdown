@@ -6198,6 +6198,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 158,
 		gen: 3,
 	},
+	skarmorite: {
+		name: "Skarmorite",
+		spritenum: 809,
+		megaStone: "Skarmory-Mega",
+		megaEvolves: "Skarmory",
+		itemUser: ["Skarmory"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -573,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	skullfossil: {
 		name: "Skull Fossil",
 		spritenum: 449,

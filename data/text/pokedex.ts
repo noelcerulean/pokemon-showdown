@@ -1205,6 +1205,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	skarmory: {
 		name: "Skarmory",
 	},
+	skarmorymega: {
+		name: "Skarmory-Mega",
+	},
 	houndour: {
 		name: "Houndour",
 	},

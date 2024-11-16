@@ -2215,6 +2215,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
+	skarmorymega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	houndour: {
 		isNonstandard: "Past",
 		tier: "Illegal",

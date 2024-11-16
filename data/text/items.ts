@@ -1843,6 +1843,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 			desc: "Restores 30 HP when at 1/2 max HP or less. Single use.",
 		},
 	},
+	skarmorite: {
+		name: "Skarmorite",
+		desc: "If held by an Skarmory, this item allows it to Mega Evolve in battle.",
+	},
 	skullfossil: {
 		name: "Skull Fossil",
 		desc: "Can be revived into Cranidos.",

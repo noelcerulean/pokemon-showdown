@@ -1866,6 +1866,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},
+	skarmorymega: {
+		randomBattleMoves: ["bravebird", "roost", "spikes", "stealthrock", "swordsdance", "whirlwind"],
+		randomDoubleBattleMoves: ["bravebird", "feint", "ironhead", "protect", "skydrop", "stealthrock", "tailwind", "taunt"],
+		tier: "Uber",
+		doublesTier: "(DUU)",
+	},
 	houndour: {
 		tier: "LC",
 	},

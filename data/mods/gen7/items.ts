@@ -591,6 +591,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	skarmorite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	skullfossil: {
 		inherit: true,
 		isNonstandard: null,

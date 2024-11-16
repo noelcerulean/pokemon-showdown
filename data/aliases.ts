@@ -981,6 +981,7 @@ export const Aliases: {[alias: string]: string} = {
 	serp: "Serperior",
 	shao: "Mienshao",
 	skarm: "Skarmory",
+	mskarm: "Skarmory-Mega",
 	smogon: "Koffing",
 	smogonbird: "Talonflame",
 	snips: "Drapion",
