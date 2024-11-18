@@ -4305,6 +4305,23 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 5,
 		num: -815,
 	},
+	shadowconception: {
+		onSourceModifyDamage(damage, source, target, move) {
+			if (target.hp >= target.maxhp) {
+				this.debug('Shadow Conception weaken');
+				return this.chainModify(0.25);
+			}
+		},
+		onDamage(damage, target, source, effect) {
+			if (effect && effect.id === 'stealthrock') {
+				return false;
+			}
+		},
+		isPermanent: true,
+		name: "Shadow Conception",
+		rating: 5,
+		num: -820,
+	},
 	shadowconduction: {
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Shadow Conduction');
@@ -4635,6 +4652,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Shadow Tyrant",
 		rating: 2.5,
 		num: -813,
+	},
+	shadowvariable: {
+		onModifyPriority(priority, pokemon, target, move) {
+			if (move?.type === 'Shadow') return priority + 3;
+		},
+		name: "Shadow Variable",
+		rating: 5,
+		num: -819,
 	},
 	shedskin: {
 		onResidualOrder: 5,

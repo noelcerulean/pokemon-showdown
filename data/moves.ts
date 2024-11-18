@@ -141,6 +141,30 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Shadow",
 	},
+	shadowblast: {
+		num: -879,
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		name: "Shadow Blast",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1},
+		selfBoost: {
+			boosts: {
+				atk: 1,
+				def: 1,
+				spa: 1,
+				spd: 1,
+				spe: 1,
+			},
+		},
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "normal",
+		type: "Shadow",
+	},
 	shadowbluff: {
 		num: -880,
 		accuracy: 100,
@@ -440,6 +464,22 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Shadow",
 	},
+	shadowgale: {
+		num: -892,
+		accuracy: 100,
+		basePower: 110,
+		category: "Special",
+		name: "Shadow Gale",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1},
+		weather: 'shadowsky',
+		willCrit: true,
+		noSketch: true,
+		secondary: null,
+		target: "allAdjacentFoes",
+		type: "Shadow",
+	},
 	shadowgluttony: {
 		num: -893,
 		accuracy: true,
@@ -627,6 +667,37 @@ export const Moves: {[moveid: string]: MoveData} = {
 		noSketch: true,
 		secondary: null,
 		target: "normal",
+		type: "Shadow",
+	},
+	shadowsignal: {
+		num: -912,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shadow Signal",
+		pp: 10,
+		priority: 0,
+		flags: {distance: 1},
+		onHitField(target, source) {
+			const targets: Pokemon[] = [];
+			for (const pokemon of this.getAllActive()) {
+				if (pokemon.hasType('Shadow')) {
+					// This move affects every Shadow-type Pokemon in play.
+					targets.push(pokemon);
+				}
+			}
+			if (!targets.length) return false; // Fails when there are no Shadow-types in play.
+			for (const pokemon of targets) {
+				if (this.field.isWeather('shadowsky')) {
+					this.boost({atk: 2, spa: 2, spe: 2}, pokemon, source);
+				} else {
+					this.boost({atk: 1, spa: 1, spe: 1}, pokemon, source);
+				}
+			}
+		},
+		noSketch: true,
+		secondary: null,
+		target: "all",
 		type: "Shadow",
 	},
 	shadowsky: {

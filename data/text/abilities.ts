@@ -1550,6 +1550,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		start: "  [POKEMON] is surrounded by a shadowy aura!",
 	},
+	shadowconception: {
+		name: "Shadow Conception",
+		shortDesc: "At full HP, damage taken from attacks is quartered; Stealth Rock immunity.",
+	},
 	shadowconduction: {
 		name: "Shadow Conduction",
 		desc: "This Pokemon is immune to Electric-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Electric-type move.",
@@ -1648,6 +1652,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	shadowtyrant: {
 		name: "Shadow Tyrant",
 		shortDesc: "If this Pokemon KOs a target with a recharge move, it does not need to recharge.",
+
+		start: "  [POKEMON] is surrounded by a shadowy aura!",
+	},
+	shadowvariable: {
+		name: "Shadow Variable",
+		shortDesc: "This Pokemon's Shadow-type moves have their priority increased by 3.",
 
 		start: "  [POKEMON] is surrounded by a shadowy aura!",
 	},

@@ -21,6 +21,11 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		prepare: "  [POKEMON] absorbed shadow energy!",
 	},
+	shadowblast: {
+		name: "Shadow Blast",
+		desc: "Always crits. 100% chance to raise stats of user by 1 stage.",
+		shortDesc: "Crits. 100% chance to raise all user stats by 1.",
+	},
 	shadowbluff: {
 		name: "Shadow Bluff",
 		desc: "Always crits. Has a 100% chance to make the target flinch. Fails unless it is the user's first turn on the field.",
@@ -88,6 +93,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Always crits. The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
 		shortDesc: "Crits. Lasts 2-3 turns. Confuses user afterwards.",
 	},
+	shadowgale: {
+		name: "Shadow Gale",
+		desc: "Always Crits. For 5 turns, the weather becomes Shadow Sky. The damage of Shadow-type attacks is multiplied by 1.5 and at the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are an Shadow type or have the Pure Heart, Magic Guard, or Overcoat Abilities. Lasts for 8 turns if the user is holding Shadow Rock.",
+		shortDesc: "Crits. For 5 turns, weather becomes Shadow Sky.",
+	},
 	shadowgluttony: {
 		name: "Shadow Gluttony",
 		desc: "This move cannot be selected unless the user is holding a Berry. The user eats its Berry and raises its Defense by 2 stages. This effect is not prevented by the Klutz or Unnerve Abilities, or the effects of Embargo or Magic Room. Fails if the user is not holding a Berry.",
@@ -136,6 +146,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Steals target's boosts before damaging. Crits.",
 
 		clearBoost: "  [SOURCE] stole the target's boosted stats!",
+	},
+	shadowsignal: {
+		name: "Shadow Signal",
+		desc: "Raises the Attack, Special Attack, and Speed of all Shadow-type Pokemon on the field by 1 stage, or by two stages in Shadow Sky.",
+		shortDesc: "+1 Atk/SpA/Spe to Shadow; +2 in Shadow Sky.",
 	},
 	shadowsky: {
 		name: "Shadow Sky",
