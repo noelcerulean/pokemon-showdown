@@ -1155,6 +1155,7 @@ export const Aliases: {[alias: string]: string} = {
 	tobi: "Tobishimi",
 	pregi: "Regigigas-Primal",
 	pregigigas: "Regigigas-Primal",
+	babylugia: "Lugito",
 
 	// armored
 	vespa: "Vespiquen-Armored",

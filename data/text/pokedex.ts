@@ -1301,6 +1301,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	tyranitarmega: {
 		name: "Tyranitar-Mega",
 	},
+	lugito: {
+		name: "Lugito",
+	},
 	lugia: {
 		name: "Lugia",
 	},

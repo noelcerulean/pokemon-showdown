@@ -2313,6 +2313,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	lugito: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	lugia: {
 		randomBattleMoves: ["airslash", "earthquake", "roost", "substitute", "toxic"],
 		randomBattleLevel: 74,

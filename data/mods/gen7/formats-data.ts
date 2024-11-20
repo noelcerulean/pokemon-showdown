@@ -1965,6 +1965,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DOU",
 	},
+	lugito: {
+		randomBattleMoves: ["aeroblast", "earthpower", "roost", "substitute", "toxic", "whirlwind"],
+		randomDoubleBattleMoves: ["aeroblast", "protect", "psychic", "roost", "skydrop", "tailwind", "toxic"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
 	lugia: {
 		randomBattleMoves: ["aeroblast", "earthquake", "roost", "substitute", "toxic", "whirlwind"],
 		randomDoubleBattleMoves: ["aeroblast", "protect", "psychic", "roost", "skydrop", "tailwind", "toxic"],
