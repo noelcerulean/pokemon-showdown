@@ -2252,7 +2252,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowwyrm: ["7L1"],
 			bonemerang: ["7L1"],
 			powergem: ["7L1"],
-			coreenforer: ["7L1"],
+			coreenforcer: ["7L1"],
 			dragonhammer: ["7L1"],
 			dragonroll: ["7L1"],
 			shadowforce: ["7L1"],

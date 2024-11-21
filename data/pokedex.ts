@@ -90,7 +90,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	dittomini: {
 		num: 132,
 		name: "Ditto-Mini",
-		types: ["Shadow"],
+		types: ["Normal"],
 		gender: "N",
 		baseStats: {hp: 68, atk: 68, def: 68, spa: 68, spd: 68, spe: 68},
 		abilities: {0: "Imposter", 1: "Prankster", H: "Pure Heart"},
