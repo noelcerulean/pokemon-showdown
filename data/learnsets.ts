@@ -2559,6 +2559,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			amnesia: ["8M", "7L1"],
 			ancientpower: ["7L1"],
 			attract: ["8M", "7M", "7L5", "6M", "5M", "4M", "3M"],
+			biddybud: ["7L1"],
 			bide: ["7L5"],
 			bind: ["7T", "6T", "5T"],
 			block: ["7L1"],
@@ -82592,6 +82593,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			tackle: ["8L1"],
 			toxic: ["7M", "6M"],
 			wideguard: ["6S0"],
+		},
+		eventData: [
+			{generation: 6, level: 50, gender: "F", nature: "Quiet", moves: ["wideguard", "kingsshield", "shadowball", "flashcannon"], pokeball: "cherishball"},
+		],
+	},
+	aegislashzato: {
+		learnset: {
 			anchorshot: ["7L1"],
 			discharge: ["7L1"],
 			dragonhammer: ["7L1"],
@@ -82600,13 +82608,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			petrifypulse: ["7L1"],
 			toxicspikes: ["7L1"],
 			willowisp: ["7L1"],
-		},
-		eventData: [
-			{generation: 6, level: 50, gender: "F", nature: "Quiet", moves: ["wideguard", "kingsshield", "shadowball", "flashcannon"], pokeball: "cherishball"},
-		],
-	},
-	aegislashzato: {
-		learnset: {
 			aerialace: ["8L1", "7M", "7L1", "6M", "6L1"],
 			afteryou: ["7T", "6T"],
 			airslash: ["8M"],
