@@ -1,68 +1,68 @@
 export const FormatsData: {[k: string]: SpeciesFormatsData} = {
-	aronshadow: {
+	arongoldie: {
 		tier: "Uber",
 	},
-	lugiashadow: {
+	lugiaseafoam: {
 		tier: "Uber",
 	},
-	roboheeyemshadow: {
+	roboheeyemcurio: {
 		tier: "Uber",
 	},
-	articunoshadow: {
+	articunoexo: {
 		tier: "Uber",
 	},
-	moltresshadow: {
+	moltresthermo: {
 		tier: "Uber",
 	},
-	zapdosshadow: {
+	zapdosstrato: {
 		tier: "Uber",
 	},
-	dittoshadow: {
+	dittomini: {
 		tier: "Uber",
 	},
-	furfroushadow: {
+	furfrouprincess: {
 		tier: "Uber",
 	},
-	garchompshadow: {
+	garchompxeon: {
 		tier: "Uber",
 	},
-	marillshadow: {
+	marilldredge: {
 		tier: "Uber",
 	},
-	snoruntshadow: {
+	snoruntsherbet: {
 		tier: "Uber",
 	},
-	heatmorshadow: {
+	heatmorhuangshan: {
 		tier: "Uber",
 	},
-	lileepshadow: {
+	lileepgoober: {
 		tier: "Uber",
 	},
-	gourgeistshadow: {
+	gourgeistdemitri: {
 		tier: "Uber",
 	},
-	mareanieshadow: {
+	mareaniebarbara: {
 		tier: "Uber",
 	},
-	meowsticshadow: {
+	meowsticroyal: {
 		tier: "Uber",
 	},
-	longeonshadow: {
+	longeonspaghetti: {
 		tier: "Uber",
 	},
-	mukshadow: {
+	mukthesludge: {
 		tier: "Uber",
 	},
-	shroomishshadow: {
+	shroomishgeastrales: {
 		tier: "Uber",
 	},
-	noivernshadow: {
+	noiverneyrie: {
 		tier: "Uber",
 	},
-	spinarakshadow: {
+	spinaraksugar: {
 		tier: "Uber",
 	},
-	ribombeeshadow: {
+	ribombeeshura: {
 		tier: "Uber",
 	},
 	bulbasaur: {
@@ -2999,15 +2999,15 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	castformshady: {
 		isNonstandard: "Past",
 	},
-	castformshadow: {
+	castformatom: {
 		tier: "Uber",
 	},
-	castformshadowsunny: {},
-	castformshadowrainy: {},
-	castformshadowsnowy: {},
-	castformshadowsandy: {},
-	castformshadowsmoggy: {},
-	castformshadowshady: {},
+	castformatomsunny: {},
+	castformatomrainy: {},
+	castformatomsnowy: {},
+	castformatomsandy: {},
+	castformatomsmoggy: {},
+	castformatomshady: {},
 	kecleon: {
 		isNonstandard: "Past",
 		tier: "Illegal",

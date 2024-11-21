@@ -1,69 +1,69 @@
 export const PokedexText: {[k: string]: PokedexText} = {
-	aronshadow: {
-		name: "Aron-Shadow",
+	arongoldie: {
+		name: "Aron-Goldie",
 	},
-	lugiashadow: {
-		name: "Lugia-Shadow",
+	lugiaseafoam: {
+		name: "Lugia-Seafoam",
 	},
-	roboheeyemshadow: {
-		name: "Roboheeyem-Shadow",
+	roboheeyemcurio: {
+		name: "Roboheeyem-Curio",
 	},
-	articunoshadow: {
-		name: "Articuno-Shadow",
+	articunoexo: {
+		name: "Articuno-Exo",
 	},
-	moltresshadow: {
-		name: "Moltres-Shadow",
+	moltresthermo: {
+		name: "Moltres-Thermo",
 	},
-	zapdosshadow: {
-		name: "Zapdos-Shadow",
+	zapdosstrato: {
+		name: "Zapdos-Strato",
 	},
-	dittoshadow: {
-		name: "Ditto-Shadow",
+	dittomini: {
+		name: "Ditto-Mini",
 	},
-	furfroushadow: {
-		name: "Furfrou-Shadow",
+	furfrouprincess: {
+		name: "Furfrou-Princess",
 	},
-	garchompshadow: {
-		name: "Garchomp-Shadow",
+	garchompxeon: {
+		name: "Garchomp-Xeon",
 	},
-	marillshadow: {
-		name: "Marill-Shadow",
+	marilldredge: {
+		name: "Marill-Dredge",
 	},
-	snoruntshadow: {
-		name: "Snorunt-Shadow",
+	snoruntsherbet: {
+		name: "Snorunt-Sherbet",
 	},
-	heatmorshadow: {
-		name: "Heatmor-Shadow",
+	heatmorhuangshan: {
+		name: "Heatmor-Huangshan",
 	},
-	lileepshadow: {
-		name: "Lileep-Shadow",
+	lileepgoober: {
+		name: "Lileep-Goober",
 	},
-	mareanieshadow: {
-		name: "Mareanie-Shadow",
+	mareaniebarbara: {
+		name: "Mareanie-Barbara",
 	},
-	gourgeistshadow: {
-		name: "Gourgeist-Shadow",
+	gourgeistdemitri: {
+		name: "Gourgeist-Demitri",
 	},
-	meowsticshadow: {
-		name: "Meowstic-Shadow",
+	meowsticroyal: {
+		name: "Meowstic-Royal",
 	},
-	longeonshadow: {
-		name: "Longeon-Shadow",
+	longeonspaghetti: {
+		name: "Longeon-Spaghetti",
 	},
-	mukshadow: {
-		name: "Muk-Shadow",
+	mukthesludge: {
+		name: "Muk-TheSludge",
 	},
-	shroomishshadow: {
-		name: "Shroomish-Shadow",
+	shroomishgeastrales: {
+		name: "Shroomish-Geastrales",
 	},
-	noivernshadow: {
-		name: "Noivern-Shadow",
+	noiverneyrie: {
+		name: "Noivern-Eyrie",
 	},
-	spinarakshadow: {
-		name: "Spinarak-Shadow",
+	spinaraksugar: {
+		name: "Spinarak-Sugar",
 	},
-	ribombeeshadow: {
-		name: "Ribombee-Shadow",
+	ribombeeshura: {
+		name: "Ribombee-Shura",
 	},
 	bulbasaur: {
 		name: "Bulbasaur",
@@ -1730,26 +1730,26 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	castformshady: {
 		name: "Castform-Shady",
 	},
-	castformshadow: {
-		name: "Castform-Shadow",
+	castformatom: {
+		name: "Castform-Atom",
 	},
-	castformshadowsunny: {
-		name: "Castform-Shadow-Sunny",
+	castformatomsunny: {
+		name: "Castform-Atom-Sunny",
 	},
-	castformshadowrainy: {
-		name: "Castform-Shadow-Rainy",
+	castformatomrainy: {
+		name: "Castform-Atom-Rainy",
 	},
-	castformshadowsnowy: {
-		name: "Castform-Shadow-Snowy",
+	castformatomsnowy: {
+		name: "Castform-Atom-Snowy",
 	},
-	castformshadowsandy: {
-		name: "Castform-Shadow-Sandy",
+	castformatomsandy: {
+		name: "Castform-Atom-Sandy",
 	},
-	castformshadowsmoggy: {
-		name: "Castform-Shadow-Smoggy",
+	castformatomsmoggy: {
+		name: "Castform-Atom-Smoggy",
 	},
-	castformshadowshady: {
-		name: "Castform-Shadow-Shady",
+	castformatomshady: {
+		name: "Castform-Atom-Shady",
 	},
 	kecleon: {
 		name: "Kecleon",

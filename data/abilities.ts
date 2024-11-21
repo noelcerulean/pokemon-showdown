@@ -1173,6 +1173,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 88,
 	},
+	draconize: {
+		onModifyTypePriority: -1,
+		onModifyType(move, pokemon) {
+			const noModifyType = [
+				'judgment', 'multiattack', 'naturalgift', 'revelationdance', 'technoblast', 'terrainpulse', 'weatherball',
+			];
+			if (move.type === 'Normal' && !noModifyType.includes(move.id) && !(move.isZ && move.category !== 'Status')) {
+				move.type = 'Dragon';
+				move.draconizeBoosted = true;
+			}
+		},
+		onBasePowerPriority: 23,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.draconizeBoosted) return this.chainModify([4915, 4096]);
+		},
+		name: "Draconize",
+		rating: 4,
+		num: -577,
+	},
 	dragonsmaw: {
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
@@ -4392,7 +4411,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 5,
 		num: -808,
 	},
-	shadowforecast: {
+	atomicshift: {
 		onStart(pokemon) {
 			if (pokemon.hasItem('damprock')) {
 				this.field.setWeather('raindance');
@@ -4409,38 +4428,38 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 		onUpdate(pokemon) {
-			if (pokemon.baseSpecies.baseSpecies !== 'Castform-Shadow' || pokemon.transformed) return;
+			if (pokemon.baseSpecies.baseSpecies !== 'Castform-Atom' || pokemon.transformed) return;
 			let forme = null;
 			switch (pokemon.effectiveWeather()) {
 			case 'sunnyday':
 			case 'desolateland':
-				if (pokemon.species.id !== 'castformshadowsunny') forme = 'Castform-Shadow-Sunny';
+				if (pokemon.species.id !== 'castformatomsunny') forme = 'Castform-Atom-Sunny';
 				break;
 			case 'raindance':
 			case 'primordialsea':
-				if (pokemon.species.id !== 'castformshadowrainy') forme = 'Castform-Shadow-Rainy';
+				if (pokemon.species.id !== 'castformatomrainy') forme = 'Castform-Atom-Rainy';
 				break;
 			case 'hail':
-				if (pokemon.species.id !== 'castformshadowsnowy') forme = 'Castform-Shadow-Snowy';
+				if (pokemon.species.id !== 'castformatomsnowy') forme = 'Castform-Atom-Snowy';
 				break;
 			case 'sandstorm':
-				if (pokemon.species.id !== 'castformshadowsandy') forme = 'Castform-Shadow-Sandy';
+				if (pokemon.species.id !== 'castformatomsandy') forme = 'Castform-Atom-Sandy';
 				break;
 			case 'miasma':
-				if (pokemon.species.id !== 'castformshadowsmoggy') forme = 'Castform-Shadow-Smoggy';
+				if (pokemon.species.id !== 'castformatomsmoggy') forme = 'Castform-Atom-Smoggy';
 				break;
 			case 'shadowsky':
-				if (pokemon.species.id !== 'castformshadowshady') forme = 'Castform-Shadow-Shady';
+				if (pokemon.species.id !== 'castformatomshady') forme = 'Castform-Atom-Shady';
 				break;
 			default:
-				if (pokemon.species.id !== 'castformshadow') forme = 'Castform-Shadow';
+				if (pokemon.species.id !== 'castformatom') forme = 'Castform-Atom';
 				break;
 			}
 			if (pokemon.isActive && forme) {
 				pokemon.formeChange(forme, this.effect, false, '[msg]');
 			}
 		},
-		name: "Shadow Forecast",
+		name: "Atomic Shift",
 		rating: 2,
 		num: -814,
 	},

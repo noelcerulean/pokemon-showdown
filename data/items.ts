@@ -2936,7 +2936,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Molten Magmawhip",
 		zMoveFrom: "Fire Lash",
-		itemUser: ["Heatmor", "Heatmor-Print", "Heatmor-Shadow"],
+		itemUser: ["Heatmor", "Heatmor-Print", "Heatmor-Huangshan"],
 		num: -555,
 		gen: 7,
 		isNonstandard: "Past",

@@ -134,9 +134,9 @@ export const Formats: FormatList = [
 			'Aegislash-Zato', 'Camerupt-Maxie', 'Chikorita-Minty', 'Decidueye-Apollo', 'Dewott-Lutryla', 'Eevee-Durum', 'Flareon-Lasagna', 'Fraxure-Frenzy',
 			'Glaceon-Manicotti', 'Golisopod-Musashi', 'Golurk-Titan', 'Gyarados-Mega-Alarix', 'Honchkrow-Godfather', 'Jolteon-Radiatori',
 			'Kurstraw-Crona', 'Leafeon-Tagliatelle', 'Meganium-Aniseed', 'Sceptile-Moscho', 'Sylveon-Farfalle', 'Zweilous-Terror',
-			'Aron-Shadow', 'Furfrou-Shadow', 'Garchomp-Shadow', 'Gourgeist-Shadow', 'Heatmor-Shadow', 'Lileep-Shadow', 'Marill-Shadow', 'Meowstic-Shadow',
-			'Muk-Shadow', 'Noivern-Shadow', 'Ribombee-Shadow', 'Shroomish-Shadow', 'Spinarak-Shadow', 'Longeon-Shadow', 'Snorunt-Shadow',
-			'Castform-Shadow', 'Mareanie-Shadow', 'Ditto-Shadow', 'Zapdos-Shadow', 'Moltres-Shadow', 'Articuno-Shadow', 'Lugia-Shadow', 'Roboheeyem-Shadow',
+			'Aron-Goldie', 'Furfrou-Princess', 'Garchomp-Xeon', 'Gourgeist-Demitri', 'Heatmor-Huangshan', 'Lileep-Goober', 'Marill-Dredge', 'Meowstic-Royal',
+			'Muk-TheSludge', 'Noivern-Eyrie', 'Ribombee-Shura', 'Shroomish-Geastrales', 'Spinarak-Sugar', 'Longeon-Spaghetti', 'Snorunt-Sherbet',
+			'Castform-Atom', 'Mareanie-Barbara', 'Ditto-Mini', 'Zapdos-Strato', 'Moltres-Thermo', 'Articuno-Exo', 'Lugia-Seafoam', 'Roboheeyem-Curio',
 		],
 	},
 	{

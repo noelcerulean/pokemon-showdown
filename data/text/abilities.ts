@@ -118,6 +118,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "As One (Spectrier)",
 		shortDesc: "The combination of Unnerve and Grim Neigh.",
 	},
+	atomicshift: {
+		name: "Atomic Shift",
+		shortDesc: "Sets weather based on held rock. Changes forme with weather.",
+	},
 	aurabreak: {
 		name: "Aura Break",
 		desc: "While this Pokemon is active, the effects of the Dark Aura and Fairy Aura Abilities are reversed, multiplying the power of Dark- and Fairy-type moves, respectively, by 3/4 instead of 1.33.",
@@ -412,6 +416,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Download",
 		desc: "On switch-in, this Pokemon's Attack or Special Attack is raised by 1 stage based on the weaker combined defensive stat of all opposing Pokemon. Attack is raised if their Defense is lower, and Special Attack is raised if their Special Defense is the same or lower.",
 		shortDesc: "On switch-in, Attack or Sp. Atk is raised 1 stage based on the foes' weaker Defense.",
+	},
+	draconize: {
+		name: "Draconize",
+		desc: "This Pokemon's Normal-type moves become Dragon-type moves and have their power multiplied by 1.2. This effect comes after other effects that change a move's type, but before Ion Deluge and Electrify's effects.",
+		shortDesc: "This Pokemon's Normal-type moves become Dragon type and have 1.2x power.",
 	},
 	dragonsmaw: {
 		name: "Dragon's Maw",
@@ -1577,12 +1586,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	shadowembers: {
 		name: "Shadow Embers",
 		shortDesc: "During Sun: 2x Spe, Heals status, 1/16th HP healed each turn.",
-
-		start: "  [POKEMON] is surrounded by a shadowy aura!",
-	},
-	shadowforecast: {
-		name: "Shadow Forecast",
-		shortDesc: "Sets weather based on held rock. Changes forme with weather.",
 
 		start: "  [POKEMON] is surrounded by a shadowy aura!",
 	},
