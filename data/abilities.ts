@@ -3724,7 +3724,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				return this.chainModify(0.5);
 			}
 		},
-		onCriticalHit: false,
+		onCriticalHit(target, source, move) {
+			if (move.type === 'Shadow') {
+				return false;
+			}
+		},
 		isBreakable: true,
 		name: "Pure Heart",
 		rating: 3.5,

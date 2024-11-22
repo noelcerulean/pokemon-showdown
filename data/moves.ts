@@ -871,8 +871,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			}
 		},
 		onAfterMove(target) {
-			if (target.getTypes().join() === 'Shadow' || !target.setType('Shadow')) return false;
-			this.add('-start', target, 'typechange', 'Shadow');
+			if (target.hasType('Shadow')) return false;
+			if (!target.addType('Shadow')) return false;
+			this.add('-start', target, 'typeadd', 'Shadow', '[from] move: Shadow Transform');
 		},
 		noSketch: true,
 		selfBoost: {

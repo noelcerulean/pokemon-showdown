@@ -1337,8 +1337,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	pureheart: {
 		name: "Pure Heart",
-		desc: "Negates critical hits. The power of Shadow-type attacks against this Pokemon is halved.",
-		shortDesc: "Negates crits. Halves the power of Shadow moves vs. this pokemon.",
+		desc: "Negates critical hits from Shadow-type attacks. The power of Shadow-type attacks against this Pokemon is halved.",
+		shortDesc: "Halves damage taken and negates crits from Shadow moves.",
 	},
 	purepower: {
 		name: "Pure Power",
