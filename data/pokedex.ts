@@ -8059,7 +8059,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Normal"],
 		gender: "N",
 		baseStats: {hp: 105, atk: 105, def: 105, spa: 105, spd: 105, spe: 105},
-		abilities: {0: "Atomic Shift"},
+		abilities: {0: "Atomic Shift", 1: "Color Change", H: "Pure Heart"},
 		heightm: 0.3,
 		weightkg: 0.8,
 		color: "Gray",
