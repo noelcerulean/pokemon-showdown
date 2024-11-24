@@ -3482,7 +3482,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			type: "Steel",
 		},
   		onFoeAfterBoost(boost, target, source, effect) {
-			if (effect?.name === 'Receiver' || effect?.name === 'Lanchi Berry' || target !== source) return;
+			if (effect?.name === 'Receiver' || effect?.name === 'Lanchi Berry') return;
 			const boostPlus: SparseBoostsTable = {};
 			let statsRaised = false;
 			let i: BoostID;
