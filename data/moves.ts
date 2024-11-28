@@ -392,7 +392,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Shadow Duplicity",
 		pp: 15,
 		priority: 0,
-		flags: {contact: 1, protect: 1},
+		flags: {protect: 1},
 		useTargetOffensive: true,
 		willCrit: true,
 		noSketch: true,
