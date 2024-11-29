@@ -10146,7 +10146,7 @@
 			"flags": {},
 			"sets": [{
 				"species": "Tropius",
-				"item": ["Banana Bunch"],
+				"item": ["Leftovers"],
 				"ability": ["Sunbathing"],
 				"evs": {"def": 252, "spa": 4, "spd": 252},
 				"nature": "Calm",

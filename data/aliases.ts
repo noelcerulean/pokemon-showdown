@@ -584,6 +584,7 @@ export const Aliases: {[alias: string]: string} = {
 	incineroarpride: "Incineroar",
 	seakingseaqueen: "Seaking",
 	seakingseaqueenf: "Seaking",
+	heatmorhuangshanbracelet: "Heatmor-Huangshan",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",

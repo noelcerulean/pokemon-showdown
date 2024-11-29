@@ -381,29 +381,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 199,
 		gen: 4,
 	},
-	bananabunch: {
-		name: "Banana Bunch",
-		fling: {
-			basePower: 60,
-		},
-		spritenum: 745,
-		onResidualOrder: 5,
-		onResidualSubOrder: 4,
-		onResidual(pokemon) {
-			if (pokemon.baseSpecies.name === 'Tropius') {
-				this.heal(pokemon.baseMaxhp / 8);
-			}
-		},
-		itemUser: ["Tropius"],
-		onTakeItem(item, pokemon, source) {
-			if ((source && source.baseSpecies.num === 357) || pokemon.baseSpecies.num === 357) {
-				return false;
-			}
-			return true;
-		},
-		num: -506,
-		gen: 7,
-	},
 	banettite: {
 		name: "Banettite",
 		spritenum: 582,
@@ -2936,7 +2913,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Molten Magmawhip",
 		zMoveFrom: "Fire Lash",
-		itemUser: ["Heatmor", "Heatmor-Print", "Heatmor-Huangshan"],
+		itemUser: ["Heatmor", "Heatmor-Print", "Heatmor-Huangshan", "Heatmor-Huangshan-Bracelet"],
 		num: -555,
 		gen: 7,
 		isNonstandard: "Past",
