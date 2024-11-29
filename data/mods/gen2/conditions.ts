@@ -13,6 +13,10 @@ export const Conditions: {[k: string]: ModdedConditionData} = {
 			residualdmg(this, pokemon);
 		},
 	},
+	par: {
+		name: 'par',
+		inherit: true,
+	},
 	slp: {
 		name: 'slp',
 		effectType: 'Status',

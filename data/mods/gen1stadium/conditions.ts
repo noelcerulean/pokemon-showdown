@@ -19,6 +19,9 @@ export const Conditions: {[k: string]: ModdedConditionData} = {
 		onStart(target) {
 			this.add('-status', target, 'par');
 		},
+		onAfterMove(pokemon, target, move) {
+			this.damage(pokemon.baseMaxhp / 16);
+		},
 	},
 	slp: {
 		name: 'slp',
