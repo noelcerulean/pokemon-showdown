@@ -13619,7 +13619,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: -569,
 		name: "Lunapede",
 		types: ["Bug", "Fairy"],
-		baseStats: {hp: 114, atk: 98, def: 67, spa: 82, spd: 99, spe: 73},
+		baseStats: {hp: 114, atk: 94, def: 67, spa: 82, spd: 99, spe: 73},
 		abilities: {0: "Inner Focus", 1: "Luminesce", H: "Pixilate"},
 		heightm: 2.2,
 		weightkg: 62,
