@@ -4793,6 +4793,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	synopede: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	lunapede: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	zweilous: {
 		tier: "NFE",
 	},

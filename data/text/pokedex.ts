@@ -2933,6 +2933,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	phasphorus: {
 		name: "Phasphorus",
 	},
+	synopede: {
+		name: "Synopede",
+	},
+	lunapede: {
+		name: "Lunapede",
+	},
 	deino: {
 		name: "Deino",
 	},
