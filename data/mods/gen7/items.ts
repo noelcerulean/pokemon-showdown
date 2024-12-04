@@ -136,6 +136,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	deltacameruptite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	diancite: {
 		inherit: true,
 		isNonstandard: null,

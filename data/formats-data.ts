@@ -860,10 +860,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	warcass: {
-		isNonstandard: "Past",
-		tier: "Illegal",
-	},
 	seel: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -2811,6 +2807,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	cameruptdeltamega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	torkoal: {
 		randomBattleMoves: ["earthquake", "lavaplume", "rapidspin", "solarbeam", "stealthrock"],
 		randomBattleLevel: 86,
@@ -3800,6 +3800,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	kiwuit: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	warcass: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	fowlfrost: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},

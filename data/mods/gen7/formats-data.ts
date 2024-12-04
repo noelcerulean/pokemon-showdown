@@ -714,12 +714,6 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
-	warcass: {
-		randomBattleMoves: ["bravebird", "closecombat", "demolition", "earthquake", "jumpkick", "knockoff", "lightningkick"],
-		randomDoubleBattleMoves: ["bravebird", "closecombat", "highhorsepower", "knockoff", "protect"],
-		tier: "OU",
-		doublesTier: "(DUU)",
-	},
 	seel: {
 		tier: "LC",
 	},
@@ -2519,6 +2513,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	cameruptdeltamega: {
+		randomBattleMoves: ["earthpower", "icebeam", "roar", "stealthrock", "surf", "toxic"],
+		randomDoubleBattleMoves: ["earthpower", "icebeam", "protect", "stealthrock", "surf"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	torkoal: {
 		randomBattleMoves: ["earthpower", "fireblast", "lavaplume", "rapidspin", "solarbeam", "stealthrock", "yawn"],
 		randomDoubleBattleMoves: ["earthpower", "fireblast", "heatwave", "protect", "solarbeam", "willowisp"],
@@ -3490,6 +3490,18 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	kiwuit: {
 		randomBattleMoves: ["bravebird", "highhorsepower", "leafblade", "roost", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["bravebird", "highhorsepower", "leafblade", "protect", "roost", "toxic", "uturn"],
+		tier: "OU",
+		doublesTier: "(DUU)",
+	},
+	warcass: {
+		randomBattleMoves: ["bravebird", "closecombat", "demolition", "earthquake", "jumpkick", "knockoff", "lightningkick"],
+		randomDoubleBattleMoves: ["bravebird", "closecombat", "highhorsepower", "knockoff", "protect"],
+		tier: "OU",
+		doublesTier: "(DUU)",
+	},
+	fowlfrost: {
+		randomBattleMoves: ["calmmind", "hiddenpowerground", "revelationdance", "sludgewave", "toxicspikes"],
+		randomDoubleBattleMoves: ["calmmind", "hiddenpowerground", "protect", "revelationdance", "sludgewave", "toxicspikes"],
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},

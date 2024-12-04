@@ -518,9 +518,6 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	dodrio: {
 		name: "Dodrio",
 	},
-	warcass: {
-		name: "Warcass",
-	},
 	seel: {
 		name: "Seel",
 	},
@@ -1610,6 +1607,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	cameruptdelta: {
 		name: "Camerupt-Delta",
 	},
+	cameruptdeltamega: {
+		name: "Camerupt-Delta-Mega",
+	},
 	torkoal: {
 		name: "Torkoal",
 	},
@@ -2323,6 +2323,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	kiwuit: {
 		name: "Kiwuit",
+	},
+	warcass: {
+		name: "Warcass",
+	},
+	fowlfrost: {
+		name: "Fowlfrost",
 	},
 	arceus: {
 		name: "Arceus",

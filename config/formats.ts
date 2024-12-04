@@ -189,6 +189,11 @@ export const Formats: FormatList = [
 			'Azumano', 'Pinsno', 'Herano', 'Senno', 'Smoono', 'Houndno', 'Zuno', 'Kangasno', 'Kyuno',
 			'Ekno', 'Hitmonno', 'Jirachno', 'Machono',
 		],
+		onBegin() {
+			this.add('-weather', 'Hail');
+			this.field.weather = 'hail' as ID;
+			this.field.weatherState = {id: 'hail'};
+		},
 	},
 	{
 		name: "[Gen 7] Story Doubles",
@@ -214,6 +219,11 @@ export const Formats: FormatList = [
 			'Azumano', 'Pinsno', 'Herano', 'Senno', 'Smoono', 'Houndno', 'Zuno', 'Kangasno', 'Kyuno',
 			'Ekno', 'Hitmonno', 'Jirachno', 'Machono',
 		],
+		onBegin() {
+			this.add('-weather', 'Hail');
+			this.field.weather = 'hail' as ID;
+			this.field.weatherState = {id: 'hail'};
+		},
 	},
 
 	// US/UM Singles
