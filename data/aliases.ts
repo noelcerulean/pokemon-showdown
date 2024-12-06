@@ -1196,6 +1196,7 @@ export const Aliases: {[alias: string]: string} = {
 	babylugia: "Lugito",
 	babylu: "Lugito",
 	xd002: "Lugito",
+	fowl: "Fowlfrost",
 
 	// armored
 	vespa: "Vespiquen-Armored",
@@ -1239,6 +1240,8 @@ export const Aliases: {[alias: string]: string} = {
 	numeld: "Numel-Delta",
 	cameld: "Camerupt-Delta",
 	cameruptd: "Camerupt-Delta",
+	cameldm: "Camerupt-Delta-Mega",
+	cameruptdm: "Camerupt-Delta-Mega",
 	forred: "Forretress-Delta",
 	forretressd: "Forretress-Delta",
 	pinecod: "Pineco-Delta",
@@ -1269,7 +1272,9 @@ export const Aliases: {[alias: string]: string} = {
 	demolga: "Emolga-Delta",
 	dnumel: "Numel-Delta",
 	dcamel: "Camerupt-Delta",
+	dcamelm: "Camerupt-Delta-Mega",
 	dcamerupt: "Camerupt-Delta",
+	dcameruptm: "Camerupt-Delta-Mega",
 	dforre: "Forretress-Delta",
 	dforretress: "Forretress-Delta",
 	dpineco: "Pineco-Delta",
