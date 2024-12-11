@@ -1777,14 +1777,14 @@
 			"sets": [{
 				"species": "Garbodor",
 				"item": ["Black Sludge"],
-				"ability": ["Dumpster Diving"],
+				"ability": ["Stench"],
 				"evs": {"hp": 252, "atk": 4, "def": 252},
 				"nature": "Relaxed",
 				"moves": [["Spikes"], ["Aggregate"], ["Poison Jab"], ["Knock Off", "Stomping Tantrum", "Fire Blast"]]
 			} ,{
 				"species": "Garbodor",
 				"item": ["Black Sludge"],
-				"ability": ["Dumpster Diving"],
+				"ability": ["Stench"],
 				"evs": {"hp": 252, "atk": 4, "spd": 252},
 				"nature": "Sassy",
 				"moves": [["Spikes"], ["Aggregate"], ["Poison Jab"], ["Knock Off", "Stomping Tantrum", "Fire Blast"]]
@@ -5478,14 +5478,14 @@
 			"sets": [{
 				"species": "Wormadam-Trash",
 				"item": ["Leftovers"],
-				"ability": ["Dumpster Diving"],
+				"ability": ["Bagwormicade"],
 				"evs": {"hp": 252, "spa": 252, "spe": 4},
 				"nature": "Impish",
 				"moves": [["Bug Buzz"], ["Quiver Dance"], ["Iron Defense"], ["Flash Cannon"]]
 			}, {
 				"species": "Wormadam-Trash",
 				"item": ["Leftovers"],
-				"ability": ["Dumpster Diving"],
+				"ability": ["Bagwormicade"],
 				"evs": {"hp": 252, "def": 4, "spd": 252},
 				"nature": "Relaxed",
 				"moves": [["Stealth Rock"], ["Toxic Spikes"], ["Aggregate"], ["Gyro Ball"]]

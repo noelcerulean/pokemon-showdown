@@ -451,13 +451,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		damage: "  ([POKEMON] was hurt by its Dry Skin.)",
 	},
-	dumpsterdiving: {
-		name: "Dumpster Diving",
-		desc: "This Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn.",
-		shortDesc: "This Pokemon heals 1/16 of its max HP each turn.",
-
-		heal: "  [POKEMON] ate its trash!",
-	},
 	earlybird: {
 		name: "Early Bird",
 		shortDesc: "This Pokemon's sleep counter drops by 2 instead of 1.",
@@ -945,12 +938,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	magicguard: {
 		name: "Magic Guard",
-		desc: "This Pokemon can only be damaged by direct attacks. Curse and Substitute on use, Belly Drum, Pain Split, Struggle recoil, and confusion damage are considered direct damage.",
-		shortDesc: "This Pokemon can only be damaged by direct attacks.",
-		gen4: {
-			desc: "This Pokemon can only be damaged by direct attacks. Curse and Substitute on use, Belly Drum, Pain Split, Struggle recoil, and confusion damage are considered direct damage. This Pokemon cannot lose its turn because of paralysis, and is unaffected by Toxic Spikes on switch-in.",
-			shortDesc: "This Pokemon can only be damaged by direct attacks, and can't be fully paralyzed.",
-		},
+		desc: "This Pokemon takes halved damage from any source that is not a direct attack. Curse and Substitute on use, Belly Drum, Pain Split, Struggle recoil, and confusion damage are considered direct damage.",
+		shortDesc: "This Pokemon takes halved damage from anything that is not a direct attack.",
 	},
 	magician: {
 		name: "Magician",
@@ -1720,8 +1709,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	slowdigestion: {
 		name: "Slow Digestion",
-		desc: "Foes lose 1/8th of their maximum HP, rounded down, for every full turn this pokemon is on the field. Poison types are immune.",
-		shortDesc: "Foes lose 1/8th HP every turn this pokemon is active. Poison types are immune.",
+		desc: "Foes lose 1/16th of their maximum HP, rounded down, for every full turn this pokemon is on the field. Poison types are immune.",
+		shortDesc: "Foes lose 1/16th HP every turn this pokemon is active. Poison types are immune.",
 		gen3: {
 			desc: "Foes lose 1/16th of their maximum HP, rounded down, for every full turn this pokemon is on the field. Poison types are immune.",
 			shortDesc: "Foes lose 1/16th HP every turn this pokemon is active. Poison types are immune.",

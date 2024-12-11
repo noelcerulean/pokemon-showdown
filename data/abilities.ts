@@ -1279,16 +1279,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 87,
 	},
-	dumpsterdiving: {
-		onResidualOrder: 5,
-		onResidualSubOrder: 4,
-		onResidual(pokemon) {
-			this.heal(pokemon.baseMaxhp / 16);
-		},
-		name: "Dumpster Diving",
-		rating: 4,
-		num: -537,
-	},
 	earlybird: {
 		name: "Early Bird",
 		// Implemented in statuses.js
@@ -2630,9 +2620,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			if (effect.effectType !== 'Move') {
 				if (effect.effectType === 'Ability') this.add('-activate', source, 'ability: ' + effect.name);
 				return this.chainModify(0.5);
-			}
-			if (effect && effect.id === 'lifeorb') {
-				return false;
 			}
 		},
 		name: "Magic Guard",
@@ -4842,7 +4829,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				for (const target of pokemon.side.foe.active) {
 					if (!target || !target.hp) continue;
 					if (!target.hasType('Poison')) {
-						this.damage(target.baseMaxhp / 8, target, pokemon);
+						this.damage(target.baseMaxhp / 16, target, pokemon);
 					}
 				}
 			}

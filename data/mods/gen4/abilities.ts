@@ -223,21 +223,6 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		onTryHit() {},
 		rating: 0,
 	},
-	magicguard: {
-		onDamage(damage, target, source, effect) {
-			if (effect.effectType !== 'Move') {
-				return false;
-			}
-		},
-		onSetStatus(status, target, source, effect) {
-			if (effect && effect.id === 'toxicspikes') {
-				return false;
-			}
-		},
-		name: "Magic Guard",
-		rating: 4.5,
-		num: 98,
-	},
 	minus: {
 		onModifySpA(spa, pokemon) {
 			for (const ally of pokemon.allies()) {
