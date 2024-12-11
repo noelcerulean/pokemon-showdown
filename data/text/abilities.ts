@@ -938,8 +938,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	magicguard: {
 		name: "Magic Guard",
-		desc: "This Pokemon takes halved damage from any source that is not a direct attack. Curse and Substitute on use, Belly Drum, Pain Split, Struggle recoil, and confusion damage are considered direct damage.",
-		shortDesc: "This Pokemon takes halved damage from anything that is not a direct attack.",
+		desc: "This Pokemon takes halved damage from any source that is not a direct attack. Life Orb recoil is fully negated. Curse and Substitute on use, Belly Drum, Pain Split, Struggle recoil, and confusion damage are considered direct damage.",
+		shortDesc: "This Pokemon takes 1/2 of all indirect (non-attack) damage. Negates Life Orb recoil.",
 	},
 	magician: {
 		name: "Magician",

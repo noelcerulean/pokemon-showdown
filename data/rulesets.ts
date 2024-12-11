@@ -1617,4 +1617,10 @@ export const Rulesets: {[k: string]: FormatData} = {
 			this.add('-start', pokemon, 'typechange', (pokemon.illusion || pokemon).getTypes(true).join('/'), '[silent]');
 		},
 	},
+	twisteddimensionmod: {
+		effectType: 'Rule',
+		name: "Twisted Dimension Mod",
+		desc: `The effects of Trick Room are always active, using Trick Room reverts the field to normal for 5 turns.`,
+		// implemented in Pokemon#getActionSpeed()
+	},
 };
