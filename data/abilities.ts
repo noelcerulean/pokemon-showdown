@@ -2629,7 +2629,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 			if (effect.effectType !== 'Move') {
 				if (effect.effectType === 'Ability') this.add('-activate', source, 'ability: ' + effect.name);
-				return false;
+				return this.chainModify(0.5);
 			}
 		},
 		name: "Magic Guard",
