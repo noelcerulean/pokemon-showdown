@@ -2631,6 +2631,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				if (effect.effectType === 'Ability') this.add('-activate', source, 'ability: ' + effect.name);
 				return this.chainModify(0.5);
 			}
+			if (effect && effect.id === 'lifeorb') {
+				return false;
+			}
 		},
 		name: "Magic Guard",
 		rating: 4,
