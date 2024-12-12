@@ -1998,7 +1998,6 @@ export class RandomGen7Teams extends RandomTeams {
 			flashfire: ['Fire'], flameabsorb: ['Fire'],
 			lightningrod: ['Electric'], voltabsorb: ['Electric'],
 			thickfat: ['Ice', 'Fire'],
-			tropicalcurrent: ['Ice'],
 			bugcatcher: ['Bug'],
 			levitate: ['Ground'], clayconstruction: ['Ground'], eartheater: ['Ground'],
 		};

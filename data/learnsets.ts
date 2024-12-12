@@ -63780,7 +63780,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			calmmind: ["7M"],
 			camouflage: ["7L22"],
 			confide: ["7M"],
-			cumuloroll: ["7L35"],
 			dazzlinggleam: ["7M"],
 			defog: ["7T"],
 			doublekick: ["7L7"],

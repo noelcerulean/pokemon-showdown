@@ -797,7 +797,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 80,
 		category: "Physical",
 		name: "Shadow Stratoslam",
-		pp: 5,
+		pp: 10,
 		priority: 0,
 		flags: {protect: 1},
 		onHit() {
@@ -4206,10 +4206,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 	cumuloroll: {
 		num: -527,
 		accuracy: 100,
-		basePower: 50,
+		basePower: 70,
 		category: "Physical",
 		name: "Cumulo-Roll",
-		pp: 5,
+		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1, distance: 1},
 		onHit() {

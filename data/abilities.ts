@@ -690,15 +690,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 13,
 	},
 	cloudguard: {
-		onSwitchIn(pokemon) {
-			this.effectState.switchingIn = true;
-		},
-		onStart(pokemon) {
-			// Cloud Nine does not activate when Skill Swapped or when Neutralizing Gas leaves the field
-			if (!this.effectState.switchingIn) return;
-			this.add('-ability', pokemon, 'Cloud Guard');
-			this.effectState.switchingIn = false;
-		},
 		onEffectivenessPriority: -1,
 		onEffectiveness(typeMod, target, type, move) {
 			if (!target) return;
@@ -707,7 +698,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				return 0;
 			}
 		},
-		suppressWeather: true,
 		name: "Cloud Guard",
 		rating: 4.5,
 		num: -535,
@@ -5719,20 +5709,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Triage",
 		rating: 3.5,
 		num: 205,
-	},
-	tropicalcurrent: {
-		onTryHit(target, source, move) {
-			if (target !== source && move.type === 'Ice') {
-				if (!this.heal(target.baseMaxhp / 4)) {
-					this.add('-immune', target, '[from] ability: Tropical Current');
-				}
-				return null;
-			}
-		},
-		isBreakable: true,
-		name: "Tropical Current",
-		rating: 3.5,
-		num: -523,
 	},
 	truant: {
 		onStart(pokemon) {

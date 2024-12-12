@@ -248,9 +248,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	cloudguard: {
 		name: "Cloud Guard",
-		shortDesc: "Ignores weather and removes Flying-type weaknesses for this Pokemon.",
-
-		start: "#airlock",
+		shortDesc: "Removes Flying-type weaknesses for this Pokemon.",
 	},
 	cloudnine: {
 		name: "Cloud Nine",
@@ -2080,11 +2078,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	triage: {
 		name: "Triage",
 		shortDesc: "This Pokemon's healing moves have their priority increased by 3.",
-	},
-	tropicalcurrent: {
-		name: "Tropical Current",
-		desc: "This Pokemon is immune to Ice-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Ice-type move.",
-		shortDesc: "This Pokemon heals 1/4 of its max HP when hit by Ice moves; Ice immunity.",
 	},
 	truant: {
 		name: "Truant",
