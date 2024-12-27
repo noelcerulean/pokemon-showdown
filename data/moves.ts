@@ -14924,28 +14924,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Beautiful",
 	},
-	radiantmace: {
-		num: -576,
-		accuracy: 95,
-		basePower: 100,
-		category: "Physical",
-		name: "Radiant Mace",
-		pp: 5,
-		priority: 0,
-		flags: {protect: 1, mirror: 1, contact: 1, light: 1},
-		self: {
-			chance: 50,
-			boosts: {
-				spd: 2,
-			},
-		},
-		secondary: {
-			// Sheer Force negates the self even though it is not secondary
-		},
-		target: "normal",
-		type: "Dragon",
-		contestType: "Beautiful",
-	},
 	rage: {
 		num: 99,
 		accuracy: 100,
