@@ -4937,6 +4937,15 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Raises the user's Special Attack, Special Defense, and Speed by 1 stage.",
 		shortDesc: "Raises the user's Sp. Atk, Sp. Def, Speed by 1.",
 	},
+	radiantmace: {
+		name: "Radiant Mace",
+		desc: "Has a 50% chance to raise the user's Special Defense by 2 stages.",
+		shortDesc: "50% chance to raise user's Sp. Defense by 2.",
+		gen6: {
+			desc: "Has a 50% chance to raise the user's Special Defense by 1 stage for each hit.",
+			shortDesc: "50% chance to raise user's Sp. Def by 1 per hit.",
+		},
+	},
 	rage: {
 		name: "Rage",
 		desc: "Once this move is successfully used, the user's Attack is raised by 1 stage every time it is hit by another Pokemon's attack as long as this move is chosen for use.",
