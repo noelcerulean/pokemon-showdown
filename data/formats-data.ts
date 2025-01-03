@@ -1630,6 +1630,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	dragonair: {
 		tier: "NFE",
 	},
+	dragonairarmored: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	dragonite: {
 		randomBattleMoves: ["dragondance", "dualwingbeat", "earthquake", "extremespeed", "outrage"],
 		randomBattleLevel: 75,

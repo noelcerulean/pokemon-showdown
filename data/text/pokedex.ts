@@ -770,6 +770,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	dragonair: {
 		name: "Dragonair",
 	},
+	dragonairarmored: {
+		name: "Dragonair-Armored",
+	},
 	dragonite: {
 		name: "Dragonite",
 	},

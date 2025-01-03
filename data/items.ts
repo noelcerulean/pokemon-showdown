@@ -1484,6 +1484,19 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 4,
 		isNonstandard: "Unobtainable",
 	},
+	dragonairarmor: {
+		name: "Dragonair Armor",
+		spritenum: 812,
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 148) || pokemon.baseSpecies.num === 148) {
+				return false;
+			}
+			return true;
+		},
+		itemUser: ["Dragonair-Armored"],
+		num: -575,
+		gen: 7,
+	},
 	dragonfang: {
 		name: "Dragon Fang",
 		spritenum: 106,

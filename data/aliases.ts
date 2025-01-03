@@ -585,6 +585,7 @@ export const Aliases: {[alias: string]: string} = {
 	seakingseaqueen: "Seaking",
 	seakingseaqueenf: "Seaking",
 	heatmorhuangshanbracelet: "Heatmor-Huangshan",
+	dragonairarmoredpride: "Dragonair-Armored",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",
@@ -1228,6 +1229,8 @@ export const Aliases: {[alias: string]: string} = {
 	ignajaraa: "Ignajara-Armored",
 	ignaa: "Ignajara-Armored",
 	iggya: "Ignajara-Armored",
+	dragonaira: "Dragonair-Armored",
+	dnaira: "Dragonair-Armored",
 
 	// shortened deltas
 	cranidosd: "Cranidos-Delta",

@@ -1256,6 +1256,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	dragonair: {
 		tier: "NFE",
 	},
+	dragonairarmored: {
+		randomBattleMoves: ["diamondstorm", "dragondance", "earthpower", "fireblast", "radiantmace"],
+		randomDoubleBattleMoves: ["diamondstorm", "dragondance", "earthpower", "fireblast", "radiantmace"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	dragonite: {
 		randomBattleMoves: ["dragondance", "earthquake", "extremespeed", "firepunch", "fly", "outrage"],
 		randomDoubleBattleMoves: ["dragonclaw", "dragondance", "extremespeed", "firepunch", "fly", "protect", "roost", "superpower"],

@@ -401,6 +401,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Draco Plate",
 		desc: "Holder's Dragon-type attacks have 1.2x power. Judgment is Dragon type.",
 	},
+	dragonairarmor: {
+		name: "Dragonair Armor",
+		desc: "Armor developed by DoReMi for Dragonair to enhance its battle capabilities.",
+		shortDesc: "Attach to Dragonair-Armored forme (not base forme!!!) in the teambuilder.",
+	},
 	dragonfang: {
 		name: "Dragon Fang",
 		desc: "Holder's Dragon-type attacks have 1.2x power.",
