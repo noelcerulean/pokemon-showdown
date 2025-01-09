@@ -16212,15 +16212,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 15,
 		priority: 0,
 		flags: {protect: 1, mirror: 1, contact: 1},
-		onEffectiveness(typeMod, target, type, move) {
-			if (move.type !== 'Dragon') return;
-			if (!target) return; // avoid crashing when called from a chat plugin
-			// ignore effectiveness if the target is Flying type and immune to Ground
-			if (!target.runImmunity('Dragon')) {
-				if (target.hasType('Fairy')) return 1;
-			}
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Fairy') return 1;
 		},
 		secondary: null,
+		ignoreImmunity: {'Fairy': true},
 		target: "normal",
 		type: "Dragon",
 		contestType: "Tough",
