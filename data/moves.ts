@@ -16212,6 +16212,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 15,
 		priority: 0,
 		flags: {protect: 1, mirror: 1, contact: 1},
+		onModifyMove(move) {
+			if (!move.ignoreImmunity) move.ignoreImmunity = {};
+			if (move.ignoreImmunity !== true) {
+				move.ignoreImmunity['Fairy'] = true;
+			}
+		},
 		onEffectiveness(typeMod, target, type) {
 			if (type === 'Fairy') return 1;
 		},
