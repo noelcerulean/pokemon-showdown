@@ -16215,8 +16215,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 		onEffectiveness(typeMod, target, type) {
 			if (type === 'Fairy') return 1;
 		},
+		ignoreImmunity: true,
 		secondary: null,
-		ignoreImmunity: {'Fairy': true},
 		target: "normal",
 		type: "Dragon",
 		contestType: "Tough",
