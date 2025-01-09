@@ -1095,6 +1095,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Mystic Power",
 		shortDesc: "This Pokemon's Sp. Attack is doubled.",
 	},
+	mythocide: {
+		name: "Mythocide",
+		desc: "If a Pokemon uses a Fairy- or Dragon-type attack against this Pokemon, that Pokemon's attacking stat is halved when calculating the damage to this Pokemon.",
+		shortDesc: "Fairy/Dragon-type moves against this Pokemon deal damage with a halved attacking stat.",
+	},
 	naturalcure: {
 		name: "Natural Cure",
 		shortDesc: "This Pokemon has its non-volatile status condition cured when it switches out.",

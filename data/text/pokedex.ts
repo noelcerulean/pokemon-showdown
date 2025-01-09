@@ -614,6 +614,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	seaking: {
 		name: "Seaking",
 	},
+	despotide: {
+		name: "Despotide",
+	},
 	staryu: {
 		name: "Staryu",
 	},
@@ -1915,6 +1918,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	billbie: {
 		name: "Billbie",
+	},
+	jaggebill: {
+		name: "Jaggebill",
+	},
+	orneridge: {
+		name: "Orneridge",
 	},
 	bidoof: {
 		name: "Bidoof",
@@ -3343,6 +3352,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	dianciemega: {
 		name: "Diancie-Mega",
+	},
+	gargoliant: {
+		name: "Gargoliant",
 	},
 	hoopa: {
 		name: "Hoopa",

@@ -5310,6 +5310,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "If there are other active Pokemon that chose this move for use this turn, those Pokemon take their turn immediately after the user, in Speed order, and this move's power is 120 for each other user.",
 		shortDesc: "Power doubles if others used Round this turn.",
 	},
+	ruinousriptide: {
+		name: "Ruinous Riptide",
+		desc: "Raises the user's Speed by 2 stages.",
+		shortDesc: "Raises the user's Speed by 2.",
+	},
 	sacredfire: {
 		name: "Sacred Fire",
 		desc: "Has a 50% chance to burn the target.",
@@ -5383,6 +5388,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Sappy Seed",
 		desc: "This move summons Leech Seed on the foe.",
 		shortDesc: "Summons Leech Seed.",
+	},
+	savagehorn: {
+		name: "Savage Horn",
+		desc: "This move's type effectiveness against Fairy is changed to be super effective no matter what this move's type is.",
+		shortDesc: "Super effective on Fairy.",
 	},
 	savagespinout: {
 		name: "Savage Spin-Out",

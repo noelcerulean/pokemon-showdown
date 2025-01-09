@@ -15999,6 +15999,29 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Normal",
 		contestType: "Beautiful",
 	},
+	ruinousriptide: {
+		num: 701,
+		accuracy: true,
+		basePower: 190,
+		category: "Physical",
+		isNonstandard: "Past",
+		name: "Ruinous Riptide",
+		pp: 1,
+		priority: 0,
+		flags: {contact: 1},
+		selfBoost: {
+			boosts: {
+				spe: 2,
+			},
+		},
+		isZ: "despotidiumz",
+		secondary: {
+			// Sheer Force negates the selfBoost even though it is not secondary
+		},
+		target: "normal",
+		type: "Water",
+		contestType: "Tough",
+	},
 	sacredfire: {
 		num: 221,
 		accuracy: 95,
@@ -16179,6 +16202,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Grass",
 		contestType: "Clever",
+	},
+	savagehorn: {
+		num: -577,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Savage Horn",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, contact: 1},
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Fairy') return 1;
+		},
+		secondary: null,
+		target: "normal",
+		type: "Dragon",
+		contestType: "Tough",
 	},
 	savagespinout: {
 		num: 634,

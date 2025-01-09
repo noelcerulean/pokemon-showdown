@@ -377,6 +377,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Delta Cameruptite",
 		desc: "If held by a Camerupt-Delta, this item allows it to Mega Evolve in battle.",
 	},
+	despotidiumz: {
+		name: "Despotidium Z",
+		desc: "If held by a Despotide with Red Rush, it can use Ruinous Riptide.",
+	},
 	destinyknot: {
 		name: "Destiny Knot",
 		desc: "If holder becomes infatuated, the other Pokemon also becomes infatuated.",

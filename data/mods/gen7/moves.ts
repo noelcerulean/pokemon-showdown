@@ -798,6 +798,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	ruinousriptide: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	sappyseed: {
 		inherit: true,
 		accuracy: 100,

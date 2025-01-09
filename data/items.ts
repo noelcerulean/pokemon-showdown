@@ -1402,6 +1402,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	despotidiumz: {
+		name: "Despotidium Z",
+		spritenum: 813,
+		onTakeItem: false,
+		zMove: "Ruinous Riptide",
+		zMoveFrom: "Red Rush",
+		itemUser: ["Despotide"],
+		num: -576,
+		gen: 7,
+		isNonstandard: "Past",
+	},
 	destinyknot: {
 		name: "Destiny Knot",
 		spritenum: 95,

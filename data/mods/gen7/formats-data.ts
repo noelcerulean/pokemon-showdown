@@ -930,6 +930,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	despotide: {
+		randomBattleMoves: ["aquajet", "drillrun", "icebeam", "knockoff", "megahorn", "redrush", "savagehorn", "swordsdance"],
+		randomDoubleBattleMoves: ["drillrun", "icywind", "knockoff", "megahorn", "protect", "redrush", "savagehorn"],
+		tier: "(PU)",
+		doublesTier: "(DUU)",
+	},
 	staryu: {
 		tier: "LC",
 	},
@@ -3007,6 +3013,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	billbie: {
 		tier: "LC",
 	},
+	jaggebill: {
+		tier: "NFE",
+	},
+	orneridge: {
+		randomBattleMoves: ["bravebird", "earthquake", "headsmash", "stealthrock", "uturn"],
+		randomDoubleBattleMoves: ["bravebird", "headsmash", "protect", "quickattack", "tailwind", "uturn"],
+		tier: "Uber",
+		doublesTier: "(DUU)",
+	},
 	bidoof: {
 		tier: "LC",
 	},
@@ -5029,6 +5044,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["calmmind", "diamondstorm", "earthpower", "hiddenpowerfire", "moonblast"],
 		randomDoubleBattleMoves: ["calmmind", "dazzlinggleam", "diamondstorm", "earthpower", "hiddenpowerfire", "moonblast", "protect", "psyshock"],
 		tier: "UUBL",
+		doublesTier: "DOU",
+	},
+	gargoliant: {
+		randomBattleMoves: ["earthpower", "hydropump", "petrifypulse", "prehistoricpulse", "taunt"],
+		randomDoubleBattleMoves: ["earthpower", "hydropump", "petrifypulse", "prehistoricpulse", "protect", "taunt"],
+		tier: "Uber",
 		doublesTier: "DOU",
 	},
 	hoopa: {

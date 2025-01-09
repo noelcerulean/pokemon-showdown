@@ -3035,6 +3035,26 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 5,
 		num: -525,
 	},
+	mythocide: {
+		onSourceModifyAtkPriority: 6,
+		onSourceModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Fairy' || move.type === 'Dragon') {
+				this.debug('Mythocide weaken');
+				return this.chainModify(0.5);
+			}
+		},
+		onSourceModifySpAPriority: 5,
+		onSourceModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Fairy' || move.type === 'Dragon') {
+				this.debug('Mythocide weaken');
+				return this.chainModify(0.5);
+			}
+		},
+		isBreakable: true,
+		name: "Mythocide",
+		rating: 3.5,
+		num: -579,
+	},
 	naturalcure: {
 		onCheckShow(pokemon) {
 			// This is complicated

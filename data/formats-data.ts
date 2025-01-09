@@ -1205,6 +1205,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	despotide: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	staryu: {
 		tier: "LC",
 	},
@@ -3339,6 +3343,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	billbie: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	jaggebill: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	orneridge: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -5506,6 +5518,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	dianciemega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	gargoliant: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
