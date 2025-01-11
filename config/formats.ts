@@ -249,7 +249,7 @@ export const Formats: FormatList = [
 			'Scyther', 'Sneasel', 'Swirlix', 'Tangela', 'Trapinch', 'Vulpix-Base', 'Wingull', 'Yanma', 'Lugito',
 			'Eevium Z', 'Baton Pass', 'Dragon Rage', 'Sonic Boom', 'Sticky Web',
 		],
-		unbanlist: ['Chinchou', 'Mantyke', "Billbie"],
+		unbanlist: ['Chinchou', 'Mantyke'],
 	},
 	{
 		name: "[Gen 7] Monotype",
@@ -261,12 +261,10 @@ export const Formats: FormatList = [
 		mod: 'gen7',
 		ruleset: ['Same Type Clause', 'Standard', 'Swagger Clause'],
 		banlist: [
-			'Aegislash', 'Arceus', 'Darkrai', 'Deoxys-Base', 'Deoxys-Attack', 'Dialga', 'Genesect', 'Gengar-Mega', 'Giratina', 'Giratina-Origin',
-			'Groudon', 'Ho-Oh', 'Hoopa-Unbound', 'Kangaskhan-Mega', 'Kartana', 'Kyogre', 'Kyurem-White', 'Lucario-Mega', 'Lugia', 'Lunala', 'Magearna',
-			'Marshadow', 'Mawile-Mega', 'Medicham-Mega', 'Metagross-Mega', 'Mewtwo', 'Naganadel', 'Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Palkia',
-			'Pheromosa', 'Rayquaza', 'Reshiram', 'Salamence-Mega', 'Shaymin-Sky', 'Solgaleo', 'Tapu Lele', 'Xerneas', 'Yveltal', 'Zekrom', 'Zygarde',
+			'Uber', 'Kartana', 'Kiwuit', 'Medichamite',
 			'Battle Bond', 'Shadow Tag', 'Damp Rock', 'Smooth Rock', 'Terrain Extender', 'Baton Pass',
 		],
+		unbanlist: ['Deoxys-Defense', 'Scizor-Mega', 'Trevenant-Mega'],
 	},
 	{
 		name: "[Gen 7] Anything Goes",
