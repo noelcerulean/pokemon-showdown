@@ -1097,8 +1097,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	mythocide: {
 		name: "Mythocide",
-		desc: "If a Pokemon uses a Fairy- or Dragon-type attack against this Pokemon, that Pokemon's attacking stat is halved when calculating the damage to this Pokemon.",
-		shortDesc: "Fairy/Dragon-type moves against this Pokemon deal damage with a halved attacking stat.",
+		desc: "If a Pokemon uses a Fairy attack against this Pokemon, that Pokemon's attacking stat is halved when calculating the damage to this Pokemon.",
+		shortDesc: "Fairy-type moves against this Pokemon deal damage with a halved attacking stat.",
 	},
 	naturalcure: {
 		name: "Natural Cure",

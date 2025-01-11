@@ -3038,14 +3038,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	mythocide: {
 		onSourceModifyAtkPriority: 6,
 		onSourceModifyAtk(atk, attacker, defender, move) {
-			if (move.type === 'Fairy' || move.type === 'Dragon') {
+			if (move.type === 'Fairy') {
 				this.debug('Mythocide weaken');
 				return this.chainModify(0.5);
 			}
 		},
 		onSourceModifySpAPriority: 5,
 		onSourceModifySpA(atk, attacker, defender, move) {
-			if (move.type === 'Fairy' || move.type === 'Dragon') {
+			if (move.type === 'Fairy') {
 				this.debug('Mythocide weaken');
 				return this.chainModify(0.5);
 			}
