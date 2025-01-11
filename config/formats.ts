@@ -261,7 +261,7 @@ export const Formats: FormatList = [
 		mod: 'gen7',
 		ruleset: ['Same Type Clause', 'Standard', 'Swagger Clause'],
 		banlist: [
-			'Uber', 'Kartana', 'Kiwuit', 'Medichamite',
+			'Uber', 'Hoopa-Unbound', 'Kartana', 'Kiwuit', 'Medichamite', 'Zygarde-10%',
 			'Battle Bond', 'Shadow Tag', 'Damp Rock', 'Smooth Rock', 'Terrain Extender', 'Baton Pass',
 		],
 		unbanlist: ['Deoxys-Defense', 'Scizor-Mega', 'Trevenant-Mega'],
