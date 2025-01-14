@@ -474,7 +474,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	beautysleep: {
 		onDamagingHitOrder: 1,
 		onDamagingHit(damage, target, source, move) {
-			if (target.status === 'slp' && move.category !== 'Status') {
+			if (target.hp && target.status === 'slp' && move.category !== 'Status') {
 				this.damage(source.baseMaxhp / 4, source, target);
 			}
 		},
