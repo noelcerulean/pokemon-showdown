@@ -586,6 +586,9 @@ export const Aliases: {[alias: string]: string} = {
 	seakingseaqueenf: "Seaking",
 	heatmorhuangshanbracelet: "Heatmor-Huangshan",
 	dragonairarmoredpride: "Dragonair-Armored",
+	orneridgewoodpecker: "Orneridge",
+	noctowlmalfestio: "Noctowl",
+	starmieparty: "Starmie",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",
@@ -1199,6 +1202,8 @@ export const Aliases: {[alias: string]: string} = {
 	xd002: "Lugito",
 	fowl: "Fowlfrost",
 	garg: "Gargoliant",
+	orne: "Orneridge",
+	despo: "Despotide",
 
 	// armored
 	vespa: "Vespiquen-Armored",

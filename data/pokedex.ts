@@ -2969,8 +2969,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Water Stone",
 		eggGroups: ["Water 3"],
+		cosmeticFormes: ["Starmie-Party"],
 		otherFormes: ["Starmie-Mega"],
-		formeOrder: ["Starmie", "Starmie-Mega"],
+		formeOrder: ["Starmie", "Starmie-Party", "Starmie-Mega"],
 	},
 	starmiemega: {
 		num: 121,
@@ -4075,6 +4076,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Hoothoot",
 		evoLevel: 20,
 		eggGroups: ["Flying"],
+		cosmeticFormes: ["Noctowl-Malfestio"],
+		formeOrder: ["Noctowl", "Noctowl-Malfestio"],
 	},
 	ledyba: {
 		num: 165,
@@ -8997,6 +9000,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Jaggebill",
 		evoLevel: 38,
 		eggGroups: ["Flying"],
+		cosmeticFormes: ["Orneridge-Woodpecker"],
+		formeOrder: ["Orneridge", "Orneridge-Woodpecker"],
 	},
 	bidoof: {
 		num: 399,
