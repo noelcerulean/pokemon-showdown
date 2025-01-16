@@ -261,7 +261,7 @@ export const Formats: FormatList = [
 		mod: 'gen7',
 		ruleset: ['Same Type Clause', 'Standard', 'Swagger Clause'],
 		banlist: [
-			'Uber', 'Hoopa-Unbound', 'Kartana', 'Kiwuit', 'Medichamite', 'Zygarde-10%', 'Celesteela',
+			'Uber', 'Hoopa-Unbound', 'Kartana', 'Kiwuit', 'Medichamite', 'Zygarde-10%', 'Celesteela', 'Despotide',
 			'Meloettium Z', 'Melodium Z', 'Despotidium Z', 'Psychic Surge',
 			'King\'s Rock', 'Bright Powder', 'Lax Incense', 'Razor Fang', 'Quick Claw',
 			'Battle Bond', 'Shadow Tag', 'Damp Rock', 'Smooth Rock', 'Terrain Extender', 'Baton Pass',
