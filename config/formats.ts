@@ -266,7 +266,7 @@ export const Formats: FormatList = [
 			'King\'s Rock', 'Bright Powder', 'Lax Incense', 'Razor Fang', 'Quick Claw',
 			'Battle Bond', 'Shadow Tag', 'Damp Rock', 'Smooth Rock', 'Terrain Extender', 'Baton Pass',
 		],
-		unbanlist: ['Deoxys-Defense', 'Scizor-Mega', 'Trevenant-Mega'],
+		unbanlist: ['Deoxys-Defense', 'Scizor-Mega', 'Trevenant-Mega', 'Rapidash-Mega'],
 	},
 	{
 		name: "[Gen 7] Anything Goes",
