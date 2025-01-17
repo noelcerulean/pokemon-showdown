@@ -262,8 +262,8 @@ export const Formats: FormatList = [
 		ruleset: ['Same Type Clause', 'Standard', 'Swagger Clause'],
 		banlist: [
 			'Uber', 'Hoopa-Unbound', 'Kartana', 'Kiwuit', 'Medichamite', 'Zygarde-10%', 'Celesteela', 'Despotide',
-			'Meloettium Z', 'Melodium Z', 'Despotidium Z', 'Psychic Surge',
-			'King\'s Rock', 'Bright Powder', 'Lax Incense', 'Razor Fang', 'Quick Claw',
+			'Meloettium Z', 'Melodium Z', 'Despotidium Z', 'Psychic Surge', 'Poliwrathium Z', 'Sand Veil', 'Snow Cloak',
+			'King\'s Rock', 'Bright Powder', 'Lax Incense', 'Razor Fang', 'Quick Claw', 'Ignajara + Ignition',
 			'Battle Bond', 'Shadow Tag', 'Damp Rock', 'Smooth Rock', 'Terrain Extender', 'Baton Pass',
 		],
 		unbanlist: ['Deoxys-Defense', 'Scizor-Mega', 'Trevenant-Mega', 'Rapidash-Mega'],
