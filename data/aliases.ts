@@ -1174,6 +1174,7 @@ export const Aliases: {[alias: string]: string} = {
 	musharnan: "Musharna-Nightmare",
 	nmusharna: "Musharna-Nightmare",
 	nmush: "Musharna-Nightmare",
+	bastiohaunt: "Bastiodon-Delta",
 	okhan: "Osteoskhan",
 	osteo: "Osteoskhan",
 	bun: "Bunmochi",

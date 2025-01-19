@@ -2019,7 +2019,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	territorial: {
 		name: "Territorial",
-		shortDesc: "On switch in, this Pokemon removes any active terrain.",
+		shortDesc: "On switch in, this Pokemon removes any active terrain and screens on the field.",
 
 		start: "  [POKEMON] is claiming its territory!",
 	},

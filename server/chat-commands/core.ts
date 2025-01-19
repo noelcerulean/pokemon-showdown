@@ -235,6 +235,7 @@ const avatarTable = new Set([
 	'ltsurge-gen1', 'ltsurge-gen1rb', 'ltsurge-gen2', 'ltsurge-gen3', 'ltsurge',
 	'lucas-gen4pt', 'lucas',
 	'lucian',
+	'lucretia',
 	'lucy-gen3',
 	'lunch', 'lunch-ivy', 'lunch-maria', 'lunch-lucas', 'lunch-patches',
 	'lyra-pokeathlon', 'lyra',
