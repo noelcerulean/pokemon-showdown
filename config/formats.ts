@@ -264,7 +264,7 @@ export const Formats: FormatList = [
 			'Uber', 'Hoopa-Unbound', 'Kartana', 'Kiwuit', 'Medichamite', 'Zygarde-10%', 'Celesteela', 'Despotide',
 			'Meloettium Z', 'Melodium Z', 'Despotidium Z', 'Psychic Surge', 'Poliwrathium Z', 'Sand Veil', 'Snow Cloak',
 			'King\'s Rock', 'Bright Powder', 'Lax Incense', 'Razor Fang', 'Quick Claw', 'Ignajara + Ignition',
-			'Battle Bond', 'Shadow Tag', 'Damp Rock', 'Smooth Rock', 'Terrain Extender', 'Baton Pass',
+			'Battle Bond', 'Shadow Tag', 'Damp Rock', 'Smooth Rock', 'Mordant Rock', 'Terrain Extender', 'Baton Pass',
 			'Blaziken + Speed Boost', 'Kommonium Z', 'Toxicroak-Armored',
 		],
 		unbanlist: ['Deoxys-Defense', 'Scizor-Mega', 'Trevenant-Mega'],
