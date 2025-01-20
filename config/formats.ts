@@ -265,7 +265,7 @@ export const Formats: FormatList = [
 			'Meloettium Z', 'Melodium Z', 'Despotidium Z', 'Psychic Surge', 'Poliwrathium Z', 'Sand Veil', 'Snow Cloak',
 			'King\'s Rock', 'Bright Powder', 'Lax Incense', 'Razor Fang', 'Quick Claw', 'Ignajara + Ignition',
 			'Battle Bond', 'Shadow Tag', 'Damp Rock', 'Smooth Rock', 'Terrain Extender', 'Baton Pass',
-			'Blaziken + Speed Boost', 'Kommonium Z',
+			'Blaziken + Speed Boost', 'Kommonium Z', 'Toxicroak-Armored',
 		],
 		unbanlist: ['Deoxys-Defense', 'Scizor-Mega', 'Trevenant-Mega'],
 	},
