@@ -5181,7 +5181,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			}
 		},
 		secondary: {
-			chance: 30,
+			chance: 10,
 			status: 'psn',
 		},
 		target: "allAdjacentFoes",

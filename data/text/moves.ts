@@ -1859,8 +1859,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	fallout: {
 		name: "Fallout",
-		desc: "Has a 30% chance to poison the target. If the weather is Miasma, this move does not check accuracy.",
-		shortDesc: "30% chance to poison target. Can't miss in miasma.",
+		desc: "Has a 10% chance to poison the target. If the weather is Miasma, this move does not check accuracy.",
+		shortDesc: "10% chance to poison target. Can't miss in miasma.",
 	},
 	falsesurrender: {
 		name: "False Surrender",
