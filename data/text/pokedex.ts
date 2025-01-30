@@ -4157,6 +4157,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	calyrexshadow: {
 		name: "Calyrex-Shadow",
 	},
+	nymble: {
+		name: "Nymble",
+	},
+	lokix: {
+		name: "Lokix",
+	},
 	missingno: {
 		name: "MissingNo.",
 	},

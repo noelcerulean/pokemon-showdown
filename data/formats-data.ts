@@ -7033,6 +7033,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Uber",
 		doublesTier: "DUber",
 	},
+	nymble: {
+		tier: "LC",
+	},
+	lokix: {
+		tier: "NU",
+		doublesTier: "DUU",
+	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
