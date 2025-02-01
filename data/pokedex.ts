@@ -12824,8 +12824,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 5,
 		color: "Green",
 		eggGroups: ["Undiscovered"],
-		cosmeticFormes: ["Emolga-Delta-Astalos"],
-		formeOrder: ["Emolga-Delta", "Emolga-Delta-Astalos"],
+		cosmeticFormes: ["Emolga-Delta-Astalos", "Emolga-Delta-Glitches"],
+		formeOrder: ["Emolga-Delta", "Emolga-Delta-Astalos", "Emolga-Delta-Glitches"],
 	},
 	karrablast: {
 		num: 588,
