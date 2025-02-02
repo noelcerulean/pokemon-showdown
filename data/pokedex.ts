@@ -308,6 +308,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		eggGroups: ["Dragon", "Field"],
 	},
+	flymolcky: {
+		num: -575,
+		name: "Flymolcky",
+		types: ["Dragon"],
+		gender: "N",
+		baseStats: {hp: 62, atk: 97, def: 68, spa: 95, spd: 64, spe: 150},
+		abilities: {0: "Volatility"},
+		heightm: 1.2,
+		weightkg: 68,
+		color: "Purple",
+		eggGroups: ["Undiscovered"],
+	},
 	caterpie: {
 		num: 10,
 		name: "Caterpie",

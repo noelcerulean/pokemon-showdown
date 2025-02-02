@@ -2145,6 +2145,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Vital Spirit",
 		shortDesc: "This Pokemon cannot fall asleep. Gaining this Ability while asleep cures it.",
 	},
+	volatility: {
+		name: "Volatility",
+		desc: "This Pokemon gains +1 in a random stat after using a damaging move with a same-type attack bonus (STAB), not including evasion.",
+		shortDesc: "After using a damaging STAB move, this Pokemon gains +1 in a random stat.",
+	},
 	voltabsorb: {
 		name: "Volt Absorb",
 		desc: "This Pokemon is immune to Electric-type moves and restores 1/4 of its maximum HP, rounded down, when hit by an Electric-type move.",

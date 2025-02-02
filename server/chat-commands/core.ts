@@ -187,6 +187,7 @@ const avatarTable = new Set([
 	'grimsley',
 	'guitarist-gen2', 'guitarist-gen3', 'guitarist-gen4', 'guitarist',
 	'gus', 'gus-student',
+	'hajime',
 	'harlequin', 'harlequin-2',
 	'hexmaniac-gen3jp', 'hexmaniac-gen3',
 	'hiker-gen1', 'hiker-gen1rb', 'hiker-gen2', 'hiker-gen3', 'hiker-gen3rs', 'hiker-gen4', 'hiker',

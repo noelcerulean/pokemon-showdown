@@ -167,6 +167,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	flymolcky: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	caterpie: {
 		tier: "LC",
 	},

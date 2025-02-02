@@ -39,6 +39,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	flymolcky: {
+		randomBattleMoves: ["dracometeor", "dragondance", "earthpower", "earthquake", "fireblast", "knockoff", "nastyplot", "outrage", "poisonjab", "sludgebomb", "swordsdance", "uturn"],
+		randomDoubleBattleMoves: ["dracometeor", "earthpower", "earthquake", "fakeout", "fireblast", "knockoff", "nastyplot", "outrage", "protect", "poisonjab", "sludgebomb", "swordsdance"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
 	charmander: {
 		tier: "LC",
 	},

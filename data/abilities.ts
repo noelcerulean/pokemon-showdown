@@ -5893,6 +5893,30 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 72,
 	},
+	volatility: {
+		onAfterMoveSecondarySelf(source, target, move) {
+			if (move.stab && move.category !== 'Status') {
+				const stats: BoostID[] = [];
+				let stat: BoostID;
+				for (stat in target.boosts) {
+					if (stat !== 'evasion' && target.boosts[stat] < 6) {
+						stats.push(stat);
+					}
+				}
+				if (stats.length) {
+					const randomStat = this.sample(stats);
+					const boost: SparseBoostsTable = {};
+					boost[randomStat] = 1;
+					this.boost(boost);
+				} else {
+					return false;
+				}
+			}
+		},
+		name: "Volatility",
+		rating: 3,
+		num: -580,
+	},
 	voltabsorb: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Electric') {
