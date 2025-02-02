@@ -2147,8 +2147,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	volatility: {
 		name: "Volatility",
-		desc: "This Pokemon gains +1 in a random stat after using a damaging move with a same-type attack bonus (STAB), not including evasion.",
-		shortDesc: "After using a damaging STAB move, this Pokemon gains +1 in a random stat.",
+		desc: "This Pokemon gains +1 in a random stat after using a damaging move that matches its primary type, not including evasion.",
+		shortDesc: "+1 to a random stat after using a damaging move that matches its primary type.",
 	},
 	voltabsorb: {
 		name: "Volt Absorb",
