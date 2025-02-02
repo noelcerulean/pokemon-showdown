@@ -5895,7 +5895,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	volatility: {
 		onAfterMoveSecondarySelf(source, target, move) {
-			if (move.stab && move.category !== 'Status') {
+			const type = move.type;
+			if (type && move.type === source.getTypes()[0] && move.category !== 'Status') {
 				const stats: BoostID[] = [];
 				let stat: BoostID;
 				for (stat in target.boosts) {
