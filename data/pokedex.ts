@@ -12604,6 +12604,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 41,
 		eggGroups: ["Human-Like"],
 	},
+	gothigearna: {
+		num: -576,
+		name: "Gothigearna",
+		types: ["Steel", "Psychic"],
+		gender: "N",
+		baseStats: {hp: 75, atk: 75, def: 105, spa: 123, spd: 112, spe: 65},
+		abilities: {0: "Karma", 1: "Soul Heart"},
+		heightm: 1.2,
+		weightkg: 65,
+		color: "Black",
+		eggGroups: ["Undiscovered"],
+	},
 	solosis: {
 		num: 577,
 		name: "Solosis",

@@ -4431,6 +4431,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	gothigearna: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	solosis: {
 		tier: "LC",
 	},

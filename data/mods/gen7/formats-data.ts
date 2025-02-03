@@ -4033,6 +4033,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "DOU",
 	},
+	gothigearna: {
+		randomBattleMoves: ["calmmind", "flashcannon", "fleurcannon", "focusblast", "ironhead", "psychic", "psyshock", "shiftgear", "thunderbolt"],
+		randomDoubleBattleMoves: ["aurasphere", "dazzlinggleam", "flashcannon", "fleurcannon", "protect", "psychic", "psyshock", "trickroom", "voltswitch"],
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	solosis: {
 		tier: "LC",
 	},
