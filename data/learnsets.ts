@@ -72488,6 +72488,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			allyswitch: ["8M", "7T"],
 			astonish: ["8L1", "7L1", "6L1", "5L1"],
 			attract: ["8M", "7M", "6M", "5M"],
+			auroraveil: ["7L1"],
 			avalanche: ["8M", "8L16", "7L19", "6L19", "5L19"],
 			beatup: ["8M"],
 			blizzard: ["8M", "8L52", "7M", "7L59", "6M", "6L59", "5M", "5L59"],
