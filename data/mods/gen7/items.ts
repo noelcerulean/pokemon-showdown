@@ -285,6 +285,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	gogoatite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	goodrite: {
 		inherit: true,
 		isNonstandard: null,

@@ -3134,6 +3134,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	gogoat: {
 		name: "Gogoat",
 	},
+	gogoatmega: {
+		name: "Gogoat-Mega",
+	},
 	pancham: {
 		name: "Pancham",
 	},

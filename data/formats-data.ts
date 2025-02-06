@@ -5156,6 +5156,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	gogoatmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	pancham: {
 		tier: "LC",
 	},

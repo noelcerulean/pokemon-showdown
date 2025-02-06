@@ -775,6 +775,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Glalitite",
 		desc: "If held by a Glalie, this item allows it to Mega Evolve in battle.",
 	},
+	gogoatite: {
+		name: "Gogoatite",
+		desc: "If held by a Gogoat, this item allows it to Mega Evolve in battle.",
+	},
 	goldbottlecap: {
 		name: "Gold Bottle Cap",
 		desc: "Used for Hyper Training. All of a Pokemon's stats are calculated with an IV of 31.",

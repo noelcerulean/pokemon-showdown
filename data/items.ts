@@ -2659,6 +2659,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	gogoatite: {
+		name: "Gogoatite",
+		spritenum: 814,
+		megaStone: "Gogoat-Mega",
+		megaEvolves: "Gogoat",
+		itemUser: ["Gogoat"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -577,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	goldbottlecap: {
 		name: "Gold Bottle Cap",
 		spritenum: 697,

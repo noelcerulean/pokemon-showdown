@@ -115,6 +115,7 @@ export const Aliases: {[alias: string]: string} = {
 	msaby: "Sableye-FnF-Mega-Y",
 	sabfnfx: "Sableye-FnF-Mega-X",
 	sabfnfy: "Sableye-FnF-Mega-Y",
+	mgoat: "Gogoat-Mega",
 
 	// Pokéstar Studios
 	blackdoor: "Pokestar Black-Door",
