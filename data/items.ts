@@ -4684,7 +4684,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (!this.checkMoveMakesContact(move, source, target)) return;
 			if (target.eatItem()) {
 				this.add('-item', target, 'Nutpea Berry');
-				this.damage(source.baseMaxhp / (target.hasAbility('ripen') ? 1.5 : 3), source, target);
+				this.damage(source.baseMaxhp / (target.hasAbility('ripen') ? 3 : 6), source, target);
 			}
 		},
 		onTryEatItem(item, pokemon) {
@@ -4692,7 +4692,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		onEat(pokemon) {
 			this.add('-activate', pokemon, 'item: Nutpea Berry', '[consumed]');
-			this.heal(pokemon.baseMaxhp / 3);
+			this.heal(pokemon.baseMaxhp / 6);
 		},
 		num: -566,
 		gen: 7,

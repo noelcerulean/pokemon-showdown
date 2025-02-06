@@ -172,8 +172,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	beautysleep: {
 		name: "Beauty Sleep",
-		desc: "Pokemon attacking this Pokemon while it is asleep will lose 1/4 of their max HP, rounded down.",
-		shortDesc: "Pokemon attacking this Pokemon while it is asleep will lose 1/4 of their max HP.",
+		desc: "Pokemon attacking this Pokemon while it is asleep will lose 1/6 of their max HP, rounded down.",
+		shortDesc: "Pokemon attacking this Pokemon while it is asleep will lose 1/6 of their max HP.",
 
 		damage: "  [POKEMON] was attacked for interrupting the Beauty Sleep!",
 	},

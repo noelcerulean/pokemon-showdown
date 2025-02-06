@@ -475,7 +475,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onDamagingHitOrder: 1,
 		onDamagingHit(damage, target, source, move) {
 			if (target.hp && target.status === 'slp' && move.category !== 'Status') {
-				this.damage(source.baseMaxhp / 4, source, target);
+				this.damage(source.baseMaxhp / 6, source, target);
 			}
 		},
 		name: "Beauty Sleep",
@@ -5543,7 +5543,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: -511,
 	},
 	territorial: {
-		onSwitchIn(pokemon) {
+		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Territorial');
 			this.effectState.switchingIn = true;
 			this.field.clearTerrain();

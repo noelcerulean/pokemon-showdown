@@ -1395,7 +1395,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	nutpeaberry: {
 		name: "Nutpea Berry",
-		desc: "Holder hit by contact move: heals 1/3 HP, Attacker loses 1/3 HP. Single use.",
+		desc: "Holder hit by contact move: heals 1/6 HP, Attacker loses 1/6 HP. Single use.",
 
 		activate: "  [POKEMON] ate the fruit inside the Nutpea Berry's shell!",
 	},

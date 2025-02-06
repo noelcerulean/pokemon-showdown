@@ -591,6 +591,7 @@ export const Aliases: {[alias: string]: string} = {
 	orneridgewoodpecker: "Orneridge",
 	noctowlmalfestio: "Noctowl",
 	starmieparty: "Starmie",
+	lugitoluigi: "Lugito",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",
