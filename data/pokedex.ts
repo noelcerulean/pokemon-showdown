@@ -4494,7 +4494,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseSpecies: "Sudowoodo",
 		forme: "Busted",
 		types: ["Rock"],
-		baseStats: {hp: 70, atk: 115, def: 115, spa: 30, spd: 65, spe: 55},
+		baseStats: {hp: 80, atk: 115, def: 125, spa: 30, spd: 65, spe: 55},
 		abilities: {0: "Mimictree"},
 		heightm: 1.2,
 		weightkg: 38,

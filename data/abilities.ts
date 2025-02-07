@@ -5900,7 +5900,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				const stats: BoostID[] = [];
 				let stat: BoostID;
 				for (stat in target.boosts) {
-					if (stat !== 'evasion' && target.boosts[stat] < 6) {
+					if (stat !== 'accuracy' && stat !== 'evasion' && target.boosts[stat] < 6) {
 						stats.push(stat);
 					}
 				}
