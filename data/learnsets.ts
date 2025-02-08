@@ -77657,6 +77657,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	synopede: {
 		learnset: {
 			astonish: ["7E"],
+			aurorabeam: ["7E"],
 			bugbuzz: ["7E"],
 			naturalgift: ["7E"],
 			poweruppunch: ["7E"],
@@ -77741,6 +77742,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			gigaimpact: ["7M"],
 			hiddenpower: ["7M"],
 			hyperbeam: ["7M"],
+			icebeam: ["7M"],
 			infestation: ["7M"],
 			lightscreen: ["7M"],
 			naturepower: ["7M"],
