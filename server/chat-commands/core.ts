@@ -216,7 +216,7 @@ const avatarTable = new Set([
 	'juan-gen3',
 	'juan',
 	'juggler-gen1', 'juggler-gen1rb', 'juggler-gen2', 'juggler-gen3', 'juggler', 'juggler-2',
-	'jumpy', 'jumpy-swimsuit',
+	'jumpy', 'jumpy-swimsuit', 'jumpy-jester',
 	'junch',
 	'jupiter',
 	'kaito', 'kaito-and-onoufri',
