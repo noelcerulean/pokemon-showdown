@@ -215,6 +215,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon is immune to ballistic moves. Ballistic moves include Bullet Seed, Octazooka, Barrage, Rock Wrecker, Zap Cannon, Acid Spray, Aura Sphere, Focus Blast, and all moves with Ball or Bomb in their name.",
 		shortDesc: "Makes user immune to ballistic moves (Shadow Ball, Sludge Bomb, Focus Blast, etc).",
 	},
+	carrier: {
+		name: "Carrier",
+		desc: "This Pokemon and its allies can't have items removed by attacks. This pokemon's ally can't be forced out by attacks.",
+		shortDesc: "This Pokemon & ally can't have items removed by attacks; Ally can't be forced out.",
+
+		block: "  [POKEMON]'s Carrier is secure!",
+	},
 	cheekpouch: {
 		name: "Cheek Pouch",
 		desc: "If this Pokemon eats a Berry, it restores 1/3 of its maximum HP, rounded down, in addition to the Berry's effect.",

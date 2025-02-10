@@ -1847,6 +1847,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},
+	remoraidfnf: {
+		tier: "LC",
+	},
+	portamora: {
+		randomBattleMoves: ["defog", "drypass", "earthquake", "flamethrower", "scald", "sparklingwater", "toxic"],
+		randomDoubleBattleMoves: ["flamethrower", "scald", "sparklingwater", "tailwind", "wideguard"],
+		tier: "UU",
+		doublesTier: "DOU",
+	},
 	delibird: {
 		randomBattleMoves: ["airslash", "destinybond", "freezedry", "icebeam", "iciclecrash", "rapidspin", "spikes", "stealthrock", "taunt"],
 		randomDoubleBattleMoves: ["aerialace", "brickbreak", "fakeout", "iciclecrash", "iceshard", "protect"],

@@ -2202,6 +2202,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	remoraidfnf: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	portamora: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	delibird: {
 		randomBattleMoves: ["freezedry", "memento", "rapidspin", "spikes"],
 		randomBattleLevel: 100,

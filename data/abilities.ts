@@ -602,6 +602,30 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 171,
 	},
+	carrier: {
+		onAnyTakeItem(item, pokemon, source) {
+			if (!this.activeMove) throw new Error("Battle.activeMove is null");
+			if (!pokemon.hp || pokemon.item === 'stickybarb') return;
+			if (!pokemon.isAlly(this.effectState.target)) return;
+			if ((source && source !== pokemon) || this.activeMove.id === 'knockoff') {
+				this.add('-activate', pokemon, 'ability: Sticky Hold');
+				return false;
+			}
+		},
+		// onDragOutPriority is also used for dynamax mons. dmax has a priority of 2. idk what this means.
+		onDragOutPriority: 1,
+		onAnyDragOut(pokemon) {
+			if (pokemon !== this.effectState.target && pokemon.isAlly(this.effectState.target)) {
+				this.add('-activate', pokemon, 'ability: Carrier');
+				return null;
+			}
+			return true;
+		},
+		isBreakable: true,
+		name: "Carrier",
+		rating: 2.5,
+		num: -581,
+	},
 	cheekpouch: {
 		onEatItem(item, pokemon) {
 			this.heal(pokemon.baseMaxhp / 3);
