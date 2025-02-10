@@ -63639,7 +63639,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			thief: ["7M"],
 			thrash: ["7L36"],
 			toxic: ["7M"],
-			whirlwind: ["7V"],
+			whirlwind: ["7L2"],
 			workup: ["7M"],
 		},
 	},

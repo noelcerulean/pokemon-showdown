@@ -608,7 +608,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			if (!pokemon.hp || pokemon.item === 'stickybarb') return;
 			if (!pokemon.isAlly(this.effectState.target)) return;
 			if ((source && source !== pokemon) || this.activeMove.id === 'knockoff') {
-				this.add('-activate', pokemon, 'ability: Sticky Hold');
+				this.add('-activate', this.effectState.target, 'ability: Carrier');
 				return false;
 			}
 		},
@@ -616,7 +616,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onDragOutPriority: 1,
 		onAnyDragOut(pokemon) {
 			if (pokemon !== this.effectState.target && pokemon.isAlly(this.effectState.target)) {
-				this.add('-activate', pokemon, 'ability: Carrier');
+				this.add('-activate', this.effectState.target, 'ability: Carrier');
 				return null;
 			}
 			return true;
