@@ -220,7 +220,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon and its allies can't have items removed by attacks. This pokemon's ally can't be forced out by attacks.",
 		shortDesc: "This Pokemon & ally can't have items removed by attacks; Ally can't be forced out.",
 
-		block: "  [POKEMON]'s Carrier is secure!",
+		activate: "  [POKEMON]'s Carrier is secure!",
 	},
 	cheekpouch: {
 		name: "Cheek Pouch",
