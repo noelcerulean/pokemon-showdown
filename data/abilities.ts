@@ -3880,9 +3880,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 155,
 	},
 	receiver: {
-		onFoeAfterBoost(boost, target, source, sourceEffect) {
-			if (sourceEffect.effectType !== 'Move' || target !== source) return;
-			this.boost(boost, this.effectState.target, this.effectState.target);
+		onFoeAfterBoost(boost, target, source, effect) {
+			if (effect?.name === 'Receiver' || effect?.name === 'Lanchi Berry') return;
+			const pokemon = this.effectState.target;
+			const positiveBoosts: Partial<BoostsTable> = {};
+			let i: BoostID;
+			for (i in boost) {
+				if (boost[i]! > 0) {
+					positiveBoosts[i] = boost[i];
+				}
+			}
+			if (Object.keys(positiveBoosts).length < 1) return;
+			this.boost(positiveBoosts, pokemon);
 		},
 		name: "Receiver",
 		rating: 3,

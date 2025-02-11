@@ -1389,8 +1389,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	receiver: {
 		name: "Receiver",
-		desc: "This Pokemon copies any stat changes caused by a foe's moves. This does not apply to stat changes caused by abilities, allies, items, hazards, or moves that this pokemon uses on the foe.",
-		shortDesc: "This Pokemon copies any stat changes caused by a foe's moves.",
+		shortDesc: "When an opposing Pokemon has a stat stage raised, this Pokemon copies the effect.",
 	},
 	reckless: {
 		name: "Reckless",
