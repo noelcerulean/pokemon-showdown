@@ -14932,7 +14932,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Radiant Mace",
 		pp: 5,
 		priority: 0,
-		flags: {protect: 1, mirror: 1, contact: 1, light: 1},
+		flags: {protect: 1, mirror: 1, light: 1},
 		self: {
 			chance: 50,
 			boosts: {
@@ -16000,7 +16000,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		contestType: "Beautiful",
 	},
 	ruinousriptide: {
-		num: 701,
+		num: -578,
 		accuracy: true,
 		basePower: 190,
 		category: "Physical",
