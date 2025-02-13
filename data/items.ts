@@ -192,17 +192,17 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (!this.runEvent('TryHeal', pokemon)) return false;
 		},
 		onEat(pokemon) {
-            let possibleTypes = [];
-            for (let type of this.dex.types.names()) {
-                if (pokemon.hasType(type)) continue;
-                possibleTypes.push(type);
-            }
-            const randomType = this.sample(possibleTypes);
-            if (!pokemon.setType(randomType)) return false;
+			let possibleTypes = [];
+			for (let type of this.dex.types.names()) {
+				if (pokemon.hasType(type)) continue;
+				possibleTypes.push(type);
+			}
+			const randomType = this.sample(possibleTypes);
+			if (!pokemon.setType(randomType)) return false;
 			this.add('-activate', pokemon, 'item: Alahala Berry', '[consumed]');
-            this.add('-start', pokemon, 'typechange', randomType);
+			this.add('-start', pokemon, 'typechange', randomType);
 			this.heal(pokemon.baseMaxhp / 4);
-        },
+		},
 		num: -578,
 		gen: 6,
 	},
@@ -2647,7 +2647,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Ginema Berry",
 		spritenum: 808,
 		isBerry: true,
- 		naturalGift: {
+		naturalGift: {
 			basePower: 110,
 			type: "Flying",
 		},
@@ -3541,7 +3541,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			basePower: 110,
 			type: "Steel",
 		},
-  		onFoeAfterBoost(boost, target, source, effect) {
+		onFoeAfterBoost(boost, target, source, effect) {
 			if (effect?.name === 'Receiver' || effect?.name === 'Lanchi Berry') return;
 			const boostPlus: SparseBoostsTable = {};
 			let statsRaised = false;

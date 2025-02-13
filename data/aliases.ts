@@ -583,6 +583,8 @@ export const Aliases: {[alias: string]: string} = {
 	furfrouprincessparty: "Furfrou-Princess",
 	furfrouprincesspomp: "Furfrou-Princess",
 	furfrouprincesspunk: "Furfrou-Princess",
+	furfrouprincesspersei: "Furfrou-Princess",
+	furfrouprincessphobos: "Furfrou-Princess",
 	incineroarpride: "Incineroar",
 	seakingseaqueen: "Seaking",
 	seakingseaqueenf: "Seaking",

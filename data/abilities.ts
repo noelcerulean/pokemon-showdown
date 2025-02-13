@@ -2166,7 +2166,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onAfterMoveSecondarySelf(source, target, move) {
 			if (move.type === 'Fire') {
-			  this.boost({atk: 1, spa: 1, spe: 1});
+				this.boost({atk: 1, spa: 1, spe: 1});
 			}
 		},
 		isBreakable: true,
