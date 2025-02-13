@@ -175,6 +175,37 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 541,
 		gen: 5,
 	},
+	alahalaberry: {
+		name: "Alahala Berry",
+		spritenum: 815,
+		isBerry: true,
+		naturalGift: {
+			basePower: 110,
+			type: "Psychic",
+		},
+		onUpdate(pokemon) {
+			if (pokemon.hp <= pokemon.maxhp / 2) {
+				pokemon.eatItem();
+			}
+		},
+		onTryEatItem(item, pokemon) {
+			if (!this.runEvent('TryHeal', pokemon)) return false;
+		},
+		onEat(pokemon) {
+            let possibleTypes = [];
+            for (let type of this.dex.types.names()) {
+                if (pokemon.hasType(type)) continue;
+                possibleTypes.push(type);
+            }
+            const randomType = this.sample(possibleTypes);
+            if (!pokemon.setType(randomType)) return false;
+			this.add('-activate', pokemon, 'item: Alahala Berry', '[consumed]');
+            this.add('-start', pokemon, 'typechange', randomType);
+			this.heal(pokemon.baseMaxhp / 4);
+        },
+		num: -578,
+		gen: 6,
+	},
 	alakazite: {
 		name: "Alakazite",
 		spritenum: 579,

@@ -44,6 +44,12 @@ export const ItemsText: {[k: string]: ItemText} = {
 		start: "  [POKEMON] floats in the air with its Air Balloon!",
 		end: "  [POKEMON]'s Air Balloon popped!",
 	},
+	alahalaberry: {
+		name: "Alahala Berry",
+		desc: "At 1/2 max HP or less, restores 1/4 max HP & randomly changes Pokemon's type.",
+
+		activate: "  [POKEMON] reacted to the Alahala Berry's vivid colors!",
+	},
 	alakazite: {
 		name: "Alakazite",
 		desc: "If held by an Alakazam, this item allows it to Mega Evolve in battle.",
