@@ -204,7 +204,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			this.heal(pokemon.baseMaxhp / 4);
 		},
 		num: -578,
-		gen: 6,
+		gen: 7,
 	},
 	alakazite: {
 		name: "Alakazite",
