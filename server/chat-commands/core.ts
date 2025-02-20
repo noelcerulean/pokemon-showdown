@@ -31,6 +31,7 @@ const avatarTable = new Set([
 	'agatha-gen1', 'agatha-gen1rb', 'agatha-gen3',
 	'agnes',
 	'alder',
+	'alma', 'conor', 'cullen', 'essi', 'imara', 'leander', 'lilac', 'malik', 'yasmin',
 	'alvaro',
 	'amaya',
 	'amir', 'amir-student',
