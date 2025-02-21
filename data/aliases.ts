@@ -594,6 +594,11 @@ export const Aliases: {[alias: string]: string} = {
 	noctowlmalfestio: "Noctowl",
 	starmieparty: "Starmie",
 	lugitoluigi: "Lugito",
+	lycanrocmidnighthugwolf: "Lycanroc-Midnight",
+	chandelurevalentine: "Chandelure",
+	cofagriguspride: "Cofagrigus",
+	despotidedespopride: "Despotide",
+	espurrbald: "Espurr",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",

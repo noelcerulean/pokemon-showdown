@@ -2953,6 +2953,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "trade",
 		evoItem: "King's Rock",
 		eggGroups: ["Water 2"],
+		cosmeticFormes: ["Despotide-Despopride"],
+		formeOrder: ["Despotide", "Despotide-Despopride"],
 	},
 	staryu: {
 		num: 120,
@@ -12410,7 +12412,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 34,
 		eggGroups: ["Mineral", "Amorphous"],
 		otherFormes: ["Cofagrigus-Mega"],
-		formeOrder: ["Cofagrigus", "Cofagrigus-Mega"],
+		cosmeticFormes: ["Cofagrigus-Pride"],
+		formeOrder: ["Cofagrigus", "Cofagrigus-Pride", "Cofagrigus-Mega"],
 	},
 	cofagrigusmega: {
 		num: 563,
@@ -13236,6 +13239,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Dusk Stone",
 		eggGroups: ["Amorphous"],
+		cosmeticFormes: ["Chandelure-Valentine"],
+		formeOrder: ["Chandelure", "Chandelure-Valentine"],
 	},
 	axew: {
 		num: 610,
@@ -14722,6 +14727,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		evos: ["Meowstic", "Meowstic-F"],
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Espurr-Bald"],
+		formeOrder: ["Espurr", "Espurr-Bald"],
 	},
 	meowstic: {
 		num: 678,
@@ -16222,6 +16229,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 25,
 		evoCondition: "during the night",
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Lycanroc-Midnight-Hugwolf"],
+		formeOrder: ["Lycanroc-Midnight", "Lycanroc-Midnight-Hugwolf"],
 	},
 	lycanrocdusk: {
 		num: 745,
