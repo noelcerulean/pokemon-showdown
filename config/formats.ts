@@ -611,7 +611,7 @@ export const Formats: FormatList = [
 			const newTemplate = this.dex.deepClone(template);
 			const baseStats = template.baseStats;
 			const spe = this.dex.species.get(target.set.species).baseStats.spe;
-			newTemplate.baseStats = {hp: baseStats.hp, atk: baseStats.spa, def: baseStats.def, spa: baseStats.atk, spd: baseStats.spd, spe: spe};
+			newTemplate.baseStats = {hp: baseStats.hp, atk: baseStats.spa, def: baseStats.def, spa: baseStats.atk, spd: baseStats.spd, spe: baseStats.spe};
 			return newTemplate;
 		},
 	},
