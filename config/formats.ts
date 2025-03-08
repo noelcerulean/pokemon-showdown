@@ -597,6 +597,25 @@ export const Formats: FormatList = [
 		unbanlist: ['Aegislash', 'Blaziken', 'Genesect', 'Landorus-Base', 'Metagross-Mega', 'Naganadel', 'Pheromosa'],
 	},
 	{
+		name: "[Gen 7] Attack Swap",
+		desc: "Every Pok&eacute;mon's Attack and Sp. Attack stats are reversed..",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3662020/">Flipped</a>`,
+		],
+
+		mod: 'gen7',
+		ruleset: ['[Gen 7] OU'],
+		banlist: ['Azumarill', 'Bunmochi', 'Sharpedonite', 'Sceptilite', 'Nidoking'],
+		unbanlist: ['Rapidash-Mega', 'Trevenant-Mega', 'Tapu Lele'],
+		onModifySpecies(template, target, source, effect) {
+			const newTemplate = this.dex.deepClone(template);
+			const baseStats = template.baseStats;
+			const spe = this.dex.species.get(target.set.species).baseStats.spe;
+			newTemplate.baseStats = {hp: baseStats.hp, atk: baseStats.spa, def: baseStats.def, spa: baseStats.atk, spd: baseStats.spd, spe: spe};
+			return newTemplate;
+		},
+	},
+	{
 		name: "[Gen 7] Balanced Hackmons",
 		desc: `Anything that can be hacked in-game and is usable in local battles is allowed.`,
 		threads: [
