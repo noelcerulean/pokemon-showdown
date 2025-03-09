@@ -606,7 +606,7 @@ export const Formats: FormatList = [
 		mod: 'gen7',
 		ruleset: ['[Gen 7] OU'],
 		banlist: ['Azumarill', 'Bunmochi', 'Sharpedonite', 'Sceptilite', 'Nidoking'],
-		unbanlist: ['Rapidash-Mega', 'Trevenant-Mega', 'Tapu Lele'],
+		unbanlist: ['Rapidash-Mega', 'Tapu Lele'],
 		onModifySpecies(template, target, source, effect) {
 			const newTemplate = this.dex.deepClone(template);
 			const baseStats = template.baseStats;
