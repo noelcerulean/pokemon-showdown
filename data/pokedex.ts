@@ -555,6 +555,17 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		eggGroups: ["Field"],
 	},
+	opossie: {
+		num: -578,
+		name: "Opossie",
+		types: ["Normal"],
+		baseStats: {hp: 44, atk: 55, def: 41, spa: 38, spd: 44, spe: 71},
+		abilities: {0: "Rattled", 1: "Run Away", H: "Gluttony"},
+		heightm: 0.4,
+		weightkg: 6,
+		color: "Gray",
+		eggGroups: ["Field"],
+	},
 	spearow: {
 		num: 21,
 		name: "Spearow",

@@ -116,6 +116,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	raticatealolatotem: {
 		name: "Raticate-Alola-Totem",
 	},
+	opossie: {
+		name: "Opossie",
+	},
 	spearow: {
 		name: "Spearow",
 	},

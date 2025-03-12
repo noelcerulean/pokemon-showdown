@@ -244,6 +244,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	opossie: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	spearow: {
 		isNonstandard: "Past",
 		tier: "Illegal",

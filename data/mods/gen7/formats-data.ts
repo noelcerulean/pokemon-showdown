@@ -163,6 +163,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	opossie: {
+		tier: "LC",
+	},
 	spearow: {
 		tier: "LC",
 	},
