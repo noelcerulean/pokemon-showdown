@@ -223,7 +223,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	alarixite: {
 		name: "Alarixite",
 		spritenum: 761,
-		megaStone: "Gyarados-Mega-Alarix",
+		megaStone: "Gyarados-Alarix-Mega",
 		megaEvolves: "Gyarados-Alarix",
 		itemUser: ["Gyarados-Alarix"],
 		onTakeItem(item, source) {

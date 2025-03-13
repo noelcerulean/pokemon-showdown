@@ -166,6 +166,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	opossie: {
 		tier: "LC",
 	},
+	possamado: {
+		randomBattleMoves: ["curse", "earthquake", "knockoff", "return", "slackoff", "swordsdance"],
+		randomDoubleBattleMoves: ["helpinghand", "knockoff", "protect", "return", "slackoff", "swordsdance"],
+		tier: "NU",
+		doublesTier: "(DUU)",
+	},
 	spearow: {
 		tier: "LC",
 	},
@@ -1057,7 +1063,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DUU",
 	},
-	gyaradosmegaalarix: {
+	gyaradosalarixmega: {
 		tier: "Uber",
 		doublesTier: "DUber",
 	},

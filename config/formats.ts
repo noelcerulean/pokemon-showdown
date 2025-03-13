@@ -112,7 +112,7 @@ export const Formats: FormatList = [
 			'Raikou-Jasper', 'Simisear-Hanuman', 'Soarsparce-Alfred', 'Suicune-Opal', 'Typhlosion-Vesuvius', 'Umbreon-Nocturne', 'Vaporeon-Linguine',
 			'Wooper-Wooperoth', 'Yanmega-Zumbra',
 			'Aegislash-Zato', 'Camerupt-Maxie', 'Chikorita-Minty', 'Decidueye-Apollo', 'Dewott-Lutryla', 'Eevee-Durum', 'Flareon-Lasagna', 'Fraxure-Frenzy',
-			'Glaceon-Manicotti', 'Golisopod-Musashi', 'Golurk-Titan', 'Gyarados-Alarix', 'Gyarados-Mega-Alarix', 'Honchkrow-Godfather', 'Jolteon-Radiatori',
+			'Glaceon-Manicotti', 'Golisopod-Musashi', 'Golurk-Titan', 'Gyarados-Alarix', 'Gyarados-Alarix-Mega', 'Honchkrow-Godfather', 'Jolteon-Radiatori',
 			'Kurstraw-Crona', 'Leafeon-Tagliatelle', 'Meganium-Aniseed', 'Sceptile-Moscho', 'Sylveon-Farfalle', 'Zweilous-Terror',
 			'Alarixite', 'Corrupted Rock',
 			'Aron-Goldie', 'Furfrou-Princess', 'Garchomp-Xeon', 'Gourgeist-Demitri', 'Heatmor-Huangshan', 'Lileep-Goober', 'Marill-Dredge', 'Meowstic-Royal',
@@ -135,7 +135,7 @@ export const Formats: FormatList = [
 			'Raikou-Jasper', 'Simisear-Hanuman', 'Soarsparce-Alfred', 'Suicune-Opal', 'Typhlosion-Vesuvius', 'Umbreon-Nocturne', 'Vaporeon-Linguine',
 			'Wooper-Wooperoth', 'Yanmega-Zumbra',
 			'Aegislash-Zato', 'Camerupt-Maxie', 'Chikorita-Minty', 'Decidueye-Apollo', 'Dewott-Lutryla', 'Eevee-Durum', 'Flareon-Lasagna', 'Fraxure-Frenzy',
-			'Glaceon-Manicotti', 'Golisopod-Musashi', 'Gyarados-Mega-Alarix', 'Honchkrow-Godfather', 'Jolteon-Radiatori',
+			'Glaceon-Manicotti', 'Golisopod-Musashi', 'Gyarados-Alarix-Mega', 'Honchkrow-Godfather', 'Jolteon-Radiatori',
 			'Kurstraw-Crona', 'Leafeon-Tagliatelle', 'Meganium-Aniseed', 'Sceptile-Moscho', 'Sylveon-Farfalle', 'Zweilous-Terror',
 			'Aron-Goldie', 'Furfrou-Princess', 'Garchomp-Xeon', 'Gourgeist-Demitri', 'Heatmor-Huangshan', 'Lileep-Goober', 'Marill-Dredge', 'Meowstic-Royal',
 			'Muk-TheSludge', 'Noivern-Eyrie', 'Ribombee-Shura', 'Shroomish-Geastrales', 'Spinarak-Sugar', 'Longeon-Spaghetti', 'Snorunt-Sherbet',
@@ -200,7 +200,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		gameType: 'doubles',
-		ruleset: ['Story Doubles'],
+		ruleset: ['Story Doubles', 'Swagger Clause'],
 		banlist: [
 			'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass',
 			'Ano', 'Bagno', 'Baneno', 'Bonsno', 'Bulbano', 'Bunno', 'Butterno', 'Charino',
@@ -881,7 +881,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7mixandmega',
 		ruleset: ['Standard', 'Mega Rayquaza Clause', 'Overflow Stat Mod'],
-		banlist: ['Shadow Tag', 'Gengarite', 'Baton Pass', 'Electrify', 'Ho-Oh-Rainbow', 'Golurk-Titan', 'Lugia-Seafoam', 'Gyarados-Alarix', 'Gyarados-Mega-Alarix'],
+		banlist: ['Shadow Tag', 'Gengarite', 'Baton Pass', 'Electrify', 'Ho-Oh-Rainbow', 'Golurk-Titan', 'Lugia-Seafoam', 'Gyarados-Alarix', 'Gyarados-Alarix-Mega'],
 		restricted: [
 			'Arceus', 'Deoxys', 'Dialga', 'Dragonite', 'Giratina', 'Groudon', 'Ho-Oh', 'Kyogre', 'Kyurem', 'Landorus-Therian', 'Lugia',
 			'Lunala', 'Marshadow', 'Mewtwo', 'Naganadel', 'Necrozma', 'Palkia', 'Pheromosa', 'Rayquaza', 'Regigigas', 'Reshiram', 'Shuckle',
@@ -1061,7 +1061,7 @@ export const Formats: FormatList = [
 			'Raikou-Jasper', 'Simisear-Hanuman', 'Soarsparce-Alfred', 'Suicune-Opal', 'Typhlosion-Vesuvius', 'Umbreon-Nocturne', 'Vaporeon-Linguine',
 			'Wooper-Wooperoth', 'Yanmega-Zumbra',
 			'Aegislash-Zato', 'Camerupt-Maxie', 'Chikorita-Minty', 'Decidueye-Apollo', 'Dewott-Lutryla', 'Eevee-Durum', 'Flareon-Lasagna', 'Fraxure-Frenzy',
-			'Glaceon-Manicotti', 'Golisopod-Musashi', 'Golurk-Titan', 'Gyarados-Alarix', 'Gyarados-Mega-Alarix', 'Honchkrow-Godfather', 'Jolteon-Radiatori',
+			'Glaceon-Manicotti', 'Golisopod-Musashi', 'Golurk-Titan', 'Gyarados-Alarix', 'Gyarados-Alarix-Mega', 'Honchkrow-Godfather', 'Jolteon-Radiatori',
 			'Kurstraw-Crona', 'Leafeon-Tagliatelle', 'Meganium-Aniseed', 'Sceptile-Moscho', 'Sylveon-Farfalle', 'Zweilous-Terror',
 			'Oranguru + Symbiosis', 'Unown', 'Custap Berry', 'Enigma Berry', 'Jaboca Berry', 'Micle Berry', 'Rowap Berry', 'Battle Bond',
 			'Alarixite',
@@ -1087,7 +1087,7 @@ export const Formats: FormatList = [
 			'Raikou-Jasper', 'Simisear-Hanuman', 'Soarsparce-Alfred', 'Suicune-Opal', 'Typhlosion-Vesuvius', 'Umbreon-Nocturne', 'Vaporeon-Linguine',
 			'Wooper-Wooperoth', 'Yanmega-Zumbra',
 			'Aegislash-Zato', 'Camerupt-Maxie', 'Chikorita-Minty', 'Decidueye-Apollo', 'Dewott-Lutryla', 'Eevee-Durum', 'Flareon-Lasagna', 'Fraxure-Frenzy',
-			'Glaceon-Manicotti', 'Golisopod-Musashi', 'Golurk-Titan', 'Gyarados-Alarix', 'Gyarados-Mega-Alarix', 'Honchkrow-Godfather', 'Jolteon-Radiatori',
+			'Glaceon-Manicotti', 'Golisopod-Musashi', 'Golurk-Titan', 'Gyarados-Alarix', 'Gyarados-Alarix-Mega', 'Honchkrow-Godfather', 'Jolteon-Radiatori',
 			'Kurstraw-Crona', 'Leafeon-Tagliatelle', 'Meganium-Aniseed', 'Sceptile-Moscho', 'Sylveon-Farfalle', 'Zweilous-Terror',
 			'Feebas-Vanessa', 'Granbull-Nobunaga', 'Alomomola-Medella', 'Haxorus-Shredder',
 			'Alarixite',

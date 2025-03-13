@@ -119,6 +119,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	opossie: {
 		name: "Opossie",
 	},
+	possamado: {
+		name: "Possamado",
+	},
 	spearow: {
 		name: "Spearow",
 	},
@@ -668,8 +671,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	gyaradosalarix: {
 		name: "Gyarados-Alarix",
 	},
-	gyaradosmegaalarix: {
-		name: "Gyarados-Mega-Alarix",
+	gyaradosalarixmega: {
+		name: "Gyarados-Alarix-Mega",
 	},
 	lapras: {
 		name: "Lapras",

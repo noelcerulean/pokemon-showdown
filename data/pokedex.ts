@@ -564,6 +564,20 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 0.4,
 		weightkg: 6,
 		color: "Gray",
+		evos: ["Possamado"],
+		eggGroups: ["Field"],
+	},
+	possamado: {
+		num: -579,
+		name: "Possamado",
+		types: ["Normal"],
+		baseStats: {hp: 128, atk: 94, def: 72, spa: 53, spd: 87, spe: 59},
+		abilities: {0: "Fluffy", 1: "Overcoat", H: "Gluttony"},
+		heightm: 0.9,
+		weightkg: 53,
+		color: "Gray",
+		prevo: "Opossie",
+		evoType: "levelFriendship",
 		eggGroups: ["Field"],
 	},
 	spearow: {
@@ -3181,8 +3195,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 235,
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
-		otherFormes: ["Gyarados-Mega-Alarix"],
-		formeOrder: ["Gyarados-Alarix", "Gyarados-Mega-Alarix"],
+		otherFormes: ["Gyarados-Alarix-Mega"],
+		formeOrder: ["Gyarados-Alarix", "Gyarados-Alarix-Mega"],
 	},
 	gyaradosmega: {
 		num: 130,
@@ -3198,9 +3212,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 2", "Dragon"],
 		requiredItem: "Gyaradosite",
 	},
-	gyaradosmegaalarix: {
+	gyaradosalarixmega: {
 		num: 130,
-		name: "Gyarados-Mega-Alarix",
+		name: "Gyarados-Alarix-Mega",
 		baseSpecies: "Gyarados-Alarix",
 		forme: "Mega",
 		types: ["Water", "Dark"],

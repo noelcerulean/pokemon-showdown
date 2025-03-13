@@ -248,6 +248,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	possamado: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	spearow: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -1360,7 +1364,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	gyaradosmegaalarix: {
+	gyaradosalarixmega: {
 		tier: "Uber",
 	},
 	lapras: {
