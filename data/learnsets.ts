@@ -2819,7 +2819,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			playrough: ["7E"],
 			rocksmash: ["7E"],
 			secretpower: ["7E"],
-			wish: ["7E"],
 		},
 	},
 	possamado: {

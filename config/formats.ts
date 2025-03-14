@@ -200,7 +200,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		gameType: 'doubles',
-		ruleset: ['Story Doubles'],
+		ruleset: ['Story Doubles', 'Swagger Clause'],
 		banlist: [
 			'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass',
 			'Ano', 'Bagno', 'Baneno', 'Bonsno', 'Bulbano', 'Bunno', 'Butterno', 'Charino',
