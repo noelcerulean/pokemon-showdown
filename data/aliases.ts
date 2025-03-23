@@ -599,6 +599,7 @@ export const Aliases: {[alias: string]: string} = {
 	cofagriguspride: "Cofagrigus",
 	despotidedespopride: "Despotide",
 	espurrbald: "Espurr",
+	primeapelovepotion: "Primeape",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",

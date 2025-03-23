@@ -1608,6 +1608,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Mankey",
 		evoLevel: 28,
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Primeape-Lovepotion"],
+		formeOrder: ["Primeape", "Primeape-Lovepotion"],
 	},
 	growlithe: {
 		num: 58,
