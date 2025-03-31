@@ -7627,6 +7627,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Super Effective vs. Bug-Type pokemon. Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
 		shortDesc: "Super effective vs. Bug-Types. Traps target.",
 	},
+	verdantblessing: {
+		name: "Verdant Blessing",
+		desc: "In Grassy Terrain, raises the user's Special Attack and Special Defense by 1 stage.",
+		shortDesc: "In Grassy Terrain, +1 to user's SpA and SpD.",
+	},
 	vinewhip: {
 		name: "Vine Whip",
 		shortDesc: "No additional effect.",

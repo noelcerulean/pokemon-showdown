@@ -460,6 +460,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	primeapearmored: {
+		randomBattleMoves: ["closecombat", "earthpower", "earthquake", "gigadrain", "gunkshot", "hornleech", "icepunch", "knockoff", "stoneedge", "uturn", "verdantblessing"],
+		randomDoubleBattleMoves: ["closecombat", "earthpower", "earthquake", "gigadrain", "gunkshot", "hornleech", "icepunch", "knockoff", "stoneedge", "uturn", "verdantblessing"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	growlithe: {
 		tier: "LC",
 	},

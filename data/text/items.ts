@@ -1566,6 +1566,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Primarium Z",
 		desc: "If held by a Primarina with Sparkling Aria, it can use Oceanic Operetta.",
 	},
+	primeapearmor: {
+		name: "Primeape Armor",
+		desc: "Armor developed by DoReMi for Primeape to enhance its battle capabilities.",
+		shortDesc: "Attach to Primeape-Armored forme (not base forme!!!) in the teambuilder.",
+	},
 	prismscale: {
 		name: "Prism Scale",
 		desc: "Evolves Feebas into Milotic when traded.",

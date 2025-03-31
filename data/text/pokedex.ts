@@ -335,6 +335,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	primeape: {
 		name: "Primeape",
 	},
+	primeapearmored: {
+		name: "Primeape-Armored",
+	},
 	growlithe: {
 		name: "Growlithe",
 	},

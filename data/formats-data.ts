@@ -630,6 +630,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	primeapearmored: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	growlithe: {
 		tier: "LC",
 	},

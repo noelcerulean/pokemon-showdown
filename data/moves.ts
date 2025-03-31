@@ -23600,6 +23600,24 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Grass",
 		contestType: "Tough",
 	},
+	verdantblessing: {
+		num: -579,
+		accuracy: 100,
+		basePower: 75,
+		category: "Special",
+		name: "Verdant Blessing",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onModifyMove(move, pokemon) {
+			if (this.field.isTerrain('grassyterrain')) {
+				move.boosts = {spa: 1, spd: 1};
+			}
+		},
+		secondary: null,
+		target: "allAdjacentFoes",
+		type: "Grass",
+	},
 	vinewhip: {
 		num: 22,
 		accuracy: 100,

@@ -5309,6 +5309,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 7,
 		isNonstandard: "Past",
 	},
+	primeapearmor: {
+		name: "Primeape Armor",
+		spritenum: 816,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Primeape-Armored') return false;
+			return true;
+		},
+		itemUser: ["Primeape-Armored"],
+		num: -579,
+		gen: 7,
+	},
 	prismscale: {
 		name: "Prism Scale",
 		spritenum: 365,
