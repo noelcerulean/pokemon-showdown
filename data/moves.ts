@@ -2552,6 +2552,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fighting",
 		contestType: "Tough",
 	},
+	cloudcannon: {
+		num: -580,
+		accuracy: 100,
+		basePower: 90,
+		category: "Special",
+		name: "Cloud Cannon",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, distance: 1, mirror: 1},
+		secondary: {
+			chance: 10,
+			boosts: {
+				evasion: -1,
+			},
+		},
+		target: "normal",
+		type: "Flying",
+		contestType: "Cute",
+	},
 	coaching: {
 		num: 811,
 		accuracy: true,
@@ -2883,7 +2902,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Cosmic Spin",
 		pp: 10,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, contact: 1, mirror: 1},
 		secondary: {
 			chance: 100,
 			boosts: {
@@ -4768,7 +4787,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Encore",
 		pp: 5,
 		priority: 0,
-		flags: {protect: 1, reflectable: 1, mirror: 1, authentic: 1},
+		flags: {protect: 1, reflectable: 1, mirror: 1, sound: 1, authentic: 1},
 		volatileStatus: 'encore',
 		condition: {
 			duration: 3,
@@ -6008,13 +6027,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 	flyingpress: {
 		num: 560,
 		accuracy: 95,
-		basePower: 100,
+		basePower: 80,
 		category: "Physical",
 		name: "Flying Press",
 		pp: 10,
 		flags: {contact: 1, protect: 1, mirror: 1, gravity: 1, distance: 1, nonsky: 1},
-		onEffectiveness(typeMod, target, type, move) {
-			return typeMod + this.dex.getEffectiveness('Flying', type);
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Flying') return 1;
 		},
 		priority: 0,
 		secondary: null,
@@ -16295,24 +16314,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {spe: 1}},
 		contestType: "Tough",
 	},
-	scold: {
-		num: -515,
-		accuracy: 100,
-		basePower: 100,
-		basePowerCallback(pokemon, target, move) {
-			if (target.volatiles['confusion']) return move.basePower * 2;
-			return move.basePower;
-		},
-		category: "Special",
-		name: "Scold",
-		pp: 10,
-		priority: 0,
-		flags: {protect: 1, mirror: 1, sound: 1},
-		secondary: null,
-		target: "normal",
-		type: "Dark",
-		contestType: "Tough",
-	},
 	scorchingsands: {
 		num: 815,
 		accuracy: 100,
@@ -23268,7 +23269,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	twineedle: {
 		num: 41,
 		accuracy: 100,
-		basePower: 50,
+		basePower: 40,
 		category: "Physical",
 		isNonstandard: "Past",
 		name: "Twineedle",
@@ -24408,10 +24409,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
-		secondary: {
-			chance: 30,
-			volatileStatus: 'flinch',
+		basePowerCallback(pokemon, target, move) {
+			if (target.status === 'par') return move.basePower * 1.5;
+			return move.basePower;
 		},
+		secondary: null,
 		target: "normal",
 		type: "Electric",
 		contestType: "Cool",

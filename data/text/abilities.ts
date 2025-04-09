@@ -1387,6 +1387,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			shortDesc: "This Pokemon's Speed is raised 1 stage if hit by a Bug-, Dark-, or Ghost-type attack.",
 		},
 	},
+	rebound: {
+		name: "Rebound",
+		desc: "On switch-in, this Pokemon blocks certain status moves and instead uses the move against the original user.",
+		shortDesc: "On switch-in, blocks certain status moves and bounces them back to the user.",
+
+		move: "#magiccoat",
+	},
 	receiver: {
 		name: "Receiver",
 		shortDesc: "When an opposing Pokemon has a stat stage raised, this Pokemon copies the effect.",
@@ -1907,12 +1914,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "If Sunny Day is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn. If this Pokemon is holding Utility Umbrella, its HP does not get restored.",
 		shortDesc: "If Sunny Day is active, this Pokemon heals 1/16 of its max HP each turn.",
 	},
-	supercharged: {
-		name: "Supercharged",
-		shortDesc: "This Pokemon gains the Charge effect when hit by an Electric attack.",
-
-		start: "  Being hit by [MOVE] charged [POKEMON] with power!",
-	},
 	superluck: {
 		name: "Super Luck",
 		shortDesc: "This Pokemon's critical hit ratio is raised by 1 stage.",
@@ -1982,8 +1983,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	teamspirit: {
 		name: "Team Spirit",
-		desc: "This Pokemon deals 1.5x damage if one of the user's party members fainted last turn.",
-		shortDesc: "Deals 1.5x damage if an ally fainted last turn.",
+		shortDesc: "This Pokemon's allies have the power of their physical attacks multiplied by 1.3.",
+
 	},
 	technician: {
 		name: "Technician",
@@ -2236,13 +2237,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 
 	// CAP
-	rebound: {
-		name: "Rebound",
-		desc: "On switch-in, this Pokemon blocks certain status moves and instead uses the move against the original user.",
-		shortDesc: "On switch-in, blocks certain status moves and bounces them back to the user.",
-
-		move: "#magiccoat",
-	},
 	persistent: {
 		name: "Persistent",
 		desc: "The duration of Gravity, Heal Block, Magic Room, Safeguard, Tailwind, Trick Room, and Wonder Room is increased by 2 turns if the effect is started by this Pokemon.",

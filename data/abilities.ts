@@ -3879,6 +3879,38 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1.5,
 		num: 155,
 	},
+	rebound: {
+		name: "Rebound",
+		onTryHitPriority: 1,
+		onTryHit(target, source, move) {
+			if (this.effectState.target.activeTurns) return;
+
+			if (target === source || move.hasBounced || !move.flags['reflectable']) {
+				return;
+			}
+			const newMove = this.dex.getActiveMove(move.id);
+			newMove.hasBounced = true;
+			this.actions.useMove(newMove, target, source);
+			return null;
+		},
+		onAllyTryHitSide(target, source, move) {
+			if (this.effectState.target.activeTurns) return;
+
+			if (target.isAlly(source) || move.hasBounced || !move.flags['reflectable']) {
+				return;
+			}
+			const newMove = this.dex.getActiveMove(move.id);
+			newMove.hasBounced = true;
+			this.actions.useMove(newMove, this.effectState.target, source);
+			return null;
+		},
+		condition: {
+			duration: 1,
+		},
+		isBreakable: true,
+		rating: 3,
+		num: -3,
+	},
 	receiver: {
 		onFoeAfterBoost(boost, target, source, effect) {
 			if (effect?.name === 'Receiver' || effect?.name === 'Lanchi Berry') return;
@@ -5334,16 +5366,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1.5,
 		num: -522,
 	},
-	supercharged: {
-		onDamagingHit(damage, target, source, move) {
-			if (move.type === 'Electric') {
-				target.addVolatile('charge');
-			}
-		},
-		name: "Supercharged",
-		rating: 2.5,
-		num: -557,
-	},
 	superluck: {
 		onModifyCritRatio(critRatio) {
 			return critRatio + 1;
@@ -5509,14 +5531,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 221,
 	},
 	teamspirit: {
-		onBasePower(basePower, pokemon) {
-			if (pokemon.side.faintedLastTurn) {
-				this.debug('Boosted for a faint last turn');
-				return this.chainModify(1.5);
+		onAllyBasePowerPriority: 22,
+		onAllyBasePower(basePower, attacker, defender, move) {
+			if (attacker !== this.effectState.target && move.category === 'Physical') {
+				this.debug('Team Spirit boost');
+				return this.chainModify([5325, 4096]);
 			}
 		},
 		name: "Team Spirit",
-		rating: 3,
+		rating: 0,
 		num: -545,
 	},
 	technician: {
@@ -6202,39 +6225,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 
 	// CAP
-	rebound: {
-		isNonstandard: "CAP",
-		name: "Rebound",
-		onTryHitPriority: 1,
-		onTryHit(target, source, move) {
-			if (this.effectState.target.activeTurns) return;
-
-			if (target === source || move.hasBounced || !move.flags['reflectable']) {
-				return;
-			}
-			const newMove = this.dex.getActiveMove(move.id);
-			newMove.hasBounced = true;
-			this.actions.useMove(newMove, target, source);
-			return null;
-		},
-		onAllyTryHitSide(target, source, move) {
-			if (this.effectState.target.activeTurns) return;
-
-			if (target.isAlly(source) || move.hasBounced || !move.flags['reflectable']) {
-				return;
-			}
-			const newMove = this.dex.getActiveMove(move.id);
-			newMove.hasBounced = true;
-			this.actions.useMove(newMove, this.effectState.target, source);
-			return null;
-		},
-		condition: {
-			duration: 1,
-		},
-		isBreakable: true,
-		rating: 3,
-		num: -3,
-	},
 	persistent: {
 		isNonstandard: "CAP",
 		name: "Persistent",

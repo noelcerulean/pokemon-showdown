@@ -1560,7 +1560,32 @@ export class BattleActions {
 		const moveHit = target.getMoveHitData(move);
 		moveHit.crit = move.willCrit || false;
 		if (move.willCrit === undefined) {
-			if (critRatio) {
+			if (critRatio === 1) {
+				let turnsScore = Math.min(5, target.activeTurns);
+				let screenScore = 0;
+				if (target.side.getSideCondition('auroraveil') || target.side.getSideCondition('reflect') || target.side.getSideCondition('lightscreen')) screenScore += 2;
+				let defenderDefenseScore = Math.max(0, target.boosts['def']);
+				defenderDefenseScore += Math.max(0, target.boosts['spd']);
+				let defenderAttackScore = Math.max(0, target.boosts['atk'], target.boosts['spa']);
+				defenderAttackScore += Math.max(0, target.boosts['spe'])
+				defenderAttackScore = Math.min(defenderDefenseScore, defenderAttackScore);
+				let attackerAttackScore = Math.max(0, pokemon.boosts['atk'], pokemon.boosts['spa']);
+				attackerAttackScore += Math.max(0, pokemon.boosts['spe'])
+				let criticalScore = (3*screenScore) + (2*defenderDefenseScore) + defenderAttackScore + turnsScore - attackerAttackScore;
+				criticalScore = Math.max(turnsScore, criticalScore);
+				let criticalNumerator = 1;
+				let criticalDenominator = critMult[critRatio];
+				if ((turnsScore == 0 && criticalScore <= 3)  || criticalScore <= 1) criticalNumerator = 0;
+				else if (criticalScore <= 3) criticalDenominator *= 2;
+				else if (criticalScore <=8) {} // pass
+				else if (criticalScore <= 16) {
+					criticalNumerator *= 3;
+					criticalDenominator *= 2;
+				}
+				else criticalNumerator *= 2;
+				moveHit.crit = this.battle.randomChance(criticalNumerator, criticalDenominator);
+			}
+			else if (critRatio) {
 				moveHit.crit = this.battle.randomChance(1, critMult[critRatio]);
 			}
 		}

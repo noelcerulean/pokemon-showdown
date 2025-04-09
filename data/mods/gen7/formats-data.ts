@@ -16,7 +16,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	ivysaurarmored: {
-		randomBattleMoves: ["gigadrain", "overheat", "sleeppowder", "sludgebomb", "synthesis", "thunderbolt"],
+		randomBattleMoves: ["gigadrain", "overheat", "paraboliccharge", "sleeppowder", "sludgebomb", "synthesis", "thunderbolt"],
 		randomDoubleBattleMoves: ["gigadrain", "overheat", "protect", "sleeppowder", "sludgebomb", "synthesis", "thunderbolt"],
 		tier: "NU",
 		doublesTier: "(DUU)",
@@ -102,7 +102,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	butterfree: {
 		randomBattleMoves: ["airslash", "bugbuzz", "energyball", "hurricane", "quiverdance", "sleeppowder"],
 		randomDoubleBattleMoves: ["airslash", "bugbuzz", "hurricane", "protect", "quiverdance", "sleeppowder"],
-		tier: "NU",
+		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
 	weedle: {
@@ -4416,7 +4416,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	phasphorus: {
 		randomBattleMoves: ["firstimpression", "flareblitz", "swordsdance", "wildcharge", "uturn"],
 		randomDoubleBattleMoves: ["firstimpression", "flareblitz", "protect", "swordsdance", "wildcharge", "uturn"],
-		tier: "UU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	synopede: {
@@ -4730,7 +4730,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	gogoatmega: {
 		randomBattleMoves: ["bulkup", "earthquake", "hornleech", "leechseed", "milkdrink", "rockslide", "substitute"],
 		randomDoubleBattleMoves: ["brickbreak", "bulkup", "earthquake", "hornleech", "leechseed", "milkdrink", "protect", "rockslide"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	pancham: {

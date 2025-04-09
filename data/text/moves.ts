@@ -929,6 +929,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Lowers the user's Defense and Special Defense by 1 stage.",
 		shortDesc: "Lowers the user's Defense and Sp. Def by 1.",
 	},
+	cloudcannon: {
+		name: "Cloud Cannon",
+		desc: "Has a 10% chance to lower the target's Evasion by 1 stage.",
+		shortDesc: "10% chance to lower the target's Evasion by 1.",
+	},
 	coaching: {
 		name: "Coaching",
 		desc: "Raises the target's Attack and Defense by 1 stage. Fails if there is no ally adjacent to the user.",
@@ -2140,8 +2145,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	flyingpress: {
 		name: "Flying Press",
-		desc: "This move combines Flying in its type effectiveness against the target. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
-		shortDesc: "Combines Flying in its type effectiveness.",
+		desc: "This move's type effectiveness against Flying is changed to be super effective no matter what this move's type is.",
+		shortDesc: "Super effective on Flying.",
 	},
 	focusblast: {
 		name: "Focus Blast",
@@ -5417,11 +5422,6 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Lowers the target's Speed by 2 stages.",
 		shortDesc: "Lowers the target's Speed by 2.",
 	},
-	scold: {
-		name: "Scold",
-		desc: "Power doubles if the target is confused.",
-		shortDesc: "Power doubles if target is confused.",
-	},
 	scorchingsands: {
 		name: "Scorching Sands",
 		desc: "Has a 30% chance to burn the target.",
@@ -7928,8 +7928,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	zingzap: {
 		name: "Zing Zap",
-		desc: "Has a 30% chance to make the target flinch.",
-		shortDesc: "30% chance to make the target flinch.",
+		desc: "1.5x power if the target is paralyzed.",
+		shortDesc: "1.5x power if the target is paralyzed.",
 	},
 	zippyzap: {
 		name: "Zippy Zap",

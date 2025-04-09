@@ -1251,6 +1251,7 @@ export const Aliases: {[alias: string]: string} = {
 	iggya: "Ignajara-Armored",
 	dragonaira: "Dragonair-Armored",
 	dnaira: "Dragonair-Armored",
+	apea: "Primeape-Armored",
 
 	// shortened deltas
 	cranidosd: "Cranidos-Delta",
