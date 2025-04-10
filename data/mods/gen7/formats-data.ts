@@ -169,7 +169,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	possamado: {
 		randomBattleMoves: ["curse", "earthquake", "knockoff", "return", "slackoff", "swordsdance"],
 		randomDoubleBattleMoves: ["helpinghand", "knockoff", "protect", "return", "slackoff", "swordsdance"],
-		tier: "NU",
+		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
 	spearow: {
@@ -2091,7 +2091,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	linoone: {
 		randomBattleMoves: ["bellydrum", "extremespeed", "shadowclaw", "stompingtantrum"],
 		randomDoubleBattleMoves: ["bellydrum", "extremespeed", "protect", "shadowclaw", "stompingtantrum"],
-		tier: "NU",
+		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
 	wurmple: {
@@ -2142,7 +2142,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	shiftry: {
 		randomBattleMoves: ["defog", "knockoff", "leafstorm", "jumpkick", "suckerpunch", "swordsdance", "woodhammer"],
 		randomDoubleBattleMoves: ["fakeout", "knockoff", "leafblade", "leafstorm", "protect", "suckerpunch", "swordsdance"],
-		tier: "NU",
+		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
 	taillow: {
