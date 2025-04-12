@@ -15207,7 +15207,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
-		recoil: [1, 4],
+		recoil: [33, 100],
 		secondary: null,
 		target: "normal",
 		type: "Water",
