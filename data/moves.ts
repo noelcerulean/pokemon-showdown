@@ -23612,7 +23612,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1, mirror: 1},
 		onModifyMove(move, pokemon) {
 			if (this.field.isTerrain('grassyterrain')) {
-				move.self = { boosts: { spa: -1, spd: -1 } };
+				move.self = { boosts: { spa: 1, spd: 1 } };
 			}
 		},
 		secondary: null,
