@@ -3895,7 +3895,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	basculin: {
 		randomBattleMoves: ["aquajet", "crunch", "headsmash", "liquidation", "superpower"],
 		randomDoubleBattleMoves: ["aquajet", "icebeam", "liquidation", "muddywater", "protect", "superpower"],
-		tier: "NU",
+		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
 	basculinbluestriped: {
@@ -5596,7 +5596,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	bruxish: {
 		randomBattleMoves: ["agility", "aquajet", "crunch", "icefang", "liquidation", "psychicfangs", "swordsdance"],
 		randomDoubleBattleMoves: ["aquajet", "crunch", "liquidation", "protect", "psychicfangs", "swordsdance"],
-		tier: "NU",
+		tier: "NUBL",
 		doublesTier: "DUU",
 	},
 	drild: {

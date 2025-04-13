@@ -95,7 +95,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['[Gen 7] RU'],
-		banlist: ['RU', 'NUBL', 'Damp Rock'],
+		banlist: ['RU', 'NUBL', 'Damp Rock', 'Light Clay'],
 	},
 	{
 		name: "[Gen 7] Ubers",
