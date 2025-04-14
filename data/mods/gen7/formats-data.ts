@@ -697,7 +697,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	haunter: {
-		tier: "NU",
+		tier: "NUBL",
 		doublesTier: "NFE",
 	},
 	gengar: {
@@ -781,7 +781,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	exeggutor: {
 		randomBattleMoves: ["earthpower", "gigadrain", "hiddenpowerfire", "leechseed", "psychic", "sleeppowder", "substitute"],
 		randomDoubleBattleMoves: ["earthpower", "energyball", "hiddenpowerfire", "leechseed", "protect", "psychic", "sleeppowder", "substitute", "trickroom"],
-		tier: "NU",
+		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
 	exeggutoralola: {
@@ -3079,7 +3079,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	luxray: {
 		randomBattleMoves: ["facade", "icefang", "lightningkick", "psychicfangs", "playrough", "suckerpunch", "superpower", "voltswitch"],
 		randomDoubleBattleMoves: ["crunch", "helpinghand", "icefang", "lightningkick", "playrough", "protect", "psychicfangs", "suckerpunch", "superpower", "voltswitch"],
-		tier: "NU",
+		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
 	cranidos: {
@@ -3641,7 +3641,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	samurott: {
 		randomBattleMoves: ["aquajet", "bulkup", "calmmind", "focusblast", "grassknot", "icebeam", "iciclespear", "liquidation", "pinmissile", "sacredsword", "swordsdance", "swordstream", "vacuumwave"],
 		randomDoubleBattleMoves: ["aquajet", "focusblast", "helpinghand", "hiddenpowergrass", "icebeam", "iciclespear", "pinmissile", "protect", "scald", "swordstream", "taunt", "vacuumwave"],
-		tier: "NU",
+		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
 	patrat: {
@@ -4675,15 +4675,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	vivillon: {
 		randomBattleMoves: ["energyball", "hurricane", "quiverdance", "sleeppowder", "substitute"],
 		randomDoubleBattleMoves: ["bugbuzz", "hurricane", "protect", "quiverdance", "sleeppowder"],
-		tier: "NU",
+		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
 	vivillonfancy: {
-		tier: "NU",
+		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
 	vivillonpokeball: {
-		tier: "NU",
+		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
 	litleo: {
