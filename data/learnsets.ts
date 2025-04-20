@@ -49339,7 +49339,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			assist: ["7E", "6E", "5E", "4E", "3E"],
 			attract: ["7M", "6M", "5M", "4M", "3M"],
 			batonpass: ["7E", "6E", "5E", "4E", "3E"],
-			bodyslam: ["3T"],
+			bodyslam: ["7L1", "3T"],
 			brickbreak: ["7M", "6M", "5M", "4M", "3M"],
 			calmmind: ["7M", "6M", "5M", "4M", "3M"],
 			captivate: ["4M"],
