@@ -6402,6 +6402,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		evos: ["Silcoon", "Cascoon"],
 		eggGroups: ["Bug"],
+		cosmeticFormes: ["Wurmple-Party", "Wurmple-Birthday", "Wurmple-Wintermint"],
+		formeOrder: ["Wurmple", "Wurmple-Party", "Wurmple-Birthday", "Wurmple-Wintermint"],
 	},
 	silcoon: {
 		num: 266,
@@ -14815,8 +14817,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 8.5,
 		color: "White",
 		eggGroups: ["Undiscovered"],
-		cosmeticFormes: ["Meowstic-Royal-Pride"],
-		formeOrder: ["Meowstic-Royal", "Meowstic-Royal-Pride"],
+		cosmeticFormes: ["Meowstic-Royal-Pride", "Meowstic-Royal-Relic"],
+		formeOrder: ["Meowstic-Royal", "Meowstic-Royal-Pride", "Meowstic-Royal-Relic"],
 	},
 	honedge: {
 		num: 679,

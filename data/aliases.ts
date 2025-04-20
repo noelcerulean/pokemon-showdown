@@ -600,6 +600,10 @@ export const Aliases: {[alias: string]: string} = {
 	despotidedespopride: "Despotide",
 	espurrbald: "Espurr",
 	primeapelovepotion: "Primeape",
+	meowsticroyalrelic: "Meowstic-Royal",
+	wurmpleparty: "Wurmple",
+	wurmplebirthday: "Wurmple",
+	wurmplewintermint: "Wurmple",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",
