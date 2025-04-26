@@ -4093,7 +4093,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	vanillite: {
 		tier: "LC",
 	},
+	vanillitefnf: {
+		tier: "LC",
+	},
 	vanillish: {
+		tier: "NFE",
+	},
+	vanillishfnf: {
 		tier: "NFE",
 	},
 	vanilluxe: {

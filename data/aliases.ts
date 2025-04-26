@@ -1168,6 +1168,8 @@ export const Aliases: {[alias: string]: string} = {
 	lickifnf: "Lickilicky-FnF",
 	luxefnf: "Vanilluxe-FnF",
 	lluxefnf: "Vanilluxe-FnF",
+	lishfnf: "Vanillish-FnF",
+	litefnf: "Vanillite-FnF",
 	lynx: "Royalynx",
 	sabfnf: "Sableye-FnF",
 	shredder: "Haxorus-Shredder",
