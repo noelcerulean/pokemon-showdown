@@ -1686,6 +1686,7 @@ export const Aliases: {[alias: string]: string} = {
 	splintered: "Splintered Stormshards",
 	stoked: "Stoked Sparksurfer",
 	stormshards: "Splintered Stormshards",
+	zblue: "Torrential Cannonade",
 	zbug: "Savage Spin-Out",
 	zclangingscales: "Clangorous Soulblaze",
 	zclosecombat: "Antique Arabesque",

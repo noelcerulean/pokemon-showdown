@@ -165,6 +165,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Blue Orb",
 		desc: "If held by a Kyogre, this item triggers its Primal Reversion in battle.",
 	},
+	bluiniumz: {
+		name: "Bluinium Z",
+		desc: "If held by Blastoise with Hydro Cannon, it can use Torrential Cannonade.",
+	},
 	blukberry: {
 		name: "Bluk Berry",
 		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",

@@ -607,6 +607,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	bluiniumz: {
+		name: "Bluinium Z",
+		spritenum: 817,
+		onTakeItem: false,
+		zMove: "Torrential Cannonade",
+		zMoveFrom: "Hydro Cannon",
+		itemUser: ["Blastoise"],
+		num: -580,
+		gen: 7,
+		isNonstandard: "Past",
+	},
 	blukberry: {
 		name: "Bluk Berry",
 		spritenum: 44,

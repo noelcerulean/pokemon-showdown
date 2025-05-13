@@ -22922,6 +22922,29 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {def: 1}},
 		contestType: "Tough",
 	},
+	torrentialcannonade: {
+		num: -581,
+		accuracy: true,
+		basePower: 210,
+		category: "Special",
+		isNonstandard: "Past",
+		name: "Torrential Cannonade",
+		pp: 1,
+		priority: 0,
+		flags: {},
+		isZ: "bluiniumz",
+		secondary: {
+			chance: 100,
+			self: {
+				onHit() {
+					this.field.setWeather('raindance');
+				},
+			},
+		},
+		target: "normal",
+		type: "Water",
+		contestType: "Beautiful",
+	},
 	toxic: {
 		num: 92,
 		accuracy: 90,

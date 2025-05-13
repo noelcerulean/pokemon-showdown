@@ -7389,6 +7389,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		start: "  [POKEMON] was subjected to torment!",
 		end: "  [POKEMON] is no longer tormented!",
 	},
+	torrentialcannonade: {
+		name: "Torrential Cannonade",
+		desc: "If this move is successful, the weather becomes Rain.",
+		shortDesc: "Summons Rain.",
+	},
 	toxic: {
 		name: "Toxic",
 		desc: "Badly poisons the target. If a Poison-type Pokemon uses this move, the target cannot avoid the attack, even if the target is in the middle of a two-turn move. If the weather is Miasma, this move cannot miss, cannot be reflected and it infiltrates.",

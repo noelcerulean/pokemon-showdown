@@ -970,6 +970,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		selfSwitch: false,
 		onTry: false,
 	},
+	torrentialcannonade: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	toxic: {
 		inherit: true,
 		onPrepareHit(target, source, move) {
