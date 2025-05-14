@@ -225,6 +225,7 @@ const avatarTable = new Set([
 	'jumpy', 'jumpy-swimsuit', 'jumpy-jester',
 	'junch',
 	'jupiter',
+	'kaeo',
 	'kaito', 'kaito-and-onoufri',
 	'karen-gen2', 'karen',
 	'katarina',
