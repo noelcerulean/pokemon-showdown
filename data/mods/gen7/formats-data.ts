@@ -1712,6 +1712,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	snugsparce: {
 		tier: "PU",
+		doublesTier: "(DUU)",
 	},
 	soarsparce: {
 		randomBattleMoves: ["dracometeor", "fireblast", "glare", "hurricane", "roost"],
@@ -1725,6 +1726,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	stucksparce: {
 		tier: "NU",
+		doublesTier: "(DUU)",
 	},
 	sledgesparce: {
 		randomBattleMoves: ["doubleedge", "earthquake", "glare", "slackoff", "stealthrock", "stoneedge"],

@@ -3357,6 +3357,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a higher chance for a critical hit.",
 		shortDesc: "High critical hit ratio.",
 	},
+	kindleburst: {
+		name: "Kindle Burst",
+		desc: "Fails unless it is the user's first turn on the field.",
+		shortDesc: "Hits first. First turn out only.",
+	},
 	kinesis: {
 		name: "Kinesis",
 		desc: "Lowers the target's accuracy by 1 stage.",

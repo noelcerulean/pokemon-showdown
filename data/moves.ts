@@ -10025,6 +10025,26 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fighting",
 		contestType: "Tough",
 	},
+	kindleburst: {
+		num: -582,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Kindle Burst",
+		pp: 10,
+		priority: 2,
+		flags: {protect: 1, mirror: 1},
+		onTry(source) {
+			if (source.activeMoveActions > 1) {
+				this.hint("Kindle Burst only works on your first turn out.");
+				return false;
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Fire",
+		contestType: "Cool",
+	},
 	kinesis: {
 		num: 134,
 		accuracy: 80,
