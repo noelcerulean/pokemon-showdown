@@ -350,10 +350,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	damp: {
 		name: "Damp",
 		desc: "While this Pokemon is active, Explosion, Mind Blown, Misty Explosion, Self-Destruct, and the Aftermath Ability are prevented from having an effect.",
-		shortDesc: "Prevents Explosion/Mind Blown/Misty Explosion/Self-Destruct/Aftermath while active.",
+		shortDesc: "Prevents Explosion/Mind Blown/Kindle Burst/Self-Destruct/Aftermath while active.",
 		gen7: {
 			desc: "While this Pokemon is active, Explosion, Mind Blown, Self-Destruct, and the Aftermath Ability are prevented from having an effect.",
-			shortDesc: "Prevents Explosion/Mind Blown/Self-Destruct/Aftermath while this Pokemon is active.",
+			shortDesc: "Prevents Explosion/Mind Blown/Kindle Burst/Self-Destruct/Aftermath while active.",
 		},
 		gen6: {
 			desc: "While this Pokemon is active, Explosion, Self-Destruct, and the Aftermath Ability are prevented from having an effect.",
