@@ -834,6 +834,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Great Ball",
 		desc: "A high-performance Ball that provides a higher catch rate than a Poke Ball.",
 	},
+	greeniumz: {
+		name: "Greenium Z",
+		desc: "If held by Venusaur with Frenzy Plant, it can use Frenzied Overgrowth.",
+	},
 	grepaberry: {
 		name: "Grepa Berry",
 		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
@@ -1674,6 +1678,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		desc: "If holder survives a hit, attacker is forced to switch to a random ally. Single use.",
 
 		end: "  [POKEMON] held up its Red Card against [TARGET]!",
+	},
+	rediniumz: {
+		name: "Redinium Z",
+		desc: "If held by Charizard with Blast Burn, it can use Blazing Burnblast.",
 	},
 	redorb: {
 		name: "Red Orb",

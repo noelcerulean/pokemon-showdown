@@ -309,6 +309,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	greeniumz: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	groundgem: {
 		inherit: true,
 		isNonstandard: "Unobtainable",
@@ -566,6 +570,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 	razzberry: {
 		inherit: true,
 		isNonstandard: "Unobtainable",
+	},
+	rediniumz: {
+		inherit: true,
+		isNonstandard: null,
 	},
 	redorb: {
 		inherit: true,

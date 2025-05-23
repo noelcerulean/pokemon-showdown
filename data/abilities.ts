@@ -4031,7 +4031,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Ripen",
 		rating: 2,
-		num: 247,
+		num: -582,
 	},
 	rivalry: {
 		onBasePowerPriority: 24,

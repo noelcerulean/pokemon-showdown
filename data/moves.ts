@@ -1449,6 +1449,29 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fire",
 		contestType: "Cool",
 	},
+	blazingburnblast: {
+		num: -583,
+		accuracy: true,
+		basePower: 210,
+		category: "Special",
+		isNonstandard: "Past",
+		name: "Blazing Burnblast",
+		pp: 1,
+		priority: 0,
+		flags: {},
+		isZ: "rediniumz",
+		secondary: {
+			chance: 100,
+			self: {
+				onHit() {
+					this.field.setWeather('sunnyday');
+				},
+			},
+		},
+		target: "normal",
+		type: "Fire",
+		contestType: "Beautiful",
+	},
 	blizzard: {
 		num: 59,
 		accuracy: 70,
@@ -6338,6 +6361,29 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Ice",
 		contestType: "Clever",
+	},
+	frenziedovergrowth: {
+		num: -584,
+		accuracy: true,
+		basePower: 210,
+		category: "Special",
+		isNonstandard: "Past",
+		name: "Frenzied Overgrowth",
+		pp: 1,
+		priority: 0,
+		flags: {},
+		isZ: "greeniumz",
+		secondary: {
+			chance: 100,
+			self: {
+				onHit() {
+					this.field.setTerrain('grassyterrain');
+				},
+			},
+		},
+		target: "normal",
+		type: "Grass",
+		contestType: "Beautiful",
 	},
 	frenzyplant: {
 		num: 338,

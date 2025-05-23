@@ -494,6 +494,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 10% chance to burn the target and a higher chance for a critical hit.",
 		shortDesc: "High critical hit ratio. 10% chance to burn.",
 	},
+	blazingburnblast: {
+		name: "Blazing Burnblast",
+		desc: "If this move is successful, the weather becomes Sun.",
+		shortDesc: "Summons Sun.",
+	},
 	blizzard: {
 		name: "Blizzard",
 		desc: "Has a 10% chance to freeze the target. If the weather is Hail, this move does not check accuracy.",
@@ -2251,6 +2256,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Resets the stat stages of all active Pokemon to 0.",
 		shortDesc: "Eliminates all stat changes.",
 	},
+	frenziedovergrowth: {
+		name: "Frenzied Overgrowth",
+		desc: "If this move is successful, summons Grassy Terrain.",
+		shortDesc: "Summons Grassy Terrain.",
+	},
 	frenzyplant: {
 		name: "Frenzy Plant",
 		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
@@ -3359,7 +3369,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	kindleburst: {
 		name: "Kindle Burst",
-		desc: "Fails unless it is the user's first turn on the field.",
+		desc: "Fails unless it is the user's first turn on the field. This move is prevented from executing and the user does not lose HP if any active Pokemon has the Damp Ability, or if this move is Fire type and the user is affected by Powder or the weather is Primordial Sea.",
 		shortDesc: "Hits first. First turn out only.",
 	},
 	kinesis: {

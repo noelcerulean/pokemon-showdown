@@ -2005,6 +2005,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	peatot: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	raptopea: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	unown: {
 		isNonstandard: "Past",
 		tier: "Illegal",

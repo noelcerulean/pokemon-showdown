@@ -1666,6 +1666,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	peatot: {
+		tier: "LC",
+	},
+	raptopea: {
+		randomBattleMoves: ["earthquake", "knockoff", "powerwhip", "rockclimb", "swordsdance"],
+		randomDoubleBattleMoves: ["earthquake", "knockoff", "powerwhip", "protect", "rockclimb", "swordsdance"],
+		tier: "PU",
+		doublesTier: "(DUU)",
+	},
 	unown: {
 		tier: "LC",
 	},

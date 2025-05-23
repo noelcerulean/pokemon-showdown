@@ -1049,6 +1049,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	slugnami: {
 		name: "Slugnami",
 	},
+	peatot: {
+		name: "Peatot",
+	},
+	raptopea: {
+		name: "Raptopea",
+	},
 	unown: {
 		name: "Unown",
 	},
