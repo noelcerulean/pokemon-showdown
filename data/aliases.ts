@@ -1224,6 +1224,10 @@ export const Aliases: {[alias: string]: string} = {
 	despo: "Despotide",
 	remofnf: "Remoraid-FnF",
 	porta: "Portamora",
+	razz: "Tarazzpula",
+	tarazz: "Tarazzpula",
+	arach: "Arachgrape",
+	poss: "Possamado",
 
 	// armored
 	vespa: "Vespiquen-Armored",

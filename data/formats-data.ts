@@ -252,6 +252,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	arachgrape: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	tarazzpula: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	spearow: {
 		isNonstandard: "Past",
 		tier: "Illegal",

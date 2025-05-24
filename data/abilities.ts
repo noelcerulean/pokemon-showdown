@@ -576,6 +576,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: -529,
 	},
+	bountiful: {
+		onEatItem(item, pokemon) {
+				this.boost({atk: 1, spa: 1});
+		},
+		name: "Bountiful",
+		rating: 3.5,
+		num: -583,
+	},
 	bugcatcher: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Bug') {

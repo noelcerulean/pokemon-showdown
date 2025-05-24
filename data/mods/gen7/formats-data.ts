@@ -172,6 +172,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
+	arachgrape: {
+		tier: "LC",
+	},
+	tarazzpula: {
+		randomBattleMoves: ["firstimpression", "knockoff", "leechlife", "powerwhip", "rockclimb", "stompingtantrum", "swordsdance"],
+		randomDoubleBattleMoves: ["firstimpression", "knockoff", "leechlife", "powerwhip", "protect", "rockclimb", "stompingtantrum", "swordsdance"],
+		tier: "PU",
+		doublesTier: "(DUU)",
+	},
 	spearow: {
 		tier: "LC",
 	},

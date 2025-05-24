@@ -205,6 +205,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This pokemon's bone moves bypass type-based immunities & levitation-based immunities when dealing damage. Other ability granted immunities, such as Clay Construction, are not ignored.",
 		shortDesc: "User's bone moves bypass type and levitation based immunities when dealing damage.",
 	},
+	bountiful: {
+		name: "Bountiful",
+		desc: "Grants the user +1 Attack and +1 Sp. Attack after successfully consuming a held berry.",
+		shortDesc: "User gains +1 Atk and +1 Sp. Atk after consuming a berry.",
+	},
 	bugcatcher: {
 		name: "Bugcatcher",
 		desc: "This Pokemon is immune to Bug-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Bug-type move.",

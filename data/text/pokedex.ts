@@ -122,6 +122,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	possamado: {
 		name: "Possamado",
 	},
+	arachgrape: {
+		name: "Arachgrape",
+	},
+	tarazzpula: {
+		name: "Tarazzpula",
+	},
 	spearow: {
 		name: "Spearow",
 	},
