@@ -192,15 +192,18 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (!this.runEvent('TryHeal', pokemon)) return false;
 		},
 		onEat(pokemon) {
-			let possibleTypes = [];
-			for (let type of this.dex.types.names()) {
-				if (pokemon.hasType(type)) continue;
-				possibleTypes.push(type);
+			let newTypes: string[] = [];
+			let chosenType;
+			chosenType = this.sample(this.dex.types.names().filter(hasType => (!newTypes.includes(hasType) && !pokemon.types.includes(hasType))));
+			if (chosenType) newTypes.push(chosenType);
+			if (newTypes.length == 0) return false;
+			if (pokemon.hasAbility('Ripen')) {
+				chosenType = this.sample(this.dex.types.names().filter(hasType =>(!newTypes.includes(hasType) && !pokemon.types.includes(hasType))));
+				newTypes.push(chosenType);
 			}
-			const randomType = this.sample(possibleTypes);
-			if (!pokemon.setType(randomType)) return false;
 			this.add('-activate', pokemon, 'item: Alahala Berry', '[consumed]');
-			this.add('-start', pokemon, 'typechange', randomType);
+			pokemon.setType(newTypes);
+			this.add('-start', pokemon, 'typechange', pokemon.getTypes().join('/'), '[from] item: Alahala Berry');
 			this.heal(pokemon.baseMaxhp / 4);
 		},
 		num: -578,
