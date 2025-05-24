@@ -234,6 +234,21 @@ export const Formats: FormatList = [
 		column: 2,
 	},
 	{
+		name: "[Gen 7] Z-Move OU",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/dex/sm/tags/ou/">USM OU Banlist</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/posts/8162240/">USM OU Sample Teams</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3667522/">USM OU Viability Rankings</a>`,
+		],
+
+		mod: 'gen7',
+		ruleset: ['Standard'],
+		banlist: [
+			'Uber', 'Geomancy', 'Arena Trap', 'Sand Veil', 'Snow Cloak', 'Battle Bond', 'Shadow Tag', 'Ignajara + Ignition', 'Blaziken + Speed Boost',
+			'Power Construct', 'King\'s Rock', 'Corrupted Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Melodium Z', 'Meloettium Z'
+		],
+	},
+	{
 		name: "[Gen 7] NFE",
 		desc: `Only Pok&eacute;mon that can evolve are allowed.`,
 

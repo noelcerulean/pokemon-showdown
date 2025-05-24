@@ -3009,7 +3009,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			camouflage: ["7L12"],
 			feintattack: ["7L14"],
 			spiderweb: ["7L17"],
-			replenish: ["7L20"],
 			leafblade: ["7L28"],
 			growth: ["7L31"],
 			agility: ["7L33"],

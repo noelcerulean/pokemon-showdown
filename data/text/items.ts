@@ -167,7 +167,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	bluiniumz: {
 		name: "Bluinium Z",
-		desc: "If held by Blastoise with Hydro Cannon, it can use Torrential Cannonade.",
+		desc: "If held by a final evo Water Starter w/ Hydro Cannon, allows Torrential Cannonade.",
 	},
 	blukberry: {
 		name: "Bluk Berry",
@@ -836,7 +836,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	greeniumz: {
 		name: "Greenium Z",
-		desc: "If held by Venusaur with Frenzy Plant, it can use Frenzied Overgrowth.",
+		desc: "If held by a final evo Grass Starter w/ Frenzy Plant, allows Frenzied Overgrowth.",
 	},
 	grepaberry: {
 		name: "Grepa Berry",
@@ -1681,7 +1681,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	rediniumz: {
 		name: "Redinium Z",
-		desc: "If held by Charizard with Blast Burn, it can use Blazing Burnblast.",
+		desc: "If held by a final evo Fire Starter w/ Blast Burn, allows Blazing Burnblast.",
 	},
 	redorb: {
 		name: "Red Orb",

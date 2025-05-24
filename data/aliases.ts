@@ -604,6 +604,8 @@ export const Aliases: {[alias: string]: string} = {
 	wurmpleparty: "Wurmple",
 	wurmplebirthday: "Wurmple",
 	wurmplewintermint: "Wurmple",
+	florgesbouquet: "Florges",
+	hypnotuxedo: "Hypno",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",
