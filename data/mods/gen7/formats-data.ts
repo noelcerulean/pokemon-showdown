@@ -2405,7 +2405,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	medichammega: {
 		randomBattleMoves: ["fakeout", "highjumpkick", "icepunch", "thunderpunch", "zenheadbutt"],
 		randomDoubleBattleMoves: ["bulletpunch", "drainpunch", "fakeout", "highjumpkick", "icepunch", "protect", "zenheadbutt"],
-		tier: "OU",
+		tier: "Uber",
 		doublesTier: "(DUU)",
 	},
 	electrike: {
@@ -5735,7 +5735,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	kartana: {
 		randomBattleMoves: ["knockoff", "leafblade", "sacredsword", "smartstrike", "swordsdance"],
 		randomDoubleBattleMoves: ["knockoff", "leafblade", "protect", "sacredsword", "smartstrike", "swordsdance"],
-		tier: "OU",
+		tier: "Uber",
 		doublesTier: "DOU",
 	},
 	guzzlord: {

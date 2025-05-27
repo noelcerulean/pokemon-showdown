@@ -109,6 +109,26 @@ export const Formats: FormatList = [
 		banlist: ['NU', 'PUBL'],
 	},
 	{
+		name: "[Gen 7] OU Plus",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/dex/sm/tags/ou/">USM OU Banlist</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/posts/8162240/">USM OU Sample Teams</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3667522/">USM OU Viability Rankings</a>`,
+		],
+
+		mod: 'gen7',
+		ruleset: ['Standard', 'Z-Move Clause'],
+		banlist: [
+			'Uber', 'Arena Trap', 'Sand Veil', 'Snow Cloak', 'Shadow Tag', 'Kyurem-Black + Dragon Dance',
+			'Power Construct', 'King\'s Rock', 'Corrupted Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Melodium Z', 'Meloettium Z'
+		],
+		unbanlist: [
+			'Aegislash', 'Alakazam-Mega', 'Deoxys-Defense', 'Genesect', 'Gothigearna', 'Greninja-Ash', 'Heatran',
+			'Kartana', 'Kyurem-Black', 'Landorus-Base', 'Latias-Mega', 'Latios-Mega', 'Magearna', 'Medicham-Mega',
+			'Naganadel', 'Rapidash-Mega', 'Scizor-Mega', 'Skarmory-Mega', 'Tapu Lele', 'Trevenant-Mega', 'Zygarde-Base',
+		],
+	},
+	{
 		name: "[Gen 7] Ubers",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/posts/8286276/">USM Ubers</a>`,
@@ -230,7 +250,7 @@ export const Formats: FormatList = [
 	// US/UM Singles
 	///////////////////////////////////////////////////////////////////
 	{
-		section: "US/UM Singles",
+		section: "Z-Move Metas",
 		column: 2,
 	},
 	{
@@ -247,6 +267,78 @@ export const Formats: FormatList = [
 			'Uber', 'Geomancy', 'Arena Trap', 'Sand Veil', 'Snow Cloak', 'Battle Bond', 'Shadow Tag', 'Ignajara + Ignition', 'Blaziken + Speed Boost',
 			'Power Construct', 'King\'s Rock', 'Corrupted Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Melodium Z', 'Meloettium Z'
 		],
+	},
+	{
+		name: "[Gen 7] Z-Move UU",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3621217/">USM UU Sample Teams</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3641346/">USM UU Viability Rankings</a>`,
+		],
+
+		mod: 'gen7',
+		ruleset: ['[Gen 7] Z-Move OU'],
+		banlist: ['OU', 'UUBL', 'Mewnium Z', 'Noxious Emission', 'Castform + Mordant Rock', 'Castform + Heat Rock', 'Drought', 'Castform + Damp Rock', 'Drizzle', 'Aurora Veil', 'Poliwrathium Z'],
+		unbanlist: ['Geomancy'],
+	},
+	{
+		name: "[Gen 7] Z-Move RU",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3645338/">USM RU Sample Teams</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3645873/">USM RU Viability Rankings</a>`,
+		],
+
+		mod: 'gen7',
+		ruleset: ['[Gen 7] Z-Move  UU'],
+		banlist: ['UU', 'RUBL', 'Snow Warning', 'Sand Stream', 'Castform + Smooth Rock', 'Castform + Icy Rock'],
+	},
+	{
+		name: "[Gen 7] Z-Move NU",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3632667/">USM NU Sample Teams</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3645166/">USM NU Viability Rankings</a>`,
+		],
+
+		mod: 'gen7',
+		ruleset: ['[Gen 7] Z-Move RU'],
+		banlist: ['RU', 'NUBL', 'Damp Rock', 'Light Clay'],
+	},
+	{
+		name: "[Gen 7] Z-Move PU",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3611496/">USM PU Sample Teams</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3614892/">USM PU Viability Rankings</a>`,
+		],
+
+		mod: 'gen7',
+		ruleset: ['[Gen 7] Z-Move NU'],
+		banlist: ['NU', 'PUBL'],
+	},
+		{
+		name: "[Gen 7] Z-Move OU Plus",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/dex/sm/tags/ou/">USM OU Banlist</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/posts/8162240/">USM OU Sample Teams</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3667522/">USM OU Viability Rankings</a>`,
+		],
+
+		mod: 'gen7',
+		ruleset: ['Standard'],
+		banlist: [
+			'Uber', 'Arena Trap', 'Sand Veil', 'Snow Cloak', 'Shadow Tag', 'Kyurem-Black + Dragon Dance',
+			'Power Construct', 'King\'s Rock', 'Corrupted Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Melodium Z', 'Meloettium Z'
+		],
+		unbanlist: [
+			'Aegislash', 'Alakazam-Mega', 'Deoxys-Defense', 'Genesect', 'Gothigearna', 'Greninja-Ash', 'Heatran',
+			'Kartana', 'Kyurem-Black', 'Landorus-Base', 'Latias-Mega', 'Latios-Mega', 'Magearna', 'Medicham-Mega',
+			'Naganadel', 'Rapidash-Mega', 'Scizor-Mega', 'Skarmory-Mega', 'Tapu Lele', 'Trevenant-Mega', 'Zygarde-Base',
+		],
+	},
+
+	// US/UM Singles
+	///////////////////////////////////////////////////////////////////
+	{
+		section: "US/UM Singles",
+		column: 2,
 	},
 	{
 		name: "[Gen 7] NFE",
