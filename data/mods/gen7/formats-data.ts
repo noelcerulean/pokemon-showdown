@@ -2102,7 +2102,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	mightyena: {
 		randomBattleMoves: ["agility", "crunch", "firefang", "honeclaws", "icefang", "irontail", "knockoff", "partingshot", "playrough", "poisonfang", "psychicfangs", "pursuit", "suckerpunch", "superpower", "switcheroo", "taunt", "thunderfang", "wish"],
 		randomDoubleBattleMoves: ["crunch", "firefang", "icefang", "knockoff", "partingshot", "playrough", "poisonfang", "protect", "psychicfangs", "suckerpunch", "superpower", "taunt"],
-		tier: "OU",
+		tier: "Uber",
 		doublesTier: "(DOU)",
 	},
 	zigzagoon: {

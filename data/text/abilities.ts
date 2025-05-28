@@ -1107,11 +1107,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Mystic Power",
 		shortDesc: "This Pokemon's Sp. Attack is doubled.",
 	},
-	mythocide: {
-		name: "Mythocide",
-		desc: "If a Pokemon uses a Fairy attack against this Pokemon, that Pokemon's attacking stat is halved when calculating the damage to this Pokemon.",
-		shortDesc: "Fairy-type moves against this Pokemon deal damage with a halved attacking stat.",
-	},
 	naturalcure: {
 		name: "Natural Cure",
 		shortDesc: "This Pokemon has its non-volatile status condition cured when it switches out.",
@@ -1765,10 +1760,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	snowwarning: {
 		name: "Snow Warning",
 		shortDesc: "On switch-in, this Pokemon summons Hail.",
-	},
-	solarboost: {
-		name: "Solar Boost",
-		shortDesc: "If Sunny Day is active, this Pokemon's Atk is 1.5x.",
 	},
 	solarpower: {
 		name: "Solar Power",

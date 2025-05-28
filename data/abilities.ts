@@ -3067,26 +3067,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 5,
 		num: -525,
 	},
-	mythocide: {
-		onSourceModifyAtkPriority: 6,
-		onSourceModifyAtk(atk, attacker, defender, move) {
-			if (move.type === 'Fairy') {
-				this.debug('Mythocide weaken');
-				return this.chainModify(0.5);
-			}
-		},
-		onSourceModifySpAPriority: 5,
-		onSourceModifySpA(atk, attacker, defender, move) {
-			if (move.type === 'Fairy') {
-				this.debug('Mythocide weaken');
-				return this.chainModify(0.5);
-			}
-		},
-		isBreakable: true,
-		name: "Mythocide",
-		rating: 3.5,
-		num: -579,
-	},
 	naturalcure: {
 		onCheckShow(pokemon) {
 			// This is complicated
@@ -4999,17 +4979,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Snow Warning",
 		rating: 4,
 		num: -568,
-	},
-	solarboost: {
-		onModifyAtkPriority: 5,
-		onModifyAtk(atk, pokemon) {
-			if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
-				return this.chainModify(1.5);
-			}
-		},
-		name: "Solar Boost",
-		rating: 2,
-		num: -534,
 	},
 	solarpower: {
 		onModifySpAPriority: 5,

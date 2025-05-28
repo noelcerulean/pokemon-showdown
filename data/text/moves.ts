@@ -5129,8 +5129,8 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "When Wishiwashi is in Solo forme, this move Protects and heals 50%. When Wishiwashi is in Schooling forme, this move heals 25% and raises Attack and Sp. Attack by 1 stage each.",
 		shortDesc: "Protects, heals 50% or Heals 25%, +1 Atk/SpA.",
 	},
-	regroup2: {
-		name: "Regroup2",
+	assemble: {
+		name: "Assemble",
 		desc: "When Wishiwashi is in Solo forme, this move Protects and heals 50%. When Wishiwashi is in Schooling forme, this move heals 25% and raises Attack and Sp. Attack by 1 stage each.",
 		shortDesc: "Protects, heals 50% or Heals 25%, +1 Atk/SpA.",
 	},
@@ -6569,8 +6569,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	sparklingaria: {
 		name: "Sparkling Aria",
-		desc: "If the user has not fainted, the target is cured of its burn.",
-		shortDesc: "The target is cured of its burn.",
+		desc: "Power doubles if the target is statused. If the user has not fainted, the target is cured of status.",
+		shortDesc: "Power doubles if target is statused, and cures it.",
 	},
 	sparklingwater: {
 		name: "Sparkling Water",
