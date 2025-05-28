@@ -34,7 +34,7 @@ export const Formats: FormatList = [
 		banlist: [
 			'Uber', 'Latias-Mega', 'Latios-Mega', 'Ignajara + Ignition', 'Gothitelle + Shadow Tag', 'Blaziken + Speed Boost', 'Greninja + Amphibious',
 			'Battle Bond', 'Power Construct', 'King\'s Rock', 'Bright Powder', 'Lax Incense', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z',
-			'Poliwrathium Z,', 'Mewnium Z', 'Sand Veil', 'Snow Cloak', 'Melodium Z', 'Meloettium Z', 'Corrupted Rock'
+			'Poliwrathium Z', 'Mewnium Z', 'Sand Veil', 'Snow Cloak', 'Melodium Z', 'Meloettium Z', 'Corrupted Rock'
 		],
 		unbanlist: ['Scizor-Mega'],
 	},
@@ -45,7 +45,7 @@ export const Formats: FormatList = [
 		ruleset: ['Standard Draft'],
 		banlist: [
 			'Ignajara + Ignition', 'Gothitelle + Shadow Tag', 'Blaziken + Speed Boost', 'Greninja + Amphibious', 'Battle Bond', 'Power Construct',
-			'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Poliwrathium Z,', 'Mewnium Z', 'Melodium Z', 'Meloettium Z'
+			'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Poliwrathium Z', 'Mewnium Z', 'Melodium Z', 'Meloettium Z'
 		],
 	},
 	{
@@ -84,7 +84,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['[Gen 7] UU'],
-		banlist: ['UU', 'RUBL', 'Drizzle', 'Drought', 'Castform + Mordant Rock', 'Castform + Icy Rock', 'Icy Rock', 'Mordant Rock'],
+		banlist: ['UU', 'RUBL', 'Drizzle', 'Drought', 'Icy Rock', 'Mordant Rock'],
 	},
 	{
 		name: "[Gen 7] NU",
@@ -288,8 +288,8 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen7',
-		ruleset: ['[Gen 7] Z-Move  UU'],
-		banlist: ['UU', 'RUBL', 'Drizzle', 'Drought', 'Castform + Mordant Rock', 'Castform + Icy Rock', 'Icy Rock', 'Mordant Rock'],
+		ruleset: ['[Gen 7] Z-Move UU'],
+		banlist: ['UU', 'RUBL', 'Drizzle', 'Drought', 'Icy Rock', 'Mordant Rock'],
 	},
 	{
 		name: "[Gen 7] Z-Move NU",
