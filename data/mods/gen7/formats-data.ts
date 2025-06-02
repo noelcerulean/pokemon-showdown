@@ -1026,7 +1026,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	electivire: {
 		randomBattleMoves: ["bulletpunch", "closecombat", "earthquake", "flamethrower", "icepunch", "lightningkick", "voltswitch"],
 		randomDoubleBattleMoves: ["closecombat", "flamethrower", "followme", "icepunch", "lightningkick", "protect", "stompingtantrum"],
-		tier: "UUBL",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	magby: {
@@ -1065,7 +1065,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	gyarados: {
 		randomBattleMoves: ["bounce", "dragondance", "earthquake", "stoneedge", "substitute", "waterfall"],
 		randomDoubleBattleMoves: ["bounce", "dragondance", "protect", "stoneedge", "thunderwave", "waterfall"],
-		tier: "UUBL",
+		tier: "UU",
 		doublesTier: "DUU",
 	},
 	gyaradosalarix: {
@@ -4080,7 +4080,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	gothigearna: {
 		randomBattleMoves: ["calmmind", "flashcannon", "fleurcannon", "focusblast", "ironhead", "psychic", "psyshock", "shiftgear", "thunderbolt"],
 		randomDoubleBattleMoves: ["aurasphere", "dazzlinggleam", "flashcannon", "fleurcannon", "protect", "psychic", "psyshock", "trickroom", "voltswitch"],
-		tier: "Uber",
+		tier: "OU",
 		doublesTier: "DUber",
 	},
 	solosis: {
