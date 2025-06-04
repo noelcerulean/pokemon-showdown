@@ -4456,6 +4456,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Monster", "Field"],
 		requiredItem: "Ampharosite",
 	},
+	warpharos: {
+		num: -584,
+		name: "Warpharos",
+		types: ["Dark", "Electric"],
+		gender: "N",
+		baseStats: {hp: 103, atk: 96, def: 77, spa: 80, spd: 88, spe: 76},
+		abilities: {0: "Plus", 1: "Tough Claws"},
+		heightm: 1.4,
+		weightkg: 73,
+		color: "Yellow",
+		eggGroups: ["Undiscovered"],
+	},
 	bellossom: {
 		num: 182,
 		name: "Bellossom",

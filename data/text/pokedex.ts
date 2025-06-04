@@ -932,6 +932,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	ampharosmega: {
 		name: "Ampharos-Mega",
 	},
+	warpharos: {
+		name: "Warpharos",
+	},
 	bellossom: {
 		name: "Bellossom",
 	},

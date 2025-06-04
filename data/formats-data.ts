@@ -1849,6 +1849,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	warpharos: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	azurill: {
 		tier: "LC",
 	},

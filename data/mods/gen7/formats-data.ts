@@ -1491,6 +1491,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UUBL",
 		doublesTier: "DUU",
 	},
+	warpharos: {
+		randomBattleMoves: ["darkpulse", "focusblast", "hiddenpowergrass", "hiddenpowerice", "spikes", "taunt", "tailglow", "thunderbolt"],
+		randomDoubleBattleMoves: ["darkpulse", "focusblast", "hiddenpowergrass", "hiddenpowerice", "protect", "spikes", "taunt", "tailglow", "thunderbolt"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
 	azurill: {
 		tier: "LC",
 	},

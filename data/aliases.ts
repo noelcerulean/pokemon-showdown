@@ -1230,6 +1230,7 @@ export const Aliases: {[alias: string]: string} = {
 	tarazz: "Tarazzpula",
 	arach: "Arachgrape",
 	poss: "Possamado",
+	warphy: "Warpharos",
 
 	// armored
 	vespa: "Vespiquen-Armored",
