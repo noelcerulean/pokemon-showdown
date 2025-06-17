@@ -68,6 +68,7 @@ export interface HitEffect {
 
 	// set field conditions
 	pseudoWeather?: string;
+	diffusion?: string;
 	terrain?: string;
 	weather?: string;
 }

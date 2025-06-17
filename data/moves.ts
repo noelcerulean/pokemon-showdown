@@ -5014,6 +5014,50 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Dragon",
 	},
+	evanescediffusion: {
+		num: -585,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Evanesce Diffusion",
+		pp: 10,
+		priority: 0,
+		flags: {},
+		terrain: 'evanescediffusion',
+		condition: {
+			duration: 5,
+			durationCallback(source, effect) {
+				if (source?.hasItem('diffusioncatalyst')) {
+					return 8;
+				}
+				return 5;
+			},
+			onModifyMove(move) {
+			move.infiltrates = true;
+			},
+			onTrapPokemonPriority: -10,
+			onTrapPokemon(pokemon) {
+				pokemon.trapped = pokemon.maybeTrapped = false;
+			},
+			onFieldStart(field, source, effect) {
+				if (effect?.effectType === 'Ability') {
+					this.add('-fieldstart', 'move: Evanesce Diffusion', '[from] ability: ' + effect, '[of] ' + source);
+				} else {
+					this.add('-fieldstart', 'move: Evanesce Diffusion');
+				}
+			},
+			onFieldResidualOrder: 27,
+			onFieldResidualSubOrder: 7,
+			onFieldEnd() {
+				this.add('-fieldend', 'Evanesce Diffusion');
+			},
+		},
+		secondary: null,
+		target: "all",
+		type: "Ghost",
+		zMove: {boost: {spd: 1}},
+		contestType: "Clever",
+	},
 	expandingforce: {
 		num: 797,
 		accuracy: 100,
@@ -13687,6 +13731,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 				return;
 			}
 			this.add('-prepare', attacker, move.name);
+			if (this.field.isDiffusion('evanescediffusion')) {
+				this.attrLastMove('[still]');
+				this.addMove('-anim', attacker, move.name, defender);
+				return;
+			}
 			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
 				return;
 			}
@@ -14854,6 +14903,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (target?.beingCalledBack || target?.switchFlag) move.accuracy = true;
 		},
 		onTryHit(target, pokemon) {
+			if (this.field.isDiffusion('evanescediffusion')) {
+				return false;
+			}
 			target.side.removeSideCondition('pursuit');
 		},
 		condition: {

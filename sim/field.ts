@@ -17,6 +17,8 @@ export class Field {
 	weatherState: EffectState;
 	terrain: ID;
 	terrainState: EffectState;
+	diffusion: ID;
+	diffusionState: EffectState;
 	pseudoWeather: {[id: string]: EffectState};
 
 	constructor(battle: Battle) {
@@ -29,6 +31,8 @@ export class Field {
 		this.weatherState = {id: ''};
 		this.terrain = '';
 		this.terrainState = {id: ''};
+		this.diffusion = '';
+		this.diffusionState = {id: ''};
 		this.pseudoWeather = {};
 	}
 
@@ -178,6 +182,61 @@ export class Field {
 
 	getTerrain() {
 		return this.battle.dex.conditions.getByID(this.terrain);
+	}
+
+	setDiffusion(status: string | Effect, source: Pokemon | 'debug' | null = null, sourceEffect: Effect | null = null) {
+		status = this.battle.dex.conditions.get(status);
+		if (!sourceEffect && this.battle.effect) sourceEffect = this.battle.effect;
+		if (!source && this.battle.event && this.battle.event.target) source = this.battle.event.target;
+		if (source === 'debug') source = this.battle.sides[0].active[0];
+		if (!source) throw new Error(`setting diffusion without a source`);
+
+		if (this.diffusion === status.id) return false;
+		const prevDiffusion = this.diffusion;
+		const prevDiffusionState = this.diffusionState;
+		this.diffusion = status.id;
+		this.diffusionState = {
+			id: status.id,
+			source,
+			sourceSlot: source.getSlot(),
+			duration: status.duration,
+		};
+		if (status.durationCallback) {
+			this.diffusionState.duration = status.durationCallback.call(this.battle, source, source, sourceEffect);
+		}
+		if (!this.battle.singleEvent('FieldStart', status, this.diffusionState, this, source, sourceEffect)) {
+			this.diffusion = prevDiffusion;
+			this.diffusionState = prevDiffusionState;
+			return false;
+		}
+		this.battle.runEvent('DiffusionStart', source, source, status);
+		return true;
+	}
+
+	clearDiffusion() {
+		if (!this.diffusion) return false;
+		const prevDiffusion = this.getDiffusion();
+		this.battle.singleEvent('FieldEnd', prevDiffusion, this.diffusionState, this);
+		this.diffusion = '';
+		this.diffusionState = {id: ''};
+		return true;
+	}
+
+	effectiveDiffusion(target?: Pokemon | Side | Battle) {
+		if (this.battle.event && !target) target = this.battle.event.target;
+		return this.battle.runEvent('TryDiffusion', target) ? this.diffusion : '';
+	}
+
+	isDiffusion(diffusion: string | string[], target?: Pokemon | Side | Battle) {
+		const ourDiffusion = this.effectiveDiffusion(target);
+		if (!Array.isArray(diffusion)) {
+			return ourDiffusion === toID(diffusion);
+		}
+		return diffusion.map(toID).includes(ourDiffusion);
+	}
+
+	getDiffusion() {
+		return this.battle.dex.conditions.getByID(this.diffusion);
 	}
 
 	addPseudoWeather(

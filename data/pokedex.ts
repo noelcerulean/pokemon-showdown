@@ -9535,7 +9535,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 418,
 		name: "Buizel",
 		types: ["Water"],
-		baseStats: {hp: 55, atk: 75, def: 35, spa: 70, spd: 30, spe: 85},
+		baseStats: {hp: 55, atk: 70, def: 35, spa: 70, spd: 30, spe: 85},
 		abilities: {0: "Swift Swim", 1: "Limber", H: "Water Veil"},
 		heightm: 0.7,
 		weightkg: 29.5,

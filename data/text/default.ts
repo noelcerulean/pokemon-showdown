@@ -349,6 +349,13 @@ export const DefaultText: {[k: string]: DefaultText} = {
 		block: "  [POKEMON] is protected by the Psychic Terrain!",
 	},
 
+	// diffusion
+	evanescediffusion: {
+		start: "  Pheromones are warping the tangibility of Pokemon!",
+		end: "  The pheromones disappeared from the battlefield.",
+		block: "  [POKEMON] is protected by the Evanesce Diffusion!",
+	},
+
 	// field effects
 	gravity: {
 		start: "  Gravity intensified!",
