@@ -13416,6 +13416,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			volatileStatus: 'lockedmove',
 		},
 		onAfterMove(pokemon) {
+			if (this.field.isDiffusion('evanescediffusion')) {
+				pokemon.removeVolatile('lockedmove');
+			}
 			if (pokemon.volatiles['lockedmove'] && pokemon.volatiles['lockedmove'].duration === 1) {
 				pokemon.removeVolatile('lockedmove');
 			}
