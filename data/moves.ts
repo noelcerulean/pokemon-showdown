@@ -5023,7 +5023,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {},
-		terrain: 'evanescediffusion',
+		diffusion: 'evanescediffusion',
 		condition: {
 			duration: 5,
 			durationCallback(source, effect) {
