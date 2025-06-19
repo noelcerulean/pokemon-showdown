@@ -1791,11 +1791,6 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
 		shortDesc: "User cannot move next turn.",
 	},
-	evanescediffusion: {
-		name: "Evanesce Diffusion",
-		desc: "For 5 turns, the diffusion becomes Evanesce Diffusion. During the effect, Pokemon cannot be trapped and all moves gain the infiltrate property. Additionally, Phantom Force hits in one turn and Pursuit always fails.",
-		shortDesc: "5 turns. Can't trap, all moves infiltrate.",
-	},
 	expandingforce: {
 		name: "Expanding Force",
 		desc: "If the current terrain is Psychic Terrain and the user is grounded, this move hits all opposing Pokemon and has its power multiplied by 1.5.",

@@ -399,10 +399,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Diancite",
 		desc: "If held by a Diancie, this item allows it to Mega Evolve in battle.",
 	},
-	diffusioncatalyst: {
-		name: "Diffusion Catalyst",
-		desc: "Holder's use of Evanesce Diffusion lasts 8 turns instead of 5.",
-	},
 	diveball: {
 		name: "Dive Ball",
 		desc: "A Poke Ball that works especially well on Pokemon that live underwater.",

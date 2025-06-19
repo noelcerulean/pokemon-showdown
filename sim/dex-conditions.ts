@@ -135,8 +135,6 @@ export interface EventMethods {
 		this: Battle, damage: number, target: Pokemon, source: Pokemon, effect: Effect
 	) => number | boolean | null | void;
 	onFoeDeductPP?: (this: Battle, target: Pokemon, source: Pokemon) => number | void;
-	onFoeDiffusion?: (this: Battle, pokemon: Pokemon) => void;
-	onFoeDiffusionStart?: (this: Battle, target: Pokemon, source: Pokemon, diffusion: Condition) => void;
 	onFoeDisableMove?: (this: Battle, pokemon: Pokemon) => void;
 	onFoeDragOut?: (this: Battle, pokemon: Pokemon, source?: Pokemon, move?: ActiveMove) => void;
 	onFoeEatItem?: (this: Battle, item: Item, pokemon: Pokemon) => void;
@@ -240,8 +238,6 @@ export interface EventMethods {
 		this: Battle, damage: number, target: Pokemon, source: Pokemon, effect: Effect
 	) => number | boolean | null | void;
 	onSourceDeductPP?: (this: Battle, target: Pokemon, source: Pokemon) => number | void;
-	onSourceDiffusion?: (this: Battle, pokemon: Pokemon) => void;
-	onSourceDiffusionStart?: (this: Battle, target: Pokemon, source: Pokemon, diffusion: Condition) => void;
 	onSourceDisableMove?: (this: Battle, pokemon: Pokemon) => void;
 	onSourceDragOut?: (this: Battle, pokemon: Pokemon, source?: Pokemon, move?: ActiveMove) => void;
 	onSourceEatItem?: (this: Battle, item: Item, pokemon: Pokemon) => void;
@@ -347,8 +343,6 @@ export interface EventMethods {
 		this: Battle, damage: number, target: Pokemon, source: Pokemon, effect: Effect
 	) => number | boolean | null | void;
 	onAnyDeductPP?: (this: Battle, target: Pokemon, source: Pokemon) => number | void;
-	onAnyDiffusion?: (this: Battle, pokemon: Pokemon) => void;
-	onAnyDiffusionStart?: (this: Battle, target: Pokemon, source: Pokemon, diffusion: Condition) => void;
 	onAnyDisableMove?: (this: Battle, pokemon: Pokemon) => void;
 	onAnyDragOut?: (this: Battle, pokemon: Pokemon, source?: Pokemon, move?: ActiveMove) => void;
 	onAnyEatItem?: (this: Battle, item: Item, pokemon: Pokemon) => void;
@@ -515,8 +509,6 @@ export interface PokemonEventMethods extends EventMethods {
 		this: Battle, damage: number, target: Pokemon, source: Pokemon, effect: Effect
 	) => number | boolean | null | void;
 	onAllyDeductPP?: (this: Battle, target: Pokemon, source: Pokemon) => number | void;
-	onAllyDiffusion?: (this: Battle, pokemon: Pokemon) => void;
-	onAllyDiffusionStart?: (this: Battle, target: Pokemon, source: Pokemon, diffusion: Condition) => void;
 	onAllyDisableMove?: (this: Battle, pokemon: Pokemon) => void;
 	onAllyDragOut?: (this: Battle, pokemon: Pokemon, source?: Pokemon, move?: ActiveMove) => void;
 	onAllyEatItem?: (this: Battle, item: Item, pokemon: Pokemon) => void;

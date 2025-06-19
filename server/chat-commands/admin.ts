@@ -1405,15 +1405,6 @@ export const commands: Chat.ChatCommands = {
 			[value] = targets.map(toID);
 			void battle.stream.write(`>eval battle.field.setTerrain('${value}', 'debug')`);
 			break;
-		case 'diffusion':
-		case 'd':
-			if (targets.length !== 1) {
-				this.errorReply("Incorrect command use");
-				return this.parse('/help editbattle');
-			}
-			[value] = targets.map(toID);
-			void battle.stream.write(`>eval battle.field.setDiffusion('${value}', 'debug')`);
-			break;
 		case 'reseed':
 			if (targets.length !== 0) {
 				if (targets.length !== 4) {

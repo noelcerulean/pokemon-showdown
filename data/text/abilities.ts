@@ -2079,10 +2079,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		changeAbility: "  [POKEMON] traced [SOURCE]'s [ABILITY]!",
 	},
-	transience: {
-		name: "Transience",
-		shortDesc: "On switch-in, this Pokemon summons Evanesce Diffusion.",
-	},
 	transistor: {
 		name: "Transistor",
 		shortDesc: "This Pokemon's attacking stat is multiplied by 1.5 while using an Electric-type attack.",

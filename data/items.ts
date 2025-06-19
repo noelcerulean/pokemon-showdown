@@ -1487,15 +1487,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
-	diffusioncatalyst: {
-		name: "Diffusion Catalyst",
-		spritenum: 691,
-		fling: {
-			basePower: 60,
-		},
-		num: -583,
-		gen: 7,
-	},
 	diveball: {
 		name: "Dive Ball",
 		spritenum: 101,

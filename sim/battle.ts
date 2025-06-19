@@ -1032,15 +1032,6 @@ export class Battle {
 				end: customHolder ? null : field.clearTerrain, effectHolder: customHolder || field,
 			}, callbackName));
 		}
-		const diffusion = field.getDiffusion();
-		// @ts-ignore - dynamic lookup
-		callback = diffusion[callbackName];
-		if (callback !== undefined || (getKey && field.diffusionState[getKey])) {
-			handlers.push(this.resolvePriority({
-				effect: diffusion, callback, state: field.diffusionState,
-				end: customHolder ? null : field.clearDiffusion, effectHolder: customHolder || field,
-			}, callbackName));
-		}
 
 		return handlers;
 	}

@@ -5736,14 +5736,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2.5,
 		num: 36,
 	},
-	transience: {
-		onStart(source) {
-			this.field.setDiffusion('evanescediffusion');
-		},
-		name: "Transience",
-		rating: 3.5,
-		num: -584,
-	},
 	transistor: {
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
