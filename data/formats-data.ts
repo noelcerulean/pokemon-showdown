@@ -4357,6 +4357,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "DUU",
 	},
+	scraftymega: {
+		randomBattleMoves: ["closecombat", "dragondance", "icepunch", "knockoff", "poisonjab"],
+		randomBattleLevel: 82,
+		randomDoubleBattleMoves: ["closecombat", "coaching", "drainpunch", "fakeout", "icepunch", "knockoff"],
+		randomDoubleBattleLevel: 84,
+		tier: "PU",
+		doublesTier: "DUU",
+	},
 	sigilyph: {
 		randomBattleMoves: ["airslash", "defog", "energyball", "heatwave", "psychic"],
 		randomBattleLevel: 82,

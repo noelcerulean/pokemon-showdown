@@ -611,6 +611,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	scraftite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	sharpedonite: {
 		inherit: true,
 		isNonstandard: null,

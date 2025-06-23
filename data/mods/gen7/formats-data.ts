@@ -3999,6 +3999,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UUBL",
 		doublesTier: "DOU",
 	},
+	scraftymega: {
+		randomBattleMoves: ["bulkup", "dragondance", "drainpunch", "gunkshot", "highjumpkick", "icepunch", "knockoff", "rest"],
+		randomDoubleBattleMoves: ["drainpunch", "fakeout", "icepunch", "knockoff", "protect", "superfang"],
+		tier: "Uber",
+		doublesTier: "DOU",
+	},
 	sigilyph: {
 		randomBattleMoves: ["airslash", "calmmind", "heatwave", "icebeam", "psychic", "psyshock", "roost"],
 		randomDoubleBattleMoves: ["airslash", "calmmind", "heatwave", "protect", "psyshock", "tailwind"],

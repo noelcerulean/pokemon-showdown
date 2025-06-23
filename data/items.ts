@@ -6108,6 +6108,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 232,
 		gen: 2,
 	},
+	scraftite: {
+		name: "Scraftite",
+		spritenum: 820,
+		megaStone: "Scrafty-Mega",
+		megaEvolves: "Scrafty",
+		itemUser: ["Scrafty"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -583,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	seaincense: {
 		name: "Sea Incense",
 		spritenum: 430,

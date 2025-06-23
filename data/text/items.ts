@@ -1809,6 +1809,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Scope Lens",
 		desc: "Holder's critical hit ratio is raised by 1 stage.",
 	},
+	scraftite: {
+		name: "Scraftite",
+		desc: "If held by a Scrafty, this item allows it to Mega Evolve in battle.",
+	},
 	seaincense: {
 		name: "Sea Incense",
 		desc: "Holder's Water-type attacks have 1.2x power.",
