@@ -1532,6 +1532,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Pomeg Berry",
 		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
 	},
+	porygonzite: {
+		name: "Porygonzite",
+		desc: "If held by a Porygon-Z, this item allows it to Mega Evolve in battle.",
+	},
 	poweranklet: {
 		name: "Power Anklet",
 		desc: "Holder's Speed is halved. The Klutz Ability does not ignore this effect.",

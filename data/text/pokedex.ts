@@ -2255,6 +2255,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	porygonz: {
 		name: "Porygon-Z",
 	},
+	porygonzmega: {
+		name: "Porygon-Z-Mega",
+	},
 	gallade: {
 		name: "Gallade",
 	},

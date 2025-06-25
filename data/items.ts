@@ -5195,6 +5195,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 169,
 		gen: 3,
 	},
+	porygonzite: {
+		name: "Porygonzite",
+		spritenum: 821,
+		megaStone: "Porygonz-Mega",
+		megaEvolves: "Porygon-Z",
+		itemUser: ["Porygon-Z"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -584,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	poweranklet: {
 		name: "Power Anklet",
 		spritenum: 354,

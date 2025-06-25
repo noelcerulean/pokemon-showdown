@@ -18633,7 +18633,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Shadow Snipe",
 		pp: 25,
 		priority: 0,
-		flags: {contact: 1, protect: 1},
+		flags: {protect: 1},
 		onAfterMoveSecondarySelf(pokemon, target, move) {
 			if (!target || target.fainted || target.hp <= 0) this.boost({atk: 3}, pokemon, pokemon, move);
 		},

@@ -1193,6 +1193,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UUBL",
 		doublesTier: "DUU",
 	},
+	porygonzmega: {
+		randomBattleMoves: ["icebeam", "nastyplot", "shadowball", "thunderbolt", "triattack", "trick"],
+		randomDoubleBattleMoves: ["darkpulse", "icebeam", "nastyplot", "protect", "thunderbolt", "triattack", "trick"],
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	omanyte: {
 		tier: "LC",
 	},

@@ -1529,6 +1529,15 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
+	porygonzmega: {
+		randomBattleMoves: ["darkpulse", "icebeam", "nastyplot", "thunderbolt", "triattack", "trick"],
+		randomBattleLevel: 80,
+		randomDoubleBattleMoves: ["darkpulse", "icebeam", "protect", "thunderbolt", "triattack", "trick"],
+		randomDoubleBattleLevel: 84,
+		randomBattleNoDynamaxMoves: ["icebeam", "nastyplot", "shadowball", "thunderbolt", "triattack", "trick"],
+		tier: "NUBL",
+		doublesTier: "(DUU)",
+	},
 	omanyte: {
 		tier: "LC",
 	},

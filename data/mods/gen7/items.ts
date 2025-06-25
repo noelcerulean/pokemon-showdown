@@ -543,6 +543,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	porygonzite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	primariumz: {
 		inherit: true,
 		isNonstandard: null,

@@ -126,6 +126,7 @@ export const Formats: FormatList = [
 			'Aegislash', 'Alakazam-Mega', 'Deoxys-Defense', 'Genesect', 'Gothigearna', 'Greninja-Ash', 'Heatran',
 			'Kartana', 'Kyurem-Black', 'Landorus-Base', 'Latias-Mega', 'Latios-Mega', 'Magearna', 'Medicham-Mega',
 			'Naganadel', 'Rapidash-Mega', 'Scizor-Mega', 'Skarmory-Mega', 'Tapu Lele', 'Trevenant-Mega', 'Zygarde-Base',
+			'Scrafty-Mega', 'Porygon-Z-Mega',
 		],
 	},
 	{
