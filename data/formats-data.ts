@@ -1310,6 +1310,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	enchantice: {
+		randomBattleMoves: ["focusblast", "icebeam", "lovelykiss", "nastyplot", "psyshock", "trick"],
+		randomBattleLevel: 86,
+		randomDoubleBattleMoves: ["focusblast", "icebeam", "lovelykiss", "nastyplot", "psychic"],
+		randomDoubleBattleLevel: 86,
+		tier: "(PU)",
+		doublesTier: "(DUU)",
+	},
 	elekid: {
 		tier: "LC",
 	},

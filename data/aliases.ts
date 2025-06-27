@@ -610,6 +610,7 @@ export const Aliases: {[alias: string]: string} = {
 	wurmplewintermint: "Wurmple",
 	florgesbouquet: "Florges",
 	hypnotuxedo: "Hypno",
+	enchanticegothic: "Enchantice",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",

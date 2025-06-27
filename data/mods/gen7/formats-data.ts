@@ -1017,6 +1017,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	enchantice: {
+		randomBattleMoves: ["focusblast", "icebeam", "lovelykiss", "nastyplot", "psychic", "psyshock", "substitute", "trick"],
+		randomDoubleBattleMoves: ["focusblast", "icebeam", "lovelykiss", "nastyplot", "protect", "psychic", "psyshock"],
+		tier: "Uber",
+		doublesTier: "(DUU)",
+	},
 	elekid: {
 		tier: "LC",
 	},

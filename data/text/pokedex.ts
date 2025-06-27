@@ -656,6 +656,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	jynx: {
 		name: "Jynx",
 	},
+	enchantice: {
+		name: "Enchantice",
+	},
 	electabuzz: {
 		name: "Electabuzz",
 	},
