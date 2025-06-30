@@ -4546,7 +4546,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	phantomforce: {
 		name: "Phantom Force",
 		desc: "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally. This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks. If used in Evanesce Diffusion or if user is holding a Power Herb, the move completes in one turn.",
-		shortDesc: "Disappears turn 1. Hits thru protect turn 2. No charge in ED.",
+		shortDesc: "Vanishes T1. Ignores Protect, hits T2. Hits T1 in ED.",
 		gen6: {
 			desc: "If this move is successful, it breaks through the target's Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally. This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks. If used in Evanesce Diffusion or if the user is holding a Power Herb, the move completes in one turn. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
 		},
@@ -4907,7 +4907,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	pursuit: {
 		name: "Pursuit",
 		desc: "If an opposing Pokemon switches out this turn, this move hits that Pokemon before it leaves the field, even if it was not the original target. If the user moves after an opponent using Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch, but not Baton Pass, it will hit that opponent before it leaves the field. Power doubles and no accuracy check is done if the user hits an opponent switching out, and the user's turn is over; if an opponent faints from this, the replacement Pokemon does not become active until the end of the turn. This move fails if used in Evanesce Diffusion.",
-		shortDesc: "2x power if foe is switching. Fails in Evanesce Diffusion.",
+		shortDesc: "2x power if foe is switching. Fails in ED.",
 		gen7: {
 			desc: "If an adjacent opposing Pokemon switches out this turn, this move hits that Pokemon before it leaves the field, even if it was not the original target. If the user moves after an opponent using Parting Shot, U-turn, or Volt Switch, but not Baton Pass, it will hit that opponent before it leaves the field. Power doubles and no accuracy check is done if the user hits an opponent switching out, and the user's turn is over; if an opponent faints from this, the replacement Pokemon does not become active until the end of the turn. This move fails if used in Evanesce Diffusion.",
 		},
@@ -4919,7 +4919,7 @@ export const MovesText: {[k: string]: MoveText} = {
 		},
 		gen3: {
 			desc: "If the target is an opposing Pokemon and it switches out this turn, this move hits that Pokemon before it leaves the field. Power doubles and no accuracy check is done if the user hits an opponent switching out, and the user's turn is over; if an opponent faints from this, the replacement Pokemon becomes active immediately. This move fails if used in Evanesce Diffusion.",
-			shortDesc: "2x power if foe is switching. Fails in Evanesce Diffusion.",
+			shortDesc: "2x power if foe is switching. Fails in ED.",
 		},
 		gen2: {
 			desc: "If the target switches out this turn, this move hits it before it leaves the field with doubled power and the user's turn is over.",
@@ -5758,7 +5758,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	shadowforce: {
 		name: "Shadow Force",
 		desc: "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally. This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks. If used in Evanesce Diffusion or if user is holding a Power Herb, the move completes in one turn.",
-		shortDesc: "Disappears turn 1. Hits thru protect turn 2. No charge in ED.",
+		shortDesc: "Vanishes T1. Ignores Protect, hits T2. Hits T1 in ED.",
 		gen6: {
 			desc: "If this move is successful, it breaks through the target's Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally. This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks. If used in Evanesce Diffusion or if the user is holding a Power Herb, the move completes in one turn. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
 		},
