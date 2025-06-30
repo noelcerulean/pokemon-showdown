@@ -34,7 +34,7 @@ export const Formats: FormatList = [
 		banlist: [
 			'Uber', 'Latias-Mega', 'Latios-Mega', 'Ignajara + Ignition', 'Gothitelle + Shadow Tag', 'Blaziken + Speed Boost', 'Greninja + Amphibious',
 			'Battle Bond', 'Power Construct', 'King\'s Rock', 'Bright Powder', 'Lax Incense', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z',
-			'Poliwrathium Z', 'Mewnium Z', 'Sand Veil', 'Snow Cloak', 'Melodium Z', 'Meloettium Z', 'Corrupted Rock'
+			'Poliwrathium Z', 'Mewnium Z', 'Sand Veil', 'Snow Cloak', 'Melodium Z', 'Meloettium Z', 'Corrupted Rock', 'Pickpossium Z'
 		],
 		unbanlist: ['Scizor-Mega'],
 	},
@@ -45,7 +45,8 @@ export const Formats: FormatList = [
 		ruleset: ['Standard Draft'],
 		banlist: [
 			'Ignajara + Ignition', 'Gothitelle + Shadow Tag', 'Blaziken + Speed Boost', 'Greninja + Amphibious', 'Battle Bond', 'Power Construct',
-			'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Poliwrathium Z', 'Mewnium Z', 'Melodium Z', 'Meloettium Z'
+			'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Poliwrathium Z', 'Mewnium Z', 'Melodium Z', 'Meloettium Z',
+			'Pickpossium Z',
 		],
 	},
 	{
@@ -60,7 +61,8 @@ export const Formats: FormatList = [
 		ruleset: ['Standard', 'Z-Move Clause'],
 		banlist: [
 			'Uber', 'Geomancy', 'Arena Trap', 'Sand Veil', 'Snow Cloak', 'Battle Bond', 'Shadow Tag', 'Ignajara + Ignition', 'Blaziken + Speed Boost',
-			'Power Construct', 'King\'s Rock', 'Corrupted Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Melodium Z', 'Meloettium Z'
+			'Power Construct', 'King\'s Rock', 'Corrupted Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Melodium Z', 'Meloettium Z',
+			'Pickpossium Z',
 		],
 	},
 	{
@@ -266,7 +268,8 @@ export const Formats: FormatList = [
 		ruleset: ['Standard'],
 		banlist: [
 			'Uber', 'Geomancy', 'Arena Trap', 'Sand Veil', 'Snow Cloak', 'Battle Bond', 'Shadow Tag', 'Ignajara + Ignition', 'Blaziken + Speed Boost',
-			'Power Construct', 'King\'s Rock', 'Corrupted Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Melodium Z', 'Meloettium Z'
+			'Power Construct', 'King\'s Rock', 'Corrupted Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Melodium Z', 'Meloettium Z',
+			'Pickpossium Z',
 		],
 	},
 	{
@@ -384,7 +387,7 @@ export const Formats: FormatList = [
 			'Meloettium Z', 'Melodium Z', 'Despotidium Z', 'Psychic Surge', 'Poliwrathium Z', 'Sand Veil', 'Snow Cloak',
 			'King\'s Rock', 'Bright Powder', 'Lax Incense', 'Razor Fang', 'Quick Claw', 'Ignajara + Ignition',
 			'Battle Bond', 'Shadow Tag', 'Damp Rock', 'Smooth Rock', 'Mordant Rock', 'Terrain Extender', 'Baton Pass',
-			'Blaziken + Speed Boost', 'Kommonium Z', 'Toxicroak-Armored',
+			'Blaziken + Speed Boost', 'Kommonium Z', 'Toxicroak-Armored', 'Pickpossium Z',
 		],
 		unbanlist: ['Deoxys-Defense', 'Scizor-Mega', 'Trevenant-Mega'],
 	},

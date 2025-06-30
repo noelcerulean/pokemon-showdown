@@ -757,6 +757,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	rapidraidswipe: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	rapidspin: {
 		inherit: true,
 		basePower: 20,

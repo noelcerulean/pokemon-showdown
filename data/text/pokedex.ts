@@ -122,6 +122,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	possamado: {
 		name: "Possamado",
 	},
+	pickpossum: {
+		name: "Pickpossum",
+	},
+	pickpossumpopo: {
+		name: "Pickpossum-Popo",
+	},
 	arachgrape: {
 		name: "Arachgrape",
 	},
@@ -1835,6 +1841,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	luvdisc: {
 		name: "Luvdisc",
 	},
+	luvdiscfnf: {
+		name: "Luvdisc-FnF",
+	},
+	shorelorn: {
+		name: "Shorelorn",
+	},
 	bagon: {
 		name: "Bagon",
 	},
@@ -3037,6 +3049,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	zekrom: {
 		name: "Zekrom",
+	},
+	omniverum: {
+		name: "Omniverum",
 	},
 	landorus: {
 		name: "Landorus",

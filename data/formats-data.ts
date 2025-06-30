@@ -252,6 +252,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	pickpossum: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	pickpossumpopo: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	arachgrape: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -3206,6 +3214,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	luvdiscfnf: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	shorelorn: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	bagon: {
 		tier: "LC",
 	},
@@ -5008,6 +5024,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 72,
 		tier: "Uber",
 		doublesTier: "DUber",
+	},
+	omniverum: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	landorus: {
 		randomBattleMoves: ["earthpower", "focusblast", "knockoff", "rockpolish", "rockslide", "sludgewave", "stealthrock"],

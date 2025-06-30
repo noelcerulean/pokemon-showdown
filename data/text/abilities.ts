@@ -1950,6 +1950,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			desc: "If Rain Dance is active, this Pokemon's Speed is doubled.",
 		},
 	},
+	swindler: {
+		name: "Swindler",
+		shortDesc: "This Pokemon gains Snatch on the turn it's sent out.",
+
+		start: "  [POKEMON] is ready to swindle a move!",
+	},
 	symbiosis: {
 		name: "Symbiosis",
 		desc: "If an ally uses its item, this Pokemon gives its item to that ally immediately. Does not activate if the ally's item was stolen or knocked off.",
@@ -2078,6 +2084,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		},
 
 		changeAbility: "  [POKEMON] traced [SOURCE]'s [ABILITY]!",
+	},
+	transience: {
+		name: "Transience",
+		shortDesc: "On switch-in, this Pokemon summons Evanesce Diffusion.",
 	},
 	transistor: {
 		name: "Transistor",
@@ -2230,6 +2240,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		transform: "Zen Mode triggered!",
 		transformEnd: "Zen Mode ended!",
+	},
+	zettaflux: {
+		name: "Zettaflux",
+		desc: "This Pokemon's Dragon moves and their effects ignore certain Abilities of other Pokemon and bypass type-based immunities. This Pokemon gains +1 in a random stat after using a damaging Dragon move, not including accuracy or evasion.",
+		shortDesc: "Pokemon's Dragon moves bypass abilities/immunities & boost a random stat by 1.",
+
+		start: "  [POKEMON]'s radiant green light engulfs the battlefield!",
 	},
 
 	// CAP

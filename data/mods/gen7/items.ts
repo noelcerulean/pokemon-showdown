@@ -511,6 +511,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
+	pickpossiumz: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	pidgeotite: {
 		inherit: true,
 		isNonstandard: null,

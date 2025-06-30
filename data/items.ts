@@ -1487,6 +1487,15 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	diffusioncatalyst: {
+		name: "Diffusion Catalyst",
+		spritenum: 822,
+		fling: {
+			basePower: 60,
+		},
+		num: -585,
+		gen: 7,
+	},
 	diveball: {
 		name: "Dive Ball",
 		spritenum: 101,
@@ -3238,6 +3247,34 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 282,
 		gen: 4,
+	},
+	idealssplicer: {
+		name: "Ideals Splicer",
+		spritenum: 824,
+		fling: {
+			basePower: 30,
+		},
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (
+				move && (user.baseSpecies.num === -588) &&
+				(move.type === 'Electric' || move.type === 'Dragon')
+			) {
+				return this.chainModify([5324, 4096]);
+			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if (
+				(source && source.baseSpecies.num === -588) ||
+				pokemon.baseSpecies.num === -588
+			) {
+				return false;
+			}
+			return true;
+		},
+		itemUser: ["Omniverum"],
+		num: -587,
+		gen: 5,
 	},
 	ignajaraarmor: {
 		name: "Ignajara Armor",
@@ -5000,6 +5037,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 204,
 		gen: 3,
+	},
+	pickpossiumz: {
+		name: "Pickpossium Z",
+		spritenum: 825,
+		onTakeItem: false,
+		zMove: "Rapid Raidswipe",
+		zMoveFrom: "Cat Burglary",
+		itemUser: ["Pickpossum", "Pickpossum-Popo"],
+		num: -588,
+		gen: 7,
+		isNonstandard: "Past",
 	},
 	pidgeotite: {
 		name: "Pidgeotite",
@@ -8045,6 +8093,34 @@ export const Items: {[itemid: string]: ItemData} = {
 		spritenum: 722,
 		num: 1229,
 		gen: 8,
+	},
+	truthsplicer: {
+		name: "Truth Splicer",
+		spritenum: 823,
+		fling: {
+			basePower: 30,
+		},
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (
+				move && (user.baseSpecies.num === -588) &&
+				(move.type === 'Fire' || move.type === 'Dragon')
+			) {
+				return this.chainModify([5324, 4096]);
+			}
+		},
+		onTakeItem(item, pokemon, source) {
+			if (
+				(source && source.baseSpecies.num === -588) ||
+				pokemon.baseSpecies.num === -588
+			) {
+				return false;
+			}
+			return true;
+		},
+		itemUser: ["Omniverum"],
+		num: -586,
+		gen: 5,
 	},
 	twistedspoon: {
 		name: "Twisted Spoon",

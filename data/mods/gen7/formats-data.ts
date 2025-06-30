@@ -172,6 +172,16 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
+	pickpossum: {
+		randomBattleMoves: ["catburglary", "extremespeed", "knockoff", "stompingtantrum", "uturn"],
+		randomDoubleBattleMoves: ["catburglary", "extremespeed", "fakeout", "knockoff", "protect", "stompingtantrum", "uturn"],
+		tier: "PU",
+		doublesTier: "(DUU)",
+	},
+	pickpossumpopo: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	arachgrape: {
 		tier: "LC",
 	},
@@ -1020,8 +1030,8 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	enchantice: {
 		randomBattleMoves: ["focusblast", "icebeam", "lovelykiss", "nastyplot", "psychic", "psyshock", "substitute", "trick"],
 		randomDoubleBattleMoves: ["focusblast", "icebeam", "lovelykiss", "nastyplot", "protect", "psychic", "psyshock"],
-		tier: "Uber",
-		doublesTier: "(DUU)",
+		tier: "OU",
+		doublesTier: "DOU",
 	},
 	elekid: {
 		tier: "LC",
@@ -2883,6 +2893,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
+	luvdiscfnf: {
+		tier: "PU",
+	},
+	shorelorn: {
+		randomBattleMoves: ["chillingrime", "hydropump", "painsplit", "shadowball", "uturn"],
+		randomDoubleBattleMoves: ["chillingrime", "hydropump", "protect", "shadowball"],
+		tier: "UUBL",
+		doublesTier: "(DUU)",
+	},
 	bagon: {
 		tier: "LC",
 	},
@@ -4565,6 +4584,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["boltstrike", "dracometeor", "dragonclaw", "honeclaws", "protect", "roost", "tailwind"],
 		tier: "Uber",
 		doublesTier: "DUber",
+	},
+	omniverum: {
+		tier: "AG",
 	},
 	landorus: {
 		randomBattleMoves: ["calmmind", "earthpower", "focusblast", "knockoff", "psychic", "rockpolish", "rockslide", "sludgewave", "stealthrock"],

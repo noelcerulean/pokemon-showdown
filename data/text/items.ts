@@ -399,6 +399,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Diancite",
 		desc: "If held by a Diancie, this item allows it to Mega Evolve in battle.",
 	},
+	diffusioncatalyst: {
+		name: "Diffusion Catalyst",
+		desc: "Holder's use of Diffusion lasts 8 turns instead of 5.",
+	},
 	diveball: {
 		name: "Dive Ball",
 		desc: "A Poke Ball that works especially well on Pokemon that live underwater.",
@@ -964,6 +968,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Icy Rock",
 		desc: "Holder's Hail lasts 8 turns instead of 5. Non-removable from Castform.",
 	},
+	idealssplicer: {
+		name: "Ideals Splicer",
+		desc: "If held by Omniverum, its Dragon- and Electric-type moves have 1.3x power.",
+	},
 	ignajaraarmor: {
 		name: "Ignajara Armor",
 		desc: "Armor developed by DoReMi for Ignajara to enhance its battle capabilities.",
@@ -1466,6 +1474,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Petaya Berry",
 		desc: "Raises holder's Sp. Atk by 1 stage when at 1/4 max HP or less. Single use.",
 	},
+	pickpossiumz: {
+		name: "Pickpossium Z",
+		desc: "If held by a Pickpossum with Cat Burglary, it can use Rapid Raidswipe.",
+	},
 	pidgeotite: {
 		name: "Pidgeotite",
 		desc: "If held by a Pidgeot, this item allows it to Mega Evolve in battle.",
@@ -1526,7 +1538,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	poliwrathiumz: {
 		name: "Poliwrathium Z",
-		desc: "If held by an Poliwrath with Focus Blast, it can use Unified Upsurge.",
+		desc: "If held by a Poliwrath with Focus Blast, it can use Unified Upsurge.",
 	},
 	pomegberry: {
 		name: "Pomeg Berry",
@@ -2523,6 +2535,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	tr99: {
 		name: "TR99",
 		desc: "Teaches certain Pokemon the move Body Press. One use.",
+	},
+	truthsplicer: {
+		name: "Truth Splicer",
+		desc: "If held by Omniverum, its Dragon- and Fire-type moves have 1.3x power.",
 	},
 	twistedspoon: {
 		name: "Twisted Spoon",

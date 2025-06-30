@@ -2142,6 +2142,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fire",
 		contestType: "Clever",
 	},
+	burstofideals: {
+		num: -586,
+		accuracy: 100,
+		basePower: 130,
+		category: "Special",
+		name: "Burst of Ideals",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, light: 1},
+		secondary: {
+			chance: 100,
+			status: 'par',
+		},
+		target: "allAdjacent",
+		type: "Dragon",
+		contestType: "Beautiful",
+	},
 	buzzybuzz: {
 		num: 734,
 		accuracy: 100,
@@ -5013,6 +5030,50 @@ export const Moves: {[moveid: string]: MoveData} = {
 		secondary: null,
 		target: "normal",
 		type: "Dragon",
+	},
+	evanescediffusion: {
+		num: -585,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Evanesce Diffusion",
+		pp: 10,
+		priority: 0,
+		flags: {},
+		diffusion: 'evanescediffusion',
+		condition: {
+			duration: 5,
+			durationCallback(source, effect) {
+				if (source?.hasItem('diffusioncatalyst')) {
+					return 8;
+				}
+				return 5;
+			},
+			onModifyMove(move) {
+			move.infiltrates = true;
+			},
+			onTrapPokemonPriority: -10,
+			onTrapPokemon(pokemon) {
+				pokemon.trapped = pokemon.maybeTrapped = false;
+			},
+			onFieldStart(field, source, effect) {
+				if (effect?.effectType === 'Ability') {
+					this.add('-fieldstart', 'move: Evanesce Diffusion', '[from] ability: ' + effect, '[of] ' + source);
+				} else {
+					this.add('-fieldstart', 'move: Evanesce Diffusion');
+				}
+			},
+			onFieldResidualOrder: 27,
+			onFieldResidualSubOrder: 7,
+			onFieldEnd() {
+				this.add('-fieldend', 'Evanesce Diffusion');
+			},
+		},
+		secondary: null,
+		target: "all",
+		type: "Ghost",
+		zMove: {boost: {spd: 1}},
+		contestType: "Clever",
 	},
 	expandingforce: {
 		num: 797,
@@ -13675,7 +13736,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	phantomforce: {
 		num: 566,
 		accuracy: 100,
-		basePower: 90,
+		basePower: 110,
 		category: "Physical",
 		name: "Phantom Force",
 		pp: 10,
@@ -13687,6 +13748,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 				return;
 			}
 			this.add('-prepare', attacker, move.name);
+			if (this.field.isDiffusion('evanescediffusion')) {
+				this.attrLastMove('[still]');
+				this.addMove('-anim', attacker, move.name, defender);
+				return;
+			}
 			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
 				return;
 			}
@@ -14854,6 +14920,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (target?.beingCalledBack || target?.switchFlag) move.accuracy = true;
 		},
 		onTryHit(target, pokemon) {
+			if (this.field.isDiffusion('evanescediffusion')) {
+				return false;
+			}
 			target.side.removeSideCondition('pursuit');
 		},
 		condition: {
@@ -15115,6 +15184,24 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Water",
 		zMove: {boost: {spe: 1}},
 		contestType: "Beautiful",
+	},
+	rapidraidswipe: {
+		num: -588,
+		accuracy: true,
+		basePower: 160,
+		category: "Physical",
+		isNonstandard: "Past",
+		name: "Rapid Raidswipe",
+		pp: 1,
+		priority: 2,
+		flags: {contact: 1, authentic: 1},
+		isZ: "pickpossiumz",
+		stealsBoosts: true,
+		// Boost stealing implemented in scripts.js
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+		contestType: "Cool",
 	},
 	rapidspin: {
 		num: 229,
@@ -17562,7 +17649,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	shadowforce: {
 		num: 467,
 		accuracy: 100,
-		basePower: 120,
+		basePower: 130,
 		category: "Physical",
 		name: "Shadow Force",
 		pp: 5,
@@ -17574,6 +17661,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 				return;
 			}
 			this.add('-prepare', attacker, move.name);
+			if (this.field.isDiffusion('evanescediffusion')) {
+				this.attrLastMove('[still]');
+				this.addMove('-anim', attacker, move.name, defender);
+				return;
+			}
 			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
 				return;
 			}
@@ -22326,6 +22418,27 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Normal",
 		contestType: "Tough",
 	},
+	taogenesis: {
+		num: -587,
+		accuracy: 100,
+		basePower: 200,
+		category: "Physical",
+		name: "Tao Genesis",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		self: {
+			boosts: {
+				spe: -1,
+				def: -1,
+				spd: -1,
+			},
+		},
+		secondary: null,
+		target: "allAdjacent",
+		type: "Dragon",
+		contestType: "Beautiful",
+	},
 	tarshot: {
 		num: 749,
 		accuracy: 100,
@@ -23358,6 +23471,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {basePower: 160},
 		maxMove: {basePower: 130},
 		contestType: "Cool",
+	},
+	truthrupture: {
+		num: -586,
+		accuracy: 100,
+		basePower: 130,
+		category: "Special",
+		name: "Truth Rupture",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, light: 1},
+		secondary: {
+			chance: 100,
+			status: 'brn',
+		},
+		target: "allAdjacent",
+		type: "Dragon",
+		contestType: "Beautiful",
 	},
 	twineedle: {
 		num: 41,

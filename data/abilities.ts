@@ -5430,6 +5430,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 33,
 	},
+	swindler: {
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Swindler');
+			pokemon.addVolatile('snatch');
+		},
+		condition: {
+			duration: 1,
+		},
+		name: "Swindler",
+		rating: 3.5,
+		num: -586,
+	},
 	symbiosis: {
 		onAllyAfterUseItem(item, pokemon) {
 			if (pokemon.switchFlag) return;
@@ -5735,6 +5747,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Trace",
 		rating: 2.5,
 		num: 36,
+	},
+	transience: {
+		onStart(source) {
+			this.field.setDiffusion('evanescediffusion');
+		},
+		name: "Transience",
+		rating: 3.5,
+		num: -584,
 	},
 	transistor: {
 		onModifyAtkPriority: 5,
@@ -6199,6 +6219,44 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Zen Mode",
 		rating: 0,
 		num: 161,
+	},
+	zettaflux: {
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Zettaflux');
+		},
+		onModifyMovePriority: -5,
+		onModifyMove(move) {
+			if (move.type === 'Dragon') {
+				move.ignoreAbility = true;
+			}
+			if (!move.ignoreImmunity) move.ignoreImmunity = {};
+			if (move.ignoreImmunity !== true) {
+				move.ignoreImmunity['Dragon'] = true;
+			}
+		},
+		onAfterMoveSecondarySelf(source, target, move) {
+			const type = move.type;
+			if (move.type === 'Dragon' && move.category !== 'Status') {
+				const stats: BoostID[] = [];
+				let stat: BoostID;
+				for (stat in target.boosts) {
+					if (stat !== 'accuracy' && stat !== 'evasion' && target.boosts[stat] < 6) {
+						stats.push(stat);
+					}
+				}
+				if (stats.length) {
+					const randomStat = this.sample(stats);
+					const boost: SparseBoostsTable = {};
+					boost[randomStat] = 1;
+					this.boost(boost);
+				} else {
+					return false;
+				}
+			}
+		},
+		name: "Zettaflux",
+		rating: 5,
+		num: -585,
 	},
 
 	// CAP
