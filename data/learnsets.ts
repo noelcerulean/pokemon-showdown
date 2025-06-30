@@ -55301,7 +55301,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			feintattack: ["7L7", "6L7", "5L9", "4L9", "3L16"],
 			haze: ["7L44", "6L44", "5L44", "4L44", "3L44"],
 			healblock: ["7L1", "6L1", "5L4", "4L4", "3L4"],
-			memento: ["7L31", "6L31", "5L37", "4L27", "3L36"],,
+			memento: ["7L31", "6L31", "5L37", "4L27", "3L36"],
 			mysteryroom: ["7T", "6T", "5T", "4T"],
 			nightshade: ["7L33", "6L33", "5L33", "4L33", "3L33"],
 			ominouswind: ["7L13", "6L14", "5L17", "4L17"],
