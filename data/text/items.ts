@@ -919,6 +919,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Heracronite",
 		desc: "If held by a Heracross, this item allows it to Mega Evolve in battle.",
 	},
+	honchkrite: {
+		name: "Honchkrite",
+		desc: "If held by a Honchkrow, this item allows it to Mega Evolve in battle.",
+	},
 	hondewberry: {
 		name: "Hondew Berry",
 		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
@@ -2012,9 +2016,9 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	stick: {
 		name: "Stick",
-		desc: "If held by a Farfetch’d, its critical hit ratio is raised by 2 stages.",
+		desc: "If held by Farfetch’d or Madamme, critical hit ratio is raised by 2 stages.",
 		gen2: {
-			desc: "If held by a Farfetch’d, its critical hit ratio is always at stage 2. (25% crit rate)",
+			desc: "If held by Farfetch’d or Madamme, its critical hit ratio is at stage 2. (25% crit rate)",
 		},
 	},
 	stickybarb: {

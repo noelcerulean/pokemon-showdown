@@ -33441,6 +33441,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			toxic: ["7M", "6M", "5M", "4M"],
 			twister: ["4T"],
 			uproar: ["7T", "6T", "5T", "4T"],
+			vendetta: ["7L1"],
 			wingattack: ["7L1", "6L1", "5L1", "4L1"],
 		},
 		eventData: [
@@ -67466,6 +67467,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			darkpulse: ["8M", "7M", "6M", "5T"],
 			dazzlinggleam: ["8M", "7M", "6M"],
 			defensecurl: ["8L1", "7L1", "6L1", "5L1"],
+			defog: ["7T"],
 			destinybond: ["7L1", "6L1", "5L1"],
 			doubleteam: ["7M", "6M", "5M"],
 			dreameater: ["8L44", "7M", "7L41", "6M", "6L41", "5M", "5L41"],
@@ -79745,6 +79747,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			protect: ["8M", "7M", "6M", "5M"],
 			psychup: ["7M", "6M", "5M"],
 			raindance: ["8M", "7M", "6M", "5M"],
+			ravagement: ["7L1"],
 			rest: ["8M", "7M", "6M", "5M"],
 			return: ["7M", "6M", "5M"],
 			roar: ["8L12", "7M", "7L20", "6M", "6L20", "5M", "5L20"],
