@@ -122,6 +122,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Berry Sweet",
 		desc: "Evolves Milcery into Alcremie when held and spun around.",
 	},
+	berserkseed: {
+		name: "Berserk Seed",
+		desc: "If the terrain is Berserk Terrain, raises holder's Def by 1 stage. Single use.",
+	},
 	bigroot: {
 		name: "Big Root",
 		desc: "Holder gains 1.3x HP from draining/Aqua Ring/Ingrain/Leech Seed/Strength Sap.",

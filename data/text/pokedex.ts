@@ -470,6 +470,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	farfetchdgalar: {
 		name: "Farfetch\u2019d-Galar",
 	},
+	madamme: {
+		name: "Madamme",
+	},
 	doduo: {
 		name: "Doduo",
 	},
@@ -2102,6 +2105,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	honchkrow: {
 		name: "Honchkrow",
 	},
+	honchkrowmega: {
+		name: "Honchkrow-Mega",
+	},
 	honchkrowgodfather: {
 		name: "Honchkrow-Godfather",
 	},
@@ -3010,6 +3016,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	hydreigon: {
 		name: "Hydreigon",
+	},
+	terrofunfaizer: {
+		name: "Terrofu\u0252nfaizer",
 	},
 	larvesta: {
 		name: "Larvesta",

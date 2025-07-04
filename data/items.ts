@@ -488,6 +488,29 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 1111,
 		gen: 8,
 	},
+	berserkseed: {
+		name: "Berserk Seed",
+		spritenum: 827,
+		fling: {
+			basePower: 10,
+		},
+		onStart(pokemon) {
+			if (!pokemon.ignoringItem() && this.field.isTerrain('berserkterrain')) {
+				pokemon.useItem();
+			}
+		},
+		onAnyTerrainStart() {
+			const pokemon = this.effectState.target;
+			if (this.field.isTerrain('berserkterrain')) {
+				pokemon.useItem();
+			}
+		},
+		boosts: {
+			def: 1,
+		},
+		num: -590,
+		gen: 7,
+	},
 	bigroot: {
 		name: "Big Root",
 		spritenum: 29,
@@ -3088,6 +3111,20 @@ export const Items: {[itemid: string]: ItemData} = {
 			return true;
 		},
 		num: 680,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	honchkrite: {
+		name: "Honchkrite",
+		spritenum: 826,
+		megaStone: "Honchkrow-Mega",
+		megaEvolves: "Honchkrow",
+		itemUser: ["Honchkrow"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -589,
 		gen: 6,
 		isNonstandard: "Past",
 	},
@@ -6757,17 +6794,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		spritenum: 475,
 		onModifyCritRatio(critRatio, user) {
-			if (this.toID(user.baseSpecies.baseSpecies) === 'farfetchd') {
+			if (["farfetchd", "madamme"].includes(this.toID(user.baseSpecies.baseSpecies))) {
 				return critRatio + 2;
 			}
 		},
 		onTakeItem(item, pokemon, source) {
-			if ((source && source.baseSpecies.num === 83) || pokemon.baseSpecies.num === 83) {
+			if (
+				(source && source.baseSpecies.num === 83) || (source && source.baseSpecies.num === -589) ||
+				pokemon.baseSpecies.num === 83 || pokemon.baseSpecies.num === -589
+			) {
 				return false;
 			}
 			return true;
 		},
-		itemUser: ["Farfetch\u2019d"],
+		itemUser: ["Farfetch\u2019d", "Madamme"],
 		num: 259,
 		gen: 2,
 		isNonstandard: "Past",

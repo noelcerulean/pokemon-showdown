@@ -657,6 +657,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
+	madamme: {
+		randomBattleMoves: ["drillpeck", "knockoff", "leafblade", "roost", "sacredsword", "swordsdance"],
+		randomDoubleBattleMoves: ["drillpeck", "knockoff", "leafblade", "protect", "sacredsword", "slash", "swordsdance"],
+		tier: "Uber",
+		doublesTier: "(DUU)",
+	},
 	doduo: {
 		tier: "LC",
 	},
@@ -1630,6 +1636,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["bravebird", "heatwave", "pursuit", "roost", "suckerpunch", "superpower"],
 		randomDoubleBattleMoves: ["bravebird", "heatwave", "protect", "roost", "suckerpunch", "superpower"],
 		tier: "NUBL",
+		doublesTier: "(DUU)",
+	},
+	honchkrowmega: {
+		randomBattleMoves: ["bravebird", "heatwave", "pursuit", "roost", "suckerpunch", "superpower"],
+		randomDoubleBattleMoves: ["bravebird", "heatwave", "protect", "roost", "suckerpunch", "superpower"],
+		tier: "Uber",
 		doublesTier: "(DUU)",
 	},
 	honchkrowgodfather: {
@@ -4511,6 +4523,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["darkpulse", "dracometeor", "dragonpulse", "earthpower", "fireblast", "flashcannon", "roost", "superpower", "uturn"],
 		randomDoubleBattleMoves: ["darkpulse", "dracometeor", "fireblast", "flashcannon", "protect", "tailwind", "uturn"],
 		tier: "UU",
+		doublesTier: "DUU",
+	},
+	terrofunfaizer: {
+		randomBattleMoves: ["earthquake", "fireblast", "outrage", "ravagement", "swordsdance"],
+		randomDoubleBattleMoves: ["earthquake", "fireblast", "outrage", "protect", "ravagement", "swordsdance"],
+		tier: "Uber",
 		doublesTier: "DUU",
 	},
 	larvesta: {

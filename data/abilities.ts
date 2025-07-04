@@ -517,6 +517,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 201,
 	},
+	berserksurge: {
+		onStart(source) {
+			this.field.setTerrain('berserkterrain');
+		},
+		name: "Berserk Surge",
+		rating: 3.5,
+		num: 228,
+	},
 	bigpecks: {
 		onAnyModifyBoost(boosts, pokemon) {
 			const bigPecksUser = this.effectState.target;

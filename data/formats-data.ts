@@ -875,6 +875,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	farfetchdgalar: {
 		tier: "LC",
 	},
+	madamme: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	sirfetchd: {
 		randomBattleMoves: ["bravebird", "closecombat", "firstimpression", "knockoff", "swordsdance"],
 		randomBattleLevel: 82,
@@ -1977,6 +1981,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	honchkrow: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	honchkrowmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -4933,6 +4941,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 84,
 		tier: "UU",
 		doublesTier: "(DUU)",
+	},
+	terrofunfaizer: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	larvesta: {
 		tier: "LC",

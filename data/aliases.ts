@@ -120,6 +120,8 @@ export const Aliases: {[alias: string]: string} = {
 	pzmega: "Porygon-Z-Mega",
 	megapz: "Porygon-Z-Mega",
 	megapory: "Porygon-Z-Mega",
+	mhonch: "Honchkrow-Mega",
+	mhonchkrow: "Honchkrow-Mega",
 
 	// Pokéstar Studios
 	blackdoor: "Pokestar Black-Door",
@@ -1154,6 +1156,8 @@ export const Aliases: {[alias: string]: string} = {
 	probo: "Probopass",
 	goth: "Gothitelle",
 	kec: "Kecleon",
+	hydrei: "Hydreigon",
+	ebuzz: "Electabuzz",
 
 	snug: "Snugsparce",
 	soar: "Soarsparce",
@@ -1238,6 +1242,9 @@ export const Aliases: {[alias: string]: string} = {
 	arach: "Arachgrape",
 	poss: "Possamado",
 	warphy: "Warpharos",
+	faizer: "Terrofunfaizer",
+	originaldragon: "Omniverum",
+	ogdragon: "Omniverum",
 
 	// armored
 	vespa: "Vespiquen-Armored",

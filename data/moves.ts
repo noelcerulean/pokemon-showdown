@@ -1246,6 +1246,59 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {effect: 'heal'},
 		contestType: "Cute",
 	},
+	berserkterrain: {
+		num: -589,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Berserk Terrain",
+		pp: 10,
+		priority: 0,
+		flags: {nonsky: 1},
+		terrain: 'berserkterrain',
+		condition: {
+			duration: 5,
+			durationCallback(source, effect) {
+				if (source?.hasItem('terrainextender')) {
+					return 8;
+				}
+				return 5;
+			},
+			onModifyMove(move, target) {
+				if (move.secondaries && target.isGrounded() && !target.isSemiInvulnerable()) {
+					delete move.secondaries;
+					// Technically not a secondary effect, but it is negated
+					delete move.self;
+					if (move.id === 'clangoroussoulblaze') delete move.selfBoost;
+					// Actual negation of `AfterMoveSecondary` effects implemented in scripts.js
+				}
+			},
+			onBasePowerPriority: 6,
+			onBasePower(basePower, attacker, defender, move) {
+				if (move.type === 'Fairy' && defender.isGrounded() && !defender.isSemiInvulnerable()) {
+					this.debug('berserk terrain weaken');
+					return this.chainModify(0.5);
+				}
+			},
+			onFieldStart(field, source, effect) {
+				if (effect?.effectType === 'Ability') {
+					this.add('-fieldstart', 'move: Berserk Terrain', '[from] ability: ' + effect, '[of] ' + source);
+				} else {
+					this.add('-fieldstart', 'move: Berserk Terrain');
+				}
+			},
+			onFieldResidualOrder: 27,
+			onFieldResidualSubOrder: 7,
+			onFieldEnd() {
+				this.add('-fieldend', 'Berserk Terrain');
+			},
+		},
+		secondary: null,
+		target: "all",
+		type: "Dragon",
+		zMove: {boost: {atk: 1}},
+		contestType: "Tough",
+	},
 	bestow: {
 		num: 516,
 		accuracy: true,
@@ -2214,6 +2267,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 				newType = 'Grass';
 			} else if (this.field.isTerrain('mistyterrain')) {
 				newType = 'Fairy';
+			} else if (this.field.isTerrain('berserkterrain')) {
+				newType = 'Dragon';
 			} else if (this.field.isTerrain('psychicterrain')) {
 				newType = 'Psychic';
 			}
@@ -12851,6 +12906,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 				move = 'energyball';
 			} else if (this.field.isTerrain('mistyterrain')) {
 				move = 'moonblast';
+			} else if (this.field.isTerrain('berserkterrain')) {
+				move = 'dragonpulse';
 			} else if (this.field.isTerrain('psychicterrain')) {
 				move = 'psychic';
 			}
@@ -13433,6 +13490,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			volatileStatus: 'lockedmove',
 		},
 		onAfterMove(pokemon) {
+			if (pokemon.isGrounded() && this.field.isTerrain('berserkterrain')) {
+				pokemon.removeVolatile('lockedmove');
+			}
 			if (pokemon.volatiles['lockedmove'] && pokemon.volatiles['lockedmove'].duration === 1) {
 				pokemon.removeVolatile('lockedmove');
 			}
@@ -13705,6 +13765,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			volatileStatus: 'lockedmove',
 		},
 		onAfterMove(pokemon) {
+			if (pokemon.isGrounded() && this.field.isTerrain('berserkterrain')) {
+				pokemon.removeVolatile('lockedmove');
+			}
 			if (pokemon.volatiles['lockedmove'] && pokemon.volatiles['lockedmove'].duration === 1) {
 				pokemon.removeVolatile('lockedmove');
 			}
@@ -15188,12 +15251,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 	rapidraidswipe: {
 		num: -588,
 		accuracy: true,
-		basePower: 160,
+		basePower: 175,
 		category: "Physical",
 		isNonstandard: "Past",
 		name: "Rapid Raidswipe",
 		pp: 1,
-		priority: 2,
+		priority: 0,
 		flags: {contact: 1, authentic: 1},
 		isZ: "pickpossiumz",
 		stealsBoosts: true,
@@ -15251,6 +15314,31 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Normal",
 		contestType: "Cool",
+	},
+	ravagement: {
+		num: -590,
+		accuracy: 100,
+		basePower: 120,
+		category: "Physical",
+		name: "Ravagement",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		self: {
+			volatileStatus: 'lockedmove',
+		},
+		onAfterMove(pokemon) {
+			if (pokemon.isGrounded() && this.field.isTerrain('berserkterrain')) {
+				pokemon.removeVolatile('lockedmove');
+			}
+			if (pokemon.volatiles['lockedmove'] && pokemon.volatiles['lockedmove'].duration === 1) {
+				pokemon.removeVolatile('lockedmove');
+			}
+		},
+		secondary: null,
+		target: "randomNormal",
+		type: "Dark",
+		contestType: "Tough",
 	},
 	razorleaf: {
 		num: 75,
@@ -15647,7 +15735,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	retaliate: {
 		num: 514,
 		accuracy: 100,
-		basePower: 70,
+		basePower: 80,
 		category: "Physical",
 		name: "Retaliate",
 		pp: 5,
@@ -16605,6 +16693,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 					chance: 30,
 					boosts: {
 						spa: -1,
+					},
+				});
+			} else if (this.field.isTerrain('berserkterrain')) {
+				move.secondaries.push({
+					chance: 30,
+					boosts: {
+						def: -1,
 					},
 				});
 			} else if (this.field.isTerrain('psychicterrain')) {
@@ -17621,6 +17716,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			volatileStatus: 'lockedmove',
 		},
 		onAfterMove(pokemon) {
+			if (pokemon.isGrounded() && this.field.isTerrain('berserkterrain')) {
+				pokemon.removeVolatile('lockedmove');
+			}
 			if (pokemon.volatiles['lockedmove'] && pokemon.volatiles['lockedmove'].duration === 1) {
 				pokemon.removeVolatile('lockedmove');
 			}
@@ -22703,6 +22801,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			case 'mistyterrain':
 				move.type = 'Fairy';
 				break;
+			case 'berserkterrain':
+				move.type = 'Dragon';
+				break;
 			case 'psychicterrain':
 				move.type = 'Psychic';
 				break;
@@ -22804,6 +22905,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			volatileStatus: 'lockedmove',
 		},
 		onAfterMove(pokemon) {
+			if (pokemon.isGrounded() && this.field.isTerrain('berserkterrain')) {
+				pokemon.removeVolatile('lockedmove');
+			}
 			if (pokemon.volatiles['lockedmove'] && pokemon.volatiles['lockedmove'].duration === 1) {
 				pokemon.removeVolatile('lockedmove');
 			}
@@ -23761,6 +23865,26 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Normal",
 		contestType: "Cute",
+	},
+	vendetta: {
+		num: -591,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Vendetta",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		onModifyPriority(priority, pokemon, target, move) {
+			if (pokemon.side.faintedLastTurn) {
+				this.debug('Boosted for a faint last turn');
+				return priority + 1;
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+		contestType: "Cool",
 	},
 	venomdrench: {
 		num: 599,

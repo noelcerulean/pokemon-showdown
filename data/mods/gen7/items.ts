@@ -337,6 +337,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	honchkrite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	houndoominite: {
 		inherit: true,
 		isNonstandard: null,

@@ -343,6 +343,11 @@ export const DefaultText: {[k: string]: DefaultText} = {
 		end: "  The mist disappeared from the battlefield.",
 		block: "  [POKEMON] surrounds itself with a protective mist!",
 	},
+	berserkterrain: {
+		start: "  A draconic energy floods the battlefield!",
+		end: "  The energy disappeared from the battlefield.",
+		block: "  [POKEMON] is protected by the Berserk Terrain!",
+	},
 	psychicterrain: {
 		start: "  The battlefield got weird!",
 		end: "  The weirdness disappeared from the battlefield!",
