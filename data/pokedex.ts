@@ -13968,7 +13968,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		prevo: "Deino",
 		evoLevel: 50,
-		evos: ["Hydreigon", "Terrof\u00FCnfaizer"],
+		evos: ["Hydreigon", "Terrofu\u0308nfaizer"],
 		eggGroups: ["Dragon"],
 	},
 	zweilousterror: {
@@ -14000,7 +14000,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	terrofunfaizer: {
 		num: -590,
-		name: "Terrof\u00FCnfaizer",
+		name: "Terrofu\u0308nfaizer",
 		types: ["Dark", "Dragon"],
 		baseStats: {hp: 98, atk: 135, def: 90, spa: 95, spd: 90, spe: 92},
 		abilities: {0: "Berserk Surge"},
