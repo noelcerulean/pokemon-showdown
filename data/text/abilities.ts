@@ -182,6 +182,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage from an attack bringing it to 1/2 or less of its maximum HP, its Special Attack is raised by 1 stage. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect.",
 		shortDesc: "This Pokemon's Sp. Atk is raised by 1 when it reaches 1/2 or less of its max HP.",
 	},
+	berserksurge: {
+		name: "Berserk Surge",
+		shortDesc: "On switch-in, this Pokemon summons Berserk Terrain.",
+	},
 	bigpecks: {
 		name: "Big Pecks",
 		shortDesc: "This pokemon ignores boosts to the target's Defense stat when attacking.",

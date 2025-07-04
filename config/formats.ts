@@ -211,7 +211,7 @@ export const Formats: FormatList = [
 		mod: 'gen7',
 		ruleset: ['Obtainable', 'Sleep Clause Mod', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod'],
 		banlist: [
-			'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass',
+			'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Magcargo-Armored + Flame Absorb',
 			'Ano', 'Bagno', 'Baneno', 'Bonsno', 'Bulbano', 'Bunno', 'Butterno', 'Charino',
 			'Dewno', 'Flyno', 'Gliscno', 'Gravno', 'Hypdian', 'Hypganium', 'Hypgar',
 			'Hypgong', 'Hyplotic', 'Hypmie', 'Hypnodash', 'Hypsicott', 'Hyptuff', 'Ivyno',
