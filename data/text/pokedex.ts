@@ -3018,7 +3018,7 @@ export const PokedexText: {[k: string]: PokedexText} = {
 		name: "Hydreigon",
 	},
 	terrofunfaizer: {
-		name: "Terrofu\u00FCnfaizer",
+		name: "Terrof\u00FCnfaizer",
 	},
 	larvesta: {
 		name: "Larvesta",
