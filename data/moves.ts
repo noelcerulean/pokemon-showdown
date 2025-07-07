@@ -12282,12 +12282,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			target.addVolatile('gastroacid');
 		},
 		basePowerCallback(pokemon, target, move) {
-			if (
-				target.volatiles['protect'] || target.volatiles['banefulbunker'] || target.volatiles['assemble'] ||
-				target.volatiles['spikyshield'] || target.volatiles['kingsshield'] || target.side.getSideCondition('matblock')
-			) {
-				return move.basePower * 0.25;
-			}
+			if (target.volatiles['protect']) return move.basePower * 0.25;
 			return move.basePower;
 		},
 		secondary: null,
