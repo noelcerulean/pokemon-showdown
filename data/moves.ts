@@ -12281,14 +12281,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (target.getAbility().isPermanent) return;
 			target.addVolatile('gastroacid');
 		},
-		basePowerCallback(pokemon, target, move) {
+		onBasePower(basePower, pokemon, target) {
 			if (
 				target.volatiles['protect'] || target.volatiles['banefulbunker'] || target.volatiles['assemble'] ||
 				target.volatiles['spikyshield'] || target.volatiles['kingsshield'] || target.side.getSideCondition('matblock')
 			) {
-				return move.basePower * 0.25;
+				return this.chainModify(.25);
 			}
-			return move.basePower * 1;
 		},
 		secondary: null,
 		target: "allAdjacentFoes",
