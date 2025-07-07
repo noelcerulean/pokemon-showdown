@@ -1044,7 +1044,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onTryHit(target, source, move) {
 				if (!move.flags['protect']) {
 					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
-					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
+					if (move.isZ || move.isMax || move.id === 'mindwipe') target.getMoveHitData(move).zBrokeProtect = true;
 					return;
 				}
 				if (move.smartTarget) {
@@ -10256,7 +10256,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onTryHit(target, source, move) {
 				if (!move.flags['protect'] || move.category === 'Status') {
 					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
-					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
+					if (move.isZ || move.isMax || move.id === 'mindwipe') target.getMoveHitData(move).zBrokeProtect = true;
 					return;
 				}
 				if (move.smartTarget) {
@@ -11294,7 +11294,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onTryHit(target, source, move) {
 				if (!move.flags['protect']) {
 					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
-					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
+					if (move.isZ || move.isMax || move.id === 'mindwipe') target.getMoveHitData(move).zBrokeProtect = true;
 					return;
 				}
 				if (move && (move.target === 'self' || move.category === 'Status')) return;
@@ -12250,7 +12250,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 20,
 		priority: 0,
 		flags: {authentic: 1, cantusetwice: 1},
-		breaksProtect: true,
 		onTry(source) {
 			let move = 'mindwipe';
 			if (source.species.id === 'mewtwoarmored') {
@@ -12280,10 +12279,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		onAfterSubDamage(damage, target) {
 			if (target.getAbility().isPermanent) return;
 			target.addVolatile('gastroacid');
-		},
-		basePowerCallback(pokemon, target, move) {
-			if (target.volatiles['protect']) return move.basePower * 0.25;
-			return move.basePower;
 		},
 		secondary: null,
 		target: "allAdjacentFoes",
@@ -13287,7 +13282,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onTryHit(target, source, move) {
 				if (!move.flags['protect'] || move.category === 'Status') {
 					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
-					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
+					if (move.isZ || move.isMax || move.id === 'mindwipe') target.getMoveHitData(move).zBrokeProtect = true;
 					return;
 				}
 				if (move.smartTarget) {
@@ -14664,7 +14659,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onTryHit(target, source, move) {
 				if (!move.flags['protect']) {
 					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
-					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
+					if (move.isZ || move.isMax || move.id === 'mindwipe') target.getMoveHitData(move).zBrokeProtect = true;
 					return;
 				}
 				if (move.smartTarget) {
@@ -15174,7 +15169,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				if (move.priority <= 0.1) return;
 				if (!move.flags['protect']) {
 					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
-					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
+					if (move.isZ || move.isMax || move.id === 'mindwipe') target.getMoveHitData(move).zBrokeProtect = true;
 					return;
 				}
 				this.add('-activate', target, 'move: Quick Guard');
@@ -15689,7 +15684,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onTryHit(target, source, move) {
 				if (!move.flags['protect']) {
 					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
-					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
+					if (move.isZ || move.isMax || move.id === 'mindwipe') target.getMoveHitData(move).zBrokeProtect = true;
 					return;
 				}
 				if (move.smartTarget) {
@@ -19445,7 +19440,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onTryHit(target, source, move) {
 				if (!move.flags['protect']) {
 					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
-					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
+					if (move.isZ || move.isMax || move.id === 'mindwipe') target.getMoveHitData(move).zBrokeProtect = true;
 					return;
 				}
 				if (move.smartTarget) {
@@ -19957,7 +19952,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onTryHit(target, source, move) {
 				if (!move.flags['protect'] || move.category === 'Status') {
 					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
-					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
+					if (move.isZ || move.isMax || move.id === 'mindwipe') target.getMoveHitData(move).zBrokeProtect = true;
 					return;
 				}
 				if (move.smartTarget) {
@@ -21168,7 +21163,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onTryHit(target, source, move) {
 				if (!move.flags['protect']) {
 					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
-					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
+					if (move.isZ || move.isMax || move.id === 'mindwipe') target.getMoveHitData(move).zBrokeProtect = true;
 					return;
 				}
 				if (move.smartTarget) {
