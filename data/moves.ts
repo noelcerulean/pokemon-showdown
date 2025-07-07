@@ -12247,7 +12247,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 150,
 		category: "Special",
 		name: "Mind Wipe",
-		pp: 20,
+		pp: 10,
 		priority: 0,
 		flags: {authentic: 1, cantusetwice: 1},
 		onTry(source) {
