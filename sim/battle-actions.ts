@@ -726,7 +726,7 @@ export class BattleActions {
 					}
 				}
 				if (broke) {
-					if (move.id === 'feint' || move.id === 'mindwipe') {
+					if (move.id === 'feint') {
 						this.battle.add('-activate', target, 'move: Feint');
 					} else {
 						this.battle.add('-activate', target, 'move: ' + move.name, '[broken]');

@@ -12249,7 +12249,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Mind Wipe",
 		pp: 20,
 		priority: 0,
-		flags: {protect: 1, authentic: 1, cantusetwice: 1},
+		flags: {authentic: 1, cantusetwice: 1},
 		breaksProtect: true,
 		onTry(source) {
 			let move = 'mindwipe';
