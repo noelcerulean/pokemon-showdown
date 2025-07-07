@@ -12286,7 +12286,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				target.volatiles['protect'] || target.volatiles['banefulbunker'] || target.volatiles['assemble'] ||
 				target.volatiles['spikyshield'] || target.volatiles['kingsshield'] || target.side.getSideCondition('matblock')
 			) {
-				return this.chainModify(.25);
+				return this.chainModify(0.25);
 			}
 		},
 		secondary: null,
