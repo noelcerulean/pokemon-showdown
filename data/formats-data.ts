@@ -2425,6 +2425,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	celebiwithered: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	treecko: {
 		tier: "LC",
 	},
@@ -3645,6 +3649,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	spiritombmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	gible: {
 		tier: "LC",

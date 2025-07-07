@@ -122,6 +122,8 @@ export const Aliases: {[alias: string]: string} = {
 	megapory: "Porygon-Z-Mega",
 	mhonch: "Honchkrow-Mega",
 	mhonchkrow: "Honchkrow-Mega",
+	mtomb: "Spiritomb-Mega",
+	mspiritomb: "Spiritomb-Mega",
 
 	// Pokéstar Studios
 	blackdoor: "Pokestar Black-Door",
@@ -614,6 +616,8 @@ export const Aliases: {[alias: string]: string} = {
 	hypnotuxedo: "Hypno",
 	enchanticegothic: "Enchantice",
 	enchanticepeach: "Enchantice",
+	madammegothic: "Madamme",
+	madammepreppy: "Madamme",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",
@@ -1245,6 +1249,9 @@ export const Aliases: {[alias: string]: string} = {
 	faizer: "Terrofunfaizer",
 	originaldragon: "Omniverum",
 	ogdragon: "Omniverum",
+	betabi: "Celebi-Withered",
+	potatobi: "Celebi-Withered",
+	witherbi: "Celebi-Withered",
 
 	// armored
 	vespa: "Vespiquen-Armored",
@@ -1279,6 +1286,8 @@ export const Aliases: {[alias: string]: string} = {
 	dragonaira: "Dragonair-Armored",
 	dnaira: "Dragonair-Armored",
 	apea: "Primeape-Armored",
+	mewtwoa: "Mewtwo-Armored",
+	mindwiper: "Mewtwo-Armored",
 
 	// shortened deltas
 	cranidosd: "Cranidos-Delta",
@@ -1682,6 +1691,7 @@ export const Aliases: {[alias: string]: string} = {
 	ltbts: "Light That Burns the Sky",
 	magmawhip: "Molten Magmawhip",
 	malicious: "Malicious Moonsault",
+	melancholia: "Melancholia Expanse",
 	menacing: "Menacing Moonraze Maelstrom",
 	mmm: "Menacing Moonraze Maelstrom",
 	molten: "Molten Magmawhip",
@@ -1761,6 +1771,7 @@ export const Aliases: {[alias: string]: string} = {
 	zpsychic: "Shattered Psyche",
 	zraichu: "Stoked Sparksurfer",
 	zsing: "Reliquary Recital",
+	zsorceroma: "Melancholia Expanse",
 	zelectrode: "Boisterous Blackout",
 	zpoliwrath: "Unified Upsurge",
 	zgorochu: "Typhonic Thunderstorm",

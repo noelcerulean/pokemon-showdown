@@ -409,6 +409,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "On switch-in, the weather becomes strong winds that remove the weaknesses of the Flying type from Flying-type Pokemon. This weather remains in effect until this Ability is no longer active for any Pokemon, or the weather is changed by Desolate Land or Primordial Sea.",
 		shortDesc: "On switch-in, strong winds begin until this Ability is not active in battle.",
 	},
+	depravity: {
+		name: "Depravity",
+		desc: "After using a Dark move, this pokemon gains +1 in Attack, Sp. Attack, and Speed. Also grants immunity to Dark moves.",
+		shortDesc: "User gains +1 Atk, Sp. Atk, & Speed after using a Dark move; Dark immunity.",
+	},
 	desolateland: {
 		name: "Desolate Land",
 		desc: "On switch-in, the weather becomes extremely harsh sunlight that prevents damaging Water-type moves from executing, in addition to all the effects of Sunny Day. This weather remains in effect until this Ability is no longer active for any Pokemon, or the weather is changed by Delta Stream or Primordial Sea.",

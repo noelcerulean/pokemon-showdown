@@ -1314,6 +1314,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Mewnium Z",
 		desc: "If held by a Mew with Psychic, it can use Genesis Supernova.",
 	},
+	mewtwoarmor: {
+		name: "Mewtwo Armor",
+		desc: "Armor developed by DoReMi for Roserade to enhance its battle capabilities.",
+		shortDesc: "Protects Mewtwo from status and Psychic weaknesses.",
+	},
 	mewtwonitex: {
 		name: "Mewtwonite X",
 		desc: "If held by a Mewtwo, this item allows it to Mega Evolve in battle.",
@@ -1944,6 +1949,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Solganium Z",
 		desc: "Solgaleo or Dusk Mane Necrozma with Sunsteel Strike can use a special Z-Move.",
 	},
+	sorceromiumz: {
+		name: "Sorceromium Z",
+		desc: "If held by a Sorceroma with Creeping Despair, it can use Melancholia Expanse.",
+	},
 	souldew: {
 		name: "Soul Dew",
 		desc: "If held by a Latias/Latios, its Dragon- and Psychic-type moves have 1.2x power.",
@@ -1965,6 +1974,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	spelonberry: {
 		name: "Spelon Berry",
 		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+	},
+	spiritombite: {
+		name: "Spiritombite",
+		desc: "If held by a Spiritomb, this item allows it to Mega Evolve in battle.",
 	},
 	splashplate: {
 		name: "Splash Plate",

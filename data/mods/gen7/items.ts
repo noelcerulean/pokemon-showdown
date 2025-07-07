@@ -655,6 +655,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	sorceromiumz: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	sparkfossil: {
 		inherit: true,
 		isNonstandard: null,
@@ -662,6 +666,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 	spelonberry: {
 		inherit: true,
 		isNonstandard: "Unobtainable",
+	},
+	spiritombite: {
+		inherit: true,
+		isNonstandard: null,
 	},
 	splashplate: {
 		inherit: true,

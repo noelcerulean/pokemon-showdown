@@ -812,6 +812,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	mewtwo: {
 		name: "Mewtwo",
 	},
+	mewtwoarmored: {
+		name: "Mewtwo-Armored",
+	},
 	mewtwomegax: {
 		name: "Mewtwo-Mega-X",
 	},
@@ -1321,6 +1324,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	celebi: {
 		name: "Celebi",
+	},
+	celebiwithered: {
+		name: "Celebi-Withered",
 	},
 	treecko: {
 		name: "Treecko",
@@ -2149,6 +2155,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	spiritomb: {
 		name: "Spiritomb",
+	},
+	spiritombmega: {
+		name: "Spiritomb-Mega",
 	},
 	gible: {
 		name: "Gible",
@@ -3253,6 +3262,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	aromatissefnf: {
 		name: "Aromatisse-FnF",
+	},
+	sorceroma: {
+		name: "Sorceroma",
 	},
 	aromacosta: {
 		name: "Aromacosta",

@@ -4461,6 +4461,46 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 7,
 		isNonstandard: "Past",
 	},
+	mewtwoarmor: {
+		name: "Mewtwo Armor",
+		spritenum: 829,
+		onStart(pokemon) {
+			this.add('-item', pokemon, 'Mewtwo Armor');
+		},
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Mewtwo-Armored') return false;
+			return true;
+		},
+		onEffectivenessPriority: -1,
+		onEffectiveness(typeMod, target, type, move) {
+			if (!target) return;
+			if (target.baseSpecies.num !== 150) return;
+			if (move && move.effectType === 'Move' && move.category !== 'Status' && type === 'Psychic' && typeMod > 0) {
+				this.add('-activate', '', 'Mewtwo Armor');
+				return 0;
+			}
+		},
+		onTryAddVolatile(status, target, source, effect) {
+			if (['attract', 'disable', 'encore', 'healblock', 'taunt', 'torment'].includes(status.id)) {
+				if (target.baseSpecies.num !== 150) return;
+				if (effect.effectType === 'Move') {
+					const effectHolder = this.effectState.target;
+					this.add('-block', target, 'ability: Aroma Veil', '[of] ' + effectHolder);
+				}
+				return null;
+			}
+		},
+		onSetStatus(status, target, source, effect) {
+			if ((effect as Move)?.status) {
+				if (target.baseSpecies.num !== 150) return;
+				this.add('-immune', target, '[from] item: Mewtwo Armor');
+			}
+			return false;
+		},
+		itemUser: ["Mewtwo-Armored"],
+		num: -592,
+		gen: 7,
+	},
 	mewtwonitex: {
 		name: "Mewtwonite X",
 		spritenum: 600,
@@ -6546,6 +6586,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 7,
 		isNonstandard: "Past",
 	},
+	sorceromiumz: {
+		name: "Sorceromium Z",
+		spritenum: 830,
+		onTakeItem: false,
+		zMove: "Melancholia Expanse",
+		zMoveFrom: "Creeping Despair",
+		itemUser: ["Sorceroma"],
+		num: -593,
+		gen: 7,
+		isNonstandard: "Past",
+	},
 	souldew: {
 		name: "Soul Dew",
 		spritenum: 459,
@@ -6610,6 +6661,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		onEat: false,
 		num: 179,
 		gen: 3,
+		isNonstandard: "Past",
+	},
+	spiritombite: {
+		name: "Spiritombite",
+		spritenum: 828,
+		megaStone: "Spiritomb-Mega",
+		megaEvolves: "Spiritomb",
+		itemUser: ["Spiritomb"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -591,
+		gen: 6,
 		isNonstandard: "Past",
 	},
 	splashplate: {
@@ -6807,7 +6872,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			}
 			return true;
 		},
-		itemUser: ["Farfetch\u2019d", "Madamme"],
+		itemUser: ["Farfetch\u2019d", "Madamme", "Madamme-Gothic", "Madamme-Preppy"],
 		num: 259,
 		gen: 2,
 		isNonstandard: "Past",

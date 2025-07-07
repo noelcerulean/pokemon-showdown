@@ -811,7 +811,7 @@ export const Rulesets: {[k: string]: FormatData} = {
 			'Soul-Stealing 7-Star Strike', 'Splintered Stormshards', 'Stoked Sparksurfer', 'Subzero Slammer',
 			'Supersonic Skystrike', 'Tectonic Rage', 'Twinkle Tackle', 'Typhonic Thunderstorm', 'Unified Upsurge', 'Molten Magmawhip',
 			'Reliquary Recital', 'Antique Arabesque', 'Ruinous Riptide', 'Torrential Cannonade', 'Blazing Burnblast', 'Frenzied Overgrowth',
-			'Rapid Raidswipe',
+			'Rapid Raidswipe', 'Melancholia Expanse',
 		],
 		onBegin() {
 			this.add('rule', 'CFZ Clause: Crystal-free Z-Moves are banned');

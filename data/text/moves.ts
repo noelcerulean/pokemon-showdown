@@ -3904,6 +3904,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Mega Punch",
 		shortDesc: "No additional effect.",
 	},
+	melancholiaexpanse: {
+		name: "Melancholia Expanse",
+		shortDesc: "Sets Trick Room after attacking.",
+	},
 	memento: {
 		name: "Memento",
 		desc: "Lowers the target's Attack and Special Attack by 2 stages. The user faints unless this move misses or there is no target. Fails entirely if this move hits a substitute, but does not fail if the target's stats cannot be changed.",
@@ -4049,6 +4053,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		},
 
 		start: "#lockon",
+	},
+	mindwipe: {
+		name: "Mind Wipe",
+		desc: "Deals damage to the target based on target's Defense or Sp. Defense, whichever stat is lower. After successfully hitting the foe, target's boosts and ability will be removed. Sets Psychic Terrain after successfully attacking. Bypasses substitute, hits through Protect at 1/4th power.",
+		shortDesc: "Hits lower def, removes ability/boosts; Sets PT.",
 	},
 	minimize: {
 		name: "Minimize",

@@ -391,6 +391,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 20,
 		priority: 0,
 		flags: {snatch: 1},
+		onModifyMove(move, pokemon) {
+			if (pokemon.species.id === 'mewtwoarmored') {
+				move.boosts = {spa: 2, spd: 2};
+			}
+		},
 		boosts: {
 			spd: 2,
 		},
@@ -11880,6 +11885,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Normal",
 		contestType: "Tough",
 	},
+	melancholiaexpanse: {
+		num: -593,
+		accuracy: true,
+		basePower: 180,
+		category: "Special",
+		isNonstandard: "Past",
+		name: "Melancholia Expanse",
+		pp: 1,
+		priority: 0,
+		flags: {},
+		isZ: "sorceromiumz",
+		onHit(target, source) {
+			this.field.addPseudoWeather('trickroom');
+		},
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+		contestType: "Cool",
+	},
 	memento: {
 		num: 262,
 		accuracy: 100,
@@ -12215,6 +12239,60 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Normal",
 		zMove: {boost: {spa: 1}},
+		contestType: "Clever",
+	},
+	mindwipe: {
+		num: -592,
+		accuracy: 100,
+		basePower: 150,
+		category: "Special",
+		name: "Mind Wipe",
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1, authentic: 1, cantusetwice: 1},
+		onTry(source) {
+			let move = 'mindwipe';
+			if (source.species.id === 'mewtwoarmored') {
+				return;
+			} else {
+				this.add('-fail', source, 'move: Mind Wipe');
+				this.hint("Only Mewtwo-Armored can use this move.");
+				move = 'splash';
+			}
+			this.actions.useMove(move, source);
+			return null;
+		},
+		onModifyMove(move, pokemon, target) {
+			if (!target) return;
+			if (target.getStat('spd', false, true) > target.getStat('def', false, true)) move.defensiveCategory = 'Physical';
+		},
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Dark') return 0;
+		},
+		onHit(target) {
+			target.clearBoosts();
+			this.add('-clearboost', target);
+			this.field.setTerrain('psychicterrain');
+			if (target.getAbility().isPermanent) return;
+			target.addVolatile('gastroacid');
+		},
+		onAfterSubDamage(damage, target) {
+			if (target.getAbility().isPermanent) return;
+			target.addVolatile('gastroacid');
+		},
+		basePowerCallback(pokemon, target, move) {
+			if (
+				target.volatiles['protect'] || target.volatiles['banefulbunker'] || target.volatiles['assemble'] ||
+				target.volatiles['spikyshield'] || target.volatiles['kingsshield'] || target.side.getSideCondition('matblock')
+			) {
+				this.add('-zbroken', target);
+				return move.basePower * 0.25;
+			}
+			return move.basePower * 1;
+		},
+		secondary: null,
+		target: "allAdjacentFoes",
+		type: "Psychic",
 		contestType: "Clever",
 	},
 	minimize: {

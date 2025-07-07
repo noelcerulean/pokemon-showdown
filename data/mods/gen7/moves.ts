@@ -590,6 +590,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	melancholiaexpanse: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	menacingmoonrazemaelstrom: {
 		inherit: true,
 		isNonstandard: null,

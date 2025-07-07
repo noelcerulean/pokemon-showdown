@@ -1114,6 +1114,22 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 191,
 	},
+	depravity: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Dark') {
+				this.add('-immune', target, '[from] ability: Depravity');
+				return null;
+			}
+		},
+		onAfterMoveSecondarySelf(source, target, move) {
+			if (move.type === 'Dark') {
+				this.boost({atk: 1, spa: 1, spe: 1});
+			}
+		},
+		name: "Depravity",
+		rating: 4,
+		num: -587,
+	},
 	desolateland: {
 		onStart(source) {
 			this.field.setWeather('desolateland');
