@@ -1198,6 +1198,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			shortDesc: "This Pokemon's damaging moves hit twice. The second hit has its damage halved.",
 		},
 	},
+	parfumshield: {
+		name: "Parfum Shield",
+		desc: "This Pokemon ignores other Pokemon's Attack, Special Attack, and accuracy stat stages when taking damage, and ignores other Pokemon's Defense, Special Defense, and evasiveness stat stages when dealing damage.",
+		shortDesc: "This Pokemon ignores other Pokemon's stat stages when taking or doing damage.",
+	},
 	pastelveil: {
 		name: "Pastel Veil",
 		shortDesc: "This Pokemon and its allies cannot be poisoned. On switch-in, cures poisoned allies.",

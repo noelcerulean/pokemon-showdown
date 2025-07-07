@@ -41681,7 +41681,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			swagger: ["7M", "7V", "6M", "5M", "4M", "3T"],
 			sweetscent: ["7V"],
 			swift: ["8M", "7V", "4T", "3T"],
-			switcheroo: ["&L1"],
+			switcheroo: ["7L1"],
 			swordsdance: ["8M", "7M", "6M", "5M", "4M", "3T"],
 			synthesis: ["7T", "6T", "5T", "4T"],
 			thunderwave: ["8M", "7M", "6M", "5M", "4M"],

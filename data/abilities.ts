@@ -3383,6 +3383,27 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4.5,
 		num: 185,
 	},
+	parfumshield: {
+		name: "Parfum Shield",
+		onAnyModifyBoost(boosts, pokemon) {
+			const parfumshieldUser = this.effectState.target;
+			if (parfumshieldUser === pokemon) return;
+			if (parfumshieldUser === this.activePokemon && pokemon === this.activeTarget) {
+				boosts['def'] = 0;
+				boosts['spd'] = 0;
+				boosts['evasion'] = 0;
+			}
+			if (pokemon === this.activePokemon && parfumshieldUser === this.activeTarget) {
+				boosts['atk'] = 0;
+				boosts['def'] = 0;
+				boosts['spa'] = 0;
+				boosts['accuracy'] = 0;
+			}
+		},
+		isBreakable: true,
+		rating: 4,
+		num: -588,
+	},
 	pastelveil: {
 		onStart(pokemon) {
 			for (const ally of pokemon.alliesAndSelf()) {
