@@ -4485,7 +4485,7 @@ export const Items: {[itemid: string]: ItemData} = {
 				if (target.baseSpecies.num !== 150) return;
 				if (effect.effectType === 'Move') {
 					const effectHolder = this.effectState.target;
-					this.add('-block', target, 'ability: Aroma Veil', '[of] ' + effectHolder);
+					this.add('-block', target, 'ability: Mewtwo Armor', '[of] ' + effectHolder);
 				}
 				return null;
 			}
