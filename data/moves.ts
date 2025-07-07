@@ -12249,6 +12249,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Mind Wipe",
 		pp: 20,
 		priority: 0,
+		breaksProtect: true,
 		flags: {protect: 1, authentic: 1, cantusetwice: 1},
 		onTry(source) {
 			let move = 'mindwipe';
@@ -12285,7 +12286,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 				target.volatiles['protect'] || target.volatiles['banefulbunker'] || target.volatiles['assemble'] ||
 				target.volatiles['spikyshield'] || target.volatiles['kingsshield'] || target.side.getSideCondition('matblock')
 			) {
-				this.add('-zbroken', target);
 				return move.basePower * 0.25;
 			}
 			return move.basePower * 1;

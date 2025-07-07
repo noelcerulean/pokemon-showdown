@@ -4480,12 +4480,18 @@ export const Items: {[itemid: string]: ItemData} = {
 				return 0;
 			}
 		},
+		onHit(target, source, move) {
+			if (move?.volatileStatus === 'confusion') {
+				this.add('-immune', target, 'confusion', '[from] item: Mewtwo Armor');
+			}
+		},
 		onTryAddVolatile(status, target, source, effect) {
+			if (status.id === 'confusion') return null;
 			if (['attract', 'disable', 'encore', 'healblock', 'taunt', 'torment'].includes(status.id)) {
 				if (target.baseSpecies.num !== 150) return;
 				if (effect.effectType === 'Move') {
 					const effectHolder = this.effectState.target;
-					this.add('-block', target, 'ability: Mewtwo Armor', '[of] ' + effectHolder);
+					this.add('-block', target, 'item: Mewtwo Armor', '[of] ' + effectHolder);
 				}
 				return null;
 			}
