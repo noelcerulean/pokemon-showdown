@@ -4056,8 +4056,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	mindwipe: {
 		name: "Mind Wipe",
-		desc: "Deals damage to the target based on target's Defense or Sp. Defense, whichever stat is lower. After successfully hitting the foe, target's boosts and ability will be removed. Sets Psychic Terrain after successfully attacking. Bypasses substitute, hits through Protect at 1/4th power.",
-		shortDesc: "Hits lower def, removes ability/boosts; Sets PT.",
+		desc: "Deals damage to the target based on target's Defense or Sp. Defense, whichever stat is lower. After successfully hitting the foe, target's boosts and ability will be removed. This move cannot be used twice in a row.",
+		shortDesc: "Can't use 2x. Hits lower def, clears abil/boosts.",
 
 		activate: "  [TARGET] could not escape the Mind Wipe!",
 	},

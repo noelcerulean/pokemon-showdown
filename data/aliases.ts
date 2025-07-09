@@ -1252,6 +1252,7 @@ export const Aliases: {[alias: string]: string} = {
 	betabi: "Celebi-Withered",
 	potatobi: "Celebi-Withered",
 	witherbi: "Celebi-Withered",
+	sorce: "Sorceroma",
 
 	// armored
 	vespa: "Vespiquen-Armored",
@@ -1288,6 +1289,7 @@ export const Aliases: {[alias: string]: string} = {
 	apea: "Primeape-Armored",
 	mewtwoa: "Mewtwo-Armored",
 	mindwiper: "Mewtwo-Armored",
+	m2a: "Mewtwo-Armored",
 
 	// shortened deltas
 	cranidosd: "Cranidos-Delta",

@@ -411,8 +411,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	depravity: {
 		name: "Depravity",
-		desc: "After using a Dark move, this pokemon gains +1 in Attack, Sp. Attack, and Speed. Also grants immunity to Dark moves.",
-		shortDesc: "User gains +1 Atk, Sp. Atk, & Speed after using a Dark move; Dark immunity.",
+		desc: "After using a Dark move, this pokemon gains +1 in Attack & Sp. Attack.",
+		shortDesc: "User gains +1 Atk & Sp. Atk after using a Dark move.",
 	},
 	desolateland: {
 		name: "Desolate Land",
@@ -1197,11 +1197,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			desc: "This Pokemon's damaging moves become multi-hit moves that hit twice. The second hit has its damage halved. Does not affect multi-hit moves or moves that have multiple targets.",
 			shortDesc: "This Pokemon's damaging moves hit twice. The second hit has its damage halved.",
 		},
-	},
-	parfumshield: {
-		name: "Parfum Shield",
-		desc: "This Pokemon ignores other Pokemon's Attack, Special Attack, and accuracy stat stages when taking damage, and ignores other Pokemon's Defense, Special Defense, and evasiveness stat stages when dealing damage.",
-		shortDesc: "This Pokemon ignores other Pokemon's stat stages when taking or doing damage.",
 	},
 	pastelveil: {
 		name: "Pastel Veil",

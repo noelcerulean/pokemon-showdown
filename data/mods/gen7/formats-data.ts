@@ -2085,7 +2085,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	celebiwithered: {
-		tier: "RUBL",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	treecko: {
@@ -3346,7 +3346,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	spiritombmega: {
 		randomBattleMoves: ["calmmind", "darkpulse", "psychic", "pursuit", "rest", "shadowsneak", "sleeptalk", "strengthsap", "suckerpunch", "willowisp"],
 		randomDoubleBattleMoves: ["foulplay", "icywind", "protect", "shadowsneak", "snarl", "strengthsap", "suckerpunch", "willowisp"],
-		tier: "Uber",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	gible: {
@@ -4916,7 +4916,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	sorceroma: {
 		randomBattleMoves: ["darkpulse", "fleurcannon", "moonblast", "nastyplot", "psychic", "trickroom"],
 		randomDoubleBattleMoves: ["darkpulse", "fleurcannon", "healpulse", "moonblast", "protect", "psychic", "thunderbolt", "trickroom"],
-		tier: "Uber",
+		tier: "OU",
 		doublesTier: "DOU",
 	},
 	aromacosta: {

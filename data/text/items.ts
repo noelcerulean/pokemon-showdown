@@ -1316,8 +1316,8 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	mewtwoarmor: {
 		name: "Mewtwo Armor",
-		desc: "Armor developed by DoReMi for Roserade to enhance its battle capabilities.",
-		shortDesc: "Protects Mewtwo from status and Psychic weaknesses.",
+		desc: "Armor developed by Team Rocket to turn Mewtwo into the Mind Wiper.",
+		shortDesc: "Armor developed by Team Rocket to turn Mewtwo into the Mind Wiper.",
 	},
 	mewtwonitex: {
 		name: "Mewtwonite X",

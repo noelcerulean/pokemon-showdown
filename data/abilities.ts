@@ -1115,15 +1115,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 191,
 	},
 	depravity: {
-		onTryHit(target, source, move) {
-			if (target !== source && move.type === 'Dark') {
-				this.add('-immune', target, '[from] ability: Depravity');
-				return null;
-			}
-		},
 		onAfterMoveSecondarySelf(source, target, move) {
 			if (move.type === 'Dark') {
-				this.boost({atk: 1, spa: 1, spe: 1});
+				this.boost({atk: 1, spa: 1});
 			}
 		},
 		name: "Depravity",
@@ -3382,27 +3376,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Parental Bond",
 		rating: 4.5,
 		num: 185,
-	},
-	parfumshield: {
-		name: "Parfum Shield",
-		onAnyModifyBoost(boosts, pokemon) {
-			const parfumshieldUser = this.effectState.target;
-			if (parfumshieldUser === pokemon) return;
-			if (parfumshieldUser === this.activePokemon && pokemon === this.activeTarget) {
-				boosts['def'] = 0;
-				boosts['spd'] = 0;
-				boosts['evasion'] = 0;
-			}
-			if (pokemon === this.activePokemon && parfumshieldUser === this.activeTarget) {
-				boosts['atk'] = 0;
-				boosts['def'] = 0;
-				boosts['spa'] = 0;
-				boosts['accuracy'] = 0;
-			}
-		},
-		isBreakable: true,
-		rating: 4,
-		num: -588,
 	},
 	pastelveil: {
 		onStart(pokemon) {

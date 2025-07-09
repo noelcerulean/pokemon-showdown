@@ -76565,6 +76565,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			trickortreat: ["7L1"],
 			voltswitch: ["7L1"],
 			weatherball: ["7L1"],
+			truthrupture: ["7L70"],
+			burstofideals: ["7L70"],
 		},
 	},
 	litwick: {

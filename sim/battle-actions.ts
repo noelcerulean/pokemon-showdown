@@ -1764,11 +1764,6 @@ export class BattleActions {
 			this.battle.add('-zbroken', target);
 		}
 
-		if (move.id === 'mindwipe' && target.getMoveHitData(move).zBrokeProtect) {
-			baseDamage = this.battle.modify(baseDamage, 0.25);
-			this.battle.add('-zbroken', target);
-		}
-
 		// Generation 6-7 moves the check for minimum 1 damage after the final modifier...
 		if (this.battle.gen !== 5 && !baseDamage) return 1;
 

@@ -4464,44 +4464,9 @@ export const Items: {[itemid: string]: ItemData} = {
 	mewtwoarmor: {
 		name: "Mewtwo Armor",
 		spritenum: 829,
-		onStart(pokemon) {
-			this.add('-item', pokemon, 'Mewtwo Armor');
-		},
 		onTakeItem(item, source) {
 			if (source.baseSpecies.name === 'Mewtwo-Armored') return false;
 			return true;
-		},
-		onEffectivenessPriority: -1,
-		onEffectiveness(typeMod, target, type, move) {
-			if (!target) return;
-			if (target.baseSpecies.num !== 150) return;
-			if (move && move.effectType === 'Move' && move.category !== 'Status' && type === 'Psychic' && typeMod > 0) {
-				this.add('-activate', '', 'Mewtwo Armor');
-				return 0;
-			}
-		},
-		onHit(target, source, move) {
-			if (move?.volatileStatus === 'confusion') {
-				this.add('-immune', target, 'confusion', '[from] item: Mewtwo Armor');
-			}
-		},
-		onTryAddVolatile(status, target, source, effect) {
-			if (status.id === 'confusion') return null;
-			if (['attract', 'disable', 'encore', 'healblock', 'taunt', 'torment'].includes(status.id)) {
-				if (target.baseSpecies.num !== 150) return;
-				if (effect.effectType === 'Move') {
-					const effectHolder = this.effectState.target;
-					this.add('-block', target, 'ability: Mewtwo Armor', '[of] ' + effectHolder);
-				}
-				return null;
-			}
-		},
-		onSetStatus(status, target, source, effect) {
-			if ((effect as Move)?.status) {
-				if (target.baseSpecies.num !== 150) return;
-				this.add('-immune', target, '[from] item: Mewtwo Armor');
-			}
-			return false;
 		},
 		itemUser: ["Mewtwo-Armored"],
 		num: -592,
