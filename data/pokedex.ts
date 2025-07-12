@@ -19,7 +19,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseStats: {hp: 40, atk: 58, def: 47, spa: 62, spd: 50, spe: 65},
 		abilities: {0: "Blaze", 1: "Keen Eye", H: "Shed Skin"},
 		heightm: 1.3,
-		weightkg: 36,
+		weightkg: 6.3,
 		color: "Red",
 		eggGroups: ["Dragon", "Field"],
 	},
