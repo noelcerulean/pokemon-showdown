@@ -1,4 +1,13 @@
 export const FormatsData: {[k: string]: SpeciesFormatsData} = {
+	musleeb: {
+		tier: "LC",
+	},
+	sindle: {
+		tier: "LC",
+	},
+	fofoam: {
+		tier: "LC",
+	},
 	arongoldie: {
 		tier: "Uber",
 	},

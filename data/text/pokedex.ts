@@ -1,4 +1,13 @@
 export const PokedexText: {[k: string]: PokedexText} = {
+	musleeb: {
+		name: "Musleeb",
+	},
+	sindle: {
+		name: "Sindle",
+	},
+	fofoam: {
+		name: "Fofoam",
+	},
 	bulbasaur: {
 		name: "Bulbasaur",
 	},

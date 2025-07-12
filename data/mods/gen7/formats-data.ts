@@ -1,4 +1,13 @@
 export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
+	musleeb: {
+		tier: "LC",
+	},
+	sindle: {
+		tier: "LC",
+	},
+	fofoam: {
+		tier: "LC",
+	},
 	bulbasaur: {
 		tier: "LC",
 	},
