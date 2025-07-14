@@ -140,7 +140,7 @@ export const Formats: FormatList = [
 		mod: 'gen7',
 		ruleset: ['Standard', 'Mega Rayquaza Clause'],
 		banlist: [
-			'Baton Pass',
+			'Baton Pass', 'Dark Void',
 			'Braixen-Nonzerda', 'Bulbasaur-Saur', 'Carbink-Floatamo', 'Eelektross-Mr.Lamprey', 'Emboar-Dynamite', 'Entei-Bismuth', 'Espeon-Daybreak', 'Hakamo-o-Jacinto',
 			'Ho-Oh-Rainbow', 'Jirachi-Wishmaker', 'Kecleon-Genocalypse', 'Kingdra-K.Marxdra', 'Milotic-Lothraxia', 'Porygon2-Pory.EXE', 'Raichu-Malachite',
 			'Raikou-Jasper', 'Simisear-Hanuman', 'Soarsparce-Alfred', 'Suicune-Opal', 'Typhlosion-Vesuvius', 'Umbreon-Nocturne', 'Vaporeon-Linguine',
@@ -184,7 +184,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		ruleset: ['Standard', 'Mega Rayquaza Clause'],
-		banlist: ['Baton Pass', 'Ho-Oh-Rainbow'],
+		banlist: ['Baton Pass', 'Dark Void', 'Ho-Oh-Rainbow'],
 	},
 	{
 		name: "[Gen 7] Multi Battle FnF",
@@ -335,7 +335,7 @@ export const Formats: FormatList = [
 			'Aegislash', 'Alakazam-Mega', 'Deoxys-Defense', 'Genesect', 'Gothigearna', 'Greninja-Ash', 'Heatran',
 			'Kartana', 'Kyurem-Black', 'Landorus-Base', 'Latias-Mega', 'Latios-Mega', 'Magearna', 'Medicham-Mega',
 			'Naganadel', 'Rapidash-Mega', 'Scizor-Mega', 'Skarmory-Mega', 'Tapu Lele', 'Trevenant-Mega', 'Zygarde-Base',
-			'Scrafty-Mega', 'Porygon-Z-Mega',
+			'Scrafty-Mega', 'Porygon-Z-Mega', 'Darkrai',
 		],
 	},
 
@@ -484,7 +484,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		gameType: 'doubles',
-		ruleset: ['Standard Doubles', 'Swagger Clause'],
+		ruleset: ['Standard Doubles', 'Swagger Clause', 'Dark Void'],
 		banlist: [],
 	},
 	{
@@ -509,7 +509,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		gameType: 'triples',
-		ruleset: ['Standard Doubles', 'Swagger Clause'],
+		ruleset: ['Standard Doubles', 'Dark Void', 'Swagger Clause'],
 		banlist: [],
 	},
 	{

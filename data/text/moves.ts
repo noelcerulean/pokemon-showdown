@@ -3329,8 +3329,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	ironhead: {
 		name: "Iron Head",
-		desc: "Has a 20% chance to lower the target's Defense by 1 stage.",
-		shortDesc: "20% chance to lower the target's Defense by 1.",
+		desc: "Has a 10% chance to lower the target's Defense by 1 stage.",
+		shortDesc: "10% chance to lower the target's Defense by 1.",
 	},
 	irontail: {
 		name: "Iron Tail",

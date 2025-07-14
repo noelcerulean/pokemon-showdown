@@ -5817,7 +5817,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 85,
 		category: "Physical",
 		name: "Flame Wheel",
-		pp: 25,
+		pp: 15,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, defrost: 1},
 		secondary: {
@@ -10052,7 +10052,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
-			chance: 20,
+			chance: 10,
 			boosts: {
 				def: -1,
 			},
