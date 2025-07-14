@@ -2293,7 +2293,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: -589,
 		name: "Madamme",
 		types: ["Normal", "Flying"],
-		baseStats: {hp: 84, atk: 117, def: 81, spa: 69, spd: 92, spe: 103},
+		baseStats: {hp: 84, atk: 111, def: 81, spa: 69, spd: 92, spe: 103},
 		abilities: {0: "Keen Eye", 1: "Super Luck", H: "Defiant"},
 		heightm: 1.3,
 		weightkg: 55,
