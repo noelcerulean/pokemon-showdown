@@ -126,6 +126,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 76,
 	},
 	ambrosia: {
+		onStart(pokemon) {
+			this.add('-item', pokemon, pokemon.getItem().name, '[from] ability: Ambrosia', '[of] ' + pokemon);
+		},
 		onTryHit(target, source, move) {
 			if (target !== source && target.baseSpecies.num === -534) {
 				if (target.ignoringItem()) return;
@@ -1868,7 +1871,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	grasspelt: {
 		onModifyDefPriority: 6,
 		onModifyDef(pokemon) {
-			if (this.field.isTerrain('grassyterrain')) return this.chainModify(2);
+			if (this.field.isTerrain('grassyterrain')) return this.chainModify(1.5);
+		},
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, pokemon) {
+			if (this.field.isTerrain('grassyterrain')) return this.chainModify(1.5);
 		},
 		isBreakable: true,
 		name: "Grass Pelt",
@@ -2940,7 +2947,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	mistycover: {
 		onModifySpDPriority: 6,
 		onModifySpD(pokemon) {
-			if (this.field.isTerrain('mistyterrain')) return this.chainModify(2);
+			if (this.field.isTerrain('mistyterrain')) return this.chainModify(1.5);
+		},
+		onModifyDefPriority: 6,
+		onModifyDef(pokemon) {
+			if (this.field.isTerrain('mistyterrain')) return this.chainModify(1.5);
 		},
 		isBreakable: true,
 		name: "Misty Cover",
@@ -5389,13 +5400,31 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 207,
 	},
 	surgingmindforce: {
-		onModifySpAPriority: 6,
+		onModifySpAPriority: 5,
 		onModifySpA(pokemon) {
-			if (this.field.isTerrain('psychicterrain')) return this.chainModify(2);
+			if (this.field.isTerrain('psychicterrain')) return this.chainModify(1.5);
 		},
+		onModifySpDPriority: 6,
+		onModifySpD(pokemon) {
+			if (this.field.isTerrain('psychicterrain')) return this.chainModify(1.5);
+		},
+		isBreakable: true,
 		name: "Surging Mindforce",
 		rating: 2,
 		num: -531,
+	},
+	surgingrage: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(pokemon) {
+			if (this.field.isTerrain('berserkterrain')) return this.chainModify(1.5);
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(pokemon) {
+			if (this.field.isTerrain('berserkterrain')) return this.chainModify(1.5);
+		},
+		name: "Surging Rage",
+		rating: 3,
+		num: -588,
 	},
 	swarm: {
 		onModifyAtkPriority: 5,

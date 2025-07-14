@@ -667,9 +667,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	madamme: {
-		randomBattleMoves: ["drillpeck", "knockoff", "leafblade", "roost", "sacredsword", "swordsdance"],
-		randomDoubleBattleMoves: ["drillpeck", "knockoff", "leafblade", "protect", "sacredsword", "slash", "swordsdance"],
-		tier: "UU",
+		randomBattleMoves: ["brickbreak", "drillpeck", "knockoff", "leafblade", "roost", "swordsdance"],
+		randomDoubleBattleMoves: ["brickbreak", "drillpeck", "knockoff", "leafblade", "protect", "slash", "swordsdance"],
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	doduo: {
@@ -4062,13 +4062,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	scrafty: {
 		randomBattleMoves: ["bulkup", "dragondance", "drainpunch", "gunkshot", "highjumpkick", "icepunch", "knockoff", "rest"],
 		randomDoubleBattleMoves: ["drainpunch", "fakeout", "icepunch", "knockoff", "protect", "superfang"],
-		tier: "UUBL",
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	scraftymega: {
 		randomBattleMoves: ["bulkup", "dragondance", "drainpunch", "gunkshot", "highjumpkick", "icepunch", "knockoff", "rest"],
 		randomDoubleBattleMoves: ["drainpunch", "fakeout", "icepunch", "knockoff", "protect", "superfang"],
-		tier: "Uber",
+		tier: "OU",
 		doublesTier: "DOU",
 	},
 	sigilyph: {

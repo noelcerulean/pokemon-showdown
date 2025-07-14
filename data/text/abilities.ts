@@ -654,7 +654,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	grasspelt: {
 		name: "Grass Pelt",
-		shortDesc: "If Grassy Terrain is active, this Pokemon's Defense is multiplied by 2.",
+		shortDesc: "If Grassy Terrain is active, this Pokemon's Atk & Def increase by 1.5x.",
 	},
 	grassysurge: {
 		name: "Grassy Surge",
@@ -1040,7 +1040,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	mistycover: {
 		name: "Misty Cover",
-		shortDesc: "If Misty Terrain is active, this Pokemon's Sp. Def is multiplied by 2.",
+		shortDesc: "If Misty Terrain is active, this Pokemon's Def & Sp. Def increase by 1.5x.",
 	},
 	mistysurge: {
 		name: "Misty Surge",
@@ -1934,7 +1934,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	surgingmindforce: {
 		name: "Surging Mindforce",
-		shortDesc: "If Psychic Terrain is active, this Pokemon's Sp. Attack is doubled.",
+		shortDesc: "If Psychic Terrain is active, this Pokemon's Sp. Atk & Sp. Def increase by 1.5x.",
+	},
+	surgingrage: {
+		name: "Surging Rage",
+		shortDesc: "If Berserk Terrain is active, this Pokemon's Atk & Sp. Atk increase by 1.5x.",
 	},
 	swarm: {
 		name: "Swarm",
