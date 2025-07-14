@@ -618,6 +618,15 @@ export const Aliases: {[alias: string]: string} = {
 	enchanticepeach: "Enchantice",
 	madammegothic: "Madamme",
 	madammepreppy: "Madamme",
+	scraftykiller: "Scrafty",
+
+	fofoampaz: "Fofoam",
+	fofoamcarmalot: "Fofoam",
+	musleebvera: "Musleeb",
+	musleebveraonesie: "Musleeb",
+	sindlelighthouse: "Sindle",
+	sindlegroveil: "Sindle",
+	sindlerex: "Sindle",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",
