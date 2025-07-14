@@ -484,8 +484,8 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		gameType: 'doubles',
-		ruleset: ['Standard Doubles', 'Swagger Clause', 'Dark Void'],
-		banlist: [],
+		ruleset: ['Standard Doubles', 'Swagger Clause'],
+		banlist: ['Dark Void'],
 	},
 	{
 		name: "[Gen 7] Doubles UU",
@@ -509,8 +509,8 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		gameType: 'triples',
-		ruleset: ['Standard Doubles', 'Dark Void', 'Swagger Clause'],
-		banlist: [],
+		ruleset: ['Standard Doubles', 'Swagger Clause'],
+		banlist: ['Dark Void'],
 	},
 	{
 		name: "[Gen 7] Doubles Custom Game",
