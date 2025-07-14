@@ -121,14 +121,14 @@ export const Formats: FormatList = [
 		mod: 'gen7',
 		ruleset: ['Standard', 'Z-Move Clause'],
 		banlist: [
-			'Uber', 'Arena Trap', 'Sand Veil', 'Snow Cloak', 'Shadow Tag', 'Kyurem-Black + Dragon Dance',
+			'Uber', 'Arena Trap', 'Sand Veil', 'Snow Cloak', 'Shadow Tag', 'Kyurem-Black + Dragon Dance', 'Dark Void',
 			'Power Construct', 'King\'s Rock', 'Corrupted Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Melodium Z', 'Meloettium Z'
 		],
 		unbanlist: [
 			'Aegislash', 'Alakazam-Mega', 'Deoxys-Defense', 'Genesect', 'Gothigearna', 'Greninja-Ash', 'Heatran',
 			'Kartana', 'Kyurem-Black', 'Landorus-Base', 'Latias-Mega', 'Latios-Mega', 'Magearna', 'Medicham-Mega',
 			'Naganadel', 'Rapidash-Mega', 'Scizor-Mega', 'Skarmory-Mega', 'Tapu Lele', 'Trevenant-Mega', 'Zygarde-Base',
-			'Scrafty-Mega', 'Porygon-Z-Mega',
+			'Scrafty-Mega', 'Porygon-Z-Mega', 'Darkrai',
 		],
 	},
 	{
@@ -328,7 +328,7 @@ export const Formats: FormatList = [
 		mod: 'gen7',
 		ruleset: ['Standard'],
 		banlist: [
-			'Uber', 'Arena Trap', 'Sand Veil', 'Snow Cloak', 'Shadow Tag', 'Kyurem-Black + Dragon Dance',
+			'Uber', 'Arena Trap', 'Sand Veil', 'Snow Cloak', 'Shadow Tag', 'Kyurem-Black + Dragon Dance', 'Dark Void',
 			'Power Construct', 'King\'s Rock', 'Corrupted Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Melodium Z', 'Meloettium Z'
 		],
 		unbanlist: [
