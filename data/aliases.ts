@@ -622,8 +622,10 @@ export const Aliases: {[alias: string]: string} = {
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",
+	fofoamgort: "Fofoam",
 	musleebvera: "Musleeb",
 	musleeblotus: "Musleeb",
+	musleebdribble: "Musleeb",
 	musleebveraonesie: "Musleeb",
 	sindlelighthouse: "Sindle",
 	sindlegroveil: "Sindle",
