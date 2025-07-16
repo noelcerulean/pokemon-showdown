@@ -152,6 +152,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 					success = true;
 				}
 			}
+			this.field.clearDiffusion();
 			return success;
 		},
 	},

@@ -3637,6 +3637,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				}
 			}
 			this.field.clearTerrain();
+			this.field.clearDiffusion();
 			return success;
 		},
 		secondary: null,
@@ -22597,6 +22598,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		secondary: null,
 		target: "allAdjacent",
 		type: "Dragon",
+		zMove: {basePower: 250},
 		contestType: "Beautiful",
 	},
 	tarshot: {
@@ -23639,7 +23641,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		contestType: "Cool",
 	},
 	truthrupture: {
-		num: -586,
+		num: -594,
 		accuracy: 100,
 		basePower: 130,
 		category: "Special",

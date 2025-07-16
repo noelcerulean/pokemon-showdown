@@ -5639,6 +5639,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			this.add('-ability', pokemon, 'Territorial');
 			this.effectState.switchingIn = true;
 			this.field.clearTerrain();
+			this.field.clearDiffusion();
 			let activated = false;
 			for (const sideCondition of ['reflect', 'lightscreen', 'auroraveil']) {
 				for (const side of [pokemon.side, ...pokemon.side.foeSidesWithConditions()]) {

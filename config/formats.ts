@@ -30,11 +30,11 @@ export const Formats: FormatList = [
 		name: "[Gen 7] Draft",
 
 		mod: 'gen7',
-		ruleset: ['Standard Draft'],
+		ruleset: ['Standard Draft', 'Swagger Clause'],
 		banlist: [
 			'Uber', 'Latias-Mega', 'Latios-Mega', 'Ignajara + Ignition', 'Gothitelle + Shadow Tag', 'Blaziken + Speed Boost',
 			'Battle Bond', 'Power Construct', 'King\'s Rock', 'Bright Powder', 'Lax Incense', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z',
-			'Poliwrathium Z', 'Mewnium Z', 'Sand Veil', 'Snow Cloak', 'Melodium Z', 'Meloettium Z', 'Corrupted Rock'
+			'Poliwrathium Z', 'Mewnium Z', 'Sand Veil', 'Snow Cloak', 'Melodium Z', 'Meloettium Z', 'Corrupted Rock', 'Sorceromium Z'
 		],
 		unbanlist: ['Scizor-Mega'],
 	},
@@ -42,7 +42,7 @@ export const Formats: FormatList = [
 		name: "[Gen 7] Safari",
 
 		mod: 'gen7',
-		ruleset: ['Standard Draft'],
+		ruleset: ['Standard Draft', 'Swagger Clause'],
 		banlist: [
 			'Ignajara + Ignition', 'Gothitelle + Shadow Tag', 'Blaziken + Speed Boost', 'Greninja + Amphibious', 'Battle Bond', 'Power Construct',
 			'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Poliwrathium Z', 'Mewnium Z', 'Melodium Z', 'Meloettium Z',
@@ -58,7 +58,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen7',
-		ruleset: ['Standard', 'Z-Move Clause'],
+		ruleset: ['Standard', 'Z-Move Clause', 'Swagger Clause'],
 		banlist: [
 			'Uber', 'Geomancy', 'Arena Trap', 'Sand Veil', 'Snow Cloak', 'Battle Bond', 'Shadow Tag', 'Ignajara + Ignition', 'Blaziken + Speed Boost',
 			'Power Construct', 'King\'s Rock', 'Corrupted Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Melodium Z', 'Meloettium Z',
@@ -265,7 +265,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen7',
-		ruleset: ['Standard'],
+		ruleset: ['Standard', 'Swagger Clause'],
 		banlist: [
 			'Uber', 'Geomancy', 'Arena Trap', 'Sand Veil', 'Snow Cloak', 'Battle Bond', 'Shadow Tag', 'Ignajara + Ignition', 'Blaziken + Speed Boost',
 			'Power Construct', 'King\'s Rock', 'Corrupted Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Melodium Z', 'Meloettium Z',
