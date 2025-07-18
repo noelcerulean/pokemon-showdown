@@ -34,7 +34,7 @@ export const Formats: FormatList = [
 		banlist: [
 			'Uber', 'Latias-Mega', 'Latios-Mega', 'Ignajara + Ignition', 'Gothitelle + Shadow Tag', 'Blaziken + Speed Boost',
 			'Battle Bond', 'Power Construct', 'King\'s Rock', 'Bright Powder', 'Lax Incense', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z',
-			'Poliwrathium Z', 'Mewnium Z', 'Sand Veil', 'Snow Cloak', 'Melodium Z', 'Meloettium Z', 'Corrupted Rock', 'Sorceromium Z', 'Poliwrathium Z',
+			'Poliwrathium Z', 'Mewnium Z', 'Sand Veil', 'Snow Cloak', 'Melodium Z', 'Meloettium Z', 'Corrupted Rock', 'Sorceromium Z',
 		],
 		unbanlist: ['Scizor-Mega', 'Kartana', 'Heatran', 'Medicham-Mega', 'Mightyena'],
 	},
