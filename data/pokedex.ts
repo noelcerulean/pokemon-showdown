@@ -6869,7 +6869,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 30,
 		eggGroups: ["Human-Like", "Amorphous"],
 		otherFormes: ["Gardevoir-Mega"],
-		formeOrder: ["Gardevoir", "Gardevoir-Mega"],
+		cosmeticFormes: ["Gardevoir-Malefic"],
+		formeOrder: ["Gardevoir", "Gardevoir-Malefic", "Gardevoir-Mega"],
 	},
 	gardevoirmega: {
 		num: 282,

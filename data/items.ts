@@ -1992,13 +1992,13 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		onModifyDefPriority: 2,
 		onModifyDef(def, pokemon) {
-			if (pokemon.baseSpecies.nfe) {
+			if (pokemon.baseSpecies.nfe || ["fofoam", "sindle", "musleeb"].includes(this.toID(pokemon.baseSpecies.baseSpecies))) {
 				return this.chainModify(1.5);
 			}
 		},
 		onModifySpDPriority: 2,
 		onModifySpD(spd, pokemon) {
-			if (pokemon.baseSpecies.nfe) {
+			if (pokemon.baseSpecies.nfe || ["fofoam", "sindle", "musleeb"].includes(this.toID(pokemon.baseSpecies.baseSpecies))) {
 				return this.chainModify(1.5);
 			}
 		},
@@ -2013,13 +2013,13 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		onModifyAtkPriority: 2,
 		onModifyAtk(atk, pokemon) {
-			if (pokemon.baseSpecies.nfe) {
+			if (pokemon.baseSpecies.nfe || ["fofoam", "sindle", "musleeb"].includes(this.toID(pokemon.baseSpecies.baseSpecies))) {
 				return this.chainModify(1.5);
 			}
 		},
 		onModifySpAPriority: 2,
 		onModifySpA(spa, pokemon) {
-			if (pokemon.baseSpecies.nfe) {
+			if (pokemon.baseSpecies.nfe || ["fofoam", "sindle", "musleeb"].includes(this.toID(pokemon.baseSpecies.baseSpecies))) {
 				return this.chainModify(1.5);
 			}
 		},

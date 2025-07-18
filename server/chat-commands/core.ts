@@ -48,7 +48,7 @@ const avatarTable = new Set([
 	'artist-gen4', 'artist',
 	'ash-alola', 'ash-hoenn', 'ash-kalos', 'ash-unova', 'ash-capbackward', 'ash-johto', 'ash-sinnoh', 'ash',
 	'aya', 'aya-and-prim',
-	'ayra',
+	'ayra', 'ayra-malefic', 'ayra-malefic-2',
 	'backersf',
 	'backers',
 	'backpackerf',
@@ -66,7 +66,7 @@ const avatarTable = new Set([
 	'benji',
 	'bernadette',
 	'bertha',
-	'beter',
+	'beter', 'beter-hero', 'beter-old',
 	'bianca-pwt', 'bianca',
 	'biker-gen1', 'biker-gen1rb', 'biker-gen2', 'biker-gen3', 'biker-gen4', 'biker',
 	'bill-gen3',
@@ -96,7 +96,7 @@ const avatarTable = new Set([
 	'burglar-gen1', 'burglar-gen1rb', 'burglar-gen2', 'burglar-gen3', 'burglar',
 	'byron',
 	'cairo',
-	'cart', 'cart-draft',
+	'cart', 'cart-draft', 'cart-villain',
 	'caitlin', 'caitlin-gen4',
 	'cameraman',
 	'camper-gen2', 'camper-gen3', 'camper-gen3rs', 'camper',
@@ -304,6 +304,7 @@ const avatarTable = new Set([
 	'parasollady-gen3', 'parasollady-gen4', 'parasollady',
 	'petra',
 	'petrel',
+	'phero', 'phero-villain',
 	'phoebe-gen3',
 	'picnicker-gen2', 'picnicker-gen3', 'picnicker-gen3rs', 'picnicker',
 	'pika',
@@ -337,7 +338,7 @@ const avatarTable = new Set([
 	'renato',
 	'reporter',
 	'resix', 'greesix', 'blusix', 'yellosix', 'purpsix', 'browsix',
-	'rex',
+	'rex', 'rex-hero',
 	'richboy-gen3', 'richboy-gen4', 'richboy',
 	'rifk',
 	'riley',
@@ -430,7 +431,7 @@ const avatarTable = new Set([
 	'venusgrunt', 'venusgruntf',
 	'veteranf',
 	'veteran-gen4', 'veteran-gen4-2', 'veteran',
-	'vivii', 'vivian-and-ninette',
+	'vivii', 'vivian', 'vivian-and-ninette', 'vivian-hero',
 	'virtuagruntm', 'virtuagruntf',
 	'void',
 	'volkner',
@@ -485,7 +486,7 @@ const avatarTableHoro = new Set([
 ]);
 
 const avatarTableAutumnSpire = new Set([
-	'florist',
+	'florist', 'gentleman-gen3-2',
 ]);
 
 const avatarTableRADU = new Set([
