@@ -31,7 +31,7 @@ const avatarTable = new Set([
 	'agatha-gen1', 'agatha-gen1rb', 'agatha-gen3',
 	'agnes',
 	'alder',
-	'alma', 'conor', 'cullen', 'essi', 'essi-and-conor', 'ibrahim', 'imara', 'leander', 'lilac', 'malik', 'river', 'yasmin',
+	'alma', 'conor', 'cullen', 'essi', 'essi-and-conor', 'ibrahim', 'imara', 'leander', 'lilac', 'malik', 'river-fnf', 'yasmin',
 	'alma-beach', 'conor-beach', 'cullen-beach', 'cullen-and-river', 'essi-beach', 'essi-and-conor-beach', 'ibrahim-beach', 'imara-beach', 'leander-beach', 'lilac-beach', 'malik-beach', 'yasmin-beach',
 	'alvaro',
 	'amaya',
@@ -462,7 +462,7 @@ const avatarTableAkumaTsubasa = new Set([
 ]);
 
 const avatarTableBeliot419 = new Set([
-	'acerola', 'aetheremployee', 'aetheremployeef', 'aetherfoundation', 'aetherfoundationf', 'anabel',
+	'acerola', 'aetheremployee', 'aetheremployeef', 'aetherfoundation', 'aetherfoundationf', 'anabel-gen7',
 	'beauty-gen7', 'blue-gen7', 'burnet', 'colress-gen7', 'dexio', 'elio', 'faba', 'gladion-stance',
 	'gladion', 'grimsley-gen7', 'hapu', 'hau-stance', 'hau', 'hiker-gen7', 'ilima', 'kahili', 'kiawe',
 	'kukui-stand', 'kukui', 'lana', 'lass-gen7', 'lillie-z', 'lillie', 'lusamine-nihilego', 'lusamine',
@@ -477,15 +477,27 @@ const avatarTableFiftyShadesofRez = new Set([
 ]);
 
 const avatarTableSelena = new Set([
-	'red-lgpe',
+	'kris',
 ]);
 
 const avatarTableHoro = new Set([
-	'kris',
+	'roy', 'liko', 'red-lgpe',
 ]);
 
 const avatarTableAutumnSpire = new Set([
 	'florist',
+]);
+
+const avatarTableRADU = new Set([
+	'miku-ice',
+]);
+
+const avatarTableFlamibane = new Set([
+	'miku-ghost',
+]);
+
+const avatarTablewisteriapurple = new Set([
+	'miku-fairy',
 ]);
 
 const avatarTableGnomowladny = new Set([
@@ -522,7 +534,7 @@ const avatarTableIceJkai = new Set([
 ]);
 
 const avatarTableKyleDove = new Set([
-	'acetrainerf-gen6', 'acetrainerf-gen6xy', 'acetrainer-gen6', 'acetrainer-gen6-2', 'acetrainer-gen6xy', 'aquagrunt', 'aquagruntf',
+	'acetrainerf-gen6', 'acetrainerf-gen6xy', 'acetrainer-gen6', 'acetrainer-gen6-2', 'acetrainer-gen6xy', 'aquagrunt-2', 'aquagruntf-2',
 	'aromalady-gen6', 'artistf-gen6', 'artist-gen6', 'artist-gen8', 'backpacker-gen6', 'backpacker-gen8',
 	'battlegirl-gen6', 'battlegirl-gen6xy', 'beauty-gen6', 'beauty-gen6xy', 'beauty-gen8', 'birdkeeper-gen6',
 	'blackbelt-gen6', 'blackbelt-gen8', 'bugcatcher-gen6', 'bugmaniac-gen6', 'butler', 'cabbie', 'cafemaster',
@@ -568,7 +580,7 @@ const avatarTableKyleDove = new Set([
 	'sightseer', 'streetthug-masters', 'surfer', 'swimmer-gen7', 'swimmer-masters', 'swimmerf-gen7', 'swimmerf2-gen7', 'trialguide',
 	'trialguidef', 'tuli', 'ultraforestkartenvoy', 'veteran-gen7', 'veteranf-gen7', 'worker-gen7', 'worker-lgpe', 'youngster-masters',
 	'akari-isekai', 'allister-masters', 'arven-s', 'brassius-2', 'clavell-s', 'cynthia-anime2', 'cynthia-masters3', 'florian-s',
-	'geeta', 'hassel', 'hilda-masters3', 'iono-2', 'iris-masters', 'jacq', 'juliana-s', 'katy', 'kofu', 'larry', 'miriam', 'nemona-v',
+	'geeta', 'hassel', 'hilda-masters3', 'iono-2', 'iris-masters', 'jacq-2', 'juliana-s', 'katy', 'kofu', 'larry', 'miriam', 'nemona-v',
 	'poppy', 'red-masters2', 'rei-isekai', 'rika', 'rosa-masters2', 'ryme', 'sada', 'stargrunt-s', 'stargrunt-v', 'stargruntf-s',
 	'stargruntf-v', 'steven-masters3', 'tulip', 'turo', 'tyme', 'wally-masters',
 	'amelia-shuffle', 'beauty-gen9', 'bede-masters', 'calem-masters', 'clerk-unite', 'dawn-masters3', 'dendra', 'diantha-masters2',
@@ -584,6 +596,13 @@ const avatarTableKyleDove = new Set([
 	'roxanne-masters', 'roxie-masters', 'ruffian', 'sycamore-masters', 'tate-gen6', 'tucker', 'victor-league', 'victor-tundra', 'viola-masters',
 	'wallace-masters', 'worker-gen9', 'yukito-hideko',
 	'acerola-masters3', 'bianca-masters', 'cheren-masters', 'gardenia-masters',
+	'aarune', 'adaman-masters', 'allister-unmasked', 'anabel', 'aquagrunt', 'aquagrunt-rse', 'aquagruntf', 'aquagruntf-rse', 'aquasuit',
+	'archie-usum', 'arlo', 'baoba', 'barry-masters', 'bill', 'blanche', 'blanche-casual', 'brandon', 'candela', 'candela-casual', 'candice-masters',
+	'christoph', 'cliff', 'curtis', 'daisy', 'dana', 'gladion-masters', 'greta', 'gurkinn', 'harmony', 'heath', 'irida-masters', 'jacq', 'jamie',
+	'magmagrunt-rse', 'magmagruntf-rse', 'magmasuit', 'magnus', 'mateo', 'mirror', 'mohn', 'mohn-anime', 'mom-paldea', 'mom-unova', 'mrbriney',
+	'mrstone', 'nancy', 'nate-pokestar3', 'nemona-masters', 'neroli', 'paxton', 'peony-league', 'phil', 'player-go', 'playerf-go', 'rhi', 'rita',
+	'river', 'rosa-pokestar3', 'sabrina-frlg', 'selene-masters', 'sierra', 'spark', 'spark-casual', 'spenser', 'toddsnap', 'toddsnap2', 'trace',
+	'victor-masters', 'vince', 'wally-rse', 'willow', 'willow-casual', 'yancy', 'zinnia-masters',
 ]);
 
 const avatarTableHyooppa = new Set([
@@ -600,6 +619,9 @@ for (const avatar of avatarTableFiftyShadesofRez) avatarTable.add(avatar);
 for (const avatar of avatarTableSelena) avatarTable.add(avatar);
 for (const avatar of avatarTableHoro) avatarTable.add(avatar);
 for (const avatar of avatarTableAutumnSpire) avatarTable.add(avatar);
+for (const avatar of avatarTableRADU) avatarTable.add(avatar);
+for (const avatar of avatarTableFlamibane) avatarTable.add(avatar);
+for (const avatar of avatarTablewisteriapurple) avatarTable.add(avatar);
 for (const avatar of avatarTableGnomowladny) avatarTable.add(avatar);
 for (const avatar of avatarTableBrumirage) avatarTable.add(avatar);
 for (const avatar of avatarTableZacWeavile) avatarTable.add(avatar);
@@ -887,6 +909,15 @@ export const commands: Chat.ChatCommands = {
 			}
 			if (avatarTableAutumnSpire.has(avatar)) {
 				this.sendReply(`|raw|(${this.tr`Artist: `}AutumnSpire)`);
+			}
+			if (avatarTableRADU.has(avatar)) {
+				this.sendReply(`|raw|(${this.tr`Artist: `}RADU)`);
+			}
+			if (avatarTableFlamibane.has(avatar)) {
+				this.sendReply(`|raw|(${this.tr`Artist: `}Flamibane)`);
+			}
+			if (avatarTablewisteriapurple.has(avatar)) {
+				this.sendReply(`|raw|(${this.tr`Artist: `}wisteriapurple)`);
 			}
 		}
 	},
