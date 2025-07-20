@@ -14118,7 +14118,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			bide: ["7V"],
 			bodyslam: ["8M", "7V", "3T"],
 			bravebird: ["8M", "8L65", "7L1", "6L1", "5L55"],
-			brickbreak: ["8V", "7M", "6M", "5M", "4M", "3M"],
 			brutalswing: ["8M", "7M"],
 			captivate: ["4M"],
 			closecombat: ["8M"],
