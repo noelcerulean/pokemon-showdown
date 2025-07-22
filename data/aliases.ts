@@ -483,6 +483,7 @@ export const Aliases: {[alias: string]: string} = {
 	turbannswag: "Turbann",
 	swirlixvanilla: "Swirlix",
 	dewottlutryladress: "Dewott-Lutryla",
+	dewottlutrylawedding: "Dewott-Lutryla",
 	marshadowmug: "Marshadow",
 	fraxurefrenzydeity: "Fraxure-Frenzy",
 	raichumalachiteberserker: "Raichu-Malachite",
@@ -620,6 +621,7 @@ export const Aliases: {[alias: string]: string} = {
 	madammepreppy: "Madamme",
 	scraftykiller: "Scrafty",
 	gardevoirmalefic: "Gardevoir",
+	stantlerwedding: "Stantler",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",
@@ -630,6 +632,7 @@ export const Aliases: {[alias: string]: string} = {
 	musleeblotus: "Musleeb",
 	musleebdribble: "Musleeb",
 	musleebhexa: "Musleeb",
+	musleebdolly: "Musleeb",
 	musleebkim: "Musleeb",
 	musleebveraonesie: "Musleeb",
 	sindlelighthouse: "Sindle",

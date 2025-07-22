@@ -3492,7 +3492,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1, pulse: 1, mirror: 1, distance: 1},
 		secondary: {
-			chance: 20,
+			chance: 10,
 			boosts: {
 				spa: -1,
 			},

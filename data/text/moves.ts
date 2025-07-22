@@ -1227,8 +1227,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	darkpulse: {
 		name: "Dark Pulse",
-		desc: "Has a 20% chance to lower the target's Special Attack by 1 stage.",
-		shortDesc: "20% chance to lower target's Sp. Atk by 1.",
+		desc: "Has a 10% chance to lower the target's Special Attack by 1 stage.",
+		shortDesc: "10% chance to lower target's Sp. Atk by 1.",
 	},
 	darkvoid: {
 		name: "Dark Void",

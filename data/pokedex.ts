@@ -10,8 +10,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 8.1,
 		color: "Brown",
 		eggGroups: ["Grass", "Field"],
-		cosmeticFormes: ["Musleeb-Vera", "Musleeb-Lotus", "Musleeb-Dribble", "Musleeb-Hexa", "Musleeb-KIM", "Musleeb-Vera-Onesie"],
-		formeOrder: ["Musleeb", "Musleeb-Vera", "Musleeb-Lotus", "Musleeb-Dribble", "Musleeb-Hexa", "Musleeb-KIM", "Musleeb-Vera-Onesie"],
+		cosmeticFormes: ["Musleeb-Vera", "Musleeb-Lotus", "Musleeb-Dribble", "Musleeb-Hexa", "Musleeb-Dolly", "Musleeb-KIM", "Musleeb-Vera-Onesie"],
+		formeOrder: ["Musleeb", "Musleeb-Vera", "Musleeb-Lotus", "Musleeb-Dribble", "Musleeb-Hexa", "Musleeb-Dolly", "Musleeb-KIM", "Musleeb-Vera-Onesie"],
 	},
 	sindle: {
 		num: -593,
@@ -5951,6 +5951,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 71.2,
 		color: "Brown",
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Stantler-Wedding"],
+		formeOrder: ["Stantler", "Stantler-Wedding"],
 	},
 	smeargle: {
 		num: 235,
@@ -11614,8 +11616,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 24.5,
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
-		cosmeticFormes: ["Dewott-Lutryla-Dress"],
-		formeOrder: ["Dewott-Lutryla", "Dewott-Lutryla-Dress"],
+		cosmeticFormes: ["Dewott-Lutryla-Dress", "Dewott-Lutryla-Wedding"],
+		formeOrder: ["Dewott-Lutryla", "Dewott-Lutryla-Dress", "Dewott-Lutryla-Wedding"],
 	},
 	samurott: {
 		num: 503,
