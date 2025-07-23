@@ -17037,6 +17037,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 82.8,
 		color: "White",
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Passimian-Wedding"],
+		formeOrder: ["Passimian", "Passimian-Wedding"],
 	},
 	wimpod: {
 		num: 767,

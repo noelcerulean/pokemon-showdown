@@ -622,6 +622,7 @@ export const Aliases: {[alias: string]: string} = {
 	scraftykiller: "Scrafty",
 	gardevoirmalefic: "Gardevoir",
 	stantlerwedding: "Stantler",
+	passimianwedding: "Passimian",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",
