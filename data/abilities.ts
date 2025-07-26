@@ -1119,7 +1119,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	depravity: {
 		onAfterMoveSecondarySelf(source, target, move) {
-			if (move.type === 'Dark') {
+			if (move.type === 'Dark' && move.category !== 'Status') {
 				this.boost({atk: 1, spa: 1});
 			}
 		},

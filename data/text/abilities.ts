@@ -411,8 +411,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	depravity: {
 		name: "Depravity",
-		desc: "After using a Dark move, this pokemon gains +1 in Attack & Sp. Attack.",
-		shortDesc: "User gains +1 Atk & Sp. Atk after using a Dark move.",
+		desc: "After using a damage-dealing Dark move, this pokemon gains +1 in Attack & Sp. Attack.",
+		shortDesc: "User gains +1 Atk & Sp. Atk after using a damaging Dark move.",
 	},
 	desolateland: {
 		name: "Desolate Land",

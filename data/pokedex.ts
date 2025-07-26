@@ -1439,8 +1439,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Paras",
 		evoLevel: 24,
 		eggGroups: ["Bug", "Grass"],
-		cosmeticFormes: ["Parasect-Sparklespore"],
-		formeOrder: ["Parasect", "Parasect-Sparklespore"],
+		cosmeticFormes: ["Parasect-Sparklespore", "Parasect-Lovesick"],
+		formeOrder: ["Parasect", "Parasect-Sparklespore", "Parasect-Lovesick"],
 	},
 	parasectfnf: {
 		num: 47,
@@ -4597,6 +4597,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Sun Stone",
 		eggGroups: ["Grass"],
+		cosmeticFormes: ["Bellossom-Wedding"],
+		formeOrder: ["Bellossom", "Bellossom-Wedding"],
 	},
 	marill: {
 		num: 183,
@@ -8679,6 +8681,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 8.7,
 		color: "Pink",
 		eggGroups: ["Water 2"],
+		cosmeticFormes: ["Luvdisc-Cope"],
+		formeOrder: ["Luvdisc", "Luvdisc-Cope"],
 	},
 	luvdiscfnf: {
 		num: 370,
@@ -9052,8 +9056,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Undiscovered"],
 		tags: ["Mythical"],
+		cosmeticFormes: ["Deoxys-Spaghetti"],
 		otherFormes: ["Deoxys-Attack", "Deoxys-Defense", "Deoxys-Speed"],
-		formeOrder: ["Deoxys", "Deoxys-Attack", "Deoxys-Defense", "Deoxys-Speed"],
+		formeOrder: ["Deoxys", "Deoxys-Spaghetti", "Deoxys-Attack", "Deoxys-Defense", "Deoxys-Speed"],
 	},
 	deoxysattack: {
 		num: 386,
@@ -9437,8 +9442,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Shiny Stone",
 		eggGroups: ["Fairy", "Grass"],
-		cosmeticFormes: ["Roserade-Armored-Summer"],
-		formeOrder: ["Roserade-Armored", "Roserade-Armored-Summer"],
+		cosmeticFormes: ["Roserade-Armored-Summer", "Roserade-Armored-Renegade"],
+		formeOrder: ["Roserade-Armored", "Roserade-Armored-Summer", "Roserade-Armored-Renegade"],
 		requiredItem: "Roserade Armor",
 	},
 	cranidos: {

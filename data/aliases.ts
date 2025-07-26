@@ -623,6 +623,11 @@ export const Aliases: {[alias: string]: string} = {
 	gardevoirmalefic: "Gardevoir",
 	stantlerwedding: "Stantler",
 	passimianwedding: "Passimian",
+	parasectlovesick: "Parasect",
+	bellossomwedding: "Bellossom",
+	luvdisccope: "Luvdisc",
+	roseradearmoredrenegade: "Roserade-Armored",
+	deoxysspaghetti: "Deoxys",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",
