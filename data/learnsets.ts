@@ -113,6 +113,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			firespin: ["7E"],
 			flamewheel: ["7E"],
+			nastyplot: ["7E"],
 			naturepower: ["7E"],
 			poisonfang: ["7E"],
 			punishment: ["7E"],

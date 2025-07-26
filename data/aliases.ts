@@ -647,8 +647,9 @@ export const Aliases: {[alias: string]: string} = {
 	sindlesuneater: "Sindle",
 	sindledeeva: "Sindle",
 	sindleapophis: "Sindle",
-	sindleliege: "Sindle",
 	sindlepeacemaker: "Sindle",
+	sindlecoily: "Sindle",
+	sindleliege: "Sindle",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",

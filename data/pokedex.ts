@@ -24,8 +24,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 6.3,
 		color: "Red",
 		eggGroups: ["Dragon", "Field"],
-		cosmeticFormes: ["Sindle-Lighthouse", "Sindle-Groveil", "Sindle-Rex", "Sindle-Suneater", "Sindle-Deeva", "Sindle-Apophis", "Sindle-Peacemaker", "Sindle-Liege"],
-		formeOrder: ["Sindle", "Sindle-Lighthouse", "Sindle-Groveil", "Sindle-Rex", "Sindle-Suneater", "Sindle-Deeva", "Sindle-Apophis", "Sindle-Peacemaker", "Sindle-Liege"],
+		cosmeticFormes: ["Sindle-Lighthouse", "Sindle-Groveil", "Sindle-Rex", "Sindle-Suneater", "Sindle-Deeva", "Sindle-Apophis", "Sindle-Peacemaker", "Sindle-Coily", "Sindle-Liege"],
+		formeOrder: ["Sindle", "Sindle-Lighthouse", "Sindle-Groveil", "Sindle-Rex", "Sindle-Suneater", "Sindle-Deeva", "Sindle-Apophis", "Sindle-Peacemaker", "Sindle-Coily", "Sindle-Liege"],
 	},
 	fofoam: {
 		num: -594,
@@ -4806,8 +4806,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Sun Stone",
 		eggGroups: ["Grass"],
+		cosmeticFormes: ["Sunflora-Komainu"],
 		otherFormes: ["Sunflora-Mega"],
-		formeOrder: ["Sunflora", "Sunflora-Mega"],
+		formeOrder: ["Sunflora", "Sunflora-Komainu", "Sunflora-Mega"],
 	},
 	sunfloramega: {
 		num: 192,
