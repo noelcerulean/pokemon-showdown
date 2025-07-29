@@ -657,6 +657,7 @@ export const Aliases: {[alias: string]: string} = {
 	durantblue: "Durant",
 	orneridgeebony: "Orneridge",
 	sceptilewhite: "Sceptile",
+	dedennedent: "Dedenne",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",

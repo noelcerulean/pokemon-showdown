@@ -15616,6 +15616,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 2.2,
 		color: "Yellow",
 		eggGroups: ["Field", "Fairy"],
+		cosmeticFormes: ["Dedenne-Dent"],
+		formeOrder: ["Dedenne", "Dedenne-Dent"],
 	},
 	carbink: {
 		num: 703,
