@@ -670,6 +670,7 @@ export const Aliases: {[alias: string]: string} = {
 	musleebhexa: "Musleeb",
 	musleebdolly: "Musleeb",
 	musleebhana: "Musleeb",
+	musleebseeds: "Musleeb",
 	musleebkim: "Musleeb",
 	musleebmeemo: "Musleeb",
 	musleebveraonesie: "Musleeb",
