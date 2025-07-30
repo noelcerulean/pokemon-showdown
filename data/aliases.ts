@@ -661,6 +661,8 @@ export const Aliases: {[alias: string]: string} = {
 	hitmonwuskull: "Hitmonwu",
 	typenullmalefic: "Type: Null",
 	forretressskull: "Forretress",
+	sunflorakomainu: "Sunflora",
+	hypnosuperhypno: "Hypno",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",
@@ -678,6 +680,7 @@ export const Aliases: {[alias: string]: string} = {
 	musleebhana: "Musleeb",
 	musleebseeds: "Musleeb",
 	musleebbloom: "Musleeb",
+	musleebmianju: "Musleeb",
 	musleebkim: "Musleeb",
 	musleebmeemo: "Musleeb",
 	musleebveraonesie: "Musleeb",

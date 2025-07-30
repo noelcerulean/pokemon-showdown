@@ -172,6 +172,7 @@ const avatarTable = new Set([
 	'expertf-gen3',
 	'expert-gen3',
 	'ezekiel',
+	'ezla-hero',
 	'fabi',
 	'faina',
 	'faina-imposter',

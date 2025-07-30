@@ -35,6 +35,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			aromabomb: ["7E"],
 			aromatherapy: ["7E"],
+			honeclaws: ["7E"],
 			leechseed: ["7E"],
 			petalblizzard: ["7E"],
 			petaldance: ["7E"],

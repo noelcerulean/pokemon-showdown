@@ -10,8 +10,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 8.1,
 		color: "Brown",
 		eggGroups: ["Grass", "Field"],
-		cosmeticFormes: ["Musleeb-Vera", "Musleeb-Lotus", "Musleeb-Dribble", "Musleeb-Hexa", "Musleeb-Dolly", "Musleeb-Hana", "Musleeb-Seeds", "Musleeb-Bloom", "Musleeb-KIM", "Musleeb-Meemo", "Musleeb-Vera-Onesie"],
-		formeOrder: ["Musleeb", "Musleeb-Vera", "Musleeb-Lotus", "Musleeb-Dribble", "Musleeb-Hexa", "Musleeb-Dolly", "Musleeb-Hana", "Musleeb-Seeds", "Musleeb-Bloom", "Musleeb-KIM", "Musleeb-Meemo", "Musleeb-Vera-Onesie"],
+		cosmeticFormes: ["Musleeb-Vera", "Musleeb-Lotus", "Musleeb-Dribble", "Musleeb-Hexa", "Musleeb-Dolly", "Musleeb-Hana", "Musleeb-Seeds", "Musleeb-Bloom", "Musleeb-Mianju", "Musleeb-KIM", "Musleeb-Meemo", "Musleeb-Vera-Onesie"],
+		formeOrder: ["Musleeb", "Musleeb-Vera", "Musleeb-Lotus", "Musleeb-Dribble", "Musleeb-Hexa", "Musleeb-Dolly", "Musleeb-Hana", "Musleeb-Seeds", "Musleeb-Bloom", "Musleeb-Mianju", "Musleeb-KIM", "Musleeb-Meemo", "Musleeb-Vera-Onesie"],
 	},
 	sindle: {
 		num: -593,
@@ -2594,8 +2594,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 26,
 		eggGroups: ["Human-Like"],
 		otherFormes: ["Hypno-Mega"],
-		cosmeticFormes: ["Hypno-Happyjamas", "Hypno-Beach", "Hypno-Happy", "Hypno-Happyf", "Hypno-Tuxedo"],
-		formeOrder: ["Hypno", "Hypno-Happyjamas", "Hypno-Beach", "Hypno-Happy", "Hypno-Happyf", "Hypno-Tuxedo", "Hypno-Mega"],
+		cosmeticFormes: ["Hypno-Happyjamas", "Hypno-Tuxedo", "Hypno-Beach", "Hypno-Superhypno", "Hypno-Happy", "Hypno-Happyf"],
+		formeOrder: ["Hypno", "Hypno-Happyjamas", "Hypno-Tuxedo", "Hypno-Beach", "Hypno-Superhypno", "Hypno-Happy", "Hypno-Happyf", "Hypno-Mega"],
 	},
 	hypnomega: {
 		num: 97,
