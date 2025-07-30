@@ -33,6 +33,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	musleeb: {
 		learnset: {
+			aromabomb: ["7E"],
 			aromatherapy: ["7E"],
 			leechseed: ["7E"],
 			petalblizzard: ["7E"],
@@ -117,6 +118,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			naturepower: ["7E"],
 			poisonfang: ["7E"],
 			punishment: ["7E"],
+			suckerpunch: ["7E"],
 			ember: ["7L1"],
 			leer: ["7L1"],
 			lick: ["7L1"],

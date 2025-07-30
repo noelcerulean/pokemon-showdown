@@ -10,8 +10,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 8.1,
 		color: "Brown",
 		eggGroups: ["Grass", "Field"],
-		cosmeticFormes: ["Musleeb-Vera", "Musleeb-Lotus", "Musleeb-Dribble", "Musleeb-Hexa", "Musleeb-Dolly", "Musleeb-Hana", "Musleeb-Seeds", "Musleeb-KIM", "Musleeb-Meemo", "Musleeb-Vera-Onesie"],
-		formeOrder: ["Musleeb", "Musleeb-Vera", "Musleeb-Lotus", "Musleeb-Dribble", "Musleeb-Hexa", "Musleeb-Dolly", "Musleeb-Hana", "Musleeb-Seeds", "Musleeb-KIM", "Musleeb-Meemo", "Musleeb-Vera-Onesie"],
+		cosmeticFormes: ["Musleeb-Vera", "Musleeb-Lotus", "Musleeb-Dribble", "Musleeb-Hexa", "Musleeb-Dolly", "Musleeb-Hana", "Musleeb-Seeds", "Musleeb-Bloom", "Musleeb-KIM", "Musleeb-Meemo", "Musleeb-Vera-Onesie"],
+		formeOrder: ["Musleeb", "Musleeb-Vera", "Musleeb-Lotus", "Musleeb-Dribble", "Musleeb-Hexa", "Musleeb-Dolly", "Musleeb-Hana", "Musleeb-Seeds", "Musleeb-Bloom", "Musleeb-KIM", "Musleeb-Meemo", "Musleeb-Vera-Onesie"],
 	},
 	sindle: {
 		num: -593,
@@ -38,8 +38,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 6.8,
 		color: "Blue",
 		eggGroups: ["Water 1", "Field"],
-		cosmeticFormes: ["Fofoam-Paz", "Fofoam-Carmalot", "Fofoam-Gort", "Fofoam-Riptide", "Fofoam-Astra", "Fofoam-Meemo", "Fofoam-Carmalot-Hero"],
-		formeOrder: ["Fofoam", "Fofoam-Paz", "Fofoam-Carmalot", "Fofoam-Gort", "Fofoam-Riptide", "Fofoam-Astra", "Fofoam-Meemo", "Fofoam-Carmalot-Hero"],
+		cosmeticFormes: ["Fofoam-Paz", "Fofoam-Carmalot", "Fofoam-Gort", "Fofoam-Riptide", "Fofoam-Astra", "Fofoam-Boba", "Fofoam-Susie", "Fofoam-Carmalot-Hero"],
+		formeOrder: ["Fofoam", "Fofoam-Paz", "Fofoam-Carmalot", "Fofoam-Gort", "Fofoam-Riptide", "Fofoam-Astra", "Fofoam-Boba", "Fofoam-Susie", "Fofoam-Carmalot-Hero"],
 	},
 	bulbasaur: {
 		num: 1,
@@ -5284,6 +5284,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Pineco",
 		evoLevel: 31,
 		eggGroups: ["Bug"],
+		cosmeticFormes: ["Forretress-Skull"],
+		formeOrder: ["Forretress", "Forretress-Skull"],
 	},
 	forretressdelta: {
 		num: 205,
@@ -6020,6 +6022,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 20,
 		evoCondition: "with an SpA stat higher than its Atk stat",
 		eggGroups: ["Human-Like"],
+		cosmeticFormes: ["Hitmonwu-Skull"],
+		formeOrder: ["Hitmonwu", "Hitmonwu-Skull"],
 	},
 	smoochum: {
 		num: 238,
@@ -17172,6 +17176,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Sub-Legendary"],
 		evos: ["Silvally"],
 		eggGroups: ["Undiscovered"],
+		cosmeticFormes: ["Type: Null-Malefic"],
+		formeOrder: ["Type: Null", "Type: Null-Malefic"],
 	},
 	silvally: {
 		num: 773,
