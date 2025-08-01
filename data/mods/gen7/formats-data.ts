@@ -5026,6 +5026,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Uber",
 		doublesTier: "DUber",
 	},
+	soareon: {
+		randomBattleMoves: ["cloudcannon", "hiddenpowerfighting", "hiddenpowerground", "uturn", "wish"],
+		randomDoubleBattleMoves: ["cloudcannon", "helpinghand", "hiddenpowerfighting", "hiddenpowerground", "icywind", "protect"],
+		tier: "PU",
+		doublesTier: "DUU",
+	},
 	hawlucha: {
 		randomBattleMoves: ["acrobatics", "highjumpkick", "skyattack", "substitute", "swordsdance"],
 		randomDoubleBattleMoves: ["acrobatics", "encore", "highjumpkick", "protect", "swordsdance"],

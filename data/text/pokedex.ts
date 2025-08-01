@@ -3338,6 +3338,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	longeonspaghetti: {
 		name: "Longeon-Spaghetti",
 	},
+	soareon: {
+		name: "Soareon",
+	},
 	hawlucha: {
 		name: "Hawlucha",
 	},

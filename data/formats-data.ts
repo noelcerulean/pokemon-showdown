@@ -1535,6 +1535,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	longeon: {
 		tier: "RU",
 	},
+	soareon: {
+		tier: "PU",
+	},
 	porygon: {
 		tier: "LC",
 	},

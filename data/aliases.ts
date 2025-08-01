@@ -663,6 +663,8 @@ export const Aliases: {[alias: string]: string} = {
 	forretressskull: "Forretress",
 	sunflorakomainu: "Sunflora",
 	hypnosuperhypno: "Hypno",
+	klangsteamroller: "Klang",
+	ferrothornhero: "Ferrothorn",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",
