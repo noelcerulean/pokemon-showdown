@@ -669,7 +669,6 @@ export const Aliases: {[alias: string]: string} = {
 	lugitohero: "Lugito",
 	basculinbluestripedhero: "Basculin-Blue-Striped",
 	dittohero: "Ditto",
-	rotommowhero: "Rotom-Mow",
 	simisearhero: "Simisear",
 
 	fofoampaz: "Fofoam",

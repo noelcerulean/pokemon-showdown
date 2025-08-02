@@ -10849,7 +10849,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Amorphous"],
 		otherFormes: ["Rotom-Heat", "Rotom-Wash", "Rotom-Frost", "Rotom-Fan", "Rotom-Mow"],
-		formeOrder: ["Rotom", "Rotom-Heat", "Rotom-Wash", "Rotom-Frost", "Rotom-Fan", "Rotom-Mow", "Rotom-Mow-Hero"],
+		formeOrder: ["Rotom", "Rotom-Heat", "Rotom-Wash", "Rotom-Frost", "Rotom-Fan", "Rotom-Mow"],
 	},
 	rotomheat: {
 		num: 479,
@@ -10925,8 +10925,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Amorphous"],
 		changesFrom: "Rotom",
-		cosmeticFormes: ["Rotom-Mow-Hero"],
-		formeOrder: ["Rotom-Mow", "Rotom-Mow-Hero"],
 	},
 	uxie: {
 		num: 480,

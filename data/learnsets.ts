@@ -63969,13 +63969,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			leafstorm: ["8L1", "7R", "6R", "5R", "4R"],
 		},
 	},
-	rotommowhero: {
-		learnset: {
-			energyball: ["7L1"],
-			grassyterrain: ["7L1"],
-			leafstorm: ["8L1", "7R", "6R", "5R", "4R"],
-		},
-	},
 	uxie: {
 		learnset: {
 			acrobatics: ["8M", "7M", "6M", "5M"],
