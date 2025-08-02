@@ -65270,7 +65270,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			energyball: ["7M"],
 			facade: ["7M"],
 			featherdance: ["7L26"],
-			firstimpression: ["742"],
+			firstimpression: ["7L42"],
 			frustration: ["7M"],
 			gigadrain: ["7T"],
 			gigaimpact: ["7M"],
