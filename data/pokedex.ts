@@ -3410,6 +3410,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 4,
 		color: "Purple",
 		eggGroups: ["Ditto"],
+		cosmeticFormes: ["Ditto-Hero"],
+		formeOrder: ["Ditto", "Ditto-Hero"],
 	},
 	dittomini: {
 		num: 132,
@@ -3433,7 +3435,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 0.3,
 		weightkg: 6.5,
 		color: "Brown",
-		evos: ["Vaporeon", "Jolteon", "Flareon", "Espeon", "Umbreon", "Leafeon", "Glaceon", "Sylveon", "Longeon"],
+		evos: ["Vaporeon", "Jolteon", "Flareon", "Espeon", "Umbreon", "Leafeon", "Glaceon", "Sylveon", "Longeon", "Soareon"],
 		eggGroups: ["Field"],
 		otherFormes: ["Eevee-Starter"],
 		cosmeticFormes: ["Eevee-Infinity"],
@@ -3662,6 +3664,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "levelMove",
 		evoMove: "Double Hit",
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Rutherium-Hero"],
+		formeOrder: ["Rutherium", "Rutherium-Hero"],
 	},
 	huojara: {
 		num: -553,
@@ -6242,8 +6246,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Restricted Legendary"],
 		eggGroups: ["Undiscovered"],
 		canHatch: true,
-		cosmeticFormes: ["Lugito-Luigi"],
-		formeOrder: ["Lugito", "Lugito-Luigi"],
+		cosmeticFormes: ["Lugito-Luigi", "Lugito-Hero"],
+		formeOrder: ["Lugito", "Lugito-Luigi", "Lugito-Hero"],
 	},
 	lugia: {
 		num: 249,
@@ -10921,6 +10925,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Amorphous"],
 		changesFrom: "Rotom",
+		cosmeticFormes: ["Rotom-Mow-Hero"],
+		formeOrder: ["Rotom-Mow", "Rotom-Mow-Hero"],
 	},
 	uxie: {
 		num: 480,
@@ -11810,6 +11816,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Fire Stone",
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Simisear-Hero"],
+		formeOrder: ["Simisear", "Simisear-Hero"],
 	},
 	simisearhanuman: {
 		num: 514,
@@ -12437,6 +12445,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 18,
 		color: "Green",
 		eggGroups: ["Water 2"],
+		cosmeticFormes: ["Basculin-Blue-Striped-Hero"],
+		formeOrder: ["Basculin-Blue-Striped", "Basculin-Blue-Striped-Hero"],
 	},
 	sandile: {
 		num: 551,

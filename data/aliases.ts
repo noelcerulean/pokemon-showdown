@@ -665,6 +665,12 @@ export const Aliases: {[alias: string]: string} = {
 	hypnosuperhypno: "Hypno",
 	klangsteamroller: "Klang",
 	ferrothornhero: "Ferrothorn",
+	rutheriumhero: "Rutherium",
+	lugitohero: "Lugito",
+	basculinbluestripedhero: "Basculin-Blue-Striped",
+	dittohero: "Ditto",
+	rotommowhero: "Rotom-Mow",
+	simisearhero: "Simisear",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",
