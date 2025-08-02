@@ -21802,7 +21802,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {},
 		onTryHit(target, source, move) {
-			if (source.species.id === 'basculinbluestriped') {
+			if (source.species.id === 'basculinbluestriped' || source.species.id === 'basculinbluestripedhero') {
 				this.actions.useMove('bluebites', source, target);
 			} else if (source.species.id === 'basculin') {
 				this.actions.useMove('redrush', source, target);
