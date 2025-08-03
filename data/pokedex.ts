@@ -4952,6 +4952,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		evos: ["Honchkrow"],
 		eggGroups: ["Flying"],
+		cosmeticFormes: ["Murkrow-Komainu"],
+		formeOrder: ["Murkrow", "Murkrow-Komainu"],
 	},
 	slowking: {
 		num: 199,
@@ -6715,6 +6717,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Water Stone",
 		eggGroups: ["Water 1", "Grass"],
+		cosmeticFormes: ["Ludicolo-Hero"],
+		formeOrder: ["Ludicolo", "Ludicolo-Hero"],
 	},
 	seedot: {
 		num: 273,
@@ -10360,6 +10364,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Croagunk",
 		evoLevel: 37,
 		eggGroups: ["Human-Like"],
+		cosmeticFormes: ["Toxicroak-Hero"],
+		formeOrder: ["Toxicroak", "Toxicroak-Hero"],
 	},
 	toxicroakarmored: {
 		num: 454,
@@ -10613,6 +10619,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Shiny Stone",
 		eggGroups: ["Flying", "Fairy"],
+		cosmeticFormes: ["Togekiss-Komainu"],
+		formeOrder: ["Togekiss", "Togekiss-Komainu"],
 	},
 	yanmega: {
 		num: 469,
@@ -11124,6 +11132,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		tags: ["Mythical"],
 		eggGroups: ["Water 1", "Fairy"],
+		cosmeticFormes: ["Manaphy-Hero"],
+		formeOrder: ["Manaphy", "Manaphy-Hero"],
 	},
 	darkrai: {
 		num: 491,
@@ -12044,6 +12054,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Boldore",
 		evoType: "trade",
 		eggGroups: ["Mineral"],
+		cosmeticFormes: ["Gigalith-Komainu"],
+		formeOrder: ["Gigalith", "Gigalith-Komainu"],
 	},
 	gigalithfnf: {
 		num: 526,
@@ -12109,6 +12121,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Drilbur",
 		evoLevel: 31,
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Excadrill-Komainu"],
+		formeOrder: ["Excadrill", "Excadrill-Komainu"],
 	},
 	audino: {
 		num: 531,
@@ -15993,6 +16007,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Bergmite",
 		evoLevel: 37,
 		eggGroups: ["Monster", "Mineral"],
+		cosmeticFormes: ["Avalugg-Komainu"],
+		formeOrder: ["Avalugg", "Avalugg-Komainu"],
 	},
 	noibat: {
 		num: 714,
