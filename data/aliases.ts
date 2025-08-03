@@ -678,6 +678,7 @@ export const Aliases: {[alias: string]: string} = {
 	gigalithkomainu: "Gigalith",
 	avaluggkomainu: "Avalugg",
 	murkrowkomainu: "Murkrow",
+	raptopeakomainu: "Raptopea",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",

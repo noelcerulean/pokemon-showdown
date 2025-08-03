@@ -5195,6 +5195,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Peatot",
 		evoLevel: 32,
 		eggGroups: ["Grass"],
+		cosmeticFormes: ["Raptopea-Komainu"],
+		formeOrder: ["Raptopea", "Raptopea-Komainu"],
 	},
 	unown: {
 		num: 201,
