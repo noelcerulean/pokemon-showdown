@@ -168,10 +168,6 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
-	raticatealolatotem: {
-		tier: "PU",
-		doublesTier: "(DUU)",
-	},
 	opossie: {
 		tier: "LC",
 	},
@@ -839,10 +835,6 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	marowakalola: {
 		randomBattleMoves: ["bonemerang", "flamecharge", "flareblitz", "shadowbone", "stoneedge", "substitute", "willowisp"],
 		randomDoubleBattleMoves: ["bonemerang", "flareblitz", "protect", "shadowbone", "stoneedge", "willowisp"],
-		tier: "RU",
-		doublesTier: "DUU",
-	},
-	marowakalolatotem: {
 		tier: "RU",
 		doublesTier: "DUU",
 	},
@@ -5298,10 +5290,6 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
-	gumshoostotem: {
-		tier: "NU",
-		doublesTier: "(DUU)",
-	},
 	grubbin: {
 		tier: "LC",
 	},
@@ -5311,10 +5299,6 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	vikavolt: {
 		randomBattleMoves: ["agility", "bugbuzz", "energyball", "hiddenpowerice", "stickyweb", "thunderbolt", "voltswitch"],
 		randomDoubleBattleMoves: ["bugbuzz", "hiddenpowerice", "protect", "stringshot", "thunderbolt", "voltswitch"],
-		tier: "NU",
-		doublesTier: "DUU",
-	},
-	vikavolttotem: {
 		tier: "NU",
 		doublesTier: "DUU",
 	},
@@ -5369,10 +5353,6 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	ribombeeshura: {
 		tier: "Uber",
 		doublesTier: "DUber",
-	},
-	ribombeetotem: {
-		tier: "RU",
-		doublesTier: "(DUU)",
 	},
 	rockruff: {
 		tier: "LC",
@@ -5437,20 +5417,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "DUU",
 	},
-	araquanidtotem: {
-		tier: "RU",
-		doublesTier: "DUU",
-	},
 	fomantis: {
 		tier: "LC",
 	},
 	lurantis: {
 		randomBattleMoves: ["hiddenpowerice", "knockoff", "leafstorm", "superpower", "synthesis"],
 		randomDoubleBattleMoves: ["hiddenpowerice", "knockoff", "leafstorm", "protect", "superpower"],
-		tier: "PU",
-		doublesTier: "(DUU)",
-	},
-	lurantistotem: {
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
@@ -5469,10 +5441,6 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	salazzle: {
 		randomBattleMoves: ["fireblast", "hiddenpowergrass", "nastyplot", "sludgewave"],
 		randomDoubleBattleMoves: ["encore", "fakeout", "flamethrower", "hiddenpowergrass", "hiddenpowerground", "protect", "sludgebomb", "taunt"],
-		tier: "UU",
-		doublesTier: "(DUU)",
-	},
-	salazzletotem: {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
@@ -5703,21 +5671,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "DUU",
 	},
-	togedemarutotem: {
-		tier: "RU",
-		doublesTier: "DUU",
-	},
 	mimikyu: {
 		randomBattleMoves: ["playrough", "shadowclaw", "shadowsneak", "swordsdance", "taunt"],
 		randomDoubleBattleMoves: ["playrough", "protect", "shadowclaw", "shadowsneak", "swordsdance", "willowisp"],
 		tier: "UU",
 		doublesTier: "DUU",
 	},
-	mimikyutotem: {
-		tier: "UU",
-		doublesTier: "DUU",
-	},
-	mimikyubustedtotem: {},
 	bruxish: {
 		randomBattleMoves: ["agility", "aquajet", "crunch", "icefang", "liquidation", "psychicfangs", "swordsdance"],
 		randomDoubleBattleMoves: ["aquajet", "crunch", "liquidation", "protect", "psychicfangs", "swordsdance"],
@@ -5753,10 +5712,6 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["clangingscales", "closecombat", "dragondance", "outrage", "poisonjab"],
 		randomDoubleBattleMoves: ["clangingscales", "closecombat", "dragondance", "poisonjab"],
 		tier: "UUBL",
-		doublesTier: "DOU",
-	},
-	kommoototem: {
-		tier: "OU",
 		doublesTier: "DOU",
 	},
 	tapukoko: {

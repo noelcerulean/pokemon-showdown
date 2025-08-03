@@ -122,9 +122,6 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	raticatealola: {
 		name: "Raticate-Alola",
 	},
-	raticatealolatotem: {
-		name: "Raticate-Alola-Totem",
-	},
 	opossie: {
 		name: "Opossie",
 	},
@@ -589,9 +586,6 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	marowakalola: {
 		name: "Marowak-Alola",
-	},
-	marowakalolatotem: {
-		name: "Marowak-Alola-Totem",
 	},
 	osteoskhan: {
 		name: "Osteoskhan",
@@ -3512,9 +3506,6 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	gumshoos: {
 		name: "Gumshoos",
 	},
-	gumshoostotem: {
-		name: "Gumshoos-Totem",
-	},
 	grubbin: {
 		name: "Grubbin",
 	},
@@ -3523,9 +3514,6 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	vikavolt: {
 		name: "Vikavolt",
-	},
-	vikavolttotem: {
-		name: "Vikavolt-Totem",
 	},
 	vikavoltfnf: {
 		name: "Vikavolt-FnF",
@@ -3556,9 +3544,6 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	ribombeeshura: {
 		name: "Ribombee-Shura",
-	},
-	ribombeetotem: {
-		name: "Ribombee-Totem",
 	},
 	rockruff: {
 		name: "Rockruff",
@@ -3599,17 +3584,11 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	araquanid: {
 		name: "Araquanid",
 	},
-	araquanidtotem: {
-		name: "Araquanid-Totem",
-	},
 	fomantis: {
 		name: "Fomantis",
 	},
 	lurantis: {
 		name: "Lurantis",
-	},
-	lurantistotem: {
-		name: "Lurantis-Totem",
 	},
 	morelull: {
 		name: "Morelull",
@@ -3622,9 +3601,6 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	salazzle: {
 		name: "Salazzle",
-	},
-	salazzletotem: {
-		name: "Salazzle-Totem",
 	},
 	stufful: {
 		name: "Stufful",
@@ -3755,20 +3731,11 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	togedemaru: {
 		name: "Togedemaru",
 	},
-	togedemarutotem: {
-		name: "Togedemaru-Totem",
-	},
 	mimikyu: {
 		name: "Mimikyu",
 	},
 	mimikyubusted: {
 		name: "Mimikyu-Busted",
-	},
-	mimikyutotem: {
-		name: "Mimikyu-Totem",
-	},
-	mimikyubustedtotem: {
-		name: "Mimikyu-Busted-Totem",
 	},
 	bruxish: {
 		name: "Bruxish",
@@ -3793,9 +3760,6 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	kommoo: {
 		name: "Kommo-o",
-	},
-	kommoototem: {
-		name: "Kommo-o-Totem",
 	},
 	tapukoko: {
 		name: "Tapu Koko",

@@ -1462,14 +1462,14 @@
 			"zmoveOnly": 1
 		},
 		"sets": [{
-			"species": "Kommo-o-Totem",
+			"species": "Kommo-o",
 			"item": "Kommonium Z",
 			"ability": "Overcoat",
 			"evs": {"atk": 4, "spa": 252, "spe": 252},
 			"nature": "Naive",
 			"moves": [["Clanging Scales"], ["Drain Punch", "Close Combat"], ["Flamethrower"], ["Flash Cannon", "Poison Jab"]]
 		}, {
-			"species": "Kommo-o-Totem",
+			"species": "Kommo-o",
 			"item": "Kommonium Z",
 			"ability": "Overcoat",
 			"evs": {"spa": 252, "spd": 4, "spe": 252},

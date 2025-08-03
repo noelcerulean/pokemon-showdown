@@ -249,10 +249,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	raticatealolatotem: {
-		isNonstandard: "Past",
-		tier: "Illegal",
-	},
 	opossie: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -1081,10 +1077,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 82,
 		tier: "RU",
 		doublesTier: "(DUU)",
-	},
-	marowakalolatotem: {
-		isNonstandard: "Past",
-		tier: "Illegal",
 	},
 	osteoskhan: {
 		isNonstandard: "Past",
@@ -5742,10 +5734,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	gumshoostotem: {
-		isNonstandard: "Past",
-		tier: "Illegal",
-	},
 	grubbin: {
 		tier: "LC",
 	},
@@ -5767,10 +5755,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 86,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
-	},
-	vikavolttotem: {
-		isNonstandard: "Past",
-		tier: "Illegal",
 	},
 	crabrawler: {
 		isNonstandard: "Past",
@@ -5806,10 +5790,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 84,
 		tier: "PU",
 		doublesTier: "(DUU)",
-	},
-	ribombeetotem: {
-		isNonstandard: "Past",
-		tier: "Illegal",
 	},
 	rockruff: {
 		tier: "LC",
@@ -5884,10 +5864,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PUBL",
 		doublesTier: "(DUU)",
 	},
-	araquanidtotem: {
-		isNonstandard: "Past",
-		tier: "Illegal",
-	},
 	fomantis: {
 		tier: "LC",
 	},
@@ -5898,10 +5874,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
-	},
-	lurantistotem: {
-		isNonstandard: "Past",
-		tier: "Illegal",
 	},
 	morelull: {
 		tier: "LC",
@@ -5924,10 +5896,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "NU",
 		doublesTier: "(DUU)",
-	},
-	salazzletotem: {
-		isNonstandard: "Past",
-		tier: "Illegal",
 	},
 	stufful: {
 		tier: "LC",
@@ -6209,10 +6177,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
-	togedemarutotem: {
-		isNonstandard: "Past",
-		tier: "Illegal",
-	},
 	mimikyu: {
 		randomBattleMoves: ["drainpunch", "playrough", "shadowclaw", "shadowsneak", "swordsdance"],
 		randomBattleLevel: 76,
@@ -6220,14 +6184,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 84,
 		tier: "RU",
 		doublesTier: "(DUU)",
-	},
-	mimikyutotem: {
-		isNonstandard: "Past",
-		tier: "Illegal",
-	},
-	mimikyubustedtotem: {
-		isNonstandard: "Past",
-		tier: "Illegal",
 	},
 	bruxish: {
 		isNonstandard: "Past",
@@ -6268,10 +6224,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 80,
 		tier: "UUBL",
 		doublesTier: "(DUU)",
-	},
-	kommoototem: {
-		isNonstandard: "Past",
-		tier: "Illegal",
 	},
 	tapukoko: {
 		randomBattleMoves: ["calmmind", "dazzlinggleam", "grassknot", "substitute", "thunderbolt", "voltswitch"],

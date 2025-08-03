@@ -174,12 +174,6 @@ describe('Team Validator', function () {
 		illegal = TeamValidator.get('gen7ou').validateTeam(team);
 		assert(illegal);
 
-		team = [
-			{species: 'mimikyutotem', ability: 'disguise', moves: ['shadowsneak'], evs: {hp: 1}},
-		];
-		illegal = TeamValidator.get('gen7ou@@@-mimikyu').validateTeam(team);
-		assert(illegal);
-
 		// bans should override past unbans
 		team = [
 			{species: 'torkoal', ability: 'drought', moves: ['bodyslam'], evs: {hp: 1}},

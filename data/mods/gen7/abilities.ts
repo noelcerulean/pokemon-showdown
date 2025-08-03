@@ -2,8 +2,8 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 	disguise: {
 		inherit: true,
 		onUpdate(pokemon) {
-			if (['mimikyu', 'mimikyutotem'].includes(pokemon.species.id) && this.effectState.busted) {
-				const speciesid = pokemon.species.id === 'mimikyutotem' ? 'Mimikyu-Busted-Totem' : 'Mimikyu-Busted';
+			if (['mimikyu'].includes(pokemon.species.id) && this.effectState.busted) {
+				const speciesid = pokemon.species.id === 'Mimikyu-Busted';
 				pokemon.formeChange(speciesid, this.effect, true);
 			}
 		},

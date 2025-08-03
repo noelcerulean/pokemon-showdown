@@ -3,23 +3,11 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		isNonstandard: "Unobtainable",
 		tier: "Unreleased",
 	},
-	marowakalolatotem: {
-		isNonstandard: "Unobtainable",
-		tier: "Unreleased",
-	},
-	ribombeetotem: {
-		isNonstandard: "Unobtainable",
-		tier: "Unreleased",
-	},
 	rockruffdusk: {
 		isNonstandard: "Unobtainable",
 		tier: "Unreleased",
 	},
 	lycanrocdusk: {
-		isNonstandard: "Unobtainable",
-		tier: "Unreleased",
-	},
-	araquanidtotem: {
 		isNonstandard: "Unobtainable",
 		tier: "Unreleased",
 	},
