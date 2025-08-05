@@ -183,6 +183,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			playrough: ["7E"],
 			reversal: ["7E"],
 			suckerpunch: ["7E"],
+			aquajet: ["7E"],
+			curse: ["7E"],
 			attract: ["7M"],
 			blizzard: ["7M"],
 			brickbreak: ["7M"],

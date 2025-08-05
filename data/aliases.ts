@@ -662,6 +662,10 @@ export const Aliases: {[alias: string]: string} = {
 	sableyefnfboneclub: "Sableye-FnF",
 	steeneegrasswhistle: "Steenee",
 	vikavoltflashcannon: "Vikavolt",
+	togetichero: "Togetic",
+	joltikhero: "Joltik",
+	pelipperhero: "Pelipper",
+	piloswinehero: "Piloswine",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",

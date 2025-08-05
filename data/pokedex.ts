@@ -4473,6 +4473,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "levelFriendship",
 		evos: ["Togekiss"],
 		eggGroups: ["Flying", "Fairy"],
+		cosmeticFormes: ["Togetic-Hero"],
+		formeOrder: ["Togetic", "Togetic-Hero"],
 	},
 	natu: {
 		num: 177,
@@ -5683,6 +5685,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 33,
 		evos: ["Mamoswine"],
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Piloswine-Hero"],
+		formeOrder: ["Piloswine", "Piloswine-Hero"],
 	},
 	corsola: {
 		num: 222,
@@ -6802,6 +6806,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Wingull",
 		evoLevel: 25,
 		eggGroups: ["Water 1", "Flying"],
+		cosmeticFormes: ["Pelipper-Hero"],
+		formeOrder: ["Pelipper", "Pelipper-Hero"],
 	},
 	ralts: {
 		num: 280,
@@ -13376,6 +13382,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		evos: ["Galvantula"],
 		eggGroups: ["Bug"],
+		cosmeticFormes: ["Joltik-Hero"],
+		formeOrder: ["Joltik", "Joltik-Hero"],
 	},
 	joltikdelta: {
 		num: 595,
