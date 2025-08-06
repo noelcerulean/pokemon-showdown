@@ -1761,6 +1761,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoItem: "Ice Stone",
 		eggGroups: ["Field"],
 	},
+	arctric: {
+		num: -596,
+		name: "Arctric",
+		types: ["Ice", "Electric"],
+		gender: "N",
+		baseStats: {hp: 80, atk: 92, def: 70, spa: 110, spd: 70, spe: 108},
+		abilities: {0: "Fur Coat", 1: "Minus"},
+		heightm: 1.7,
+		weightkg: 90,
+		color: "White",
+		eggGroups: ["Undiscovered"],
+	},
 	poliwag: {
 		num: 60,
 		name: "Poliwag",

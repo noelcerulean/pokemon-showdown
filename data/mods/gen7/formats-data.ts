@@ -508,6 +508,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DUU",
 	},
+	arctric: {
+		randomBattleMoves: ["extremespeed", "flamethrower", "icebeam", "thunderbolt", "toxic", "voltswitch"],
+		randomDoubleBattleMoves: ["extremespeed", "flamethrower", "icebeam", "icywind", "protect", "thunderbolt", "voltswitch"],
+		tier: "UU",
+		doublesTier: "DUU",
+	},
 	poliwag: {
 		tier: "LC",
 	},

@@ -368,6 +368,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	arcaninefnf: {
 		name: "Arcanine-FnF",
 	},
+	arctric: {
+		name: "Arctric",
+	},
 	poliwag: {
 		name: "Poliwag",
 	},

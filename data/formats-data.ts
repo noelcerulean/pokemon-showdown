@@ -677,6 +677,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "DUU",
 	},
+	arctric: {
+		tier: "PU",
+	},
 	poliwag: {
 		tier: "LC",
 	},
