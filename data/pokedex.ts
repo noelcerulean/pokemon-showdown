@@ -3249,8 +3249,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 30,
 		evos: ["Magmortar"],
 		eggGroups: ["Human-Like"],
-		cosmeticFormes: ["Magmortar-Malefic"],
-		formeOrder: ["Magmortar", "Magmortar-Malefic"],
 	},
 	pinsir: {
 		num: 127,
@@ -5200,8 +5198,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		evos: ["Allnown"],
 		eggGroups: ["Undiscovered"],
-		cosmeticFormes: ["Unown-B", "Unown-C", "Unown-D", "Unown-E", "Unown-F", "Unown-G", "Unown-H", "Unown-I", "Unown-J", "Unown-K", "Unown-L", "Unown-M", "Unown-N", "Unown-O", "Unown-P", "Unown-Q", "Unown-R", "Unown-S", "Unown-T", "Unown-U", "Unown-V", "Unown-W", "Unown-X", "Unown-Y", "Unown-Z", "Unown-Exclamation", "Unown-Question"],
-		formeOrder: ["Unown", "Unown-B", "Unown-C", "Unown-D", "Unown-E", "Unown-F", "Unown-G", "Unown-H", "Unown-I", "Unown-J", "Unown-K", "Unown-L", "Unown-M", "Unown-N", "Unown-O", "Unown-P", "Unown-Q", "Unown-R", "Unown-S", "Unown-T", "Unown-U", "Unown-V", "Unown-W", "Unown-X", "Unown-Y", "Unown-Z", "Unown-Exclamation", "Unown-Question"],
+		cosmeticFormes: ["Unown-B", "Unown-C", "Unown-D", "Unown-E", "Unown-F", "Unown-G", "Unown-H", "Unown-I", "Unown-I-Hearts", "Unown-I-Hero", "Unown-J", "Unown-K", "Unown-L", "Unown-M", "Unown-N", "Unown-O", "Unown-P", "Unown-Q", "Unown-R", "Unown-S", "Unown-T", "Unown-U", "Unown-V", "Unown-W", "Unown-X", "Unown-Y", "Unown-Z", "Unown-Exclamation", "Unown-Question"],
+		formeOrder: ["Unown", "Unown-B", "Unown-C", "Unown-D", "Unown-E", "Unown-F", "Unown-G", "Unown-H", "Unown-I", "Unown-I-Hearts", "Unown-I-Hero", "Unown-J", "Unown-K", "Unown-L", "Unown-M", "Unown-N", "Unown-O", "Unown-P", "Unown-Q", "Unown-R", "Unown-S", "Unown-T", "Unown-U", "Unown-V", "Unown-W", "Unown-X", "Unown-Y", "Unown-Z", "Unown-Exclamation", "Unown-Question"],
 	},
 	allnown: {
 		num: -523,
@@ -5977,6 +5975,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 58,
 		color: "White",
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Smeargle-Hero"],
+		formeOrder: ["Smeargle", "Smeargle-Hero"],
 	},
 	tyrogue: {
 		num: 236,
@@ -6021,8 +6021,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 20,
 		evoCondition: "with an SpA stat higher than its Atk stat",
 		eggGroups: ["Human-Like"],
-		cosmeticFormes: ["Hitmonwu-Skull"],
-		formeOrder: ["Hitmonwu", "Hitmonwu-Skull"],
+		cosmeticFormes: ["Hitmonwu-Skull", "Hitmonwu-Komainu"],
+		formeOrder: ["Hitmonwu", "Hitmonwu-Skull", "Hitmonwu-Komainu"],
 	},
 	smoochum: {
 		num: 238,
@@ -7067,6 +7067,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Nincada",
 		evoLevel: 20,
 		eggGroups: ["Mineral"],
+		cosmeticFormes: ["Shedinja-ChemicalBath"],
+		formeOrder: ["Shedinja", "Shedinja-ChemicalBath"],
 	},
 	whismur: {
 		num: 293,
@@ -10601,6 +10603,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "trade",
 		evoItem: "Magmarizer",
 		eggGroups: ["Human-Like"],
+		cosmeticFormes: ["Magmortar-Malefic"],
+		formeOrder: ["Magmortar", "Magmortar-Malefic"],
 	},
 	togekiss: {
 		num: 468,
@@ -10841,6 +10845,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Dawn Stone",
 		eggGroups: ["Fairy", "Mineral"],
+		cosmeticFormes: ["Froslass-Skull"],
+		formeOrder: ["Froslass", "Froslass-Skull"],
 	},
 	rotom: {
 		num: 479,
@@ -13814,7 +13820,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		evos: ["Mienshao"],
 		eggGroups: ["Field", "Human-Like"],
-		cosmeticFormes: ["Mienfoo-Mienfoo"],
+		cosmeticFormes: ["Mienfoo-Malefic"],
 		formeOrder: ["Mienfoo", "Mienfoo-Malefic"],
 	},
 	mienshao: {
@@ -13943,6 +13949,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Pawniard",
 		evoLevel: 52,
 		eggGroups: ["Human-Like"],
+		cosmeticFormes: ["Bisharp-RazorClaw"],
+		formeOrder: ["Bisharp", "Bisharp-RazorClaw"],
 	},
 	bouffalant: {
 		num: 626,
@@ -16802,6 +16810,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Dewpider",
 		evoLevel: 22,
 		eggGroups: ["Water 1", "Bug"],
+		cosmeticFormes: ["Araquanid-Hero"],
+		formeOrder: ["Araquanid", "Araquanid-Hero"],
 	},
 	fomantis: {
 		num: 753,
