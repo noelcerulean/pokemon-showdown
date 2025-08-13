@@ -11219,6 +11219,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
 		tags: ["Mythical"],
+		cosmeticFormes: ["Fowlfrost-Jockey"],
+		formeOrder: ["Fowlfrost", "Fowlfrost-Jockey"],
 	},
 	arceus: {
 		num: 493,
@@ -15337,6 +15339,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoCondition: "in the haunted steeple",
 		evos: ["Sorceroma"],
 		eggGroups: ["Fairy"],
+		cosmeticFormes: ["Aromatisse-FnF-Hero"],
+		formeOrder: ["Aromatisse-FnF", "Aromatisse-FnF-Hero"],
 	},
 	aromacosta: {
 		num: -555,

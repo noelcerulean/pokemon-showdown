@@ -674,6 +674,8 @@ export const Aliases: {[alias: string]: string} = {
 	unownihero: "Unown",
 	hitmonwukomainu: "Hitmonwu",
 	araquanidhero: "Araquanid",
+	aromatissefnfhero: "Aromatisse-FnF",
+	fowlfrostjockey: "Fowlfrost",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",
