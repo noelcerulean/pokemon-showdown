@@ -10,8 +10,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 8.1,
 		color: "Brown",
 		eggGroups: ["Grass", "Field"],
-		cosmeticFormes: ["Musleeb-Vera", "Musleeb-Lotus", "Musleeb-Dribble", "Musleeb-Hexa", "Musleeb-Dolly", "Musleeb-Hana", "Musleeb-Seeds", "Musleeb-Bloom", "Musleeb-Mianju", "Musleeb-KIM", "Musleeb-Meemo", "Musleeb-Vera-Onesie"],
-		formeOrder: ["Musleeb", "Musleeb-Vera", "Musleeb-Lotus", "Musleeb-Dribble", "Musleeb-Hexa", "Musleeb-Dolly", "Musleeb-Hana", "Musleeb-Seeds", "Musleeb-Bloom", "Musleeb-Mianju", "Musleeb-KIM", "Musleeb-Meemo", "Musleeb-Vera-Onesie"],
+		cosmeticFormes: ["Musleeb-Vera", "Musleeb-Lotus", "Musleeb-Dribble", "Musleeb-Hexa", "Musleeb-Dolly", "Musleeb-Hana", "Musleeb-Seeds", "Musleeb-Bloom", "Musleeb-Mianju", "Musleeb-KIM", "Musleeb-Meemo", "Musleeb-Vera-Onesie", "Musleeb-KIM-MiracleSeed"],
+		formeOrder: ["Musleeb", "Musleeb-Vera", "Musleeb-Lotus", "Musleeb-Dribble", "Musleeb-Hexa", "Musleeb-Dolly", "Musleeb-Hana", "Musleeb-Seeds", "Musleeb-Bloom", "Musleeb-Mianju", "Musleeb-KIM", "Musleeb-Meemo", "Musleeb-Vera-Onesie", "Musleeb-KIM-MiracleSeed"],
 	},
 	sindle: {
 		num: -593,
@@ -24,8 +24,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 6.3,
 		color: "Red",
 		eggGroups: ["Dragon", "Field"],
-		cosmeticFormes: ["Sindle-Lighthouse", "Sindle-Groveil", "Sindle-Rex", "Sindle-Suneater", "Sindle-Deeva", "Sindle-Apophis", "Sindle-Peacemaker", "Sindle-Coily", "Sindle-Liege", "Sindle-Serph"],
-		formeOrder: ["Sindle", "Sindle-Lighthouse", "Sindle-Groveil", "Sindle-Rex", "Sindle-Suneater", "Sindle-Deeva", "Sindle-Apophis", "Sindle-Peacemaker", "Sindle-Coily", "Sindle-Liege", "Sindle-Serph"],
+		cosmeticFormes: ["Sindle-Lighthouse", "Sindle-Groveil", "Sindle-Rex", "Sindle-Suneater", "Sindle-Deeva", "Sindle-Apophis", "Sindle-Peacemaker", "Sindle-Coily", "Sindle-Liege", "Sindle-Serph", "Sindle-Liege-PoisonTouch"],
+		formeOrder: ["Sindle", "Sindle-Lighthouse", "Sindle-Groveil", "Sindle-Rex", "Sindle-Suneater", "Sindle-Deeva", "Sindle-Apophis", "Sindle-Peacemaker", "Sindle-Coily", "Sindle-Liege", "Sindle-Serph", "Sindle-Liege-PoisonTouch"],
 	},
 	fofoam: {
 		num: -594,
@@ -7768,6 +7768,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Spoink",
 		evoLevel: 32,
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Grumpig-Hero"],
+		formeOrder: ["Grumpig", "Grumpig-Hero"],
 	},
 	spinda: {
 		num: 327,
@@ -12645,8 +12647,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 28,
 		color: "Green",
 		eggGroups: ["Grass"],
-		cosmeticFormes: ["Maractus-Bald", "Maractus-Sombrero"],
-		formeOrder: ["Maractus", "Maractus-Bald", "Maractus-Sombrero"],
+		cosmeticFormes: ["Maractus-Bald", "Maractus-Sombrero", "Maractus-Komainu"],
+		formeOrder: ["Maractus", "Maractus-Bald", "Maractus-Sombrero", "Maractus-Komainu"],
 	},
 	dwebble: {
 		num: 557,
@@ -15970,6 +15972,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Pumpkaboo-Large",
 		evoType: "trade",
 		eggGroups: ["Amorphous"],
+		cosmeticFormes: ["Gourgeist-Large-Komainu"],
+		formeOrder: ["Gourgeist-Large", "Gourgeist-Large-Komainu"],
 	},
 	gourgeistsuper: {
 		num: 711,
@@ -16978,6 +16982,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 18,
 		evos: ["Tsareena-Delta"],
 		eggGroups: ["Undiscovered"],
+		cosmeticFormes: ["Steenee-Delta-Komainu"],
+		formeOrder: ["Steenee-Delta", "Steenee-Delta-Komainu"],
 	},
 	steeneedeltaarmored: {
 		num: 762,
@@ -17825,8 +17831,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		tags: ["Sub-Legendary"],
 		eggGroups: ["Undiscovered"],
-		cosmeticFormes: ["Xurkitree-Spaghetti"],
-		formeOrder: ["Xurkitree", "Xurkitree-Spaghetti"],
+		cosmeticFormes: ["Xurkitree-Spaghetti", "Xurkitree-Hero"],
+		formeOrder: ["Xurkitree", "Xurkitree-Spaghetti", "Xurkitree-Hero"],
 	},
 	celesteela: {
 		num: 797,

@@ -676,6 +676,11 @@ export const Aliases: {[alias: string]: string} = {
 	araquanidhero: "Araquanid",
 	aromatissefnfhero: "Aromatisse-FnF",
 	fowlfrostjockey: "Fowlfrost",
+	grumpighero: "Grumpig",
+	xurkitreehero: "Xurkitree",
+	steeneedeltakomainu: "Steenee-Delta",
+	gourgeistlargekomainu: "Gourgeist-Large",
+	maractuskomainu: "Maractus-Komainu",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",
@@ -697,6 +702,7 @@ export const Aliases: {[alias: string]: string} = {
 	musleebkim: "Musleeb",
 	musleebmeemo: "Musleeb",
 	musleebveraonesie: "Musleeb",
+	musleebkimmiracleseed: "Musleeb",
 	sindlelighthouse: "Sindle",
 	sindlegroveil: "Sindle",
 	sindlerex: "Sindle",
@@ -707,6 +713,7 @@ export const Aliases: {[alias: string]: string} = {
 	sindlecoily: "Sindle",
 	sindleliege: "Sindle",
 	sindleserph: "Sindle",
+	sindleliegepoisontouch: "Sindle",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",
