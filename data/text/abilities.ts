@@ -231,10 +231,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		activate: "  [POKEMON]'s Carrier is secure!",
 	},
-	chainpunch: {
-		name: "Chain Punch",
-		shortDesc: "This Pokemon's punch moves hit double the amount at 1/2 power & don't make contact.",
-	},
 	cheekpouch: {
 		name: "Cheek Pouch",
 		desc: "If this Pokemon eats a Berry, it restores 1/3 of its maximum HP, rounded down, in addition to the Berry's effect.",

@@ -645,35 +645,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2.5,
 		num: -581,
 	},
-	chainpunch: {
-		onModifyMove(move, attacker) {
-			if (move.flags['punch'] && move.id !== 'onetwopunch' && move.id !== 'cometpunch') {
-				move.multihit = 2;
-				delete move.flags['contact'];
-			} else if (move.id === 'onetwopunch') {
-				move.multihit = 4;
-				delete move.flags['contact'];
-			} else if (move.flags['cometpunch']) {
-				move.multihit = 10;
-				delete move.flags['contact'];
-			}
-		},
-		onModifyAtkPriority: 5,
-		onModifyAtk(atk, attacker, defender, move) {
-			if (move.flags['punch']) {
-				return this.chainModify(0.5);
-			}
-		},
-		onModifySpAPriority: 5,
-		onModifySpA(spa, attacker, defender, move) {
-			if (move.flags['punch']) {
-				return this.chainModify(0.5);
-			}
-		},
-		name: "Chain Punch",
-		rating: 3,
-		num: -589,
-	},
 	cheekpouch: {
 		onEatItem(item, pokemon) {
 			this.heal(pokemon.baseMaxhp / 3);
