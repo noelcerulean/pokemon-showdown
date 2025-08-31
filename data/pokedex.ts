@@ -3910,7 +3910,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Dragonair-Armored",
 		types: ["Dragon", "Rock"],
 		baseStats: {hp: 75, atk: 110, def: 115, spa: 115, spd: 120, spe: 80},
-		abilities: {0: "Luminesce", H: "Reverberation"},
+		abilities: {0: "Luminesce", 1: "Reverberation"},
 		heightm: 4,
 		weightkg: 16.5,
 		color: "Blue",
