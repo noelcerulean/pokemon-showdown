@@ -1485,6 +1485,24 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
+	capito: {
+		tier: "LC",
+	},
+	festijest: {
+		randomBattleMoves: ["closecombat", "rapidspin", "stealthrock", "sugarslam", "swordsdance"],
+		randomDoubleBattleMoves: ["closecombat", "followme", "protect", "sugarslam", "swordsdance"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
+	kasako: {
+		tier: "LC",
+	},
+	parakasa: {
+		randomBattleMoves: ["hydropump", "shadowball", "spikes", "willowisp"],
+		randomDoubleBattleMoves: ["hydropump", "protect", "shadowball", "willowisp"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	chinchou: {
 		tier: "NU",
 	},

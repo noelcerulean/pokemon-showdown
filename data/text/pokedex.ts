@@ -908,6 +908,18 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	ariadosmega: {
 		name: "Ariados-Mega",
 	},
+	capito: {
+		name: "Capito",
+	},
+	festijest: {
+		name: "Festijest",
+	},
+	kasako: {
+		name: "Kasako",
+	},
+	parakasa: {
+		name: "Parakasa",
+	},
 	crobat: {
 		name: "Crobat",
 	},

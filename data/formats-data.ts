@@ -1833,6 +1833,22 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	capito: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	festijest: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	kasako: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	parakasa: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	chinchou: {
 		tier: "LC",
 	},
