@@ -44,6 +44,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	ariadosite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	armorfossil: {
 		inherit: true,
 		isNonstandard: null,
@@ -399,6 +403,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		isNonstandard: null,
 	},
 	latiosite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	ledianite: {
 		inherit: true,
 		isNonstandard: null,
 	},

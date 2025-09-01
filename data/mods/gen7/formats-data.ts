@@ -1460,6 +1460,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
+	ledianmega: {
+		randomBattleMoves: ["encore", "knockoff", "icepunch", "lightscreen", "lunge", "meteormash", "onetwopunch", "reflect", "roost", "shadowpunch", "swordsdance", "toxic", "uturn"],
+		randomDoubleBattleMoves: ["bugbuzz", "encore", "icepunch", "knockoff", "lightscreen", "lunge", "onetwopunch", "protect", "reflect", "shadowpunch", "tailwind", "uturn"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
 	spinarak: {
 		tier: "LC",
 	},
@@ -1468,6 +1474,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "DUber",
 	},
 	ariados: {
+		randomBattleMoves: ["leechlife", "megahorn", "poisonjab", "spiderweb", "stickyweb", "stompingtantrum", "suckerpunch", "toxicspikes", "toxicthread"],
+		randomDoubleBattleMoves: ["megahorn", "poisonjab", "protect", "ragepowder", "stickyweb", "toxicthread"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
+	ariadosmega: {
 		randomBattleMoves: ["leechlife", "megahorn", "poisonjab", "spiderweb", "stickyweb", "stompingtantrum", "suckerpunch", "toxicspikes", "toxicthread"],
 		randomDoubleBattleMoves: ["megahorn", "poisonjab", "protect", "ragepowder", "stickyweb", "toxicthread"],
 		tier: "UU",

@@ -209,6 +209,7 @@ const avatarTable = new Set([
 	'gus', 'gus-student',
 	'hajime', 'hajime-casual',
 	'harlequin', 'harlequin-2',
+	'heroica-heroes', 'heroica-siblings', 'heroica-villains',
 	'hexmaniac-gen3jp', 'hexmaniac-gen3',
 	'hiker-gen1', 'hiker-gen1rb', 'hiker-gen2', 'hiker-gen3', 'hiker-gen3rs', 'hiker-gen4', 'hiker',
 	'hilbert-wonderlauncher', 'hilbert',

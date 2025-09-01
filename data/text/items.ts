@@ -78,6 +78,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Apicot Berry",
 		desc: "Raises holder's Sp. Def by 1 stage when at 1/4 max HP or less. Single use.",
 	},
+	ariadosite: {
+		name: "Ariadosite",
+		desc: "If held by an Ariados, this item allows it to Mega Evolve in battle.",
+	},
 	armorfossil: {
 		name: "Armor Fossil",
 		desc: "Can be revived into Shieldon.",
@@ -1098,6 +1102,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		gen7: {
 			desc: "Evolves Gloom into Vileplume, Weepinbell into Victreebel, Exeggcute into Exeggutor or Alolan Exeggutor, Nuzleaf into Shiftry, and Pansage into Simisage when used.",
 		},
+	},
+	ledianite: {
+		name: "Ledianite",
+		desc: "If held by an Ledian, this item allows it to Mega Evolve in battle.",
 	},
 	leek: {
 		name: "Leek",

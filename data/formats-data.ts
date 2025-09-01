@@ -1817,11 +1817,19 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	ledianmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	spinarak: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
 	ariados: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	ariadosmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},

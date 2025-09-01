@@ -326,6 +326,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 205,
 		gen: 3,
 	},
+	ariadosite: {
+		name: "Ariadosite",
+		spritenum: 832,
+		megaStone: "Ariados-Mega",
+		megaEvolves: "Ariados",
+		itemUser: ["Ariados"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -595,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	armorfossil: {
 		name: "Armor Fossil",
 		spritenum: 12,
@@ -3743,6 +3757,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 85,
 		gen: 1,
+	},
+	ledianite: {
+		name: "Ledianite",
+		spritenum: 831,
+		megaStone: "Ledian-Mega",
+		megaEvolves: "Ledian",
+		itemUser: ["Ledian"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -594,
+		gen: 6,
+		isNonstandard: "Past",
 	},
 	leek: {
 		name: "Leek",

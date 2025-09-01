@@ -893,6 +893,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	ledian: {
 		name: "Ledian",
 	},
+	ledianmega: {
+		name: "Ledian-Mega",
+	},
 	spinarak: {
 		name: "Spinarak",
 	},
@@ -901,6 +904,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	ariados: {
 		name: "Ariados",
+	},
+	ariadosmega: {
+		name: "Ariados-Mega",
 	},
 	crobat: {
 		name: "Crobat",
