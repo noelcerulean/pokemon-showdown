@@ -1463,7 +1463,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	ledianmega: {
 		randomBattleMoves: ["encore", "knockoff", "icepunch", "lightscreen", "lunge", "meteormash", "onetwopunch", "reflect", "roost", "shadowpunch", "swordsdance", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["bugbuzz", "encore", "icepunch", "knockoff", "lightscreen", "lunge", "onetwopunch", "protect", "reflect", "shadowpunch", "tailwind", "uturn"],
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	spinarak: {
@@ -1491,7 +1491,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	festijest: {
 		randomBattleMoves: ["closecombat", "rapidspin", "stealthrock", "sugarslam", "swordsdance"],
 		randomDoubleBattleMoves: ["closecombat", "followme", "protect", "sugarslam", "swordsdance"],
-		tier: "RU",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	kasako: {
@@ -1500,7 +1500,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	parakasa: {
 		randomBattleMoves: ["hydropump", "shadowball", "spikes", "willowisp"],
 		randomDoubleBattleMoves: ["hydropump", "protect", "shadowball", "willowisp"],
-		tier: "RU",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	chinchou: {

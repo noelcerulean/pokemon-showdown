@@ -680,7 +680,7 @@ export const Aliases: {[alias: string]: string} = {
 	xurkitreehero: "Xurkitree",
 	steeneedeltakomainu: "Steenee-Delta",
 	gourgeistlargekomainu: "Gourgeist-Large",
-	maractuskomainu: "Maractus-Komainu",
+	maractuskomainu: "Maractus",
 	ninetaleskomainu: "Ninetales",
 
 	fofoampaz: "Fofoam",

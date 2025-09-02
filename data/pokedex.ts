@@ -4301,7 +4301,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseSpecies: "Ledian",
 		forme: "Mega",
 		types: ["Bug", "Fighting"],
-		baseStats: {hp: 75, atk: 135, def: 75, spa: 75, spd: 120, spe: 140},
+		baseStats: {hp: 75, atk: 125, def: 75, spa: 85, spd: 120, spe: 140},
 		abilities: {0: "Chain Punch"},
 		heightm: 1.6,
 		weightkg: 42,
