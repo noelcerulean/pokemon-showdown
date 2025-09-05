@@ -1216,9 +1216,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onUpdate(pokemon) {
 			if (['mimikyu'].includes(pokemon.species.id) && this.effectState.busted) {
-				const speciesid = pokemon.species.id === 'Mimikyu-Busted';
-				pokemon.formeChange(speciesid, this.effect, true);
-				this.damage(pokemon.baseMaxhp / 8, pokemon, pokemon, this.dex.species.get(speciesid));
+				pokemon.formeChange('Mimikyu-Busted', this.effect, true);
+				this.damage(pokemon.baseMaxhp / 8, pokemon, pokemon, this.dex.species.get('Mimikyu-Busted'));
 			}
 		},
 		isBreakable: true,

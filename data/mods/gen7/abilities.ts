@@ -4,7 +4,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		onUpdate(pokemon) {
 			if (['mimikyu'].includes(pokemon.species.id) && this.effectState.busted) {
 				const speciesid = pokemon.species.id === 'Mimikyu-Busted';
-				pokemon.formeChange(speciesid, this.effect, true);
+				pokemon.formeChange('Mimikyu-Busted', this.effect, true);
 			}
 		},
 	},
