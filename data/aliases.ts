@@ -682,6 +682,10 @@ export const Aliases: {[alias: string]: string} = {
 	gourgeistlargekomainu: "Gourgeist-Large",
 	maractuskomainu: "Maractus",
 	ninetaleskomainu: "Ninetales",
+	archebotskull: "Archebot",
+	skiploomskull: "Skiploom",
+	wigglytuffskull: "Wigglytuff",
+	flymolckyrascal: "Flymolcky",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",

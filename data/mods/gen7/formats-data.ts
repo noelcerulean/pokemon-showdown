@@ -930,7 +930,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	blissey: {
 		randomBattleMoves: ["flamethrower", "healbell", "protect", "seismictoss", "softboiled", "stealthrock", "toxic"],
 		randomDoubleBattleMoves: ["helpinghand", "protect", "seismictoss", "softboiled", "thunderwave", "toxic"],
-		tier: "UU",
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	tangela: {
@@ -4309,7 +4309,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	alomomola: {
 		randomBattleMoves: ["knockoff", "protect", "scald", "toxic", "wish"],
 		randomDoubleBattleMoves: ["helpinghand", "icywind", "knockoff", "protect", "scald", "wideguard"],
-		tier: "UU",
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	alomomolamedella: {
@@ -4947,7 +4947,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	aromatissefnf: {
 		randomBattleMoves: ["darkpulse", "moonblast", "nastyplot", "psychic", "trickroom"],
 		randomDoubleBattleMoves: ["darkpulse", "healpulse", "moonblast", "protect", "psychic", "thunderbolt", "trickroom"],
-		tier: "PU",
+		tier: "PUBL",
 		doublesTier: "(DUU)",
 	},
 	sorceroma: {
@@ -5468,7 +5468,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	shiinotic: {
 		randomBattleMoves: ["leechseed", "moonblast", "spore", "strengthsap", "substitute"],
 		randomDoubleBattleMoves: ["gigadrain", "leechseed", "moonblast", "protect", "spore", "strengthsap"],
-		tier: "UUBL",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	salandit: {
@@ -5831,7 +5831,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	guzzlord: {
 		randomBattleMoves: ["dracometeor", "dragonhammer", "earthquake", "fireblast", "gunkshot", "heavyslam", "knockoff", "stealthrock"],
 		randomDoubleBattleMoves: ["dracometeor", "dragonhammer", "fireblast", "knockoff", "protect", "wideguard"],
-		tier: "PU",
+		tier: "PUBL",
 		doublesTier: "(DUU)",
 	},
 	necrozma: {
