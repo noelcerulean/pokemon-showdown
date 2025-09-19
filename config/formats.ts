@@ -1011,7 +1011,7 @@ export const Formats: FormatList = [
 			'Muk-TheSludge', 'Noivern-Eyrie', 'Ribombee-Shura', 'Shroomish-Geastrales', 'Spinarak-Sugar', 'Longeon-Spaghetti', 'Snorunt-Sherbet',
 			'Castform-Atom', 'Mareanie-Barbara', 'Ditto-Mini', 'Zapdos-Strato', 'Moltres-Thermo', 'Articuno-Exo', 'Roboheeyem-Curio',
 		],
-		unbanlist: ['Deoxys-Defense', 'Kyurem-Base', 'Necrozma-Base'],
+		unbanlist: ['Deoxys', 'Deoxys-Defense', 'Kyurem-Base', 'Necrozma-Base'],
 		onValidateTeam(team) {
 			const itemTable = new Set<ID>();
 			for (const set of team) {
