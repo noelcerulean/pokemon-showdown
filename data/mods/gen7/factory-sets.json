@@ -5655,14 +5655,6 @@
 			"flags": {},
 			"sets": [{
 				"species": "Audino",
-				"item": ["Choice Specs"],
-				"ability": ["Mystic Power"],
-				"evs": {"hp": 252, "spa": 252, "spe": 4},
-				"ivs": {"atk": 0},
-				"nature": "Modest",
-				"moves": [["Hyper Voice"], ["Fire Blast"], ["Shadow Ball"], ["Moonblast", "Thunderbolt", "Ice Beam", "Psychic", "Hidden Power Fighting"]]
-			}, {
-				"species": "Audino",
 				"item": ["Audinite"],
 				"ability": ["Regenerator"],
 				"evs": {"hp": 252, "def": 4, "spd": 252},
@@ -7561,13 +7553,6 @@
 			"flags": {},
 			"sets": [{
 				"species": "Audino",
-				"item": ["Choice Specs"],
-				"ability": ["Mystic Power"],
-				"evs": {"hp": 252, "spa": 252, "spe": 4},
-				"nature": "Modest",
-				"moves": [["Hyper Voice"], ["Fire Blast"], ["Shadow Ball"], ["Moonblast", "Thunderbolt", "Ice Beam", "Psychic"]]
-			}, {
-				"species": "Audino",
 				"item": ["Leftovers"],
 				"ability": ["Regenerator"],
 				"evs": {"hp": 252, "def": 4, "spd": 252},
@@ -7580,13 +7565,6 @@
 				"evs": {"hp": 252, "def": 4, "spd": 252},
 				"nature": "Careful",
 				"moves": [["Toxic"], ["Seismic Toss"], ["Moonlight"], ["Heal Bell"]]
-			}, {
-				"species": "Audino",
-				"item": ["Leftovers"],
-				"ability": ["Mystic Power"],
-				"evs": {"hp": 252, "spa": 252, "spe": 4},
-				"nature": "Modest",
-				"moves": [["Hyper Voice"], ["Substitute", "Moonlight"], ["Shadow Ball"], ["Calm Mind"]]
 			}, {
 				"species": "Audino",
 				"item": ["Audinite"],
