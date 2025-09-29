@@ -3115,15 +3115,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 152,
 	},
-	mysticpower: {
-		onModifySpAPriority: 5,
-		onModifySpA(spa) {
-			return this.chainModify(2);
-		},
-		name: "Mystic Power",
-		rating: 5,
-		num: -525,
-	},
 	naturalcure: {
 		onCheckShow(pokemon) {
 			// This is complicated
@@ -3829,7 +3820,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	purepower: {
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk) {
-			return this.chainModify(2);
+			return this.chainModify(1.5);
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(spa) {
+			return this.chainModify(1.5);
 		},
 		name: "Pure Power",
 		rating: 5,

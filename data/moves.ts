@@ -6171,11 +6171,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	flyingpress: {
 		num: 560,
-		accuracy: 95,
-		basePower: 80,
+		accuracy: 100,
+		basePower: 70,
 		category: "Physical",
 		name: "Flying Press",
-		pp: 10,
+		pp: 20,
 		flags: {contact: 1, protect: 1, mirror: 1, gravity: 1, distance: 1, nonsky: 1},
 		onEffectiveness(typeMod, target, type) {
 			if (type === 'Flying') return 1;
@@ -9667,11 +9667,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	icedrill: {
 		num: -550,
-		accuracy: 100,
-		basePower: 70,
+		accuracy: 95,
+		basePower: 80,
 		category: "Physical",
 		name: "Ice Drill",
-		pp: 15,
+		pp: 10,
 		priority: 0,
 		flags: {protect: 1, contact: 1, mirror: 1},
 		onEffectiveness(typeMod, target, type) {
@@ -15843,7 +15843,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	revelationdance: {
 		num: 686,
 		accuracy: 100,
-		basePower: 100,
+		basePower: 90,
 		category: "Special",
 		isNonstandard: "Past",
 		name: "Revelation Dance",
@@ -16534,10 +16534,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 	savagehorn: {
 		num: -577,
 		accuracy: 100,
-		basePower: 80,
+		basePower: 70,
 		category: "Physical",
 		name: "Savage Horn",
-		pp: 15,
+		pp: 20,
 		priority: 0,
 		flags: {protect: 1, mirror: 1, contact: 1},
 		onEffectiveness(typeMod, target, type) {

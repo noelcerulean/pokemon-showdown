@@ -571,6 +571,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Eviomight",
 		desc: "If holder's species can evolve, its Attack and Sp. Attack are 1.5x.",
 	},
+	fusedevite: {
+		name: "Fused Evite",
+		desc: "If holder is an NFE-only fusion, its Atk/Def/SpA/SpD are 1.5x.",
+	},
 	expertbelt: {
 		name: "Expert Belt",
 		desc: "Holder's attacks that are super effective against the target do 1.2x damage.",

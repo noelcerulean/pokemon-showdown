@@ -62,7 +62,7 @@ export const Formats: FormatList = [
 		banlist: [
 			'Uber', 'Geomancy', 'Arena Trap', 'Sand Veil', 'Snow Cloak', 'Battle Bond', 'Shadow Tag', 'Ignajara + Ignition', 'Blaziken + Speed Boost',
 			'Power Construct', 'King\'s Rock', 'Corrupted Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Melodium Z', 'Meloettium Z',
-			'Pickpossium Z',
+			'Pickpossium Z', 'Cherrim + Cerise Orb',
 		],
 	},
 	{
@@ -128,7 +128,7 @@ export const Formats: FormatList = [
 			'Aegislash', 'Alakazam-Mega', 'Deoxys-Defense', 'Genesect', 'Gothigearna', 'Greninja-Ash', 'Heatran',
 			'Kartana', 'Kyurem-Black', 'Landorus-Base', 'Latias-Mega', 'Latios-Mega', 'Magearna', 'Deoxys', 'Medicham-Mega',
 			'Naganadel', 'Rapidash-Mega', 'Scizor-Mega', 'Skarmory-Mega', 'Tapu Lele', 'Trevenant-Mega', 'Zygarde-Base',
-			'Scrafty-Mega', 'Porygon-Z-Mega', 'Darkrai',
+			'Scrafty-Mega', 'Porygon-Z-Mega', 'Darkrai', 'Gothigearna', 'Cherrim-Primal',
 		],
 	},
 	{
@@ -269,7 +269,7 @@ export const Formats: FormatList = [
 		banlist: [
 			'Uber', 'Geomancy', 'Arena Trap', 'Sand Veil', 'Snow Cloak', 'Battle Bond', 'Shadow Tag', 'Ignajara + Ignition', 'Blaziken + Speed Boost',
 			'Power Construct', 'King\'s Rock', 'Corrupted Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z', 'Melodium Z', 'Meloettium Z',
-			'Pickpossium Z',
+			'Pickpossium Z', 'Cherrim + Cerise Orb',
 		],
 	},
 	{
@@ -335,7 +335,7 @@ export const Formats: FormatList = [
 			'Aegislash', 'Alakazam-Mega', 'Deoxys-Defense', 'Genesect', 'Gothigearna', 'Greninja-Ash', 'Heatran',
 			'Kartana', 'Kyurem-Black', 'Landorus-Base', 'Latias-Mega', 'Latios-Mega', 'Magearna', 'Medicham-Mega',
 			'Naganadel', 'Rapidash-Mega', 'Scizor-Mega', 'Skarmory-Mega', 'Tapu Lele', 'Trevenant-Mega', 'Zygarde-Base',
-			'Scrafty-Mega', 'Porygon-Z-Mega', 'Darkrai', 'Deoxys',
+			'Scrafty-Mega', 'Porygon-Z-Mega', 'Darkrai', 'Deoxys', 'Gothigearna', 'Cherrim-Primal',
 		],
 	},
 

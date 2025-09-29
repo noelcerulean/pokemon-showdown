@@ -1022,7 +1022,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	scizor: {
 		randomBattleMoves: ["bugbite", "bulletpunch", "knockoff", "pursuit", "superpower", "swordsdance", "uturn"],
 		randomDoubleBattleMoves: ["bugbite", "bulletpunch", "feint", "knockoff", "protect", "superpower", "swordsdance", "uturn"],
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	scizormega: {
@@ -2005,7 +2005,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	houndoom: {
 		randomBattleMoves: ["agility", "darkpulse", "fireblast", "hiddenpowergrass", "nastyplot", "suckerpunch"],
 		randomDoubleBattleMoves: ["darkpulse", "heatwave", "nastyplot", "protect", "suckerpunch"],
-		tier: "PU",
+		tier: "PUBL",
 		doublesTier: "(DUU)",
 	},
 	houndoommega: {
@@ -3229,7 +3229,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	bastiodondelta: {
 		randomBattleMoves: ["hex", "protect", "shadowball", "sludgewave", "toxic", "toxicspikes", "willowisp"],
 		randomDoubleBattleMoves: ["hex", "protect", "shadowball", "sludgewave", "toxic", "toxicspikes", "willowisp"],
-		tier: "OU",
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	burmy: {
@@ -3305,7 +3305,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	cherrimprimal: {
 		randomBattleMoves: ["florapower", "petalblizzard", "playrough", "primalburst", "swordsdance"],
 		randomDoubleBattleMoves: ["florapower", "petalblizzard", "playrough", "primalburst", "protect"],
-		tier: "OU",
+		tier: "Uber",
 		doublesTier: "DOU",
 	},
 	shellos: {
@@ -4186,7 +4186,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	gothigearna: {
 		randomBattleMoves: ["calmmind", "flashcannon", "fleurcannon", "focusblast", "ironhead", "psychic", "psyshock", "shiftgear", "thunderbolt"],
 		randomDoubleBattleMoves: ["aurasphere", "dazzlinggleam", "flashcannon", "fleurcannon", "protect", "psychic", "psyshock", "trickroom", "voltswitch"],
-		tier: "OU",
+		tier: "Uber",
 		doublesTier: "DUber",
 	},
 	solosis: {

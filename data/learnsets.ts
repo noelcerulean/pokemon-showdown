@@ -35,6 +35,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			aromabomb: ["7E"],
 			aromatherapy: ["7E"],
+			delinquency: ["7E"],
 			honeclaws: ["7E"],
 			leechseed: ["7E"],
 			petalblizzard: ["7E"],
@@ -113,6 +114,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sindle: {
 		learnset: {
+			clearsmog: ["7E"],
 			firespin: ["7E"],
 			flamewheel: ["7E"],
 			nastyplot: ["7E"],
@@ -180,6 +182,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			feint: ["7E"],
 			megapunch: ["7E"],
+			mudshot: ["7E"],
 			playrough: ["7E"],
 			reversal: ["7E"],
 			suckerpunch: ["7E"],
@@ -69346,6 +69349,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			drainingkiss: ["8M", "7E", "6E"],
 			drainpunch: ["8M", "7T", "6T", "5T"],
 			dreameater: ["7M", "6M", "5M"],
+			drypass: ["7L1"],
 			echoedvoice: ["7M", "6M", "5M"],
 			encore: ["8M", "7E", "6E", "5E", "5D"],
 			endure: ["8M"],

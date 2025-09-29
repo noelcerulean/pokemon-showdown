@@ -1359,7 +1359,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	purepower: {
 		name: "Pure Power",
-		shortDesc: "This Pokemon's Attack is doubled.",
+		shortDesc: "This Pokemon's Attack and Sp. Attack are boosted by 1.5x.",
 	},
 	queenlymajesty: {
 		name: "Queenly Majesty",

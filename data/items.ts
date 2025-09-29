@@ -2051,6 +2051,39 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: -500,
 		gen: 5,
 	},
+	fusedevite: {
+		name: "Fused Evite",
+		spritenum: 833,
+		fling: {
+			basePower: 80,
+		},
+		onModifyAtkPriority: 2,
+		onModifyAtk(atk, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Medipom') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 2,
+		onModifySpA(spa, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Medipom') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifyDefPriority: 2,
+		onModifyDef(def, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Medipom') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpDPriority: 2,
+		onModifySpD(spd, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Medipom') {
+				return this.chainModify(1.5);
+			}
+		},
+		num: -596,
+		gen: 5,
+	},
 	expertbelt: {
 		name: "Expert Belt",
 		spritenum: 132,
