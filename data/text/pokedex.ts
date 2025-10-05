@@ -8,6 +8,18 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	fofoam: {
 		name: "Fofoam",
 	},
+	nightmaremist: {
+		name: "Nightmare Mist",
+	},
+	shyego: {
+		name: "Shy Ego",
+	},
+	inflatedego: {
+		name: "Inflated Ego",
+	},
+	brokenego: {
+		name: "Broken Ego",
+	},
 	bulbasaur: {
 		name: "Bulbasaur",
 	},

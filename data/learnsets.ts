@@ -31,6 +31,26 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			watergun: ["3L1"],
 		},
 	},
+	nightmaremist: {
+		learnset: {
+			sketch: ["7L1", "6L1", "5L1", "4L1"],
+		},
+	},
+	shyego: {
+		learnset: {
+			sketch: ["7L1", "6L1", "5L1", "4L1"],
+		},
+	},
+	inflatedego: {
+		learnset: {
+			sketch: ["7L1", "6L1", "5L1", "4L1"],
+		},
+	},
+	brokenego: {
+		learnset: {
+			sketch: ["7L1", "6L1", "5L1", "4L1"],
+		},
+	},
 	musleeb: {
 		learnset: {
 			aromabomb: ["7E"],
@@ -108705,9 +108725,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			hurricane: ["7L1"],
 			agility: ["7L1"],
+			cloudcannon: ["7L1"],
 			cumuloroll: ["7L1"],
 			defog: ["7L1"],
-			haze: ["7L1"],
 			heatwave: ["7L1"],
 			icywind: ["7L1"],
 			ominouswind: ["7L1"],

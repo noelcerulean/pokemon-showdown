@@ -8,6 +8,18 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	fofoam: {
 		tier: "LC",
 	},
+	nightmaremist: {
+		tier: "Uber",
+	},
+	shyego: {
+		tier: "Uber",
+	},
+	inflatedego: {
+		tier: "Uber",
+	},
+	brokenego: {
+		tier: "Uber",
+	},
 	arongoldie: {
 		tier: "Uber",
 	},

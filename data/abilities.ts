@@ -39,6 +39,30 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 0.1,
 		num: 0,
 	},
+	nightmareshroud: {
+		name: "Nightmare Shroud",
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Nightmare Shroud');
+		},
+		onAnyModifyDamage(damage, source, target, move) {
+			if (target !== this.effectState.target && target.isAlly(this.effectState.target)) {
+				this.debug('Nightmare Shroud weaken');
+				return this.chainModify(0.75);
+			}
+		},
+		onAllyTryAddVolatile(status, target, source, effect) {
+			if (['taunt'].includes(status.id)) {
+				if (effect.effectType === 'Move') {
+					const effectHolder = this.effectState.target;
+					this.add('-block', target, 'ability: Nightmare Shroud', '[of] ' + effectHolder);
+				}
+				return null;
+			}
+		},
+		isBreakable: true,
+		rating: 0,
+		num: -899,
+	},
 	acidabsorb: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Poison') {
