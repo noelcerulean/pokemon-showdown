@@ -9562,15 +9562,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 			}
 			if (!targets.length) return false; // Fails when there are no Psychic-types in play.
 			for (const pokemon of targets) {
-				if (this.field.isWeather('sunnyday')) {
-					this.boost({atk: 1, spa: 1, spe: 1}, pokemon, source);
-				} else {
-					this.boost({atk: 1, spa: 1, spe: 1}, pokemon, source);
-				}
+				this.boost({atk: 1, spa: 1}, pokemon, source);
 			}
 		},
 		secondary: null,
-		target: "allySide",
+		target: "all",
 		type: "Normal",
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Cute",
