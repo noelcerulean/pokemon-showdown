@@ -11,14 +11,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	nightmaremist: {
 		name: "Nightmare Mist",
 	},
-	shyego: {
-		name: "Shy Ego",
+	matriarch: {
+		name: "Matriarch",
 	},
-	inflatedego: {
-		name: "Inflated Ego",
+	patriarch: {
+		name: "Patriarch",
 	},
-	brokenego: {
-		name: "Broken Ego",
+	headsofhousehold: {
+		name: "Heads of Household",
 	},
 	bulbasaur: {
 		name: "Bulbasaur",

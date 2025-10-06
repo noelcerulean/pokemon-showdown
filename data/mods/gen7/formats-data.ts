@@ -11,13 +11,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	nightmaremist: {
 		tier: "Uber",
 	},
-	shyego: {
+	matriarch: {
 		tier: "Uber",
 	},
-	inflatedego: {
+	patriarch: {
 		tier: "Uber",
 	},
-	brokenego: {
+	headsofhousehold: {
 		tier: "Uber",
 	},
 	bulbasaur: {

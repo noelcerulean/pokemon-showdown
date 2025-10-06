@@ -36,17 +36,17 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			sketch: ["7L1", "6L1", "5L1", "4L1"],
 		},
 	},
-	shyego: {
+	matriarch: {
 		learnset: {
 			sketch: ["7L1", "6L1", "5L1", "4L1"],
 		},
 	},
-	inflatedego: {
+	patriarch: {
 		learnset: {
 			sketch: ["7L1", "6L1", "5L1", "4L1"],
 		},
 	},
-	brokenego: {
+	headsofhousehold: {
 		learnset: {
 			sketch: ["7L1", "6L1", "5L1", "4L1"],
 		},
