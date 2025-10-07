@@ -11,14 +11,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	nightmaremist: {
 		name: "Nightmare Mist",
 	},
-	matriarch: {
-		name: "Matriarch",
+	seacapsule: {
+		name: "Sea Capsule",
 	},
-	patriarch: {
-		name: "Patriarch",
+	awakeningseacapsule: {
+		name: "Awakening Sea Capsule",
 	},
-	headsofhousehold: {
-		name: "Heads of Household",
+	thegreatcaspian: {
+		name: "The Great Caspian",
 	},
 	bulbasaur: {
 		name: "Bulbasaur",
@@ -3112,6 +3112,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	landorustherian: {
 		name: "Landorus-Therian",
+	},
+	slumburus: {
+		name: "Slumburus",
+	},
+	slumburustherian: {
+		name: "Slumburus-Therian",
 	},
 	kyurem: {
 		name: "Kyurem",

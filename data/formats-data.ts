@@ -11,13 +11,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	nightmaremist: {
 		tier: "Uber",
 	},
-	matriarch: {
+	seacapsule: {
 		tier: "Uber",
 	},
-	patriarch: {
+	awakeningseacapsule: {
 		tier: "Uber",
 	},
-	headsofhousehold: {
+	thegreatcaspian: {
 		tier: "Uber",
 	},
 	arongoldie: {
@@ -5108,6 +5108,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleNoDynamaxMoves: ["earthquake", "knockoff", "stealthrock", "stoneedge", "swordsdance", "uturn"],
 		tier: "OU",
 		doublesTier: "DOU",
+	},
+	slumburus: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	slumburustherian: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	kyurem: {
 		randomBattleMoves: ["dracometeor", "earthpower", "freezedry", "icebeam", "roost", "substitute"],

@@ -11,13 +11,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	nightmaremist: {
 		tier: "Uber",
 	},
-	matriarch: {
+	seacapsule: {
 		tier: "Uber",
 	},
-	patriarch: {
+	awakeningseacapsule: {
 		tier: "Uber",
 	},
-	headsofhousehold: {
+	thegreatcaspian: {
 		tier: "Uber",
 	},
 	bulbasaur: {
@@ -4679,6 +4679,18 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["earthquake", "fly", "rockpolish", "stealthrock", "stoneedge", "superpower", "swordsdance", "uturn"],
 		randomDoubleBattleMoves: ["earthquake", "fly", "knockoff", "protect", "rockslide", "stoneedge", "superpower", "swordsdance", "uturn"],
 		tier: "OU",
+		doublesTier: "DOU",
+	},
+	slumburus: {
+		randomBattleMoves: ["bakupunch", "bulkup", "drainpunch", "knockoff", "swordsdance", "uturn"],
+		randomDoubleBattleMoves: ["bakupunch", "bulkup", "drainpunch", "helpinghand", "knockoff", "protect", "swordsdance", "uturn"],
+		tier: "UU",
+		doublesTier: "DUU",
+	},
+	slumburustherian: {
+		randomBattleMoves: ["bakupunch", "bulkup", "drainpunch", "knockoff", "swordsdance", "uturn"],
+		randomDoubleBattleMoves: ["bakupunch", "bulkup", "drainpunch", "helpinghand", "knockoff", "protect", "swordsdance", "uturn"],
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	kyurem: {

@@ -1356,6 +1356,13 @@ export const Aliases: {[alias: string]: string} = {
 	potatobi: "Celebi-Withered",
 	witherbi: "Celebi-Withered",
 	sorce: "Sorceroma",
+	slumburust: "Slumburus-Therian",
+	slumburusi: "Slumburus",
+	slumburusincarnate: "Slumburus",
+	slumburusincarnation: "Slumburus",
+	slumbur: "Slumburus",
+	slumburi: "Slumburus",
+	slumburt: "Slumburus-Therian",
 
 	// armored
 	vespa: "Vespiquen-Armored",
