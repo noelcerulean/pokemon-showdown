@@ -76610,6 +76610,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			shadowball: ["7M"],
 			sleeptalk: ["7M"],
 			solarbeam: ["7M"],
+			stoneedge: ["7M"],
 			substitute: ["7M"],
 			sunnyday: ["7M"],
 			swagger: ["7M"],
