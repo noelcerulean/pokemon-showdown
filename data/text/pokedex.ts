@@ -8,18 +8,6 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	fofoam: {
 		name: "Fofoam",
 	},
-	nightmaremist: {
-		name: "Nightmare Mist",
-	},
-	seacapsule: {
-		name: "Sea Capsule",
-	},
-	awakeningseacapsule: {
-		name: "Awakening Sea Capsule",
-	},
-	thegreatcaspian: {
-		name: "The Great Caspian",
-	},
 	bulbasaur: {
 		name: "Bulbasaur",
 	},
@@ -2132,6 +2120,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	drifblim: {
 		name: "Drifblim",
 	},
+	drifnofnf: {
+		name: "Drifno-FnF",
+	},
 	buneary: {
 		name: "Buneary",
 	},
@@ -2911,6 +2902,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	klinklang: {
 		name: "Klinklang",
+	},
+	chronoklang: {
+		name: "Chronoklang",
 	},
 	tynamo: {
 		name: "Tynamo",

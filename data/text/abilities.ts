@@ -3,12 +3,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "No Ability",
 		shortDesc: "Does nothing.",
 	},
-	nightmareshroud: {
-		name: "Nightmare Shroud",
-		shortDesc: "This Pokemon's allies can't be taunted & receive 3/4 damage from attacks.",
-
-		start: "  A dark mist encompasses the battlefield...",
-	},
 	acidabsorb: {
 		name: "Acid Absorb",
 		desc: "This Pokemon is immune to Poison-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Poison-type move.",

@@ -9552,19 +9552,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		onUseMoveMessage(pokemon, move) {
 			this.add('-activate', pokemon, 'move: Hypno Family Reunion');
 		},
-		onHitField(target, source) {
-			const targets: Pokemon[] = [];
-			for (const pokemon of this.getAllActive()) {
-				if (pokemon.hasType('Psychic')) {
-					// This move affects every Psychic-type Pokemon in play.
-					targets.push(pokemon);
-				}
-			}
-			if (!targets.length) return false; // Fails when there are no Psychic-types in play.
-			for (const pokemon of targets) {
-				this.boost({atk: 1, spa: 1}, pokemon, source);
-			}
-		},
 		secondary: null,
 		target: "all",
 		type: "Normal",

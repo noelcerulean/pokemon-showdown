@@ -8,18 +8,6 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	fofoam: {
 		tier: "LC",
 	},
-	nightmaremist: {
-		tier: "Uber",
-	},
-	seacapsule: {
-		tier: "Uber",
-	},
-	awakeningseacapsule: {
-		tier: "Uber",
-	},
-	thegreatcaspian: {
-		tier: "Uber",
-	},
 	bulbasaur: {
 		tier: "LC",
 	},
@@ -3338,6 +3326,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	drifnofnf: {
+		randomBattleMoves: ["acrobatics", "bakupunch", "cloudcannon", "heatwave", "strengthsap", "substitute", "swordsdance", "willowisp"],
+		randomDoubleBattleMoves: ["acrobatics", "bakupunch", "cloudcannon", "heatwave", "protect", "strengthsap", "substitute", "swordsdance", "willowisp"],
+		tier: "NU",
+		doublesTier: "(DUU)",
+	},
 	buneary: {
 		tier: "LC",
 	},
@@ -4366,6 +4360,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["geargrind", "highhorsepower", "rapidspin", "shiftgear", "substitute", "wildcharge"],
 		randomDoubleBattleMoves: ["geargrind", "highhorsepower", "protect", "rapidspin", "shiftgear", "wildcharge"],
 		tier: "UU",
+		doublesTier: "(DUU)",
+	},
+	chronoklang: {
+		randomBattleMoves: ["cosmicspin", "moonlight", "rapidspin", "sacredfire", "stealthrock"],
+		randomDoubleBattleMoves: ["cosmicspin", "lightscreen", "moonlight", "reflect", "sacredfire"],
+		tier: "NU",
 		doublesTier: "(DUU)",
 	},
 	tynamo: {

@@ -8,18 +8,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	fofoam: {
 		tier: "LC",
 	},
-	nightmaremist: {
-		tier: "Uber",
-	},
-	seacapsule: {
-		tier: "Uber",
-	},
-	awakeningseacapsule: {
-		tier: "Uber",
-	},
-	thegreatcaspian: {
-		tier: "Uber",
-	},
 	arongoldie: {
 		tier: "Uber",
 	},
@@ -3636,6 +3624,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	drifnofnf: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	buneary: {
 		tier: "LC",
 	},
@@ -4749,6 +4741,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	chronoklang: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	tynamo: {
 		isNonstandard: "Past",

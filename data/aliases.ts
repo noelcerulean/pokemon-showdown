@@ -1363,6 +1363,7 @@ export const Aliases: {[alias: string]: string} = {
 	slumbur: "Slumburus",
 	slumburi: "Slumburus",
 	slumburt: "Slumburus-Therian",
+	chrono: "Chronoklang",
 
 	// armored
 	vespa: "Vespiquen-Armored",
