@@ -193,7 +193,7 @@ export const Formats: FormatList = [
 		gameType: 'multi',
 		ruleset: [
 			'Max Team Size = 3',
-			'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Swagger Clause',
+			'Obtainable', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Swagger Clause',
 		],
 	},
 	{

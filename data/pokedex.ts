@@ -13622,7 +13622,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Chronoklang",
 		types: ["Fire", "Psychic"],
 		gender: "N",
-		baseStats: {hp: 68, atk: 78, def: 82, spa: 78, spd: 134, spe: 78},
+		baseStats: {hp: 68, atk: 78, def: 84, spa: 78, spd: 134, spe: 78},
 		abilities: {0: "Levitate", 1: "Forewarn", H: "Corona"},
 		heightm: 1,
 		weightkg: 91,
