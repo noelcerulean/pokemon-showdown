@@ -30,8 +30,9 @@ export const Formats: FormatList = [
 		name: "[Gen 7] Draft",
 
 		mod: 'gen7',
-		ruleset: ['Standard Draft', 'Swagger Clause'],
+		ruleset: ['Standard Draft', 'Swagger Clause', 'Max Level = 15', 'Item Clause',],
 		banlist: [
+			'Dragon Rage', 'Sonic Boom',
 			'Uber', 'Latias-Mega', 'Latios-Mega', 'Ignajara + Ignition', 'Gothitelle + Shadow Tag', 'Blaziken + Speed Boost',
 			'Battle Bond', 'Power Construct', 'King\'s Rock', 'Bright Powder', 'Lax Incense', 'Razor Fang', 'Quick Claw', 'Baton Pass', 'Kommonium Z',
 			'Poliwrathium Z', 'Mewnium Z', 'Sand Veil', 'Snow Cloak', 'Melodium Z', 'Meloettium Z', 'Corrupted Rock', 'Sorceromium Z',
