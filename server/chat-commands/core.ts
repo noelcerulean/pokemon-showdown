@@ -509,7 +509,7 @@ const avatarTableSelena = new Set([
 ]);
 
 const avatarTableHoro = new Set([
-	'roy', 'liko', 'red-lgpe',
+	'roy', 'liko', 'red-lgpe', 'naveen', 'mable', 'lida', 'emma-lza',
 ]);
 
 const avatarTableAutumnSpire = new Set([
@@ -631,6 +631,8 @@ const avatarTableKyleDove = new Set([
 	'mrstone', 'nancy', 'nate-pokestar3', 'nemona-masters', 'neroli', 'paxton', 'peony-league', 'phil', 'player-go', 'playerf-go', 'rhi', 'rita',
 	'river', 'rosa-pokestar3', 'sabrina-frlg', 'selene-masters', 'sierra', 'spark', 'spark-casual', 'spenser', 'toddsnap', 'toddsnap2', 'trace',
 	'victor-masters', 'vince', 'wally-rse', 'willow', 'willow-casual', 'yancy', 'zinnia-masters',
+	'az-lza', 'brendan-masters2', 'bugsy-masters', 'cynthia-masters4', 'elesa-masters3', 'elio-masters', 'erika-masters3', 'iono-masters',
+	'iono-masters2', 'lance-masters2', 'marley-masters', 'may-masters4', 'morty-masters3', 'selene-masters2', 'shauntal-masters',
 ]);
 
 const avatarTableHyooppa = new Set([
