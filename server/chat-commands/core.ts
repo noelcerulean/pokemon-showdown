@@ -458,7 +458,7 @@ const avatarTable = new Set([
 	'veteran-gen4', 'veteran-gen4-2', 'veteran',
 	'vinny',
 	'violet-hero',
-	'vivii', 'vivian', 'vivian-and-ninette', 'vivian-hero',
+	'vivii', 'vivian', 'vivian-ammy', 'vivian-and-ninette', 'vivian-hero', 'vivian-hero-2',
 	'virtuagruntm', 'virtuagruntf',
 	'void', 'void-annulled', 'void-annulled-hero',
 	'volkner',
