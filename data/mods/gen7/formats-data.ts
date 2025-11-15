@@ -2,11 +2,20 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	musleeb: {
 		tier: "LC",
 	},
+	lilaquin: {
+		tier: "NFE",
+	},
 	sindle: {
 		tier: "LC",
 	},
+	vaicora: {
+		tier: "NFE",
+	},
 	fofoam: {
 		tier: "LC",
+	},
+	hytan: {
+		tier: "NFE",
 	},
 	bulbasaur: {
 		tier: "LC",

@@ -2017,7 +2017,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			}
 		},
 		onSourceModifyDamage(damage, source, target, move) {
-			if (target.baseSpecies.num === -592 || target.baseSpecies.num === -593 || target.baseSpecies.num === -594) {
+			if (target.baseSpecies.num === -604 || target.baseSpecies.num === -605 || target.baseSpecies.num === -606) {
 				return this.chainModify(0.67);
 			}
 		},
@@ -2044,7 +2044,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
-			if (user.baseSpecies.num === -592 || user.baseSpecies.num === -593 || user.baseSpecies.num === -594) {
+			if (user.baseSpecies.num === -604 || user.baseSpecies.num === -605 || user.baseSpecies.num === -606) {
 				return this.chainModify(1.5);
 			}
 		},
