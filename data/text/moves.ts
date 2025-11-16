@@ -168,6 +168,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Aqua Tail",
 		shortDesc: "No additional effect.",
 	},
+	arcticstream: {
+		name: "Arctic Stream",
+		desc: "Has a 30% chance to inflict frostbite on the target.",
+		shortDesc: "30% chance to freeze the target.",
+	},
 	armthrust: {
 		name: "Arm Thrust",
 		desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
@@ -316,6 +321,13 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Baddy Bad",
 		desc: "This move summons Reflect for 5 turns upon use.",
 		shortDesc: "Summons Reflect.",
+	},
+	badseed: {
+		name: "Bad Seed",
+		desc: "Causes the target to get cursed at the end of the next turn. Fails when used if the target is already cursed. At the end of the next turn, if the target is still active, is not cursed, and can be cursed, it gets cursed.",
+		shortDesc: "Curses the target after 1 turn.",
+
+		start: "  [POKEMON] feels a curse coming!",
 	},
 	bakupunch: {
 		name: "Baku Punch",

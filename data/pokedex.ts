@@ -27,6 +27,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Musleeb",
 		evoLevel: 16,
 		eggGroups: ["Grass", "Field"],
+		cosmeticFormes: ["Lilaquin-Vera", "Lilaquin-Dribble", "Lilaquin-Hexa", "Lilaquin-Dolly", "Lilaquin-Hana", "Lilaquin-Seeds", "Lilaquin-Bloom", "Lilaquin-Mianju", "Lilaquin-KIM", "Lilaquin-Meemo"],
+		formeOrder: ["Lilaquin", "Lilaquin-Vera", "Lilaquin-Dribble", "Lilaquin-Hexa", "Lilaquin-Dolly", "Lilaquin-Hana", "Lilaquin-Seeds", "Lilaquin-Bloom", "Lilaquin-Mianju", "Lilaquin-KIM", "Lilaquin-Meemo"],
 	},
 	sindle: {
 		num: -593,
@@ -56,6 +58,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Sindle",
 		evoLevel: 16,
 		eggGroups: ["Dragon", "Field"],
+		cosmeticFormes: ["Vaicora-Lighthouse", "Vaicora-Groveil", "Vaicora-Rex", "Vaicora-Suneater", "Vaicora-Deeva", "Vaicora-Apophis", "Vaicora-Liege", "Vaicora-Serph"],
+		formeOrder: ["Vaicora", "Vaicora-Lighthouse", "Vaicora-Groveil", "Vaicora-Rex", "Vaicora-Suneater", "Vaicora-Deeva", "Vaicora-Apophis", "Vaicora-Liege", "Vaicora-Serph"],
 	},
 	fofoam: {
 		num: -594,
@@ -85,6 +89,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Fofoam",
 		evoLevel: 16,
 		eggGroups: ["Water 1", "Field"],
+		cosmeticFormes: ["Hytan-Paz", "Hytan-Carmalot", "Hytan-Gort", "Hytan-Riptide", "Hytan-Boba", "Hytan-Susie"],
+		formeOrder: ["Hytan", "Hytan-Paz", "Hytan-Carmalot", "Hytan-Gort", "Hytan-Riptide", "Hytan-Boba", "Hytan-Susie"],
 	},
 	bulbasaur: {
 		num: 1,

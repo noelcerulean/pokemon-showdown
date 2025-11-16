@@ -548,6 +548,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Water",
 		contestType: "Beautiful",
 	},
+	arcticstream: {
+		num: -596,
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		name: "Arctic Stream",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			status: 'frz',
+		},
+		target: "normal",
+		type: "Water",
+		contestType: "Beautiful",
+	},
 	armthrust: {
 		num: 292,
 		accuracy: 100,
@@ -979,6 +996,40 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fairy",
 		zMove: {boost: {def: 1}},
 		contestType: "Cute",
+	},
+	badseed: {
+		num: -595,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Bad Seed",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1, mirror: 1, mystery: 1},
+		volatileStatus: 'badseed',
+		onTryHit(target) {
+			if (target.volatiles['curse'] || target.volatiles['badseed']) {
+				return false;
+			}
+		},
+		condition: {
+			noCopy: true, // doesn't get copied by Baton Pass
+			duration: 2,
+			onStart(target, source) {
+				this.add('-start', target, 'move: Bad Seed', '[of] ' + source);
+			},
+			onResidualOrder: 23,
+			onEnd(target) {
+				this.add('-end', target, 'move: Bad Seed', '[silent]');
+				this.add('-start', target,'Curse', '[silent]');
+				target.volatiles[target.battle.dex.conditions.get('curse').id] = {id: target.battle.dex.conditions.get('curse').id};
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Grass",
+		zMove: {effect: 'heal'},
+		contestType: "Clever",
 	},
 	baddybad: {
 		num: 737,
