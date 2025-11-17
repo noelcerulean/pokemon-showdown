@@ -1018,9 +1018,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onStart(target, source) {
 				this.add('-start', target, 'move: Bad Seed', '[of] ' + source);
 			},
-			onResidualOrder: 12,
+			onResidualOrder: 10,
 			onEnd(target) {
-				this.add('-end', target, 'move: Bad Seed', '[silent]');
+				this.add('-end', target, 'move: Bad Seed');
 				target.volatiles[target.battle.dex.conditions.get('curse').id] = {id: target.battle.dex.conditions.get('curse').id};
 				this.add('-start', target, 'Curse', '[silent]');
 			},

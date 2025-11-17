@@ -328,6 +328,7 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Curses the target after 1 turn.",
 
 		start: "  [POKEMON] feels a curse coming!",
+		end: "  [POKEMON] became afflicted by Curse!",
 	},
 	bakupunch: {
 		name: "Baku Punch",
