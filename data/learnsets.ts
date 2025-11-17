@@ -41130,6 +41130,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			agility: ["8M", "7L1"],
 			airslash: ["8M", "7L1"],
 			aquaring: ["7L1"],
+			arcticstream: ["7L50"],
 			aurorabeam: ["7L29", "6L29", "5L29", "4L29", "3L41"],
 			avalanche: ["8M", "7L1", "4M"],
 			bite: ["8L12", "7L1", "6L1", "5L1", "4L1", "3L1"],
