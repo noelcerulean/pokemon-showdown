@@ -1019,9 +1019,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 				this.add('-start', target, 'move: Bad Seed', '[of] ' + source);
 			},
 			onResidualOrder: 10,
+			onResidual(target) {
+				target.volatiles[target.battle.dex.conditions.get('curse').id] = {id: target.battle.dex.conditions.get('curse').id};
+			},
 			onEnd(target) {
 				this.add('-end', target, 'move: Bad Seed');
-				target.volatiles[target.battle.dex.conditions.get('curse').id] = {id: target.battle.dex.conditions.get('curse').id};
 				this.add('-start', target, 'Curse', '[silent]');
 			},
 		},
