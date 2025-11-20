@@ -1884,6 +1884,10 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		activate: "  No one will be able to run away during the next turn!",
 	},
+	fairytwirl: {
+		name: "Fairy Twirl",
+		shortDesc: "No additional effect.",
+	},
 	fairywind: {
 		name: "Fairy Wind",
 		shortDesc: "No additional effect.",
