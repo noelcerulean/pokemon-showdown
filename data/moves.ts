@@ -5330,7 +5330,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		num: -597,
 		accuracy: 100,
 		basePower: 40,
-		category: "Special",
+		category: "Physical",
 		name: "Fairy Twirl",
 		pp: 30,
 		priority: 0,
