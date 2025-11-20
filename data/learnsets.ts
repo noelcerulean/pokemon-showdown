@@ -45548,6 +45548,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			endure: ["8M", "4M", "3T"],
 			expandingforce: ["8T"],
 			facade: ["8M", "7M", "6M", "5M", "4M", "3M"],
+			fairytwirl: ["7L11", "6L11"],
 			firepunch: ["8M", "7T", "6T", "5T", "4T", "3T"],
 			flash: ["6M", "5M", "4M", "3M"],
 			fling: ["8M", "7M", "6M", "5M", "4M"],
