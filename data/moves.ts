@@ -22098,6 +22098,27 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Dark",
 		contestType: "Clever",
 	},
+	sugarrush: {
+		num: -598,
+		accuracy: 100,
+		basePower: 50,
+		category: "Physical",
+		name: "Sugar Rush",
+		pp: 20,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 100,
+			self: {
+				boosts: {
+					spe: 1,
+				},
+			},
+		},
+		target: "normal",
+		type: "Fairy",
+		contestType: "Cute",
+	},
 	sugarslam: {
 		num: -571,
 		accuracy: 100,

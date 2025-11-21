@@ -7022,6 +7022,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "Fails if the target did not select a physical or special attack for use this turn, or if the target moves before the user.",
 		},
 	},
+	sugarrush: {
+		name: "Sugar Rush",
+		desc: "Has a 100% chance to raise the user's Speed by 1 stage.",
+		shortDesc: "100% chance to raise the user's Speed by 1.",
+	},
 	sugarslam: {
 		name: "Sugar Slam",
 		desc: "Has a 10% chance to lower the target's Speed by 1 stage.",
