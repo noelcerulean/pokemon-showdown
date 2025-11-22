@@ -3591,6 +3591,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {spe: 2}},
 		contestType: "Clever",
 	},
+	dazzlepunch: {
+		num: -599,
+		accuracy: 100,
+		basePower: 70,
+		category: "Physical",
+		name: "Dazzle Punch",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, punch: 1, light: 1},
+		secondary: {
+			chance: 20,
+			volatileStatus: 'confusion',
+		},
+		target: "normal",
+		type: "Fairy",
+		contestType: "Cute",
+	},
 	dazzlinggleam: {
 		num: 605,
 		accuracy: 100,

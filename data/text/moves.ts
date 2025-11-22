@@ -1255,6 +1255,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		fail: "But [POKEMON] can't use the move!",
 		failWrongForme: "But [POKEMON] can't use it the way it is now!",
 	},
+	dazzlepunch: {
+		name: "Dazzle Punch",
+		desc: "Has a 20% chance to confuse the target.",
+		shortDesc: "20% chance to confuse the target.",
+	},
 	dazzlinggleam: {
 		name: "Dazzling Gleam",
 		desc: "No additional effect.",
