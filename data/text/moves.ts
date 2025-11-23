@@ -6777,6 +6777,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 30% chance to paralyze the target.",
 		shortDesc: "30% chance to paralyze the target.",
 	},
+	spook: {
+		name: "Spook",
+		desc: "Has a 50% chance to lower the target's Special Defense by 1 stage.",
+		shortDesc: "50% chance to lower the target's Sp. Def by 1.",
+	},
 	spore: {
 		name: "Spore",
 		shortDesc: "Causes the target to fall asleep.",

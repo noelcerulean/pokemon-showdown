@@ -21426,6 +21426,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Water",
 		contestType: "Cool",
 	},
+	spook: {
+		num: -600,
+		accuracy: 100,
+		basePower: 20,
+		category: "Special",
+		name: "Spook",
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 50,
+			boosts: {
+				spd: -1,
+			},
+		},
+		target: "normal",
+		type: "Ghost",
+		contestType: "Clever",
+	},
 	spore: {
 		num: 147,
 		accuracy: 100,
