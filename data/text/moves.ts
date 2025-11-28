@@ -6836,6 +6836,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Whether or not this move is successful and even if it would cause fainting, the user loses 1/2 of its maximum HP, rounded up, unless the user has the Magic Guard Ability.",
 		shortDesc: "User loses 50% max HP.",
 	},
+	steelpowder: {
+		name: "Steel Powder",
+		desc: "Has a 50% chance to lower the target's accuracy by 1 stage.",
+		shortDesc: "50% chance to lower the foe(s) accuracy by 1.",
+	},
 	steelroller: {
 		name: "Steel Roller",
 		desc: "Fails if there is no terrain active. Ends the effects of Electric Terrain, Grassy Terrain, Misty Terrain, and Psychic Terrain.",

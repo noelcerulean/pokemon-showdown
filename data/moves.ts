@@ -21602,6 +21602,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Steel",
 	},
+	steelpowder: {
+		num: -601,
+		accuracy: 80,
+		basePower: 30,
+		category: "Special",
+		name: "Steel Powder",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, powder: 1},
+		secondary: {
+			chance: 50,
+			boosts: {
+				accuracy: -1,
+			},
+		},
+		target: "allAdjacentFoes",
+		type: "Steel",
+		contestType: "Cool",
+	},
 	steelroller: {
 		num: 798,
 		accuracy: 100,
