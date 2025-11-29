@@ -4453,6 +4453,21 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Dragon",
 		contestType: "Tough",
 	},
+	dragonswipe: {
+		num: -602,
+		accuracy: 95,
+		basePower: 40,
+		category: "Physical",
+		name: "Dragon Swipe",
+		pp: 20,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		critRatio: 2,
+		secondary: null,
+		target: "normal",
+		type: "Dragon",
+		contestType: "Cool",
+	},
 	dragontail: {
 		num: 525,
 		accuracy: 90,
@@ -6881,6 +6896,34 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Steel",
 		zMove: {boost: {spa: 1}},
 		contestType: "Clever",
+	},
+	gemglow: {
+		num: -604,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Gem Glow",
+		pp: 15,
+		priority: 0,
+		flags: {distance: 1, light: 1},
+		onHitField(target, source) {
+			const targets: Pokemon[] = [];
+			for (const pokemon of this.getAllActive()) {
+				if (pokemon.hasType('Rock')) {
+					// This move affects every Rock-type Pokemon in play.
+					targets.push(pokemon);
+				}
+			}
+			if (!targets.length) return false; // Fails when there are no Rock types
+			for (const pokemon of targets) {
+				this.boost({spa: 1}, pokemon, source);
+			}
+		},
+		secondary: null,
+		target: "all",
+		type: "Rock",
+		zMove: {effect: 'clearnegativeboost'},
+		contestType: "Beautiful",
 	},
 	genesissupernova: {
 		num: 703,
@@ -12369,6 +12412,27 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Psychic",
 		contestType: "Clever",
 	},
+	mineralbeam: {
+		num: -603,
+		accuracy: 100,
+		basePower: 45,
+		category: "Special",
+		name: "Mineral Beam",
+		pp: 25,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 10,
+			self: {
+				boosts: {
+					spa: 1,
+				},
+			},
+		},
+		target: "normal",
+		type: "Rock",
+		contestType: "Beautiful",
+	},
 	minimize: {
 		num: 107,
 		accuracy: true,
@@ -16621,7 +16685,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 70,
 		category: "Physical",
 		name: "Savage Horn",
-		pp: 20,
+		pp: 15,
 		priority: 0,
 		flags: {protect: 1, mirror: 1, contact: 1},
 		onEffectiveness(typeMod, target, type) {
@@ -21602,15 +21666,15 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Steel",
 	},
-	steelpowder: {
+	powdersteel: {
 		num: -601,
 		accuracy: 80,
 		basePower: 30,
 		category: "Special",
-		name: "Steel Powder",
+		name: "Powder Steel",
 		pp: 15,
 		priority: 0,
-		flags: {protect: 1, mirror: 1, powder: 1},
+		flags: {protect: 1, mirror: 1},
 		secondary: {
 			chance: 50,
 			boosts: {

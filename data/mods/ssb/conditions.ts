@@ -2081,7 +2081,7 @@ export const Conditions: {[k: string]: ModdedConditionData & {innateName?: strin
 			const dazzlingHolder = this.effectState.target;
 			if (!dazzlingHolder.set.shiny) return;
 			if (dazzlingHolder.species.id !== 'minior') return;
-			const targetAllExceptions = ['perishsong', 'flowershield', 'rototiller'];
+			const targetAllExceptions = ['perishsong', 'flowershield', 'gemglow', 'rototiller'];
 			if (move.target === 'foeSide' || (move.target === 'all' && !targetAllExceptions.includes(move.id))) {
 				return;
 			}

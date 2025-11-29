@@ -1065,7 +1065,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	dazzling: {
 		onFoeTryMove(target, source, move) {
-			const targetAllExceptions = ['perishsong', 'flowershield', 'rototiller'];
+			const targetAllExceptions = ['perishsong', 'flowershield', 'gemglow', 'rototiller'];
 			if (move.target === 'foeSide' || (move.target === 'all' && !targetAllExceptions.includes(move.id))) {
 				return;
 			}
@@ -3832,7 +3832,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	queenlymajesty: {
 		onFoeTryMove(target, source, move) {
-			const targetAllExceptions = ['perishsong', 'flowershield', 'rototiller'];
+			const targetAllExceptions = ['perishsong', 'flowershield', 'gemglow', 'rototiller'];
 			if (move.target === 'foeSide' || (move.target === 'all' && !targetAllExceptions.includes(move.id))) {
 				return;
 			}

@@ -1212,7 +1212,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		desc: "While this Pokemon is active, priority moves from opposing Pokemon targeted at allies are prevented from having an effect. Dark-type attacks used by this Pokemon have their power multiplied by 1.2.",
 		shortDesc: "Immune to priority. Dark-type attacks have 1.2x power.",
 		onFoeTryMove(target, source, move) {
-			const targetAllExceptions = ['perishsong', 'flowershield', 'rototiller'];
+			const targetAllExceptions = ['perishsong', 'flowershield', 'gemglow', 'rototiller'];
 			if (move.target === 'foeSide' || (move.target === 'all' && !targetAllExceptions.includes(move.id))) {
 				return;
 			}

@@ -49,7 +49,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 			}
 		},
 		onFoeTryMove(target, source, move) {
-			const targetAllExceptions = ['perishsong', 'flowershield', 'rototiller'];
+			const targetAllExceptions = ['perishsong', 'flowershield', 'gemglow', 'rototiller'];
 			if (move.target === 'foeSide' || (move.target === 'all' && !targetAllExceptions.includes(move.id))) {
 				return;
 			}

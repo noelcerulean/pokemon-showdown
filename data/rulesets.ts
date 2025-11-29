@@ -740,7 +740,7 @@ export const Rulesets: {[k: string]: FormatData} = {
 				}
 				const nonSpeedBoostedMoves = [
 					'acupressure', 'bellydrum', 'chargebeam', 'curse', 'diamondstorm', 'fellstinger', 'fierydance',
-					'flowershield', 'poweruppunch', 'rage', 'rototiller', 'skullbash', 'stockpile',
+					'flowershield', 'poweruppunch', 'rage', 'rototiller', 'skullbash', 'stockpile', 'gemglow',
 				];
 				if (nonSpeedBoostedMoves.includes(move.id) ||
 					move.boosts && ((move.boosts.atk && move.boosts.atk > 0) || (move.boosts.def && move.boosts.def > 0) ||

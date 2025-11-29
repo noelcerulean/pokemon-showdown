@@ -1584,6 +1584,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "Has a 20% chance to make the target flinch.",
 		},
 	},
+	dragonswipe: {
+		name: "Dragon Swipe",
+		desc: "Has a higher chance for a critical hit.",
+		shortDesc: "High critical hit ratio.",
+	},
 	dragontail: {
 		name: "Dragon Tail",
 		desc: "If both the user and the target have not fainted, the target is forced to switch out and be replaced with a random unfainted ally. This effect fails if the target used Ingrain previously, has the Suction Cups Ability, or this move hit a substitute.",
@@ -2406,6 +2411,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Gear Up",
 		desc: "Raises the Attack and Special Attack of Pokemon on the user's side with the Plus or Minus Abilities by 1 stage.",
 		shortDesc: "Raises Atk, Sp. Atk of allies with Plus/Minus by 1.",
+	},
+	gemglow: {
+		name: "Gem Glow",
+		desc: "Raises the Special Attack of all Rock-type Pokemon on the field by 1 stage.",
+		shortDesc: "Raises Sp. Atk of all Rock types by 1.",
 	},
 	genesissupernova: {
 		name: "Genesis Supernova",
@@ -4054,6 +4064,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		},
 
 		start: "  [POKEMON] learned [MOVE]!",
+	},
+	mineralbeam: {
+		name: "Mineral Beam",
+		desc: "Has a 10% chance to raise the user's Special Attack by 1 stage.",
+		shortDesc: "10% chance to raise the user's Sp. Atk by 1.",
 	},
 	mindblown: {
 		name: "Mind Blown",
@@ -6836,8 +6851,8 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Whether or not this move is successful and even if it would cause fainting, the user loses 1/2 of its maximum HP, rounded up, unless the user has the Magic Guard Ability.",
 		shortDesc: "User loses 50% max HP.",
 	},
-	steelpowder: {
-		name: "Steel Powder",
+	powdersteel: {
+		name: "Powder Steel",
 		desc: "Has a 50% chance to lower the target's accuracy by 1 stage.",
 		shortDesc: "50% chance to lower the foe(s) accuracy by 1.",
 	},
