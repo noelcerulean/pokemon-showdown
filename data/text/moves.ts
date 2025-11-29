@@ -896,6 +896,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "For Chatot, 31% chance to confuse the target.",
 		},
 	},
+	cheapshot: {
+		name: "Cheap Shot",
+		desc: "Has a higher chance for a critical hit.",
+		shortDesc: "High critical hit ratio.",
+	},
 	chillingrime: {
 		name: "Chilling Rime",
 		desc: "Freezes the target.",
@@ -4923,6 +4928,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		},
 
 		activate: "  [POKEMON] wiped [TEAM]'s protections!",
+	},
+	psyjab: {
+		name: "Psyjab",
+		desc: "Ignores the target's evasiveness changes.",
+		shortDesc: "Ignores the target's evasiveness changes.",
 	},
 	psyshock: {
 		name: "Psyshock",
