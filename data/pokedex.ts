@@ -1758,6 +1758,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Mankey",
 		evoLevel: 28,
 		eggGroups: ["Field"],
+		cosmeticFormes: ["Primeape-Armored-Godfrey"],
+		formeOrder: ["Primeape-Armored", "Primeape-Armored-Godfrey"],
 		requiredItem: "Primeape Armor",
 	},
 	growlithe: {

@@ -686,6 +686,7 @@ export const Aliases: {[alias: string]: string} = {
 	wigglytuffskull: "Wigglytuff",
 	flymolckyrascal: "Flymolcky",
 	dragonitenoodle: "Dragonite",
+	primeapearmoredgodfrey: "Primeape-Armored",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",
