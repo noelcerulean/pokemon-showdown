@@ -687,6 +687,13 @@ export const Aliases: {[alias: string]: string} = {
 	flymolckyrascal: "Flymolcky",
 	dragonitenoodle: "Dragonite",
 	primeapearmoredgodfrey: "Primeape-Armored",
+	poliwrathconstantine: "Poliwrath",
+	politoedkermit: "Politoed",
+	emolgaspeedy: "Emolga",
+	roseradearmoredrequiem: "Roserade-Armored",
+	roseradestance: "Roserade",
+	swirlixfloating: "Swirlix",
+	raichualolasurfin: "Raichu-Alola",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",

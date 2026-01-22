@@ -1075,8 +1075,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Thunder Stone",
 		eggGroups: ["Field", "Fairy"],
-		cosmeticFormes: ["Raichu-Alola-Suntan"],
-		formeOrder: ["Raichu-Alola", "Raichu-Alola-Suntan"],
+		cosmeticFormes: ["Raichu-Alola-Suntan", "Raichu-Alola-Surfin"],
+		formeOrder: ["Raichu-Alola", "Raichu-Alola-Suntan", "Raichu-Alola-Surfin"],
 	},
 	gorochu: {
 		num: -529,
@@ -1869,8 +1869,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Water Stone",
 		eggGroups: ["Water 1"],
-		cosmeticFormes: ["Poliwrath-Rolipoli"],
-		formeOrder: ["Poliwrath", "Poliwrath-Rolipoli"],
+		cosmeticFormes: ["Poliwrath-Rolipoli", "Poliwrath-Constantine"],
+		formeOrder: ["Poliwrath", "Poliwrath-Rolipoli", "Poliwrath-Constantine"],
 	},
 	abra: {
 		num: 63,
@@ -4854,6 +4854,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "trade",
 		evoItem: "King's Rock",
 		eggGroups: ["Water 1"],
+		cosmeticFormes: ["Politoed-Kermit"],
+		formeOrder: ["Politoed", "Politoed-Kermit"],
 	},
 	hoppip: {
 		num: 187,
@@ -9601,6 +9603,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Shiny Stone",
 		eggGroups: ["Fairy", "Grass"],
+		cosmeticFormes: ["Roserade-Stance"],
+		formeOrder: ["Roserade", "Roserade-Stance"],
 	},
 	roseradearmored: {
 		num: 407,
@@ -9615,8 +9619,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Shiny Stone",
 		eggGroups: ["Fairy", "Grass"],
-		cosmeticFormes: ["Roserade-Armored-Summer", "Roserade-Armored-Renegade"],
-		formeOrder: ["Roserade-Armored", "Roserade-Armored-Summer", "Roserade-Armored-Renegade"],
+		cosmeticFormes: ["Roserade-Armored-Summer", "Roserade-Armored-Renegade", "Roserade-Armored-Requiem"],
+		formeOrder: ["Roserade-Armored", "Roserade-Armored-Summer", "Roserade-Armored-Renegade", "Roserade-Armored-Requiem"],
 		requiredItem: "Roserade Armor",
 	},
 	cranidos: {
@@ -13428,8 +13432,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 5,
 		color: "White",
 		eggGroups: ["Field"],
-		cosmeticFormes: ["Emolga-Patches", "Emolga-Syrup"],
-		formeOrder: ["Emolga", "Emolga-Patches", "Emolga-Syrup"],
+		cosmeticFormes: ["Emolga-Patches", "Emolga-Syrup", "Emolga-Speedy"],
+		formeOrder: ["Emolga", "Emolga-Patches", "Emolga-Syrup", "Emolga-Speedy"],
 	},
 	emolgadelta: {
 		num: 587,
@@ -15577,8 +15581,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		evos: ["Slurpuff"],
 		eggGroups: ["Fairy"],
-		cosmeticFormes: ["Swirlix-Vanilla"],
-		formeOrder: ["Swirlix", "Swirlix-Vanilla"],
+		cosmeticFormes: ["Swirlix-Floating", "Swirlix-Vanilla"],
+		formeOrder: ["Swirlix", "Swirlix-Floating", "Swirlix-Vanilla"],
 	},
 	slurpuff: {
 		num: 685,
