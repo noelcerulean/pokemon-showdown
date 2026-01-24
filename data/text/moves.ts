@@ -4322,7 +4322,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	naturalshift: {
 		name: "Natural Shift",
-		desc: "The user eats its held berry and gains the berry's Natural Gift typing as a third type. Fails if the user is not holding a berry. Typing is not added if the pokemon already has an added type or if its type matches the Natural Gift type of its berry.",
+		desc: "The user eats its held berry and gains the berry's Natural Gift typing as a third type. Fails if the user is not holding a berry. Typing is not added if the pokemon's type already matches the Natural Gift type of its berry.",
 		shortDesc: "Eats berry and gains berry's Natural Gift type.",
 	},
 	naturepower: {

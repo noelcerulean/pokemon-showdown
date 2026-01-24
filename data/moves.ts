@@ -13132,10 +13132,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 		onHit(pokemon) {
 			if (pokemon.ignoringItem()) return;
 			const item = pokemon.getItem();
-			if (!item.naturalGift) return;
+			if (!item.naturalGift) return false;
 			const type = item.naturalGift.type;
 			pokemon.eatItem(true);
-			if (pokemon.hasType(type) || !pokemon.setType(type)) return false;
+			if (pokemon.hasType(type) || !pokemon.setType(type)) return;
 			this.add('-start', pokemon, 'typeadd', type, '[from] move: Natural Shift');
 		},
 		secondary: null,
