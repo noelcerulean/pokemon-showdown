@@ -4320,6 +4320,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "The type and power of this move depend on the user's held Berry, and the Berry is lost. Fails if the user is not holding a Berry, if the user has the Klutz Ability, or if Embargo is in effect for the user.",
 		},
 	},
+	naturalshift: {
+		name: "Natural Shift",
+		desc: "The user eats its held berry and gains the berry's Natural Gift typing as a third type. Fails if the user is not holding a berry. Typing is not added if the pokemon already has an added type or if its type matches the Natural Gift type of its berry.",
+		shortDesc: "Eats berry and gains berry's Natural Gift type.",
+	},
 	naturepower: {
 		name: "Nature Power",
 		desc: "This move calls another move for use based on the battle terrain. Tri Attack on the regular Wi-Fi terrain, Thunderbolt during Electric Terrain, Moonblast during Misty Terrain, Dragon Pulse during Berserk Terrain, Energy Ball during Grassy Terrain, and Psychic during Psychic Terrain.",

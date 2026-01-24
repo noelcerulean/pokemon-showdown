@@ -13120,6 +13120,30 @@ export const Moves: {[moveid: string]: MoveData} = {
 		maxMove: {basePower: 130},
 		contestType: "Clever",
 	},
+	naturalshift: {
+		num: -507,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Natural Shift",
+		pp: 15,
+		priority: 0,
+		flags: {snatch: 1},
+		onHit(pokemon) {
+			if (pokemon.ignoringItem()) return;
+			const item = pokemon.getItem();
+			if (!item.naturalGift) return;
+			const type = item.naturalGift.type;
+			pokemon.eatItem(true);
+			if (pokemon.hasType(type) || !pokemon.setType(type)) return false;
+			this.add('-start', pokemon, 'typeadd', type, '[from] move: Natural Shift');
+		},
+		secondary: null,
+		target: "self",
+		type: "Normal",
+		zMove: {boost: {atk: 1, spa: 1}},
+		contestType: "Clever",
+	},
 	naturepower: {
 		num: 267,
 		accuracy: true,
