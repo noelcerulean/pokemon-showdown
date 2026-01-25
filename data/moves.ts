@@ -2304,6 +2304,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		self: {
 		onHit(target, source, move) {
+			if (this.field.isDiffusion('evanescediffusion')) return false;
 			for (const pokemon of source.alliesAndSelf()) {
 				if (!pokemon.volatiles['trapped'] && !pokemon.hasType('Ghost') && !pokemon.hasItem('shedshell') && !pokemon.hasAbility('Run Away')) {
 					this.boost({atk: 1}, pokemon);
