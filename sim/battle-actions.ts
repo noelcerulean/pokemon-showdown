@@ -367,6 +367,12 @@ export class BattleActions {
 			this.battle.singleEvent('ModifyType', move, null, pokemon, target, move, move);
 			if (move.type !== 'Normal') sourceEffect = move;
 		}
+		if (move.id === 'diffusionwave' && zMove) {
+			// Z-Diffusion Wave only changes types if it's used directly,
+			// not if it's called by Z-Sleep Talk or something.
+			this.battle.singleEvent('ModifyType', move, null, pokemon, target, move, move);
+			if (move.type !== 'Normal') sourceEffect = move;
+		}
 		if (zMove || (move.category !== 'Status' && sourceEffect && (sourceEffect as ActiveMove).isZ)) {
 			move = this.getActiveZMove(move, pokemon);
 		}

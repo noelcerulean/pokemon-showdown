@@ -1373,6 +1373,13 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "50% chance to raise user's Def by 1 for each hit.",
 		},
 	},
+	diffusionwave: {
+		name: "Diffusion Wave",
+		desc: "Power doubles if a diffusion is active, and this move's type changes to match. Ghost type during Evanesce Diffusion.",
+		shortDesc: "Power doubles and type varies in diffusion.",
+
+		move: "Breakneck Blitz turned into [MOVE] due to the diffusion!",
+	},
 	dig: {
 		name: "Dig",
 		desc: "This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Earthquake and Magnitude but takes double damage from them, and is also unaffected by weather. If the user is holding a Power Herb, the move completes in one turn.",

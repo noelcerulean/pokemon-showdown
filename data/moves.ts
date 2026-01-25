@@ -3915,6 +3915,34 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Rock",
 		contestType: "Beautiful",
 	},
+	diffusionwave: {
+		num: -608,
+		accuracy: 100,
+		basePower: 50,
+		category: "Special",
+		name: "Diffusion Wave",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onModifyType(move, pokemon) {
+			switch (this.field.diffusion) {
+			case 'evanescediffusion':
+				move.type = 'Ghost';
+				break;
+			}
+		},
+		onModifyMove(move, pokemon) {
+			if (this.field.diffusion) {
+				move.basePower *= 2;
+			}
+		},
+		secondary: null,
+		target: "allAdjacentFoes",
+		type: "Normal",
+		zMove: {basePower: 160},
+		maxMove: {basePower: 130},
+		contestType: "Beautiful",
+	},
 	dig: {
 		num: 91,
 		accuracy: 100,
@@ -13121,7 +13149,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		contestType: "Clever",
 	},
 	naturalshift: {
-		num: -507,
+		num: -607,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
