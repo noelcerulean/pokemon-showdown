@@ -2302,7 +2302,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				if (!pokemon.volatiles['trapped'] && !pokemon.hasType('Ghost') && !pokemon.hasItem('shedshell') && !pokemon.hasAbility('Run Away')) {
 					this.boost({atk: 1}, pokemon);
 					pokemon.addVolatile('trapped', source, move, 'trapper');
-					if (!pokemon.volatiles['trapped'] && !pokemon.hasType('Ghost') && !pokemon.hasItem('shedshell') && !pokemon.hasAbility('Run Away')) {
+					if (!source.volatiles['trapped']) {
 						source.addVolatile('trapped', target, move, 'trapper');
 						this.boost({atk: 1}, source);
 					}
