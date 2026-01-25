@@ -2283,6 +2283,30 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Clever",
 	},
+	cagematch: {
+		num: -609,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Cage Match",
+		pp: 5,
+		priority: 0,
+		flags: {authentic: 1},
+		onHit(target, source, move) {
+			for (const pokemon of this.getAllActive()) {
+				if (!pokemon.volatiles['trapped']) {
+					this.boost({atk: 1}, pokemon);
+				}
+			}
+			source.addVolatile('trapped', target, move, 'trapper');
+			target.addVolatile('trapped', source, move, 'trapper');
+		},
+		secondary: null,
+		target: "all",
+		type: "Fighting",
+		zMove: {boost: {atk: 1}},
+		contestType: "Tough",
+	},
 	calmmind: {
 		num: 347,
 		accuracy: true,
