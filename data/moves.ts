@@ -2292,7 +2292,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 0,
 		flags: {authentic: 1},
-		onHit(target, source, move) {
+		onHitField(target, source, move) {
 			for (const pokemon of this.getAllActive()) {
 				if (!pokemon.volatiles['trapped']) {
 					this.boost({atk: 1}, pokemon);
