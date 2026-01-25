@@ -2300,7 +2300,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		onHit(target, source, move) {
 			if (this.field.isDiffusion('evanescediffusion')) return false;
 			for (const pokemon of source.foes()) {
-				if (!pokemon.volatiles['trapped'] && !pokemon.hasType('Ghost') && !pokemon.hasItem('shedshell') && !pokemon.hasAbility('Run Away')) {
+				if (!pokemon.volatiles['trapped'] && !pokemon.hasType('Ghost')) {
 					this.boost({atk: 1}, pokemon);
 					pokemon.addVolatile('trapped', source, move, 'trapper');
 					if (!source.volatiles['trapped']) {
@@ -2314,7 +2314,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		onHit(target, source, move) {
 			if (this.field.isDiffusion('evanescediffusion')) return false;
 			for (const pokemon of source.alliesAndSelf()) {
-				if (!pokemon.volatiles['trapped'] && !pokemon.hasType('Ghost') && !pokemon.hasItem('shedshell') && !pokemon.hasAbility('Run Away')) {
+				if (!pokemon.volatiles['trapped'] && !pokemon.hasType('Ghost')) {
 					this.boost({atk: 1}, pokemon);
 					pokemon.addVolatile('trapped', source, move, 'trapper');
 					}
