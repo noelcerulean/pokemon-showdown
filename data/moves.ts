@@ -2299,6 +2299,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		onHit(target, source, move) {
 			if (this.field.isDiffusion('evanescediffusion')) return false;
+			if (target.hasType('Ghost')) return false;
 			for (const pokemon of source.foes()) {
 				if (!pokemon.volatiles['trapped'] && !pokemon.hasType('Ghost')) {
 					this.boost({atk: 1}, pokemon);
