@@ -2292,16 +2292,28 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 0,
 		flags: {authentic: 1},
-		onHitField(target, source, move) {
-			for (const pokemon of this.getAllActive()) {
-				if (!pokemon.volatiles['trapped']) {
+		onHit(target, source, move) {
+			if (this.field.isDiffusion('evanescediffusion')) return false;
+			for (const pokemon of source.foes()) {
+				if (!pokemon.volatiles['trapped'] && !pokemon.hasType('Ghost') && !pokemon.hasItem('shedshell') && !pokemon.hasAbility('Run Away')) {
 					this.boost({atk: 1}, pokemon);
 					pokemon.addVolatile('trapped', source, move, 'trapper');
+					source.addVolatile('trapped', target, move, 'trapper');
+				}
+			}
+		},
+		self: {
+		onHit(target, source, move) {
+			for (const pokemon of source.alliesAndSelf()) {
+				if (!pokemon.volatiles['trapped'] && !pokemon.hasType('Ghost') && !pokemon.hasItem('shedshell') && !pokemon.hasAbility('Run Away')) {
+					this.boost({atk: 1}, pokemon);
+					pokemon.addVolatile('trapped', source, move, 'trapper');
+					}
 				}
 			}
 		},
 		secondary: null,
-		target: "all",
+		target: "adjacentFoe",
 		type: "Fighting",
 		zMove: {boost: {atk: 1}},
 		contestType: "Tough",
