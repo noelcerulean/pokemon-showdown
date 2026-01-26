@@ -10104,10 +10104,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 15,
 		priority: 1,
 		flags: {protect: 1, mirror: 1},
-		onTryHit(target, source) {
-			if (source.volatiles['lockon']) return false;
-		},
 		onHit(target, source) {
+			if (source.volatiles['lockon']) return
 			source.addVolatile('lockon', target);
 			this.add('-activate', source, 'move: Infernal Gaze', '[of] ' + target);
 		},
