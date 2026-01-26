@@ -10099,7 +10099,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		num: -610,
 		accuracy: 100,
 		basePower: 30,
-		category: "Status",
+		category: "Special",
 		name: "Infernal Gaze",
 		pp: 15,
 		priority: 1,
