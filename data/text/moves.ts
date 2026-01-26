@@ -3313,6 +3313,13 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		removeItem: "  [POKEMON]'s [ITEM] was burned up!",
 	},
+	infernalgaze: {
+		name: "Infernal Gaze",
+		desc: "+1 Priorty. Until the end of the next turn, the target cannot avoid the user's moves, even if the target is in the middle of a two-turn move. The effect ends if either the user or the target leaves the field. Fails if this effect is active for the user.",
+		shortDesc: "+1 Priority. User's next move always hits.",
+
+		start: "#lockon",
+	},
 	inferno: {
 		name: "Inferno",
 		desc: "Has a 100% chance to burn the target.",

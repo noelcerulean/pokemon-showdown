@@ -10095,6 +10095,28 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fire",
 		contestType: "Tough",
 	},
+	infernalgaze: {
+		num: -610,
+		accuracy: 100,
+		basePower: 30,
+		category: "Status",
+		name: "Infernal Gaze",
+		pp: 15,
+		priority: 1,
+		flags: {protect: 1, mirror: 1},
+		onTryHit(target, source) {
+			if (source.volatiles['lockon']) return false;
+		},
+		onHit(target, source) {
+			source.addVolatile('lockon', target);
+			this.add('-activate', source, 'move: Infernal Gaze', '[of] ' + target);
+		},
+		secondary: null,
+		target: "normal",
+		type: "Fire",
+		zMove: {boost: {spa: 1}},
+		contestType: "Beautiful",
+	},
 	inferno: {
 		num: 517,
 		accuracy: 50,
