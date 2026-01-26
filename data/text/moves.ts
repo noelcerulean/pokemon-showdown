@@ -818,8 +818,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	cagematch: {
 		name: "Cage Match",
-		desc: "Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
-		shortDesc: "Prevents the target from switching out.",
+		desc: "Prevents the target and all pokemon from switching out and grants +1 to all pokemon who get trapped. Fails against targets that are already trapped, in Evanesce Diffusion, or vs. Ghost pokemon. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
+		shortDesc: "Traps and gives +1 Atk to all pokemon.",
 	},
 	calmmind: {
 		name: "Calm Mind",
