@@ -3315,8 +3315,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	infernalgaze: {
 		name: "Infernal Gaze",
-		desc: "+1 Priorty. Until the end of the next turn, the target cannot avoid the user's moves, even if the target is in the middle of a two-turn move. The effect ends if either the user or the target leaves the field. Fails if this effect is active for the user.",
-		shortDesc: "+1 Priority. User's next move always hits.",
+		desc: "+2 Priorty. Until the end of the next turn, the target cannot avoid the user's moves, even if the target is in the middle of a two-turn move. The effect ends if either the user or the target leaves the field. Fails if this effect is active for the user.",
+		shortDesc: "+2 Priority. User's next move always hits.",
 
 		start: "#lockon",
 	},
@@ -4381,10 +4381,10 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	needlearm: {
 		name: "Needle Arm",
-		desc: "Has a 30% chance to make the target flinch.",
-		shortDesc: "30% chance to make the target flinch.",
+		desc: "Has a 100% chance to lower the target's Defense by 1 stage.",
+		shortDesc: "100% chance to lower the target's Defense by 1.",
 		gen3: {
-			desc: "Has a 30% chance to make the target flinch. Damage doubles if the target has used Minimize while active.",
+			desc: "100% chance to lower the target's Defense by 1. Damage doubles if the target has used Minimize while active.",
 		},
 	},
 	neverendingnightmare: {

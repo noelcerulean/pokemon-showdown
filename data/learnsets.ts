@@ -73963,8 +73963,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			explosion: ["8L48", "7M", "7L59", "6M", "6L59", "5M", "5L59"],
 			facade: ["8M", "7M", "6M", "5M"],
 			fallout: ["7T", "6T", "5T"],
-			fireblast: ["7M"],
-			flamethrower: ["7M"],
 			fling: ["8M", "7M", "6M", "5M"],
 			focusblast: ["8M", "7M", "6M", "5M"],
 			frustration: ["7M", "6M", "5M"],

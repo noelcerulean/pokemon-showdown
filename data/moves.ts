@@ -1766,10 +1766,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {bullet: 1, protect: 1, mirror: 1},
 		multihit: [2, 5],
-		secondary: {
-			chance: 10,
-			status: 'brn',
-		},
+		secondary: null,
 		target: "normal",
 		type: "Fire",
 		contestType: "Cute",
@@ -10102,7 +10099,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		category: "Special",
 		name: "Infernal Gaze",
 		pp: 15,
-		priority: 1,
+		priority: 2,
 		flags: {protect: 1, mirror: 1},
 		onHit(target, source) {
 			if (source.volatiles['lockon']) return
@@ -13335,7 +13332,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	needlearm: {
 		num: 302,
 		accuracy: 100,
-		basePower: 60,
+		basePower: 80,
 		category: "Physical",
 		isNonstandard: "Past",
 		name: "Needle Arm",
@@ -13343,8 +13340,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
-			chance: 30,
-			volatileStatus: 'flinch',
+			chance: 100,
+			boosts: {
+				def: -1,
+			},
 		},
 		target: "normal",
 		type: "Grass",
@@ -21274,7 +21273,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	sparklingwater: {
 		num: -539,
 		accuracy: true,
-		basePower: 85,
+		basePower: 80,
 		category: "Special",
 		name: "Sparkling Water",
 		pp: 15,

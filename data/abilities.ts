@@ -2795,7 +2795,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	melodyallegretto: {
 		onModifyPriority(priority, pokemon, target, move) {
-			if (move?.flags['sound']) return priority + 3;
+			if (move?.flags['sound']) return priority + 1;
 		},
 		name: "Melody Allegretto",
 		rating: 3.5,
@@ -3249,7 +3249,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Neutralizing Gas",
 		rating: 4,
-		num: -544,
+		num: 256,
 	},
 	noguard: {
 		onAnyInvulnerabilityPriority: 1,
@@ -5848,7 +5848,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	triage: {
 		onModifyPriority(priority, pokemon, target, move) {
-			if (move?.flags['heal']) return priority + 3;
+			if (move?.flags['heal']) return priority + 1;
 		},
 		name: "Triage",
 		rating: 3.5,

@@ -479,8 +479,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	needlearm: {
 		inherit: true,
 		basePowerCallback(pokemon, target) {
-			if (target.volatiles['minimize']) return 120;
-			return 60;
+			if (target.volatiles['minimize']) return 160;
+			return 80;
 		},
 	},
 	outrage: {
