@@ -5628,6 +5628,29 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Bug",
 		contestType: "Cool",
 	},
+	fervidfeverdream: {
+		num: -611,
+		accuracy: true,
+		basePower: 180,
+		category: "Special",
+		isNonstandard: "Past",
+		name: "Fervid Feverdream",
+		pp: 1,
+		priority: 0,
+		flags: {},
+		isZ: "viropathiumz",
+		secondary: {
+			chance: 100,
+			self: {
+				onHit() {
+					this.field.setWeather('miasma');
+				},
+			},
+		},
+		target: "normal",
+		type: "Psychic",
+		contestType: "Clever",
+	},
 	fieryblossom: {
 		num: -553,
 		accuracy: 100,

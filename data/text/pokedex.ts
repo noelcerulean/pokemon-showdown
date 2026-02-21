@@ -1889,6 +1889,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	shorelorn: {
 		name: "Shorelorn",
 	},
+	sirenaqua: {
+		name: "Sirenaqua",
+	},
 	bagon: {
 		name: "Bagon",
 	},

@@ -1978,6 +1978,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "Raises user's Attack by 2 if this KOes the target.",
 		},
 	},
+	fervidfeverdream: {
+		name: "Fervid Feverdrean",
+		desc: "If this move is successful, the weather becomes Miasma.",
+		shortDesc: "Summons Miasma.",
+	},
 	fieryblossom: {
 		name: "Fiery Blossom",
 		desc: "Has a 10% chance to burn the target.",

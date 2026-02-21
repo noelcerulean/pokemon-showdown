@@ -8372,6 +8372,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: -502,
 		gen: 7,
 	},
+	viropathiumz: {
+		name: "Viropathium Z",
+		spritenum: 834,
+		onTakeItem: false,
+		zMove: "Fervid Feverdream",
+		zMoveFrom: "Psychic",
+		itemUser: ["Viropath"],
+		num: -597,
+		gen: 7,
+		isNonstandard: "Past",
+	},
 	wacanberry: {
 		name: "Wacan Berry",
 		spritenum: 526,

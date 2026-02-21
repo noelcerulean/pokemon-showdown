@@ -2618,6 +2618,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		desc: "Armor developed by DoReMi for Vespiquen to enhance its battle capabilities.",
 		shortDesc: "Attach to Vespiquen-Armored forme (not base forme!!!) in the teambuilder.",
 	},
+	viropathiumz: {
+		name: "Viropathium Z",
+		desc: "If held by a Viropath with Psychic, it can use Fervid Feverdrean.",
+	},
 	wacanberry: {
 		name: "Wacan Berry",
 		desc: "Halves damage taken from a supereffective Electric-type attack. Single use.",

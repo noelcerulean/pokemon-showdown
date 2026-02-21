@@ -747,6 +747,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	viropathiumz: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	watergem: {
 		inherit: true,
 		isNonstandard: "Unobtainable",

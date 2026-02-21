@@ -1927,6 +1927,7 @@ export const Aliases: {[alias: string]: string} = {
 	zpoliwrath: "Unified Upsurge",
 	zgorochu: "Typhonic Thunderstorm",
 	zlickilickyfnf: "Merciless Marinade",
+	zviropath: "Fervid Feverdream",
 	zdespotide: "Ruinous Riptide",
 	zredrush: "Ruinous Riptide",
 	zsnorlax: "Pulverizing Pancake",

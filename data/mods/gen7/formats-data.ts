@@ -2968,6 +2968,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
+	sirenaqua: {
+		randomBattleMoves: ["energyball", "knockoff", "moonblast", "sludgebomb", "toxicspikes"],
+		randomDoubleBattleMoves: ["energyball", "knockoff", "moonblast", "protect", "sludgebomb"],
+		tier: "NU",
+		doublesTier: "(DUU)",
+	},
 	bagon: {
 		tier: "LC",
 	},

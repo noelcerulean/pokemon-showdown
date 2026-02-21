@@ -237,6 +237,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	fervidfeverdream: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	flameburst: {
 		inherit: true,
 		isNonstandard: null,

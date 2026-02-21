@@ -8886,6 +8886,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "trade",
 		eggGroups: ["Water 2", "Amorphous"],
 	},
+	sirenaqua: {
+		num: -607,
+		name: "Sirenaqua",
+		types: ["Fairy", "Poison"],
+		gender: "F",
+		baseStats: {hp: 69, atk: 73, def: 105, spa: 95, spd: 109, spe: 99},
+		abilities: {0: "Storm Drain", 1: "Liquid Ooze", H: "Melody Allegretto"},
+		heightm: 0.7,
+		weightkg: 27,
+		color: "Purple",
+		eggGroups: ["Water 1", "Water 3"],
+	},
 	bagon: {
 		num: 371,
 		name: "Bagon",

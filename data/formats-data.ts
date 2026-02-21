@@ -3274,6 +3274,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	sirenaqua: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	bagon: {
 		tier: "LC",
 	},
