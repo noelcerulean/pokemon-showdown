@@ -21703,7 +21703,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			duration: 99,
 			onTryHitPriority: 2,
 			onTryHit(target, source, move) {
-				if (target === source || move.hasBounced || !move.flags['hazard']) {
+				if (!move.flags['hazard']) {
 					return;
 				}
 				const newMove = this.dex.getActiveMove(move.id);
@@ -21712,28 +21712,38 @@ export const Moves: {[moveid: string]: MoveData} = {
 				this.actions.useMove(newMove, target, source);
 				return null;
 			},
-			onAllyTryHitSide(target, source, move) {
-				if (target.isAlly(source) || move.hasBounced || !move.flags['hazard']) {
-					return;
-				}
-				const newMove = this.dex.getActiveMove(move.id);
-				newMove.hasBounced = true;
-				newMove.pranksterBoosted = false;
-				this.actions.useMove(newMove, this.effectState.target, source);
-				return null;
-			},
 			onDamagingHit(damage, target, source, move) {
-			if (this.checkMoveMakesContact(move, source, target) && !source.status && source.runStatusImmunity('powder')) {
-				const r = this.random(100);
-				if (r < 5) {
-					source.setStatus('slp', target);
-				} else if (r < 12) {
-					source.setStatus('par', target);
-				} else if (r < 20) {
-					source.setStatus('psn', target);
+				if ((move.flags['contact'] && !source.status && source.runStatusImmunity('powder')) {
+					const r = this.random(100);
+					if (r < 5) {
+						source.setStatus('slp', target);
+					} else if (r < 12) {
+						source.setStatus('par', target);
+					} else if (r < 20) {
+						source.setStatus('psn', target);
+					}
 				}
-			}
-		},
+			},
+			onSetStatus(status, target, source, effect) {
+				if (!effect || !source) return;
+				if (effect.id === 'yawn') return;
+				if (effect.effectType === 'Move' && effect.infiltrates && !target.isAlly(source)) return;
+				if (target !== source) {
+					this.debug('interrupting setStatus');
+					if (effect.id === 'synchronize' || (effect.effectType === 'Move' && !effect.secondaries)) {
+						this.add('-activate', target, 'move: Safeguard');
+					}
+					return null;
+				}
+			},
+			onTryAddVolatile(status, target, source, effect) {
+				if (!effect || !source) return;
+				if (effect.effectType === 'Move' && effect.infiltrates && !target.isAlly(source)) return;
+				if ((status.id === 'confusion' || status.id === 'yawn') && target !== source) {
+					if (effect.effectType === 'Move' && !effect.secondaries) this.add('-activate', target, 'move: Safeguard');
+					return null;
+				}
+			},
 			onSideStart(side) {
 				this.add('-sidestart', side, 'Spore Shield');
 			},
