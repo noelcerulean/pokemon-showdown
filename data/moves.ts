@@ -21701,16 +21701,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 		sideCondition: 'sporeshield',
 		condition: {
 			duration: 99,
-			onTryHitPriority: 2,
-			onTryHit(target, source, move) {
-				if (!move.flags['hazard']) {
-					return;
+			onDisableMove(pokemon) {
+				for (const moveSlot of pokemon.moveSlots) {
+					if (this.dex.moves.get(moveSlot.id).flags['hazard']) {
+						pokemon.disableMove(moveSlot.id);
+					}
 				}
-				const newMove = this.dex.getActiveMove(move.id);
-				newMove.hasBounced = true;
-				newMove.pranksterBoosted = this.effectState.pranksterBoosted;
-				this.actions.useMove(newMove, target, source);
-				return null;
 			},
 			onDamagingHit(damage, target, source, move) {
 				if (move.flags['contact'] && !source.status && source.runStatusImmunity('powder')) {
