@@ -21701,6 +21701,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 		sideCondition: 'sporeshield',
 		condition: {
 			duration: 99,
+			onTryHit(target, source, move) {
+				this.actions.useMove('magiccoat', source, target);
+			}
+		},
 			onDisableMove(pokemon) {
 				for (const moveSlot of pokemon.moveSlots) {
 					if (this.dex.moves.get(moveSlot.id).flags['hazard']) {
