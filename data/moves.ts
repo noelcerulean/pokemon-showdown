@@ -21701,20 +21701,14 @@ export const Moves: {[moveid: string]: MoveData} = {
 		sideCondition: 'sporeshield',
 		condition: {
 			duration: 99,
-			onStart(target, source, effect) {
-				this.add('-singleturn', target, 'move: Spore Shield');
-				if (effect?.effectType === 'Move') {
-					this.effectState.pranksterBoosted = effect.pranksterBoosted;
-				}
-			},
-			onTryHitPriority: 2,
+			onTryHitPriority: 1,
 			onTryHit(target, source, move) {
 				if (target === source || move.hasBounced || !move.flags['hazard']) {
 					return;
 				}
 				const newMove = this.dex.getActiveMove(move.id);
 				newMove.hasBounced = true;
-				newMove.pranksterBoosted = this.effectState.pranksterBoosted;
+				newMove.pranksterBoosted = false;
 				this.actions.useMove(newMove, target, source);
 				return null;
 			},
