@@ -21701,15 +21701,16 @@ export const Moves: {[moveid: string]: MoveData} = {
 		sideCondition: 'sporeshield',
 		condition: {
 			duration: 99,
-			onTryHit(target, source, move) {
-				this.actions.useMove('magiccoat', source, target);
-			},
-			onDisableMove(pokemon) {
-				for (const moveSlot of pokemon.moveSlots) {
-					if (this.dex.moves.get(moveSlot.id).flags['hazard']) {
-						pokemon.disableMove(moveSlot.id);
+			onTryHit(target, source, effect) {
+				if (target.hp) {
+					const baseMove = this.dex.moves.get(effect.id);
+					if (baseMove.flags['contact']) {
+						this.hint("Hazards cannot be used.");
 					}
+					return;
 				}
+				this.add('-activate', target, 'move: Spore Shield');
+				return null;
 			},
 			onDamagingHit(damage, target, source, move) {
 				if (move.flags['contact'] && !source.status && source.runStatusImmunity('powder')) {
