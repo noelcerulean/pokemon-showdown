@@ -21713,7 +21713,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				return null;
 			},
 			onDamagingHit(damage, target, source, move) {
-				if ((move.flags['contact'] && !source.status && source.runStatusImmunity('powder')) {
+				if (move.flags['contact'] && !source.status && source.runStatusImmunity('powder')) {
 					const r = this.random(100);
 					if (r < 5) {
 						source.setStatus('slp', target);
@@ -21722,26 +21722,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 					} else if (r < 20) {
 						source.setStatus('psn', target);
 					}
-				}
-			},
-			onSetStatus(status, target, source, effect) {
-				if (!effect || !source) return;
-				if (effect.id === 'yawn') return;
-				if (effect.effectType === 'Move' && effect.infiltrates && !target.isAlly(source)) return;
-				if (target !== source) {
-					this.debug('interrupting setStatus');
-					if (effect.id === 'synchronize' || (effect.effectType === 'Move' && !effect.secondaries)) {
-						this.add('-activate', target, 'move: Safeguard');
-					}
-					return null;
-				}
-			},
-			onTryAddVolatile(status, target, source, effect) {
-				if (!effect || !source) return;
-				if (effect.effectType === 'Move' && effect.infiltrates && !target.isAlly(source)) return;
-				if ((status.id === 'confusion' || status.id === 'yawn') && target !== source) {
-					if (effect.effectType === 'Move' && !effect.secondaries) this.add('-activate', target, 'move: Safeguard');
-					return null;
 				}
 			},
 			onSideStart(side) {
