@@ -21698,10 +21698,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 3,
 		flags: {},
-		volatileStatus: 'sporeshield',
 		sideCondition: 'sporeshield',
 		condition: {
-			duration: 1,
+			duration: 99,
 			onStart(target, source, effect) {
 				this.add('-singleturn', target, 'move: Spore Shield');
 				if (effect?.effectType === 'Move') {
