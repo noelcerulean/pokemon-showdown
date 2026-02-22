@@ -19271,7 +19271,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Shadow Spikes",
 		pp: 20,
 		priority: 0,
-		flags: {nonsky: 1},
+		flags: {nonsky: 1, hazard: 1},
 		sideCondition: 'spikes',
 		condition: {
 			// this is a side condition
@@ -21419,7 +21419,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Spikes",
 		pp: 20,
 		priority: 0,
-		flags: {reflectable: 1, nonsky: 1},
+		flags: {reflectable: 1, nonsky: 1, hazard: 1},
 		sideCondition: 'spikes',
 		condition: {
 			// this is a side condition
@@ -21812,7 +21812,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Stealth Rock",
 		pp: 20,
 		priority: 0,
-		flags: {reflectable: 1},
+		flags: {reflectable: 1, hazard: 1},
 		sideCondition: 'stealthrock',
 		condition: {
 			// this is a side condition
@@ -21957,7 +21957,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Sticky Web",
 		pp: 20,
 		priority: 0,
-		flags: {reflectable: 1},
+		flags: {reflectable: 1, hazard: 1},
 		sideCondition: 'stickyweb',
 		condition: {
 			onSideStart(side) {
@@ -23764,7 +23764,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Toxic Spikes",
 		pp: 20,
 		priority: 0,
-		flags: {reflectable: 1, nonsky: 1},
+		flags: {reflectable: 1, nonsky: 1, hazard: 1},
 		sideCondition: 'toxicspikes',
 		condition: {
 			// this is a side condition
