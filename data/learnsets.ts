@@ -8794,6 +8794,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			snore: ["7T", "7V", "6T", "5T", "4T", "3T"],
 			solarbeam: ["8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			spore: ["8V", "7L22", "7V", "6L22", "5L22", "4L17", "3L27"],
+			sporeshield: ["7L1"],
 			sporeslash: ["7L60", "6L60", "5L60", "4L60"],
 			strengthsap: ["7L1"],
 			stringshot: ["4T"],

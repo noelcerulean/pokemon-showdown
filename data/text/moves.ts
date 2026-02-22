@@ -6840,6 +6840,14 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Spore",
 		shortDesc: "Causes the target to fall asleep.",
 	},
+	sporeshield: {
+		name: "Spore Shield",
+		shortDesc: "Protects from hazards. Field = Effect Spore.",
+
+		start: "  [TEAM] cloaked itself in a shroud of spores!",
+		end: "  [TEAM] is no longer protected by Spore Shield!",
+		block: "  [POKEMON] is protected by Spore Shield!",
+	},
 	sporeslash: {
 		name: "Spore Slash",
 		desc: "Causes the target to become a Grass type. Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Rapid Spin or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",

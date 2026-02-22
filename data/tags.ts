@@ -82,6 +82,11 @@ export const Tags: {[id: string]: TagData} = {
 		desc: "Boosted 1.2x by Striker.",
 		moveFilter: move => 'kick' in move.flags,
 	},
+	hazard: {
+		name: "Hazard",
+		desc: "Sets entry hazards.",
+		moveFilter: move => 'hazard' in move.flags,
+	},
 	blade: {
 		name: "Blade",
 		desc: "Boosted 1.2x by Unsheathed.",

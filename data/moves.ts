@@ -21689,6 +21689,66 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Beautiful",
 	},
+	sporeshield: {
+		num: 219,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Spore Shield",
+		pp: 5,
+		priority: 3,
+		flags: {},
+		sideCondition: 'sporeshield',
+		condition: {
+			duration: 99,
+			onTryHitPriority: 2,
+			onTryHit(target, source, move) {
+				if (target === source || move.hasBounced || !move.flags['hazard']) {
+					return;
+				}
+				const newMove = this.dex.getActiveMove(move.id);
+				newMove.hasBounced = true;
+				newMove.pranksterBoosted = this.effectState.pranksterBoosted;
+				this.actions.useMove(newMove, target, source);
+				return null;
+			},
+			onAllyTryHitSide(target, source, move) {
+				if (target.isAlly(source) || move.hasBounced || !move.flags['hazard']) {
+					return;
+				}
+				const newMove = this.dex.getActiveMove(move.id);
+				newMove.hasBounced = true;
+				newMove.pranksterBoosted = false;
+				this.actions.useMove(newMove, this.effectState.target, source);
+				return null;
+			},
+			onDamagingHit(damage, target, source, move) {
+			if (this.checkMoveMakesContact(move, source, target) && !source.status && source.runStatusImmunity('powder')) {
+				const r = this.random(100);
+				if (r < 5) {
+					source.setStatus('slp', target);
+				} else if (r < 12) {
+					source.setStatus('par', target);
+				} else if (r < 20) {
+					source.setStatus('psn', target);
+				}
+			}
+		},
+			onSideStart(side) {
+				this.add('-sidestart', side, 'Spore Shield');
+			},
+			onSideResidualOrder: 26,
+			onSideResidualSubOrder: 3,
+			onSideEnd(side) {
+				this.add('-sideend', side, 'Spore Shield');
+			},
+		},
+		secondary: null,
+		target: "allySide",
+		type: "Grass",
+		zMove: {boost: {atk: 1, def: 1, spa: 1, spd: 1, spe: 1}},
+		contestType: "Beautiful",
+	},
 	sporeslash: {
 		num: -513,
 		accuracy: 100,

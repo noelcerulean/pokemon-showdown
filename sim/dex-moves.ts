@@ -37,6 +37,7 @@ interface MoveFlags {
 	defrost?: 1; // Thaws the user if executed successfully while the user is frozen.
 	distance?: 1; // Can target a Pokemon positioned anywhere in a Triple Battle.
 	gravity?: 1; // Prevented from being executed or selected during Gravity's effect.
+	hazard?: 1; // Denotes moves that set entry hazards.
 	heal?: 1; // Prevented from being executed or selected during Heal Block's effect.
 	kick?: 1; // Power is multiplied by 1.2 when used by a Pokemon with the Ability Striker.
 	light?: 1; // Activates the Luminesce ability.

@@ -1215,7 +1215,7 @@ function runMovesearch(target: string, cmd: string, canAll: boolean, message: st
 	const allFlags = [
 		'authentic', 'bite', 'blade', 'bullet', 'charge', 'contact', 'dance', 'defrost', 'gravity', 'highcrit', 'light', 'kick',
 		'mirror', 'multihit', 'ohko', 'powder', 'protect', 'pulse', 'punch', 'recharge', 'reflectable', 'secondary',
-		'snatch', 'sound', 'wind', 'zmove', 'maxmove', 'gmaxmove', 'protection',
+		'snatch', 'sound', 'wind', 'zmove', 'maxmove', 'gmaxmove', 'protection', 'hazard',
 	];
 	const allStatus = ['psn', 'tox', 'brn', 'par', 'frz', 'slp'];
 	const allVolatileStatus = ['flinch', 'confusion', 'partiallytrapped'];

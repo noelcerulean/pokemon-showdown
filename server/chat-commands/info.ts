@@ -715,6 +715,7 @@ export const commands: Chat.ChatCommands = {
 					if (move.flags['defrost']) details["&#10003; Thaws user"] = "";
 					if (move.flags['bite']) details["&#10003; Bite"] = "";
 					if (move.flags['punch']) details["&#10003; Punch"] = "";
+					if (move.flags['hazard']) details["&#10003; Hazard"] = "";
 					if (move.flags['kick']) details["&#10003; Kick"] = "";
 					if (move.flags['blade']) details["&#10003; Blade"] = "";
 					if (move.flags['bone']) details["&#10003; Bone"] = "";
