@@ -1383,6 +1383,30 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				}
 			}
 		},
+		onTryHitPriority: 1,
+		onTryHit(target, source, move) {
+			if (target === source || move.hasBounced || !move.flags['hazard']) {
+				return;
+			}
+			const newMove = this.dex.getActiveMove(move.id);
+			newMove.hasBounced = true;
+			newMove.pranksterBoosted = false;
+			this.actions.useMove(newMove, target, source);
+			return null;
+		},
+		onAllyTryHitSide(target, source, move) {
+			if (target.isAlly(source) || move.hasBounced || !move.flags['hazard']) {
+				return;
+			}
+			const newMove = this.dex.getActiveMove(move.id);
+			newMove.hasBounced = true;
+			newMove.pranksterBoosted = false;
+			this.actions.useMove(newMove, this.effectState.target, source);
+			return null;
+		},
+		condition: {
+			duration: 99,
+		},
 		name: "Effect Spore",
 		rating: 2,
 		num: 27,
