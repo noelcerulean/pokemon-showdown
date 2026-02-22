@@ -21698,18 +21698,35 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 3,
 		flags: {},
+		volatileStatus: 'sporeshield',
 		sideCondition: 'sporeshield',
 		condition: {
-			duration: 99,
-			onTryHit(target, source, effect) {
-				if (target.hp) {
-					const baseMove = this.dex.moves.get(effect.id);
-					if (baseMove.flags['contact']) {
-						this.hint("Hazards cannot be used.");
-					}
+			duration: 1,
+			onStart(target, source, effect) {
+				this.add('-singleturn', target, 'move: Spore Shield');
+				if (effect?.effectType === 'Move') {
+					this.effectState.pranksterBoosted = effect.pranksterBoosted;
+				}
+			},
+			onTryHitPriority: 2,
+			onTryHit(target, source, move) {
+				if (target === source || move.hasBounced || !move.flags['hazard']) {
 					return;
 				}
-				this.add('-activate', target, 'move: Spore Shield');
+				const newMove = this.dex.getActiveMove(move.id);
+				newMove.hasBounced = true;
+				newMove.pranksterBoosted = this.effectState.pranksterBoosted;
+				this.actions.useMove(newMove, target, source);
+				return null;
+			},
+			onAllyTryHitSide(target, source, move) {
+				if (target.isAlly(source) || move.hasBounced || !move.flags['hazard']) {
+					return;
+				}
+				const newMove = this.dex.getActiveMove(move.id);
+				newMove.hasBounced = true;
+				newMove.pranksterBoosted = false;
+				this.actions.useMove(newMove, this.effectState.target, source);
 				return null;
 			},
 			onDamagingHit(damage, target, source, move) {
