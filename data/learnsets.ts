@@ -56633,6 +56633,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			haze: ["7E"],
 			mistyterrain: ["7E"],
 			tickle: ["7E"],
+			fairytwirl: ["7L1"],
 			constrict: ["7L1"],
 			poisonsting: ["7L5"],
 			sing: ["7L1"],

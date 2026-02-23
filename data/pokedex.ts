@@ -180,7 +180,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Monster", "Grass"],
 		otherFormes: ["Venusaur-Mega"],
 		cosmeticFormes: ["Venusaur-Sylvanos"],
-		formeOrder: ["Venusaur", "Venusaur-Mega", "Venusaur-Sylvanos"],
+		formeOrder: ["Venusaur", "Venusaur-Mega", "Venusaur-Sylvanos", "Venusaur-Magnolia"],
 		canGigantamax: "G-Max Vine Lash",
 	},
 	venusaurmega: {
@@ -4776,8 +4776,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Marill",
 		evoLevel: 18,
 		eggGroups: ["Water 1", "Fairy"],
-		cosmeticFormes: ["Azumarill-Punk"],
-		formeOrder: ["Azumarill", "Azumarill-Punk"],
+		cosmeticFormes: ["Azumarill-Punk", "Azumarill-GSCStyle"],
+		formeOrder: ["Azumarill", "Azumarill-Punk", "Azumarill-GSCStyle"],
 	},
 	bunmochi: {
 		num: -545,
@@ -14388,6 +14388,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Larvesta",
 		evoLevel: 59,
 		eggGroups: ["Bug"],
+		cosmeticFormes: ["Volcarona-Hallownest"],
+		formeOrder: ["Volcarona", "Volcarona-Hallownest"],
 	},
 	quiksilk: {
 		num: -519,

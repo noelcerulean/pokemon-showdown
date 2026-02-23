@@ -2971,7 +2971,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	sirenaqua: {
 		randomBattleMoves: ["energyball", "knockoff", "moonblast", "sludgebomb", "toxicspikes"],
 		randomDoubleBattleMoves: ["energyball", "knockoff", "moonblast", "protect", "sludgebomb"],
-		tier: "NU",
+		tier: "PU",
 		doublesTier: "(DUU)",
 	},
 	bagon: {
