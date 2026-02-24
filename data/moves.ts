@@ -9478,6 +9478,41 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fighting",
 		contestType: "Cool",
 	},
+	hiveprotection: {
+		num: -650,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Hive Protection",
+		pp: 5,
+		priority: 3,
+		flags: {},
+		sideCondition: 'hiveprotection',
+		condition: {
+			duration: 99,
+			onEffectivenessPriority: -1,
+			onEffectiveness(typeMod, target, type, move) {
+				if (!target) return;
+				if (move && move.effectType === 'Move' && move.category !== 'Status' && type === 'Bug' && typeMod > 0) {
+					this.add('-activate', '', 'Hive Protection');
+					return 0;
+				}
+			},
+			onSideStart(side) {
+				this.add('-sidestart', side, 'Hive Protection');
+			},
+			onSideResidualOrder: 26,
+			onSideResidualSubOrder: 3,
+			onSideEnd(side) {
+				this.add('-sideend', side, 'Hive Protection');
+			},
+		},
+		secondary: null,
+		target: "allySide",
+		type: "Bug",
+		zMove: {boost: {atk: 1, def: 1, spa: 1, spd: 1, spe: 1}},
+		contestType: "Beautiful",
+	},
 	holdback: {
 		num: 610,
 		accuracy: 100,
