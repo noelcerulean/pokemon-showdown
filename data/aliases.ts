@@ -697,6 +697,7 @@ export const Aliases: {[alias: string]: string} = {
 	venusaurmagnolia: "Venusaur",
 	azumarillgscstyle: "Azumarill",
 	volcaronahallownest: "Volcarona",
+	bombsealkaboom: "Bombseal",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",

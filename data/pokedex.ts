@@ -5223,8 +5223,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Boomba",
 		evoLevel: 30,
 		eggGroups: ["Water 1", "Field"],
-		cosmeticFormes: ["Bombseal-Fiesta"],
-		formeOrder: ["Bombseal", "Bombseal-Fiesta"],
+		cosmeticFormes: ["Bombseal-Kaboom", "Bombseal-Fiesta"],
+		formeOrder: ["Bombseal", "Bombseal-Kaboom", "Bombseal-Fiesta"],
 	},
 	seward: {
 		num: -558,
