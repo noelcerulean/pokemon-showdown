@@ -2067,54 +2067,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: -501,
 	},
-	hivemind: {
-		onStart(pokemon) {
-			// n.b. only affects Hackmons
-			// interaction with No Ability is complicated: https://www.smogon.com/forums/threads/pokemon-sun-moon-battle-mechanics-research.3586701/page-76#post-7790209
-			if (pokemon.adjacentFoes().some(foeActive => foeActive.ability === 'noability')) {
-				this.effectState.gaveUp = true;
-			}
-		},
-		onUpdate(pokemon) {
-			if (!pokemon.isStarted || this.effectState.gaveUp || pokemon.volatiles['hivemind'] ) return;
-
-			const additionalBannedAbilities = [
-				// Zen Mode included here for compatability with Gen 5-6
-				'noability', 'flowergift', 'forecast', 'hungerswitch', 'illusion', 'imposter', 'neutralizinggas', 'powerofalchemy', 'trace', 'zenmode',
-			];
-			const possibleTargets = pokemon.adjacentFoes().filter(target => (
-				!target.getAbility().isPermanent && !additionalBannedAbilities.includes(target.ability)
-			));
-			if (!possibleTargets.length) return;
-
-			const target = this.sample(possibleTargets);
-			const ability = target.getAbility();
-			this.add('-activate', pokemon, 'Hive Mind');
-			this.add('-ability', pokemon, ability, '[from] ability: Hive Mind', '[of] ' + target);
-			pokemon.setAbility(ability);
-			this.add('-ability', target, 'Hive Mind', '[from] ability: Hive Mind', '[of] ' + pokemon);
-			target.setAbility('hivemind');
-			target.addVolatile('hivemind');
-		},
-		onModifyAtkPriority: 5,
-		onModifyAtk(atk, attacker, defender, move) {
-			if (move.type === 'Bug') {
-				this.debug('Hive Mind boost');
-				return this.chainModify(1.2);
-			}
-		},
-		onModifySpAPriority: 5,
-		onModifySpA(atk, attacker, defender, move) {
-			if (move.type === 'Bug') {
-				this.debug('Hive Mind boost');
-				return this.chainModify(1.2);
-			}
-		},
-		condition: {},
-		name: "Hive Mind",
-		rating: 4,
-		num: -590,
-	},
 	honeygather: {
 		name: "Honey Gather",
 		rating: 0,

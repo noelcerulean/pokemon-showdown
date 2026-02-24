@@ -707,13 +707,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon's bullet moves have their power multiplied by 1.3.",
 		shortDesc: "This Pokemon's bullet moves have 1.3x power.",
 	},
-	hivemind: {
-		name: "Hive Mind",
-		desc: "On switch-in, swaps abilities with target, unless the target has a permanent or untraceable ability. Also boosts Bug-type moves by 1.2x.",
-		shortDesc: "On switch-in, swaps abilities with target. Boosts Bug moves by 1.2x.",
-
-		activate: "  [POKEMON] adds its opponent to the Hive Mind!",
-	},
 	honeygather: {
 		name: "Honey Gather",
 		shortDesc: "No competitive use.",
