@@ -2088,11 +2088,22 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			if (!possibleTargets.length) return;
 
 			const target = this.sample(possibleTargets);
-			const ability = target.getAbility();
-			this.add('-ability', pokemon, ability, '[from] ability: Hive Mind', '[of] ' + target);
-			pokemon.setAbility(ability);
-			this.add('-ability', target, 'Hive Mind', '[from] ability: Hive Mind', '[of] ' + pokemon);
-			target.setAbility('hivemind');
+			const targetAbility = target.getAbility();
+			const pokemonAbility = pokemon.getAbility();
+			if (target.isAlly(pokemon)) {
+				this.add('-activate', pokemon, 'move: Skill Swap', '', '', '[of] ' + target);
+			} else {
+				this.add('-activate', pokemon, 'move: Skill Swap', targetAbility, pokemonAbility, '[of] ' + target);
+			}
+			this.singleEvent('End', pokemonAbility, pokemon.abilityState, pokemon);
+			this.singleEvent('End', targetAbility, target.abilityState, target);
+			pokemon.ability = targetAbility.id;
+			target.ability = pokemonAbility.id;
+			pokemon.abilityState = {id: this.toID(pokemon.ability), target: pokemon};
+			target.abilityState = {id: this.toID(target.ability), target: target};
+			if (!target.isAlly(pokemon)) target.volatileStaleness = 'external';
+			this.singleEvent('Start', targetAbility, pokemon.abilityState, pokemon);
+			this.singleEvent('Start', pokemonAbility, target.abilityState, target);
 			target.addVolatile('hivemind');
 		},
 		onModifyAtkPriority: 5,
