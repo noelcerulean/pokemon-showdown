@@ -2089,6 +2089,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 
 			const target = this.sample(possibleTargets);
 			const ability = target.getAbility();
+			this.add('-activate', pokemon, 'Hive Mind');
 			this.add('-ability', pokemon, ability, '[from] ability: Hive Mind', '[of] ' + target);
 			pokemon.setAbility(ability);
 			this.add('-ability', target, 'Hive Mind', '[from] ability: Hive Mind', '[of] ' + pokemon);
