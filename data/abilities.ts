@@ -2075,8 +2075,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				this.effectState.gaveUp = true;
 			}
 		},
-		onSwitchIn(pokemon) {
-			if (!pokemon.isStarted || this.effectState.gaveUp) return;
+		onUpdate(pokemon) {
+			if (!pokemon.isStarted || this.effectState.gaveUp || pokemon.volatiles['hivemind'] ) return;
 
 			const additionalBannedAbilities = [
 				// Zen Mode included here for compatability with Gen 5-6
@@ -2093,6 +2093,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			pokemon.setAbility(ability);
 			this.add('-ability', target, ability, '[from] ability: Hive Mind', '[of] ' + pokemon);
 			target.setAbility('hivemind');
+			target.addVolatile('hivemind');
 		},
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
@@ -2108,6 +2109,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				return this.chainModify(1.2);
 			}
 		},
+		condition: {},
 		name: "Hive Mind",
 		rating: 4,
 		num: -590,
