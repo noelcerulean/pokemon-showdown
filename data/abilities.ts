@@ -2075,7 +2075,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				this.effectState.gaveUp = true;
 			}
 		},
-		onUpdate(pokemon) {
+		onSwitchIn(pokemon) {
 			if (!pokemon.isStarted || this.effectState.gaveUp) return;
 
 			const additionalBannedAbilities = [
