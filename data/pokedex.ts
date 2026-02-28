@@ -9898,9 +9898,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Bug"],
 	},
-	beeheaveplier: {
+	beeheavepliers: {
 		num: -608,
-		name: "Beeheave-Plier",
+		name: "Beeheave-Pliers",
 		types: ["Bug", "Electric"],
 		gender: "M",
 		baseStats: {hp: 35, atk: 55, def: 65, spa: 55, spd: 65, spe: 75},

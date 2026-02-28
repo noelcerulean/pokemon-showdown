@@ -1401,6 +1401,9 @@ export const Aliases: {[alias: string]: string} = {
 	slumburi: "Slumburus",
 	slumburt: "Slumburus-Therian",
 	chrono: "Chronoklang",
+	beeheavenormal: "Beeheave-Trowel",
+	beeheaveelectric: "Beeheave-Pliers",
+	beeheaveground: "Beeheave-Drill",
 
 	// armored
 	vespa: "Vespiquen-Armored",

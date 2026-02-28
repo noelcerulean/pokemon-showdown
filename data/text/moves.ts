@@ -3100,6 +3100,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Hive Protection",
 		desc: "Removes weaknesses of ally Bug types.",
 		shortDesc: "Removes weaknesses of ally Bug types.",
+
+		start: "  [TEAM] is protected by the hive mind!",
+		end: "  [TEAM] is no longer protected by the hive mind!",
+		block: "  [POKEMON] is protected by the hive mind!",
 	},
 	holdback: {
 		name: "Hold Back",
