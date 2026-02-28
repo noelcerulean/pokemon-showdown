@@ -3096,6 +3096,11 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		damage: "#crash",
 	},
+	hiveprotection: {
+		name: "Hive Protection",
+		desc: "Removes weaknesses of ally Bug types.",
+		shortDesc: "Removes weaknesses of ally Bug types.",
+	},
 	holdback: {
 		name: "Hold Back",
 		desc: "Leaves the target with at least 1 HP.",

@@ -2096,6 +2096,21 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	vespiquenarmored: {
 		name: "Vespiquen-Armored",
 	},
+	beeheavepsychic: {
+		name: "Beeheave-Psychic",
+	},
+	beeheavetrowel: {
+		name: "Beeheave-Trowel",
+	},
+	beeheavepliers: {
+		name: "Beeheave-Pliers",
+	},
+	beeheavedrill: {
+		name: "Beeheave-Drill",
+	},
+	hivernor: {
+		name: "Hivernor",
+	},
 	pachirisu: {
 		name: "Pachirisu",
 	},

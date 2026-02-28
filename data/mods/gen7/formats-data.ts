@@ -3289,6 +3289,24 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
+	beeheavepsychic: {
+		tier: "LC",
+	},
+	beeheavetrowel: {
+		tier: "LC",
+	},
+	beeheavepliers: {
+		tier: "LC",
+	},
+	beeheavedrill: {
+		tier: "LC",
+	},
+	hivernor: {
+		randomBattleMoves: ["bugbuzz", "defendorder", "healorder", "protect", "psychic", "toxic"],
+		randomDoubleBattleMoves: ["bugbuzz", "healorder", "protect", "psychic", "stringshot", "strugglebug"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	pachirisu: {
 		randomBattleMoves: ["nuzzle", "superfang", "thunderbolt", "toxic", "uturn"],
 		randomDoubleBattleMoves: ["followme", "helpinghand", "nuzzle", "protect", "superfang", "thunderbolt", "uturn"],

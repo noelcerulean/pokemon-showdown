@@ -3584,6 +3584,26 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	beeheavepsychic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	beeheavetrowel: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	beeheavepliers: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	beeheavedrill: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	hivernor: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	pachirisu: {
 		isNonstandard: "Past",
 		tier: "Illegal",
