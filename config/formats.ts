@@ -224,7 +224,7 @@ export const Formats: FormatList = [
 			'Ekno', 'Hitmonno', 'Jirachno', 'Machono',
 		],
 		onBegin() {
-			this.add('-diffusion', 'Allure Diffusion');
+			this.add('-weather', 'Allure Diffusion');
 			this.field.setDiffusion('allurediffusion');
 			this.field.diffusionState = {id: 'sllurediffusion'};
 		},
