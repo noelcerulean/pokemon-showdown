@@ -44387,6 +44387,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			toxic: ["7M"],
 			uturn: ["7M"],
 			venoshock: ["7M"],
+			allurediffusion: ["7L1"],
 			aromaticmist: ["7L1"],
 			megadrain: ["7L1"],
 			stringshot: ["7L1"],

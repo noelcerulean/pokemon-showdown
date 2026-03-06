@@ -223,6 +223,11 @@ export const Formats: FormatList = [
 			'Azumano', 'Pinsno', 'Herano', 'Senno', 'Smoono', 'Houndno', 'Zuno', 'Kangasno', 'Kyuno',
 			'Ekno', 'Hitmonno', 'Jirachno', 'Machono',
 		],
+		onBegin() {
+			this.add('-diffusion', 'Allure Diffusion');
+			this.field.setDiffusion('allurediffusion');
+			this.field.diffusionState = {id: 'sllurediffusion'};
+		},
 	},
 	{
 		name: "[Gen 7] Story Doubles",

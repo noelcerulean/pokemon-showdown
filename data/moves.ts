@@ -9578,7 +9578,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		condition: {
 			duration: 99,
 			onModifyDamage(damage, source, target, move) {
-				if (source.hasType('Bug') && target.getMoveHitData(move).typeMod < 0) {
+				if (source.hasType('Bug') && (move.type === 'Bug') && target.getMoveHitData(move).typeMod < 0) {
 					this.debug('Fathers Bloodlust boost');
 					return this.chainModify(2);
 				}
