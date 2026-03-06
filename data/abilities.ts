@@ -266,7 +266,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	arachnidsgrace: {
 			onStart(pokemon) {
-			this.add('-diffusion', 'Allure Diffusion');
 			this.field.setDiffusion('allurediffusion');
 			this.field.diffusionState = {id: 'allurediffusion'};
 		},
