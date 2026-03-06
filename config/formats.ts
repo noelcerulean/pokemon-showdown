@@ -226,7 +226,7 @@ export const Formats: FormatList = [
 		onBegin() {
 			this.add('-weather', 'Allure Diffusion');
 			this.field.setDiffusion('allurediffusion');
-			this.field.diffusionState = {id: 'sllurediffusion'};
+			this.field.diffusionState = {id: 'allurediffusion'};
 		},
 	},
 	{
