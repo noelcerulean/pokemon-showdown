@@ -2220,6 +2220,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
+	matrifly: {
+		randomBattleMoves: ["bugbuzz", "energyball", "hiddenpowerfighting", "psychic", "quiverdance"],
+		randomDoubleBattleMoves: ["bugbuzz", "protect", "quiverdance", "stringshot", "tailwind"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	cascoon: {
 		tier: "NFE",
 	},
@@ -2227,6 +2233,18 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["bugbuzz", "defog", "quiverdance", "roost", "sludgebomb", "uturn"],
 		randomDoubleBattleMoves: ["bugbuzz", "protect", "sludgebomb", "stringshot", "strugglebug", "tailwind"],
 		tier: "OU",
+		doublesTier: "(DUU)",
+	},
+	lucifly: {
+		tier: "LC",
+	},
+	sinisect: {
+		tier: "NFE",
+	},
+	beelzebug: {
+		randomBattleMoves: ["earthquake", "flareblitz", "knockoff", "leechlife", "uturn"],
+		randomDoubleBattleMoves: ["flareblitz", "knockoff", "leechlife", "protect", "uturn"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	lotad: {
@@ -3304,7 +3322,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	hivernor: {
 		randomBattleMoves: ["bugbuzz", "defendorder", "healorder", "protect", "psychic", "toxic"],
 		randomDoubleBattleMoves: ["bugbuzz", "healorder", "protect", "psychic", "stringshot", "strugglebug"],
-		tier: "RU",
+		tier: "PU",
 		doublesTier: "(DUU)",
 	},
 	pachirisu: {

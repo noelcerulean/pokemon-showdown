@@ -1463,6 +1463,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2.5,
 		num: -540,
 	},
+	enticement: {
+		onStart(source) {
+			this.field.setDiffusion('allurediffusion');
+		},
+		name: "Enticement",
+		rating: 3.5,
+		num: -593,
+	},
 	escapeartist: {
 		onBasePowerPriority: 19,
 		onBasePower(basePower, attacker, defender, move) {
@@ -3186,6 +3194,16 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		rating: 2,
 		num: 152,
+	},
+	mysticchitin: {
+		onModifySpDPriority: 6,
+		onModifySpD(spd) {
+			return this.chainModify(2);
+		},
+		isBreakable: true,
+		name: "Mystic Chitin",
+		rating: 4,
+		num: -591,
 	},
 	naturalcure: {
 		onCheckShow(pokemon) {
@@ -5539,6 +5557,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Swarm",
 		rating: 2,
 		num: 68,
+	},
+	swarmferno: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Fire') {
+				if (!this.boost({spa: 1})) {
+					this.add('-immune', target, '[from] ability: Swarmferno');
+				}
+				return null;
+			} else if (target !== source && move.type === 'Bug') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Swarmferno');
+				}
+				return null;
+			}
+		},
+		isBreakable: true,
+		name: "Swarmferno",
+		rating: 4,
+		num: -592,
 	},
 	sweetveil: {
 		name: "Sweet Veil",

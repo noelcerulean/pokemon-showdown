@@ -513,6 +513,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Enigmatify",
 		shortDesc: "On switch-in, this Pokemon summons Wonder Room.",
 	},
+	enticement: {
+		name: "Enticement",
+		shortDesc: "On switch-in, this Pokemon summons Allure Diffusion.",
+	},
 	escapeartist: {
 		name: "Escape Artist",
 		desc: "This Pokemon's pivot moves have their power multiplied by 1.5.",
@@ -1122,6 +1126,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		},
 
 		changeAbility: "  [TARGET]'s Ability became Mummy!",
+	},
+	mysticchitin: {
+		name: "Mystic Chitin",
+		shortDesc: "This Pokemon's Sp. Defense is doubled.",
 	},
 	naturalcure: {
 		name: "Natural Cure",
@@ -1955,6 +1963,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			desc: "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its Bug-type attacks have their power multiplied by 1.5.",
 			shortDesc: "At 1/3 or less of its max HP, this Pokemon's Bug-type attacks have 1.5x power.",
 		},
+	},
+	swarmferno: {
+		name: "Swarmferno",
+		desc: "This Pokemon is immune to Bug-type and Fire-type moves and gains +1 Sp. Attack when hit by a Fire-type move or restores 1/4 of its maximum HP, rounded down, when hit by a Bug-type move.",
+		shortDesc: "Bug/Fire immunity. Foe's fire moves +1 SpA; Foe's bug moves restore 1/4 HP.",
 	},
 	sweetveil: {
 		name: "Sweet Veil",

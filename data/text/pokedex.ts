@@ -1427,11 +1427,23 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	beautifly: {
 		name: "Beautifly",
 	},
+	matrifly: {
+		name: "Matrifly",
+	},
 	cascoon: {
 		name: "Cascoon",
 	},
 	dustox: {
 		name: "Dustox",
+	},
+	lucifly: {
+		name: "Lucifly",
+	},
+	sinisect: {
+		name: "Sinisect",
+	},
+	beelzebug: {
+		name: "Beelzebug",
 	},
 	lotad: {
 		name: "Lotad",

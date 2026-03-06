@@ -357,6 +357,52 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fighting",
 		contestType: "Cool",
 	},
+	allurediffusion: {
+		num: -612,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Allure Diffusion",
+		pp: 10,
+		priority: 0,
+		flags: {},
+		diffusion: 'allurediffusion',
+		condition: {
+			duration: 5,
+			durationCallback(source, effect) {
+				if (source?.hasItem('diffusioncatalyst')) {
+					return 8;
+				}
+				return 5;
+			},
+			onModifyMove(move) {
+			move.selfSwitch = false;
+			},
+			onResidualOrder: 12,
+			onResidual(pokemon) {
+				if (pokemon.volatiles['trapped'] || pokemon.volatiles['partiallytrapped']) {
+					this.damage(pokemon.baseMaxhp / 16);
+				}
+			},
+			onFieldStart(field, source, effect) {
+				if (effect?.effectType === 'Ability') {
+					this.add('-fieldstart', 'move: Allure Diffusion', '[from] ability: ' + effect, '[of] ' + source);
+				} else {
+					this.add('-fieldstart', 'move: Allure Diffusion');
+				}
+			},
+			onFieldResidualOrder: 27,
+			onFieldResidualSubOrder: 7,
+			onFieldEnd() {
+				this.add('-fieldend', 'Allure Diffusion');
+			},
+		},
+		secondary: null,
+		target: "all",
+		type: "Bug",
+		zMove: {boost: {spa: 1}},
+		contestType: "Beautiful",
+	},
 	allyswitch: {
 		num: 502,
 		accuracy: true,
@@ -766,7 +812,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		condition: {
 			noCopy: true, // doesn't get copied by Baton Pass
 			onStart(pokemon, source, effect) {
-				if (!(pokemon.gender === 'M' && source.gender === 'F') && !(pokemon.gender === 'F' && source.gender === 'M')) {
+				if (!(pokemon.gender === 'M' && source.gender === 'F') && !(pokemon.gender === 'F' && source.gender === 'M') && !(this.field.isDiffusion('allurediffusion'))) {
 					this.debug('incompatible gender');
 					return false;
 				}
@@ -9478,33 +9524,78 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fighting",
 		contestType: "Cool",
 	},
-	hiveprotection: {
+	mothersblessing: {
 		num: -650,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
-		name: "Hive Protection",
+		name: "Mothers Blessing",
 		pp: 5,
 		priority: 3,
 		flags: {},
-		sideCondition: 'hiveprotection',
+		sideCondition: 'mothersblessing',
 		condition: {
 			duration: 99,
 			onEffectivenessPriority: -1,
 			onEffectiveness(typeMod, target, type, move) {
 				if (!target) return;
 				if (move && move.effectType === 'Move' && move.category !== 'Status' && type === 'Bug' && typeMod > 0) {
-					this.add('-activate', '', 'Hive Protection');
+					this.add('-activate', '', 'Mothers Blessing');
 					return 0;
 				}
 			},
+			onDamage(damage, target, source, effect) {
+				if (effect.effectType !== 'Move' && target.hasType('Bug')) {
+					this.add('-activate', '', 'Mothers Blessing');
+					return this.chainModify(0.5);
+				}
+			},
 			onSideStart(side) {
-				this.add('-sidestart', side, 'Hive Protection');
+				this.add('-sidestart', side, 'Mothers Blessing');
 			},
 			onSideResidualOrder: 26,
 			onSideResidualSubOrder: 3,
 			onSideEnd(side) {
-				this.add('-sideend', side, 'Hive Protection');
+				this.add('-sideend', side, 'Mothers Blessing');
+			},
+		},
+		secondary: null,
+		target: "allySide",
+		type: "Bug",
+		zMove: {boost: {atk: 1, def: 1, spa: 1, spd: 1, spe: 1}},
+		contestType: "Beautiful",
+	},
+	fathersbloodlust: {
+		num: -651,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Fathers Bloodlust",
+		pp: 5,
+		priority: 3,
+		flags: {},
+		sideCondition: 'fathersbloodlust',
+		condition: {
+			duration: 99,
+			onModifyDamage(damage, source, target, move) {
+				if (source.hasType('Bug') && target.getMoveHitData(move).typeMod < 0) {
+					this.debug('Fathers Bloodlust boost');
+					return this.chainModify(2);
+				}
+			},
+			onTryHit(pokemon, target, move) {
+				if (move.id === 'attract' || move.id === 'captivate' || move.id === 'taunt') {
+					this.add('-immune', pokemon, '[from] move: Fathers Bloodlust');
+					return null;
+				}
+			},
+			onSideStart(side) {
+				this.add('-sidestart', side, 'Fathers Bloodlust');
+			},
+			onSideResidualOrder: 26,
+			onSideResidualSubOrder: 3,
+			onSideEnd(side) {
+				this.add('-sideend', side, 'Fathers Bloodlust');
 			},
 		},
 		secondary: null,
@@ -11735,7 +11826,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
 				/** moves blocked by Max Guard but not Protect */
 				const overrideBypassProtect = [
-					'block', 'flowershield', 'gearup', 'magneticflux', 'phantomforce', 'psychup', 'shadowforce', 'teatime', 'transform',
+					'block', 'flowershield', 'gearup', 'magneticflux', 'passionstorm', 'phantomforce', 'psychup', 'shadowforce', 'teatime', 'transform',
 				];
 				const blockedByMaxGuard = (this.dex.moves.get(move.id).flags['protect'] ||
 						move.isZ || move.isMax || overrideBypassProtect.includes(move.id));
@@ -14036,6 +14127,38 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Dark",
 		zMove: {effect: 'healreplacement'},
 		contestType: "Cool",
+	},
+	passionstorm: {
+		num: -613,
+		accuracy: 100,
+		basePower: 110,
+		category: "Special",
+		name: "Passion Storm",
+		pp: 10,
+		priority: 0,
+		flags: {charge: 1, mirror: 1},
+		breaksProtect: true,
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			this.add('-prepare', attacker, move.name);
+			this.boost({spa: 1}, attacker, attacker, move);
+			if (this.field.isDiffusion('allurediffusion')) {
+				this.attrLastMove('[still]');
+				this.addMove('-anim', attacker, move.name, defender);
+				return;
+			}
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		},
+		secondary: null,
+		target: "normal",
+		type: "Bug",
+		contestType: "Cute",
 	},
 	payback: {
 		num: 371,

@@ -110,6 +110,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "All-Out Pummeling",
 		shortDesc: "Power is equal to the base move's Z-Power.",
 	},
+	allurediffusion: {
+		name: "Allure Diffusion",
+		desc: "For 5 turns, the diffusion becomes Allure Diffusion. During the effect, trapped pokemon lose 1/16th of their max HP every turn and all pivoting moves fail to switch. Additionally, Passion Storm hits in one turn and Attract works regardless of gender.",
+		shortDesc: "5 turns: no pivots, trapped mons lose 1/16 HP.",
+	},
 	allyswitch: {
 		name: "Ally Switch",
 		desc: "The user swaps positions with its ally. Fails if the user is the only Pokemon on its side.",
@@ -1380,7 +1385,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	diffusionwave: {
 		name: "Diffusion Wave",
-		desc: "Power doubles if a diffusion is active, and this move's type changes to match. Ghost type during Evanesce Diffusion.",
+		desc: "Power doubles if a diffusion is active, and this move's type changes to match. Ghost type during Evanesce Diffusion. Bug type during Allure Diffusion.",
 		shortDesc: "Power doubles and type varies in diffusion.",
 
 		move: "Breakneck Blitz turned into [MOVE] due to the diffusion!",
@@ -3096,14 +3101,23 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		damage: "#crash",
 	},
-	hiveprotection: {
-		name: "Hive Protection",
-		desc: "Removes weaknesses of ally Bug types.",
-		shortDesc: "Removes weaknesses of ally Bug types.",
+	mothersblessing: {
+		name: "Mothers Blessing",
+		desc: "Removes weaknesses/halves indirect dmg of ally Bug types.",
+		shortDesc: "Removes weaknesses/halves indirect of ally Bug types.",
 
-		start: "  [TEAM] is protected by the hive mind!",
-		end: "  [TEAM] is no longer protected by the hive mind!",
-		block: "  [POKEMON] is protected by the hive mind!",
+		start: "  [TEAM] is protected by Mother's Blessing!",
+		end: "  [TEAM] is no longer protected by Mother's Blessing!",
+		block: "  [POKEMON] is protected by Mother's Blessing!",
+	},
+	fathersbloodlust: {
+		name: "Fathers Bloodlust",
+		desc: "Bug moves gain tinted lens, allies gain Oblivious.",
+		shortDesc: "Bug moves gain tinted lens, allies gain Oblivious.",
+
+		start: "  [TEAM] is rallied by Father's Bloodlust!",
+		end: "  [TEAM] is no longer affected by Father's Bloodlust!",
+		block: "  [POKEMON] is protected by Father's  Bloodlust!",
 	},
 	holdback: {
 		name: "Hold Back",
@@ -4572,6 +4586,14 @@ export const MovesText: {[k: string]: MoveText} = {
 		},
 
 		heal: "#memento",
+	},
+	passionstorm: {
+		name: "Passion Storm",
+		desc: "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally. This attack charges on the first turn and executes on the second. On the first turn, the user gains +1 Sp. Attack. If used in Allure Diffusion or if user is holding a Power Herb, the move completes in one turn.",
+		shortDesc: "+1 SpA T1. Ignores Protect, hits T2. Hits T1 in AD.",
+
+		activate: "  It broke through [TARGET]'s protection!",
+		prepare: "[POKEMON] is producing intense pheromones!",
 	},
 	payback: {
 		name: "Payback",

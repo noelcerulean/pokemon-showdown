@@ -2571,11 +2571,27 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	matrifly: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	cascoon: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
 	dustox: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	lucifly: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sinisect: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	beelzebug: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},

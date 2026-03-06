@@ -360,6 +360,11 @@ export const DefaultText: {[k: string]: DefaultText} = {
 		end: "  The diffusion disappeared from the battlefield.",
 		block: "  [POKEMON] is protected by Evanesce Diffusion!",
 	},
+	allurediffusion: {
+		start: "  Alluring pheromones fill the air!",
+		end: "  The diffusion disappeared from the battlefield.",
+		block: "  [POKEMON] is protected by Allure Diffusion!",
+	},
 
 	// field effects
 	gravity: {
