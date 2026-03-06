@@ -368,12 +368,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {},
 		diffusion: 'allurediffusion',
 		condition: {
-			duration: 5,
+			duration: 99,
 			durationCallback(source, effect) {
 				if (source?.hasItem('diffusioncatalyst')) {
-					return 8;
+					return 99;
 				}
-				return 5;
+				return 99;
 			},
 			onModifyMove(move) {
 			move.selfSwitch = false;
