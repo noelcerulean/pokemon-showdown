@@ -1268,6 +1268,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Master Ball",
 		desc: "The best Ball with the ultimate performance. It will catch any wild Pokemon.",
 	},
+	matrifliumz: {
+		name: "Matriflium Z",
+		desc: "If held by a Matrifly with Passion Storm, it can use Pheromonic Phantasmagoria.",
+	},
 	mawilite: {
 		name: "Mawilite",
 		desc: "If held by a Mawile, this item allows it to Mega Evolve in battle.",

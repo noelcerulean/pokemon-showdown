@@ -4675,6 +4675,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		prepare: "#shadowforce",
 		activate: "#shadowforce",
 	},
+	pheromonicphantasmagoria: {
+		name: "Pheromonic Phantasmagoria",
+		desc: "If this move is successful, the diffusion becomes Allure Diffusion.",
+		shortDesc: "Summons Allure Diffusion.",
+	},
 	photongeyser: {
 		name: "Photon Geyser",
 		desc: "This move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes. This move and its effects ignore the Abilities of other Pokemon.",

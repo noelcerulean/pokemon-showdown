@@ -4323,6 +4323,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 1,
 		isPokeball: true,
 	},
+	matrifliumz: {
+		name: "Matriflium Z",
+		spritenum: 835,
+		onTakeItem: false,
+		zMove: "Pheromonic Phantasmagoria",
+		zMoveFrom: "Passion Storm",
+		itemUser: ["Matrifly"],
+		num: -598,
+		gen: 7,
+		isNonstandard: "Past",
+	},
 	mawilite: {
 		name: "Mawilite",
 		spritenum: 598,

@@ -670,6 +670,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	pheromonicphantasmagoria: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	powder: {
 		inherit: true,
 		isNonstandard: null,

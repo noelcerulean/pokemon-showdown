@@ -463,6 +463,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	matrifliumz: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	mawilite: {
 		inherit: true,
 		isNonstandard: null,

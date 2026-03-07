@@ -14354,6 +14354,29 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Ghost",
 		contestType: "Cool",
 	},
+	pheromonicphantasmagoria: {
+		num: -614,
+		accuracy: true,
+		basePower: 190,
+		category: "Special",
+		isNonstandard: "Past",
+		name: "Pheromonic Phantasmagoria",
+		pp: 1,
+		priority: 0,
+		flags: {},
+		isZ: "matrifliumz",
+		secondary: {
+			chance: 100,
+			self: {
+				onHit() {
+					this.field.setDiffusion('allurediffusion');
+				},
+			},
+		},
+		target: "normal",
+		type: "Bug",
+		contestType: "Beautiful",
+	},
 	photongeyser: {
 		num: 722,
 		accuracy: 100,
