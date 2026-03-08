@@ -291,7 +291,7 @@ const avatarTable = new Set([
 	'maxie-gen3',
 	'may-gen3', 'may-gen3rs',
 	'maylene',
-	'meadow',
+	'meadow', 'meadow-shrumal',
 	'meadow-wedding',
 	'medium-gen2jp', 'medium',
 	'mickey',

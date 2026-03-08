@@ -1723,6 +1723,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 324,
 		gen: 4,
 	},
+	durantite: {
+		name: "Durantite",
+		spritenum: 836,
+		megaStone: "Durant-Mega",
+		megaEvolves: "Durant",
+		itemUser: ["Durant"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -599,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	durinberry: {
 		name: "Durin Berry",
 		spritenum: 114,

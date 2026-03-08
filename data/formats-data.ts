@@ -5008,6 +5008,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
+	durantmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	phasmatch: {
 		isNonstandard: "Past",
 		tier: "Illegal",

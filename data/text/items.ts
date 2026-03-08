@@ -485,6 +485,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Dubious Disc",
 		desc: "Evolves Porygon2 into Porygon-Z when traded.",
 	},
+	durantite: {
+		name: "Durantite",
+		desc: "If held by a Durant, this item allows it to Mega Evolve in battle.",
+	},
 	durinberry: {
 		name: "Durin Berry",
 		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",

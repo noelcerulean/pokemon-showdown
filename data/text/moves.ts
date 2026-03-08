@@ -3416,6 +3416,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 10% chance to lower the target's Defense by 1 stage.",
 		shortDesc: "10% chance to lower the target's Defense by 1.",
 	},
+	ironjaw: {
+		name: "Ironjaw",
+		desc: "Ignores the target's stat stage changes when dealing damage.",
+		shortDesc: "Ignores the target's stat stage changes.",
+	},
 	irontail: {
 		name: "Iron Tail",
 		desc: "Has a 30% chance to lower the target's Defense by 1 stage.",
@@ -6876,13 +6881,14 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Spore",
 		shortDesc: "Causes the target to fall asleep.",
 	},
-	sporeshield: {
-		name: "Spore Shield",
-		shortDesc: "Protects from hazards. Field = Effect Spore.",
+	sporecloud: {
+		name: "Spore Cloud",
+		shortDesc: "Protects from hazards. Pokemon become Grass.",
 
-		start: "  [TEAM] cloaked itself in a shroud of spores!",
-		end: "  [TEAM] is no longer protected by Spore Shield!",
-		block: "  [POKEMON] is protected by Spore Shield!",
+		start: "  A cloud of spores spreads through the field!",
+		end: "  The spore cloud dissipated...",
+		block: "  The spore cloud seeks to add more to its wake...",
+		activate: "  The spore cloud seeks to add more to its wake...",
 	},
 	sporeslash: {
 		name: "Spore Slash",

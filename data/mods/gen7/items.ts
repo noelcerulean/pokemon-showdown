@@ -176,6 +176,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	durantite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	durinberry: {
 		inherit: true,
 		isNonstandard: "Unobtainable",

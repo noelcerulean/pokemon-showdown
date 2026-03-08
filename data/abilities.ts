@@ -265,10 +265,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: -538,
 	},
 	arachnidsgrace: {
-			onStart(pokemon) {
-			this.field.setDiffusion('allurediffusion');
-			this.field.diffusionState = {id: 'allurediffusion'};
-		},
 		isPermanent: true,
 		name: "Arachnid's Grace",
 		rating: 0,

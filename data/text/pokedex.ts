@@ -3071,6 +3071,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	durant: {
 		name: "Durant",
 	},
+	durantmega: {
+		name: "Durant-Mega",
+	},
 	phasmatch: {
 		name: "Phasmatch",
 	},

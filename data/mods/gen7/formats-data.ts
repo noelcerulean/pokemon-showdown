@@ -4600,9 +4600,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "DUber",
 	},
 	durant: {
-		randomBattleMoves: ["honeclaws", "ironhead", "rockslide", "superpower", "xscissor"],
-		randomDoubleBattleMoves: ["honeclaws", "ironhead", "protect", "rockslide", "superpower", "xscissor"],
+		randomBattleMoves: ["honeclaws", "ironhead", "rockslide", "superpower", "thunderfang", "xscissor"],
+		randomDoubleBattleMoves: ["honeclaws", "ironhead", "protect", "rockslide", "superpower", "thunderfang", "xscissor"],
 		tier: "RU",
+		doublesTier: "(DUU)",
+	},
+	durantmega: {
+		randomBattleMoves: ["honeclaws", "ironjaw", "rockslide", "superpower", "xscissor", "thunderfang"],
+		randomDoubleBattleMoves: ["honeclaws", "ironjaw", "protect", "rockslide", "superpower", "thunderfang", "xscissor"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	phasmatch: {

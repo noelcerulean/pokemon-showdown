@@ -46618,6 +46618,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	breloom: {
 		learnset: {
+			sporecloud: ["7L1"],
 			absorb: ["7L1", "6L1", "5L1", "4L1", "3L1"],
 			attract: ["7M", "6M", "5M", "4M", "3M"],
 			bodyslam: ["3T"],
@@ -81156,6 +81157,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			infestation: ["8E"],
 			irondefense: ["8M", "8L52", "7T", "7L46", "6T", "6L1", "5T", "5L56"],
 			ironhead: ["8M", "8L44", "7T", "7L26", "6T", "6L36", "5T", "5L36"],
+			ironjaw: ["7L1"],
 			metalburst: ["8E"],
 			metalclaw: ["8L8", "7L11", "6L21", "5L21"],
 			metalsound: ["8L40", "7L1", "6L1", "5L66"],

@@ -368,12 +368,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {},
 		diffusion: 'allurediffusion',
 		condition: {
-			duration: 99,
+			duration: 5,
 			durationCallback(source, effect) {
 				if (source?.hasItem('diffusioncatalyst')) {
-					return 99;
+					return 8;
 				}
-				return 99;
+				return 5;
 			},
 			onModifyMove(move) {
 			move.selfSwitch = false;
@@ -2139,7 +2139,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Bug Bite",
 		pp: 20,
 		priority: 0,
-		flags: {contact: 1, protect: 1, mirror: 1},
+		flags: {contact: 1, protect: 1, mirror: 1, bite: 1},
 		onHit(target, source) {
 			const item = target.getItem();
 			if (source.hp && item.isBerry && target.takeItem(source)) {
@@ -10439,6 +10439,21 @@ export const Moves: {[moveid: string]: MoveData} = {
 				def: -1,
 			},
 		},
+		target: "normal",
+		type: "Steel",
+		contestType: "Tough",
+	},
+	ironjaw: {
+		num: -615,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Ironjaw",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, bite: 1},
+		ignoreDefensive: true,
+		secondary: null,
 		target: "normal",
 		type: "Steel",
 		contestType: "Tough",
@@ -21870,29 +21885,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Beautiful",
 	},
-	sporeshield: {
+	sporecloud: {
 		num: 219,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
-		name: "Spore Shield",
+		name: "Spore Cloud",
 		pp: 5,
 		priority: 3,
 		flags: {},
-		sideCondition: 'sporeshield',
+		sideCondition: 'sporecloud',
+		ignoreAbility: true,
 		condition: {
 			duration: 99,
-			onDamagingHit(damage, target, source, move) {
-				if (move.flags['contact'] && !source.status && source.runStatusImmunity('powder')) {
-					const r = this.random(100);
-					if (r < 5) {
-						source.setStatus('slp', target);
-					} else if (r < 12) {
-						source.setStatus('par', target);
-					} else if (r < 20) {
-						source.setStatus('psn', target);
+			onResidual(pokemon) {
+				if (pokemon.runStatusImmunity('powder')) return false;
+				if (pokemon.getTypes().join() === 'Grass' || !pokemon.setType('Grass')) {
+					return false;
 					}
-				}
+				this.add('-start', pokemon, 'typechange', 'Grass');
 			},
 			onSideStart(side) {
 				this.add('-sidestart', side, 'Spore Shield');
@@ -21904,7 +21915,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 		},
 		secondary: null,
-		target: "allySide",
+		target: "foeSide",
 		type: "Grass",
 		zMove: {boost: {atk: 1, def: 1, spa: 1, spd: 1, spe: 1}},
 		contestType: "Beautiful",
