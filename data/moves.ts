@@ -21903,7 +21903,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 						return false;
 					}
 				this.add('-activate', pokemon, 'move: Spore Cloud');
-				this.add('-start', pokemon, 'typechange', 'Grass');
 				const r = this.random(100);
 				if (r < 11) {
 					pokemon.setStatus('slp', pokemon);
@@ -21924,6 +21923,16 @@ export const Moves: {[moveid: string]: MoveData} = {
 				} else {
 					this.add('-block', pokemon, 'move: Spore Cloud');
 				}
+			},
+			onResidual(pokemon) {
+				if (pokemon.hasItem('safetygoggles') || pokemon.hasAbility('overcoat')) {
+					return false;
+					}
+				if (pokemon.getTypes().join() === 'Grass' || !pokemon.setType('Grass')) {
+					return false;
+					}
+				this.add('-activate', pokemon, 'move: Spore Cloud');
+				this.add('-start', pokemon, 'typechange', 'Grass');
 			},
 			onSideStart(side) {
 				this.add('-sidestart', side, 'Spore Cloud');
