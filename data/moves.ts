@@ -21899,7 +21899,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		condition: {
 			duration: 99,
 			onResidual(pokemon) {
-				if (pokemon.runStatusImmunity('powder')) return false;
 				if (pokemon.getTypes().join() === 'Grass' || !pokemon.setType('Grass')) {
 					return false;
 					}
