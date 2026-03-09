@@ -21899,7 +21899,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		condition: {
 			duration: 99,
 			onResidual(pokemon) {
-				if (pokemon.getTypes().join() === 'Grass' || !pokemon.setType('Grass') || pokemon.runStatusImmunity('powder')) {
+				if (pokemon.getTypes().join() === 'Grass' || !pokemon.setType('Grass') || pokemon.hasItem('safetygoggles')) {
 					return false;
 					}
 				this.add('-start', pokemon, 'typechange', 'Grass');
