@@ -6888,7 +6888,7 @@ export const MovesText: {[k: string]: MoveText} = {
 		start: "  A cloud of spores spreads through the field!",
 		end: "  The spore cloud dissipated...",
 		block: "  The spore cloud seeks to add more to its wake...",
-		activate: "  The spore cloud seeks to add more to its wake...",
+		activate: "  [POKEMON] is trying to survive the spores...",
 	},
 	sporeslash: {
 		name: "Spore Slash",
