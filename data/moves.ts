@@ -21899,33 +21899,36 @@ export const Moves: {[moveid: string]: MoveData} = {
 		condition: {
 			duration: 99,
 			onAfterMoveSecondarySelf(pokemon, move) {
-				if (!pokemon.hasItem('safetygoggles') || !pokemon.hasAbility('overcoat')) {
-					const r = this.random(100);
-					if (r < 11) {
-						pokemon.setStatus('slp', pokemon);
-					} else if (r < 21) {
-						pokemon.setStatus('par', pokemon);
-					} else if (r < 31) {
-						pokemon.setStatus('psn', pokemon);
-					} else if (r < 41) {
-						this.boost({atk: -1, spa: -1}, pokemon);
-					} else if (r < 51) {
-						this.directDamage(pokemon.maxhp / 16);
-					} else if (r < 61) {
-						this.boost({spe: -1}, pokemon);
-					} else if (r < 71) {
-						this.boost({def: -1, spd: -1}, pokemon);
-					} else if (r < 81) {
-						this.directDamage(pokemon.maxhp / 8);
-					} else {
-						
+				if (pokemon.hasItem('safetygoggles') || pokemon.hasAbility('overcoat')) {
+						return false;
 					}
+				this.add('-activate', pokemon, 'move: Spore Cloud');
+				const r = this.random(100);
+				if (r < 11) {
+					pokemon.setStatus('slp', pokemon);
+				} else if (r < 21) {
+					pokemon.setStatus('par', pokemon);
+				} else if (r < 31) {
+					pokemon.setStatus('psn', pokemon);
+				} else if (r < 41) {
+					this.boost({atk: -1, spa: -1}, pokemon);
+				} else if (r < 51) {
+					this.directDamage(pokemon.maxhp / 16);
+				} else if (r < 61) {
+					this.boost({spe: -1}, pokemon);
+				} else if (r < 71) {
+					this.boost({def: -1, spd: -1}, pokemon);
+				} else if (r < 81) {
+					this.directDamage(pokemon.maxhp / 8);
+				} else {
+					this.add('-block', pokemon, 'move: Spore Cloud');
 				}
 			},
 			onResidual(pokemon) {
 				if (pokemon.getTypes().join() === 'Grass' || !pokemon.setType('Grass') || pokemon.hasItem('safetygoggles') || pokemon.hasAbility('overcoat')) {
 					return false;
 					}
+				this.add('-activate', pokemon, 'move: Spore Cloud');
 				this.add('-start', pokemon, 'typechange', 'Grass');
 			},
 			onSideStart(side) {
