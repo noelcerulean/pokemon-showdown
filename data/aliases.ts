@@ -1492,6 +1492,8 @@ export const Aliases: {[alias: string]: string} = {
 	quilladind: "Quilladin-Delta",
 	chesnaughtd: "Chesnaught-Delta",
 	desnaught: "Chesnaught-Delta",
+	dailmer: "Wailmer-Delta",
+	dailord: "Wailord-Delta",
 
 	dcranidos: "Cranidos-Delta",
 	drampardos: "Rampardos-Delta",
@@ -1526,6 +1528,8 @@ export const Aliases: {[alias: string]: string} = {
 	dquilladin: "Quilladin-Delta",
 	dchesnaught: "Chesnaught-Delta",
 	dnaught: "Chesnaught-Delta",
+	dwailmer: "Wailmer-Delta",
+	dwailord: "Wailord-Delta",
 
 	// paradox names
 	ironfriend: "Robodachi",
@@ -1771,6 +1775,7 @@ export const Aliases: {[alias: string]: string} = {
 	ubassembly: "Stakataka",
 	ubadhesive: "Poipole",
 	ubhammer: "Utsuki",
+	ubpuppeteer: "Mycromancer",
 
 	// moves
 	bb: "Brave Bird",
@@ -1952,6 +1957,7 @@ export const Aliases: {[alias: string]: string} = {
 	zsing: "Reliquary Recital",
 	zsorceroma: "Melancholia Expanse",
 	zelectrode: "Boisterous Blackout",
+	zdeltawailord: "Genesis of Eternal Growth",
 	zpoliwrath: "Unified Upsurge",
 	zgorochu: "Typhonic Thunderstorm",
 	zlickilickyfnf: "Merciless Marinade",

@@ -1001,6 +1001,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	utsuki: {
 		name: "Utsuki",
 	},
+	mycromancer: {
+		name: "Mycromancer",
+	},
 	sudowoodo: {
 		name: "Sudowoodo",
 	},
@@ -1654,6 +1657,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	wailord: {
 		name: "Wailord",
+	},
+	wailmerdelta: {
+		name: "Wailmer-Delta",
+	},
+	wailorddelta: {
+		name: "Wailord-Delta",
 	},
 	numel: {
 		name: "Numel",

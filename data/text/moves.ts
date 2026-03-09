@@ -2444,6 +2444,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Raises the Special Attack of all Rock-type Pokemon on the field by 1 stage.",
 		shortDesc: "Raises Sp. Atk of all Rock types by 1.",
 	},
+	genesisofeternalgrowth: {
+		name: "Genesis of Eternal Growth",
+		desc: "The user restores 100% of its maximum HP after attacking.",
+		shortDesc: "Heals the user by 100% of its max HP after attacking.",
+	},
 	genesissupernova: {
 		name: "Genesis Supernova",
 		desc: "If this move is successful, the terrain becomes Psychic Terrain.",
@@ -4868,6 +4873,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
 		shortDesc: "User cannot move next turn.",
 	},
+	Proliferation: {
+		name: "Proliferation",
+		desc: "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
+		shortDesc: "Less power as user's HP decreases. Hits foe(s).",
+	},
 	propheticasteroid: {
 		name: "Prophetic Asteroid",
 		desc: "Deals damage two turns after this move is used. At the end of that turn, the damage is calculated at that time and dealt to the Pokemon at the position the target had when the move was used. If the user is no longer active at the time, damage is calculated based on the user's natural Attack stat, types, and level, with no boosts from its held item or Ability. Fails if this move or Doom Desire/Future Sight is already in effect for the target's position. This move becomes a special attack if the user's Sp. Attack is greater than its Attack, including stat stage changes.",
@@ -6861,15 +6871,6 @@ export const MovesText: {[k: string]: MoveText} = {
 	spore: {
 		name: "Spore",
 		shortDesc: "Causes the target to fall asleep.",
-	},
-	sporecloud: {
-		name: "Spore Cloud",
-		shortDesc: "Protects from hazards. Pokemon become Grass.",
-
-		start: "  A cloud of spores spreads through the field!",
-		end: "  The spore cloud dissipated...",
-		block: "  [POKEMON] did its best not to fall to the spores...",
-		activate: "  [POKEMON] is getting worn down by the spores...",
 	},
 	sporeslash: {
 		name: "Spore Slash",

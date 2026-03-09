@@ -395,6 +395,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Delta Cameruptite",
 		desc: "If held by a Camerupt-Delta, this item allows it to Mega Evolve in battle.",
 	},
+	deltawailordiumz: {
+		name: "DeltaWailordium Z",
+		desc: "If held by a Delta Wailord with Proliferation, it can use Genesis of Eternal Growth.",
+	},
 	despotidiumz: {
 		name: "Despotidium Z",
 		desc: "If held by a Despotide with Red Rush, it can use Ruinous Riptide.",

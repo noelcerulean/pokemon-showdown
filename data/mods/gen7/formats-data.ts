@@ -1603,6 +1603,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DUU",
 	},
+	mycromancer: {
+		randomBattleMoves: ["earthpower", "energyball", "moonblast", "spore", "synthesis"],
+		randomDoubleBattleMoves: ["earthpower", "energyball", "moonblast", "spore", "synthesis"],
+		tier: "UU",
+		doublesTier: "DUU",
+	},
 	bonsly: {
 		tier: "LC",
 	},
@@ -2608,6 +2614,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	wailord: {
 		randomBattleMoves: ["bubbleprison", "icebeam", "protect", "toxic"],
 		randomDoubleBattleMoves: ["bubbleprison", "icebeam", "protect", "toxic"],
+		tier: "PU",
+		doublesTier: "(DUU)",
+	},
+	wailmerdelta: {
+		tier: "LC",
+	},
+	wailorddelta: {
+		randomBattleMoves: ["defog", "earthpower", "energyball", "protect", "surf", "synthesis", "toxic"],
+		randomDoubleBattleMoves: ["earthpower", "energyball", "protect", "surf", "synthesis"],
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},

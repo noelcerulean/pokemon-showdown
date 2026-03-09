@@ -1944,6 +1944,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	mycromancer: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	bonsly: {
 		tier: "LC",
 	},
@@ -2928,6 +2932,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	wailmerdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	wailorddelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	numel: {
 		isNonstandard: "Past",

@@ -13,6 +13,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon's moves that match one of its types have a same-type attack bonus (STAB) of 2 instead of 1.5.",
 		shortDesc: "This Pokemon's same-type attack bonus (STAB) is 2 instead of 1.5.",
 	},
+	adaptivegrowth: {
+		name: "Adaptive Growth",
+		shortDesc: "This Pokemon's Grass attacks that are not very effective on a target deal 2x damage.",
+	},
 	adrenalize: {
 		name: "Adrenalize",
 		desc: "When this Pokemon has 1/4 or less of its maximum HP, rounded down, its attacking stats are multiplied by 1.5.",

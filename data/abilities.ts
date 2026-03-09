@@ -61,6 +61,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 91,
 	},
+	adaptivegrowth: {
+		onModifyDamage(damage, source, target, move) {
+			if ((move.type === 'Grass') && target.getMoveHitData(move).typeMod < 0) {
+				this.debug('Adaptive Growth boost');
+				return this.chainModify(2);
+			}
+		},
+		name: "Adaptive Growth",
+		rating: 3,
+		num: -594,
+	},
 	adrenalize: {
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {

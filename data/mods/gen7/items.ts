@@ -148,6 +148,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	deltawailordiumz: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	despotidiumz: {
 		inherit: true,
 		isNonstandard: null,

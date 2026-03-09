@@ -7074,6 +7074,27 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Beautiful",
 	},
+	genesisofeternalgrowth: {
+		num: -617,
+		accuracy: true,
+		basePower: 200,
+		category: "Special",
+		isNonstandard: "Past",
+		name: "Genesis of Eternal Growth",
+		pp: 1,
+		priority: 0,
+		flags: {},
+		onAfterMoveSecondarySelf(pokemon, target, move) {
+			if (move.totalDamage) {
+				this.heal(pokemon.baseMaxhp / 1, pokemon, pokemon);
+			}
+		},
+		isZ: "deltawailordiumz",
+		secondary: null,
+		target: "allAdjacentFoes",
+		type: "Grass",
+		contestType: "Beautiful",
+	},
 	genesissupernova: {
 		num: 703,
 		accuracy: true,
@@ -14975,6 +14996,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Psychic",
 		contestType: "Cool",
 	},
+	proliferation: {
+		num: -616,
+		accuracy: 100,
+		basePower: 150,
+		basePowerCallback(pokemon, target, move) {
+			return move.basePower * pokemon.hp / pokemon.maxhp;
+		},
+		category: "Special",
+		name: "Proliferation",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: null,
+		target: "allAdjacentFoes",
+		type: "Grass",
+		contestType: "Beautiful",
+	},
 	propheticasteroid: {
 		num: -508,
 		accuracy: 100,
@@ -21802,70 +21840,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Grass",
 		zMove: {effect: 'clearnegativeboost'},
-		contestType: "Beautiful",
-	},
-	sporecloud: {
-		num: 219,
-		accuracy: true,
-		basePower: 0,
-		category: "Status",
-		name: "Spore Cloud",
-		pp: 5,
-		priority: 3,
-		flags: {},
-		sideCondition: 'sporecloud',
-		ignoreAbility: true,
-		condition: {
-			duration: 99,
-			onAfterMoveSecondarySelf(pokemon, move) {
-				if (pokemon.hasItem('safetygoggles') || pokemon.hasAbility('overcoat')) {
-						return false;
-					}
-				this.add('-activate', pokemon, 'move: Spore Cloud');
-				const r = this.random(100);
-				if (r < 11) {
-					pokemon.setStatus('slp', pokemon);
-				} else if (r < 21) {
-					pokemon.setStatus('par', pokemon);
-				} else if (r < 31) {
-					pokemon.setStatus('psn', pokemon);
-				} else if (r < 41) {
-					this.boost({atk: -1, spa: -1}, pokemon);
-				} else if (r < 51) {
-					this.directDamage(pokemon.maxhp / 16);
-				} else if (r < 61) {
-					this.boost({spe: -1}, pokemon);
-				} else if (r < 71) {
-					this.boost({def: -1, spd: -1}, pokemon);
-				} else if (r < 81) {
-					this.directDamage(pokemon.maxhp / 8);
-				} else {
-					this.add('-block', pokemon, 'move: Spore Cloud');
-				}
-			},
-			onResidual(pokemon) {
-				if (pokemon.hasItem('safetygoggles') || pokemon.hasAbility('overcoat')) {
-					return false;
-					}
-				if (pokemon.getTypes().join() === 'Grass' || !pokemon.setType('Grass')) {
-					return false;
-					}
-				this.add('-activate', pokemon, 'move: Spore Cloud');
-				this.add('-start', pokemon, 'typechange', 'Grass');
-			},
-			onSideStart(side) {
-				this.add('-sidestart', side, 'Spore Cloud');
-			},
-			onSideResidualOrder: 26,
-			onSideResidualSubOrder: 3,
-			onSideEnd(side) {
-				this.add('-sideend', side, 'Spore Cloud');
-			},
-		},
-		secondary: null,
-		target: "foeSide",
-		type: "Grass",
-		zMove: {boost: {atk: 1, def: 1, spa: 1, spd: 1, spe: 1}},
 		contestType: "Beautiful",
 	},
 	sporeslash: {

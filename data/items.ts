@@ -1484,6 +1484,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	deltawailordiumz: {
+		name: "DeltaWailordium Z",
+		spritenum: 837,
+		onTakeItem: false,
+		zMove: "Genesis of Eternal Growth",
+		zMoveFrom: "Proliferation",
+		itemUser: ["Wailord-Delta"],
+		num: -600,
+		gen: 7,
+		isNonstandard: "Past",
+	},
 	despotidiumz: {
 		name: "Despotidium Z",
 		spritenum: 813,
