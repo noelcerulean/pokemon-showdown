@@ -3101,24 +3101,6 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		damage: "#crash",
 	},
-	mothersblessing: {
-		name: "Mothers Blessing",
-		desc: "Removes weaknesses/halves indirect dmg of ally Bug types.",
-		shortDesc: "Removes weaknesses/halves indirect of ally Bug types.",
-
-		start: "  [TEAM] is protected by Mother's Blessing!",
-		end: "  [TEAM] is no longer protected by Mother's Blessing!",
-		block: "  [POKEMON] is protected by Mother's Blessing!",
-	},
-	fathersbloodlust: {
-		name: "Fathers Bloodlust",
-		desc: "Bug moves gain tinted lens, allies gain Oblivious.",
-		shortDesc: "Bug moves gain tinted lens, allies gain Oblivious.",
-
-		start: "  [TEAM] is rallied by Father's Bloodlust!",
-		end: "  [TEAM] is no longer affected by Father's Bloodlust!",
-		block: "  [POKEMON] is protected by Father's  Bloodlust!",
-	},
 	holdback: {
 		name: "Hold Back",
 		desc: "Leaves the target with at least 1 HP.",
@@ -4594,10 +4576,9 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	passionstorm: {
 		name: "Passion Storm",
-		desc: "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally. This attack charges on the first turn and executes on the second. On the first turn, the user gains +1 Sp. Attack. If used in Allure Diffusion or if user is holding a Power Herb, the move completes in one turn.",
-		shortDesc: "+1 SpA T1. Ignores Protect, hits T2. Hits T1 in AD.",
+		desc: "This attack charges on the first turn and executes on the second. On the first turn, the user gains +1 Sp. Attack. If used in Allure Diffusion or if user is holding a Power Herb, the move completes in one turn.",
+		shortDesc: "+1 SpA T1, hits T2. Hits T1 in AD.",
 
-		activate: "  It broke through [TARGET]'s protection!",
 		prepare: "[POKEMON] is producing intense pheromones!",
 	},
 	payback: {

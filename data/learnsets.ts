@@ -8794,7 +8794,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			snore: ["7T", "7V", "6T", "5T", "4T", "3T"],
 			solarbeam: ["8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			spore: ["8V", "7L22", "7V", "6L22", "5L22", "4L17", "3L27"],
-			sporeshield: ["7L1"],
 			sporeslash: ["7L60", "6L60", "5L60", "4L60"],
 			strengthsap: ["7L1"],
 			stringshot: ["4T"],
@@ -30384,7 +30383,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ledian: {
 		learnset: {
-			mothersblessing: ["7L1"],
 			acrobatics: ["7M", "6M", "5M"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			agility: ["7L33", "7V", "6L36", "5L36", "4L36", "3L51"],
@@ -45940,7 +45938,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kirliaarmored: {
 		learnset: {
-			mothersblessing: ["7L1"],
 			allyswitch: ["8M", "7T", "5M"],
 			attract: ["8M", "7M", "6M", "5M", "4M", "3M"],
 			bodyslam: ["8M", "3T"],
@@ -95854,7 +95851,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	golisopod: {
 		learnset: {
-			fathersbloodlust: ["7L1"],
 			aerialace: ["7M"],
 			assurance: ["8M"],
 			attract: ["8M", "7M"],
