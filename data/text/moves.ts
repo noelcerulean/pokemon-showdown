@@ -4873,7 +4873,7 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
 		shortDesc: "User cannot move next turn.",
 	},
-	Proliferation: {
+	proliferation: {
 		name: "Proliferation",
 		desc: "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
 		shortDesc: "Less power as user's HP decreases. Hits foe(s).",
