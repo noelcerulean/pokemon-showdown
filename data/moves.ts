@@ -21906,12 +21906,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 				this.add('-start', pokemon, 'typechange', 'Grass');
 			},
 			onSideStart(side) {
-				this.add('-sidestart', side, 'Spore Shield');
+				this.add('-sidestart', side, 'Spore Cloud');
 			},
 			onSideResidualOrder: 26,
 			onSideResidualSubOrder: 3,
 			onSideEnd(side) {
-				this.add('-sideend', side, 'Spore Shield');
+				this.add('-sideend', side, 'Spore Cloud');
 			},
 		},
 		secondary: null,
