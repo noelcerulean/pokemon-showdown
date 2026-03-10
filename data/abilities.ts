@@ -1394,30 +1394,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				}
 			}
 		},
-		onTryHitPriority: 1,
-		onTryHit(target, source, move) {
-			if (target === source || move.hasBounced || !move.flags['hazard']) {
-				return;
-			}
-			const newMove = this.dex.getActiveMove(move.id);
-			newMove.hasBounced = true;
-			newMove.pranksterBoosted = false;
-			this.actions.useMove(newMove, target, source);
-			return null;
-		},
-		onAllyTryHitSide(target, source, move) {
-			if (target.isAlly(source) || move.hasBounced || !move.flags['hazard']) {
-				return;
-			}
-			const newMove = this.dex.getActiveMove(move.id);
-			newMove.hasBounced = true;
-			newMove.pranksterBoosted = false;
-			this.actions.useMove(newMove, this.effectState.target, source);
-			return null;
-		},
-		condition: {
-			duration: 99,
-		},
 		name: "Effect Spore",
 		rating: 2,
 		num: 27,
@@ -2115,19 +2091,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			target.setAbility('hivemind');
 			target.addVolatile('hivemind');
 		},
-		onModifyAtkPriority: 5,
-		onModifyAtk(atk, attacker, defender, move) {
-			if (move.type === 'Bug') {
-				this.debug('Hive Mind boost');
-				return this.chainModify(1.2);
-			}
-		},
-		onModifySpAPriority: 5,
-		onModifySpA(atk, attacker, defender, move) {
-			if (move.type === 'Bug') {
-				this.debug('Hive Mind boost');
-				return this.chainModify(1.2);
-			}
+		onAnyBasePowerPriority: 20,
+		onAnyBasePower(basePower, source, target, move) {
+			if (target === source || move.category === 'Status' || move.type !== 'Dark') return;
+			return this.chainModify([4915, 4096]);
 		},
 		condition: {},
 		name: "Hive Mind",

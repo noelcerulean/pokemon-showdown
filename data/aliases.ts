@@ -715,6 +715,7 @@ export const Aliases: {[alias: string]: string} = {
 	castformcloudy: "Castform",
 	heliolisktaser: "Heliolisk",
 	zangoosevenom: "Zangoose",
+	phantumpwithered: "Phantump",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",

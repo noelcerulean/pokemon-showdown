@@ -2229,7 +2229,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	matrifly: {
 		randomBattleMoves: ["bugbuzz", "energyball", "hiddenpowerfighting", "psychic", "quiverdance"],
 		randomDoubleBattleMoves: ["bugbuzz", "protect", "quiverdance", "stringshot", "tailwind"],
-		tier: "RU",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	cascoon: {
@@ -2250,7 +2250,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	beelzebug: {
 		randomBattleMoves: ["earthquake", "flareblitz", "knockoff", "leechlife", "uturn"],
 		randomDoubleBattleMoves: ["flareblitz", "knockoff", "leechlife", "protect", "uturn"],
-		tier: "RU",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	lotad: {
