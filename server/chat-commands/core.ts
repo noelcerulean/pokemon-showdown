@@ -52,7 +52,7 @@ const avatarTable = new Set([
 	'artist-gen4', 'artist',
 	'ash-alola', 'ash-hoenn', 'ash-kalos', 'ash-unova', 'ash-capbackward', 'ash-johto', 'ash-sinnoh', 'ash',
 	'awwon-villain',
-	'aya', 'aya-and-prim',
+	'aya', 'aya-and-prim', 'aya-and-prim-2',
 	'ayra', 'ayra-malefic', 'ayra-malefic-2',
 	'backersf',
 	'backers',
