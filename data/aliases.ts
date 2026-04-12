@@ -716,6 +716,8 @@ export const Aliases: {[alias: string]: string} = {
 	heliolisktaser: "Heliolisk",
 	zangoosevenom: "Zangoose",
 	phantumpwithered: "Phantump",
+	trevenantwithered: "Trevenant",
+	chandeluresolstice: "Chandelure",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",

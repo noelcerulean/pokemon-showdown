@@ -13999,8 +13999,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Dusk Stone",
 		eggGroups: ["Amorphous"],
-		cosmeticFormes: ["Chandelure-Valentine"],
-		formeOrder: ["Chandelure", "Chandelure-Valentine"],
+		cosmeticFormes: ["Chandelure-Valentine", "Chandelure-Solstice"],
+		formeOrder: ["Chandelure", "Chandelure-Valentine", "Chandelure-Solstice"],
 	},
 	axew: {
 		num: 610,
@@ -16248,8 +16248,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "trade",
 		eggGroups: ["Grass", "Amorphous"],
 		otherFormes: ["Trevenant-Mega"],
-		cosmeticFormes: ["Trevenant-Beach"],
-		formeOrder: ["Trevenant", "Trevenant-Beach", "Trevenant-Mega"],
+		cosmeticFormes: ["Trevenant-Beach", "Trevenant-Withered"],
+		formeOrder: ["Trevenant", "Trevenant-Beach", "Trevenant-Withered", "Trevenant-Mega"],
 	},
 	trevenantmega: {
 		num: 709,
