@@ -94229,6 +94229,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			afteryou: ["7T"],
 			attract: ["8M", "7M"],
+			banefulbunker: ["8L0", "7L1"],
 			bite: ["8L10", "7L9"],
 			blizzard: ["8M", "7M"],
 			brine: ["8M"],
@@ -94296,6 +94297,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			afteryou: ["7T"],
 			attract: ["8M", "7M"],
+			banefulbunker: ["8L0", "7L1"],
 			bite: ["8L10", "7L9"],
 			blizzard: ["8M", "7M"],
 			brine: ["8M"],
