@@ -350,7 +350,7 @@ const avatarTable = new Set([
 	'pokemonranger-gen3', 'pokemonranger-gen3rs', 'pokemonranger-gen4', 'pokemonranger',
 	'policeman-gen4', 'policeman',
 	'poppy-fnf',
-	'portia', 'portia-villain', 'portia-villain-2',
+	'portia', 'portia-villain', 'portia-villain-2', 'portia-2',
 	'portia-dw',
 	'preschoolerf',
 	'preschooler',
