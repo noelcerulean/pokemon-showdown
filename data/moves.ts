@@ -13323,10 +13323,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (pokemon.ignoringItem()) return;
 			const item = pokemon.getItem();
 			if (!item.naturalGift) return false;
-			const natshift = item.naturalGift.type;
+			const natshifttype = item.naturalGift.type;
 			pokemon.eatItem(true);
-			if (pokemon.hasType(natshift) || !pokemon.setType(natshift)) return;
-			this.add('-start', pokemon, 'typeadd', natshift, '[from] move: Natural Shift');
+			if (pokemon.hasType(natshifttype) || !pokemon.setType(natshifttype)) return;
+			this.add('-start', pokemon, 'typeadd', natshifttype, '[from] move: Natural Shift');
 		},
 		secondary: null,
 		target: "self",
