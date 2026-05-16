@@ -3641,6 +3641,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	lycanrocdusk: {
 		name: "Lycanroc-Dusk",
 	},
+	lycanmoo: {
+		name: "Lycanmo-o",
+	},
 	wishiwashi: {
 		name: "Wishiwashi",
 	},

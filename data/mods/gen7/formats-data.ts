@@ -5510,6 +5510,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	lycanmoo: {
+		randomBattleMoves: ["closecombat", "dragondance", "firepunch", "stealthrock", "stoneedge", "suckerpunch", "swordsdance", "taunt"],
+		randomDoubleBattleMoves: ["closecombat", "protect", "stoneedge", "suckerpunch", "swordsdance", "taunt"],
+		tier: "NU",
+		doublesTier: "(DUU)",
+	},
 	wishiwashi: {
 		tier: "NU",
 		doublesTier: "(DUU)",

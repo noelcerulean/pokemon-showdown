@@ -5929,6 +5929,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
+	lycanmoo: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	wishiwashi: {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
