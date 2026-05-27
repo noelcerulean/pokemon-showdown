@@ -2262,6 +2262,11 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "(NU)",
 		doublesTier: "DUU",
 	},
+	unfezantf: {
+		randomBattleMoves: ["hypnosis", "pluck", "return", "roost", "tailwind", "uturn"],
+		tier: "(NU)",
+		doublesTier: "DUU",
+	},
 	blitzle: {
 		tier: "LC",
 	},

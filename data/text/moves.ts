@@ -4865,8 +4865,15 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	primalburst: {
 		name: "Primal Burst",
-		desc: "This move's type depends on the user's held orb. If the user is holding Red Orb or Cerise Orb, it is Fire-type. If the user is holding Blue Orb or Teal Orb, it is Water-type. If the user is holding a Craftsman Orb, it is Normal-type. Otherwise, it is Normal-Type.",
+		desc: "This move's type depends on the user's held orb. If the user is holding Red Orb or Cerise Orb, it is Fire-type. If the user is holding Blue Orb or Teal Orb, it is Water-type. If the user is holding an Emerald Orb, it is Flying-type. If the user is holding a Craftsman Orb, it is Normal-type. Otherwise, it is Normal-Type.",
 		shortDesc: "Type varies based on the user's held orb.",
+	},
+	primalinstinct: {
+		name: "Primal Instincct",
+		desc: "This move calls another move for use based on the pokemon's forme. Unfezant-Primal will use Dragon Ascent, Unfezant will use Slipstream, and all other pokemon will use Splash.",
+		shortDesc: "Attack depends on Pokemon's forme.",
+
+		move: "Primal Instinct turned into [MOVE]!",
 	},
 	prismaticlaser: {
 		name: "Prismatic Laser",
@@ -6553,6 +6560,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		gen2: {
 			desc: "One of the user's known moves, besides this move, is selected for use at random. Fails if the user is not asleep. The selected move does not have PP deducted from it, and can currently have 0 PP. This move cannot select Bide, Sleep Talk, or any two-turn move.",
 		},
+	},
+	slipstream: {
+		name: "Slipstream",
+		desc: "For every consecutive turn that this move is used by at least one Pokemon, this move's power is multiplied by the number of turns to pass, but not more than 5.",
+		shortDesc: "Power increases when used on consecutive turns.",
 	},
 	sludge: {
 		name: "Sludge",

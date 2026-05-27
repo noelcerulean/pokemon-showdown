@@ -3738,6 +3738,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2.5,
 		num: 46,
 	},
+	primalgale: {
+		onModifyMove(move, pokemon) {
+			if (move.type === 'Flying') {
+				this.field.clearTerrain();
+				this.field.clearDiffusion();
+				this.field.clearWeather();
+			}
+		},
+		name: "Primal Gale",
+		rating: 4,
+		num: -595,
+	},
 	primaltide: {
 		onModifyMove(move) {
 			if (move?.type === 'Water') {

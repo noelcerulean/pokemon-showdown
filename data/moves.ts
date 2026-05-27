@@ -14968,11 +14968,41 @@ export const Moves: {[moveid: string]: MoveData} = {
 				move.type = 'Water';
 			} else if (pokemon.hasItem('tealorb')) {
 				move.type = 'Water';
+			} else if (pokemon.hasItem('emeraldorb')) {
+				move.type = 'Flying';
 			} else if (pokemon.hasItem('craftsmanorb')) {
 				move.type = 'Normal';
 			} else {
 				move.type = 'Normal';
 			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+		contestType: "Beautiful",
+	},
+	primalinstinct: {
+		num: -619,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Primal Instinct",
+		pp: 10,
+		priority: 0,
+		flags: {},
+		onTryHit(target, source, move) {
+			if (source.species.id === 'unfezantprimal') {
+				this.actions.useMove('dragonascent', source, target);
+			} else if (source.species.id === 'unfezantfprimal') {
+				this.actions.useMove('dragonascent', source, target);
+			} else if (source.species.id === 'unfezant') {
+				this.actions.useMove('slipstream', source, target);
+			} else if (source.species.id === 'unfezantf') {
+				this.actions.useMove('slipstream', source, target);
+			} else {
+				this.actions.useMove('splash', source, target);
+			}
+			return null;
 		},
 		secondary: null,
 		target: "normal",
@@ -20939,6 +20969,43 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Normal",
 		zMove: {effect: 'crit2'},
 		contestType: "Cute",
+	},
+	slipstream: {
+		num: -618,
+		accuracy: 100,
+		basePower: 40,
+		basePowerCallback() {
+			if (this.field.pseudoWeather.slipstream) {
+				return 40 * this.field.pseudoWeather.slipstream.multiplier;
+			}
+			return 40;
+		},
+		category: "Physical",
+		name: "Slipstream",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, distance: 1, contact: 1},
+		onTry() {
+			this.field.addPseudoWeather('slipstream');
+		},
+		condition: {
+			duration: 2,
+			onFieldStart() {
+				this.effectState.multiplier = 1;
+			},
+			onFieldRestart() {
+				if (this.effectState.duration !== 2) {
+					this.effectState.duration = 2;
+					if (this.effectState.multiplier < 5) {
+						this.effectState.multiplier++;
+					}
+				}
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Flying",
+		contestType: "Beautiful",
 	},
 	sludge: {
 		num: 124,

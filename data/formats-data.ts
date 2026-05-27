@@ -4218,6 +4218,22 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	unfezantprimal: {
+		randomBattleMoves: ["bravebird", "defog", "nightslash", "roost", "uturn"],
+		randomBattleLevel: 84,
+		randomDoubleBattleMoves: ["bravebird", "nightslash", "quickattack", "roost", "tailwind", "uturn"],
+		randomDoubleBattleLevel: 86,
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
+	unfezantfprimal: {
+		randomBattleMoves: ["bravebird", "defog", "nightslash", "roost", "uturn"],
+		randomBattleLevel: 84,
+		randomDoubleBattleMoves: ["bravebird", "nightslash", "quickattack", "roost", "tailwind", "uturn"],
+		randomDoubleBattleLevel: 86,
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
 	blitzle: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -5492,6 +5508,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "LC",
 	},
 	barbaracle: {
+		randomBattleMoves: ["crosschop", "earthquake", "liquidation", "shellsmash", "stoneedge"],
+		randomBattleLevel: 80,
+		randomDoubleBattleMoves: ["liquidation", "protect", "rockslide", "shellsmash", "superpower"],
+		randomDoubleBattleLevel: 84,
+		tier: "NUBL",
+		doublesTier: "(DUU)",
+	},
+	barbaraclearmored: {
 		randomBattleMoves: ["crosschop", "earthquake", "liquidation", "shellsmash", "stoneedge"],
 		randomBattleLevel: 80,
 		randomDoubleBattleMoves: ["liquidation", "protect", "rockslide", "shellsmash", "superpower"],

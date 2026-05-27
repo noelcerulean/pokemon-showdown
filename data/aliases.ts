@@ -1392,6 +1392,8 @@ export const Aliases: {[alias: string]: string} = {
 	tobi: "Tobishimi",
 	pregi: "Regigigas-Primal",
 	pregigigas: "Regigigas-Primal",
+	punfezant: "Unfezant-Primal",
+	punfezantf: "Unfezant-F-Primal",
 	babylugia: "Lugito",
 	babylu: "Lugito",
 	xd002: "Lugito",
@@ -1461,6 +1463,8 @@ export const Aliases: {[alias: string]: string} = {
 	mewtwoa: "Mewtwo-Armored",
 	mindwiper: "Mewtwo-Armored",
 	m2a: "Mewtwo-Armored",
+	barba: "Barbaracle-Armored",
+	barbaracleaa: "Barbaracle-Armored",
 
 	// shortened deltas
 	cranidosd: "Cranidos-Delta",

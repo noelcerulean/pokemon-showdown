@@ -3919,15 +3919,27 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	unfezant: {
-		randomBattleMoves: ["hypnosis", "nightslash", "pluck", "return", "roost", "swordsdance", "tailwind", "uturn", "wish"],
+		randomBattleMoves: ["bravebird", "hypnosis", "nightslash", "return", "roost", "swordsdance", "tailwind", "uturn", "wish"],
 		randomDoubleBattleMoves: ["bravebird", "nightslash", "pluck", "protect", "return", "roost", "tailwind", "taunt", "uturn"],
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
 	unfezantf: {
-		randomBattleMoves: ["bravebird", "hypnosis", "nightslash", "pluck", "return", "roost", "swordsdance", "tailwind", "toxic", "uturn", "wish"],
+		randomBattleMoves: ["bravebird", "hypnosis", "nightslash", "return", "roost", "swordsdance", "tailwind", "toxic", "uturn", "wish"],
 		randomDoubleBattleMoves: ["bravebird", "nightslash", "pluck", "protect", "return", "roost", "tailwind", "taunt", "uturn"],
 		tier: "NU",
+		doublesTier: "(DUU)",
+	},
+	unfezantprimal: {
+		randomBattleMoves: ["hypnosis", "nightslash", "primalinstinct", "return", "roost", "swordsdance", "tailwind", "uturn", "wish"],
+		randomDoubleBattleMoves: ["bravebird", "nightslash", "primalinstinct", "pluck", "protect", "return", "roost", "tailwind", "taunt", "uturn"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
+	unfezantfprimal: {
+		randomBattleMoves: ["hypnosis", "nightslash", "primalinstinct","return", "roost", "swordsdance", "tailwind", "toxic", "uturn", "wish"],
+		randomDoubleBattleMoves: ["bravebird", "nightslash", "primalinstinct", "pluck", "protect", "return", "roost", "tailwind", "taunt", "uturn"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	blitzle: {
@@ -5083,6 +5095,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["earthquake", "liquidation", "lowkick", "shellsmash", "stoneedge"],
 		randomDoubleBattleMoves: ["crosschop", "liquidation", "protect", "rockslide", "shellsmash"],
 		tier: "NUBL",
+		doublesTier: "(DUU)",
+	},
+	barbaraclearmored: {
+		randomBattleMoves: ["calmmind", "earthquake", "icebeam", "moonblast", "prehistoricpulse"],
+		randomDoubleBattleMoves: ["dazzlinggleam", "icebeam", "moonblast", "prehistoricpulse", "protect"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	skrelp: {

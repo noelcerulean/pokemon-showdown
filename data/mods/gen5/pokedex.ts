@@ -482,10 +482,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 85, atk: 100, def: 90, spa: 45, spd: 90, spe: 80},
 	},
-	unfezant: {
-		inherit: true,
-		baseStats: {hp: 80, atk: 105, def: 80, spa: 65, spd: 55, spe: 93},
-	},
 	gigalith: {
 		inherit: true,
 		baseStats: {hp: 85, atk: 135, def: 130, spa: 60, spd: 70, spe: 25},

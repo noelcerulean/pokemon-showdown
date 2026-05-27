@@ -106,6 +106,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Banettite",
 		desc: "If held by a Banette, this item allows it to Mega Evolve in battle.",
 	},
+	barbaraclearmor: {
+		name: "Barbaracle Armor",
+		desc: "Armor developed by DoReMi for Barbaracle to enhance its battle capabilities.",
+		shortDesc: "Armor for Barbaracle created by DoReMi.",
+	},
 	beastball: {
 		name: "Beast Ball",
 		desc: "A special Poke Ball designed to catch Ultra Beasts.",
@@ -281,7 +286,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	chinglingarmor: {
 		name: "Chingling Armor",
 		desc: "Armor developed by DoReMi for Chingling to enhance its battle capabilities.",
-		shortDesc: "Attach to Chingling-Armored forme (not base forme!!!) in the teambuilder.",
+		shortDesc: "Armor for Chingling created by DoReMi.",
 	},
 	chippedpot: {
 		name: "Chipped Pot",
@@ -434,7 +439,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	dragonairarmor: {
 		name: "Dragonair Armor",
 		desc: "Armor developed by DoReMi for Dragonair to enhance its battle capabilities.",
-		shortDesc: "Attach to Dragonair-Armored forme (not base forme!!!) in the teambuilder.",
+		shortDesc: "Armor for Dragonair created by DoReMi.",
 	},
 	dragonfang: {
 		name: "Dragon Fang",
@@ -556,6 +561,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	electrodiumz: {
 		name: "Electrodium Z",
 		desc: "If held by an Electrode with Power Outage, it can use Boisterous Blackout.",
+	},
+	emeraldorb: {
+		name: "Emerald Orb",
+		desc: "If held by an Unfezant, this item triggers its Primal Reversion in battle.",
 	},
 	energypowder: {
 		name: "Energy Powder",
@@ -824,7 +833,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	goomyarmor: {
 		name: "Goomy Armor",
 		desc: "Armor developed by DoReMi for Goomy to enhance its battle capabilities.",
-		shortDesc: "Attach to Goomy-Armored forme (not base forme!!!) in the teambuilder.",
+		shortDesc: "Armor for Goomy created by DoReMi.",
 	},
 	gorochuniumz: {
 		name: "Gorochunium Z",
@@ -833,7 +842,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	granbullarmor: {
 		name: "Granbull Armor",
 		desc: "Armor developed by DoReMi for Granbull to enhance its battle capabilities.",
-		shortDesc: "Attach to Granbull-Armored forme (not base forme!!!) in the teambuilder.",
+		shortDesc: "Armor for Granbull created by DoReMi.",
 	},
 	grassgem: {
 		name: "Grass Gem",
@@ -999,7 +1008,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	ignajaraarmor: {
 		name: "Ignajara Armor",
 		desc: "Armor developed by DoReMi for Ignajara to enhance its battle capabilities.",
-		shortDesc: "Attach to Ignajara-Armored forme (not base forme!!!) in the teambuilder.",
+		shortDesc: "Armor for Ignajara created by DoReMi.",
 	},
 	inciniumz: {
 		name: "Incinium Z",
@@ -1023,7 +1032,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	ivysaurarmor: {
 		name: "Ivysaur Armor",
 		desc: "Armor developed by DoReMi for Ivysaur to enhance its battle capabilities.",
-		shortDesc: "Attach to Ivysaur-Armored forme (not base forme!!!) in the teambuilder.",
+		shortDesc: "Armor for Ivysaur created by DoReMi.",
 	},
 	jabocaberry: {
 		name: "Jaboca Berry",
@@ -1061,7 +1070,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	kirliaarmor: {
 		name: "Kirlia Armor",
 		desc: "Armor developed by DoReMi for Kirlia to enhance its battle capabilities.",
-		shortDesc: "Attach to Kirlia-Armored forme (not base forme!!!) in the teambuilder.",
+		shortDesc: "Armor for Kirlia created by DoReMi.",
 	},
 	knightsedge: {
 		name: "Knight's Edge",
@@ -1221,7 +1230,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	magcargoarmor: {
 		name: "Magcargo Armor",
 		desc: "Armor developed by DoReMi for Magcargo to enhance its battle capabilities.",
-		shortDesc: "Attach to Magcargo-Armored forme (not base forme!!!) in the teambuilder.",
+		shortDesc: "Armor for Magcargo created by DoReMi.",
 	},
 	magmarizer: {
 		name: "Magmarizer",
@@ -1435,7 +1444,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	nobunagaarmor: {
 		name: "Nobunaga Armor",
 		desc: "Nobunaga's armor, adjusted by Agnes.",
-		shortDesc: "Attach to Nobunaga (not base forme!!!) in the teambuilder.",
+		shortDesc: "Armor for Nobunaga created by DoReMi.",
 	},
 	nomelberry: {
 		name: "Nomel Berry",
@@ -1461,7 +1470,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	nuzleafarmor: {
 		name: "Nuzleaf Armor",
 		desc: "Armor developed by DoReMi for Nuzleaf to enhance its battle capabilities.",
-		shortDesc: "Attach to Nuzleaf-Armored forme (not base forme!!!) in the teambuilder.",
+		shortDesc: "Armor for Nuzleaf created by DoReMi.",
 	},
 	occaberry: {
 		name: "Occa Berry",
@@ -1630,7 +1639,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	primeapearmor: {
 		name: "Primeape Armor",
 		desc: "Armor developed by DoReMi for Primeape to enhance its battle capabilities.",
-		shortDesc: "Attach to Primeape-Armored forme (not base forme!!!) in the teambuilder.",
+		shortDesc: "Armor for Primeape created by DoReMi.",
 	},
 	prismscale: {
 		name: "Prism Scale",
@@ -1800,7 +1809,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	roseradearmor: {
 		name: "Roserade Armor",
 		desc: "Armor developed by DoReMi for Roserade to enhance its battle capabilities.",
-		shortDesc: "Attach to Roserade-Armored forme (not base forme!!!) in the teambuilder.",
+		shortDesc: "Armor for Roserade created by DoReMi.",
 	},
 	rowapberry: {
 		name: "Rowap Berry",
@@ -2049,7 +2058,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	steeneedeltaarmor: {
 		name: "Steenee-Delta Armor",
 		desc: "Armor developed by DoReMi for Steenee-Delta to enhance its battle capabilities.",
-		shortDesc: "Attach to Steenee-Delta-Armored forme (not base forme!!!) in the teambuilder.",
+		shortDesc: "Armor for Steenee-Delta created by DoReMi.",
 	},
 	stick: {
 		name: "Stick",
@@ -2126,7 +2135,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	teddiursaarmor: {
 		name: "Teddiursa Armor",
 		desc: "Armor developed by DoReMi for Teddiursa to enhance its battle capabilities.",
-		shortDesc: "Attach to Teddiursa-Armored forme (not base forme!!!) in the teambuilder.",
+		shortDesc: "Armor for Teddiursa created by DoReMi.",
 	},
 	terrainextender: {
 		name: "Terrain Extender",
@@ -2175,7 +2184,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	toxicroakarmor: {
 		name: "Toxicroak Armor",
 		desc: "Armor developed by DoReMi for Toxicroak to enhance its battle capabilities.",
-		shortDesc: "Attach to Toxicroak-Armored forme (not base forme!!!) in the teambuilder.",
+		shortDesc: "Armor for Toxicroak created by DoReMi.",
 	},
 	trevenantite: {
 		name: "Trevenantite",
@@ -2595,7 +2604,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	typhlosionarmor: {
 		name: "Typhlosion Armor",
 		desc: "Armor developed by DoReMi for Typhlosion to enhance its battle capabilities.",
-		shortDesc: "Attach to Typhlosion-Armored forme (not base forme!!!) in the teambuilder.",
+		shortDesc: "Armor for Typhlosion created by DoReMi.",
 	},
 	tyranitarite: {
 		name: "Tyranitarite",
@@ -2628,7 +2637,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	vespiquenarmor: {
 		name: "Vespiquen Armor",
 		desc: "Armor developed by DoReMi for Vespiquen to enhance its battle capabilities.",
-		shortDesc: "Attach to Vespiquen-Armored forme (not base forme!!!) in the teambuilder.",
+		shortDesc: "Armor for Vespiquen created by DoReMi.",
 	},
 	viropathiumz: {
 		name: "Viropathium Z",

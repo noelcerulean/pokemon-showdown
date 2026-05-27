@@ -1325,6 +1325,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		start: "  [POKEMON] is exerting its pressure!",
 	},
+	primalgale: {
+		name: "Primal Gale",
+		shortDesc: "This pokemon's Flying-type attacks remove weather/terrain/diffusion from the field.",
+	},
 	primaltide: {
 		name: "Primal Tide",
 		shortDesc: "This Pokemon's water moves will always hit.",

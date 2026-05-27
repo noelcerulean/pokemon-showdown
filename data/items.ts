@@ -443,6 +443,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	barbaraclearmor: {
+		name: "Barbaracle Armor",
+		spritenum: 839,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Barbaracle-Armored') return false;
+			return true;
+		},
+		itemUser: ["Barbaracle-Armored"],
+		num: -602,
+		gen: 7,
+	},
 	beastball: {
 		name: "Beast Ball",
 		spritenum: 661,
@@ -1989,6 +2000,30 @@ export const Items: {[itemid: string]: ItemData} = {
 		zMoveFrom: "Power Outage",
 		itemUser: ["Electrode", "Electrode-Beach"],
 		num: -507,
+		gen: 7,
+		isNonstandard: "Past",
+	},
+	emeraldorb: {
+		name: "Emerald Orb",
+		spritenum: 838,
+		onSwitchIn(pokemon) {
+			if (pokemon.isActive && pokemon.baseSpecies.name === 'Unfezant' || pokemon.isActive && pokemon.baseSpecies.name === 'Unfezant-F') {
+				this.queue.insertChoice({choice: 'runPrimal', pokemon: pokemon});
+			}
+		},
+		onPrimal(pokemon) {
+			if (pokemon.baseSpecies.name === 'Unfezant') {
+				pokemon.formeChange('Unfezant-Primal', this.effect, true);
+			} else if (pokemon.baseSpecies.name === 'Unfezant-F') {
+				pokemon.formeChange('Unfezant-F-Primal', this.effect, true);
+			}
+		},
+		onTakeItem(item, source) {
+			if (source.baseSpecies.baseSpecies === 'Unfezant' || source.baseSpecies.baseSpecies === 'Unfezant-F') return false;
+			return true;
+		},
+		itemUser: ["Unfezant", "Unfezant-F"],
+		num: -601,
 		gen: 7,
 		isNonstandard: "Past",
 	},

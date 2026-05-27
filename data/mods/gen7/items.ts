@@ -208,6 +208,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	emeraldorb: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	fairiumz: {
 		inherit: true,
 		isNonstandard: null,

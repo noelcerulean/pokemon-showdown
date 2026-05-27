@@ -2606,8 +2606,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	unfezant: {
 		name: "Unfezant",
 	},
+	unfezantprimal: {
+		name: "Unfezant-Primal",
+	},
 	unfezantf: {
 		name: "Unfezant-F",
+	},
+	unfezantfprimal: {
+		name: "Unfezant-F-Primal",
 	},
 	blitzle: {
 		name: "Blitzle",
@@ -3373,6 +3379,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	barbaracle: {
 		name: "Barbaracle",
+	},
+	barbaraclearmored: {
+		name: "Barbaracle-Armored",
 	},
 	skrelp: {
 		name: "Skrelp",
