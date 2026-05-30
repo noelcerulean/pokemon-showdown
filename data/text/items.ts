@@ -1753,6 +1753,12 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Repeat Ball",
 		desc: "A Poke Ball that works well on Pokemon species that were previously caught.",
 	},
+	rexperberry: {
+		name: "Rexper Berry",
+		desc: "At the end of an active turn, +1 Atk/SpA & gains Curse. Single use.",
+
+		activate: "  [POKEMON] turned up the heat by eating its Rexper Berry!",
+	},
 	ribbonsweet: {
 		name: "Ribbon Sweet",
 		desc: "Evolves Milcery into Alcremie when held and spun around.",

@@ -27,8 +27,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Musleeb",
 		evoLevel: 16,
 		eggGroups: ["Grass", "Field"],
-		cosmeticFormes: ["Lilaquin-Vera", "Lilaquin-Dribble", "Lilaquin-Hexa", "Lilaquin-Dolly", "Lilaquin-Hana", "Lilaquin-Seeds", "Lilaquin-Bloom", "Lilaquin-Mianju", "Lilaquin-KIM", "Lilaquin-Meemo"],
-		formeOrder: ["Lilaquin", "Lilaquin-Vera", "Lilaquin-Dribble", "Lilaquin-Hexa", "Lilaquin-Dolly", "Lilaquin-Hana", "Lilaquin-Seeds", "Lilaquin-Bloom", "Lilaquin-Mianju", "Lilaquin-KIM", "Lilaquin-Meemo"],
+		cosmeticFormes: ["Lilaquin-Vera", "Lilaquin-Dribble", "Lilaquin-Hexa", "Lilaquin-Dolly", "Lilaquin-Hana", "Lilaquin-Seeds", "Lilaquin-Bloom", "Lilaquin-Mianju", "Lilaquin-KIM", "Lilaquin-Meemo", "Lilaquin-Vera-Necklace"],
+		formeOrder: ["Lilaquin", "Lilaquin-Vera", "Lilaquin-Dribble", "Lilaquin-Hexa", "Lilaquin-Dolly", "Lilaquin-Hana", "Lilaquin-Seeds", "Lilaquin-Bloom", "Lilaquin-Mianju", "Lilaquin-KIM", "Lilaquin-Meemo", "Lilaquin-Vera-Necklace"],
 	},
 	sindle: {
 		num: -593,
@@ -2651,8 +2651,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 26,
 		eggGroups: ["Human-Like"],
 		otherFormes: ["Hypno-Mega"],
-		cosmeticFormes: ["Hypno-Happyjamas", "Hypno-Tuxedo", "Hypno-Beach", "Hypno-Superhypno", "Hypno-Happy", "Hypno-Happyf"],
-		formeOrder: ["Hypno", "Hypno-Happyjamas", "Hypno-Tuxedo", "Hypno-Beach", "Hypno-Superhypno", "Hypno-Happy", "Hypno-Happyf", "Hypno-Mega"],
+		cosmeticFormes: ["Hypno-Happyjamas", "Hypno-Tuxedo", "Hypno-Beach", "Hypno-Superhypno", "Hypno-Happy", "Hypno-Happyf", "Hypno-Sandman"],
+		formeOrder: ["Hypno", "Hypno-Happyjamas", "Hypno-Tuxedo", "Hypno-Beach", "Hypno-Superhypno", "Hypno-Happy", "Hypno-Happyf", "Hypno-Mega", "Hypno-Sandman"],
 	},
 	hypnomega: {
 		num: 97,
@@ -7432,8 +7432,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Purple",
 		eggGroups: ["Human-Like"],
 		otherFormes: ["Sableye-Mega"],
-		cosmeticFormes: ["Sableye-Freeza", "Sableye-Freezatail"],
-		formeOrder: ["Sableye", "Sableye-Freeza", "Sableye-Freezatail", "Sableye-Mega"],
+		cosmeticFormes: ["Sableye-Freeza", "Sableye-Freezatail", "Sableye-Oracle"],
+		formeOrder: ["Sableye", "Sableye-Freeza", "Sableye-Freezatail", "Sableye-Oracle", "Sableye-Mega"],
 	},
 	sableyemega: {
 		num: 302,
@@ -9093,7 +9093,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 45,
 		eggGroups: ["Mineral"],
 		otherFormes: ["Metagross-Mega"],
-		formeOrder: ["Metagross", "Metagross-Mega"],
+		cosmeticFormes: ["Metagross-TNT"],
+		formeOrder: ["Metagross", "Metagross-TNT", "Metagross-Mega"],
 	},
 	metagrossmega: {
 		num: 376,
@@ -9966,6 +9967,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Combee",
 		evoLevel: 21,
 		eggGroups: ["Bug"],
+		cosmeticFormes: ["Vespiquen-Armored-Rhinestone"],
+		formeOrder: ["Vespiquen-Armored", "Vespiquen-Armored-Rhinestone"],
 		requiredItem: "Vespiquen Armor",
 	},
 	beeheavepsychic: {

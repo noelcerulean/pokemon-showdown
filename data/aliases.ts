@@ -718,6 +718,10 @@ export const Aliases: {[alias: string]: string} = {
 	phantumpwithered: "Phantump",
 	trevenantwithered: "Trevenant",
 	chandeluresolstice: "Chandelure",
+	sableyeoracle: "Sableye",
+	metagrosstnt: "Metagross",
+	vespiquenarmoredrhinestone: "Vespiquen-Armored",
+	hypnosandman: "Hypno",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",
@@ -768,6 +772,7 @@ export const Aliases: {[alias: string]: string} = {
 	lilaquinbloom: "Lilaquin",
 	lilaquinmianju: "Lilaquin",
 	lilaquinkim: "Lilaquin",
+	lilaquinveranecklace: "Lilaquin",
 	lilaquinmeemo: "Lilaquin",
 	vaicoralighthouse: "Vaicora",
 	vaicoragroveil: "Vaicora",

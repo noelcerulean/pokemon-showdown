@@ -5958,6 +5958,30 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 3,
 		isPokeball: true,
 	},
+	rexperberry: {
+		name: "Rexper Berry",
+		spritenum: 840,
+		isBerry: true,
+		naturalGift: {
+			basePower: 110,
+			type: "Ghost",
+		},
+		onResidualOrder: 5,
+		onResidualSubOrder: 4,
+		onResidual(pokemon) {
+			if (pokemon.activeTurns) {
+				if (!pokemon.hp) return;
+				pokemon.eatItem();
+			}
+		},
+		onEat(pokemon) {
+			this.add('-activate', pokemon, 'item: Rexper Berry', '[consumed]');
+			this.boost({atk: 1, spa: 1});
+			this.add('-start', pokemon, 'Curse', '[silent]');
+		},
+		num: -603,
+		gen: 7,
+	},
 	ribbonsweet: {
 		name: "Ribbon Sweet",
 		spritenum: 710,

@@ -2182,13 +2182,6 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "The target restores 1/2 of its maximum HP, rounded half up. If the terrain is Grassy Terrain, the target instead restores 2/3 of its maximum HP, rounded half down.",
 		shortDesc: "Heals the target by 50% of its max HP.",
 	},
-	florapower: {
-		name: "Flora Power",
-		desc: "This move calls another move for use based on the pokemon's forme. Cherrim-Primal will use Precipice Blades, Cherrim-Sunshine will use Fiery Blossom, Cherrim and Cherubi will use Biddy Bud, and all other pokemon will use Splash.",
-		shortDesc: "Attack depends on Cherrim's forme.",
-
-		move: "Flora Power turned into [MOVE]!",
-	},
 	flowershield: {
 		name: "Flower Shield",
 		desc: "Raises the Defense of all active Grass-type Pokemon by 1 stage. Fails if there are no active Grass-type Pokemon.",
@@ -4870,7 +4863,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	primalinstinct: {
 		name: "Primal Instincct",
-		desc: "This move calls another move for use based on the pokemon's forme. Unfezant-Primal will use Dragon Ascent, Unfezant will use Slipstream, and all other pokemon will use Splash.",
+		desc: "This move calls another move for use based on the pokemon's forme. Unfezant-Primal will use Dragon Ascent, Unfezant/Tranquil/Pidove will use Slipstream, Cherrim-Primal will use Precipice Blades, Cherrim-Sunshine will use Fiery Blossom, Cherrim/Cherubi will use Biddy Bud, Phione-Primal will use Origin Pulse, Phione will use Bubble Prison, and all other pokemon will use Splash.",
 		shortDesc: "Attack depends on Pokemon's forme.",
 
 		move: "Primal Instinct turned into [MOVE]!",

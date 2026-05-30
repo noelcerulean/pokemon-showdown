@@ -1433,7 +1433,7 @@
 				"ability": ["Flower Gift"],
 				"evs": {"atk": 252, "def": 4, "spd": 252},
 				"nature": "Jolly",
-				"moves": [["Petal Blizzard"], ["Primal Burst"], ["Flora Power"], ["Swords Dance", "Morning Sun", "Play Rough"]]
+				"moves": [["Petal Blizzard"], ["Primal Burst"], ["Primal Instinct"], ["Swords Dance", "Morning Sun", "Play Rough"]]
 			}]
 		},
 		"claydol": {
