@@ -12799,10 +12799,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoItem: "Sun Stone",
 		eggGroups: ["Grass"],
 	},
-	basculin: {
+	basculinred: {
 		num: 550,
-		name: "Basculin",
-		baseForme: "Red-Striped",
+		name: "Basculin-Red",
 		types: ["Water"],
 		baseStats: {hp: 75, atk: 112, def: 70, spa: 90, spd: 60, spe: 98},
 		abilities: {0: "Reckless", 1: "Adaptability", H: "Mold Breaker"},
@@ -12810,14 +12809,10 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 18,
 		color: "Green",
 		eggGroups: ["Water 2"],
-		otherFormes: ["Basculin-Blue-Striped"],
-		formeOrder: ["Basculin", "Basculin-Blue-Striped"],
 	},
-	basculinbluestriped: {
+	basculinblue: {
 		num: 550,
-		name: "Basculin-Blue-Striped",
-		baseSpecies: "Basculin",
-		forme: "Blue-Striped",
+		name: "Basculin-Blue",
 		types: ["Water"],
 		baseStats: {hp: 70, atk: 112, def: 65, spa: 85, spd: 55, spe: 118},
 		abilities: {0: "Rock Head", 1: "Strong Jaw", H: "Mold Breaker"},
@@ -12825,8 +12820,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 18,
 		color: "Green",
 		eggGroups: ["Water 2"],
-		cosmeticFormes: ["Basculin-Blue-Striped-Hero"],
-		formeOrder: ["Basculin-Blue-Striped", "Basculin-Blue-Striped-Hero"],
+		cosmeticFormes: ["Basculin-Blue-Hero"],
+		formeOrder: ["Basculin-Blue", "Basculin-Blue-Hero"],
 	},
 	sandile: {
 		num: 551,

@@ -2720,11 +2720,11 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	lilligant: {
 		name: "Lilligant",
 	},
-	basculin: {
-		name: "Basculin",
+	basculinblue: {
+		name: "Basculin-Blue",
 	},
-	basculinbluestriped: {
-		name: "Basculin-Blue-Striped",
+	basculinred: {
+		name: "Basculin-Red",
 	},
 	sandile: {
 		name: "Sandile",

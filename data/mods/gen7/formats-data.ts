@@ -987,14 +987,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	seaking: {
-		randomBattleMoves: ["aquajet", "drillrun", "icebeam", "knockoff", "megahorn", "scald", "swordsdance", "waterfall"],
+		randomBattleMoves: ["aquajet", "drillrun", "icebeam", "knockoff", "megahorn", "swordsdance", "tidaltackle", "waterfall"],
 		randomDoubleBattleMoves: ["drillrun", "icywind", "knockoff", "megahorn", "protect", "waterfall"],
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
 	despotide: {
-		randomBattleMoves: ["aquajet", "drillrun", "icebeam", "knockoff", "megahorn", "redrush", "savagehorn", "swordsdance"],
-		randomDoubleBattleMoves: ["drillrun", "icywind", "knockoff", "megahorn", "protect", "redrush", "savagehorn"],
+		randomBattleMoves: ["aquajet", "drillrun", "icebeam", "knockoff", "megahorn", "savagehorn", "swordsdance", "tidaltackle"],
+		randomDoubleBattleMoves: ["drillrun", "icywind", "knockoff", "megahorn", "protect", "savagehorn", "tidaltackle"],
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},
@@ -4096,15 +4096,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
-	basculin: {
-		randomBattleMoves: ["aquajet", "crunch", "headsmash", "liquidation", "superpower"],
-		randomDoubleBattleMoves: ["aquajet", "icebeam", "liquidation", "muddywater", "protect", "superpower"],
+	basculinblue: {
+		randomBattleMoves: ["aquabites", "aquajet", "crunch", "headsmash", "liquidation", "superpower"],
+		randomDoubleBattleMoves: ["aquabites", "aquajet", "icebeam", "liquidation", "muddywater", "protect", "superpower"],
 		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
-	basculinbluestriped: {
-		randomBattleMoves: ["aquajet", "crunch", "headsmash", "icefang", "liquidation", "psychicfangs", "superpower"],
-		randomDoubleBattleMoves: ["aquajet", "icebeam", "liquidation", "muddywater", "protect", "superpower"],
+	basculinred: {
+		randomBattleMoves: ["aquajet", "crunch", "headsmash", "icefang", "liquidation", "psychicfangs", "superpower", "tidaltackle"],
+		randomDoubleBattleMoves: ["aquajet", "icebeam", "liquidation", "muddywater", "protect", "superpower", "tidaltackle"],
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},

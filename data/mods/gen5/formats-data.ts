@@ -2378,12 +2378,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "DUU",
 	},
-	basculin: {
+	basculinblue: {
 		randomBattleMoves: ["aquajet", "crunch", "superpower", "waterfall", "zenheadbutt"],
 		tier: "NU",
 		doublesTier: "DUU",
 	},
-	basculinbluestriped: {
+	basculinred: {
 		randomBattleMoves: ["aquajet", "crunch", "superpower", "waterfall", "zenheadbutt"],
 		tier: "NU",
 		doublesTier: "DUU",

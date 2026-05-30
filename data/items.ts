@@ -1511,7 +1511,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		spritenum: 813,
 		onTakeItem: false,
 		zMove: "Ruinous Riptide",
-		zMoveFrom: "Red Rush",
+		zMoveFrom: "Tidal Tackle",
 		itemUser: ["Despotide", "Despotide-Despopride"],
 		num: -576,
 		gen: 7,

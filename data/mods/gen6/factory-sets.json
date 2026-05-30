@@ -6997,11 +6997,11 @@
         }
       ]
     },
-    "basculin": {
+    "basculinred": {
       "flags": {},
       "sets": [
         {
-          "species": "Basculin",
+          "species": "Basculin-Red",
           "item": "Choice Band",
           "ability": "Adaptability",
           "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252},
@@ -7009,7 +7009,7 @@
           "moves": [["Waterfall"], ["Aqua Jet"], ["Zen Headbutt"], ["Superpower"]]
         },
         {
-          "species": "Basculin",
+          "species": "Basculin-Red",
           "item": "Splash Plate",
           "ability": "Adaptability",
           "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252},
@@ -10018,11 +10018,11 @@
         }
       ]
     },
-    "basculin": {
+    "basculinred": {
       "flags": {},
       "sets": [
         {
-          "species": "Basculin",
+          "species": "Basculin-Red",
           "item": "Choice Band",
           "ability": "Adaptability",
           "evs": {"hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252},
@@ -10030,7 +10030,7 @@
           "moves": [["Waterfall", "Aqua Tail"], ["Aqua Jet"], ["Crunch", "Zen Headbutt"], ["Double-Edge"]]
         },
         {
-          "species": "Basculin",
+          "species": "Basculin-Red",
           "item": "Life Orb",
           "ability": "Adaptability",
           "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252},
@@ -10039,7 +10039,7 @@
           "moves": [["Waterfall"], ["Aqua Jet"], ["Ice Beam"], ["Superpower"]]
         },
         {
-          "species": "Basculin",
+          "species": "Basculin-Red",
           "item": "Life Orb",
           "ability": "Adaptability",
           "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 4, "spd": 0, "spe": 252},

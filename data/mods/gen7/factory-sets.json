@@ -5724,22 +5724,22 @@
 				"moves": [["Shell Smash"], ["Liquidation"], ["Stone Edge"], ["Low Kick", "Earthquake"]]
 			}]
 		},
-		"basculinbluestriped": {
+		"basculinblue": {
 			"flags": {},
 			"sets": [{
-				"species": "Basculin-Blue-Striped",
+				"species": "Basculin-Blue",
 				"item": ["Choice Scarf"],
 				"ability": ["Strong Jaw"],
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": ["Jolly"],
-				"moves": [["Stripe Style"], ["U-turn"], ["Ice Fang", "Psychic Fangs"], ["Head Smash", "Crunch"]]
+				"moves": [["Aqua Bites"], ["U-turn"], ["Ice Fang", "Psychic Fangs"], ["Head Smash", "Crunch"]]
 			}, {
-				"species": "Basculin-Blue-Striped",
+				"species": "Basculin-Blue",
 				"item": ["Choice Band"],
 				"ability": ["Strong Jaw"],
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": ["Jolly"],
-				"moves": [["Stripe Style"], ["U-turn"], ["Ice Fang", "Psychic Fangs"], ["Head Smash", "Crunch", "Aqua Jet"]]
+				"moves": [["Aqua Bites"], ["U-turn"], ["Ice Fang", "Psychic Fangs"], ["Head Smash", "Crunch", "Aqua Jet"]]
 			}]
 		},
 		"bellossom": {

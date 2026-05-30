@@ -3010,13 +3010,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
-	basculin: {
+	basculinblue: {
 		randomBattleMoves: ["aquajet", "crunch", "superpower", "waterfall", "zenheadbutt"],
 		randomDoubleBattleMoves: ["aquajet", "crunch", "doubleedge", "protect", "superpower", "waterfall"],
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
-	basculinbluestriped: {
+	basculinred: {
 		randomBattleMoves: ["aquajet", "crunch", "superpower", "waterfall", "zenheadbutt"],
 		randomDoubleBattleMoves: ["aquajet", "crunch", "doubleedge", "protect", "superpower", "waterfall"],
 		tier: "PU",

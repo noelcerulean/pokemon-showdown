@@ -406,7 +406,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	despotidiumz: {
 		name: "Despotidium Z",
-		desc: "If held by a Despotide with Red Rush, it can use Ruinous Riptide.",
+		desc: "If held by a Despotide with Tidal Tackle, it can use Ruinous Riptide.",
 	},
 	destinyknot: {
 		name: "Destiny Knot",

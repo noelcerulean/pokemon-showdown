@@ -554,8 +554,8 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Bloom Doom",
 		shortDesc: "Power is equal to the base move's Z-Power.",
 	},
-	bluebites: {
-		name: "Blue Bites",
+	aquabites: {
+		name: "Aqua Bites",
 		desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
 		shortDesc: "Hits 2 times in one turn.",
 	},
@@ -5239,8 +5239,8 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		addItem: "  [POKEMON] found one [ITEM]!",
 	},
-	redrush: {
-		name: "Red Rush",
+	tidaltackle: {
+		name: "Tidal Tackle",
 		desc: "If the target lost HP, the user takes recoil damage equal to 1/3 the HP lost by the target, rounded half up, but not less than 1 HP.",
 		shortDesc: "Has 1/3 recoil.",
 	},
@@ -7033,13 +7033,6 @@ export const MovesText: {[k: string]: MoveText} = {
 		gen2: {
 			shortDesc: "Lowers the target's Speed by 1.",
 		},
-	},
-	stripestyle: {
-		name: "Stripe Style",
-		desc: "This move calls another move for use based on the pokemon's forme. Basculin-Red Striped will use Red Rush, Basculin-Blue Striped will use Blue Bites, and all other pokemon will use Splash.",
-		shortDesc: "Attack depends on Basculin's forme.",
-
-		move: "Stripe Style turned into [MOVE]!",
 	},
 	struggle: {
 		name: "Struggle",

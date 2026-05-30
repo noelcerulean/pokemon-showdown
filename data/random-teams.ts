@@ -2096,7 +2096,7 @@ export class RandomTeams {
 			case 'Arceus': case 'Silvally':
 				if (this.randomChance(8, 9) && !isMonotype) continue;
 				break;
-			case 'Aegislash': case 'Basculin': case 'Gourgeist': case 'Meloetta':
+			case 'Aegislash': case 'Gourgeist': case 'Meloetta':
 				if (this.randomChance(1, 2)) continue;
 				break;
 			case 'Greninja':
