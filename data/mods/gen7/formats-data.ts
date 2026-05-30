@@ -3364,13 +3364,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	cherrimsunshine: {
-		randomBattleMoves: ["growth", "hiddenpowerice", "playrough", "solarblade", "sunnyday", "weatherball"],
-		randomDoubleBattleMoves: ["gigadrain", "helpinghand", "solarbeam", "sunnyday", "weatherball"],
+		randomBattleMoves: ["fieryblossom", "growth", "hiddenpowerice", "playrough", "solarblade", "sunnyday", "weatherball"],
+		randomDoubleBattleMoves: ["fieryblossom", "gigadrain", "helpinghand", "solarbeam", "sunnyday", "weatherball"],
 		tier: "Illegal",
 	},
 	cherrimprimal: {
-		randomBattleMoves: ["florapower", "petalblizzard", "playrough", "primalburst", "swordsdance"],
-		randomDoubleBattleMoves: ["florapower", "petalblizzard", "playrough", "primalburst", "protect"],
+		randomBattleMoves: ["petalblizzard", "playrough", "primalburst", "primalinstinct", "swordsdance"],
+		randomDoubleBattleMoves: ["petalblizzard", "playrough", "primalburst", "primalinstinct", "protect"],
 		tier: "Uber",
 		doublesTier: "DOU",
 	},
