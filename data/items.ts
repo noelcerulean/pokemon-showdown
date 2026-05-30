@@ -5976,8 +5976,10 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		onEat(pokemon) {
 			this.add('-activate', pokemon, 'item: Rexper Berry', '[consumed]');
-			this.boost({atk: 1, spa: 1});
+			if (pokemon.volatiles['curse']) return;
+			pokemon.volatiles[pokemon.battle.dex.conditions.get('curse').id] = {id: pokemon.battle.dex.conditions.get('curse').id};
 			this.add('-start', pokemon, 'Curse', '[silent]');
+			this.boost({atk: 1, spa: 1});
 		},
 		num: -603,
 		gen: 7,
