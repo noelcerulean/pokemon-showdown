@@ -2144,6 +2144,44 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: -596,
 		gen: 5,
 	},
+	glowingstone: {
+		name: "Glowing Stone",
+		spritenum: 841,
+		fling: {
+			basePower: 40,
+		},
+		onModifyAtkPriority: 2,
+		onModifyAtk(atk, pokemon) {
+			if (pokemon.baseSpecies.num === -592 || pokemon.baseSpecies.num === -593 || pokemon.baseSpecies.num === -594 || pokemon.baseSpecies.num === -604 || pokemon.baseSpecies.num === -605 || pokemon.baseSpecies.num === -606) {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 2,
+		onModifySpA(spa, pokemon) {
+			if (pokemon.baseSpecies.num === -592 || pokemon.baseSpecies.num === -593 || pokemon.baseSpecies.num === -594 || pokemon.baseSpecies.num === -604 || pokemon.baseSpecies.num === -605 || pokemon.baseSpecies.num === -606) {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifyDefPriority: 2,
+		onModifyDef(def, pokemon) {
+			if (pokemon.baseSpecies.num === -592 || pokemon.baseSpecies.num === -593 || pokemon.baseSpecies.num === -594 || pokemon.baseSpecies.num === -604 || pokemon.baseSpecies.num === -605 || pokemon.baseSpecies.num === -606) {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpDPriority: 2,
+		onModifySpD(spd, pokemon) {
+			if (pokemon.baseSpecies.num === -592 || pokemon.baseSpecies.num === -593 || pokemon.baseSpecies.num === -594 || pokemon.baseSpecies.num === -604 || pokemon.baseSpecies.num === -605 || pokemon.baseSpecies.num === -606) {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpe(spe, pokemon) {
+			if (pokemon.baseSpecies.num === -592 || pokemon.baseSpecies.num === -593 || pokemon.baseSpecies.num === -594) {
+				return this.chainModify(2);
+			}
+		},
+		num: -604,
+		gen: 5,
+	},
 	expertbelt: {
 		name: "Expert Belt",
 		spritenum: 132,

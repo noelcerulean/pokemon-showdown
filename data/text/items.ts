@@ -592,6 +592,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Fused Evite",
 		desc: "If holder is an NFE-only fusion, its Atk/Def/SpA/SpD are 1.5x.",
 	},
+	glowingstone: {
+		name: "Glowing Stone",
+		desc: "Starter pokkemon: 1.5x Atk/Def/SpA/SpD. Unevolved also get Speed x2.",
+	},
 	expertbelt: {
 		name: "Expert Belt",
 		desc: "Holder's attacks that are super effective against the target do 1.2x damage.",

@@ -6302,34 +6302,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Beautiful",
 	},
-	florapower: {
-		num: -551,
-		accuracy: true,
-		basePower: 0,
-		category: "Status",
-		name: "Flora Power",
-		pp: 10,
-		priority: 0,
-		flags: {},
-		onTryHit(target, source, move) {
-			if (source.species.id === 'cherrimprimal') {
-				this.actions.useMove('precipiceblades', source, target);
-			} else if (source.species.id === 'cherrimsunshine') {
-				this.actions.useMove('fieryblossom', source, target);
-			} else if (source.species.id === 'cherrim') {
-				this.actions.useMove('biddybud', source, target);
-			} else if (source.species.id === 'cherubi') {
-				this.actions.useMove('biddybud', source, target);
-			} else {
-				this.actions.useMove('splash', source, target);
-			}
-			return null;
-		},
-		secondary: null,
-		target: "normal",
-		type: "Normal",
-		contestType: "Cute",
-	},
 	flowershield: {
 		num: 579,
 		accuracy: true,
@@ -12436,7 +12408,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {},
 		noMetronome: [
-			"After You", "Apple Acid", "Assist", "Astral Barrage", "Aura Wheel", "Baneful Bunker", "Beak Blast", "Behemoth Bash", "Behemoth Blade", "Belch", "Bestow", "Body Press", "Branch Poke", "Breaking Swipe", "Celebrate", "Chatter", "Clangorous Soul", "Copycat", "Counter", "Covet", "Crafty Shield", "Decorate", "Destiny Bond", "Detect", "Diamond Storm", "Double Iron Bash", "Dragon Ascent", "Dragon Energy", "Drum Beating", "Dynamax Cannon", "Endure", "Eternabeam", "False Surrender", "Feint", "Fiery Wrath", "Fleur Cannon", "Flora Power", "Focus Punch", "Follow Me", "Freeze Shock", "Freezing Glare", "Glacial Lance", "Grav Apple", "Helping Hand", "Hold Hands", "Hyperspace Fury", "Hyperspace Hole", "Ice Burn", "Instruct", "Jungle Healing", "King's Shield", "Life Dew", "Light of Ruin", "Mat Block", "Me First", "Meteor Assault", "Metronome", "Mimic", "Mind Blown", "Mirror Coat", "Mirror Move", "Nature Power", "Obstruct", "Origin Pulse", "Overdrive", "Photon Geyser", "Plasma Fists", "Precipice Blades", "Protect", "Pyro Ball", "Quash", "Quick Guard", "Rage Powder", "Regroup", "Assemble", "Relic Song", "Secret Sword", "Shadow Evoboost", "Shadow Bath", "Shadow Glow", "Shadow Flame", "Shadow Glaze", "Shadow Moss", "Shadow Sprites", "Shadow Destruction", "Shadow Devastation", "Shadow Bandit", "Shadow Bolt", "Shadow Break", "Shadow Cascade", "Shadow Chant", "Shadow Charge", "Shadow Chill", "Shadow Cinder", "Shadow Combust", "Shadow Dance", "Shadow Devour", "Shadow Dissolve", "Shadow Doomsday", "Shadow Down", "Shadow End", "Shadow Fire", "Shadow Fission", "Shadow Fog", "Shadow Frost", "Shadow Fumes", "Shadow Fusion", "Shadow Hatred", "Shadow Haunting", "Shadow Hold", "Shadow Hubris", "Shadow Hurl", "Shadow Intensify", "Shadow Jolt", "Shadow Meld", "Shadow Mist", "Shadow Moon", "Shadow Panic", "Shadow Phoenix", "Shadow Pivot", "Shadow Punish", "Shadow Rage", "Shadow Rainbow", "Shadow Rave", "Shadow Reset", "Shadow Roulette", "Shadow Rush", "Shadow Scheme", "Shadow Seed", "Shadow Shackle", "Shadow Shatter", "Shadow Shed", "Shadow Shuffle", "Shadow Siren", "Shadow Slasher", "Shadow Snipe", "Shadow Sorcery", "Shadow Spell", "Shadow Sprint", "Shadow Stare", "Shadow Storm", "Shadow Sun", "Shadow Threat", "Shadow Titan", "Shadow Trance", "Shadow Vampirism", "Shadow Velocity", "Shadow Vengeance", "Shadow Wall", "Shadow Wave", "Shadow Wheel", "Shadow Whip", "Shadow Wreckage", "Shadow Ambush", "Shadow Anvil", "Shadow Beam", "Shadow Blast", "Shadow Bluff", "Shadow Centrifuge", "Shadow Chew", "Shadow Chop", "Shadow Dart", "Shadow Desolation", "Shadow Detonation", "Shadow Duplicity", "Shadow Firestorm", "Shadow Fountain", "Shadow Frenzy", "Shadow Gale", "Shadow Gluttony", "Shadow Half", "Shadow Inversion", "Shadow Laser", "Shadow Mirage", "Shadow Monsoon", "Shadow Press", "Shadow Recruit", "Shadow Requital", "Shadow Robbery", "Shadow Signal", "Shadow Sky", "Shadow Slander", "Shadow Spikes", "Shadow Squeeze", "Shadow Stratoslam", "Shadow Swap", "Shadow Transform", "Shadow Trip", "Shadow Venom", "Shadow Volley", "Shadow Whiteout", "Shadow Wyrm", "Shell Trap", "Sketch", "Sleep Talk", "Snap Trap", "Snarl", "Snatch", "Snore", "Spectral Thief", "Spiky Shield", "Spirit Break", "Spotlight", "Steam Eruption", "Steel Beam", "Strange Steam", "Struggle", "Surging Strikes", "Switcheroo", "Techno Blast", "Thief", "Thousand Arrows", "Thousand Waves", "Thunder Cage", "Thunderous Kick", "Transform", "Trick", "V-create", "Wicked Blow", "Wide Guard",
+			"After You", "Apple Acid", "Assist", "Astral Barrage", "Aura Wheel", "Baneful Bunker", "Beak Blast", "Behemoth Bash", "Behemoth Blade", "Belch", "Bestow", "Body Press", "Branch Poke", "Breaking Swipe", "Celebrate", "Chatter", "Clangorous Soul", "Copycat", "Counter", "Covet", "Crafty Shield", "Decorate", "Destiny Bond", "Detect", "Diamond Storm", "Double Iron Bash", "Dragon Ascent", "Dragon Energy", "Drum Beating", "Dynamax Cannon", "Endure", "Eternabeam", "False Surrender", "Feint", "Fiery Wrath", "Fleur Cannon", "Focus Punch", "Follow Me", "Freeze Shock", "Freezing Glare", "Glacial Lance", "Grav Apple", "Helping Hand", "Hold Hands", "Hyperspace Fury", "Hyperspace Hole", "Ice Burn", "Instruct", "Jungle Healing", "King's Shield", "Life Dew", "Light of Ruin", "Mat Block", "Me First", "Meteor Assault", "Metronome", "Mimic", "Mind Blown", "Mirror Coat", "Mirror Move", "Nature Power", "Obstruct", "Origin Pulse", "Overdrive", "Photon Geyser", "Plasma Fists", "Precipice Blades", "Protect", "Pyro Ball", "Quash", "Quick Guard", "Rage Powder", "Regroup", "Assemble", "Relic Song", "Secret Sword", "Shadow Evoboost", "Shadow Bath", "Shadow Glow", "Shadow Flame", "Shadow Glaze", "Shadow Moss", "Shadow Sprites", "Shadow Destruction", "Shadow Devastation", "Shadow Bandit", "Shadow Bolt", "Shadow Break", "Shadow Cascade", "Shadow Chant", "Shadow Charge", "Shadow Chill", "Shadow Cinder", "Shadow Combust", "Shadow Dance", "Shadow Devour", "Shadow Dissolve", "Shadow Doomsday", "Shadow Down", "Shadow End", "Shadow Fire", "Shadow Fission", "Shadow Fog", "Shadow Frost", "Shadow Fumes", "Shadow Fusion", "Shadow Hatred", "Shadow Haunting", "Shadow Hold", "Shadow Hubris", "Shadow Hurl", "Shadow Intensify", "Shadow Jolt", "Shadow Meld", "Shadow Mist", "Shadow Moon", "Shadow Panic", "Shadow Phoenix", "Shadow Pivot", "Shadow Punish", "Shadow Rage", "Shadow Rainbow", "Shadow Rave", "Shadow Reset", "Shadow Roulette", "Shadow Rush", "Shadow Scheme", "Shadow Seed", "Shadow Shackle", "Shadow Shatter", "Shadow Shed", "Shadow Shuffle", "Shadow Siren", "Shadow Slasher", "Shadow Snipe", "Shadow Sorcery", "Shadow Spell", "Shadow Sprint", "Shadow Stare", "Shadow Storm", "Shadow Sun", "Shadow Threat", "Shadow Titan", "Shadow Trance", "Shadow Vampirism", "Shadow Velocity", "Shadow Vengeance", "Shadow Wall", "Shadow Wave", "Shadow Wheel", "Shadow Whip", "Shadow Wreckage", "Shadow Ambush", "Shadow Anvil", "Shadow Beam", "Shadow Blast", "Shadow Bluff", "Shadow Centrifuge", "Shadow Chew", "Shadow Chop", "Shadow Dart", "Shadow Desolation", "Shadow Detonation", "Shadow Duplicity", "Shadow Firestorm", "Shadow Fountain", "Shadow Frenzy", "Shadow Gale", "Shadow Gluttony", "Shadow Half", "Shadow Inversion", "Shadow Laser", "Shadow Mirage", "Shadow Monsoon", "Shadow Press", "Shadow Recruit", "Shadow Requital", "Shadow Robbery", "Shadow Signal", "Shadow Sky", "Shadow Slander", "Shadow Spikes", "Shadow Squeeze", "Shadow Stratoslam", "Shadow Swap", "Shadow Transform", "Shadow Trip", "Shadow Venom", "Shadow Volley", "Shadow Whiteout", "Shadow Wyrm", "Shell Trap", "Sketch", "Sleep Talk", "Snap Trap", "Snarl", "Snatch", "Snore", "Spectral Thief", "Spiky Shield", "Spirit Break", "Spotlight", "Steam Eruption", "Steel Beam", "Strange Steam", "Struggle", "Surging Strikes", "Switcheroo", "Techno Blast", "Thief", "Thousand Arrows", "Thousand Waves", "Thunder Cage", "Thunderous Kick", "Transform", "Trick", "V-create", "Wicked Blow", "Wide Guard",
 		],
 		onHit(target, source, effect) {
 			const moves: MoveData[] = [];
