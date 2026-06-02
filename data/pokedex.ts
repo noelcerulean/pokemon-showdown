@@ -1043,8 +1043,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoItem: "Thunder Stone",
 		eggGroups: ["Field", "Fairy"],
 		otherFormes: ["Raichu-Alola"],
-		cosmeticFormes: ["Raichu-Jooj", "Raichu-ElectroBall"],
-		formeOrder: ["Raichu", "Raichu-Alola", "Raichu-Jooj", "Raichu-ElectroBall"],
+		cosmeticFormes: ["Raichu-Jooj", "Raichu-ElectroBall", "Raichu-Reina"],
+		formeOrder: ["Raichu", "Raichu-Alola", "Raichu-Jooj", "Raichu-ElectroBall", "Raichu-Reina"],
 	},
 	raichumalachite: {
 		num: 26,
@@ -4867,8 +4867,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "trade",
 		evoItem: "King's Rock",
 		eggGroups: ["Water 1"],
-		cosmeticFormes: ["Politoed-Kermit"],
-		formeOrder: ["Politoed", "Politoed-Kermit"],
+		cosmeticFormes: ["Politoed-Kermit", "Politoed-Jade"],
+		formeOrder: ["Politoed", "Politoed-Kermit", "Politoed-Jade"],
 	},
 	hoppip: {
 		num: 187,
@@ -5614,8 +5614,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Snubbull",
 		evoLevel: 23,
 		eggGroups: ["Field", "Fairy"],
-		cosmeticFormes: ["Granbull-Revenant"],
-		formeOrder: ["Granbull", "Granbull-Revenant"],
+		cosmeticFormes: ["Granbull-Revenant", "Granbull-Apparition", "Granbull-Zoey"],
+		formeOrder: ["Granbull", "Granbull-Revenant", "Granbull-Apparition", "Granbull-Zoey"],
 	},
 	granbullarmored: {
 		num: 210,
@@ -11995,8 +11995,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 17,
 		evos: ["Samurott"],
 		eggGroups: ["Field"],
-		cosmeticFormes: ["Dewott-Scalchops", "Dewott-Lime"],
-		formeOrder: ["Dewott", "Dewott-Scalchops", "Dewott-Lime"],
+		cosmeticFormes: ["Dewott-Scalchops", "Dewott-Lime", "Dewott-Chitine"],
+		formeOrder: ["Dewott", "Dewott-Scalchops", "Dewott-Lime", "Dewott-Chitine"],
 	},
 	dewottlutryla: {
 		num: 502,
@@ -13475,6 +13475,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Ducklett",
 		evoLevel: 35,
 		eggGroups: ["Water 1", "Flying"],
+		cosmeticFormes: ["Swanna-Emma"],
+		formeOrder: ["Swanna", "Swanna-Emma"],
 	},
 	vanillite: {
 		num: 582,
@@ -14560,8 +14562,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Zweilous",
 		evoLevel: 64,
 		eggGroups: ["Dragon"],
-		cosmeticFormes: ["Hydreigon-Jack"],
-		formeOrder: ["Hydreigon", "Hydreigon-Jack"],
+		cosmeticFormes: ["Hydreigon-Jack", "Hydreigon-Yearning"],
+		formeOrder: ["Hydreigon", "Hydreigon-Jack", "Hydreigon-Yearning"],
 	},
 	terrofunfaizer: {
 		num: -590,
@@ -14576,8 +14578,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 64,
 		evoCondition: "with a Dark-type in the party",
 		eggGroups: ["Dragon"],
-		cosmeticFormes: ["Terrofu\u0308nfaizer-Malefic"],
-		formeOrder: ["Terrofu\u0308nfaizer", "Terrofu\u0308nfaizer-Malefic"],
+		cosmeticFormes: ["Terrofu\u0308nfaizer-Malefic", "Terrofu\u0308nfaizer-Longing"],
+		formeOrder: ["Terrofu\u0308nfaizer", "Terrofu\u0308nfaizer-Malefic", "Terrofu\u0308nfaizer-Longing"],
 	},
 	larvesta: {
 		num: 636,
@@ -17472,6 +17474,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "levelMove",
 		evoMove: "Stomp",
 		eggGroups: ["Grass"],
+		cosmeticFormes: ["Tsareena-Aubrey"],
+		formeOrder: ["Tsareena", "Tsareena-Aubrey"],
 	},
 	tsareenadelta: {
 		num: 763,
@@ -18033,6 +18037,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 19,
 		color: "Pink",
 		eggGroups: ["Water 2"],
+		cosmeticFormes: ["Bruxish-Valentina"],
+		formeOrder: ["Bruxish", "Bruxish-Valentina"],
 	},
 	drild: {
 		num: -559,

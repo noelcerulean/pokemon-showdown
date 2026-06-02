@@ -192,7 +192,7 @@ const avatarTable = new Set([
 	'federico',
 	'fennel2',
 	'fiances',
-	'fina', 'fina-and-coco', 'fina-2', 'fina-and-crandon',
+	'fina', 'fina-and-coco', 'fina-2', 'fina-and-crandon', 'fina-girlboss',
 	'firebreather-gen2',
 	'firebreather',
 	'fisherman-gen1', 'fisherman-gen1rb', 'fisherman-gen2jp', 'fisherman-gen3', 'fisherman-gen3rs', 'fisherman-gen4', 'fisherman',
