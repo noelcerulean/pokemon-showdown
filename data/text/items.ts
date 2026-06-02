@@ -594,7 +594,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	glowingstone: {
 		name: "Glowing Stone",
-		desc: "Starter pokkemon: 1.5x Atk/Def/SpA/SpD. Unevolved also get Speed x2.",
+		desc: "Starter pokemon: 1.5x Atk/Def/SpA/SpD. Unevolved also get Speed x2.",
 	},
 	expertbelt: {
 		name: "Expert Belt",

@@ -1341,6 +1341,7 @@ export const Aliases: {[alias: string]: string} = {
 	trodefnf: "Electrode-FnF",
 	nobu: "Granbull-Nobunaga",
 	nobunaga: "Granbull-Nobunaga",
+	inyminy: "Unown-Iny Miny",
 	sammy: "Samsarula",
 	samsa: "Samsarula",
 	dachi: "Robodachi",

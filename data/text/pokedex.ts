@@ -1118,6 +1118,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	unown: {
 		name: "Unown",
 	},
+	unowninyminy: {
+		name: "Unown-Iny Miny",
+	},
 	allnown: {
 		name: "Allnown",
 	},

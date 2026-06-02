@@ -1783,6 +1783,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	unown: {
 		tier: "LC",
 	},
+	unowninyminy: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	allnown: {
 		randomBattleMoves: ["earthpower", "hiddenpowerfighting", "psychic", "shellsmash"],
 		tier: "OU",

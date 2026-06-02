@@ -2106,6 +2106,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	unowninyminy: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	allnown: {
 		isNonstandard: "Past",
 		tier: "Illegal",

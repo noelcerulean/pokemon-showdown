@@ -5358,6 +5358,17 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		cosmeticFormes: ["Unown-B", "Unown-C", "Unown-D", "Unown-E", "Unown-F", "Unown-G", "Unown-H", "Unown-I", "Unown-I-Hearts", "Unown-I-Hero", "Unown-J", "Unown-K", "Unown-L", "Unown-M", "Unown-N", "Unown-O", "Unown-P", "Unown-Q", "Unown-R", "Unown-S", "Unown-T", "Unown-U", "Unown-V", "Unown-W", "Unown-X", "Unown-Y", "Unown-Z", "Unown-Exclamation", "Unown-Question"],
 		formeOrder: ["Unown", "Unown-B", "Unown-C", "Unown-D", "Unown-E", "Unown-F", "Unown-G", "Unown-H", "Unown-I", "Unown-I-Hearts", "Unown-I-Hero", "Unown-J", "Unown-K", "Unown-L", "Unown-M", "Unown-N", "Unown-O", "Unown-P", "Unown-Q", "Unown-R", "Unown-S", "Unown-T", "Unown-U", "Unown-V", "Unown-W", "Unown-X", "Unown-Y", "Unown-Z", "Unown-Exclamation", "Unown-Question"],
 	},
+	unowninyminy: {
+		num: 201,
+		name: "Unown-Iny Miny",
+		types: ["Psychic"],
+		baseStats: {hp: 65, atk: 155, def: 85, spa: 155, spd: 85, spe: 75},
+		abilities: {0: "Levitate", 1: "Illuminate"},
+		heightm: 1.5,
+		weightkg: 50,
+		color: "Blue",
+		eggGroups: ["Undiscovered"],
+	},
 	allnown: {
 		num: -523,
 		name: "Allnown",
