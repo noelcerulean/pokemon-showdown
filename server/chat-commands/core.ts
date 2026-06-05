@@ -91,6 +91,7 @@ const avatarTable = new Set([
 	'brock-gen1', 'brock-gen1rb', 'brock-gen2', 'brock-gen3', 'brock',
 	'brooke', 'brooke-2', 'brooke-villain',
 	'bruno-gen1', 'bruno-gen1rb', 'bruno-gen2', 'bruno-gen3', 'bruno',
+	'bun',
 	'brycenman',
 	'brycen',
 	'buck',
