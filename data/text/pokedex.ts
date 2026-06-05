@@ -5,6 +5,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	lilaquin: {
 		name: "Lilaquin",
 	},
+	madnexa: {
+		name: "Madne\u0301xa",
+	},
 	sindle: {
 		name: "Sindle",
 	},

@@ -5,6 +5,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	lilaquin: {
 		tier: "NFE",
 	},
+	madnexa: {
+		randomBattleMoves: ["hornleech", "knockoff", "spikes", "swordsdance", "synthesis"],
+		randomDoubleBattleMoves: ["hornleech", "knockoff", "protect", "swordsdance", "synthesis"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	sindle: {
 		tier: "LC",
 	},

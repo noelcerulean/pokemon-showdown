@@ -5,6 +5,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	lilaquin: {
 		tier: "NFE",
 	},
+	madnexa: {
+		tier: "RU",
+	},
 	sindle: {
 		tier: "LC",
 	},
