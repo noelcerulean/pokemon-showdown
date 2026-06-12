@@ -19,6 +19,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Adrenaline Orb",
 		desc: "Raises holder's Speed by 1 stage if it gets affected by Intimidate. Single use.",
 	},
+	aegislashiumz: {
+		name: "Aegislashium Z",
+		desc: "If held by an Aegislash with Shadow Sneak, it can use Netherworld Nexus.",
+	},
 	aerodactylite: {
 		name: "Aerodactylite",
 		desc: "If held by an Aerodactyl, this item allows it to Mega Evolve in battle.",
@@ -2706,6 +2710,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	widelens: {
 		name: "Wide Lens",
 		desc: "The accuracy of attacks by the holder is 1.1x.",
+	},
+	wigglite: {
+		name: "Wigglite",
+		desc: "If held by a Wigglytuff, this item allows it to Mega Evolve in battle.",
 	},
 	wikiberry: {
 		name: "Wiki Berry",

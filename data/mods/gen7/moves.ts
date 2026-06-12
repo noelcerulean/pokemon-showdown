@@ -654,6 +654,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	netherworldnexus: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	neverendingnightmare: {
 		inherit: true,
 		isNonstandard: null,

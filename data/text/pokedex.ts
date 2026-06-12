@@ -284,6 +284,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	wigglytuff: {
 		name: "Wigglytuff",
 	},
+	wigglytuffmega: {
+		name: "Wigglytuff-Mega",
+	},
 	zubat: {
 		name: "Zubat",
 	},
@@ -2236,6 +2239,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	spiritomb: {
 		name: "Spiritomb",
+	},
+	spiritombmortimer: {
+		name: "Spiritomb-Mortimer",
 	},
 	spiritombmega: {
 		name: "Spiritomb-Mega",

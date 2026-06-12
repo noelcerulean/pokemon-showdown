@@ -516,6 +516,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	wigglytuffmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	zubat: {
 		tier: "LC",
 	},
@@ -3752,6 +3756,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	spiritombmortimer: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	spiritombmega: {
 		isNonstandard: "Past",

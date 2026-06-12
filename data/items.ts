@@ -92,6 +92,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 846,
 		gen: 7,
 	},
+	aegislashiumz: {
+		name: "Aegislashium Z",
+		spritenum: 843,
+		onTakeItem: false,
+		zMove: "Netherworld Nexus",
+		zMoveFrom: "Shadow Sneak",
+		itemUser: ["Aegislash", "Aegislash-Zato"],
+		num: -606,
+		gen: 7,
+		isNonstandard: "Past",
+	},
 	aerodactylite: {
 		name: "Aerodactylite",
 		spritenum: 577,
@@ -243,7 +254,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Stoked Sparksurfer",
 		zMoveFrom: "Thunderbolt",
-		itemUser: ["Raichu-Alola", "Raichu-Alola-Suntan"],
+		itemUser: ["Raichu-Alola", "Raichu-Alola-Suntan", "Raichu-Alola-Surfer"],
 		num: 803,
 		gen: 7,
 		isNonstandard: "Past",
@@ -3046,7 +3057,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Frenzied Overgrowth",
 		zMoveFrom: "Frenzy Plant",
-		itemUser: ["Venusaur", "Venusaur-Sylvanos", "Venustoise", "Meganium", "Meganium-Aniseed", "Sceptile", "Sceptile-Moscho", "Sceptile-White", "Torterra", "Serperior", "Chesnaught", "Decidueye", "Decidueye-Apollo", "Decidueye-Apollo-Toga", "Decidueye-Apollo-Pride", "Rillaboom"],
+		itemUser: ["Venusaur", "Venusaur-Sylvanos", "Venusaur-Magnolia", "Venustoise", "Meganium", "Meganium-Aniseed", "Sceptile", "Sceptile-Moscho", "Sceptile-White", "Torterra", "Serperior", "Chesnaught", "Decidueye", "Decidueye-Apollo", "Decidueye-Apollo-Toga", "Decidueye-Apollo-Pride", "Rillaboom"],
 		num: -582,
 		gen: 7,
 		isNonstandard: "Past",
@@ -4034,7 +4045,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			}
 			return true;
 		},
-		itemUser: ["Pikachu"],
+		itemUser: ["Pikachu", "Pikachu-Jooj"],
 		num: 236,
 		gen: 2,
 	},
@@ -4239,7 +4250,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (source.baseSpecies.name === 'Magcargo-Armored') return false;
 			return true;
 		},
-		itemUser: ["Magcargo-Armored"],
+		itemUser: ["Magcargo-Armored", "Magcargo-Armored-Hotrod"],
 		num: -524,
 		gen: 7,
 	},
@@ -4303,7 +4314,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			}
 			return true;
 		},
-		itemUser: ["Probopass"],
+		itemUser: ["Probopass", "Probopass-Moyai"],
 		num: -522,
 		gen: 7,
 	},
@@ -5298,7 +5309,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Catastropika",
 		zMoveFrom: "Volt Tackle",
-		itemUser: ["Pikachu"],
+		itemUser: ["Pikachu", "Pikachu-Jooj"],
 		num: 794,
 		gen: 7,
 		isNonstandard: "Past",
@@ -5309,7 +5320,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "10,000,000 Volt Thunderbolt",
 		zMoveFrom: "Thunderbolt",
-		itemUser: ["Pikachu-Original", "Pikachu-Hoenn", "Pikachu-Sinnoh", "Pikachu-Unova", "Pikachu-Kalos", "Pikachu-Alola", "Pikachu-Partner"],
+		itemUser: ["Pikachu-Original", "Pikachu-Hoenn", "Pikachu-Sinnoh", "Pikachu-Unova", "Pikachu-Kalos", "Pikachu-Alola", "Pikachu-Partner", "Pikachu-Jooj"],
 		num: 836,
 		isNonstandard: "Past",
 		gen: 7,
@@ -5632,7 +5643,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (source.baseSpecies.name === 'Primeape-Armored') return false;
 			return true;
 		},
-		itemUser: ["Primeape-Armored"],
+		itemUser: ["Primeape-Armored", "Primeape-Armored-Godfrey"],
 		num: -579,
 		gen: 7,
 	},
@@ -6217,7 +6228,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			}
 			return true;
 		},
-		itemUser: ["Roserade-Armored"],
+		itemUser: ["Roserade-Armored", "Roserade-Armored-Requiem", "Roserade-Armored-Renegade", "Roserade-Armored-Summer"],
 		num: -516,
 		gen: 7,
 	},
@@ -7295,7 +7306,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			}
 			return true;
 		},
-		itemUser: ["Teddiursa-Armored"],
+		itemUser: ["Teddiursa-Armored", "Teddiursa-Armored-Honeyed", "Teddiursa-Armored-Sailor"],
 		num: -539,
 		gen: 7,
 	},
@@ -8503,7 +8514,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (source.baseSpecies.name === 'Vespiquen-Armored') return false;
 			return true;
 		},
-		itemUser: ["Vespiquen-Armored"],
+		itemUser: ["Vespiquen-Armored", "Vespiquen-Armored-Rhinestone"],
 		num: -502,
 		gen: 7,
 	},
@@ -8719,6 +8730,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 265,
 		gen: 4,
+	},
+	wigglite: {
+		name: "Wigglite",
+		spritenum: 842,
+		megaStone: "Wigglytuff-Mega",
+		megaEvolves: "Wigglytuff",
+		itemUser: ["Wigglytuff"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -605,
+		gen: 6,
+		isNonstandard: "Past",
 	},
 	wikiberry: {
 		name: "Wiki Berry",

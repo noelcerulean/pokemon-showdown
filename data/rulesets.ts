@@ -806,7 +806,7 @@ export const Rulesets: {[k: string]: FormatData} = {
 			'Breakneck Blitz', 'Catastropika', 'Clangorous Soulblaze', 'Continental Crush', 'Corkscrew Crash',
 			'Devastating Drake', 'Extreme Evoboost', 'Genesis Supernova', 'Gigavolt Havoc', 'Guardian of Alola',
 			'Hydro Vortex', 'Inferno Overdrive', 'Let\'s Snuggle Forever', 'Light That Burns the Sky',
-			'Malicious Moonsault', 'Menacing Moonraze Maelstrom', 'Merciless Marinade', 'Never-Ending Nightmare', 'Oceanic Operetta',
+			'Malicious Moonsault', 'Menacing Moonraze Maelstrom', 'Merciless Marinade', 'Netherworld Nexus', 'Never-Ending Nightmare', 'Oceanic Operetta',
 			'Pulverizing Pancake', 'Savage Spin-Out', 'Searing Sunraze Smash', 'Shattered Psyche', 'Sinister Arrow Raid',
 			'Soul-Stealing 7-Star Strike', 'Splintered Stormshards', 'Stoked Sparksurfer', 'Subzero Slammer',
 			'Supersonic Skystrike', 'Tectonic Rage', 'Twinkle Tackle', 'Typhonic Thunderstorm', 'Unified Upsurge', 'Molten Magmawhip',

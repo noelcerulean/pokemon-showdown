@@ -378,6 +378,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DUU",
 	},
+	wigglytuffmega: {
+		randomBattleMoves: ["fireblast", "healbell", "hypervoice", "icebeam", "lightscreen", "moonblast", "moonlight", "protect", "psychic", "reflect", "seismictoss", "stealthrock", "thunderwave", "toxic", "wish"],
+		randomDoubleBattleMoves: ["fireblast", "followme", "lightscreen", "moonblast", "protect", "psychic", "reflect", "stealthrock", "thunderwave"],
+		tier: "Uber",
+		doublesTier: "DUU",
+	},
 	zubat: {
 		tier: "LC",
 	},
@@ -3461,6 +3467,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["foulplay", "icywind", "protect", "shadowsneak", "snarl", "strengthsap", "willowisp"],
 		tier: "OU",
 		doublesTier: "(DUU)",
+	},
+	spiritombmortimer: {
+		tier: "Uber",
+		doublesTier: "DUber",
 	},
 	spiritombmega: {
 		randomBattleMoves: ["calmmind", "darkpulse", "psychic", "pursuit", "rest", "shadowsneak", "sleeptalk", "strengthsap", "suckerpunch", "willowisp"],

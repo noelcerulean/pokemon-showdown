@@ -42,7 +42,7 @@ const avatarTable = new Set([
 	'amir', 'amir-student', 'amir-2', 'amir-and-gus', 'amir-and-antonella',
 	'anabel-gen3',
 	'anastasia',
-	'antonella', 'antonella-student', 'antonella-2', 'antonella-and-gus',
+	'antonella', 'antonella-student', 'antonella-2', 'antonella-and-gus', 'antonella-e4',
 	'archer',
 	'archie-gen3',
 	'argenta',

@@ -7,6 +7,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	aegislashiumz: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	aerodactylite: {
 		inherit: true,
 		isNonstandard: null,
@@ -782,6 +786,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 	wepearberry: {
 		inherit: true,
 		isNonstandard: "Unobtainable",
+	},
+	wigglite: {
+		inherit: true,
+		isNonstandard: null,
 	},
 	wikiberry: {
 		inherit: true,

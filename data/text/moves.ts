@@ -4400,6 +4400,13 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "100% chance to lower the target's Defense by 1. Damage doubles if the target has used Minimize while active.",
 		},
 	},
+	netherworldnexus: {
+		name: "Netherworld Nexus",
+		desc: "+1 Priority. Switches the Mist, Light Screen, Reflect, Spikes, Safeguard, Tailwind, Toxic Spikes, Stealth Rock, Water Pledge, Fire Pledge, Grass Pledge, Sticky Web, Aurora Veil, G-Max Steelsurge, G-Max Cannonade, G-Max Vine Lash, and G-Max Wildfire effects from the user's side to the opposing side and vice versa.",
+		shortDesc: "+1 Priority. Swaps sides' field effects'.",
+
+		activate: "  [POKEMON] swapped the battle effects affecting each side of the field!",
+	},
 	neverendingnightmare: {
 		name: "Never-Ending Nightmare",
 		shortDesc: "Power is equal to the base move's Z-Power.",
