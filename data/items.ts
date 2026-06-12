@@ -98,7 +98,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Netherworld Nexus",
 		zMoveFrom: "Shadow Sneak",
-		itemUser: ["Aegislash", "Aegislash-Zato"],
+		itemUser: ["Aegislash", "Aegislash-Blade", "Aegislash-Zato"],
 		num: -606,
 		gen: 7,
 		isNonstandard: "Past",
