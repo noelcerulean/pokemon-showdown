@@ -781,6 +781,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				return 0;
 			}
 		},
+		isBreakable: true,
 		name: "Cloud Guard",
 		rating: 4.5,
 		num: -535,

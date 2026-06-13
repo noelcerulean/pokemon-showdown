@@ -4403,7 +4403,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	netherworldnexus: {
 		name: "Netherworld Nexus",
 		desc: "+1 Priority. Switches the Mist, Light Screen, Reflect, Spikes, Safeguard, Tailwind, Toxic Spikes, Stealth Rock, Water Pledge, Fire Pledge, Grass Pledge, Sticky Web, Aurora Veil, G-Max Steelsurge, G-Max Cannonade, G-Max Vine Lash, and G-Max Wildfire effects from the user's side to the opposing side and vice versa.",
-		shortDesc: "+1 Priority. Swaps sides' field effects'.",
+		shortDesc: "+1 Priority. Swaps sides' field effects.",
 
 		activate: "  [POKEMON] swapped the battle effects affecting each side of the field!",
 	},
