@@ -831,6 +831,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Raises the user's Special Attack and Special Defense by 1 stage.",
 		shortDesc: "Raises the user's Sp. Atk and Sp. Def by 1.",
 	},
+	caltropcarpetbomb: {
+		name: "Caltrop Carpetbomb",
+		desc: "Sets 3 layers of spikes on the opponent's side after attacking.",
+		shortDesc: "Sets 3 layers of spikes after attacking.",
+	},
 	camouflage: {
 		name: "Camouflage",
 		desc: "The user's type changes based on the battle terrain. Normal type on the regular Wi-Fi terrain, Electric type during Electric Terrain, Fairy type during Misty Terrain, Dragon type during Berserk Terrain, Grass type during Grassy Terrain, and Psychic type during Psychic Terrain. Fails if the user's type cannot be changed or if the user is already purely that type.",
@@ -3385,6 +3390,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Normal moves become Electric type this turn.",
 
 		activate: "  A deluge of ions showers the battlefield!",
+	},
+	ironbullet: {
+		name: "Iron Bullet",
+		desc: "Ignores the target's stat stage changes.",
+		shortDesc: "Ignores the target's stat stage changes.",
 	},
 	irondefense: {
 		name: "Iron Defense",

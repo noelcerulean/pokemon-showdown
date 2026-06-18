@@ -1837,6 +1837,18 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
+	fusallate: {
+		randomBattleMoves: ["ironbullet", "rapidspin", "spikes", "stealthrock", "toxic", "voltswitch"],
+		randomDoubleBattleMoves: ["ironbullet", "protect", "stealthrock", "toxic", "voltswitch"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
+	fusallatedelta: {
+		randomBattleMoves: ["earthquake", "flareblitz", "plasmicspin", "rapidspin", "toxic", "voltswitch"],
+		randomDoubleBattleMoves: ["earthquake", "flareblitz", "plasmicspin", "toxic", "voltswitch"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
 	dunsparce: {
 		tier: "NFE",
 	},
@@ -4067,6 +4079,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["circlethrow", "helpinghand", "icepunch", "knockoff", "protect", "stormthrow"],
 		tier: "PU",
 		doublesTier: "(DUU)",
+	},
+	throhbigred: {
+		tier: "Uber",
+		doublesTier: "DUber",
 	},
 	sawk: {
 		randomBattleMoves: ["bulkup", "closecombat", "earthquake", "icepunch", "kappo", "knockoff", "poisonjab"],

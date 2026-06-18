@@ -1148,6 +1148,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	forretressdelta: {
 		name: "Forretress-Delta",
 	},
+	fusallate: {
+		name: "Fusallate",
+	},
+	fusallatedelta: {
+		name: "Fusallate-Delta",
+	},
 	dunsparce: {
 		name: "Dunsparce",
 	},
@@ -2698,6 +2704,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	throh: {
 		name: "Throh",
+	},
+	throhbigred: {
+		name: "Throh-Big Red",
 	},
 	sawk: {
 		name: "Sawk",

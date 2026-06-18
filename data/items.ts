@@ -6661,6 +6661,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	skarmoriumz: {
+		name: "Skarmorium Z",
+		spritenum: 844,
+		onTakeItem: false,
+		zMove: "Caltrop Carpetbomb",
+		zMoveFrom: "Steel Wing",
+		itemUser: ["Skarmory"],
+		num: -607,
+		gen: 7,
+		isNonstandard: "Past",
+	},
 	skullfossil: {
 		name: "Skull Fossil",
 		spritenum: 449,

@@ -78,6 +78,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 90,
 		pp: 15,
 	},
+	caltropcarpetbomb: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	camouflage: {
 		inherit: true,
 		isNonstandard: null,

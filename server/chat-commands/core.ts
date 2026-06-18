@@ -210,6 +210,7 @@ const avatarTable = new Set([
 	'ghetsis-gen5bw', 'ghetsis',
 	'giovanni-gen1', 'giovanni-gen1rb', 'giovanni-gen3', 'giovanni',
 	'glacia-gen3',
+	'gonzap-e4',
 	'graeme', 'graeme-and-oliver',
 	'greta-gen3',
 	'grimsley',

@@ -10318,6 +10318,21 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {spa: 1}},
 		contestType: "Beautiful",
 	},
+	ironbullet: {
+		num: -620,
+		accuracy: 80,
+		basePower: 110,
+		category: "Physical",
+		name: "Iron Bullet",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, bullet: 1},
+		ignoreDefensive: true,
+		secondary: null,
+		target: "normal",
+		type: "Steel",
+		contestType: "Tough",
+	},
 	irondefense: {
 		num: 334,
 		accuracy: true,
@@ -20490,6 +20505,45 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Ground",
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Beautiful",
+	},
+	caltropcarpetbomb: {
+		num: -621,
+		accuracy: true,
+		basePower: 200,
+		category: "Physical",
+		isNonstandard: "Past",
+		name: "Caltrop Carpetbomb",
+		pp: 1,
+		priority: 0,
+		flags: {nonsky: 1, hazard: 1},
+		sideCondition: 'spikes',
+		condition: {
+			// this is a side condition
+			onSideStart(side) {
+				this.add('-sidestart', side, 'Spikes');
+				this.effectState.layers = 3;
+			},
+			onSideRestart(side) {
+				if (this.effectState.layers >= 3) return false;
+				this.add('-sidestart', side, 'Spikes');
+				this.effectState.layers++;
+			},
+			onSwitchIn(pokemon) {
+				if (!pokemon.isGrounded()) return;
+				if (pokemon.species.name === 'Vespiquen' && pokemon.hasItem('royaljelly')) return;
+				if (pokemon.species.name === 'Vespiquen-Starlight' && pokemon.hasItem('royaljelly')) return;
+				if (pokemon.species.name === 'Vespiquen-Yasqueen' && pokemon.hasItem('royaljelly')) return;
+				if (pokemon.hasItem('heavydutyboots')) return;
+				if (pokemon.hasAbility('wonderguard')) return;
+				const damageAmounts = [0, 3, 4, 6]; // 1/8, 1/6, 1/4
+				this.damage(damageAmounts[this.effectState.layers] * pokemon.maxhp / 24);
+			},
+		},
+		isZ: "skarmoriumz",
+		secondary: null,
+		target: "normal",
+		type: "Steel",
+		contestType: "Tough",
 	},
 	signalbeam: {
 		num: 324,

@@ -2153,6 +2153,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	fusallate: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	fusallatedelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	dunsparce: {
 		tier: "NFE",
 	},
@@ -4366,6 +4374,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 86,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	throhbigred: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	sawk: {
 		randomBattleMoves: ["bulkup", "closecombat", "knockoff", "poisonjab", "stoneedge"],
