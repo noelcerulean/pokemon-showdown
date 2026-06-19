@@ -23248,6 +23248,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			takedown: ["7L1", "7V"],
 			taunt: ["8M", "8V", "7M", "6M", "5M", "4M", "3M"],
 			thrash: ["8L48", "8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
+			tidaltackle: ["7L1"],
 			thunder: ["8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			thunderbolt: ["8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			thunderwave: ["8M", "8V", "7M", "6M", "5M", "4M", "3T"],
