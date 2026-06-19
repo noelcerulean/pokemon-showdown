@@ -20545,7 +20545,15 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 		},
 		isZ: "skarmoriumz",
-		secondary: null,
+		secondary: {
+			chance: 100,
+			self: {
+				boosts: {
+					atk: 1,
+					spe: 1,
+				},
+			},
+		},
 		target: "normal",
 		type: "Steel",
 		contestType: "Tough",
