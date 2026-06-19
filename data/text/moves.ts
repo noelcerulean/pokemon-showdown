@@ -833,7 +833,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	caltropcarpetbomb: {
 		name: "Caltrop Carpetbomb",
-		desc: "Hits three times. After each hit, sets a spike onthe opponent's side of the field and gains +1 Attack and +1 Speed.",
+		desc: "Hits three times. After each hit, sets a spike on the opponent's side of the field and gains +1 Attack and +1 Speed.",
 		shortDesc: "3 hits- each hit sets 1 spike & +1 Atk/Spe.",
 	},
 	camouflage: {
