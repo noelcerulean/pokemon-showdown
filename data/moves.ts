@@ -20526,7 +20526,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onSideRestart(side) {
 				if (this.effectState.layers >= 3) return false;
 				this.add('-sidestart', side, 'Spikes');
+				this.effectState.layers++;
 				this.add('-sidestart', side, 'Spikes');
+				this.effectState.layers++;
 				this.add('-sidestart', side, 'Spikes');
 				this.effectState.layers++;
 			},
