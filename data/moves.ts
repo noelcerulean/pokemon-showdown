@@ -20521,10 +20521,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 			// this is a side condition
 			onSideStart(side) {
 				this.add('-sidestart', side, 'Spikes');
-				this.effectState.layers = 3;
+				this.effectState.layers = 1;
 			},
 			onSideRestart(side) {
 				if (this.effectState.layers >= 3) return false;
+				this.add('-sidestart', side, 'Spikes');
+				this.add('-sidestart', side, 'Spikes');
 				this.add('-sidestart', side, 'Spikes');
 				this.effectState.layers++;
 			},
