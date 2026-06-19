@@ -1961,6 +1961,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Skarmorite",
 		desc: "If held by an Skarmory, this item allows it to Mega Evolve in battle.",
 	},
+	skarmoriumz: {
+		name: "Skarmorium Z",
+		desc: "If held by a Skarmory with Steel Wing, it can use Caltrop Carpetbomb.",
+	},
 	skullfossil: {
 		name: "Skull Fossil",
 		desc: "Can be revived into Cranidos.",
