@@ -20509,13 +20509,14 @@ export const Moves: {[moveid: string]: MoveData} = {
 	caltropcarpetbomb: {
 		num: -621,
 		accuracy: true,
-		basePower: 200,
+		basePower: 75,
 		category: "Physical",
 		isNonstandard: "Past",
 		name: "Caltrop Carpetbomb",
 		pp: 1,
 		priority: 0,
 		flags: {nonsky: 1, hazard: 1},
+		multihit: 3,
 		sideCondition: 'spikes',
 		condition: {
 			// this is a side condition
