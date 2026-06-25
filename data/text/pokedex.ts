@@ -974,6 +974,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	xatu: {
 		name: "Xatu",
 	},
+	xatumega: {
+		name: "Xatu-Mega",
+	},
 	mareep: {
 		name: "Mareep",
 	},
@@ -1375,6 +1378,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	celebi: {
 		name: "Celebi",
+	},
+	celebiamaranth: {
+		name: "Celebi-Amaranth",
 	},
 	celebiwithered: {
 		name: "Celebi-Withered",
@@ -3745,6 +3751,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	tsareenadelta: {
 		name: "Tsareena-Delta",
+	},
+	tsareenadeltarania: {
+		name: "Tsareena-Delta-Rania",
 	},
 	comfey: {
 		name: "Comfey",

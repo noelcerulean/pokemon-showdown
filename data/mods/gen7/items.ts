@@ -216,6 +216,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	deltatsareeniumz: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	fairiumz: {
 		inherit: true,
 		isNonstandard: null,
@@ -804,6 +808,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 				pokemon.addVolatile('confusion');
 			}
 		},
+	},
+	xatite: {
+		inherit: true,
+		isNonstandard: null,
 	},
 	zapplate: {
 		inherit: true,

@@ -105,7 +105,7 @@ const avatarTable = new Set([
 	'burglar-gen1', 'burglar-gen1rb', 'burglar-gen2', 'burglar-gen3', 'burglar',
 	'byron',
 	'caesar', 'caesar-and-amelia',
-	'cairo',
+	'cairo', 'cairo-e4',
 	'cassandra', 'cassandra-draft', 'cart-villain',
 	'caitlin', 'caitlin-gen4',
 	'cameraman',

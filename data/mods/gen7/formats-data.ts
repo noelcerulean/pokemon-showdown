@@ -1563,6 +1563,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DOU",
 	},
+	xatumega: {
+		randomBattleMoves: ["calmmind", "heatwave", "psychic", "psyshock", "reflect", "roost", "thunderwave", "toxic", "uturn"],
+		randomDoubleBattleMoves: ["heatwave", "protect", "psychic", "roost", "tailwind", "thunderwave", "uturn"],
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	mareep: {
 		tier: "LC",
 	},
@@ -2163,6 +2169,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["earthpower", "energyball", "nastyplot", "protect", "psychic", "recover", "thunderwave", "uturn"],
 		tier: "RUBL",
 		doublesTier: "(DUU)",
+	},
+	celebiamaranth: {
+		tier: "Uber",
+		doublesTier: "DUber",
 	},
 	celebiwithered: {
 		tier: "RU",
@@ -5674,6 +5684,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["blazekick", "earthquake", "knockoff", "playrough", "rapidspin", "spikes", "synthesis", "uturn"],
 		randomDoubleBattleMoves: ["blazekick", "earthquake", "feint", "knockoff", "playrough", "protect", "rapidspin", "spikes", "synthesis", "uturn"],
 		tier: "UU",
+		doublesTier: "DUU",
+	},
+	tsareenadeltarania: {
+		tier: "Uber",
 		doublesTier: "DUU",
 	},
 	comfey: {

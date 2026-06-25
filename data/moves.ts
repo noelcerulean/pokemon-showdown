@@ -8989,6 +8989,21 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Beautiful",
 	},
+	heartbreaker: {
+		num: -622,
+		accuracy: 100,
+		basePower: 120,
+		category: "Physical",
+		name: "Heartbreaker",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		recoil: [33, 100],
+		secondary: null,
+		target: "normal",
+		type: "Fairy",
+		contestType: "Cute",
+	},
 	heartfall: {
 		num: -456,
 		accuracy: 100,
@@ -17494,6 +17509,39 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Grass",
 		contestType: "Beautiful",
 	},
+	seismicsandburial: {
+		num: -623,
+		accuracy: true,
+		basePower: 190,
+		category: "Physical",
+		isNonstandard: "Past",
+		name: "Seismic Sand Burial",
+		pp: 1,
+		priority: 0,
+		flags: {nonsky: 1},
+		onEffectiveness(typeMod, target, type, move) {
+			if (move.type !== 'Ground') return;
+			if (!target) return; // avoid crashing when called from a chat plugin
+			// ignore effectiveness if the target is Flying type and immune to Ground
+			if (!target.runImmunity('Ground')) {
+				if (target.hasType('Flying')) return 0;
+			}
+		},
+		volatileStatus: 'smackdown',
+		ignoreImmunity: {'Ground': true},
+		isZ: "deltatsareeniumz",
+		secondary: {
+			chance: 100,
+			self: {
+				onHit() {
+					this.field.setWeather('sandstorm');
+				},
+			},
+		},
+		target: "normal",
+		type: "Ground",
+		contestType: "Tough",
+	},
 	seismictoss: {
 		num: 69,
 		accuracy: 100,
@@ -20545,15 +20593,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 		},
 		isZ: "skarmoriumz",
-		secondary: {
-			chance: 100,
-			self: {
-				boosts: {
-					atk: 1,
-					spe: 1,
-				},
-			},
-		},
+		secondary: null,
 		target: "normal",
 		type: "Steel",
 		contestType: "Tough",

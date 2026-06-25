@@ -592,6 +592,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Eviomight",
 		desc: "If holder's species can evolve, its Attack and Sp. Attack are 1.5x.",
 	},
+	deltatsareeniumz: {
+		name: "Delta Tsareenium Z",
+		desc: "If held by a Tsareena-Delta with Earthquake, it can use Seismic Sand Burial.",
+	},
 	fusedevite: {
 		name: "Fused Evite",
 		desc: "If holder is an NFE-only fusion, its Atk/Def/SpA/SpD are 1.5x.",
@@ -2732,6 +2736,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	wiseglasses: {
 		name: "Wise Glasses",
 		desc: "Holder's special attacks have 1.1x power.",
+	},
+	xatite: {
+		name: "Xatite",
+		desc: "If held by a Xatu, this item allows it to Mega Evolve in battle.",
 	},
 	yacheberry: {
 		name: "Yache Berry",

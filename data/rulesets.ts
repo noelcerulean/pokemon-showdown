@@ -807,7 +807,7 @@ export const Rulesets: {[k: string]: FormatData} = {
 			'Devastating Drake', 'Extreme Evoboost', 'Genesis Supernova', 'Gigavolt Havoc', 'Guardian of Alola',
 			'Hydro Vortex', 'Inferno Overdrive', 'Let\'s Snuggle Forever', 'Light That Burns the Sky',
 			'Malicious Moonsault', 'Menacing Moonraze Maelstrom', 'Merciless Marinade', 'Netherworld Nexus', 'Never-Ending Nightmare', 'Oceanic Operetta',
-			'Pulverizing Pancake', 'Savage Spin-Out', 'Searing Sunraze Smash', 'Shattered Psyche', 'Sinister Arrow Raid',
+			'Pulverizing Pancake', 'Savage Spin-Out', 'Searing Sunraze Smash', 'Seismic Sand Burial', 'Shattered Psyche', 'Sinister Arrow Raid',
 			'Soul-Stealing 7-Star Strike', 'Splintered Stormshards', 'Stoked Sparksurfer', 'Subzero Slammer',
 			'Supersonic Skystrike', 'Tectonic Rage', 'Twinkle Tackle', 'Typhonic Thunderstorm', 'Unified Upsurge', 'Molten Magmawhip',
 			'Reliquary Recital', 'Antique Arabesque', 'Ruinous Riptide', 'Torrential Cannonade', 'Blazing Burnblast', 'Frenzied Overgrowth',

@@ -833,8 +833,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	caltropcarpetbomb: {
 		name: "Caltrop Carpetbomb",
-		desc: "Hits three times. After each hit, sets a spike on the opponent's side of the field and gains +1 Attack and +1 Speed.",
-		shortDesc: "3 hits- each hit sets 1 spike & +1 Atk/Spe.",
+		desc: "Hits three times. After each hit, sets a spike on the opponent's side of the field.",
+		shortDesc: "3 hits- each hit sets 1 spike.",
 	},
 	camouflage: {
 		name: "Camouflage",
@@ -2968,6 +2968,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		gen5: {
 			desc: "The target restores 1/2 of its maximum HP, rounded half up.",
 		},
+	},
+	heartbreaker: {
+		name: "Heartbreaker",
+		desc: "If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
+		shortDesc: "Has 33% recoil.",
 	},
 	heartfall: {
 		name: "Heartfall",
@@ -5673,6 +5678,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Seed Flare",
 		desc: "Has a 40% chance to lower the target's Special Defense by 2 stages.",
 		shortDesc: "40% chance to lower the target's Sp. Def by 2.",
+	},
+	seismicsandburial: {
+		name: "Seismic Sand Burial",
+		desc: "Sets Sandstorm after hitting the opponent. This move can hit airborne Pokemon, which includes Flying-type Pokemon, Pokemon with the Levitate Ability, Pokemon holding an Air Balloon, and Pokemon under the effect of Magnet Rise or Telekinesis. If the target is a Flying type and is not already grounded, this move deals neutral damage regardless of its other type(s). This move can hit a target using Bounce, Fly, or Sky Drop. If this move hits a target under the effect of Bounce, Fly, Magnet Rise, or Telekinesis, the effect ends. If the target is a Flying type that has not used Roost this turn or a Pokemon with the Levitate Ability, it loses its immunity to Ground-type attacks and the Arena Trap Ability as long as it remains active. During the effect, Magnet Rise fails for the target and Telekinesis fails against the target.",
+		shortDesc: "Sets sand/Grounds opponent. Hits Flying neutral.",
 	},
 	seismictoss: {
 		name: "Seismic Toss",

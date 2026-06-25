@@ -1909,6 +1909,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	xatumega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	mareep: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -2487,6 +2491,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 84,
 		tier: "NU",
 		doublesTier: "(DUU)",
+	},
+	celebiamaranth: {
+		tier: "Uber",
+		doublesTier: "DUber",
 	},
 	celebiwithered: {
 		isNonstandard: "Past",
@@ -6102,6 +6110,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "PU",
 		doublesTier: "DOU",
+	},
+	tsareenadeltarania: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	comfey: {
 		randomBattleMoves: ["calmmind", "drainingkiss", "gigadrain", "storedpower", "trick", "uturn"],

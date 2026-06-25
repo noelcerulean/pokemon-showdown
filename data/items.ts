@@ -2122,6 +2122,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: -500,
 		gen: 5,
 	},
+	deltatsareeniumz: {
+		name: "Delta Tsareenium Z",
+		spritenum: 846,
+		onTakeItem: false,
+		zMove: "Seismic Sand Burial",
+		zMoveFrom: "Earthquake",
+		itemUser: ["Tsareena-Delta", "Tsareena-Delta-Rania"],
+		num: -609,
+		gen: 7,
+		isNonstandard: "Past",
+	},
 	fusedevite: {
 		name: "Fused Evite",
 		spritenum: 833,
@@ -8795,6 +8806,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 267,
 		gen: 4,
+	},
+	xatite: {
+		name: "Xatite",
+		spritenum: 845,
+		megaStone: "Xatu-Mega",
+		megaEvolves: "Xatu",
+		itemUser: ["Xatu"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -608,
+		gen: 6,
+		isNonstandard: "Past",
 	},
 	yacheberry: {
 		name: "Yache Berry",

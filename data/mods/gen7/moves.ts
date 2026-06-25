@@ -853,6 +853,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	seismicsandburial: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	sharpen: {
 		inherit: true,
 		isNonstandard: null,
