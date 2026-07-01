@@ -18712,7 +18712,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	tardinaut: {
 		num: -622,
-		name: "Tardinaught",
+		name: "Tardinaut",
 		types: ["Steel"],
 		baseStats: {hp: 200, atk: 95, def: 59, spa: 95, spd: 59, spe: 57},
 		abilities: {0: "Levitate", 1: "Galaxian", H: "Full Metal Body"},

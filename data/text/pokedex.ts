@@ -3983,8 +3983,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	tardi: {
 		name: "Tardi",
 	},
-	tardinaught: {
-		name: "Tardinaught",
+	tardinaut: {
+		name: "Tardinaut",
 	},
 	zeraora: {
 		name: "Zeraora",
