@@ -101014,11 +101014,11 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			cosmicpower: ["7L59"],
 			wringout: ["7L67"],
 			propheticasteroid: ["7L73"],
-			spatialrend: ["7S1", "7S0"],
+			spacialrend: ["7S1", "7S0"],
 		},
 		eventData: [
-			{generation: 7, level: 70, perfectIVs: 3, moves: ["spatialrend", "psychic", "voidexpansion"], pokeball: "beastball"},
-			{generation: 7, level: 70, shiny: true, perfectIVs: 3, moves: ["spatialrend", "psychic", "voidexpansion"], pokeball: "beastball"},
+			{generation: 7, level: 70, perfectIVs: 3, moves: ["spacialrend", "psychic", "voidexpansion"], pokeball: "beastball"},
+			{generation: 7, level: 70, shiny: true, perfectIVs: 3, moves: ["spacialrend", "psychic", "voidexpansion"], pokeball: "beastball"},
 		],
 	},
 	tardi: {
