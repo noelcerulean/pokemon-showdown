@@ -496,6 +496,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	imperishablecosmicvacuum: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	iondeluge: {
 		inherit: true,
 		isNonstandard: null,

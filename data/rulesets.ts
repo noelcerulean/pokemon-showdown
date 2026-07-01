@@ -805,7 +805,7 @@ export const Rulesets: {[k: string]: FormatData} = {
 			'10,000,000 Volt Thunderbolt', 'Acid Downpour', 'All-Out Pummeling', 'Black Hole Eclipse', 'Bloom Doom', 'Boisterous Blackout',
 			'Breakneck Blitz', 'Catastropika', 'Clangorous Soulblaze', 'Continental Crush', 'Corkscrew Crash',
 			'Devastating Drake', 'Extreme Evoboost', 'Genesis Supernova', 'Gigavolt Havoc', 'Guardian of Alola',
-			'Hydro Vortex', 'Inferno Overdrive', 'Let\'s Snuggle Forever', 'Light That Burns the Sky',
+			'Hydro Vortex', 'Imperishable Cosmic Vacuum', 'Inferno Overdrive', 'Let\'s Snuggle Forever', 'Light That Burns the Sky',
 			'Malicious Moonsault', 'Menacing Moonraze Maelstrom', 'Merciless Marinade', 'Netherworld Nexus', 'Never-Ending Nightmare', 'Oceanic Operetta',
 			'Pulverizing Pancake', 'Savage Spin-Out', 'Searing Sunraze Smash', 'Seismic Sand Burial', 'Shattered Psyche', 'Sinister Arrow Raid',
 			'Soul-Stealing 7-Star Strike', 'Splintered Stormshards', 'Stoked Sparksurfer', 'Subzero Slammer',

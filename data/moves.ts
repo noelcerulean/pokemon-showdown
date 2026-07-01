@@ -10111,6 +10111,82 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Ice",
 		contestType: "Beautiful",
 	},
+	imperishablecosmicvacuum: {
+		num: -625,
+		accuracy: true,
+		basePower: 250,
+		category: "Special",
+		isNonstandard: "Past",
+		name: "Imperishable Cosmic Vacuum",
+		pp: 1,
+		priority: 0,
+		flags: {},
+		onTryHit(target, source, move) {
+			const removeTarget = [
+				'lightscreen', 'reflect', 'auroraveil', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+			];
+			const removeAll = [
+				'lightscreen', 'reflect', 'auroraveil', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+			];
+			for (const targetCondition of removeTarget) {
+				if (target.side.removeSideCondition(targetCondition)) {
+					if (!removeAll.includes(targetCondition)) continue;
+					this.add('-sideend', target.side, this.dex.conditions.get(targetCondition).name, '[from] move: Imperishable Cosmic Vacuum', '[of] ' + source);
+				}
+			}
+			for (const sideCondition of removeAll) {
+				if (source.side.removeSideCondition(sideCondition)) {
+					this.add('-sideend', source.side, this.dex.conditions.get(sideCondition).name, '[from] move: Imperishable Cosmic Vacuum', '[of] ' + source);
+				}
+			}
+			this.field.clearTerrain();
+			this.field.clearWeather();
+			this.field.clearDiffusion();
+			this.field.removePseudoWeather('trickroom');
+			this.field.removePseudoWeather('magicroom');
+			this.field.removePseudoWeather('wonderroom');
+			this.field.removePseudoWeather('mysteryroom');
+			this.field.removePseudoWeather('gravity');
+			this.field.removePseudoWeather('iondeluge');
+			this.field.removePseudoWeather('mudsport');
+			this.field.removePseudoWeather('watersport');
+		},
+		onAfterSubDamage(damage, target, source) {
+			const removeTarget = [
+				'lightscreen', 'reflect', 'auroraveil', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+			];
+			const removeAll = [
+				'lightscreen', 'reflect', 'auroraveil', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+			];
+			for (const targetCondition of removeTarget) {
+				if (target.side.removeSideCondition(targetCondition)) {
+					if (!removeAll.includes(targetCondition)) continue;
+					this.add('-sideend', target.side, this.dex.conditions.get(targetCondition).name, '[from] move: Imperishable Cosmic Vacuum', '[of] ' + source);
+				}
+			}
+			for (const sideCondition of removeAll) {
+				if (source.side.removeSideCondition(sideCondition)) {
+					this.add('-sideend', source.side, this.dex.conditions.get(sideCondition).name, '[from] move: Imperishable Cosmic Vacuum', '[of] ' + source);
+				}
+			}
+			this.field.clearTerrain();
+			this.field.clearWeather();
+			this.field.clearDiffusion();
+			this.field.removePseudoWeather('trickroom');
+			this.field.removePseudoWeather('magicroom');
+			this.field.removePseudoWeather('wonderroom');
+			this.field.removePseudoWeather('mysteryroom');
+			this.field.removePseudoWeather('gravity');
+			this.field.removePseudoWeather('iondeluge');
+			this.field.removePseudoWeather('mudsport');
+			this.field.removePseudoWeather('watersport');
+		},
+		isZ: "novariumz",
+		secondary: null,
+		target: "allAdjacent",
+		type: "Dark",
+		contestType: "Beautiful",
+	},
 	imprison: {
 		num: 286,
 		accuracy: true,
@@ -21727,6 +21803,38 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Dragon",
 		contestType: "Beautiful",
 	},
+	spacialsuplex: {
+		num: -626,
+		accuracy: 90,
+		basePower: 100,
+		category: "Physical",
+		name: "Spacial Suplex",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		onHit(target) {
+			if (target.getAbility().isPermanent) return;
+			const oldAbility = target.setAbility('galaxian');
+			if (oldAbility) {
+				this.add('-ability', target, 'Galaxian', '[from] move: Spacial Suplex');
+				return;
+			}
+			return false;
+		},
+		onAfterSubDamage(damage, target) {
+			if (target.getAbility().isPermanent) return;
+			const oldAbility = target.setAbility('galaxian');
+			if (oldAbility) {
+				this.add('-ability', target, 'Galaxian', '[from] move: Spacial Suplex');
+				return;
+			}
+			return false;
+		},
+		secondary: null,
+		target: "normal",
+		type: "Steel",
+		contestType: "Tough",
+	},
 	spark: {
 		num: 209,
 		accuracy: 100,
@@ -24898,6 +25006,20 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Fighting",
 		contestType: "Cool",
+	},
+	voidexpansion: {
+		num: -624,
+		accuracy: 80,
+		basePower: 110,
+		category: "Special",
+		name: "Void Expansion",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: null,
+		target: "allAdjacent",
+		type: "Dark",
+		contestType: "Beautiful",
 	},
 	voltswitch: {
 		num: 521,

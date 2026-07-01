@@ -3068,7 +3068,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Frenzied Overgrowth",
 		zMoveFrom: "Frenzy Plant",
-		itemUser: ["Venusaur", "Venusaur-Sylvanos", "Venusaur-Magnolia", "Venustoise", "Meganium", "Meganium-Aniseed", "Sceptile", "Sceptile-Moscho", "Sceptile-White", "Torterra", "Serperior", "Chesnaught", "Decidueye", "Decidueye-Apollo", "Decidueye-Apollo-Toga", "Decidueye-Apollo-Pride", "Rillaboom"],
+		itemUser: ["Venusaur", "Venusaur-Sylvanos", "Venusaur-Magnolia", "Venustoise", "Meganium", "Meganium-Aniseed", "Sceptile", "Sceptile-Moscho", "Sceptile-White", "Torterra", "Serperior", "Chesnaught", "Decidueye", "Decidueye-Apollo", "Decidueye-Apollo-Toga", "Decidueye-Apollo-Pride", "Madne\u0301xa", "Rillaboom"],
 		num: -582,
 		gen: 7,
 		isNonstandard: "Past",
@@ -3610,6 +3610,20 @@ export const Items: {[itemid: string]: ItemData} = {
 			basePower: 100,
 		},
 		num: 710,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	joyalite: {
+		name: "Joyalite",
+		spritenum: 750,
+		megaStone: "Starmie-Joya-Mega",
+		megaEvolves: "Starmie-Joya",
+		itemUser: ["Starmie-Joya"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -610,
 		gen: 6,
 		isNonstandard: "Past",
 	},
@@ -5015,6 +5029,35 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 7,
 		isNonstandard: "Past",
 	},
+	novapolicy: {
+		name: "NOVA Policy",
+		spritenum: 848,
+		fling: {
+			basePower: 80,
+		},
+		onUpdate(pokemon) {
+			if (this.field.getPseudoWeather('gravity')) {
+				pokemon.useItem();
+			}
+		},
+		boosts: {
+			def: 1,
+			spd: 1,
+		},
+		num: -612,
+		gen: 7,
+	},
+	novariumz: {
+		name: "Novarium Z",
+		spritenum: 847,
+		onTakeItem: false,
+		zMove: "Imperishable Cosmic Vacuum",
+		zMoveFrom: "Void Expansion",
+		itemUser: ["Novarizon"],
+		num: -611,
+		gen: 7,
+		isNonstandard: "Past",
+	},
 	nutpeaberry: {
 		name: "Nutpea Berry",
 		spritenum: 803,
@@ -5986,7 +6029,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Blazing Burnblast",
 		zMoveFrom: "Blast Burn",
-		itemUser: ["Charizard", "Typhlosion", "Typhlosion-Volc", "Typhlosion-Vesuvius", "Typhlosion-Vesuvius-Elden", "Blaziken", "Infernape", "Infernape-Witch", "Infernape-George", "Emboar", "Emboar-Dynamite", "Delphox", "Incineroar", "Incineroar-Pride", "Cinderace"],
+		itemUser: ["Charizard", "Typhlosion", "Typhlosion-Volc", "Typhlosion-Vesuvius", "Typhlosion-Vesuvius-Elden", "Blaziken", "Infernape", "Infernape-Witch", "Infernape-George", "Emboar", "Emboar-Dynamite", "Delphox", "Incineroar", "Incineroar-Pride", "Altazash", "Cinderace"],
 		num: -581,
 		gen: 7,
 		isNonstandard: "Past",

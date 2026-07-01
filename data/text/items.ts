@@ -1054,6 +1054,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Jaw Fossil",
 		desc: "Can be revived into Tyrunt.",
 	},
+	joyalite: {
+		name: "Joyalite",
+		desc: "If held by a Starmie-Joya, this item allows it to Mega Evolve in battle.",
+	},
 	kasibberry: {
 		name: "Kasib Berry",
 		desc: "Halves damage taken from a supereffective Ghost-type attack. Single use.",
@@ -1472,6 +1476,14 @@ export const ItemsText: {[k: string]: ItemText} = {
 	normaliumz: {
 		name: "Normalium Z",
 		desc: "If holder has a Normal move, this item allows it to use a Normal Z-Move.",
+	},
+	novapolicy: {
+		name: "NOVA Policy",
+		desc: "If Gravity is active, holder's Def/Sp. Def are increased by 1 stage. Single use.",
+	},
+	novariumz: {
+		name: "Novarium Z",
+		desc: "If held by a Novarizon with Void Expansion, it can use Imperishable Cosmic Vacuum.",
 	},
 	nutpeaberry: {
 		name: "Nutpea Berry",

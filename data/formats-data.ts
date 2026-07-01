@@ -14,6 +14,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	vaicora: {
 		tier: "NFE",
 	},
+	altazash: {
+		tier: "UU",
+	},
 	fofoam: {
 		tier: "LC",
 	},
@@ -1276,6 +1279,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	starmiejoya: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	starmiemega: {
 		randomBattleMoves: ["hydropump", "psyshock", "rapidspin", "recover", "scald", "thunderbolt", "icebeam"],
 		randomBattleLevel: 84,
@@ -1283,6 +1290,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 84,
 		tier: "NU",
 		doublesTier: "(DUU)",
+	},
+	starmiejoyamega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	mimejr: {
 		tier: "LC",
@@ -6479,6 +6490,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Uber",
 		doublesTier: "(DUU)",
 	},
+	pheromosadivinia: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	xurkitree: {
 		randomBattleMoves: ["dazzlinggleam", "energyball", "hypnosis", "thunderbolt", "voltswitch"],
 		randomBattleLevel: 76,
@@ -6591,6 +6606,18 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 80,
 		tier: "OU",
 		doublesTier: "(DUU)",
+	},
+	novarizon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	tardi: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	tardinaut: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	zeraora: {
 		randomBattleMoves: ["bulkup", "closecombat", "grassknot", "knockoff", "plasmafists", "playrough", "voltswitch"],

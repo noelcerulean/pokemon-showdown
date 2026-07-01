@@ -3303,6 +3303,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "100% chance to lower the target's Speed by 1.",
 		},
 	},
+	imperishablecosmicvacuum: {
+		name: "Imperishable Cosmic Vacuum",
+		desc: "Clears the field of all field conditions (including weather, terrain, diffusion, etc.) and hazards/screens. Sets gravity after attacking.",
+		shortDesc: "Clears everything on the field; Sets gravity.",
+	},
 	imprison: {
 		name: "Imprison",
 		desc: "The user prevents all opposing Pokemon from using any moves that the user also knows as long as the user remains active.",
@@ -6755,6 +6760,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a higher chance for a critical hit.",
 		shortDesc: "High critical hit ratio.",
 	},
+	spacialsuplex: {
+		name: "Spacial Suplex",
+		desc: "Causes the target's Ability to become Galaxian. This effect fails if the target's Ability is As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Insomnia, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Truant, or Zen Mode.",
+		shortDesc: "The target's Ability becomes Galaxian.",
+	},
 	spark: {
 		name: "Spark",
 		desc: "Has a 30% chance to paralyze the target.",
@@ -7880,6 +7890,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Vital Throw",
 		desc: "This move does not check accuracy.",
 		shortDesc: "This move does not check accuracy. Goes last.",
+	},
+	voidexpansion: {
+		name: "Void Expansion",
+		shortDesc: "No additional effect.",
 	},
 	voltswitch: {
 		name: "Volt Switch",

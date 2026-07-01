@@ -14,6 +14,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	vaicora: {
 		name: "Vaicora",
 	},
+	altazash: {
+		name: "Altazash",
+	},
 	fofoam: {
 		name: "Fofoam",
 	},
@@ -671,8 +674,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	starmie: {
 		name: "Starmie",
 	},
+	starmiejoya: {
+		name: "Starmie-Joya",
+	},
 	starmiemega: {
 		name: "Starmie-Mega",
+	},
+	starmiejoyamega: {
+		name: "Starmie-Joya-Mega",
 	},
 	mrmime: {
 		name: "Mr. Mime",
@@ -3920,6 +3929,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	pheromosa: {
 		name: "Pheromosa",
 	},
+	pheromosadivinia: {
+		name: "Pheromosa-Divinia",
+	},
 	xurkitree: {
 		name: "Xurkitree",
 	},
@@ -3964,6 +3976,15 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	blacephalon: {
 		name: "Blacephalon",
+	},
+	novarizon: {
+		name: "Novarizon",
+	},
+	tardi: {
+		name: "Tardi",
+	},
+	tardinaught: {
+		name: "Tardinaught",
 	},
 	zeraora: {
 		name: "Zeraora",

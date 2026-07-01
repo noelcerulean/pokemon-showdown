@@ -410,6 +410,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	joyalite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	kangaskhanite: {
 		inherit: true,
 		isNonstandard: null,
@@ -540,6 +544,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		isNonstandard: "Unobtainable",
 	},
 	normaliumz: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	novariumz: {
 		inherit: true,
 		isNonstandard: null,
 	},

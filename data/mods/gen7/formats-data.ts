@@ -17,6 +17,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	vaicora: {
 		tier: "NFE",
 	},
+	altazash: {
+		randomBattleMoves: ["destinybond", "flamethrower", "nastyplot", "shadowball", "willowisp"],
+		randomDoubleBattleMoves: ["destinybond", "flamethrower", "nastyplot", "protect", "shadowball", "willowisp"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
 	fofoam: {
 		tier: "LC",
 	},
@@ -1019,11 +1025,19 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "DUU",
 	},
+	starmiejoya: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	starmiemega: {
 		randomBattleMoves: ["hydropump", "icebeam", "psyshock", "rapidspin", "recover", "scald", "thunderbolt"],
 		randomDoubleBattleMoves: ["hydropump", "icebeam", "protect", "psychic", "psyshock", "scald", "thunderbolt"],
 		tier: "OU",
 		doublesTier: "DUU",
+	},
+	starmiejoyamega: {
+		tier: "Uber",
+		doublesTier: "DUber",
 	},
 	mimejr: {
 		tier: "LC",
@@ -5980,6 +5994,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Uber",
 		doublesTier: "DUU",
 	},
+	pheromosadivinia: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	xurkitree: {
 		randomBattleMoves: ["dazzlinggleam", "electricterrain", "energyball", "hiddenpowerice", "thunderbolt", "voltswitch"],
 		randomDoubleBattleMoves: ["energyball", "hiddenpowerice", "hypnosis", "protect", "tailglow", "thunderbolt"],
@@ -6060,6 +6078,21 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["calmmind", "explosion", "fireblast", "hiddenpowerice", "shadowball", "trick"],
 		randomDoubleBattleMoves: ["fireblast", "heatwave", "hiddenpowerice", "protect", "shadowball", "willowisp"],
 		tier: "OU",
+		doublesTier: "DUU",
+	},
+	novarizon: {
+		randomBattleMoves: ["dazzlinggleam", "flamethrower", "psychic", "voidexpansion"],
+		randomDoubleBattleMoves: ["dazzlinggleam", "flamethrower", "protect", "psychic", "voidexpansion"],
+		tier: "UU",
+		doublesTier: "DUU",
+	},
+	tardi: {
+		tier: "NFE",
+	},
+	tardinaut: {
+		randomBattleMoves: ["earthquake", "fireblast", "protect", "spacialsuplex", "stealthrock", "thunderwave", "toxic", "wish", "yawn"],
+		randomDoubleBattleMoves: ["earthquake", "fireblast", "helpinghand", "protect", "spacialsuplex", "thunderwave", "toxic", "wish", "yawn"],
+		tier: "UU",
 		doublesTier: "DUU",
 	},
 	zeraora: {

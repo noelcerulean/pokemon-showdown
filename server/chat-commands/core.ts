@@ -175,7 +175,7 @@ const avatarTable = new Set([
 	'enrique', 'enrique-2', 'enrique-villain',
 	'erika-gen1', 'erika-gen1rb', 'erika-gen2', 'erika-gen3', 'erika',
 	'esmeralda',
-	'estrella',
+	'estrella', 'estrella-e4',
 	'ethan-gen2c', 'ethan-gen2', 'ethan-pokeathlon', 'ethan',
 	'eugene',
 	'eusine-gen2', 'eusine',
