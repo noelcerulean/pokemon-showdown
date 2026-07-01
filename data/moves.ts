@@ -10150,6 +10150,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			this.field.removePseudoWeather('iondeluge');
 			this.field.removePseudoWeather('mudsport');
 			this.field.removePseudoWeather('watersport');
+			this.field.addPseudoWeather('gravity');
 		},
 		onAfterSubDamage(damage, target, source) {
 			const removeTarget = [
@@ -10180,6 +10181,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			this.field.removePseudoWeather('iondeluge');
 			this.field.removePseudoWeather('mudsport');
 			this.field.removePseudoWeather('watersport');
+			this.field.addPseudoWeather('gravity');
 		},
 		isZ: "novariumz",
 		secondary: null,
