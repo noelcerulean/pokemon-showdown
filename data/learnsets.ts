@@ -21322,7 +21322,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			naturalgift: ["4M"],
 			nightmare: ["7V", "3T"],
 			painsplit: ["7T", "6T", "5T", "4T"],
-			powergem: ["8M", "8L1"],
+			powergem: ["8M", "8L1", "7L1"],
 			protect: ["8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			psybeam: ["8L1"],
 			psychic: ["8M", "8L1", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
