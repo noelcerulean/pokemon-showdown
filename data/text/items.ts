@@ -1479,7 +1479,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	novapolicy: {
 		name: "NOVA Policy",
-		desc: "If Gravity is active, holder's Def/Sp. Def are increased by 1 stage. Single use.",
+		desc: "If Gravity is active, all Tardinaut's stats are increased by 1 stage. Single use.",
 	},
 	novariumz: {
 		name: "Novarium Z",

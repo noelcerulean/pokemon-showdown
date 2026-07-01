@@ -5036,13 +5036,16 @@ export const Items: {[itemid: string]: ItemData} = {
 			basePower: 80,
 		},
 		onUpdate(pokemon) {
-			if (this.field.getPseudoWeather('gravity')) {
+			if (pokemon.baseSpecies.name === 'Tardinaut' && this.field.getPseudoWeather('gravity')) {
 				pokemon.useItem();
 			}
 		},
 		boosts: {
+			atk: 1,
 			def: 1,
+			spa: 1,
 			spd: 1,
+			spe: 1,
 		},
 		num: -612,
 		gen: 7,
