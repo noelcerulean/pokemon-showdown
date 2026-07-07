@@ -354,7 +354,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	crobatiumz: {
 		name: "Crobatium Z",
-		desc: "If held by a Crobat with Brave Bird, it can use Apex Airstrike.",
+		desc: "If held by a Crobat with Brave Bird, it can use Apex Airstream.",
 	},
 	cursedcrown: {
 		name: "Cursed Crown",
