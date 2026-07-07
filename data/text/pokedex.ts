@@ -23,6 +23,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	hytan: {
 		name: "Hytan",
 	},
+	scarciq: {
+		name: "Scarciq",
+	},
 	bulbasaur: {
 		name: "Bulbasaur",
 	},
@@ -839,6 +842,15 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	dragonite: {
 		name: "Dragonite",
 	},
+	larvoona: {
+		name: "Larvoona",
+	},
+	crescupa: {
+		name: "Crescupa",
+	},
+	lunagon: {
+		name: "Lunagon",
+	},
 	mewtwo: {
 		name: "Mewtwo",
 	},
@@ -946,6 +958,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	crobat: {
 		name: "Crobat",
+	},
+	crobatichiro: {
+		name: "Crobat-Ichiro",
 	},
 	chinchou: {
 		name: "Chinchou",
@@ -1174,6 +1189,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	soarsparce: {
 		name: "Soarsparce",
+	},
+	soarsparcearmored: {
+		name: "Soarsparce-Armored",
+	},
+	soarsparcearmoredsparcy: {
+		name: "Soarsparce-Armored-Sparcy",
 	},
 	soarsparcealfred: {
 		name: "Soarsparce-Alfred",
@@ -2098,6 +2119,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	roseradearmored: {
 		name: "Roserade-Armored",
+	},
+	roseradearmoredtsuki: {
+		name: "Roserade-Armored-Tsuki",
 	},
 	cranidos: {
 		name: "Cranidos",

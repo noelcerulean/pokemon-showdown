@@ -352,6 +352,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Craftsman Orb",
 		desc: "If held by a Regigigas, this item triggers its Primal Reversion in battle.",
 	},
+	crobatiumz: {
+		name: "Crobatium Z",
+		desc: "If held by a Crobat with Brave Bird, it can use Apex Airstrike.",
+	},
 	cursedcrown: {
 		name: "Cursed Crown",
 		shortDesc: "When held by Shedinja, its Status moves go first in their priority bracket.",
@@ -1479,7 +1483,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	novapolicy: {
 		name: "NOVA Policy",
-		desc: "If Gravity is active, all Tardinaut's stats are increased by 1 stage. Single use.",
+		desc: "If Gravity is active, boosts holder's Def & Sp. Def by 1 stage. Single use.",
 	},
 	novariumz: {
 		name: "Novarium Z",
@@ -2005,6 +2009,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Snowball",
 		desc: "Raises holder's Attack by 1 if hit by an Ice-type attack. Single use.",
 	},
+	soarsparcearmor: {
+		name: "Soarsparce Armor",
+		desc: "Armor developed by DoReMi for Soarsparce to enhance its battle capabilities.",
+		shortDesc: "Armor for Soarsparce created by DoReMi.",
+	},
 	softsand: {
 		name: "Soft Sand",
 		desc: "Holder's Ground-type attacks have 1.2x power.",
@@ -2026,6 +2035,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		gen6: {
 			desc: "If held by a Latias or a Latios, its Sp. Atk and Sp. Def are 1.5x.",
 		},
+	},
+	sparcyarmor: {
+		name: "Sparcy Armor",
+		desc: "Armor developed by DoReMi for Sparcy to enhance his battle capabilities.",
+		shortDesc: "Armor for Sparcy created by DoReMi.",
 	},
 	sparkfossil: {
 		name: "Spark Fossil",
@@ -2627,6 +2641,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 	truthsplicer: {
 		name: "Truth Splicer",
 		desc: "If held by Omniverum, its Dragon- and Fire-type moves have 1.3x power.",
+	},
+	tulsiarmor: {
+		name: "Tulsi Armor",
+		desc: "Armor developed by Ryoto for Tulsi to enhance her battle capabilities.",
+		shortDesc: "Armor for Tulsi created by Ryoto.",
 	},
 	twistedspoon: {
 		name: "Twisted Spoon",

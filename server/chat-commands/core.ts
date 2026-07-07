@@ -391,6 +391,7 @@ const avatarTable = new Set([
 	'roxanne-gen3', 'roxanne',
 	'roxie',
 	'ruinmaniac-gen3', 'ruinmaniac-gen3rs', 'ruinmaniac',
+	'ryoto', 'ryoto-e4',
 	'sabrina-gen1', 'sabrina-gen1rb', 'sabrina-gen2', 'sabrina-gen3', 'sabrina',
 	'sage-gen2', 'sage-gen2jp', 'sage',
 	'sailor-gen1', 'sailor-gen1rb', 'sailor-gen2', 'sailor-gen3jp', 'sailor-gen3', 'sailor-gen3rs', 'sailor',

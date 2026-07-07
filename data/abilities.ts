@@ -5744,6 +5744,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onModifyMove(move) {
 			move.ignoreAbility = true;
 		},
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Electric') {
+				this.debug('Teravolt boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Electric') {
+				this.debug('Teravolt boost');
+				return this.chainModify(1.5);
+			}
+		},
 		name: "Teravolt",
 		rating: 3.5,
 		num: 164,
@@ -5980,6 +5994,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onModifyMove(move) {
 			move.ignoreAbility = true;
+		},
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Fire') {
+				this.debug('Turboblaze boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Fire') {
+				this.debug('Turboblaze boost');
+				return this.chainModify(1.5);
+			}
 		},
 		name: "Turboblaze",
 		rating: 3.5,

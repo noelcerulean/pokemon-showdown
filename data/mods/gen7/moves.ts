@@ -15,6 +15,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	apexairstream: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	assist: {
 		inherit: true,
 		isNonstandard: null,

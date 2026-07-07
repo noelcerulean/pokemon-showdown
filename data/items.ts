@@ -1320,6 +1320,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 7,
 		isNonstandard: "Past",
 	},
+	crobatiumz: {
+		name: "Crobatium Z",
+		spritenum: 852,
+		onTakeItem: false,
+		zMove: "Apex Airstream",
+		zMoveFrom: "Brave Bird",
+		itemUser: ["Crobat", "Crobat-Ichiro"],
+		num: -616,
+		gen: 7,
+		isNonstandard: "Past",
+	},
 	custapberry: {
 		name: "Custap Berry",
 		spritenum: 86,
@@ -5036,16 +5047,13 @@ export const Items: {[itemid: string]: ItemData} = {
 			basePower: 80,
 		},
 		onUpdate(pokemon) {
-			if (pokemon.baseSpecies.name === 'Tardinaut' && this.field.getPseudoWeather('gravity')) {
+			if (this.field.getPseudoWeather('gravity')) {
 				pokemon.useItem();
 			}
 		},
 		boosts: {
-			atk: 1,
 			def: 1,
-			spa: 1,
 			spd: 1,
-			spe: 1,
 		},
 		num: -612,
 		gen: 7,
@@ -6817,6 +6825,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 649,
 		gen: 6,
 	},
+	soarsparcearmor: {
+		name: "Soarsparce Armor",
+		spritenum: 849,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Soarsparce-Armored') return false;
+			return true;
+		},
+		itemUser: ["Soarsparce-Armored"],
+		num: -613,
+		gen: 7,
+	},
 	softsand: {
 		name: "Soft Sand",
 		spritenum: 456,
@@ -6881,6 +6900,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Latios", "Latias"],
 		num: 225,
 		gen: 3,
+	},
+	sparcyarmor: {
+		name: "Sparcy Armor",
+		spritenum: 850,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Soarsparce-Armored-Sparcy') return false;
+			return true;
+		},
+		itemUser: ["Soarsparce-Armored-Sparcy"],
+		num: -614,
+		gen: 7,
 	},
 	sparkfossil: {
 		name: "Spark Fossil",
@@ -8483,6 +8513,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Omniverum"],
 		num: -586,
 		gen: 5,
+	},
+	tulsiarmor: {
+		name: "Tulsi Armor",
+		spritenum: 851,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Roserade-Armored-Tulsi') return false;
+			return true;
+		},
+		itemUser: ["Roserade-Armored-Tulsi"],
+		num: -615,
+		gen: 7,
 	},
 	twistedspoon: {
 		name: "Twisted Spoon",

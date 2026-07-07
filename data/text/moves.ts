@@ -151,6 +151,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "If the user is a Meloetta, it changes to Pirouette Forme if it is currently in Aria Forme, or changes to Aria Forme if it is currently in Pirouette Forme. This forme change does not happen if the Meloetta has the Sheer Force Ability. The Pirouette Forme reverts to Aria Forme when Meloetta is not active. Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
 		shortDesc: "Meloetta transforms. +1 to all stats.",
 	},
+	apexairstream: {
+		name: "Apex Airstream",
+		desc: "If this move is successful, sets Tailwind on user's side.",
+		shortDesc: "Sets Tailwind.",
+	},
 	appleacid: {
 		name: "Apple Acid",
 		desc: "Has a 100% chance to lower the target's Special Defense by 1 stage.",
@@ -3704,6 +3709,10 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		start: "  Lucky Chant shielded [TEAM] from critical hits!",
 		end: "  [TEAM]'s Lucky Chant wore off!",
+	},
+	lunarcannon: {
+		name: "Lunar Cannon",
+		shortDesc: "No additional effect.",
 	},
 	lunardance: {
 		name: "Lunar Dance",

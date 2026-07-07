@@ -23,6 +23,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	hytan: {
 		tier: "NFE",
 	},
+	scarciq: {
+		tier: "UU",
+	},
 	arongoldie: {
 		tier: "Uber",
 	},
@@ -536,6 +539,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 86,
 		tier: "RU",
 		doublesTier: "(DUU)",
+	},
+	crobatichiro: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	oddish: {
 		tier: "LC",
@@ -1734,6 +1741,18 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},
+	larvoona: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	crescupa: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	lunagon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	mewtwo: {
 		randomBattleMoves: ["fireblast", "nastyplot", "psystrike", "recover", "shadowball"],
 		randomBattleLevel: 72,
@@ -2189,6 +2208,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 80,
 		tier: "OU",
 		doublesTier: "DOU",
+	},
+	soarsparcearmored: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	soarsparcearmoredsparcy: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	soarsparcealfred: {
 		tier: "Uber",
@@ -2936,6 +2963,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	roseradearmored: {
 		tier: "OU",
+	},
+	roseradearmoredtulsi: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	gulpin: {
 		isNonstandard: "Past",
