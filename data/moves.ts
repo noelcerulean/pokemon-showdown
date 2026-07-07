@@ -533,8 +533,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 1,
 		priority: 0,
 		flags: {},
-		onHit(source) {
-            source.side.addSideCondition('tailwind', source);
+		onHit(source, target) {
+            target.side.addSideCondition('tailwind', target);
         },
 		isZ: "crobatiumz",
 		secondary: null,
