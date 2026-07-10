@@ -29,6 +29,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	hytan: {
 		tier: "NFE",
 	},
+	hytanpaz: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	hytanpazresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	scarciq: {
 		randomBattleMoves: ["aquajet", "demolition", "gunkshot", "icepunch", "liquidation", "onetwopunch", "slackoff", "stealthrock", "suckerpunch"],
 		randomDoubleBattleMoves: ["aquajet", "gunkshot", "icepunch", "liquidation", "onetwopunch", "protect", "slackoff", "suckerpunch"],

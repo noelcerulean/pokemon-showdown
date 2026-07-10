@@ -23,6 +23,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	hytan: {
 		name: "Hytan",
 	},
+	hytanpaz: {
+		name: "Hytan-Paz",
+	},
+	hytanpazresonant: {
+		name: "Hytan-Paz-Resonant",
+	},
 	scarciq: {
 		name: "Scarciq",
 	},

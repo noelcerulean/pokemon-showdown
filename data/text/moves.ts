@@ -6943,6 +6943,13 @@ export const MovesText: {[k: string]: MoveText} = {
 		start: "#followme",
 		startFromZEffect: "#followme",
 	},
+	starterfamilyreunion: {
+		name: "Starter Family Reunion",
+		desc: "All the starter pokemon are friends and are happy to hang out together! Just like them, I'm happy that you're playing with our starter pokemon! Thanks for enjoying FnF Showdown! Feel free to use this move to filter for starters in the Teambuilder!",
+		shortDesc: "Filter with this move to find FnF Starters!",
+
+		activate: "  [POKEMON] is happy to be with friends!",
+	},
 	stealthrock: {
 		name: "Stealth Rock",
 		desc: "Sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in. Fails if the effect is already active on the opposing side. Foes lose 1/32, 1/16, 1/8, 1/4, or 1/2 of their maximum HP, rounded down, based on their weakness to the Rock type; 0.25x, 0.5x, neutral, 2x, or 4x, respectively. Can be removed from the opposing side if any opposing Pokemon uses Rapid Spin or Defog successfully, or is hit by Defog.",

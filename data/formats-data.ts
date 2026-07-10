@@ -23,6 +23,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	hytan: {
 		tier: "NFE",
 	},
+	hytanpaz: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	hytanpazresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	scarciq: {
 		tier: "UU",
 	},

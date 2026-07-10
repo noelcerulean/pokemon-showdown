@@ -248,6 +248,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Cerise Orb",
 		desc: "If held by a Cherrim, this item triggers its Primal Reversion in battle.",
 	},
+	ceruleanheart: {
+		name: "Cerulean Heart",
+		desc: "A stone that Paz can resonate with to access a new forme.",
+	},
 	charcoal: {
 		name: "Charcoal",
 		desc: "Holder's Fire-type attacks have 1.2x power.",

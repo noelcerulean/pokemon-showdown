@@ -22362,6 +22362,24 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {spd: 1}},
 		contestType: "Cute",
 	},
+	starterfamilyreunion: {
+		num: -629,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Starter Family Reunion",
+		pp: 30,
+		priority: 0,
+		flags: {},
+		onUseMoveMessage(pokemon, move) {
+			this.add('-activate', pokemon, 'move: Starter Family Reunion');
+		},
+		secondary: null,
+		target: "all",
+		type: "Normal",
+		zMove: {effect: 'clearnegativeboost'},
+		contestType: "Cute",
+	},
 	stealthrock: {
 		num: 446,
 		accuracy: true,

@@ -902,6 +902,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 7,
 		isNonstandard: "Past",
 	},
+	ceruleanheart: {
+		name: "Cerulean Heart",
+		spritenum: 853,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Hytan-Paz') return false;
+			if (source.baseSpecies.name === 'Hytan-Paz-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Hytan-Paz-Resonant"],
+		num: -617,
+		gen: 7,
+	},
 	charcoal: {
 		name: "Charcoal",
 		spritenum: 61,
@@ -8619,8 +8631,10 @@ export const Items: {[itemid: string]: ItemData} = {
 	vespiquenarmor: {
 		name: "Vespiquen Armor",
 		spritenum: 743,
-		onTakeItem(item, source) {
-			if (source.baseSpecies.name === 'Vespiquen-Armored') return false;
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 416) || pokemon.baseSpecies.num === 416) {
+				return false;
+			}
 			return true;
 		},
 		itemUser: ["Vespiquen-Armored", "Vespiquen-Armored-Rhinestone"],

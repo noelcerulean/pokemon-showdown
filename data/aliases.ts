@@ -778,7 +778,6 @@ export const Aliases: {[alias: string]: string} = {
 	sindleserph: "Sindle",
 	sindleliegepoisontouch: "Sindle",
 
-	hytanpaz: "Hytan",
 	hytancarmalot: "Hytan",
 	hytangort: "Hytan",
 	hytanriptide: "Hytan",
@@ -803,6 +802,12 @@ export const Aliases: {[alias: string]: string} = {
 	vaicoraapophis: "Vaicora",
 	vaicoraliege: "Vaicora",
 	vaicoraserph: "Vaicora",
+
+	paz: "Hytan-Paz",
+	pazr: "Hytan-Paz-Resonant",
+	pazres: "Hytan-Paz-Resonant",
+	rpaz: "Hytan-Paz-Resonant",
+	respaz: "Hytan-Paz-Resonant",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",
