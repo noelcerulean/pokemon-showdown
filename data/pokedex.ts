@@ -15139,7 +15139,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Dragon", "Ice"],
 		gender: "N",
 		baseStats: {hp: 125, atk: 130, def: 90, spa: 130, spd: 90, spe: 95},
-		abilities: {0: "Pressure", H: "Syzygy"},
+		abilities: {0: "Syzygy"},
 		heightm: 3,
 		weightkg: 325,
 		color: "Gray",
