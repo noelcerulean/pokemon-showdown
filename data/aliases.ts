@@ -754,7 +754,6 @@ export const Aliases: {[alias: string]: string} = {
 	fofoamastraarmthrust: "Fofoam",
 	fofoamcarmalothero: "Fofoam",
 	musleebvera: "Musleeb",
-	musleeblotus: "Musleeb",
 	musleebdribble: "Musleeb",
 	musleebhexa: "Musleeb",
 	musleebdolly: "Musleeb",
@@ -802,6 +801,12 @@ export const Aliases: {[alias: string]: string} = {
 	vaicoraapophis: "Vaicora",
 	vaicoraliege: "Vaicora",
 	vaicoraserph: "Vaicora",
+
+	lotus: "Musleeb-Lotus",
+	lotusr: "Musleeb-Lotus-Resonant",
+	lotusres: "Musleeb-Lotus-Resonant",
+	rlotus: "Musleeb-Lotus-Resonant",
+	reslotus: "Musleeb-Lotus-Resonant",
 
 	paz: "Hytan-Paz",
 	pazr: "Hytan-Paz-Resonant",

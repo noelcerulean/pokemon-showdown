@@ -1785,6 +1785,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Repeat Ball",
 		desc: "A Poke Ball that works well on Pokemon species that were previously caught.",
 	},
+	reveristsbrooch: {
+		name: "Reverist's Brooch",
+		desc: "A stone that Lotus can resonate with to access a new forme.",
+	},
 	rexperberry: {
 		name: "Rexper Berry",
 		desc: "At the end of an active turn, +1 Atk/SpA & gains Curse. Single use.",

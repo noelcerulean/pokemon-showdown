@@ -2,6 +2,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	musleeb: {
 		tier: "LC",
 	},
+	musleeblotus: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	musleeblotusresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	lilaquin: {
 		tier: "NFE",
 	},

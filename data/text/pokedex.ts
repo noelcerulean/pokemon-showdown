@@ -2,6 +2,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	musleeb: {
 		name: "Musleeb",
 	},
+	musleeblotus: {
+		name: "Musleeb-Lotus",
+	},
+	musleeblotusresonant: {
+		name: "Musleeb-Lotus-Resonant",
+	},
 	lilaquin: {
 		name: "Lilaquin",
 	},

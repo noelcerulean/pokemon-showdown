@@ -6084,6 +6084,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 3,
 		isPokeball: true,
 	},
+	reveristsbrooch: {
+		name: "Reverist's Brooch",
+		spritenum: 854,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Musleeb-Lotus') return false;
+			if (source.baseSpecies.name === 'Musleeb-Lotus-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Musleeb-Lotus-Resonant"],
+		num: -618,
+		gen: 7,
+	},
 	rexperberry: {
 		name: "Rexper Berry",
 		spritenum: 840,
