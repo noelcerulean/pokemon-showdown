@@ -782,7 +782,6 @@ export const Aliases: {[alias: string]: string} = {
 	hytanriptide: "Hytan",
 	hytanboba: "Hytan",
 	hytansusie: "Hytan",
-	lilaquinvera: "Lilaquin",
 	lilaquindribble: "Lilaquin",
 	lilaquinhexa: "Lilaquin",
 	lilaquindolly: "Lilaquin",
