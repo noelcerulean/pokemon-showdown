@@ -13,6 +13,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	lilaquin: {
 		tier: "NFE",
 	},
+	lilaquinvera: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	lilaquinveraresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	madnexa: {
 		randomBattleMoves: ["hornleech", "knockoff", "spikes", "swordsdance", "synthesis"],
 		randomDoubleBattleMoves: ["hornleech", "knockoff", "protect", "swordsdance", "synthesis"],

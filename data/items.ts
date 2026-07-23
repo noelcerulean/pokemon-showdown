@@ -8653,6 +8653,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: -502,
 		gen: 7,
 	},
+	viridiannecklace: {
+		name: "Viridian Necklace",
+		spritenum: 855,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Lilaquin-Vera') return false;
+			if (source.baseSpecies.name === 'Lilaquin-Vera-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Lilaquin-Vera-Resonant"],
+		num: -619,
+		gen: 7,
+	},
 	viropathiumz: {
 		name: "Viropathium Z",
 		spritenum: 834,

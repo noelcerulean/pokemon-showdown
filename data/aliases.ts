@@ -808,6 +808,12 @@ export const Aliases: {[alias: string]: string} = {
 	rlotus: "Musleeb-Lotus-Resonant",
 	reslotus: "Musleeb-Lotus-Resonant",
 
+	vera: "Lilaquin-Vera",
+	verar: "Lilaquin-Vera-Resonant",
+	verares: "Lilaquin-Vera-Resonant",
+	rvera: "Lilaquin-Vera-Resonant",
+	resvera: "Lilaquin-Vera-Resonant",
+
 	paz: "Hytan-Paz",
 	pazr: "Hytan-Paz-Resonant",
 	pazres: "Hytan-Paz-Resonant",

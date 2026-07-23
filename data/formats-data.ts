@@ -13,6 +13,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	lilaquin: {
 		tier: "NFE",
 	},
+	lilaquinvera: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	lilaquinveraresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	madnexa: {
 		tier: "RU",
 	},

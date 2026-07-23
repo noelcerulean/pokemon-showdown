@@ -2700,6 +2700,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		desc: "Armor developed by DoReMi for Vespiquen to enhance its battle capabilities.",
 		shortDesc: "Armor for Vespiquen created by DoReMi.",
 	},
+	viridiannecklace: {
+		name: "Viridian Necklace",
+		desc: "A stone that Vera can resonate with to access a new forme.",
+	},
 	viropathiumz: {
 		name: "Viropathium Z",
 		desc: "If held by a Viropath with Psychic, it can use Fervid Feverdrean.",
