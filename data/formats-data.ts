@@ -5719,6 +5719,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	amaura: {
 		tier: "LC",
 	},
+	amauradelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	aurorus: {
 		randomBattleMoves: ["ancientpower", "blizzard", "earthpower", "freezedry", "stealthrock", "thunderwave"],
 		randomBattleLevel: 84,
@@ -5726,6 +5730,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	aurorusdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	hawlucha: {
 		randomBattleMoves: ["bravebird", "closecombat", "roost", "stoneedge", "swordsdance", "throatchop"],

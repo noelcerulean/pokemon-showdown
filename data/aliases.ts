@@ -1595,6 +1595,8 @@ export const Aliases: {[alias: string]: string} = {
 	desnaught: "Chesnaught-Delta",
 	dailmer: "Wailmer-Delta",
 	dailord: "Wailord-Delta",
+	amaurad: "Amaura-Delta",
+	aurorusd: "Aurorus-Delta",
 
 	dcranidos: "Cranidos-Delta",
 	drampardos: "Rampardos-Delta",
@@ -1632,6 +1634,8 @@ export const Aliases: {[alias: string]: string} = {
 	dnaught: "Chesnaught-Delta",
 	dwailmer: "Wailmer-Delta",
 	dwailord: "Wailord-Delta",
+	damaura: "Amaura-Delta",
+	daurorus: "Aurorus-Delta",
 
 	// paradox names
 	ironfriend: "Robodachi",

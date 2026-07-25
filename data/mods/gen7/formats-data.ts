@@ -5310,9 +5310,18 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	amaura: {
 		tier: "LC",
 	},
+	amauradelta: {
+		tier: "LC",
+	},
 	aurorus: {
 		randomBattleMoves: ["ancientpower", "blizzard", "earthpower", "freezedry", "hypervoice", "stealthrock", "thunderwave"],
 		randomDoubleBattleMoves: ["ancientpower", "earthpower", "freezedry", "hypervoice", "icywind", "protect", "thunderwave"],
+		tier: "PU",
+		doublesTier: "(DUU)",
+	},
+	aurorusdelta: {
+		randomBattleMoves: ["demolition", "hypervoice", "nastyplot", "psychic", "thunderwave"],
+		randomDoubleBattleMoves: ["hypervoice", "nastyplot", "protect", "psychic", "thunderwave"],
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
