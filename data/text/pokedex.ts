@@ -20,11 +20,29 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	madnexa: {
 		name: "Madne\u0301xa",
 	},
+	madnexahexa: {
+		name: "Madne\u0301xa-Hexa",
+	},
+	madnexahexaresonant: {
+		name: "Madne\u0301xa-Hexa-Resonant",
+	},
+	madnexadolly: {
+		name: "Madne\u0301xa-Dolly",
+	},
+	madnexadollyresonant: {
+		name: "Madne\u0301xa-Dolly-Resonant",
+	},
 	sindle: {
 		name: "Sindle",
 	},
 	vaicora: {
 		name: "Vaicora",
+	},
+	vaicoragroveil: {
+		name: "Vaicora-Groveil",
+	},
+	vaicoragroveilresonant: {
+		name: "Vaicora-Groveil-Resonant",
 	},
 	altazash: {
 		name: "Altazash",
@@ -41,8 +59,26 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	hytanpazresonant: {
 		name: "Hytan-Paz-Resonant",
 	},
+	hytansusie: {
+		name: "Hytan-Susie",
+	},
+	hytansusieresonant: {
+		name: "Hytan-Susie-Resonant",
+	},
 	scarciq: {
 		name: "Scarciq",
+	},
+	scarciqgort: {
+		name: "Scarciq-Gort",
+	},
+	scarciqgortresonant: {
+		name: "Scarciq-Gort-Resonant",
+	},
+	scarciqcarmalot: {
+		name: "Scarciq-Carmalot",
+	},
+	scarciqcarmalotresonant: {
+		name: "Scarciq-Carmalot-Resonant",
 	},
 	bulbasaur: {
 		name: "Bulbasaur",

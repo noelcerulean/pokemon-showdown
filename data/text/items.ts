@@ -267,6 +267,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Charizardite Y",
 		desc: "If held by a Charizard, this item allows it to Mega Evolve in battle.",
 	},
+	charredrage: {
+		name: "Charred Rage",
+		desc: "A stone that Gort can resonate with to access a new forme.",
+	},
 	chartiberry: {
 		name: "Charti Berry",
 		desc: "Halves damage taken from a supereffective Rock-type attack. Single use.",
@@ -963,6 +967,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	heracronite: {
 		name: "Heracronite",
 		desc: "If held by a Heracross, this item allows it to Mega Evolve in battle.",
+	},
+	hexagoncharm: {
+		name: "Hexagon Charm",
+		desc: "A stone that Hexa can resonate with to access a new forme.",
 	},
 	honchkrite: {
 		name: "Honchkrite",
@@ -1901,6 +1909,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Salamencite",
 		desc: "If held by a Salamence, this item allows it to Mega Evolve in battle.",
 	},
+	saviorsstone: {
+		name: "Savior's Stone",
+		desc: "A stone that Groveil can resonate with to access a new forme.",
+	},
 	sceptilite: {
 		name: "Sceptilite",
 		desc: "If held by a Sceptile, this item allows it to Mega Evolve in battle.",
@@ -1923,6 +1935,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		gen3: {
 			desc: "Holder's Water-type attacks have 1.05x power.",
 		},
+	},
+	shadowcrystal: {
+		name: "Shadow Crystal",
+		desc: "A stone that Carmalot can resonate with to access a new forme.",
 	},
 	sharpbeak: {
 		name: "Sharp Beak",
@@ -2126,6 +2142,14 @@ export const ItemsText: {[k: string]: ItemText} = {
 	stickybarb: {
 		name: "Sticky Barb",
 		desc: "Each turn, holder loses 1/8 max HP. An attacker making contact can receive it.",
+	},
+	stoneofmortality: {
+		name: "Stone of Mortality",
+		desc: "A stone that Dolly can resonate with to access a new forme.",
+	},
+	stoneoftheunstoppable: {
+		name: "Stone of the Unstoppable",
+		desc: "A stone that Susie can resonate with to access a new forme.",
 	},
 	stoneplate: {
 		name: "Stone Plate",

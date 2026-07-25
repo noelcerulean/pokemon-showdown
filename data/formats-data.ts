@@ -24,11 +24,35 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	madnexa: {
 		tier: "RU",
 	},
+	madnexahexa: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	madnexahexaresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	madnexadolly: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	madnexadollyresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	sindle: {
 		tier: "LC",
 	},
 	vaicora: {
 		tier: "NFE",
+	},
+	vaicoragroveil: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	vaicoragroveilresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
 	},
 	altazash: {
 		tier: "UU",
@@ -47,8 +71,32 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Uber",
 		doublesTier: "DUber",
 	},
+	hytansusie: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	hytansusieresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	scarciq: {
 		tier: "UU",
+	},
+	scarciqcarmalot: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	scarciqcarmalotresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	scarciqgort: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	scarciqgortresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
 	},
 	arongoldie: {
 		tier: "Uber",

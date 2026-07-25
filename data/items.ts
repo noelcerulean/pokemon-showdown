@@ -957,6 +957,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	charredrage: {
+		name: "Charred Rage",
+		spritenum: 857,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Scarciq-Gort') return false;
+			if (source.baseSpecies.name === 'Scarciq-Gort-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Scarciq-Gort-Resonant"],
+		num: -621,
+		gen: 7,
+	},
 	chartiberry: {
 		name: "Charti Berry",
 		spritenum: 62,
@@ -3314,6 +3326,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 680,
 		gen: 6,
 		isNonstandard: "Past",
+	},
+	hexagoncharm: {
+		name: "Hexagon Charm",
+		spritenum: 860,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Madne\u0301xa-Hexa') return false;
+			if (source.baseSpecies.name === 'Madne\u0301xa-Hexa-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Madne\u0301xa-Hexa-Resonant"],
+		num: -624,
+		gen: 7,
 	},
 	honchkrite: {
 		name: "Honchkrite",
@@ -6485,6 +6509,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	saviorsstone: {
+		name: "Savior's Stone",
+		spritenum: 861,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Vaicora-Groveil') return false;
+			if (source.baseSpecies.name === 'Vaicora-Groveil-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Vaicora-Groveil-Resonant"],
+		num: -625,
+		gen: 7,
+	},
 	sceptilite: {
 		name: "Sceptilite",
 		spritenum: 613,
@@ -6553,6 +6589,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 254,
 		gen: 3,
+	},
+	shadowcrystal: {
+		name: "Shadow Crystal",
+		spritenum: 858,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Scarciq-Carmalot') return false;
+			if (source.baseSpecies.name === 'Scarciq-Carmalot-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Scarciq-Carmalot-Resonant"],
+		num: -622,
+		gen: 7,
 	},
 	sharpbeak: {
 		name: "Sharp Beak",
@@ -7209,6 +7257,30 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 288,
 		gen: 4,
+	},
+	stoneofmortality: {
+		name: "Stone of Mortality",
+		spritenum: 859,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Madne\u0301xa-Dolly') return false;
+			if (source.baseSpecies.name === 'Madne\u0301xa-Dolly-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Madne\u0301xa-Dolly-Resonant"],
+		num: -623,
+		gen: 7,
+	},
+	stoneoftheunstoppable: {
+		name: "Stone of the Unstoppable",
+		spritenum: 856,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Hytan-Susie') return false;
+			if (source.baseSpecies.name === 'Hytan-Susie-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Hytan-Susie-Resonant"],
+		num: -620,
+		gen: 7,
 	},
 	stoneplate: {
 		name: "Stone Plate",
