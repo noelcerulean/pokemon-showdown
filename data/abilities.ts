@@ -2094,7 +2094,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onAnyBasePowerPriority: 20,
 		onAnyBasePower(basePower, source, target, move) {
-			if (target === source || move.category === 'Status' || move.type !== 'Dark') return;
+			if (target === source || move.category === 'Status' || move.type !== 'Bug') return;
 			return this.chainModify([4915, 4096]);
 		},
 		condition: {},

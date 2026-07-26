@@ -10282,7 +10282,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		secondary: null,
 		target: "normal",
 		type: "Fire",
-		zMove: {boost: {spa: 1}},
 		contestType: "Beautiful",
 	},
 	inferno: {
@@ -14360,7 +14359,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	passionstorm: {
 		num: -613,
 		accuracy: 100,
-		basePower: 110,
+		basePower: 100,
 		category: "Special",
 		name: "Passion Storm",
 		pp: 10,
@@ -14550,7 +14549,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	phantomforce: {
 		num: 566,
 		accuracy: 100,
-		basePower: 110,
+		basePower: 100,
 		category: "Physical",
 		name: "Phantom Force",
 		pp: 10,
@@ -14585,7 +14584,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	pheromonicphantasmagoria: {
 		num: -614,
 		accuracy: true,
-		basePower: 190,
+		basePower: 180,
 		category: "Special",
 		isNonstandard: "Past",
 		name: "Pheromonic Phantasmagoria",

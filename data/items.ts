@@ -2122,11 +2122,6 @@ export const Items: {[itemid: string]: ItemData} = {
 				return this.chainModify(1.5);
 			}
 		},
-		onSourceModifyDamage(damage, source, target, move) {
-			if (target.baseSpecies.num === -604 || target.baseSpecies.num === -605 || target.baseSpecies.num === -606) {
-				return this.chainModify(0.67);
-			}
-		},
 		num: 538,
 		gen: 5,
 	},
@@ -2148,17 +2143,11 @@ export const Items: {[itemid: string]: ItemData} = {
 				return this.chainModify(1.5);
 			}
 		},
-		onBasePowerPriority: 15,
-		onBasePower(basePower, user, target, move) {
-			if (user.baseSpecies.num === -604 || user.baseSpecies.num === -605 || user.baseSpecies.num === -606) {
-				return this.chainModify(1.5);
-			}
-		},
 		num: -500,
 		gen: 5,
 	},
 	deltatsareeniumz: {
-		name: "Delta Tsareenium Z",
+		name: "DeltaTsareenium Z",
 		spritenum: 846,
 		onTakeItem: false,
 		zMove: "Seismic Sand Burial",

@@ -605,7 +605,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 		desc: "If holder's species can evolve, its Attack and Sp. Attack are 1.5x.",
 	},
 	deltatsareeniumz: {
-		name: "Delta Tsareenium Z",
+		name: "DeltaTsareenium Z",
 		desc: "If held by a Tsareena-Delta with Earthquake, it can use Seismic Sand Burial.",
 	},
 	fusedevite: {

@@ -5229,7 +5229,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	sorceroma: {
 		randomBattleMoves: ["darkpulse", "fleurcannon", "moonblast", "nastyplot", "psychic", "trickroom"],
 		randomDoubleBattleMoves: ["darkpulse", "fleurcannon", "healpulse", "moonblast", "protect", "psychic", "thunderbolt", "trickroom"],
-		tier: "OU",
+		tier: "RU",
 		doublesTier: "DOU",
 	},
 	aromacosta: {

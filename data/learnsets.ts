@@ -47754,6 +47754,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			attackorder: ["7L58"],
 			belch: ["7L62"],
 			flareblitz: ["7L65"],
+			ravagement: ["7L70"],
 		},
 	},
 	lotad: {
