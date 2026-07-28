@@ -1010,7 +1010,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	melodyallegretto: {
 		name: "Melody Allegretto",
-		shortDesc: "This Pokemon's sound-based moves have their priority increased by 3.",
+		shortDesc: "This Pokemon's sound-based moves have their priority increased by 1.",
 	},
 	merciless: {
 		name: "Merciless",
@@ -2136,7 +2136,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	triage: {
 		name: "Triage",
-		shortDesc: "This Pokemon's healing moves have their priority increased by 3.",
+		shortDesc: "This Pokemon's healing moves have their priority increased by 1.",
 	},
 	truant: {
 		name: "Truant",
