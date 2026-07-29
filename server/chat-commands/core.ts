@@ -556,7 +556,7 @@ const avatarTableBrumirage = new Set([
 	'oleana', 'opal', 'peony', 'pesselle', 'phoebe-gen6', 'piers', 'raihan', 'rei', 'rose', 'sabi',
 	'sanqua', 'shielbert', 'sonia', 'sonia-professor', 'sordward', 'sordward-shielbert', 'tateandliza-gen6',
 	'victor', 'victor-dojo', 'volo', 'yellgrunt', 'yellgruntf', 'zisu',
-	'sada-ai', 'turo-ai', 'miku-flying', 'miku-ground',
+	'sada-ai', 'turo-ai', 'miku-flying', 'miku-ground', 'jacinthe', 'rainbowrocketgruntf', 'rainbowrocketgrunt',
 ]);
 
 const avatarTableZacWeavile = new Set([
@@ -646,6 +646,13 @@ const avatarTableKyleDove = new Set([
 	'victor-masters', 'vince', 'wally-rse', 'willow', 'willow-casual', 'yancy', 'zinnia-masters',
 	'az-lza', 'brendan-masters2', 'bugsy-masters', 'cynthia-masters4', 'elesa-masters3', 'elio-masters', 'erika-masters3', 'iono-masters',
 	'iono-masters2', 'lance-masters2', 'marley-masters', 'may-masters4', 'morty-masters3', 'selene-masters2', 'shauntal-masters',
+	'adaman-masters2', 'arven-masters', 'ballguy-masters', 'becca', 'bede-masters2', 'brendan-masters3', 'carmine-masters', 'cynthia-masters5',
+	'florian-masters', 'giovanni-masters2', 'gladion-masters2', 'gloria-masters2', 'hilbert-masters3', 'hilda-masters4', 'hugh-masters',
+	'irida-masters2', 'iris-masters2', 'jasmine-masters3', 'juliana-masters', 'kabu-masters', 'kieran-masters', 'kris-masters2', 'lacey-masters',
+	'lana-masters2', 'larry-masters', 'larry-masters2', 'lillie-masters4', 'lillie-masters5', 'marnie-masters4', 'perrin-masters', 'poppy-masters',
+	'red-masters4', 'rei-masters', 'rika-masters', 'rosa-masters4', 'silver-masters2', 'skyla-masters3', 'sonia-masters2', 'steven-masters5',
+	'tricia-masters', 'trinnia-masters', 'trista-masters', 'willem',
+
 ]);
 
 const avatarTableHyooppa = new Set([
