@@ -43,6 +43,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Uber",
 		doublesTier: "DUber",
 	},
+	madnexadribble: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	madnexadribbleresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	sindle: {
 		tier: "LC",
 	},
@@ -62,6 +70,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["destinybond", "flamethrower", "nastyplot", "protect", "shadowball", "willowisp"],
 		tier: "UU",
 		doublesTier: "(DUU)",
+	},
+	altazashdeeva: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	altazashdeevaresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
 	},
 	fofoam: {
 		tier: "LC",

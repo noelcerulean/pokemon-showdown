@@ -360,6 +360,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Craftsman Orb",
 		desc: "If held by a Regigigas, this item triggers its Primal Reversion in battle.",
 	},
+	cristberry: {
+		name: "Crist Berry",
+		desc: "A stone that Dribble can resonate with to access a new forme.",
+	},
 	crobatiumz: {
 		name: "Crobatium Z",
 		desc: "If held by a Crobat with Brave Bird, it can use Apex Airstream.",
@@ -1920,6 +1924,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	scizorite: {
 		name: "Scizorite",
 		desc: "If held by a Scizor, this item allows it to Mega Evolve in battle.",
+	},
+	sclerabrooch: {
+		name: "Sclera Brooch",
+		desc: "A stone that Deeva can resonate with to access a new forme.",
 	},
 	scopelens: {
 		name: "Scope Lens",

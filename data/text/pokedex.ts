@@ -32,6 +32,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	madnexadollyresonant: {
 		name: "Madne\u0301xa-Dolly-Resonant",
 	},
+	madnexadribble: {
+		name: "Madne\u0301xa-Dribble",
+	},
+	madnexadribbleresonant: {
+		name: "Madne\u0301xa-Dribble-Resonant",
+	},
 	sindle: {
 		name: "Sindle",
 	},
@@ -46,6 +52,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	altazash: {
 		name: "Altazash",
+	},
+	altazashdeeva: {
+		name: "Altazash-Deeva",
+	},
+	altazashdeevaresonant: {
+		name: "Altazash-Deeva-Resonant",
 	},
 	fofoam: {
 		name: "Fofoam",

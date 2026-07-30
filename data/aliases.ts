@@ -824,11 +824,23 @@ export const Aliases: {[alias: string]: string} = {
 	rhexa: "Madnexa-Hexa-Resonant",
 	reshexa: "Madnexa-Hexa-Resonant",
 
+	dribble: "Madnexa-Dribble",
+	dribbler: "Madnexa-Dribble-Resonant",
+	dribbleres: "Madnexa-Dribble-Resonant",
+	rdribble: "Madnexa-Dribble-Resonant",
+	resdribble: "Madnexa-Dribble-Resonant",
+
 	groveil: "Vaicora-Groveil",
 	groveilr: "Vaicora-Groveil-Resonant",
 	groveilres: "Vaicora-Groveil-Resonant",
 	rgroveil: "Vaicora-Groveil-Resonant",
 	resgroveil: "Vaicora-Groveil-Resonant",
+
+	deeva: "Altazash-Deeva",
+	deevar: "Altazash-Deeva-Resonant",
+	deevares: "Altazash-Deeva-Resonant",
+	rdeeva: "Altazash-Deeva-Resonant",
+	resdeeva: "Altazash-Deeva-Resonant",
 
 	paz: "Hytan-Paz",
 	pazr: "Hytan-Paz-Resonant",

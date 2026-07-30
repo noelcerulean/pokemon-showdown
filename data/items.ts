@@ -1344,6 +1344,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 7,
 		isNonstandard: "Past",
 	},
+	cristberry: {
+		name: "Crist Berry",
+		spritenum: 863,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Madne\u0301xa-Dribble') return false;
+			if (source.baseSpecies.name === 'Madne\u0301xa-Dribble-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Madne\u0301xa-Hexa-Dribble"],
+		num: -627,
+		gen: 7,
+	},
 	crobatiumz: {
 		name: "Crobatium Z",
 		spritenum: 852,
@@ -6537,6 +6549,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 670,
 		gen: 6,
 		isNonstandard: "Past",
+	},
+	sclerabrooch: {
+		name: "Sclera Brooch",
+		spritenum: 862,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Altazash-Deeva') return false;
+			if (source.baseSpecies.name === 'Altazash-Deeva-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Altazash-Deeva-Resonant"],
+		num: -626,
+		gen: 7,
 	},
 	scopelens: {
 		name: "Scope Lens",

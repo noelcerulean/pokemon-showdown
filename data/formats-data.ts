@@ -40,6 +40,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Uber",
 		doublesTier: "DUber",
 	},
+	madnexadribble: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	madnexadribbleresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	sindle: {
 		tier: "LC",
 	},
@@ -56,6 +64,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	altazash: {
 		tier: "UU",
+	},
+	altazashdeeva: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	altazashdeevaresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
 	},
 	fofoam: {
 		tier: "LC",
