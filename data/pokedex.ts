@@ -16911,8 +16911,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "trade",
 		eggGroups: ["Grass", "Amorphous"],
 		otherFormes: ["Trevenant-Mega"],
-		cosmeticFormes: ["Trevenant-Beach", "Trevenant-Withered"],
-		formeOrder: ["Trevenant", "Trevenant-Beach", "Trevenant-Withered", "Trevenant-Mega"],
+		cosmeticFormes: ["Trevenant-Beach", "Trevenant-TheWorld"],
+		formeOrder: ["Trevenant", "Trevenant-Beach", "Trevenant-TheWorld", "Trevenant-Mega"],
 	},
 	trevenantmega: {
 		num: 709,
