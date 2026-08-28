@@ -4273,6 +4273,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onStart(source) {
 			this.field.setWeather('sandstorm');
 		},
+		onImmunity(type, pokemon) {
+			if (type === 'sandstorm') return false;
+		},
 		name: "Sand Stream",
 		rating: 4,
 		num: 45,
@@ -5108,6 +5111,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	snowwarning: {
 		onStart(source) {
 			this.field.setWeather('hail');
+		},
+		onImmunity(type, pokemon) {
+			if (type === 'hail') return false;
 		},
 		name: "Snow Warning",
 		rating: 4,
