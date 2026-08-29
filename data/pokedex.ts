@@ -10530,7 +10530,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Vespiquen-Armored",
 		types: ["Bug", "Psychic"],
 		gender: "F",
-		baseStats: {hp: 76, atk: 70, def: 122, spa: 135, spd: 142, spe: 20},
+		baseStats: {hp: 76, atk: 70, def: 122, spa: 152, spd: 142, spe: 20},
 		abilities: {0: "Royal Guard", 1: "Neuroforce"},
 		heightm: 1.3,
 		weightkg: 88.4,
