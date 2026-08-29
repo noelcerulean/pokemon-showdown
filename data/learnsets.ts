@@ -65291,6 +65291,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			psychocut: ["7L1"],
 			psychoshift: ["7L1"],
 			psyshock: ["7M"],
+			psystrike: ["7L1"],
 			psywave: ["7L1"],
 			pursuit: ["7L9", "6L9", "5L15", "4L15"],
 			quash: ["7M", "6M", "5M"],

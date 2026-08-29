@@ -1748,7 +1748,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	mycromancer: {
 		randomBattleMoves: ["earthpower", "energyball", "moonblast", "spore", "synthesis"],
 		randomDoubleBattleMoves: ["earthpower", "energyball", "moonblast", "spore", "synthesis"],
-		tier: "UU",
+		tier: "UUBL",
 		doublesTier: "DUU",
 	},
 	bonsly: {
