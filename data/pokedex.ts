@@ -5936,6 +5936,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		prevo: "Pineco-Delta",
 		evoLevel: 31,
+		evos: ["Fusallate-Delta"],
 		eggGroups: ["Undiscovered"],
 	},
 	fusallate: {
@@ -11678,6 +11679,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseSpecies: "Porygon-Z",
 		forme: "Mega",
 		types: ["Normal"],
+		gender: "N",
 		baseStats: {hp: 85, atk: 81, def: 86, spa: 184, spd: 92, spe: 107},
 		abilities: {0: "Adaptability"},
 		heightm: 0.9,
