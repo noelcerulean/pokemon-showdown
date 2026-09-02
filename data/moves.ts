@@ -14364,7 +14364,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Passion Storm",
 		pp: 10,
 		priority: 0,
-		flags: {charge: 1, mirror: 1},
+		flags: {charge: 1, mirror: 1, protect: 1},
 		onTryMove(attacker, defender, move) {
 			if (attacker.removeVolatile(move.id)) {
 				return;
