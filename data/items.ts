@@ -1352,7 +1352,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (source.baseSpecies.name === 'Madne\u0301xa-Dribble-Resonant') return false;
 			return true;
 		},
-		itemUser: ["Madne\u0301xa-Hexa-Dribble"],
+		itemUser: ["Madne\u0301xa-Dribble-Resonant"],
 		num: -627,
 		gen: 7,
 	},
@@ -3104,7 +3104,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Frenzied Overgrowth",
 		zMoveFrom: "Frenzy Plant",
-		itemUser: ["Venusaur", "Venusaur-Sylvanos", "Venusaur-Magnolia", "Venustoise", "Meganium", "Meganium-Aniseed", "Sceptile", "Sceptile-Moscho", "Sceptile-White", "Torterra", "Serperior", "Chesnaught", "Decidueye", "Decidueye-Apollo", "Decidueye-Apollo-Toga", "Decidueye-Apollo-Pride", "Madne\u0301xa", "Madne\u0301xa-Dolly", "Madne\u0301xa-Dribble", "Madne\u0301xa-Hexa", "Rillaboom"],
+		itemUser: ["Venusaur", "Venusaur-Sylvanos", "Venusaur-Magnolia", "Venustoise", "Meganium", "Meganium-Aniseed", "Sceptile", "Sceptile-Moscho", "Sceptile-White", "Torterra", "Serperior", "Chesnaught", "Decidueye", "Decidueye-Apollo", "Decidueye-Apollo-Toga", "Decidueye-Apollo-Pride", "Madne\u0301xa", "Madne\u0301xa-Dolly", "Madne\u0301xa-Dribble", "Madne\u0301xa-Hexa", "Madne\u0301xa-Mianju", "Rillaboom"],
 		num: -582,
 		gen: 7,
 		isNonstandard: "Past",
@@ -4866,6 +4866,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 883,
 		gen: 7,
 	},
+	moltenfragment: {
+		name: "Molten Fragment",
+		spritenum: 864,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Altazash-Suneater') return false;
+			if (source.baseSpecies.name === 'Altazash-Suneater-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Altazash-Suneater"],
+		num: -628,
+		gen: 7,
+	},
 	moonball: {
 		name: "Moon Ball",
 		spritenum: 294,
@@ -4954,6 +4966,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 166,
 		gen: 3,
 		isNonstandard: "Past",
+	},
+	naturesrhythm: {
+		name: "Nature's Rhythm",
+		spritenum: 865,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Madne\u0301xa-Mianju') return false;
+			if (source.baseSpecies.name === 'Madne\u0301xa-Mianju-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Madne\u0301xa-Mianju-Resonant"],
+		num: -629,
+		gen: 7,
 	},
 	nestball: {
 		name: "Nest Ball",
@@ -6077,7 +6101,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Blazing Burnblast",
 		zMoveFrom: "Blast Burn",
-		itemUser: ["Charizard", "Typhlosion", "Typhlosion-Volc", "Typhlosion-Vesuvius", "Typhlosion-Vesuvius-Elden", "Blaziken", "Infernape", "Infernape-Witch", "Infernape-George", "Emboar", "Emboar-Dynamite", "Delphox", "Incineroar", "Incineroar-Pride", "Altazash", "Altazash-Deeva", "Cinderace"],
+		itemUser: ["Charizard", "Typhlosion", "Typhlosion-Volc", "Typhlosion-Vesuvius", "Typhlosion-Vesuvius-Elden", "Blaziken", "Infernape", "Infernape-Witch", "Infernape-George", "Emboar", "Emboar-Dynamite", "Delphox", "Incineroar", "Incineroar-Pride", "Altazash", "Altazash-Deeva", "Altazash-Suneater", "Cinderace"],
 		num: -581,
 		gen: 7,
 		isNonstandard: "Past",

@@ -744,6 +744,8 @@ export const Aliases: {[alias: string]: string} = {
 	bruxishvalentina: "Bruxish",
 	tsareenaaubrey: "Tsareena",
 	cofagrigusthemperor: "Cofagrigus",
+	cameruptpride: "Camerupt",
+	doubladepride: "Doublade",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",
@@ -824,6 +826,12 @@ export const Aliases: {[alias: string]: string} = {
 	rhexa: "Madnexa-Hexa-Resonant",
 	reshexa: "Madnexa-Hexa-Resonant",
 
+	mianju: "Madnexa-Mianju",
+	mianjur: "Madnexa-Mianju-Resonant",
+	mianjures: "Madnexa-Mianju-Resonant",
+	rmianju: "Madnexa-Mianju-Resonant",
+	resmianju: "Madnexa-Mianju-Resonant",
+
 	dribble: "Madnexa-Dribble",
 	dribbler: "Madnexa-Dribble-Resonant",
 	dribbleres: "Madnexa-Dribble-Resonant",
@@ -841,6 +849,12 @@ export const Aliases: {[alias: string]: string} = {
 	deevares: "Altazash-Deeva-Resonant",
 	rdeeva: "Altazash-Deeva-Resonant",
 	resdeeva: "Altazash-Deeva-Resonant",
+
+	suneater: "Altazash-Suneater",
+	suneaterr: "Altazash-Suneater-Resonant",
+	suneaterres: "Altazash-Suneater-Resonant",
+	rsuneater: "Altazash-Suneater-Resonant",
+	ressuneater: "Altazash-Suneater-Resonant",
 
 	paz: "Hytan-Paz",
 	pazr: "Hytan-Paz-Resonant",

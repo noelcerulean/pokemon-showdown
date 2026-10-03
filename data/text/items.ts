@@ -1419,6 +1419,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Misty Seed",
 		desc: "If the terrain is Misty Terrain, raises holder's Sp. Def by 1 stage. Single use.",
 	},
+	moltenfragment: {
+		name: "Molten Fragment",
+		desc: "A stone that Suneater can resonate with to access a new forme.",
+	},
 	moonball: {
 		name: "Moon Ball",
 		desc: "A Poke Ball for catching Pokemon that evolve using the Moon Stone.",
@@ -1450,6 +1454,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	nanabberry: {
 		name: "Nanab Berry",
 		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+	},
+	naturesrhythm: {
+		name: "Nature's Rhythm",
+		desc: "A stone that Mianju can resonate with to access a new forme.",
 	},
 	nestball: {
 		name: "Nest Ball",
