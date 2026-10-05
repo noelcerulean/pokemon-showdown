@@ -89,6 +89,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Uber",
 		doublesTier: "DUber",
 	},
+	altazashaurora: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	altazashauroraresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	fofoam: {
 		tier: "LC",
 	},

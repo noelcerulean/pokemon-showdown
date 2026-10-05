@@ -71,6 +71,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	altazashsuneaterresonant: {
 		name: "Altazash-Suneater-Resonant",
 	},
+	altazashaurora: {
+		name: "Altazash-Aurora",
+	},
+	altazashauroraresonant: {
+		name: "Altazash-Aurora-Resonant",
+	},
 	fofoam: {
 		name: "Fofoam",
 	},

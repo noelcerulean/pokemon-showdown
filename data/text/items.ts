@@ -2233,6 +2233,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		desc: "Armor developed by DoReMi for Teddiursa to enhance its battle capabilities.",
 		shortDesc: "Armor for Teddiursa created by DoReMi.",
 	},
+	temperatestone: {
+		name: "Temperate Stone",
+		desc: "A stone that Aurora can resonate with to access a new forme.",
+	},
 	terrainextender: {
 		name: "Terrain Extender",
 		desc: "Holder's use of Electric/Grassy/Misty/Psychic Terrain lasts 8 turns instead of 5.",

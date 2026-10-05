@@ -6101,7 +6101,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Blazing Burnblast",
 		zMoveFrom: "Blast Burn",
-		itemUser: ["Charizard", "Typhlosion", "Typhlosion-Volc", "Typhlosion-Vesuvius", "Typhlosion-Vesuvius-Elden", "Blaziken", "Infernape", "Infernape-Witch", "Infernape-George", "Emboar", "Emboar-Dynamite", "Delphox", "Incineroar", "Incineroar-Pride", "Altazash", "Altazash-Deeva", "Altazash-Suneater", "Cinderace"],
+		itemUser: ["Charizard", "Typhlosion", "Typhlosion-Volc", "Typhlosion-Vesuvius", "Typhlosion-Vesuvius-Elden", "Blaziken", "Infernape", "Infernape-Witch", "Infernape-George", "Emboar", "Emboar-Dynamite", "Delphox", "Incineroar", "Incineroar-Pride", "Altazash", "Altazash-Deeva", "Altazash-Suneater", "Altazash-Aurora", "Cinderace"],
 		num: -581,
 		gen: 7,
 		isNonstandard: "Past",
@@ -7539,6 +7539,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		itemUser: ["Teddiursa-Armored", "Teddiursa-Armored-Honeyed", "Teddiursa-Armored-Sailor"],
 		num: -539,
+		gen: 7,
+	},
+	temperatestone: {
+		name: "Temperate Stone",
+		spritenum: 866,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Altazash-Aurora') return false;
+			if (source.baseSpecies.name === 'Altazash-Aurora-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Altazash-Aurora-Resonant"],
+		num: -630,
 		gen: 7,
 	},
 	terrainextender: {
