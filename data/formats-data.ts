@@ -56,6 +56,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Uber",
 		doublesTier: "DUber",
 	},
+	madnexaseeds: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	madnexaseedsresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	sindle: {
 		tier: "LC",
 	},

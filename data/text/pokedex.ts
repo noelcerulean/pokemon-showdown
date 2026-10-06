@@ -44,6 +44,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	madnexamianjuresonant: {
 		name: "Madne\u0301xa-Mianju-Resonant",
 	},
+	madnexaseeds: {
+		name: "Madne\u0301xa-Seeds",
+	},
+	madnexaseedsresonant: {
+		name: "Madne\u0301xa-Seeds-Resonant",
+	},
 	sindle: {
 		name: "Sindle",
 	},

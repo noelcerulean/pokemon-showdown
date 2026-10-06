@@ -232,6 +232,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Burn Drive",
 		desc: "Holder's Techno Blast is Fire type.",
 	},
+	cagedmiracle: {
+		name: "Caged Miracle",
+		desc: "A stone that Seeds can resonate with to access a new forme.",
+	},
 	calmcandybar: {
 		name: "Calm Candy Bar",
 		desc: "Boosts the power of Darmanizen's/Darmanitan's special moves by 1.2x.",

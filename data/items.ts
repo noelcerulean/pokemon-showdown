@@ -826,6 +826,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 118,
 		gen: 5,
 	},
+	cagedmiracle: {
+		name: "Caged Miracle",
+		spritenum: 867,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Madne\u0301xa-Seeds') return false;
+			if (source.baseSpecies.name === 'Madne\u0301xa-Seeds-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Madne\u0301xa-Seeds-Resonant"],
+		num: -631,
+		gen: 7,
+	},
 	calmcandybar: {
 		name: "Calm Candy Bar",
 		spritenum: 376,
@@ -3104,7 +3116,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Frenzied Overgrowth",
 		zMoveFrom: "Frenzy Plant",
-		itemUser: ["Venusaur", "Venusaur-Sylvanos", "Venusaur-Magnolia", "Venustoise", "Meganium", "Meganium-Aniseed", "Sceptile", "Sceptile-Moscho", "Sceptile-White", "Torterra", "Serperior", "Chesnaught", "Decidueye", "Decidueye-Apollo", "Decidueye-Apollo-Toga", "Decidueye-Apollo-Pride", "Madne\u0301xa", "Madne\u0301xa-Dolly", "Madne\u0301xa-Dribble", "Madne\u0301xa-Hexa", "Madne\u0301xa-Mianju", "Rillaboom"],
+		itemUser: ["Venusaur", "Venusaur-Sylvanos", "Venusaur-Magnolia", "Venustoise", "Meganium", "Meganium-Aniseed", "Sceptile", "Sceptile-Moscho", "Sceptile-White", "Torterra", "Serperior", "Chesnaught", "Decidueye", "Decidueye-Apollo", "Decidueye-Apollo-Toga", "Decidueye-Apollo-Pride", "Madne\u0301xa", "Madne\u0301xa-Dolly", "Madne\u0301xa-Dribble", "Madne\u0301xa-Hexa", "Madne\u0301xa-Mianju", "Madne\u0301xa-Seeds", "Rillaboom"],
 		num: -582,
 		gen: 7,
 		isNonstandard: "Past",
@@ -4874,7 +4886,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (source.baseSpecies.name === 'Altazash-Suneater-Resonant') return false;
 			return true;
 		},
-		itemUser: ["Altazash-Suneater"],
+		itemUser: ["Altazash-Suneater-Resonant"],
 		num: -628,
 		gen: 7,
 	},

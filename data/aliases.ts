@@ -746,6 +746,7 @@ export const Aliases: {[alias: string]: string} = {
 	cofagrigusthemperor: "Cofagrigus",
 	cameruptpride: "Camerupt",
 	doubladepride: "Doublade",
+	tardinautsus: "Tardinaut",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",
@@ -837,6 +838,12 @@ export const Aliases: {[alias: string]: string} = {
 	dribbleres: "Madnexa-Dribble-Resonant",
 	rdribble: "Madnexa-Dribble-Resonant",
 	resdribble: "Madnexa-Dribble-Resonant",
+
+	seeds: "Madnexa-Seeds",
+	seedsr: "Madnexa-Seeds-Resonant",
+	seedsres: "Madnexa-Seeds-Resonant",
+	rseeds: "Madnexa-Seeds-Resonant",
+	resseeds: "Madnexa-Seeds-Resonant",
 
 	groveil: "Vaicora-Groveil",
 	groveilr: "Vaicora-Groveil-Resonant",
