@@ -5357,6 +5357,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 193,
 		gen: 4,
 	},
+	pearlofthefield: {
+		name: "Pearl of the Field",
+		spritenum: 868,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Lilaquin-Bloom') return false;
+			if (source.baseSpecies.name === 'Lilaquin-Bloom-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Lilaquin-Bloom-Resonant"],
+		num: -632,
+		gen: 7,
+	},
 	pechaberry: {
 		name: "Pecha Berry",
 		spritenum: 333,

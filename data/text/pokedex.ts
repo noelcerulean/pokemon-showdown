@@ -17,6 +17,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	lilaquinveraresonant: {
 		name: "Lilaquin-Vera-Resonant",
 	},
+	lilaquinbloom: {
+		name: "Lilaquin-Bloom",
+	},
+	lilaquinbloomresonant: {
+		name: "Lilaquin-Bloom-Resonant",
+	},
 	madnexa: {
 		name: "Madne\u0301xa",
 	},

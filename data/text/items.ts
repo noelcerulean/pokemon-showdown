@@ -1564,6 +1564,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Payapa Berry",
 		desc: "Halves damage taken from a supereffective Psychic-type attack. Single use.",
 	},
+	pearlofthefield: {
+		name: "Pearl of the Field",
+		desc: "A stone that Bloom can resonate with to access a new forme.",
+	},
 	pechaberry: {
 		name: "Pecha Berry",
 		desc: "Holder is cured if it is poisoned. Single use.",

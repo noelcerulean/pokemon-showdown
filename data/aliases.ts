@@ -790,7 +790,6 @@ export const Aliases: {[alias: string]: string} = {
 	lilaquindolly: "Lilaquin",
 	lilaquinhana: "Lilaquin",
 	lilaquinseeds: "Lilaquin",
-	lilaquinbloom: "Lilaquin",
 	lilaquinmianju: "Lilaquin",
 	lilaquinkim: "Lilaquin",
 	lilaquinveranecklace: "Lilaquin",
@@ -814,6 +813,12 @@ export const Aliases: {[alias: string]: string} = {
 	verares: "Lilaquin-Vera-Resonant",
 	rvera: "Lilaquin-Vera-Resonant",
 	resvera: "Lilaquin-Vera-Resonant",
+
+	bloom: "Lilaquin-Bloom",
+	bloomr: "Lilaquin-Bloom-Resonant",
+	bloomres: "Lilaquin-Bloom-Resonant",
+	rbloom: "Lilaquin-Bloom-Resonant",
+	resbloom: "Lilaquin-Bloom-Resonant",
 
 	dolly: "Madnexa-Dolly",
 	dollyr: "Madnexa-Dolly-Resonant",

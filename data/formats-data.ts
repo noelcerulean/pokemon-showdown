@@ -21,6 +21,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Uber",
 		doublesTier: "DUber",
 	},
+	lilaquinbloom: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	lilaquinbloomresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	madnexa: {
 		tier: "RU",
 	},

@@ -21,6 +21,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Uber",
 		doublesTier: "DUber",
 	},
+	lilaquinbloom: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	lilaquinbloomresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	madnexa: {
 		randomBattleMoves: ["hornleech", "knockoff", "spikes", "swordsdance", "synthesis"],
 		randomDoubleBattleMoves: ["hornleech", "knockoff", "protect", "swordsdance", "synthesis"],
