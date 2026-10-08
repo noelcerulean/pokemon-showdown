@@ -879,6 +879,7 @@ export const Aliases: {[alias: string]: string} = {
 	pazres: "Hytan-Paz-Resonant",
 	rpaz: "Hytan-Paz-Resonant",
 	respaz: "Hytan-Paz-Resonant",
+	hytanpazhoodie: "Hytan-Paz",
 
 	susie: "Hytan-Susie",
 	susier: "Hytan-Susie-Resonant",

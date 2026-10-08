@@ -480,6 +480,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Fofoam",
 		evoLevel: 16,
 		eggGroups: ["Water 1", "Field"],
+		cosmeticFormes: ["Hytan-Paz-Hoodie"],
+		formeOrder: ["Hytan-Paz", "Hytan-Paz-Hoodie"],
 	},
 	hytanpazresonant: {
 		num: -606,
