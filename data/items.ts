@@ -402,6 +402,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 640,
 		gen: 6,
 	},
+	ascendantstardiamond: {
+		name: "Ascendant Star Diamond",
+		spritenum: 869,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Fofoam-Astra') return false;
+			if (source.baseSpecies.name === 'Fofoam-Astra-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Fofoam-Astra-Resonant"],
+		num: -633,
+		gen: 7,
+	},
 	audinite: {
 		name: "Audinite",
 		spritenum: 617,

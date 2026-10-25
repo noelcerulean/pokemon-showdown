@@ -90,6 +90,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Armor Fossil",
 		desc: "Can be revived into Shieldon.",
 	},
+	ascendantstardiamond: {
+		name: "Ascendant Star Diamond",
+		desc: "A stone that Astra can resonate with to access a new forme.",
+	},
 	aspearberry: {
 		name: "Aspear Berry",
 		desc: "Holder is cured if it is frozen. Single use.",

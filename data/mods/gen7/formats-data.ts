@@ -122,6 +122,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	fofoam: {
 		tier: "LC",
 	},
+	fofoamastra: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	fofoamastraresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	hytan: {
 		tier: "NFE",
 	},

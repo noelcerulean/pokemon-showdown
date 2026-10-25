@@ -92,6 +92,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	fofoam: {
 		name: "Fofoam",
 	},
+	fofoamastra: {
+		name: "Fofoam-Astra",
+	},
+	fofoamastraresonant: {
+		name: "Fofoam-Astra-Resonant",
+	},
 	hytan: {
 		name: "Hytan",
 	},

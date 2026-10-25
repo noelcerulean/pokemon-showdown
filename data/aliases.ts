@@ -752,7 +752,6 @@ export const Aliases: {[alias: string]: string} = {
 	fofoamcarmalot: "Fofoam",
 	fofoamgort: "Fofoam",
 	fofoamriptide: "Fofoam",
-	fofoamastra: "Fofoam",
 	fofoamboba: "Fofoam",
 	fofoamsusie: "Fofoam",
 	fofoamastraarmthrust: "Fofoam",
@@ -873,6 +872,12 @@ export const Aliases: {[alias: string]: string} = {
 	aurorares: "Altazash-Aurora-Resonant",
 	raurora: "Altazash-Aurora-Resonant",
 	resaurora: "Altazash-Aurora-Resonant",
+
+	astra: "Fofoam-Astra",
+	astrar: "Fofoam-Astra-Resonant",
+	astrares: "Fofoam-Astra-Resonant",
+	rastra: "Fofoam-Astra-Resonant",
+	resastra: "Fofoam-Astra-Resonant",
 
 	paz: "Hytan-Paz",
 	pazr: "Hytan-Paz-Resonant",
