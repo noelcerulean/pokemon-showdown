@@ -3212,11 +3212,17 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	golett: {
 		name: "Golett",
 	},
+	golettfnf: {
+		name: "Golett-FnF",
+	},
 	golurk: {
 		name: "Golurk",
 	},
 	golurktitan: {
 		name: "Golurk-Titan",
+	},
+	golurkfnf: {
+		name: "Golurk-FnF",
 	},
 	pawniard: {
 		name: "Pawniard",

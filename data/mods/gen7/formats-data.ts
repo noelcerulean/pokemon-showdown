@@ -4805,6 +4805,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	golett: {
 		tier: "LC",
 	},
+	golettfnf: {
+		tier: "LC",
+	},
 	golurk: {
 		randomBattleMoves: ["dynamicpunch", "earthquake", "icepunch", "rockpolish", "shadowpunch", "stealthrock"],
 		randomDoubleBattleMoves: ["dynamicpunch", "earthquake", "icepunch", "protect", "rockpolish", "shadowpunch", "stoneedge"],
@@ -4814,6 +4817,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	golurktitan: {
 		tier: "Uber",
 		doublesTier: "DUber",
+	},
+	golurkfnf: {
+		randomBattleMoves: ["earthquake", "flareblitz", "onetwopunch", "rockpolish", "stealthrock"],
+		randomDoubleBattleMoves: ["earthquake", "flareblitz", "onetwopunch", "protect", "rockpolish"],
+		tier: "PU",
+		doublesTier: "(DUU)",
 	},
 	pawniard: {
 		tier: "LC",

@@ -5181,6 +5181,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	golett: {
 		tier: "LC",
 	},
+	golettfnf: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	golurk: {
 		randomBattleMoves: ["dynamicpunch", "earthquake", "poltergeist", "rockpolish", "stoneedge"],
 		randomBattleLevel: 82,
@@ -5191,6 +5195,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	golurktitan: {
 		tier: "Uber",
+	},
+	golurkfnf: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	pawniard: {
 		tier: "LC",
