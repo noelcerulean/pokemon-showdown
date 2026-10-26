@@ -192,7 +192,7 @@ export const Formats: FormatList = [
 		mod: 'gen7',
 		gameType: 'multi',
 		ruleset: [
-			'Max Team Size = 4',
+			'Max Team Size = 3',
 			'Obtainable', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Swagger Clause',
 		],
 	},
