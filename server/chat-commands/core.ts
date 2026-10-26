@@ -447,7 +447,7 @@ const avatarTable = new Set([
 	'tempo',
 	'thanu',
 	'theodore',
-	'thiago',
+	'thiago', 'thiago-2',
 	'thorton',
 	'tiana', 'tiana-2', 'tiana-hero', 'tiana-hero-2', 'tiana-hero-3', 'tiana-hero-4', 'tiana-hero-5', 'tiana-hero-6', 'tiana-hero-7', 'tiana-hero-8',
 	'triathletebikerf-gen3',
