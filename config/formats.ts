@@ -202,8 +202,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		gameType: 'freeforall',
-		ruleset: ['Standard Doubles', 'Swagger Clause'],
-		banlist: ['Eevium Z'],
+		ruleset: ['Obtainable', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Swagger Clause',],
 	},
 	{
 		name: "[Gen 7] Story",

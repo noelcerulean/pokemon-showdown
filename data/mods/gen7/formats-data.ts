@@ -4541,6 +4541,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	vanillish: {
 		tier: "NFE",
 	},
+	vanillee: {
+		randomBattleMoves: ["earthquake", "iciclecrash", "knockoff", "rapidspin", "spikes", "synthesis", "uturn"],
+		randomDoubleBattleMoves: ["earthquake", "iceshard", "iciclecrash", "knockoff", "protect", "synthesis"],
+		tier: "PU",
+		doublesTier: "(DUU)",
+	},
 	vanillishfnf: {
 		tier: "NFE",
 	},

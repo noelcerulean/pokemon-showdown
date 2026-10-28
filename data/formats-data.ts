@@ -4892,6 +4892,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	vanillish: {
 		tier: "NFE",
 	},
+	vanillee: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	vanillishfnf: {
 		tier: "NFE",
 	},

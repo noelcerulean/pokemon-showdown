@@ -3038,6 +3038,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	vanillish: {
 		name: "Vanillish",
 	},
+	vanillee: {
+		name: "Vanillee",
+	},
 	vanillishfnf: {
 		name: "Vanillish-FnF",
 	},
