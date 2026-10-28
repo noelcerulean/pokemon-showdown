@@ -2201,28 +2201,29 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		onModifyAtkPriority: 2,
 		onModifyAtk(atk, pokemon) {
-			if (pokemon.baseSpecies.baseSpecies === 'Medipom') {
+			if (pokemon.baseSpecies.num === -517 || pokemon.baseSpecies.num === -626) {
 				return this.chainModify(1.5);
 			}
 		},
 		onModifySpAPriority: 2,
 		onModifySpA(spa, pokemon) {
-			if (pokemon.baseSpecies.baseSpecies === 'Medipom') {
+			if (pokemon.baseSpecies.num === -517 || pokemon.baseSpecies.num === -626) {
 				return this.chainModify(1.5);
 			}
 		},
 		onModifyDefPriority: 2,
 		onModifyDef(def, pokemon) {
-			if (pokemon.baseSpecies.baseSpecies === 'Medipom') {
+			if (pokemon.baseSpecies.num === -517 || pokemon.baseSpecies.num === -626) {
 				return this.chainModify(1.5);
 			}
 		},
 		onModifySpDPriority: 2,
 		onModifySpD(spd, pokemon) {
-			if (pokemon.baseSpecies.baseSpecies === 'Medipom') {
+			if (pokemon.baseSpecies.num === -517 || pokemon.baseSpecies.num === -626) {
 				return this.chainModify(1.5);
 			}
 		},
+		itemUser: ["Medipom", "Vanillee"],
 		num: -596,
 		gen: 5,
 	},
