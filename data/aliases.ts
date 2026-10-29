@@ -747,6 +747,7 @@ export const Aliases: {[alias: string]: string} = {
 	cameruptpride: "Camerupt",
 	doubladepride: "Doublade",
 	tardinautsus: "Tardinaut",
+	gengardeath: "Gengar",
 
 	fofoampaz: "Fofoam",
 	fofoamcarmalot: "Fofoam",

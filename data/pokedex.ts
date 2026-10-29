@@ -3110,8 +3110,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "trade",
 		eggGroups: ["Amorphous"],
 		otherFormes: ["Gengar-Mega"],
-		cosmeticFormes: ["Gengar-Hallows", "Gengar-Eve", "Gengar-Clef"],
-		formeOrder: ["Gengar", "Gengar-Hallows", "Gengar-Eve", "Gengar-Clef", "Gengar-Mega"],
+		cosmeticFormes: ["Gengar-Hallows", "Gengar-Eve", "Gengar-Clef", "Gengar-Death"],
+		formeOrder: ["Gengar", "Gengar-Hallows", "Gengar-Eve", "Gengar-Clef", "Gengar-Death", "Gengar-Mega"],
 		canGigantamax: "G-Max Terror",
 	},
 	gengarmega: {
