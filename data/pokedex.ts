@@ -18023,7 +18023,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 747,
 		name: "Mareanie",
 		types: ["Poison", "Water"],
-		baseStats: {hp: 50, atk: 53, def: 62, spa: 43, spd: 52, spe: 45},
+		baseStats: {hp: 50, atk: 53, def: 67, spa: 53, spd: 57, spe: 45},
 		abilities: {0: "Merciless", 1: "Limber", H: "Regenerator"},
 		heightm: 0.4,
 		weightkg: 8,
