@@ -1897,6 +1897,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	misdreavus: {
 		tier: "NFE",
 	},
+	misdreanie: {
+		randomBattleMoves: ["banefulbunker", "hex", "knockoff", "recover", "shadowball", "surf", "taunt", "toxicspikes", "willowisp"],
+		randomDoubleBattleMoves: ["banefulbunker", "hex", "knockoff", "recover", "shadowball", "surf", "taunt", "willowisp"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	mismagius: {
 		randomBattleMoves: ["destinybond", "moonblast", "nastyplot", "painsplit", "shadowball", "substitute", "taunt", "thunderbolt", "willowisp"],
 		randomDoubleBattleMoves: ["dazzlinggleam", "nastyplot", "protect", "shadowball", "taunt", "thunderbolt", "willowisp"],
@@ -5474,6 +5480,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["dracometeor", "dragonpulse", "dragontail", "earthquake", "fireblast", "hypervoice", "return", "thunderbolt"],
 		randomDoubleBattleMoves: ["dracometeor", "dragonpulse", "fireblast", "hypervoice", "muddywater", "powerwhip", "protect", "return", "thunderbolt"],
 		tier: "OU",
+		doublesTier: "(DUU)",
+	},
+	octoodra: {
+		randomBattleMoves: ["dracometeor", "dragontail", "fireblast", "recover", "scald", "sludgebomb", "toxic"],
+		randomDoubleBattleMoves: ["dracometeor", "dragontail", "fireblast", "protect", "recover", "scald", "sludgebomb"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	klefki: {

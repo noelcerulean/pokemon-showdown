@@ -2216,6 +2216,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	misdreanie: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	mismagius: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -5857,6 +5861,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	goodramega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	octoodra: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},

@@ -1205,6 +1205,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	misdreavus: {
 		name: "Misdreavus",
 	},
+	misdreanie: {
+		name: "Misdreanie",
+	},
 	kurstraw: {
 		name: "Kurstraw",
 	},
@@ -3631,6 +3634,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	goodramega: {
 		name: "Goodra-Mega",
+	},
+	octoodra: {
+		name: "Octoodra",
 	},
 	klefki: {
 		name: "Klefki",
