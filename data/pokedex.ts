@@ -8823,7 +8823,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Cacnea",
 		types: ["Grass"],
 		baseStats: {hp: 55, atk: 90, def: 50, spa: 90, spd: 50, spe: 45},
-		abilities: {0: "Rough Skin", 1: "Stakeout", H: "Water Absorb"},
+		abilities: {0: "Rough Skin", 1: "Sand Veil", H: "Water Absorb"},
 		heightm: 0.4,
 		weightkg: 51.3,
 		color: "Green",
