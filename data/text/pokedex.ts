@@ -1871,6 +1871,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	cacnea: {
 		name: "Cacnea",
 	},
+	cacnedon: {
+		name: "Cacnedon",
+	},
 	cacturne: {
 		name: "Cacturne",
 	},
@@ -1885,6 +1888,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	zangoose: {
 		name: "Zangoose",
+	},
+	zangyros: {
+		name: "Zangyros",
 	},
 	seviper: {
 		name: "Seviper",
@@ -2689,6 +2695,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	pignite: {
 		name: "Pignite",
+	},
+	pignipuff: {
+		name: "Pignipuff",
 	},
 	emboar: {
 		name: "Emboar",

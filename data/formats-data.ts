@@ -3223,6 +3223,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	cacnedon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	cacturne: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -3243,6 +3247,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	zangoose: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	zangyros: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -4309,6 +4317,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	pignite: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	pignipuff: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},

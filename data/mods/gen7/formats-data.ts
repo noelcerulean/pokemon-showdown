@@ -2938,6 +2938,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	cacnea: {
 		tier: "LC",
 	},
+	cacnedon: {
+		randomBattleMoves: ["earthquake", "knockoff", "rockpolish", "seedbomb", "spikes", "stoneedge", "stealthrock"],
+		randomDoubleBattleMoves: ["earthquake", "knockoff", "rockpolish", "rockslide", "seedbomb", "spikes", "spikyshield", "stealthrock"],
+		tier: "NU",
+		doublesTier: "(DUU)",
+	},
 	cacturne: {
 		randomBattleMoves: ["darkpulse", "drainpunch", "focusblast", "gigadrain", "knockoff", "seedbomb", "spikes", "suckerpunch", "swordsdance"],
 		randomDoubleBattleMoves: ["drainpunch", "knockoff", "seedbomb", "spikyshield", "substitute", "suckerpunch", "swordsdance"],
@@ -2963,6 +2969,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["closecombat", "facade", "knockoff", "quickattack", "swordsdance"],
 		randomDoubleBattleMoves: ["closecombat", "facade", "knockoff", "protect", "quickattack"],
 		tier: "OU",
+		doublesTier: "(DUU)",
+	},
+	zangyros: {
+		randomBattleMoves: ["closecombat", "doubleedge", "knockoff", "quickattack", "swordsdance"],
+		randomDoubleBattleMoves: ["closecombat", "doubleedge", "knockoff", "protect", "quickattack"],
+		tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	seviper: {
@@ -4043,6 +4055,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	pignite: {
 		tier: "NFE",
+	},
+	pignipuff: {
+		randomBattleMoves: ["flareblitz", "healbell", "playrough", "slackoff", "stealthrock", "submission", "willowisp"],
+		randomDoubleBattleMoves: ["flareblitz", "playrough", "protect", "slackoff", "submission", "willowisp"],
+		tier: "NU",
+		doublesTier: "(DUU)",
 	},
 	emboar: {
 		randomBattleMoves: ["fireblast", "flareblitz", "grassknot", "headsmash", "slackoff", "submission", "suckerpunch", "superpower", "wildcharge"],
