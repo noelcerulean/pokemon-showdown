@@ -2267,6 +2267,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	joltiostorm: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	mindow: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -5242,6 +5246,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	rufflet: {
 		tier: "NFE",
 	},
+	ruffard: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	braviary: {
 		randomBattleMoves: ["bravebird", "bulkup", "closecombat", "retaliate", "roost", "uturn"],
 		randomBattleLevel: 82,
@@ -6285,6 +6293,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "NU",
 		doublesTier: "(DUU)",
+	},
+	salountales: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	stufful: {
 		tier: "LC",

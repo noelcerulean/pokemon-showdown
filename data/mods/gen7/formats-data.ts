@@ -1956,7 +1956,16 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	marelstorm: {
+		randomBattleMoves: ["aquajet", "lightninglance", "swordsdance", "voltswitch", "waterfall"],
+		randomDoubleBattleMoves: ["aquajet", "lightninglance", "protect", "swordsdance", "waterfall"],
 		tier: "OU",
+		doublesTier: "(DUU)",
+	},
+	joltiostorm: {
+		randomBattleMoves: ["icebeam", "paraboliccharge", "surf", "thunderbolt", "voltswitch"],
+		randomDoubleBattleMoves: ["icebeam", "paraboliccharge", "protect", "surf", "thunderbolt", "voltswitch"],
+		tier: "RU",
+		doublesTier: "(DUU)",
 	},
 	mindow: {
 		tier: "LC",
@@ -2974,7 +2983,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	zangyros: {
 		randomBattleMoves: ["closecombat", "doubleedge", "knockoff", "quickattack", "swordsdance"],
 		randomDoubleBattleMoves: ["closecombat", "doubleedge", "knockoff", "protect", "quickattack"],
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	seviper: {
@@ -4872,6 +4881,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	rufflet: {
 		tier: "LC",
 	},
+	ruffard: {
+		randomBattleMoves: ["bravebird", "closecombat", "defog", "ironjaw", "roost", "swordsdance", "uturn"],
+		randomDoubleBattleMoves: ["bravebird", "closecombat", "ironjaw", "protect", "swordsdance"],
+		tier: "NU",
+		doublesTier: "(DUU)",
+	},
 	braviary: {
 		randomBattleMoves: ["bravebird", "bulkup", "closecombat", "return", "roost", "substitute", "uturn"],
 		randomDoubleBattleMoves: ["bravebird", "closecombat", "protect", "return", "skydrop", "tailwind", "uturn"],
@@ -5884,6 +5899,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["fireblast", "hiddenpowergrass", "nastyplot", "sludgewave"],
 		randomDoubleBattleMoves: ["encore", "fakeout", "flamethrower", "hiddenpowergrass", "hiddenpowerground", "protect", "sludgebomb", "taunt"],
 		tier: "UU",
+		doublesTier: "(DUU)",
+	},
+	salountales: {
+		randomBattleMoves: ["dazzlinggleam", "energyball", "fireblast", "hiddenpowerground", "nastyplot", "taunt"],
+		randomDoubleBattleMoves: ["dazzlinggleam", "energyball", "fireblast", "heatwave", "hiddenpowerground", "nastyplot", "protect", "taunt"],
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	stufful: {

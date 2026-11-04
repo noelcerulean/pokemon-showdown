@@ -1241,6 +1241,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	marelstorm: {
 		name: "Marelstorm",
 	},
+	joltiostorm: {
+		name: "Joltiostorm",
+	},
 	mindow: {
 		name: "Mindow",
 	},
@@ -3251,6 +3254,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	rufflet: {
 		name: "Rufflet",
 	},
+	ruffard: {
+		name: "Ruffard",
+	},
 	braviary: {
 		name: "Braviary",
 	},
@@ -3889,6 +3895,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	salazzle: {
 		name: "Salazzle",
+	},
+	salountales: {
+		name: "Salountales",
 	},
 	stufful: {
 		name: "Stufful",
