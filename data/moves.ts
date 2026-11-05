@@ -24442,7 +24442,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 95,
 		basePower: 100,
 		category: "Special",
-		name: "Tri Attack",
+		name: "Triclone",
 		pp: 5,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
