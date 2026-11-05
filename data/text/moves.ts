@@ -353,6 +353,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon making contact with the user become poisoned. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Protect, Quick Guard, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
 		},
 	},
+	barbedblow: {
+		name: "Barbed Blow",
+		desc: "Has a 10% chance to lower the target's Defense by 1 stage.",
+		shortDesc: "10% chance to lower the target's Def by 1.",
+	},
 	barrage: {
 		name: "Barrage",
 		desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
@@ -7697,6 +7702,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "No additional effect.",
 			shortDesc: "No additional effect.",
 		},
+	},
+	triclone: {
+		name: "Triclone",
+		desc: "Has a 50% chance to either burn, freeze, or paralyze the target.",
+		shortDesc: "50% chance to paralyze or burn or freeze target.",
 	},
 	trick: {
 		name: "Trick",

@@ -1567,6 +1567,7 @@ export const Aliases: {[alias: string]: string} = {
 	beeheaveground: "Beeheave-Drill",
 	nova: "Novarizon",
 	tnaut: "Tardinaut",
+	thufizer: "Zapmolcuno",
 
 	// armored
 	vespa: "Vespiquen-Armored",
@@ -1648,6 +1649,10 @@ export const Aliases: {[alias: string]: string} = {
 	dailord: "Wailord-Delta",
 	amaurad: "Amaura-Delta",
 	aurorusd: "Aurorus-Delta",
+	aipomd: "Aipom-Delta",
+	ambipomd: "Ambipom-Delta",
+	krabbyd: "Krabby-Delta",
+	kinglerd: "Kingler-Delta",
 
 	dcranidos: "Cranidos-Delta",
 	drampardos: "Rampardos-Delta",
@@ -1687,6 +1692,10 @@ export const Aliases: {[alias: string]: string} = {
 	dwailord: "Wailord-Delta",
 	damaura: "Amaura-Delta",
 	daurorus: "Aurorus-Delta",
+	daipom: "Aipom-Delta",
+	dambipom: "Ambipom-Delta",
+	dkrabby: "Krabby-Delta",
+	dkingler: "Kingler-Delta",
 
 	// paradox names
 	ironfriend: "Robodachi",

@@ -1188,6 +1188,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {def: 1}},
 		contestType: "Tough",
 	},
+	barbedblow: {
+		num: -631,
+		accuracy: 70,
+		basePower: 120,
+		category: "Physical",
+		name: "Barbed Blow",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 10,
+			boosts: {
+				def: -1,
+			},
+		},
+		target: "normal",
+		type: "Steel",
+		contestType: "Tough",
+	},
 	barrage: {
 		num: 140,
 		accuracy: 100,
@@ -24416,6 +24435,32 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		target: "normal",
 		type: "Normal",
+		contestType: "Beautiful",
+	},
+	triclone: {
+		num: -630,
+		accuracy: 95,
+		basePower: 100,
+		category: "Special",
+		name: "Tri Attack",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 50,
+			onHit(target, source) {
+				const result = this.random(3);
+				if (result === 0) {
+					target.trySetStatus('brn', source);
+				} else if (result === 1) {
+					target.trySetStatus('par', source);
+				} else {
+					target.trySetStatus('frz', source);
+				}
+			},
+		},
+		target: "normal",
+		type: "Flying",
 		contestType: "Beautiful",
 	},
 	trick: {

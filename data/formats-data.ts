@@ -1171,6 +1171,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	krabby: {
 		tier: "LC",
 	},
+	krabbydelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	kingler: {
 		randomBattleMoves: ["agility", "liquidation", "rockslide", "superpower", "swordsdance", "xscissor"],
 		randomBattleLevel: 84,
@@ -1178,6 +1182,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 86,
 		tier: "PUBL",
 		doublesTier: "(DUU)",
+	},
+	kinglerdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	kinglergmax: {
 		randomDoubleBattleMoves: ["knockoff", "liquidation", "protect", "superpower", "xscissor"],
@@ -1858,6 +1866,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UUBL",
 		doublesTier: "DUU",
 	},
+	zapmolcuno: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	dratini: {
 		tier: "LC",
 	},
@@ -2152,11 +2164,19 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	aipomdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	medipom: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
 	ambipom: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	ambipomdelta: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -3413,6 +3433,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 84,
 		tier: "NFE",
 		doublesTier: "DUU",
+	},
+	silclops: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	dusknoir: {
 		randomBattleMoves: ["earthquake", "icepunch", "painsplit", "poltergeist", "shadowsneak", "trick", "willowisp"],
@@ -5181,6 +5205,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 84,
 		tier: "UUBL",
 		doublesTier: "(DUU)",
+	},
+	yanshao: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	druddigon: {
 		randomBattleMoves: ["earthquake", "glare", "outrage", "stealthrock", "suckerpunch", "superpower"],

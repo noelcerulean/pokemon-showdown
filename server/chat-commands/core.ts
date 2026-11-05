@@ -439,6 +439,7 @@ const avatarTable = new Set([
 	'tara-and-izar-event',
 	'tateandliza-gen3',
 	'tate',
+	'tatia',
 	'teacher-gen2', 'teacher',
 	'teamaquabeta-gen3',
 	'teamaquagruntf-gen3',

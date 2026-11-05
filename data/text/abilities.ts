@@ -2138,6 +2138,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Triage",
 		shortDesc: "This Pokemon's healing moves have their priority increased by 1.",
 	},
+	triumviravis: {
+		name: "Triumviravis",
+		desc: "If a Pokemon uses a Fire-, Electric-, or Ice-type attack against this Pokemon, that Pokemon's attacking stat is halved when calculating the damage to this Pokemon. This Pokemon gains +1 in a random stat after using a damaging Flying move, not including accuracy or evasion.",
+		shortDesc: "Halves Fire/Electric/Ice vs. this Pokemon; Its Flying moves boost a random stat by 1.",
+	},
 	truant: {
 		name: "Truant",
 		shortDesc: "When above 2/3rds HP, skips every other turn instead of using a move.",

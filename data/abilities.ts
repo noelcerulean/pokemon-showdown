@@ -5974,6 +5974,46 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 205,
 	},
+	triumviravis: {
+		onSourceModifyAtkPriority: 6,
+		onSourceModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Ice' || move.type === 'Fire' || move.type === 'Electric') {
+				this.debug('Thick Fat weaken');
+				return this.chainModify(0.5);
+			}
+		},
+		onSourceModifySpAPriority: 5,
+		onSourceModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Ice' || move.type === 'Fire' || move.type === 'Electric') {
+				this.debug('Thick Fat weaken');
+				return this.chainModify(0.5);
+			}
+		},
+		onAfterMoveSecondarySelf(source, target, move) {
+			const type = move.type;
+			if (move.type === 'Flying' && move.category !== 'Status') {
+				const stats: BoostID[] = [];
+				let stat: BoostID;
+				for (stat in target.boosts) {
+					if (stat !== 'accuracy' && stat !== 'evasion' && target.boosts[stat] < 6) {
+						stats.push(stat);
+					}
+				}
+				if (stats.length) {
+					const randomStat = this.sample(stats);
+					const boost: SparseBoostsTable = {};
+					boost[randomStat] = 1;
+					this.boost(boost);
+				} else {
+					return false;
+				}
+			}
+		},
+		isBreakable: true,
+		name: "Triumviravis",
+		rating: 4.5,
+		num: -596,
+	},
 	truant: {
 		onStart(pokemon) {
 			pokemon.removeVolatile('truant');

@@ -674,8 +674,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	krabby: {
 		name: "Krabby",
 	},
+	krabbydelta: {
+		name: "Krabby-Delta",
+	},
 	kingler: {
 		name: "Kingler",
+	},
+	kinglerdelta: {
+		name: "Kingler-Delta",
 	},
 	kinglergmax: {
 		name: "Kingler-Gmax",
@@ -932,6 +938,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	moltresthermo: {
 		name: "Moltres-Thermo",
 	},
+	zapmolcuno: {
+		name: "Zapmolcuno",
+	},
 	dratini: {
 		name: "Dratini",
 	},
@@ -1159,6 +1168,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	aipom: {
 		name: "Aipom",
+	},
+	aipomdelta: {
+		name: "Aipom-Delta",
 	},
 	medipom: {
 		name: "Medipom",
@@ -2015,6 +2027,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	dusclops: {
 		name: "Dusclops",
 	},
+	silclops: {
+		name: "Silclops",
+	},
 	tropetite: {
 		name: "Tropetite",
 	},
@@ -2329,6 +2344,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	ambipom: {
 		name: "Ambipom",
+	},
+	ambipomdelta: {
+		name: "Ambipom-Delta",
 	},
 	drifloon: {
 		name: "Drifloon",
@@ -3214,6 +3232,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	mienshao: {
 		name: "Mienshao",
+	},
+	yanshao: {
+		name: "Yanshao",
 	},
 	druddigon: {
 		name: "Druddigon",
