@@ -2253,6 +2253,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Terrain Extender",
 		desc: "Holder's use of Electric/Grassy/Misty/Psychic Terrain lasts 8 turns instead of 5.",
 	},
+	theforestscurse: {
+		name: "The Forest's Curse",
+		desc: "A stone that Hana can resonate with to access a new forme.",
+	},
 	thickclub: {
 		name: "Thick Club",
 		desc: "If held by a Cubone or a Marowak, its Attack is doubled.",

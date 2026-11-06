@@ -67,6 +67,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Uber",
 		doublesTier: "DUber",
 	},
+	madnexahana: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	madnexahanaresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	madnexaseeds: {
 		tier: "Uber",
 		doublesTier: "DUber",

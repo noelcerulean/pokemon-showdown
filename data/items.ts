@@ -3129,7 +3129,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Frenzied Overgrowth",
 		zMoveFrom: "Frenzy Plant",
-		itemUser: ["Venusaur", "Venusaur-Sylvanos", "Venusaur-Magnolia", "Venustoise", "Meganium", "Meganium-Aniseed", "Sceptile", "Sceptile-Moscho", "Sceptile-White", "Torterra", "Serperior", "Chesnaught", "Decidueye", "Decidueye-Apollo", "Decidueye-Apollo-Toga", "Decidueye-Apollo-Pride", "Madne\u0301xa", "Madne\u0301xa-Dolly", "Madne\u0301xa-Dribble", "Madne\u0301xa-Hexa", "Madne\u0301xa-Mianju", "Madne\u0301xa-Seeds", "Rillaboom"],
+		itemUser: ["Venusaur", "Venusaur-Sylvanos", "Venusaur-Magnolia", "Venustoise", "Meganium", "Meganium-Aniseed", "Sceptile", "Sceptile-Moscho", "Sceptile-White", "Torterra", "Serperior", "Chesnaught", "Decidueye", "Decidueye-Apollo", "Decidueye-Apollo-Toga", "Decidueye-Apollo-Pride", "Madne\u0301xa", "Madne\u0301xa-Dolly", "Madne\u0301xa-Dribble", "Madne\u0301xa-Hexa", "Madne\u0301xa-Mianju", "Madne\u0301xa-Seeds", "Madne\u0301xa-Hana", "Rillaboom"],
 		num: -582,
 		gen: 7,
 		isNonstandard: "Past",
@@ -7597,6 +7597,18 @@ export const Items: {[itemid: string]: ItemData} = {
 			basePower: 60,
 		},
 		num: 879,
+		gen: 7,
+	},
+	theforestscurse: {
+		name: "The Forest's Curse",
+		spritenum: 870,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Madne\u0301xa-Hana') return false;
+			if (source.baseSpecies.name === 'Madne\u0301xa-Hana-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Madne\u0301xa-Hana-Resonant"],
+		num: -634,
 		gen: 7,
 	},
 	thickclub: {
