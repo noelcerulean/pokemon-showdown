@@ -2394,6 +2394,13 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Power doubles if the last move used by any Pokemon this turn was Fusion Flare.",
 		shortDesc: "Power doubles if used after Fusion Flare this turn.",
 	},
+	fusionfamilyreunion: {
+		name: "Fusion Family Reunion",
+		desc: "All the fusions are friends and are happy to hang out together! Just like them, I'm happy that you're playing FnF Showdown! Thanks for enjoying FnF Showdown! Feel free to use this move to filter for fusion in the Teambuilder!",
+		shortDesc: "Filter with this move to find fusions!",
+
+		activate: "  [POKEMON] is happy to be with friends!",
+	},
 	fusionflare: {
 		name: "Fusion Flare",
 		desc: "Power doubles if the last move used by any Pokemon this turn was Fusion Bolt.",

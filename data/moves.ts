@@ -6899,6 +6899,24 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Cool",
 	},
+	fusionfamilyreunion: {
+		num: -632,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Fusion Family Reunion",
+		pp: 30,
+		priority: 0,
+		flags: {},
+		onUseMoveMessage(pokemon, move) {
+			this.add('-activate', pokemon, 'move: Fusion Family Reunion');
+		},
+		secondary: null,
+		target: "all",
+		type: "Normal",
+		zMove: {effect: 'clearnegativeboost'},
+		contestType: "Cute",
+	},
 	fusionflare: {
 		num: 558,
 		accuracy: 100,
