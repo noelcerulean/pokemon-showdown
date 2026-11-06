@@ -5469,6 +5469,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	venustoise: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			amnesia: ["8M", "7L1", "6L1", "5L1", "4L1"],
 			aquajet: ["8L1", "7L1", "6L1", "5L1", "4L1"],
 			aquaring: ["8L1", "7L1", "6L1", "5L1", "4L1"],
@@ -5742,6 +5743,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	flymolcky: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			absorb: ["7L1"],
 			acid: ["7L23"],
 			acidspray: ["7L21"],
@@ -10685,6 +10687,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	clefgar: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			afteryou: ["8L12", "7T", "7L58", "6T", "6L1", "5T", "5L52"],
 			allyswitch: ["8M", "7T"],
 			amnesia: ["8M", "7L1", "6L1", "5L1", "4L1", "3L1"],
@@ -14860,6 +14863,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	arctric: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			agility: ["8M", "8L20", "8L2", "7L30", "6L30", "5L42", "4L39", "3L43"],
 			attract: ["8M", "7M", "7L2", "6M", "5M", "4M", "3M"],
@@ -31434,6 +31438,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zapmolcuno: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			agility: ["8M", "8L20", "7L43", "6L43", "5L43", "4L43", "3L25"],
 			aircutter: ["7L3", "4T"],
@@ -36528,6 +36533,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	warpharos: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			afteryou: ["7T", "6T", "5T"],
 			agility: ["7L1", "6L1", "5L1"],
 			attract: ["7M", "6M", "5M", "4M", "3M"],
@@ -37823,6 +37829,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	medipom: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			acrobatics: ["7M", "6M", "5M"],
 			acupressure: ["7L33", "6L33", "5L39"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -39268,6 +39275,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	misdreanie: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			afteryou: ["7T"],
 			allyswitch: ["7T"],
@@ -40468,6 +40476,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	joltiostorm: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			aerialace: ["7M"],
 			agility: ["8M", "8L45", "7L29", "6L29", "5L64", "4L64", "3L47"],
 			allyswitch: ["8M", "7T"],
@@ -52471,6 +52480,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gravking: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			afteryou: ["7T", "6T", "5T"],
 			aggregate: ["7L1", "6L1"],
@@ -53995,6 +54005,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sablechamp: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			allyswitch: ["8M", "7T"],
 			assurance: ["8M"],
@@ -57863,6 +57874,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cacnedon: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			absorb: ["7L4", "6L4", "5L5", "4L5", "3L5"],
 			acid: ["7L1", "6L1", "5L1", "4L1", "3L1"],
 			ancientpower: ["7L4", "4T"],
@@ -58454,6 +58466,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zangyros: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			assurance: ["8M", "8L15"],
 			attract: ["8M", "7M", "7L2", "6M", "5M", "4M", "3M"],
@@ -61228,6 +61241,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	silclops: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			allyswitch: ["8M", "7T"],
 			astonish: ["8L1", "7L1", "6L1", "5L14", "4L14", "3L16"],
 			attract: ["8M", "7M", "6M", "5M", "4M", "3M"],
@@ -68833,6 +68847,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	drifnofnf: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
 			agility: ["7L41"],
 			aircutter: ["4T"],
@@ -73922,6 +73937,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pignipuff: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			allyswitch: ["8M", "7T"],
 			armthrust: ["7L1", "6L17", "5L17"],
 			assurance: ["7L31", "6L31", "5L31"],
@@ -81925,6 +81941,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gothigearna: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			afteryou: ["7T"],
 			agility: ["8M"],
 			allyswitch: ["8M", "7T"],
@@ -82719,6 +82736,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	vanillee: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			acidarmor: ["8L32", "7L31", "6L31", "5L31"],
 			acupressure: ["8L1", "7L1"],
 			allyswitch: ["8M", "7T"],
@@ -86612,6 +86630,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	yanshao: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			agility: ["8M"],
@@ -87819,6 +87838,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ruffard: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			agility: ["8M"],
 			airslash: ["8M", "8L55", "7L41", "6L41", "5L41"],
@@ -90165,6 +90185,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	omniverum: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			ancientpower: ["8L1", "7L15", "6L15", "5L15"],
 			blizzard: ["8M", "8L56", "7M", "7L78", "6M", "6L78", "5M", "5L78"],
 			blueflare: ["8L88", "7L100", "6L100", "5L100"],
@@ -94712,6 +94733,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	aromacosta: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			afteryou: ["8L1", "7T", "6T"],
 			allurediffusion: ["7L1"],
 			allyswitch: ["8M", "7T"],
@@ -97545,6 +97567,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	octoodra: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			absorb: ["8L1", "7L1", "6L5"],
 			acidspray: ["8L1", "7L1", "6L1", "5L1"],
 			acidarmor: ["7L1", "6L1"],
@@ -101648,6 +101671,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lycanmoo: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			aerialace: ["7M"],
 			aquatail: ["7T"],
 			attract: ["8M", "7M"],
@@ -102731,6 +102755,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	salountales: {
 		learnset: {
+			fusionfamilyreunion: ["7L1"],
 			acrobatics: ["8M", "7M"],
 			agility: ["7L39"],
 			allurediffusion: ["7L1"],
