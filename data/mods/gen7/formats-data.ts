@@ -972,7 +972,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	kinglerdelta: {
 		randomBattleMoves: ["agility", "ironhead", "knockoff", "rockslide", "superpower", "swordsdance", "zingzap"],
 		randomDoubleBattleMoves: ["agility", "ironhead", "knockoff", "protect", "rockslide", "wideguard", "zingzap"],
-		tier: "PU",
+		tier: "NU",
 		doublesTier: "(DUU)",
 	},
 	voltorb: {
