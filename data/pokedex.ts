@@ -11070,7 +11070,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		prevo: "Aipom-Delta",
 		evoType: "levelMove",
-		evoMove: "One-Two Punch",
+		evoMove: "Double Hit",
 		eggGroups: ["Undiscovered"],
 	},
 	drifloon: {

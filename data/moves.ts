@@ -20591,6 +20591,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 15,
 		priority: 0,
 		flags: {snatch: 1},
+		onTryMove(pokemon) {
+			if (pokemon.volatiles['shellup']) {
+				return null;
+			}
+		},
 		boosts: {
 			def: -1,
 			spd: -1,
@@ -20645,6 +20650,47 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "allAdjacentFoes",
 		type: "Fire",
 		contestType: "Tough",
+	},
+	shellup: {
+		num: -633,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Shell Up",
+		pp: 5,
+		priority: 0,
+		flags: {snatch: 1},
+		volatileStatus: 'shellup',
+		condition: {
+			onStart(pokemon) {
+				this.add('-start', pokemon, 'Shell Up');
+			},
+			onModifyDefPriority: 6,
+			onModifyDef(def) {
+				return this.chainModify(1.5);
+			},
+			onModifySpDPriority: 6,
+			onModifySpD(spd) {
+				return this.chainModify(1.5);
+			},
+			onSetStatus(status, target, source, effect) {
+				if ((effect as Move)?.status) {
+					this.add('-immune', target, '[from] move: Shell Up');
+				}
+				return false;
+			},
+		},
+		onTry(source) {
+			if (!source.hasAbility('shellarmor')) {
+				this.add('-fail', source);
+				return null;
+			}
+		},
+		secondary: null,
+		target: "self",
+		type: "Water",
+		zMove: {boost: {def: 1}},
+		contestType: "Cute",
 	},
 	shiftgear: {
 		num: 508,

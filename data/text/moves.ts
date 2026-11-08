@@ -6399,7 +6399,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	shellsmash: {
 		name: "Shell Smash",
-		desc: "Lowers the user's Defense and Special Defense by 1 stage. Raises the user's Attack, Special Attack, and Speed by 2 stages.",
+		desc: "Lowers the user's Defense and Special Defense by 1 stage. Raises the user's Attack, Special Attack, and Speed by 2 stages. Fails if the user has Shell Up.",
 		shortDesc: "Lowers Def, SpD by 1; raises Atk, SpA, Spe by 2.",
 	},
 	shelltrap: {
@@ -6410,6 +6410,13 @@ export const MovesText: {[k: string]: MoveText} = {
 		start: "  [POKEMON] set a shell trap!",
 		prepare: "  [POKEMON] set a shell trap!",
 		cant: "[POKEMON]'s shell trap didn't work!",
+	},
+	shellup: {
+		name: "Shell Up",
+		desc: "If the user has the ability Shell Armor, sets Shell Up volatile. Shell Up increases Defense and Sp. Defense by 1.5x and blocks non-volatile status conditions when active. Prevents Shell Smash from being used.",
+		shortDesc: "If Shell Armor, Def/SpDef x1.5, blocks status.",
+
+		start: "  [POKEMON] withdrew into its shell!",
 	},
 	shiftgear: {
 		name: "Shift Gear",
