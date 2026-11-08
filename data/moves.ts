@@ -20593,6 +20593,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {snatch: 1},
 		onTryMove(pokemon) {
 			if (pokemon.volatiles['shellup']) {
+				this.add('-fail', pokemon);
 				return null;
 			}
 		},
