@@ -945,6 +945,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Haban Berry",
 		desc: "Halves damage taken from a supereffective Dragon-type attack. Single use.",
 	},
+	happystone: {
+		name: "Happy Stone",
+		desc: "A stone that Boba can resonate with to access a new forme.",
+	},
 	hardstone: {
 		name: "Hard Stone",
 		desc: "Holder's Rock-type attacks have 1.2x power.",
@@ -2123,6 +2127,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	sportball: {
 		name: "Sport Ball",
 		desc: "A special Poke Ball for the Bug-Catching Contest.",
+	},
+	starblazereye: {
+		name: "Starblazer Eye",
+		desc: "A stone that Apophis can resonate with to access a new forme.",
 	},
 	starfberry: {
 		name: "Starf Berry",

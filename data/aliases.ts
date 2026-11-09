@@ -882,6 +882,12 @@ export const Aliases: {[alias: string]: string} = {
 	raurora: "Altazash-Aurora-Resonant",
 	resaurora: "Altazash-Aurora-Resonant",
 
+	apophis: "Altazash-Apophis",
+	apophisr: "Altazash-Apophis-Resonant",
+	apophisreso: "Altazash-Apophis-Resonant",
+	rapophis: "Altazash-Apophis-Resonant",
+	resapophis: "Altazash-Apophis-Resonant",
+
 	astra: "Fofoam-Astra",
 	astrar: "Fofoam-Astra-Resonant",
 	astrareso: "Fofoam-Astra-Resonant",
@@ -912,6 +918,12 @@ export const Aliases: {[alias: string]: string} = {
 	carmalotreso: "Scarciq-Carmalot-Resonant",
 	rcarmalot: "Scarciq-Carmalot-Resonant",
 	rescarmalot: "Scarciq-Carmalot-Resonant",
+
+	boba: "Scarciq-Boba",
+	bobar: "Scarciq-Boba-Resonant",
+	bobareso: "Scarciq-Boba-Resonant",
+	rboba: "Scarciq-Boba-Resonant",
+	resboba: "Scarciq-Boba-Resonant",
 
 	charinoystone: "Charino",
 	fearnobeak: "Fearno",

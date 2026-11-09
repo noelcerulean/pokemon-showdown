@@ -95,6 +95,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	altazashauroraresonant: {
 		name: "Altazash-Aurora-Resonant",
 	},
+	altazashapophis: {
+		name: "Altazash-Apophis",
+	},
+	altazashapophisresonant: {
+		name: "Altazash-Apophis-Resonant",
+	},
 	fofoam: {
 		name: "Fofoam",
 	},
@@ -133,6 +139,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	scarciqcarmalotresonant: {
 		name: "Scarciq-Carmalot-Resonant",
+	},
+	scarciqboba: {
+		name: "Scarciq-Boba",
+	},
+	scarciqbobaresonant: {
+		name: "Scarciq-Boba-Resonant",
 	},
 	bulbasaur: {
 		name: "Bulbasaur",

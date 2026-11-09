@@ -121,6 +121,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Uber",
 		doublesTier: "DUber",
 	},
+	altazashapophis: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	altazashapophisresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	fofoam: {
 		tier: "LC",
 	},
@@ -167,6 +175,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DUber",
 	},
 	scarciqgortresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	scarciqboba: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	scarciqbobaresonant: {
 		tier: "Uber",
 		doublesTier: "DUber",
 	},

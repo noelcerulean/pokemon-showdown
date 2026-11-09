@@ -127,6 +127,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Uber",
 		doublesTier: "DUber",
 	},
+	altazashapophis: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	altazashapophisresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	fofoam: {
 		tier: "LC",
 	},
@@ -176,6 +184,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "DUber",
 	},
 	scarciqgortresonant: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	scarciqboba: {
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
+	scarciqbobaresonant: {
 		tier: "Uber",
 		doublesTier: "DUber",
 	},
@@ -2467,7 +2483,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	mightyena: {
 		randomBattleMoves: ["agility", "crunch", "firefang", "honeclaws", "icefang", "irontail", "knockoff", "partingshot", "playrough", "poisonfang", "psychicfangs", "pursuit", "suckerpunch", "superpower", "switcheroo", "taunt", "thunderfang", "wish"],
 		randomDoubleBattleMoves: ["crunch", "firefang", "icefang", "knockoff", "partingshot", "playrough", "poisonfang", "protect", "psychicfangs", "suckerpunch", "superpower", "taunt"],
-		tier: "Uber",
+		tier: "OU",
 		doublesTier: "(DOU)",
 	},
 	zigzagoon: {

@@ -687,7 +687,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Torrential Cannonade",
 		zMoveFrom: "Hydro Cannon",
-		itemUser: ["Blastoise", "Venustoise", "Feraligatr", "Swampert", "Swapert-Hero", "Empoleon", "Samurott", "Samurott-Knight", "Greninja", "Greninja-Ash", "Primarina", "Primarina-Pride", "Primarina-Safiya", "Primarina-Soprano", "Primarina-Peony", "Scarciq", "Scarciq-Carmalot", "Scarciq-Gort", "Inteleon"],
+		itemUser: ["Blastoise", "Venustoise", "Feraligatr", "Swampert", "Swapert-Hero", "Empoleon", "Samurott", "Samurott-Knight", "Greninja", "Greninja-Ash", "Primarina", "Primarina-Pride", "Primarina-Safiya", "Primarina-Soprano", "Primarina-Peony", "Scarciq", "Scarciq-Carmalot", "Scarciq-Gort", "Scarciq-Boba", "Inteleon"],
 		num: -580,
 		gen: 7,
 		isNonstandard: "Past",
@@ -3263,6 +3263,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		onEat() { },
 		num: 197,
 		gen: 4,
+	},
+	happystone: {
+		name: "Happy Stone",
+		spritenum: 872,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Scarciq-Boba') return false;
+			if (source.baseSpecies.name === 'Scarciq-Boba-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Scarciq-Boba-Resonant"],
+		num: -636,
+		gen: 7,
 	},
 	hardstone: {
 		name: "Hard Stone",
@@ -6138,7 +6150,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Blazing Burnblast",
 		zMoveFrom: "Blast Burn",
-		itemUser: ["Charizard", "Typhlosion", "Typhlosion-Volc", "Typhlosion-Vesuvius", "Typhlosion-Vesuvius-Elden", "Blaziken", "Infernape", "Infernape-Witch", "Infernape-George", "Emboar", "Emboar-Dynamite", "Delphox", "Incineroar", "Incineroar-Pride", "Altazash", "Altazash-Deeva", "Altazash-Suneater", "Altazash-Aurora", "Cinderace"],
+		itemUser: ["Charizard", "Typhlosion", "Typhlosion-Volc", "Typhlosion-Vesuvius", "Typhlosion-Vesuvius-Elden", "Blaziken", "Infernape", "Infernape-Witch", "Infernape-George", "Emboar", "Emboar-Dynamite", "Delphox", "Incineroar", "Incineroar-Pride", "Altazash", "Altazash-Deeva", "Altazash-Suneater", "Altazash-Aurora", "Altazash-Apophis", "Cinderace"],
 		num: -581,
 		gen: 7,
 		isNonstandard: "Past",
@@ -7158,6 +7170,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 499,
 		gen: 2,
 		isPokeball: true,
+	},
+	starblazereye: {
+		name: "Starblazer Eye",
+		spritenum: 871,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Altazash-Apophis') return false;
+			if (source.baseSpecies.name === 'Altazash-Apophis-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Altazash-Apophis-Resonant"],
+		num: -635,
+		gen: 7,
 	},
 	starfberry: {
 		name: "Starf Berry",
