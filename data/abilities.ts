@@ -2708,7 +2708,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			newMove.hasBounced = true;
 			newMove.pranksterBoosted = false;
 			this.actions.useMove(newMove, target, source);
-			source.setAbility('noability');
+			target.setAbility('noability');
 			return null;
 		},
 		onAllyTryHitSide(target, source, move) {
@@ -2719,7 +2719,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			newMove.hasBounced = true;
 			newMove.pranksterBoosted = false;
 			this.actions.useMove(newMove, this.effectState.target, source);
-			source.setAbility('noability');
+			target.setAbility('noability');
 			return null;
 		},
 		isBreakable: true,
@@ -3785,7 +3785,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 189,
 	},
 	primping: {
-		onAfterMoveSecondary(source, target, move) {
+		onAfterHit(pokemon, target, move) {
 			if (move.type === 'Normal' && move.category !== 'Status') {
 				this.add('-start', target, 'typechange', 'Normal');
 			}
