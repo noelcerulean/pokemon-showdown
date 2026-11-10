@@ -2699,6 +2699,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	magicbounce: {
 		name: "Magic Bounce",
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Magic Bounce');
+		},
 		onTryHitPriority: 1,
 		onTryHit(target, source, move) {
 			if (target === source || move.hasBounced || !move.flags['reflectable']) {
@@ -2708,6 +2711,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			newMove.hasBounced = true;
 			newMove.pranksterBoosted = false;
 			this.actions.useMove(newMove, target, source);
+			this.add('-activate', target, 'ability: Magic Bounce');
 			target.setAbility('noability');
 			return null;
 		},
@@ -2719,6 +2723,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			newMove.hasBounced = true;
 			newMove.pranksterBoosted = false;
 			this.actions.useMove(newMove, this.effectState.target, source);
+			this.add('-activate', target, 'ability: Magic Bounce');
 			target.setAbility('noability');
 			return null;
 		},
@@ -3785,10 +3790,13 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 189,
 	},
 	primping: {
-		onModifyMovePriority: 1,
-		onModifyMove(move, attacker, defender) {
+		onModifyMove(move, target) {
 			if (move.type === 'Normal' && move.category !== 'Status') {
-				this.add('-start', defender, 'typechange', 'Normal');
+				if (target.getTypes().join() === 'Normal' || !target.setType('Normal')) {
+					this.add('-fail', target, '[silent]');
+					return null;
+				}
+				this.add('-start', target, 'typechange', 'Normal');
 			}
 		},
 		name: "Primping",

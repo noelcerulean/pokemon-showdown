@@ -975,8 +975,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		shortDesc: "This Pokemon blocks certain status moves and bounces them back to the user.",
 
 		move: "#magiccoat",
-		start: "  [POKEMON]'s magic bounce is active!",
-		activate: "  [POKEMON]'s magic bounce has been used up!",
+		start: "  [POKEMON]'s Magic Bounce is active!",
+		activate: "  [POKEMON]'s Magic Bounce wore off!",
 	},
 	magicguard: {
 		name: "Magic Guard",
