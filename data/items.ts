@@ -3841,27 +3841,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: -540,
 		gen: 7,
 	},
-	knightsedge: {
-		name: "Knight's Edge",
-		fling: {
-			basePower: 60,
-		},
-		spritenum: 762,
-		onModifyCritRatio(critRatio, source, target, move: ActiveMove) {
-			if ((source.baseSpecies.name === 'Gallade') && move.flags['blade']) {
-				return critRatio + 2;
-			}
-		},
-		onTakeItem(item, pokemon, source) {
-			if ((source && source.baseSpecies.num === 475) || pokemon.baseSpecies.num === 475) {
-				return false;
-			}
-			return true;
-		},
-		itemUser: ["Gallade"],
-		num: -518,
-		gen: 7,
-	},
 	kommoniumz: {
 		name: "Kommonium Z",
 		spritenum: 690,
@@ -5044,27 +5023,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 246,
 		gen: 2,
-	},
-	nightsedge: {
-		name: "Night's Edge",
-		fling: {
-			basePower: 60,
-		},
-		spritenum: 770,
-		onModifyCritRatio(critRatio, source, target, move: ActiveMove) {
-			if ((source.baseSpecies.name === 'Absol') && move.flags['blade']) {
-				return critRatio + 2;
-			}
-		},
-		onTakeItem(item, pokemon, source) {
-			if ((source && source.baseSpecies.num === 359) || pokemon.baseSpecies.num === 359) {
-				return false;
-			}
-			return true;
-		},
-		itemUser: ["Absol"],
-		num: -532,
-		gen: 7,
 	},
 	ninikuberry: {
 		name: "Niniku Berry",
@@ -9183,7 +9141,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTryEatItem(item, pokemon) {
 			let stat: BoostID;
 			for (stat in pokemon.boosts) {
-				if (stat === 'accuracy' || stat === 'evasion') continue;
+				if (stat === 'evasion') continue;
 				if (pokemon.boosts[stat] < 6) return;
 			}
 			return false;
@@ -9193,7 +9151,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			const stats: BoostID[] = [];
 			let stat: BoostID;
 			for (stat in pokemon.boosts) {
-				if (stat !== 'accuracy' && stat !== 'evasion' && pokemon.boosts[stat] < 6) {
+				if (stat !== 'evasion' && pokemon.boosts[stat] < 6) {
 					stats.push(stat);
 				}
 			}

@@ -4175,14 +4175,14 @@
 			}, {
 				"species": "Jumpluff",
 				"item": ["Rocky Helmet"],
-				"ability": ["Fluffy Fuzz"],
+				"ability": ["Infiltrator"],
 				"evs": {"hp": 248, "spd": 8, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Defog"], ["Strength Sap"], ["U-turn"], ["Knock Off", "Flutter Strike"]]
 			}, {
 				"species": "Jumpluff",
 				"item": ["Lum Berry"],
-				"ability": ["Fluffy Fuzz"],
+				"ability": ["Infiltrator"],
 				"evs": {"atk": 248, "spd": 8, "spe": 252},
 				"nature": "Jolly",
 				"moves": [["Sleep Powder", "Strength Sap"], ["Swords Dance"], ["Flutter Strike"], ["Seed Bomb"]]
@@ -6422,7 +6422,7 @@
 			"flags": {},
 			"sets": [{
 				"species": "Gallade",
-				"item": ["Knight's Edge"],
+				"item": ["Iapapa Berry"],
 				"ability": ["Unsheathed"],
 				"evs": {"atk": 252, "def": 4, "spe": 252},
 				"nature": "Jolly",

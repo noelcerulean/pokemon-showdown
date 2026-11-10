@@ -1120,11 +1120,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 		desc: "Armor developed by DoReMi for Kirlia to enhance its battle capabilities.",
 		shortDesc: "Armor for Kirlia created by DoReMi.",
 	},
-	knightsedge: {
-		name: "Knight's Edge",
-		desc: "When held by Gallade, critical hit ratio of blade moves are raised by 2 stages.",
-		shortDesc: "Gallade: +2 crit ratio to blade moves.",
-	},
 	kommoniumz: {
 		name: "Kommonium Z",
 		desc: "If held by a Kommo-o with Clanging Scales, it can use Clangorous Soulblaze.",
@@ -1485,11 +1480,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 		gen3: {
 			desc: "Holder's Ice-type attacks have 1.1x power.",
 		},
-	},
-	nightsedge: {
-		name: "Night's Edge",
-		desc: "When held by Absol, critical hit ratio of blade moves are raised by 2 stages.",
-		shortDesc: "Absol: +2 crit ratio to blade moves.",
 	},
 	ninikuberry: {
 		name: "Niniku Berry",
@@ -2858,7 +2848,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	yagoberry: {
 		name: "Yago Berry",
-		desc: "Raises a random stat by 1 at the end of an active turn (not acc/eva). Single use.",
+		desc: "Raises a random stat by 1 at the end of an active turn (not eva). Single use.",
 
 		activate: "  [POKEMON]'s Yago Berry enhanced its capabilities!",
 	},

@@ -19,8 +19,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	adrenalize: {
 		name: "Adrenalize",
-		desc: "When this Pokemon has 1/4 or less of its maximum HP, rounded down, its attacking stats are multiplied by 1.5.",
-		shortDesc: "At 1/4 or less of its max HP, this Pokemon's attacking stats are 1.5x.",
+		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage from an attack bringing it to 1/2 or less of its maximum HP, its Attack is raised by 1 stage. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect.",
+		shortDesc: "This Pokemon's Atk is raised by 1 when it reaches 1/2 or less of its max HP.",
 	},
 	aerilate: {
 		name: "Aerilate",
@@ -61,8 +61,14 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	angerpoint: {
 		name: "Anger Point",
-		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage from an attack bringing it to 1/2 or less of its maximum HP, its Attack is raised by 1 stage. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect.",
-		shortDesc: "This Pokemon's Atk is raised by 1 when it reaches 1/2 or less of its max HP.",
+		desc: "If this Pokemon, but not its substitute, is struck by a critical hit, its Attack is raised by 12 stages.",
+		shortDesc: "If this Pokemon (not its substitute) takes a critical hit, its Attack is raised 12 stages.",
+		gen4: {
+			desc: "If this Pokemon, or its substitute, is struck by a critical hit, its Attack is raised by 12 stages.",
+			shortDesc: "If this Pokemon or its substitute takes a critical hit, its Attack is raised 12 stages.",
+		},
+
+		boost: "  {POKEMON} maxed its Attack!",
 	},
 	anticipation: {
 		name: "Anticipation",
@@ -596,10 +602,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Fluffy",
 		desc: "This Pokemon receives 1/2 damage from contact moves, but double damage from Fire moves.",
 		shortDesc: "This Pokemon takes 1/2 damage from contact moves, 2x damage from Fire moves.",
-	},
-	fluffyfuzz: {
-		name: "Fluffy Fuzz",
-		shortDesc: "Pokemon making contact with this Pokemon have their Speed lowered by 1 stage.",
 	},
 	forecast: {
 		name: "Forecast",
@@ -1342,6 +1344,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Primordial Sea",
 		desc: "On switch-in, the weather becomes heavy rain that prevents damaging Fire-type moves from executing, in addition to all the effects of Rain Dance. This weather remains in effect until this Ability is no longer active for any Pokemon, or the weather is changed by Delta Stream or Desolate Land.",
 		shortDesc: "On switch-in, heavy rain begins until this Ability is not active in battle.",
+	},
+	primping: {
+		name: "Primping",
+		desc: "After damaging with a Normal- type attack, changes the target's type to Normal. Type is not changed if no damage is dealt.",
+		shortDesc: "Changes the target's type to Normal after damaging with a Normal- type attack.",
 	},
 	prismarmor: {
 		name: "Prism Armor",
@@ -2193,8 +2200,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	unsheathed: {
 		name: "Unsheathed",
-		desc: "This Pokemon's blade-based attacks have their power multiplied by 1.2.",
-		shortDesc: "This Pokemon's blade-based attacks have 1.2x power.",
+		desc: "This Pokemon's blade-based attacks have their power multiplied by 1.5.",
+		shortDesc: "This Pokemon's blade-based attacks have 1.5x power.",
 	},
 	victorystar: {
 		name: "Victory Star",
@@ -2206,7 +2213,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	volatility: {
 		name: "Volatility",
-		desc: "This Pokemon gains +1 in a random stat after using a damaging move that matches its primary type, not including accuracy or evasion.",
+		desc: "This Pokemon gains +1 in a random stat after using a damaging move that matches its primary type, not including evasion.",
 		shortDesc: "+1 to a random stat after using a damaging move that matches its primary type.",
 	},
 	voltabsorb: {

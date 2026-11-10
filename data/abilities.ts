@@ -73,18 +73,34 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: -594,
 	},
 	adrenalize: {
-		onModifyAtkPriority: 5,
-		onModifyAtk(atk, attacker, defender, move) {
-			if (attacker.hp <= attacker.maxhp / 4) {
-				this.debug('Adrenalize boost');
-				return this.chainModify(1.5);
+		onDamage(damage, target, source, effect) {
+			if (
+				effect.effectType === "Move" &&
+				!effect.multihit &&
+				(!effect.negateSecondary && !(effect.hasSheerForce && source.hasAbility('sheerforce')))
+			) {
+				target.abilityState.checkedAdrenalize = false;
+			} else {
+				target.abilityState.checkedAdrenalize = true;
 			}
 		},
-		onModifySpAPriority: 5,
-		onModifySpA(atk, attacker, defender, move) {
-			if (attacker.hp <= attacker.maxhp / 4) {
-				this.debug('Adrenalize boost');
-				return this.chainModify(1.5);
+		onTryEatItem(item, pokemon) {
+			const healingItems = [
+				'aguavberry', 'enigmaberry', 'figyberry', 'iapapaberry', 'magoberry', 'sitrusberry', 'wikiberry', 'oranberry', 'berryjuice',
+			];
+			if (healingItems.includes(item.id)) {
+				return pokemon.abilityState.checkedAdrenalize;
+			}
+			return true;
+		},
+		onAfterMoveSecondary(target, source, move) {
+			target.abilityState.checkedAdrenalize = true;
+			if (!source || source === target || !target.hp || !move.totalDamage) return;
+			const lastAttackedBy = target.getLastAttackedBy();
+			if (!lastAttackedBy) return;
+			const damage = move.multihit ? move.totalDamage : lastAttackedBy.damage;
+			if (target.hp <= target.maxhp / 2 && target.hp + damage > target.maxhp / 2) {
+				this.boost({atk: 1});
 			}
 		},
 		name: "Adrenalize",
@@ -198,38 +214,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 148,
 	},
 	angerpoint: {
-		onDamage(damage, target, source, effect) {
-			if (
-				effect.effectType === "Move" &&
-				!effect.multihit &&
-				(!effect.negateSecondary && !(effect.hasSheerForce && source.hasAbility('sheerforce')))
-			) {
-				target.abilityState.checkedAngerPoint = false;
-			} else {
-				target.abilityState.checkedAngerPoint = true;
-			}
-		},
-		onTryEatItem(item, pokemon) {
-			const healingItems = [
-				'aguavberry', 'enigmaberry', 'figyberry', 'iapapaberry', 'magoberry', 'sitrusberry', 'wikiberry', 'oranberry', 'berryjuice',
-			];
-			if (healingItems.includes(item.id)) {
-				return pokemon.abilityState.checkedAngerPoint;
-			}
-			return true;
-		},
-		onAfterMoveSecondary(target, source, move) {
-			target.abilityState.checkedAngerPoint = true;
-			if (!source || source === target || !target.hp || !move.totalDamage) return;
-			const lastAttackedBy = target.getLastAttackedBy();
-			if (!lastAttackedBy) return;
-			const damage = move.multihit ? move.totalDamage : lastAttackedBy.damage;
-			if (target.hp <= target.maxhp / 2 && target.hp + damage > target.maxhp / 2) {
-				this.boost({atk: 1});
+		onHit(target, source, move) {
+			if (!target.hp) return;
+			if (move?.effectType === 'Move' && target.getMoveHitData(move).crit) {
+				this.boost({ atk: 12 }, target, target);
 			}
 		},
 		name: "Anger Point",
-		rating: 2,
+		rating: 1,
 		num: 83,
 	},
 	anticipation: {
@@ -1676,17 +1668,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 218,
 	},
-	fluffyfuzz: {
-		onDamagingHit(damage, target, source, move) {
-			if (this.checkMoveMakesContact(move, source, target, true)) {
-				this.add('-ability', target, 'Fluffy Fuzz');
-				this.boost({spe: -1}, source, target, null, true);
-			}
-		},
-		name: "Fluffy Fuzz",
-		rating: 2,
-		num: -500,
-	},
 	forecast: {
 		onStart(pokemon) {
 			if (pokemon.hasItem('damprock')) {
@@ -2727,6 +2708,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			newMove.hasBounced = true;
 			newMove.pranksterBoosted = false;
 			this.actions.useMove(newMove, target, source);
+			source.setAbility('noability');
 			return null;
 		},
 		onAllyTryHitSide(target, source, move) {
@@ -2737,10 +2719,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			newMove.hasBounced = true;
 			newMove.pranksterBoosted = false;
 			this.actions.useMove(newMove, this.effectState.target, source);
+			source.setAbility('noability');
 			return null;
-		},
-		condition: {
-			duration: 1,
 		},
 		isBreakable: true,
 		rating: 4,
@@ -3803,6 +3783,16 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Primordial Sea",
 		rating: 4.5,
 		num: 189,
+	},
+	primping: {
+		onAfterMoveSecondary(source, target, move) {
+			if (move.type === 'Normal' && move.category !== 'Status') {
+				this.add('-start', target, 'typechange', 'Normal');
+			}
+		},
+		name: "Primping",
+		rating: 4,
+		num: -597,
 	},
 	prismarmor: {
 		onSourceModifyDamage(damage, source, target, move) {
@@ -6154,7 +6144,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onBasePower(basePower, attacker, defender, move) {
 			if (move.flags['blade']) {
 				this.debug('Unsheathed boost');
-				return this.chainModify([4915, 4096]);
+				return this.chainModify(1.5);
 			}
 		},
 		name: "Unsheathed",
@@ -6198,7 +6188,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				const stats: BoostID[] = [];
 				let stat: BoostID;
 				for (stat in target.boosts) {
-					if (stat !== 'accuracy' && stat !== 'evasion' && target.boosts[stat] < 6) {
+					if (stat !== 'evasion' && target.boosts[stat] < 6) {
 						stats.push(stat);
 					}
 				}

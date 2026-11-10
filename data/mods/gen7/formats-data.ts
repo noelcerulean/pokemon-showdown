@@ -1878,7 +1878,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	ambipomdelta: {
 		randomBattleMoves: ["barbedblow", "demolition", "earthquake", "knockoff", "onetwopunch", "rockslide"],
 		randomDoubleBattleMoves: ["barbedblow", "demolition", "earthquake", "knockoff", "onetwopunch", "protect", "rockslide"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	sunkern: {
@@ -3556,7 +3556,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	rampardos: {
 		randomBattleMoves: ["crunch", "earthquake", "firepunch", "headsmash", "icepunch", "rockpolish", "rockslide"],
 		randomDoubleBattleMoves: ["crunch", "earthquake", "headsmash", "protect", "rockslide", "stoneedge", "zenheadbutt"],
-		tier: "PU",
+		tier: "PUBL",
 		doublesTier: "(DUU)",
 	},
 	rampardosdelta: {
@@ -4918,7 +4918,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	golurkfnf: {
 		randomBattleMoves: ["earthquake", "flareblitz", "onetwopunch", "rockpolish", "stealthrock"],
 		randomDoubleBattleMoves: ["earthquake", "flareblitz", "onetwopunch", "protect", "rockpolish"],
-		tier: "PU",
+		tier: "NU",
 		doublesTier: "(DUU)",
 	},
 	pawniard: {
@@ -5878,7 +5878,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	lycanrocmidnight: {
 		randomBattleMoves: ["closecombat", "firepunch", "stealthrock", "stoneedge", "suckerpunch", "swordsdance"],
 		randomDoubleBattleMoves: ["protect", "stoneedge", "suckerpunch", "swordsdance", "taunt"],
-		tier: "PU",
+		tier: "PUBL",
 		doublesTier: "(DUU)",
 	},
 	lycanrocdusk: {
@@ -5947,7 +5947,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	shiinotic: {
 		randomBattleMoves: ["leechseed", "moonblast", "spore", "strengthsap", "substitute"],
 		randomDoubleBattleMoves: ["gigadrain", "leechseed", "moonblast", "protect", "spore", "strengthsap"],
-		tier: "UU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	salandit: {
@@ -5962,7 +5962,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	salountales: {
 		randomBattleMoves: ["dazzlinggleam", "energyball", "fireblast", "hiddenpowerground", "nastyplot", "taunt"],
 		randomDoubleBattleMoves: ["dazzlinggleam", "energyball", "fireblast", "heatwave", "hiddenpowerground", "nastyplot", "protect", "taunt"],
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
 	stufful: {

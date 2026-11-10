@@ -5018,6 +5018,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Lowers the user's Special Attack by 2 stages.",
 		shortDesc: "Lowers the user's Sp. Atk by 2.",
 	},
+	psychocrash: {
+		name: "Psycho Crash",
+		desc: "If the target lost HP, the user takes recoil damage equal to 1/3 the HP lost by the target, rounded half up, but not less than 1 HP.",
+		shortDesc: "Has 1/3 recoil.",
+	},
 	psychocut: {
 		name: "Psycho Cut",
 		desc: "Has a higher chance for a critical hit.",
