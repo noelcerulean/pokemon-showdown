@@ -3785,9 +3785,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 189,
 	},
 	primping: {
-		onAfterHit(pokemon, target, move) {
+		onModifyMovePriority: 1,
+		onModifyMove(move, attacker, defender) {
 			if (move.type === 'Normal' && move.category !== 'Status') {
-				this.add('-start', target, 'typechange', 'Normal');
+				this.add('-start', defender, 'typechange', 'Normal');
 			}
 		},
 		name: "Primping",
