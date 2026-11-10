@@ -3713,7 +3713,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	lopunnymega: {
 		randomBattleMoves: ["fakeout", "highjumpkick", "icepunch", "return", "substitute"],
 		randomDoubleBattleMoves: ["encore", "fakeout", "highjumpkick", "icepunch", "protect", "return"],
-		tier: "OU",
+		tier: "Uber",
 		doublesTier: "DUU",
 	},
 	glameow: {
