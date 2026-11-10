@@ -3790,14 +3790,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 189,
 	},
 	primping: {
-		onModifyMove(move, target) {
-			if (move.type === 'Normal' && move.category !== 'Status') {
-				if (target.getTypes().join() === 'Normal' || !target.setType('Normal')) {
-					this.add('-fail', target, '[silent]');
-					return null;
-				}
-				this.add('-start', target, 'typechange', 'Normal');
-			}
+		onAfterMoveSecondarySelf(source, target, move) {
+            if (move.category !== 'Status' && move.type == 'Normal' && target.getTypes().join() !== 'Normal' && !target.fainted) {
+                if (!target.setType('Normal')) return;
+                this.add('-activate', source, 'ability: Primping');
+                this.add('-start', target, 'typechange', 'Normal');
+            }
 		},
 		name: "Primping",
 		rating: 4,
@@ -3998,38 +3996,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Rattled",
 		rating: 1.5,
 		num: 155,
-	},
-	rebound: {
-		name: "Rebound",
-		onTryHitPriority: 1,
-		onTryHit(target, source, move) {
-			if (this.effectState.target.activeTurns) return;
-
-			if (target === source || move.hasBounced || !move.flags['reflectable']) {
-				return;
-			}
-			const newMove = this.dex.getActiveMove(move.id);
-			newMove.hasBounced = true;
-			this.actions.useMove(newMove, target, source);
-			return null;
-		},
-		onAllyTryHitSide(target, source, move) {
-			if (this.effectState.target.activeTurns) return;
-
-			if (target.isAlly(source) || move.hasBounced || !move.flags['reflectable']) {
-				return;
-			}
-			const newMove = this.dex.getActiveMove(move.id);
-			newMove.hasBounced = true;
-			this.actions.useMove(newMove, this.effectState.target, source);
-			return null;
-		},
-		condition: {
-			duration: 1,
-		},
-		isBreakable: true,
-		rating: 3,
-		num: -3,
 	},
 	receiver: {
 		onFoeAfterBoost(boost, target, source, effect) {
@@ -6504,6 +6470,38 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 
 	// CAP
+	rebound: {
+		name: "Rebound",
+		onTryHitPriority: 1,
+		onTryHit(target, source, move) {
+			if (this.effectState.target.activeTurns) return;
+
+			if (target === source || move.hasBounced || !move.flags['reflectable']) {
+				return;
+			}
+			const newMove = this.dex.getActiveMove(move.id);
+			newMove.hasBounced = true;
+			this.actions.useMove(newMove, target, source);
+			return null;
+		},
+		onAllyTryHitSide(target, source, move) {
+			if (this.effectState.target.activeTurns) return;
+
+			if (target.isAlly(source) || move.hasBounced || !move.flags['reflectable']) {
+				return;
+			}
+			const newMove = this.dex.getActiveMove(move.id);
+			newMove.hasBounced = true;
+			this.actions.useMove(newMove, this.effectState.target, source);
+			return null;
+		},
+		condition: {
+			duration: 1,
+		},
+		isBreakable: true,
+		rating: 3,
+		num: -3,
+	},
 	persistent: {
 		isNonstandard: "CAP",
 		name: "Persistent",
