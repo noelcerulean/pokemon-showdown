@@ -1139,6 +1139,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
+	tangel: {
+		tier: "LC",
+	},
 	tangela: {
 		tier: "PU",
 		doublesTier: "NFE",
@@ -1147,6 +1150,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["earthquake", "gigadrain", "hiddenpowerfire", "knockoff", "leafstorm", "rockslide", "sleeppowder", "synthesis"],
 		randomDoubleBattleMoves: ["earthquake", "focusblast", "gigadrain", "hiddenpowerice", "knockoff", "leechseed", "powerwhip", "protect", "ragepowder", "sleeppowder"],
 		tier: "OU",
+		doublesTier: "(DUU)",
+	},
+	tangelana: {
+		randomBattleMoves: ["darkpulse", "gigadrain", "hiddenpowerfire", "knockoff", "leafstorm", "sleeppowder", "synthesis"],
+		randomDoubleBattleMoves: ["darkpulse", "gigadrain", "hiddenpowerfire", "knockoff", "leafstorm", "protect", "ragepowder", "sleeppowder", "synthesis"],
+		tier: "NU",
 		doublesTier: "(DUU)",
 	},
 	rooskhan: {

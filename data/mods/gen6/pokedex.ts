@@ -179,6 +179,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		color: "Pink",
 	},
+	tangelana: {
+		inherit: true,
+		abilities: {0: "Chlorophyll"},
+	},
 	arceus: {
 		inherit: true,
 		color: "Gray",

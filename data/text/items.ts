@@ -553,6 +553,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		
 		activate: "  [POKEMON]'s Eggant berry increased its recovery!",
 	},
+	eggball: {
+		name: "Egg Ball",
+		desc: "A nurturing Poke Ball that makes a caught wild Pokemon relearn an egg move.",
+	},
 	ejectbutton: {
 		name: "Eject Button",
 		desc: "If holder survives a hit, it immediately switches out to a chosen ally. Single use.",
@@ -623,10 +627,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 	fusedevite: {
 		name: "Fused Evite",
 		desc: "If holder is an NFE-only fusion, its Atk/Def/SpA/SpD are 1.5x.",
-	},
-	glowingstone: {
-		name: "Glowing Stone",
-		desc: "Starter pokemon: 1.5x Atk/Def/SpA/SpD. Unevolved also get Speed x2.",
 	},
 	expertbelt: {
 		name: "Expert Belt",
@@ -1253,6 +1253,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	lureball: {
 		name: "Lure Ball",
 		desc: "A Poke Ball for catching Pokemon hooked by a Rod when fishing.",
+	},
+	lushincense: {
+		name: "Lush Incense",
+		desc: "Holder's Grass-type attacks have 1.2x power.",
 	},
 	lustrousorb: {
 		name: "Lustrous Orb",

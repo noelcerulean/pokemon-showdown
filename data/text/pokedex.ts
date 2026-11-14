@@ -770,6 +770,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	chansey: {
 		name: "Chansey",
 	},
+	tangel: {
+		name: "Tangel",
+	},
 	tangela: {
 		name: "Tangela",
 	},
@@ -2530,6 +2533,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	tangrowth: {
 		name: "Tangrowth",
+	},
+	tangelana: {
+		name: "Tangelana",
 	},
 	electivire: {
 		name: "Electivire",

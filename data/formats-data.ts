@@ -1384,6 +1384,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},
+	tangel: {
+		tier: "LC",
+	},
 	tangela: {
 		tier: "NFE",
 	},
@@ -1393,6 +1396,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["focusblast", "knockoff", "powerwhip", "ragepowder", "sleeppowder"],
 		randomDoubleBattleLevel: 85,
 		tier: "UU",
+		doublesTier: "(DUU)",
+	},
+	tangelana: {
+		randomBattleMoves: ["focusblast", "gigadrain", "knockoff", "leechseed", "sleeppowder", "sludgebomb"],
+		randomBattleLevel: 86,
+		randomDoubleBattleMoves: ["focusblast", "knockoff", "powerwhip", "ragepowder", "sleeppowder"],
+		randomDoubleBattleLevel: 88,
+		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
 	rooskhan: {

@@ -1902,6 +1902,13 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 7,
 		isNonstandard: "Past",
 	},
+	eggball: {
+		name: "Egg Ball",
+		spritenum: 760,
+		num: -518,
+		gen: 7,
+		isPokeball: true,
+	},
 	eggantberry: {
 		name: "Eggant Berry",
 		spritenum: 802,
@@ -2225,44 +2232,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		itemUser: ["Medipom", "Vanillee", "Misdreanie", "Cacnedon", "Pignipuff", "Ruffard", "Silclops"],
 		num: -596,
-		gen: 5,
-	},
-	glowingstone: {
-		name: "Glowing Stone",
-		spritenum: 841,
-		fling: {
-			basePower: 40,
-		},
-		onModifyAtkPriority: 2,
-		onModifyAtk(atk, pokemon) {
-			if (pokemon.baseSpecies.num === -592 || pokemon.baseSpecies.num === -593 || pokemon.baseSpecies.num === -594 || pokemon.baseSpecies.num === -604 || pokemon.baseSpecies.num === -605 || pokemon.baseSpecies.num === -606) {
-				return this.chainModify(1.5);
-			}
-		},
-		onModifySpAPriority: 2,
-		onModifySpA(spa, pokemon) {
-			if (pokemon.baseSpecies.num === -592 || pokemon.baseSpecies.num === -593 || pokemon.baseSpecies.num === -594 || pokemon.baseSpecies.num === -604 || pokemon.baseSpecies.num === -605 || pokemon.baseSpecies.num === -606) {
-				return this.chainModify(1.5);
-			}
-		},
-		onModifyDefPriority: 2,
-		onModifyDef(def, pokemon) {
-			if (pokemon.baseSpecies.num === -592 || pokemon.baseSpecies.num === -593 || pokemon.baseSpecies.num === -594 || pokemon.baseSpecies.num === -604 || pokemon.baseSpecies.num === -605 || pokemon.baseSpecies.num === -606) {
-				return this.chainModify(1.5);
-			}
-		},
-		onModifySpDPriority: 2,
-		onModifySpD(spd, pokemon) {
-			if (pokemon.baseSpecies.num === -592 || pokemon.baseSpecies.num === -593 || pokemon.baseSpecies.num === -594 || pokemon.baseSpecies.num === -604 || pokemon.baseSpecies.num === -605 || pokemon.baseSpecies.num === -606) {
-				return this.chainModify(1.5);
-			}
-		},
-		onModifySpe(spe, pokemon) {
-			if (pokemon.baseSpecies.num === -592 || pokemon.baseSpecies.num === -593 || pokemon.baseSpecies.num === -594) {
-				return this.chainModify(2);
-			}
-		},
-		num: -604,
 		gen: 5,
 	},
 	expertbelt: {
@@ -4278,6 +4247,21 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 494,
 		gen: 2,
 		isPokeball: true,
+	},
+	lushincense: {
+		name: "Lush Incense",
+		spritenum: 841,
+		fling: {
+			basePower: 10,
+		},
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move.type === 'Grass') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
+		num: -604,
+		gen: 4,
 	},
 	lustrousorb: {
 		name: "Lustrous Orb",

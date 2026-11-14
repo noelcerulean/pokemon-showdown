@@ -440,6 +440,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["gigadrain", "growth", "hiddenpowerice", "sleeppowder", "synthesis"],
 		tier: "NU",
 	},
+	tangelana: {
+		randomBattleMoves: ["gigadrain", "growth", "hiddenpowerice", "sleeppowder", "synthesis", "thief"],
+		tier: "NU",
+	},
 	kangaskhan: {
 		randomBattleMoves: ["bodyslam", "curse", "earthquake", "rest", "return", "roar", "sleeptalk"],
 		tier: "UUBL",
