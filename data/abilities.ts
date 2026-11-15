@@ -1617,6 +1617,24 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 122,
 	},
+	flowermane: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, pokemon) {
+			if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifyDefPriority: 5,
+		onModifyDef(def, pokemon) {
+			if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
+				return this.chainModify(1.5);
+			}
+		},
+		isBreakable: true,
+		name: "Flower Mane",
+		rating: 3,
+		num: -598,
+	},
 	flowerveil: {
 		onAllyBoost(boost, target, source, effect) {
 			if ((source && target === source) || !target.hasType('Grass')) return;

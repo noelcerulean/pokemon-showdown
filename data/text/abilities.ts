@@ -591,6 +591,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			shortDesc: "If Sunny Day is active, Attack and Sp. Def of this Pokemon and its allies are 1.5x.",
 		},
 	},
+	flowermane: {
+		name: "Flower Mane",
+		shortDesc: "If Sunny Day is active, this Pokemon's Atk & Def increase by 1.5x.",
+	},
 	flowerveil: {
 		name: "Flower Veil",
 		desc: "Grass-type Pokemon on this Pokemon's side cannot have their stat stages lowered by other Pokemon or have a non-volatile status condition inflicted on them by other Pokemon.",

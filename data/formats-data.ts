@@ -5683,6 +5683,18 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	cubleaf: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	floraleo: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	blossomane: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	flabebe: {
 		isNonstandard: "Past",
 		tier: "Illegal",

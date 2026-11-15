@@ -3521,6 +3521,15 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	pyroarf: {
 		name: "Pyroar-F",
 	},
+	cubleaf: {
+		name: "Cubleaf",
+	},
+	floraleo: {
+		name: "Floraleo",
+	},
+	blossomane: {
+		name: "Blossomane",
+	},
 	flabebe: {
 		name: "Flabe\u0301be\u0301",
 	},

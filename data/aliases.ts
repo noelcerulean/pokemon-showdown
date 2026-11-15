@@ -1588,6 +1588,7 @@ export const Aliases: {[alias: string]: string} = {
 	nova: "Novarizon",
 	tnaut: "Tardinaut",
 	thufizer: "Zapmolcuno",
+	carnelion: "Blossomane",
 
 	// armored
 	vespa: "Vespiquen-Armored",

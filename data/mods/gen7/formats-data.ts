@@ -5303,6 +5303,18 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	cubleaf: {
+		tier: "LC",
+	},
+	floraleo: {
+		tier: "NFE",
+	},
+	blossomane: {
+		randomBattleMoves: ["closecombat", "earthquake", "petalblizzard", "rockclimb", "synthesis"],
+		randomDoubleBattleMoves: ["closecombat", "earthquake", "leafblade", "rockclimb", "synthesis"],
+		tier: "UU",
+		doublesTier: "(DUU)",
+	},
 	flabebe: {
 		tier: "LC",
 	},
