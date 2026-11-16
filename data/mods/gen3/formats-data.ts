@@ -898,6 +898,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["batonpass", "calmmind", "healbell", "hiddenpowergrass", "leechseed", "psychic", "recover"],
 		tier: "OU",
 	},
+	cosmutt: {
+		tier: "LC",
+	},
+	stardog: {
+		randomBattleMoves: ["icebeam", "healbell", "hiddenpowerfire", "protect", "thunderbolt", "toxic", "wish"],
+		tier: "UU",
+	},
 	treecko: {
 		tier: "LC",
 	},

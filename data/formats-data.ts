@@ -2737,6 +2737,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	cosmutt: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	stardog: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	treecko: {
 		tier: "LC",
 	},

@@ -1556,6 +1556,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	celebiwithered: {
 		name: "Celebi-Withered",
 	},
+	cosmutt: {
+		name: "Cosmutt",
+	},
+	stardog: {
+		name: "Stardog",
+	},
 	treecko: {
 		name: "Treecko",
 	},

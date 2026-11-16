@@ -22460,6 +22460,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {spd: 1}},
 		contestType: "Cute",
 	},
+	starstorm: {
+		num: -635,
+		accuracy: 90,
+		basePower: 130,
+		category: "Special",
+		name: "Starstorm",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		self: {
+			boosts: {
+				spa: -2,
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Steel",
+		contestType: "Beautiful",
+	},
 	starterfamilyreunion: {
 		num: -629,
 		accuracy: true,

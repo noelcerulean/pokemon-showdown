@@ -2430,6 +2430,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
+	cosmutt: {
+		tier: "LC",
+	},
+	stardog: {
+		randomBattleMoves: ["icebeam", "orbitalshift", "protect", "starstorm", "thunderbolt", "wish"],
+		randomDoubleBattleMoves: ["icebeam", "orbitalshift", "protect", "starstorm", "thunderbolt", "wish"],
+		tier: "RU",
+		doublesTier: "(DUU)",
+	},
 	treecko: {
 		tier: "LC",
 	},

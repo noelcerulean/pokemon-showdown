@@ -6967,6 +6967,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		start: "#followme",
 		startFromZEffect: "#followme",
 	},
+	starstorm: {
+		name: "Starstorm",
+		desc: "Lowers the user's Special Attack by 2 stages.",
+		shortDesc: "Lowers the user's Sp. Atk by 2.",
+	},
 	starterfamilyreunion: {
 		name: "Starter Family Reunion",
 		desc: "All the starter pokemon are friends and are happy to hang out together! Just like them, I'm happy that you're playing with our starter pokemon! Thanks for enjoying FnF Showdown! Feel free to use this move to filter for starters in the Teambuilder!",

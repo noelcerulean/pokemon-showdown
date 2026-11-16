@@ -245,6 +245,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		maleOnlyHidden: true,
 	},
+	stardog: {
+		inherit: true,
+		abilities: {0: "Galaxian", 1: "Clear Body", H: "Friend Guard"},
+	},
 	treecko: {
 		inherit: true,
 		maleOnlyHidden: true,

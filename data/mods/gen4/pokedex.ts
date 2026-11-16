@@ -7,6 +7,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Thick Fat"},
 	},
+	stardog: {
+		inherit: true,
+		abilities: {0: "Illuminate", 1: "Clear Body"},
+	},
 	poochyena: {
 		inherit: true,
 		abilities: {0: "Intimidate", 1: "Quick Feet"},
