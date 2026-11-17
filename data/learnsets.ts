@@ -92164,6 +92164,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			aerialace: ["7M"],
 			banefulbunker: ["7L1", "7L36"],
+			barbedblow: ["7L60"],
 			bellydrum: ["7L1"],
 			bite: ["7L11"],
 			block: ["7T"],
@@ -105718,6 +105719,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			agility: ["8M"],
 			assurance: ["8M"],
 			attract: ["8M", "7M"],
+			barbedblow: ["7L57"],
 			bounce: ["8M", "7T"],
 			charge: ["8L10", "7L13"],
 			chargebeam: ["7M"],
