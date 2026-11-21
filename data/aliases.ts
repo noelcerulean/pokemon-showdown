@@ -888,6 +888,12 @@ export const Aliases: {[alias: string]: string} = {
 	rapophis: "Altazash-Apophis-Resonant",
 	resapophis: "Altazash-Apophis-Resonant",
 
+	lighthouse: "Altazash-Lighthouse",
+	lighthouser: "Altazash-Lighthouse-Resonant",
+	lighthousereso: "Altazash-Lighthouse-Resonant",
+	rlighthouse: "Altazash-Lighthouse-Resonant",
+	reslighthouse: "Altazash-Lighthouse-Resonant",
+
 	astra: "Fofoam-Astra",
 	astrar: "Fofoam-Astra-Resonant",
 	astrareso: "Fofoam-Astra-Resonant",

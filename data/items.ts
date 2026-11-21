@@ -2147,6 +2147,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 208,
 		gen: 3,
 	},
+	enigmaticgaze: {
+		name: "Enigmatic Gaze",
+		spritenum: 873,
+		onTakeItem(item, source) {
+			if (source.baseSpecies.name === 'Altazash-Lighthouse') return false;
+			if (source.baseSpecies.name === 'Altazash-Lighthouse-Resonant') return false;
+			return true;
+		},
+		itemUser: ["Altazash-Lighthouse-Resonant"],
+		num: -637,
+		gen: 7,
+	},
 	eviolite: {
 		name: "Eviolite",
 		spritenum: 130,
@@ -6092,7 +6104,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem: false,
 		zMove: "Blazing Burnblast",
 		zMoveFrom: "Blast Burn",
-		itemUser: ["Charizard", "Typhlosion", "Typhlosion-Volc", "Typhlosion-Vesuvius", "Typhlosion-Vesuvius-Elden", "Blaziken", "Infernape", "Infernape-Witch", "Infernape-George", "Emboar", "Emboar-Dynamite", "Delphox", "Incineroar", "Incineroar-Pride", "Altazash", "Altazash-Deeva", "Altazash-Suneater", "Altazash-Aurora", "Altazash-Apophis", "Cinderace"],
+		itemUser: ["Charizard", "Typhlosion", "Typhlosion-Volc", "Typhlosion-Vesuvius", "Typhlosion-Vesuvius-Elden", "Blaziken", "Infernape", "Infernape-Witch", "Infernape-George", "Emboar", "Emboar-Dynamite", "Delphox", "Incineroar", "Incineroar-Pride", "Altazash", "Altazash-Deeva", "Altazash-Suneater", "Altazash-Aurora", "Altazash-Apophis", "Altazash-Lighthouse", "Cinderace"],
 		num: -581,
 		gen: 7,
 		isNonstandard: "Past",

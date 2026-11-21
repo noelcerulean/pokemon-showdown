@@ -101,6 +101,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	altazashapophisresonant: {
 		name: "Altazash-Apophis-Resonant",
 	},
+	altazashlighthouse: {
+		name: "Altazash-Lighthouse",
+	},
+	altazashlighthouseresonant: {
+		name: "Altazash-Lighthouse-Resonant",
+	},
 	fofoam: {
 		name: "Fofoam",
 	},

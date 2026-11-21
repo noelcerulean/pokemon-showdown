@@ -612,6 +612,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 			desc: "No competitive use.",
 		},
 	},
+	enigmaticgaze: {
+		name: "Enigmatic Gaze",
+		desc: "A stone that Lighthouse can resonate with to access a new forme.",
+	},
 	eviolite: {
 		name: "Eviolite",
 		desc: "If holder's species can evolve, its Defense and Sp. Def are 1.5x.",
