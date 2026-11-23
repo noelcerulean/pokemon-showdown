@@ -1248,7 +1248,7 @@ export const Aliases: {[alias: string]: string} = {
 	tr98liquidation: "TR98",
 	tr99bodypress: "TR99",
 	wp: "Weakness Policy",
-
+	visegrip: "Vice Grip",
 	might: "Eviomight",
 
 	// pokemon
@@ -2030,7 +2030,6 @@ export const Aliases: {[alias: string]: string} = {
 	tbolt: "Thunderbolt",
 	tspikes: "Toxic Spikes",
 	twave: "Thunder Wave",
-	vicegrip: "Vise Grip",
 	wb: "Weather Ball",
 	web: "Sticky Web",
 	wow: "Will-O-Wisp",

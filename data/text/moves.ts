@@ -7932,8 +7932,8 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Vine Whip",
 		shortDesc: "No additional effect.",
 	},
-	visegrip: {
-		name: "Vise Grip",
+	vicegrip: {
+		name: "Vice Grip",
 		shortDesc: "No additional effect.",
 	},
 	vitalthrow: {
